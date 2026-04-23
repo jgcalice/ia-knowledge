@@ -2,8 +2,8 @@
 title: "Otimização de Tokens no Claude"
 type: concept
 tags: [tokens, otimização, claude, pdf, markdown, contexto, modelo]
-source_count: 3
-last_updated: 2026-04-21
+source_count: 4
+last_updated: 2026-04-23
 ---
 
 # Otimização de Tokens no Claude
@@ -54,6 +54,12 @@ Summarize our entire conversation so I can paste it into a new chat and continue
 
 ([[evolving-ai]], Hacks #5 e #7)
 
+### 7. Grafo de conhecimento (Graphify)
+Instalar [[graphify]] no workspace do Claude Code: a ferramenta escaneia todos os arquivos e constrói um grafo estruturado. Adicionar ao CLAUDE.md a instrução de consultar o grafo antes de ler arquivos brutos.
+→ Redução de 20.000 → 280 tokens/sessão (**71,5x menos**) ([[marc-cleroux]])
+
+Técnica baseada no sistema de [[andrej-karpathy]] (ex-OpenAI/Tesla). Visualização possível via [[obsidian]] graph view.
+
 ## Princípio unificador
 
 > "The clearer and tighter your input, the less work Claude has to do, and the longer your session lasts before you hit a wall." — @Evolving AI
@@ -63,3 +69,4 @@ Summarize our entire conversation so I can paste it into a new chat and continue
 - [[2026-04-11_tokens-markdown]]
 - [[2026-04-18_7-hacks-tokens-claude]]
 - [[2026-04-11_transformacao-linkedin-ia]] (indiretamente — prompts concisos)
+- [[2026-04-12_graphify-memoria-infinita-claude]]

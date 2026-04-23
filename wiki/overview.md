@@ -2,12 +2,12 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-04-23
-source_count: 26
+source_count: 28
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 26 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão e Produto
+> Wiki iniciado em 2026-04-21 | 28 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão e Produto
 
 ## Tese atual
 
@@ -29,6 +29,7 @@ Três métodos documentados, padrão similar, ferramentas diferentes:
 - **Método 1**: [[claude-code]] + [[api-file]] → [[google-maps]] → leads enriquecidos ([[lucas-garcia-pit]])
 - **Método 2**: [[claude-code]] + [[apify]] → [[google-maps]] → leads organizados ([[hudson-brendon]])
 - **Método 3**: Skill "lista de alto valor" + API → leads com dados completos incluindo LinkedIn ([[flavio-rafael]])
+- **Método 4**: [[vibe-prospecting]] (Conector Claude.ai web) + prompt → leads por nicho/cargo/cidade, gratuito e sem CLI ([[eduardo-santos]])
 
 **Síntese**: [[comparação-métodos-leads]]
 
@@ -42,6 +43,7 @@ Três fontes convergem no mesmo problema:
 - **Prompts**: ser conciso, proibir linguagem de preenchimento ([[evolving-ai]])
 - **Modelo**: escolher Haiku/Sonnet/Opus conforme a tarefa ([[evolving-ai]])
 - **Contexto**: compactar sessões longas com Compact Skill ([[evolving-ai]])
+- **Grafo de conhecimento**: [[graphify]] mapeia o workspace e reduz tokens em 71,5x → 20.000 → 280/sessão ([[marc-cleroux]])
 
 ---
 
@@ -93,11 +95,11 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 ## Mapa de entidades
 
-**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]]
+**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]]
 
-**Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]]
+**Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]]
 
-**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]]
+**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]]
 
 ---
 
@@ -119,9 +121,9 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 26 |
-| Páginas de fontes | 26 |
+| Fontes ingeridas | 28 |
+| Páginas de fontes | 28 |
 | Páginas de conceitos | 9 |
-| Páginas de entidades | 29 |
+| Páginas de entidades | 35 |
 | Páginas de síntese | 1 |
-| **Total de páginas** | **65** |
+| **Total de páginas** | **73** |

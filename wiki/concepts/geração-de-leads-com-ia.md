@@ -1,14 +1,14 @@
 ---
 title: "Geração de Leads com IA"
 type: concept
-tags: [leads, prospecção, automação, google-maps, ia, b2b]
-source_count: 3
-last_updated: 2026-04-21
+tags: [leads, prospecção, automação, google-maps, ia, b2b, conectores, vibe-prospecting]
+source_count: 4
+last_updated: 2026-04-23
 ---
 
 # Geração de Leads com IA
 
-> **Fontes:** 2 | **Domínio:** Automação de negócios / Prospecção B2B
+> **Fontes:** 4 | **Domínio:** Automação de negócios / Prospecção B2B
 
 ## Definição
 
@@ -34,6 +34,7 @@ Tabela de leads (telefone, endereço, site, redes, avaliação)
 |------------|-------|-------------|
 | [[apify]] | [[hudson-brendon]] | Conector nativo no Claude, instalação fácil |
 | [[api-file]] | [[lucas-garcia-pit]] | Marketplace de APIs, enriquecimento adicional |
+| [[vibe-prospecting]] | [[eduardo-santos]] | Conector do Claude.ai (web), gratuito, sem Claude Code |
 
 ## Boas práticas identificadas
 
@@ -56,3 +57,4 @@ Tabela de leads (telefone, endereço, site, redes, avaliação)
 - [[2026-03-19_leads-infinitos-cloudcode]]
 - [[2026-03-28_prospecção-leads-claude-apify]]
 - [[2026-04-15_leads-qualificados-claudecode]]
+- [[2026-04-14_eduardo-santos-vibe-prospecting]]

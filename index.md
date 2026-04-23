@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-23 | Total de páginas: 65 | Fontes ingeridas: 26
+> Atualizado em: 2026-04-23 | Total de páginas: 73 | Fontes ingeridas: 28
 
 ---
 
@@ -41,6 +41,8 @@
 | [[wiki/sources/2026-04-18_ferramenta-google]] | @Rony Meisler | 2026-04-18 | Ferramenta Google (conteúdo indisponível) |
 | [[wiki/sources/2026-04-20_claude-ceo-7-prompts]] | @Business Bulls | 2026-04-20 | 7 prompts para Claude pensar como CEO $100M |
 | [[wiki/sources/2026-04-22_7-youtubers-ia]] | @Paul Hilse | 2026-04-22 | 7 YouTubers para aprender IA aplicada a negócios |
+| [[wiki/sources/2026-04-12_graphify-memoria-infinita-claude]] | @Marc Cleroux | 2026-04-12 | Graphify: memória infinita e 71,5x menos tokens no Claude |
+| [[wiki/sources/2026-04-14_eduardo-santos-vibe-prospecting]] | @Eduardo Santos | 2026-04-14 | Prospecção gratuita via Claude.ai web + Vibe Prospecting |
 
 ---
 
@@ -49,7 +51,7 @@
 | Página | Fontes | Descrição |
 |--------|--------|-----------|
 | [[wiki/concepts/geração-de-leads-com-ia]] | 3 | Uso de LLMs + scraping para prospecção B2B automatizada |
-| [[wiki/concepts/otimização-de-tokens]] | 3 | Técnicas para reduzir consumo de tokens no Claude |
+| [[wiki/concepts/otimização-de-tokens]] | 4 | Técnicas para reduzir consumo de tokens no Claude |
 | [[wiki/concepts/prompt-engineering]] | 14 | Padrões de estruturação + palavras-gatilho + Claude Skills |
 | [[wiki/concepts/carreira-com-ia]] | 8 | IA para aceleração de carreira, LinkedIn, renda e produtos próprios |
 | [[wiki/concepts/busca-de-emprego-com-ia]] | 1 | Busca de emprego automatizada com Career Ops e ATS |
@@ -75,6 +77,7 @@
 | [[wiki/entities/career-ops]] | tool | 1 | Sistema open-source de busca de emprego com Claude Code |
 | [[wiki/entities/claude-skills]] | tool | 1 | Feature Anthropic: pacotes nomeados de comportamento (Feature Forge, The Fool, etc.) |
 | [[wiki/entities/smithery]] | platform | 1 | Marketplace com 128k+ Claude Skills/MCPs |
+| [[wiki/entities/vibe-prospecting]] | tool | 1 | Conector Claude.ai para geração de leads por nicho/cargo/cidade |
 
 ### Pessoas / Criadores (Brasil)
 
@@ -88,6 +91,7 @@
 | [[wiki/entities/rony-meisler]] | @Rony Meisler | 1 | Empreendedorismo e ferramentas de IA |
 | [[wiki/entities/bruno-wambier]] | @Bruno Wambier | 1 | Negócios automatizados com IA, AIaaS, infoprodutos |
 | [[wiki/entities/adriano-couto]] | @Adriano Couto | 1 | Gestão com IA, gatilhos cognitivos, frameworks McKinsey |
+| [[wiki/entities/eduardo-santos]] | @Eduardo Santos | 1 | IA nas empresas, prospecção com Vibe Prospecting |
 
 ### Pessoas / Criadores (Internacional — adicionados)
 

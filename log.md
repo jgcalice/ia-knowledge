@@ -5,6 +5,16 @@
 
 ---
 
+## [2026-04-23] ingest | Prospecção com Claude e Vibe Prospecting — @Eduardo Santos
+
+Fonte: `2026-04-14_eduardo_santos_ia_nas_empresas_DXIO1mpCbzU.md`. Páginas criadas: wiki/sources/2026-04-14_eduardo-santos-vibe-prospecting.md, entities/eduardo-santos.md, entities/vibe-prospecting.md. Páginas atualizadas: concepts/geração-de-leads-com-ia.md (+1 source, +Método 4), entities/claude-code.md (+1 source), wiki/overview.md, index.md.
+
+## [2026-04-23] ingest | Graphify — Memória Infinita no Claude — @Marc Cleroux
+
+Fonte: `2026-04-12_marc_cleroux_DXAzOJojLrR.md`. Páginas criadas: wiki/sources/2026-04-12_graphify-memoria-infinita-claude.md, entities/marc-cleroux.md, entities/graphify.md, entities/andrej-karpathy.md, entities/obsidian.md. Atualizado: concepts/otimização-de-tokens.md (+1 source, bullet "Grafo de conhecimento"), wiki/overview.md, index.md. Observação: ingestão automática via bot Telegram foi interrompida pelo limite `--max-budget-usd=0.50` antes do git commit+push; páginas completas no disco, entrada retroativa + commit manual nesta sessão. Budget elevado para $5.00.
+
+---
+
 ## [2026-04-21] create | Inicialização do wiki
 
 Criação da estrutura completa do LLM Wiki para IA Knowledge Base. Arquivos criados: CLAUDE.md, index.md, log.md, wiki/overview.md. Diretórios: wiki/sources/, wiki/concepts/, wiki/entities/, wiki/synthesis/.
