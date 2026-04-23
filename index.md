@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-23 | Total de páginas: 56 | Fontes ingeridas: 22
+> Atualizado em: 2026-04-23 | Total de páginas: 58 | Fontes ingeridas: 23
 
 ---
 
@@ -26,6 +26,7 @@
 | [[wiki/sources/2026-04-05_5-videos-especialista-claude]] | @Usama Akram | 2026-04-05 | 5 cursos YouTube para dominar Claude |
 | [[wiki/sources/2026-04-07_5-negocios-automatizados-ia]] | @Bruno Wambier | 2026-04-07 | 5 modelos de negócio "99% automáticos" com IA |
 | [[wiki/sources/2026-04-07_career-ops-busca-emprego-ia]] | @Technology | 2026-04-07 | Career Ops: sistema de busca de emprego com IA |
+| [[wiki/sources/2026-04-08_gatilhos-cognitivos-claude]] | @Adriano Couto | 2026-04-08 | 6 gatilhos cognitivos (MECE, 5 Whys, Invert, ELI5, Artefato) |
 | [[wiki/sources/2026-04-11_brycen_wood_DW-ZK8bDGNf]] | @Brycen Wood | 2026-04-11 | SEO primeira página Google com 3 arquivos |
 | [[wiki/sources/2026-04-11_transformacao-linkedin-ia]] | @Bruno Souza | 2026-04-11 | 5 prompts para otimizar LinkedIn |
 | [[wiki/sources/2026-04-11_tokens-markdown]] | @Rafael Brandão | 2026-04-11 | MarkItDown para reduzir tokens |
@@ -46,7 +47,7 @@
 |--------|--------|-----------|
 | [[wiki/concepts/geração-de-leads-com-ia]] | 3 | Uso de LLMs + scraping para prospecção B2B automatizada |
 | [[wiki/concepts/otimização-de-tokens]] | 3 | Técnicas para reduzir consumo de tokens no Claude |
-| [[wiki/concepts/prompt-engineering]] | 11 | Padrões de estruturação de prompts eficazes |
+| [[wiki/concepts/prompt-engineering]] | 12 | Padrões de estruturação de prompts + palavras-gatilho |
 | [[wiki/concepts/carreira-com-ia]] | 7 | IA para aceleração de carreira, LinkedIn e renda |
 | [[wiki/concepts/busca-de-emprego-com-ia]] | 1 | Busca de emprego automatizada com Career Ops e ATS |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 2 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
@@ -81,6 +82,7 @@
 | [[wiki/entities/flavio-rafael]] | @Flávio Rafael | 1 | Claude Code para leads e automação de negócios |
 | [[wiki/entities/rony-meisler]] | @Rony Meisler | 1 | Empreendedorismo e ferramentas de IA |
 | [[wiki/entities/bruno-wambier]] | @Bruno Wambier | 1 | Negócios automatizados com IA, AIaaS, infoprodutos |
+| [[wiki/entities/adriano-couto]] | @Adriano Couto | 1 | Gestão com IA, gatilhos cognitivos, frameworks McKinsey |
 
 ### Pessoas / Criadores (Internacional)
 

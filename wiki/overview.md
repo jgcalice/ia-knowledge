@@ -2,12 +2,12 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-04-23
-source_count: 22
+source_count: 23
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 22 fontes ingeridas | Domínio: IA Aplicada a Negócios e Carreira
+> Wiki iniciado em 2026-04-21 | 23 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira e Gestão
 
 ## Tese atual
 
@@ -83,7 +83,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 **Ferramentas e plataformas**: [[claude-code]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]]
 
-**Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]]
+**Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]]
 
 **Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]]
 
@@ -97,6 +97,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - **Ação antes de planejamento**: "stop planning, start selling" / "just go build it" — mensagem anti-procrastinação dominante
 - **Tokens como recurso escasso**: três fontes abordam → evidência de preocupação real dos usuários
 - **Conteúdo duplicado confirmado**: prompts de estratégia de negócios aparecem idênticos em [[evolving-ai]] e [[business-bulls]] — sinal de que são referência consolidada
+- **Palavras-gatilho como novo padrão**: [[adriano-couto]] introduz MECE/5 Whys/Invert/ELI5/Artefato como ativadores semânticos — uma palavra muda o pipeline de resposta do Claude, sem precisar explicar o framework
 
 ---
 
@@ -104,9 +105,9 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 22 |
-| Páginas de fontes | 22 |
+| Fontes ingeridas | 23 |
+| Páginas de fontes | 23 |
 | Páginas de conceitos | 9 |
-| Páginas de entidades | 23 |
+| Páginas de entidades | 24 |
 | Páginas de síntese | 1 |
-| **Total de páginas** | **56** |
+| **Total de páginas** | **58** |

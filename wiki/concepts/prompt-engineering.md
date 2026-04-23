@@ -2,7 +2,7 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas]
-source_count: 11
+source_count: 12
 last_updated: 2026-04-23
 ---
 
@@ -75,6 +75,10 @@ Formato ultra-estruturado adotado pelo [[god-of-prompt]]:
 Cada prompt orquestra um pipeline completo (conteúdo → distribuição → automação → monetização) em uma única chamada: ideia → título → estrutura → estratégia de venda → integrações.
 → [[2026-04-07_5-negocios-automatizados-ia]]
 
+### Palavras-gatilho (ativadores semânticos)
+Uma única palavra anexada ao prompt ativa um framework que o modelo já conhece, mudando o pipeline de resposta antes da geração. Exemplos documentados: **MECE**, **Confidence Level**, **5 Whys**, **Invert**, **ELI5**, **Artefato**. Distinto dos prompts estruturados — aqui o poder está em uma palavra reconhecível que carrega toda a semântica do framework.
+→ [[2026-04-08_gatilhos-cognitivos-claude]]
+
 ## Fontes
 
 - [[2026-03-19_leads-infinitos-cloudcode]]
@@ -88,3 +92,4 @@ Cada prompt orquestra um pipeline completo (conteúdo → distribuição → aut
 - [[2026-03-24_aprender-com-claude-6-prompts]]
 - [[2026-03-13_estrutura-de-prompt-6-partes]]
 - [[2026-04-07_5-negocios-automatizados-ia]]
+- [[2026-04-08_gatilhos-cognitivos-claude]]

@@ -57,6 +57,10 @@ Fonte: `2026-03-13_evolving_ai_DV0u4aViIbS.md`. Arquivo parcial (sem vision). P�
 
 Fonte: `2026-04-07_bruno_wambier_DW2LV60j1Yn.md`. Páginas criadas: wiki/sources/2026-04-07_5-negocios-automatizados-ia.md, entities/bruno-wambier.md. Atualizado: concepts/estratégia-de-negócios-com-ia (2→3), concepts/prompt-engineering (10→11), concepts/agentes-ia (4→5), overview.md (21→22 fontes), index.md.
 
+## [2026-04-23] ingest | Gatilhos Cognitivos para Ativar Comportamentos Avançados no Claude — @Adriano Couto
+
+Fonte: `2026-04-08_adriano_couto_gestao_com_ia_DW4j00QEnNu.md`. Páginas criadas: wiki/sources/2026-04-08_gatilhos-cognitivos-claude.md, entities/adriano-couto.md. Atualizado: concepts/prompt-engineering (11→12, nova subseção "Palavras-gatilho"), overview.md (22→23 fontes), index.md.
+
 ## [2026-04-21] ingest | Lote de 16 novos posts — ingestão automática
 
 Fontes processadas: 2026-02-25_michael_kocher, 2026-03-11_brandon_lew, 2026-03-22_god_of_prompt, 2026-03-24_evolving_ai, 2026-03-26_bashiri, 2026-04-01_evolving_ai, 2026-04-05_usama_akram, 2026-04-07_technology, 2026-04-11_brycen_wood, 2026-04-14_rafael_brandao, 2026-04-15_flavio_rafael, 2026-04-16_god_of_prompt, 2026-04-17_ross_fledderjohn, 2026-04-17_sabrina_ramonov, 2026-04-18_rony_meisler, 2026-04-20_business_bulls. Páginas de fonte criadas: 16. Entidades criadas: 11 novas (god-of-prompt, bashiri, sabrina-ramonov, ross-fledderjohn, michael-kocher, brandon-lew, usama-akram, brycen-wood, rony-meisler, business-bulls, flavio-rafael, career-ops). Entidades atualizadas: 4 (claude-code, rafael-brandao, evolving-ai, linkedin). Conceitos criados: 5 novos (busca-de-emprego-com-ia, design-de-estilo-de-vida, agentes-ia, estratégia-de-negócios-com-ia, aprendizado-com-ia). Conceitos atualizados: 3 (carreira-com-ia: 1→7 fontes, prompt-engineering: 3→9 fontes, geração-de-leads-com-ia: 2→3 fontes). Wiki: 21→54 páginas totais, 5→21 fontes. Nota: 4 arquivos parciais por rate limit de processamento (vision indisponível).

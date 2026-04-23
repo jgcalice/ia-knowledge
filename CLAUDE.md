@@ -6,6 +6,16 @@ Se você receber uma mensagem de sistema contendo "NOVOS POSTS PARA INGERIR AUTO
 
 Ao final de cada ingestão bem-sucedida, além de atualizar `log.md`, adicione o filename do arquivo fonte (somente o nome, sem caminho) ao arquivo `.ingested_posts` — uma linha por arquivo.
 
+**Sync remoto:** este wiki é sincronizado com `github.com/jgcalice/ia-knowledge` (repo privado) para consumo via Claude Projects no mobile. Ao final de cada ingestão bem-sucedida, execute também:
+
+```bash
+git add .
+git commit -m "ingest: <título resumido da fonte>"
+git push
+```
+
+Isso é o que garante que o conteúdo novo apareça no Claude Project remoto em 1-2 min.
+
 ---
 
 ## Identidade e missão
@@ -111,6 +121,8 @@ Ao receber o comando **"ingesta [arquivo ou pasta]"**:
 6. **Atualizar** `wiki/overview.md` com novas descobertas
 7. **Atualizar** `index.md` com as páginas novas/modificadas
 8. **Registrar** no `log.md` com o formato: `## [AAAA-MM-DD] ingest | Título da Fonte`
+9. **Adicionar** o filename original ao `.ingested_posts`
+10. **Commit + push** para `origin main` com mensagem `ingest: <título>` — isso sincroniza com o Claude Project remoto
 
 **Regra:** Uma fonte pode tocar 5-15 páginas do wiki. Seja sistemático.
 
