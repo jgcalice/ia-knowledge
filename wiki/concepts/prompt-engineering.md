@@ -2,7 +2,7 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas]
-source_count: 14
+source_count: 15
 last_updated: 2026-04-23
 ---
 
@@ -87,6 +87,13 @@ Uma única palavra anexada ao prompt ativa um framework que o modelo já conhece
 7 prompts em sequência onde cada um alimenta o seguinte: ideia → build → bio → carrossel → caption → reel → DM. Parâmetros padronizados (`[target audience]`, `[niche]`, `[product name]`, `[transformation]`) garantem reuso entre projetos.
 → [[2026-04-17_mini-web-app-claude]]
 
+### Comandos como interface de instrução estruturada
+Comandos built-in do Claude Code funcionam como prompts de sistema permanentes ou contextuais:
+- `/plan` — força mapeamento completo (etapas, arquivos, decisões) antes de qualquer código → elimina retrabalho por desalinhamento
+- `#` — adiciona regra permanente ao rulebook em 3 segundos, sem editar CLAUDE.md manualmente
+- `/review` — prompt de QA profundo embutido: audita todo o codebase, não só o arquivo aberto
+→ [[2026-04-22_sal-shirgaleev-5-comandos-claude]]
+
 ## Fontes
 
 - [[2026-03-19_leads-infinitos-cloudcode]]
@@ -103,3 +110,4 @@ Uma única palavra anexada ao prompt ativa um framework que o modelo já conhece
 - [[2026-04-08_gatilhos-cognitivos-claude]]
 - [[2026-04-07_claude-skills-product-managers]]
 - [[2026-04-17_mini-web-app-claude]]
+- [[2026-04-22_sal-shirgaleev-5-comandos-claude]]

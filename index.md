@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-23 | Total de páginas: 73 | Fontes ingeridas: 28
+> Atualizado em: 2026-04-23 | Total de páginas: 75 | Fontes ingeridas: 29
 
 ---
 
@@ -43,6 +43,7 @@
 | [[wiki/sources/2026-04-22_7-youtubers-ia]] | @Paul Hilse | 2026-04-22 | 7 YouTubers para aprender IA aplicada a negócios |
 | [[wiki/sources/2026-04-12_graphify-memoria-infinita-claude]] | @Marc Cleroux | 2026-04-12 | Graphify: memória infinita e 71,5x menos tokens no Claude |
 | [[wiki/sources/2026-04-14_eduardo-santos-vibe-prospecting]] | @Eduardo Santos | 2026-04-14 | Prospecção gratuita via Claude.ai web + Vibe Prospecting |
+| [[wiki/sources/2026-04-22_sal-shirgaleev-5-comandos-claude]] | @Sal Shirgaleev | 2026-04-22 | 5 comandos nativos do Claude Code pouco usados |
 
 ---
 
@@ -100,6 +101,7 @@
 | [[wiki/entities/aashish-pahwa]] | @okaashish | 1 | Claude Skills para PMs, fundador do feedough.com |
 | [[wiki/entities/luna-vega]] | @Luna Vega | 1 | Mini web app + Instagram como canal de venda |
 | [[wiki/entities/paul-hilse]] | @Paul Hilse | 1 | Curadoria de educadores de IA e negócios online |
+| [[wiki/entities/sal-shirgaleev]] | @sshirg | 1 | Comandos e hacks de produtividade com Claude Code |
 
 ### Pessoas / Criadores (Internacional)
 

@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-23] ingest | 5 Comandos Claude Code Pouco Usados — @Sal Shirgaleev
+
+Fonte: `2026-04-22_sal_shirgaleev_DXa1Hf7ldZZ.md`. Páginas criadas: wiki/sources/2026-04-22_sal-shirgaleev-5-comandos-claude.md, entities/sal-shirgaleev.md. Atualizadas: entities/claude-code.md (source_count 22→23, nova seção "Comandos built-in"), concepts/otimização-de-tokens.md (source_count 4→5, /compact como comando built-in), concepts/prompt-engineering.md (source_count 14→15, nova seção "Comandos como interface de instrução"), overview.md (28→29 fontes), index.md.
+
 ## [2026-04-23] ingest | Prospecção com Claude e Vibe Prospecting — @Eduardo Santos
 
 Fonte: `2026-04-14_eduardo_santos_ia_nas_empresas_DXIO1mpCbzU.md`. Páginas criadas: wiki/sources/2026-04-14_eduardo-santos-vibe-prospecting.md, entities/eduardo-santos.md, entities/vibe-prospecting.md. Páginas atualizadas: concepts/geração-de-leads-com-ia.md (+1 source, +Método 4), entities/claude-code.md (+1 source), wiki/overview.md, index.md.

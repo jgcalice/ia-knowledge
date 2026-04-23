@@ -3,7 +3,7 @@ title: "Claude / Claude Code"
 type: entity
 category: tool
 tags: [llm, claude, anthropic, claude-code, ia]
-source_count: 22
+source_count: 23
 last_updated: 2026-04-23
 ---
 
@@ -38,12 +38,25 @@ Claude é o modelo de linguagem da Anthropic. Claude Code (referido nos posts co
 - **Memória infinita via grafo** — instalação do [[graphify]] mapeia o workspace em grafo de conhecimento → 71,5x menos tokens por sessão ([[marc-cleroux]])
 - **Prospecção via Conector** — uso dos Conectores do Claude.ai + [[vibe-prospecting]] para gerar listas de leads por nicho/cargo/cidade, 100% gratuito via browser ([[eduardo-santos]])
 
+## Comandos built-in (pouco conhecidos)
+
+Documentados por [[sal-shirgaleev]] em [[2026-04-22_sal-shirgaleev-5-comandos-claude]]:
+
+| Comando | Função |
+|---------|--------|
+| `/init` | Escaneia o projeto e gera CLAUDE.md automaticamente com contexto, convenções e estrutura |
+| `#` | Adiciona regra permanente ao rulebook pessoal em 3 segundos (ex: `# Never use var`) |
+| `/review` | Auditoria completa do codebase: bugs, edge cases, segurança, code smell |
+| `/plan` | Gera mapa de execução (etapas, arquivos, decisões) antes de escrever qualquer código |
+| `/compact` | Comprime o histórico da sessão sem perder intenção — evita "esquecimento" em sessões longas |
+
 ## Boas práticas identificadas
 
 - Dar contexto completo sobre o projeto e ICP antes de iniciar scraping de leads
 - Usar o mesmo chat para evitar repetição de leads já capturados
 - Escolher o modelo certo para cada tarefa (ver tabela acima)
-- Usar o "Compact Skill" para compactar sessões longas antes de iniciar novo chat
+- Usar `/compact` para compactar sessões longas antes de iniciar novo chat (comando built-in)
+- Usar `/plan` antes de qualquer feature para evitar retrabalho por desalinhamento
 
 ## Fontes
 
@@ -69,3 +82,4 @@ Claude é o modelo de linguagem da Anthropic. Claude Code (referido nos posts co
 - [[2026-04-20_claude-ceo-7-prompts]]
 - [[2026-04-12_graphify-memoria-infinita-claude]]
 - [[2026-04-14_eduardo-santos-vibe-prospecting]]
+- [[2026-04-22_sal-shirgaleev-5-comandos-claude]]

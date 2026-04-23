@@ -2,7 +2,7 @@
 title: "Otimização de Tokens no Claude"
 type: concept
 tags: [tokens, otimização, claude, pdf, markdown, contexto, modelo]
-source_count: 4
+source_count: 5
 last_updated: 2026-04-23
 ---
 
@@ -40,12 +40,11 @@ Usar um prompt de sistema que proíbe linguagem de preenchimento: sem "I'd be ha
 Para projetos de código: tool que usa Tree-sitter para mapear a estrutura e fazer o Claude ler apenas arquivos afetados pela mudança.
 → 8x menos tokens em revisões, até 49x em monorepos ([[evolving-ai]], Hack #2)
 
-### 5. Compactação de contexto ("Compact Skill")
-Para sessões longas: usar prompt de compressão para criar resumo de continuação entre sessões.
-```
-Summarize our entire conversation so I can paste it into a new chat and continue without losing context...
-```
-([[evolving-ai]], Hack #6)
+### 5. Compactação de contexto (`/compact`)
+Para sessões longas: o comando built-in `/compact` comprime o histórico da sessão sem perder a intenção original, permitindo continuar no mesmo chat. Deve ser usado **proativamente**, não apenas quando o contexto estourar.
+([[sal-shirgaleev]], [[2026-04-22_sal-shirgaleev-5-comandos-claude]])
+
+> Anteriormente documentado como "Compact Skill" em [[evolving-ai]] (Hack #6 de [[2026-04-18_7-hacks-tokens-claude]]): variante manual via prompt de resumo. O comando `/compact` é a versão built-in equivalente.
 
 ### 6. Timing da sessão
 - Abrir a janela de uso apenas quando pronto para trabalhar
@@ -70,3 +69,4 @@ Técnica baseada no sistema de [[andrej-karpathy]] (ex-OpenAI/Tesla). Visualiza�
 - [[2026-04-18_7-hacks-tokens-claude]]
 - [[2026-04-11_transformacao-linkedin-ia]] (indiretamente — prompts concisos)
 - [[2026-04-12_graphify-memoria-infinita-claude]]
+- [[2026-04-22_sal-shirgaleev-5-comandos-claude]]
