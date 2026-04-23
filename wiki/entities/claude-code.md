@@ -3,7 +3,7 @@ title: "Claude / Claude Code"
 type: entity
 category: tool
 tags: [llm, claude, anthropic, claude-code, ia]
-source_count: 25
+source_count: 26
 last_updated: 2026-04-23
 ---
 
@@ -82,6 +82,18 @@ Documentados por [[sal-shirgaleev]] em [[2026-04-22_sal-shirgaleev-5-comandos-cl
 | `/re` (Rewind) | Pula para qualquer mensagem anterior e descarta tudo depois; inclui opção "summarize from here" para handoff |
 | `/btw` | Overlay para perguntas rápidas que **não entram no histórico** da sessão — mantém contexto limpo |
 | `/context` | Mostra o consumo atual de tokens na sessão (útil rodar em sessão fresca para ver overhead de startup) |
+
+## Segurança ao usar Claude Code
+
+Documentado por [[lucas-garcia-pit]] em [[2026-04-15_lucas-garcia-pit-seguranca-claudecode]]:
+
+- API keys nunca no front-end — sempre no servidor
+- RLS (Row Level Security) ativo no Supabase — cada usuário vê apenas seus dados
+- Lógica de preço, pagamento e regras de negócio exclusivamente no servidor
+- Rate limiting por usuário/minuto nas APIs
+- Webhooks com assinatura verificada (zero trust no cliente)
+
+> Ver conceito completo: [[segurança-com-ia]]
 
 ## Boas práticas identificadas
 

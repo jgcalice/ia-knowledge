@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-23] ingest | Segurança no Uso do Claude Code — @Lucas Garcia Pit
+
+Fonte: `2026-04-15_lucas_garcia_pit_pit_ia_negocios_DXJw3MkkScn.md`. Páginas criadas: wiki/sources/2026-04-15_lucas-garcia-pit-seguranca-claudecode.md, wiki/concepts/segurança-com-ia.md. Atualizadas: entities/lucas-garcia-pit.md (source_count 1→2, novo conteúdo + tema segurança), entities/claude-code.md (source_count 25→26, nova seção "Segurança ao usar Claude Code"), wiki/overview.md (31→32 fontes, novo Cluster 7 Segurança, novo padrão emergente), index.md (+1 fonte, +1 conceito, entidade lucas-garcia-pit atualizada).
+
 ## [2026-04-23] ingest | Gerenciar Limites de Sessão em Claude Code — @Nate Herk
 
 Fonte: `2026-04-20_nate_herk_ai_automation__qZvORxGqI0.md`. Páginas criadas: wiki/sources/2026-04-20_nate-herk-gerenciar-limites-sessao.md, entities/nate-herk.md. Atualizadas: concepts/otimização-de-tokens.md (source_count 5→6, técnicas 8-13: mecânica exponencial, context rot com dados, compactação manual vs. auto, session handoff, /rewind, /btw, regra 0-20%), concepts/agentes-ia.md (source_count 6→7, sub-agentes como estratégia de token management), entities/claude-code.md (source_count 24→25, novos comandos /re, /btw, /context, boas práticas session handoff), wiki/overview.md (30→31 fontes, cluster 2 e padrões emergentes), index.md (+1 fonte, +1 entidade).

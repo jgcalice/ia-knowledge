@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-23 | Total de páginas: 79 | Fontes ingeridas: 31
+> Atualizado em: 2026-04-23 | Total de páginas: 81 | Fontes ingeridas: 32
 
 ---
 
@@ -46,6 +46,7 @@
 | [[wiki/sources/2026-04-22_sal-shirgaleev-5-comandos-claude]] | @Sal Shirgaleev | 2026-04-22 | 5 comandos nativos do Claude Code pouco usados |
 | [[wiki/sources/2026-04-18_alex-finn-dicas-claude-code]] | @Alex Finn | 2026-04-18 | 7 dicas Claude Code + Opus 4.7: Auto Mode, /recap, /effort, Adaptive Thinking |
 | [[wiki/sources/2026-04-20_nate-herk-gerenciar-limites-sessao]] | @Nate Herk | 2026-04-20 | Gerenciar limites de sessão: context rot, session handoff, sub-agentes, /btw |
+| [[wiki/sources/2026-04-15_lucas-garcia-pit-seguranca-claudecode]] | @Lucas Garcia Pit | 2026-04-15 | 5 fundamentos de segurança para apps construídos com Claude Code |
 
 ---
 
@@ -62,6 +63,7 @@
 | [[wiki/concepts/agentes-ia]] | 6 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills |
 | [[wiki/concepts/estratégia-de-negócios-com-ia]] | 5 | 4 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
+| [[wiki/concepts/segurança-com-ia]] | 1 | Segurança no desenvolvimento de apps com LLMs (API keys, RLS, rate limit, webhooks) |
 
 ---
 
@@ -86,7 +88,7 @@
 
 | Página | Handle | Fontes | Foco |
 |--------|--------|--------|------|
-| [[wiki/entities/lucas-garcia-pit]] | @Lucas Garcia Pit | 1 | IA & Negócios, leads com Claude Code |
+| [[wiki/entities/lucas-garcia-pit]] | @Lucas Garcia Pit | 2 | IA & Negócios, leads + segurança com Claude Code |
 | [[wiki/entities/hudson-brendon]] | @Hudson Brendon | 1 | Automação com IA para negócios, prospecção B2B |
 | [[wiki/entities/bruno-souza]] | @real_bruno_souza | 1 | LinkedIn + IA, negócios com implementação de IA |
 | [[wiki/entities/rafael-brandao]] | @Rafael Brandão | 2 | Dicas de otimização do Claude + branding |

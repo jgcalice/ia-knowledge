@@ -2,12 +2,12 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-04-23
-source_count: 31
+source_count: 32
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 31 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão e Produto
+> Wiki iniciado em 2026-04-21 | 32 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão e Produto
 
 ## Tese atual
 
@@ -64,6 +64,14 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 ---
 
+### Cluster 7: Segurança no Desenvolvimento com IA (novo)
+**Conceito central:** [[segurança-com-ia]]
+
+- 5 fundamentos de segurança para apps construídos com Claude Code: API keys no servidor, RLS no Supabase, lógica sensível no back-end, rate limiting e webhooks com assinatura verificada ([[lucas-garcia-pit]])
+- Tese central: o risco não é a ferramenta (Claude Code), mas o dev que acelera sem fundamentos de back-end
+
+---
+
 ### Cluster 4: Negócios e Estratégia com IA
 **Conceito central:** [[estratégia-de-negócios-com-ia]]
 
@@ -98,6 +106,8 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 **Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]]
 
+**Conceitos de segurança**: [[segurança-com-ia]]
+
 **Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]]
 
 **Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]]
@@ -117,6 +127,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - **Skills formalizam os gatilhos**: [[aashish-pahwa]] + [[smithery]] mostram ecossistema de ~128k Claude Skills — a palavra-gatilho artesanal virou pacote distribuível
 - **Arquétipos de negócio se multiplicando**: já mapeamos 4 — consultoria estratégica, infoprodutos nativos, mini web app + Instagram, AI Agency. Nenhum é "IA só como ferramenta" — todos são **produtos/serviços nascidos da IA**
 - **Claude Code como agente autônomo**: Auto Mode + Frontload + Notificações mudam o paradigma de "babysitting" (aprovação constante) para "delegação real" — o agente trabalha horas sem supervisão ([[alex-finn]])
+- **Segurança como ponto cego do desenvolvimento com IA**: Claude Code acelera tanto o desenvolvimento que devs pulam fundamentos clássicos de back-end (RLS, rate limit, server-side secrets) — [[lucas-garcia-pit]] documenta os 5 mais críticos
 
 ---
 
@@ -124,9 +135,9 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 31 |
-| Páginas de fontes | 31 |
-| Páginas de conceitos | 9 |
+| Fontes ingeridas | 32 |
+| Páginas de fontes | 32 |
+| Páginas de conceitos | 10 |
 | Páginas de entidades | 36 |
 | Páginas de síntese | 1 |
-| **Total de páginas** | **77** |
+| **Total de páginas** | **79** |
