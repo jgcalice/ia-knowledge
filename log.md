@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-23] ingest | 5 Prompts para Transformar LinkedIn com IA — @Sanskaar Singh R
+
+Fonte: `2026-04-16_sanskaar_singh_r_ai_wizard_DXLkANKE24F.md`. Páginas criadas: wiki/sources/2026-04-16_sanskaar-singh-linkedin-prompts.md, entities/sanskaar-singh.md. Atualizadas: entities/linkedin.md (source_count 3→4, nova Abordagem 2 "recruiter-first"), concepts/carreira-com-ia.md (source_count 8→9, seção LinkedIn expandida com abordagem Sanskaar), concepts/prompt-engineering.md (source_count 16→17, novas seções "Diagnóstico pelo ângulo do usuário-alvo" e "Entrega em espectro de versões"), wiki/overview.md (33→34 fontes, Cluster 3 atualizado, sanskaar-singh no mapa), index.md (+1 fonte, +1 entidade, total 85 páginas).
+
 ## [2026-04-23] ingest | find-skills: Meta-skill para Descoberta de Skills no Claude Code — @PabloInPublic
 
 Fonte: `2026-04-22_pabloinpublic_DXcWjL0jLsd.md`. Páginas criadas: wiki/sources/2026-04-22_pabloinpublic-find-skills.md, entities/pablo-in-public.md. Atualizadas: entities/claude-skills.md (source_count 1→2, nova seção "Meta-skill de descoberta: find-skills"), entities/claude-code.md (source_count 26→27, find-skills em "Usos documentados"), concepts/agentes-ia.md (source_count 7→8, nova seção "Meta-skill de descoberta"), wiki/overview.md (32→33 fontes, novo padrão emergente, pablo-in-public no mapa, status table), index.md (+1 fonte, +1 entidade, total 83 páginas).

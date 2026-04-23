@@ -2,12 +2,12 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-04-23
-source_count: 33
+source_count: 34
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 33 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão e Produto
+> Wiki iniciado em 2026-04-21 | 34 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão e Produto
 
 ## Tese atual
 
@@ -55,7 +55,8 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 | Camada | O que faz | Fonte |
 |--------|-----------|-------|
-| Visibilidade (LinkedIn) | 5 prompts para reescrever headline, about, skills, experiência | [[bruno-souza]] |
+| Visibilidade (LinkedIn) — Abordagem 1 | 5 prompts por formato/constraint para reescrever headline, about, skills, experiência | [[bruno-souza]] |
+| Visibilidade (LinkedIn) — Abordagem 2 | Diagnóstico recruiter-first + 5 versões em espectro + keywords por JD | [[sanskaar-singh]] |
 | Busca automatizada | Career Ops: 700+ vagas avaliadas, currículo ATS por vaga | [[career-ops]] |
 | Redesenho estratégico | 4 prompts Tim Ferriss: vantagem injusta, DEAL, freedom ratio, 10 anos | [[god-of-prompt]] |
 | Monetização imediata | 4 prompts para ganhar $1k em 30 dias com skills existentes | [[sabrina-ramonov]] |
@@ -110,7 +111,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 **Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]]
 
-**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]]
+**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]]
 
 ---
 

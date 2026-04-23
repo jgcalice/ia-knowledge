@@ -2,7 +2,7 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas]
-source_count: 16
+source_count: 17
 last_updated: 2026-04-23
 ---
 
@@ -109,6 +109,14 @@ Combinado com `/effort`, o usuário controla dois eixos independentes:
 Opus 4.7 é superior na capacidade de seguir instruções longas e complexas fornecidas de uma vez só. Melhor prática: enviar todas as especificações, restrições e requisitos em um único prompt inicial em vez de incrementalmente. Em Auto Mode, o modelo executa o plano completo sem interrupções.
 → [[2026-04-18_alex-finn-dicas-claude-code]]
 
+### Diagnóstico pelo ângulo do usuário-alvo (Recruiter Perspective)
+Em vez de pedir ao LLM para "melhorar" um texto, solicitar que ele simule o julgamento de quem vai ler o texto (e.g., recrutador, cliente, investidor) antes de qualquer reescrita. Sequência: diagnóstico honesto → reescrita. Evita otimizar na direção errada.
+→ [[2026-04-16_sanskaar-singh-linkedin-prompts]] | [[sanskaar-singh]]
+
+### Entrega em espectro de versões
+Para decisões com componente criativo (headline, copy, pitch), pedir N versões ao longo de um espectro explícito (e.g., "de conservador a ousado"). Devolve a decisão criativa final ao usuário, que escolhe o ponto do espectro que prefere.
+→ [[2026-04-16_sanskaar-singh-linkedin-prompts]]
+
 ## Fontes
 
 - [[2026-03-19_leads-infinitos-cloudcode]]
@@ -127,3 +135,4 @@ Opus 4.7 é superior na capacidade de seguir instruções longas e complexas for
 - [[2026-04-17_mini-web-app-claude]]
 - [[2026-04-22_sal-shirgaleev-5-comandos-claude]]
 - [[2026-04-18_alex-finn-dicas-claude-code]]
+- [[2026-04-16_sanskaar-singh-linkedin-prompts]]

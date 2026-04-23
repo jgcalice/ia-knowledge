@@ -2,7 +2,7 @@
 title: "Carreira e Negócios com IA"
 type: concept
 tags: [carreira, negócios, linkedin, ia, recrutamento, oportunidades, renda, transição-de-carreira]
-source_count: 8
+source_count: 9
 last_updated: 2026-04-23
 ---
 
@@ -17,13 +17,23 @@ Uso de LLMs para acelerar progressão de carreira (visibilidade, posicionamento,
 ## O que foi documentado
 
 ### 1. Otimização de perfil LinkedIn
-[[bruno-souza]] ensina um sistema completo de reescrita de perfil com 5 prompts:
+Dois sistemas documentados, com ângulos complementares:
+
+**Abordagem Bruno Souza** — reescrita orientada por constraints de formato:
 1. Headline otimizado para buscas de recrutadores (máx 120 chars)
 2. About section persuasiva e humanizada (máx 2000 chars)
 3. Mensagens de referência em 3 versões (máx 300 chars)
 4. Skills e keywords alinhadas às vagas-alvo
 5. Experiência: "Fiz X, usando Y, o que resultou em Z" + métricas
 → [[2026-04-11_transformacao-linkedin-ia]]
+
+**Abordagem Sanskaar Singh** — diagnóstico pelo ângulo do recrutador antes de escrever:
+1. First Impression Test: Claude simula recrutador senior e dá diagnóstico honesto
+2. Headline Rewrite: 5 versões em espectro conservador → ousado
+3. About Section: gancho + função + quem ajuda + resultados + CTA humano
+4. Keywords & Search: comparar JDs com o perfil para encontrar lacunas de SEO
+5. Experience Polish: Claude faz perguntas para ajudar o usuário a descobrir métricas
+→ [[2026-04-16_sanskaar-singh-linkedin-prompts]] | Autor: [[sanskaar-singh]]
 
 ### 2. Busca de emprego automatizada
 Sistema Career Ops (open-source, MIT) construído com Claude Code:
@@ -80,6 +90,7 @@ Há **convergência temática clara**: múltiplos criadores internacionais refor
 ## Fontes
 
 - [[2026-04-11_transformacao-linkedin-ia]]
+- [[2026-04-16_sanskaar-singh-linkedin-prompts]]
 - [[2026-04-07_career-ops-busca-emprego-ia]]
 - [[2026-03-22_redesenho-carreira-tim-ferriss]]
 - [[2026-04-17_prompts-renda-rapida]]

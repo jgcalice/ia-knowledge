@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-23 | Total de páginas: 83 | Fontes ingeridas: 33
+> Atualizado em: 2026-04-23 | Total de páginas: 85 | Fontes ingeridas: 34
 
 ---
 
@@ -48,6 +48,7 @@
 | [[wiki/sources/2026-04-20_nate-herk-gerenciar-limites-sessao]] | @Nate Herk | 2026-04-20 | Gerenciar limites de sessão: context rot, session handoff, sub-agentes, /btw |
 | [[wiki/sources/2026-04-15_lucas-garcia-pit-seguranca-claudecode]] | @Lucas Garcia Pit | 2026-04-15 | 5 fundamentos de segurança para apps construídos com Claude Code |
 | [[wiki/sources/2026-04-22_pabloinpublic-find-skills]] | @PabloInPublic | 2026-04-22 | find-skills: meta-skill Vercel Labs para descobrir skills no Claude Code |
+| [[wiki/sources/2026-04-16_sanskaar-singh-linkedin-prompts]] | @Sanskaar Singh R • AI Wizard | 2026-04-16 | 5 prompts para transformar LinkedIn via perspectiva do recrutador |
 
 ---
 
@@ -110,6 +111,7 @@
 | [[wiki/entities/alex-finn]] | @Alex Finn | 1 | Vibe Coding, Claude Code, YouTube creator |
 | [[wiki/entities/nate-herk]] | @Nate Herk | 1 | AI Automation, gestão de tokens/sessão, token dashboard |
 | [[wiki/entities/pablo-in-public]] | @PabloInPublic | 1 | Build in public, dicas Claude Code (espanhol) |
+| [[wiki/entities/sanskaar-singh]] | @Sanskaar Singh R • AI Wizard | 1 | LinkedIn + IA, diagnóstico recruiter-first |
 
 ### Pessoas / Criadores (Internacional)
 
