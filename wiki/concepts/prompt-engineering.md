@@ -2,8 +2,8 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas]
-source_count: 10
-last_updated: 2026-04-21
+source_count: 11
+last_updated: 2026-04-23
 ---
 
 # Prompt Engineering
@@ -71,6 +71,10 @@ Formato ultra-estruturado adotado pelo [[god-of-prompt]]:
 7 prompts com saída ultra-estruturada (tabelas, seções nomeadas, limite de palavras) para análise de mercado, priorização de problemas e escalonamento:
 → [[2026-04-01_claude-fundador-startup-7-prompts]], [[2026-04-20_claude-ceo-7-prompts]]
 
+### Prompts de execução de modelo de negócio
+Cada prompt orquestra um pipeline completo (conteúdo → distribuição → automação → monetização) em uma única chamada: ideia → título → estrutura → estratégia de venda → integrações.
+→ [[2026-04-07_5-negocios-automatizados-ia]]
+
 ## Fontes
 
 - [[2026-03-19_leads-infinitos-cloudcode]]
@@ -83,3 +87,4 @@ Formato ultra-estruturado adotado pelo [[god-of-prompt]]:
 - [[2026-04-20_claude-ceo-7-prompts]]
 - [[2026-03-24_aprender-com-claude-6-prompts]]
 - [[2026-03-13_estrutura-de-prompt-6-partes]]
+- [[2026-04-07_5-negocios-automatizados-ia]]

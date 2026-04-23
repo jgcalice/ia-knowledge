@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-21 | Total de páginas: 54 | Fontes ingeridas: 21
+> Atualizado em: 2026-04-23 | Total de páginas: 56 | Fontes ingeridas: 22
 
 ---
 
@@ -24,6 +24,7 @@
 | [[wiki/sources/2026-03-28_prospecção-leads-claude-apify]] | @Hudson Brendon | 2026-03-28 | Leads com Claude + Apify |
 | [[wiki/sources/2026-04-01_claude-fundador-startup-7-prompts]] | @Evolving AI | 2026-04-01 | 7 prompts para Claude pensar como fundador $100M |
 | [[wiki/sources/2026-04-05_5-videos-especialista-claude]] | @Usama Akram | 2026-04-05 | 5 cursos YouTube para dominar Claude |
+| [[wiki/sources/2026-04-07_5-negocios-automatizados-ia]] | @Bruno Wambier | 2026-04-07 | 5 modelos de negócio "99% automáticos" com IA |
 | [[wiki/sources/2026-04-07_career-ops-busca-emprego-ia]] | @Technology | 2026-04-07 | Career Ops: sistema de busca de emprego com IA |
 | [[wiki/sources/2026-04-11_brycen_wood_DW-ZK8bDGNf]] | @Brycen Wood | 2026-04-11 | SEO primeira página Google com 3 arquivos |
 | [[wiki/sources/2026-04-11_transformacao-linkedin-ia]] | @Bruno Souza | 2026-04-11 | 5 prompts para otimizar LinkedIn |
@@ -45,12 +46,12 @@
 |--------|--------|-----------|
 | [[wiki/concepts/geração-de-leads-com-ia]] | 3 | Uso de LLMs + scraping para prospecção B2B automatizada |
 | [[wiki/concepts/otimização-de-tokens]] | 3 | Técnicas para reduzir consumo de tokens no Claude |
-| [[wiki/concepts/prompt-engineering]] | 9 | Padrões de estruturação de prompts eficazes |
+| [[wiki/concepts/prompt-engineering]] | 11 | Padrões de estruturação de prompts eficazes |
 | [[wiki/concepts/carreira-com-ia]] | 7 | IA para aceleração de carreira, LinkedIn e renda |
 | [[wiki/concepts/busca-de-emprego-com-ia]] | 1 | Busca de emprego automatizada com Career Ops e ATS |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 2 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
-| [[wiki/concepts/agentes-ia]] | 4 | Arquitetura de agentes, multi-agent e delegação de trabalho |
-| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 2 | 7 prompts consolidados para análise de mercado e escalonamento |
+| [[wiki/concepts/agentes-ia]] | 5 | Arquitetura de agentes, multi-agent, delegação e AIaaS |
+| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 3 | 7 prompts de análise + 5 modelos de negócio nativos de IA |
 | [[wiki/concepts/aprendizado-com-ia]] | 2 | Claude como tutor pessoal e curadoria de cursos |
 
 ---
@@ -79,6 +80,7 @@
 | [[wiki/entities/rafael-brandao]] | @Rafael Brandão | 2 | Dicas de otimização do Claude + branding |
 | [[wiki/entities/flavio-rafael]] | @Flávio Rafael | 1 | Claude Code para leads e automação de negócios |
 | [[wiki/entities/rony-meisler]] | @Rony Meisler | 1 | Empreendedorismo e ferramentas de IA |
+| [[wiki/entities/bruno-wambier]] | @Bruno Wambier | 1 | Negócios automatizados com IA, AIaaS, infoprodutos |
 
 ### Pessoas / Criadores (Internacional)
 

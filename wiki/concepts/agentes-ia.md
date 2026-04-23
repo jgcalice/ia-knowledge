@@ -2,13 +2,13 @@
 title: "Agentes de IA"
 type: concept
 tags: [agentes-ia, claude-code, automação, multi-agent, subagentes]
-source_count: 4
-last_updated: 2026-04-21
+source_count: 5
+last_updated: 2026-04-23
 ---
 
 # Agentes de IA
 
-> **Fontes:** 4 | **Domínio:** Arquitetura de sistemas de IA
+> **Fontes:** 5 | **Domínio:** Arquitetura de sistemas de IA
 
 ## Definição
 
@@ -39,9 +39,14 @@ Sistemas baseados em LLMs que executam tarefas de forma autônoma, podendo integ
 - KJ Rainey: "Claude Cowork: Zero to Working AI Employee"
 → [[2026-04-05_5-videos-especialista-claude]]
 
+### Agentes como serviço B2B (AIaaS)
+[[bruno-wambier]] formaliza o modelo **Agente-as-a-Service**: IA configurada para atender empresas no WhatsApp — responde clientes, agenda, gera leads, vende — cobrada como assinatura mensal (~R$297/mês/cliente). Primeira menção no wiki a agente IA como **produto comercial empacotado**, não como ferramenta interna.
+→ [[2026-04-07_5-negocios-automatizados-ia]]
+
 ## Fontes
 
 - [[2026-04-17_claude-update-task-assignment]]
 - [[2026-04-14_marca-cloudcode-2horas]]
 - [[2026-04-07_career-ops-busca-emprego-ia]]
 - [[2026-04-05_5-videos-especialista-claude]]
+- [[2026-04-07_5-negocios-automatizados-ia]]

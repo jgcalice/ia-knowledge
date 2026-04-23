@@ -1,13 +1,13 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-04-21
-source_count: 21
+last_updated: 2026-04-23
+source_count: 22
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 21 fontes ingeridas | Domínio: IA Aplicada a Negócios e Carreira
+> Wiki iniciado em 2026-04-21 | 22 fontes ingeridas | Domínio: IA Aplicada a Negócios e Carreira
 
 ## Tese atual
 
@@ -67,6 +67,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - 7 prompts para análise de mercado, oferta e escalonamento ([[evolving-ai]], [[business-bulls]])
 - Branding completo em 2h com 120+ agentes ([[rafael-brandao]])
 - SEO na primeira página do Google com 3 arquivos de texto ([[brycen-wood]])
+- 5 modelos nativos de IA (eBook, YouTube narrado, newsletter, curso online, agente WhatsApp como AIaaS) ([[bruno-wambier]])
 
 ---
 
@@ -82,7 +83,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 **Ferramentas e plataformas**: [[claude-code]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]]
 
-**Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]]
+**Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]]
 
 **Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]]
 
@@ -103,9 +104,9 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 21 |
-| Páginas de fontes | 21 |
+| Fontes ingeridas | 22 |
+| Páginas de fontes | 22 |
 | Páginas de conceitos | 9 |
-| Páginas de entidades | 22 |
+| Páginas de entidades | 23 |
 | Páginas de síntese | 1 |
-| **Total de páginas** | **54** |
+| **Total de páginas** | **56** |
