@@ -2,13 +2,13 @@
 title: "Agentes de IA"
 type: concept
 tags: [agentes-ia, claude-code, automação, multi-agent, subagentes]
-source_count: 5
+source_count: 6
 last_updated: 2026-04-23
 ---
 
 # Agentes de IA
 
-> **Fontes:** 5 | **Domínio:** Arquitetura de sistemas de IA
+> **Fontes:** 6 | **Domínio:** Arquitetura de sistemas de IA
 
 ## Definição
 
@@ -43,6 +43,10 @@ Sistemas baseados em LLMs que executam tarefas de forma autônoma, podendo integ
 [[bruno-wambier]] formaliza o modelo **Agente-as-a-Service**: IA configurada para atender empresas no WhatsApp — responde clientes, agenda, gera leads, vende — cobrada como assinatura mensal (~R$297/mês/cliente). Primeira menção no wiki a agente IA como **produto comercial empacotado**, não como ferramenta interna.
 → [[2026-04-07_5-negocios-automatizados-ia]]
 
+### Claude Skills como micro-agentes distribuíveis
+[[aashish-pahwa]] cataloga 6 skills (Feature Forge, Spec Miner, The Fool, Architecture Designer, API Designer, Microservice Architect) — cada uma opera como micro-agente especializado ativado por frase-gatilho. Marketplaces como [[smithery]] têm 128k+ skills — evidência de ecossistema maduro de agentes compartilháveis.
+→ [[2026-04-07_claude-skills-product-managers]]
+
 ## Fontes
 
 - [[2026-04-17_claude-update-task-assignment]]
@@ -50,3 +54,4 @@ Sistemas baseados em LLMs que executam tarefas de forma autônoma, podendo integ
 - [[2026-04-07_career-ops-busca-emprego-ia]]
 - [[2026-04-05_5-videos-especialista-claude]]
 - [[2026-04-07_5-negocios-automatizados-ia]]
+- [[2026-04-07_claude-skills-product-managers]]

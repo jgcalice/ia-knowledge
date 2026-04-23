@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-23 | Total de páginas: 58 | Fontes ingeridas: 23
+> Atualizado em: 2026-04-23 | Total de páginas: 65 | Fontes ingeridas: 26
 
 ---
 
@@ -26,6 +26,7 @@
 | [[wiki/sources/2026-04-05_5-videos-especialista-claude]] | @Usama Akram | 2026-04-05 | 5 cursos YouTube para dominar Claude |
 | [[wiki/sources/2026-04-07_5-negocios-automatizados-ia]] | @Bruno Wambier | 2026-04-07 | 5 modelos de negócio "99% automáticos" com IA |
 | [[wiki/sources/2026-04-07_career-ops-busca-emprego-ia]] | @Technology | 2026-04-07 | Career Ops: sistema de busca de emprego com IA |
+| [[wiki/sources/2026-04-07_claude-skills-product-managers]] | @Aashish Pahwa | 2026-04-07 | 6 Claude Skills que substituem um time de produto |
 | [[wiki/sources/2026-04-08_gatilhos-cognitivos-claude]] | @Adriano Couto | 2026-04-08 | 6 gatilhos cognitivos (MECE, 5 Whys, Invert, ELI5, Artefato) |
 | [[wiki/sources/2026-04-11_brycen_wood_DW-ZK8bDGNf]] | @Brycen Wood | 2026-04-11 | SEO primeira página Google com 3 arquivos |
 | [[wiki/sources/2026-04-11_transformacao-linkedin-ia]] | @Bruno Souza | 2026-04-11 | 5 prompts para otimizar LinkedIn |
@@ -34,10 +35,12 @@
 | [[wiki/sources/2026-04-15_leads-qualificados-claudecode]] | @Flávio Rafael | 2026-04-15 | Leads qualificados com skill "lista de alto valor" |
 | [[wiki/sources/2026-04-16_wealth-protocol-naval]] | @God Of Prompt | 2026-04-16 | 6 prompts Naval Ravikant — parar de trocar tempo por dinheiro |
 | [[wiki/sources/2026-04-17_claude-update-task-assignment]] | @Ross Fledderjohn | 2026-04-17 | Claude: de chat para delegação de trabalho (parcial) |
+| [[wiki/sources/2026-04-17_mini-web-app-claude]] | @Luna Vega | 2026-04-17 | 7 prompts para construir e vender um mini web app |
 | [[wiki/sources/2026-04-17_prompts-renda-rapida]] | @Sabrina Ramonov | 2026-04-17 | 4 prompts para monetizar skills em 30 dias |
 | [[wiki/sources/2026-04-18_7-hacks-tokens-claude]] | @Evolving AI | 2026-04-18 | 7 hacks de otimização de tokens |
 | [[wiki/sources/2026-04-18_ferramenta-google]] | @Rony Meisler | 2026-04-18 | Ferramenta Google (conteúdo indisponível) |
 | [[wiki/sources/2026-04-20_claude-ceo-7-prompts]] | @Business Bulls | 2026-04-20 | 7 prompts para Claude pensar como CEO $100M |
+| [[wiki/sources/2026-04-22_7-youtubers-ia]] | @Paul Hilse | 2026-04-22 | 7 YouTubers para aprender IA aplicada a negócios |
 
 ---
 
@@ -47,13 +50,13 @@
 |--------|--------|-----------|
 | [[wiki/concepts/geração-de-leads-com-ia]] | 3 | Uso de LLMs + scraping para prospecção B2B automatizada |
 | [[wiki/concepts/otimização-de-tokens]] | 3 | Técnicas para reduzir consumo de tokens no Claude |
-| [[wiki/concepts/prompt-engineering]] | 12 | Padrões de estruturação de prompts + palavras-gatilho |
-| [[wiki/concepts/carreira-com-ia]] | 7 | IA para aceleração de carreira, LinkedIn e renda |
+| [[wiki/concepts/prompt-engineering]] | 14 | Padrões de estruturação + palavras-gatilho + Claude Skills |
+| [[wiki/concepts/carreira-com-ia]] | 8 | IA para aceleração de carreira, LinkedIn, renda e produtos próprios |
 | [[wiki/concepts/busca-de-emprego-com-ia]] | 1 | Busca de emprego automatizada com Career Ops e ATS |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 2 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
-| [[wiki/concepts/agentes-ia]] | 5 | Arquitetura de agentes, multi-agent, delegação e AIaaS |
-| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 3 | 7 prompts de análise + 5 modelos de negócio nativos de IA |
-| [[wiki/concepts/aprendizado-com-ia]] | 2 | Claude como tutor pessoal e curadoria de cursos |
+| [[wiki/concepts/agentes-ia]] | 6 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills |
+| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 5 | 4 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency) |
+| [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
 
 ---
 
@@ -70,6 +73,8 @@
 | [[wiki/entities/google-maps]] | platform | 2 | Fonte de dados para geração de leads B2B |
 | [[wiki/entities/linkedin]] | platform | 3 | Plataforma de otimização de perfil e busca de vagas |
 | [[wiki/entities/career-ops]] | tool | 1 | Sistema open-source de busca de emprego com Claude Code |
+| [[wiki/entities/claude-skills]] | tool | 1 | Feature Anthropic: pacotes nomeados de comportamento (Feature Forge, The Fool, etc.) |
+| [[wiki/entities/smithery]] | platform | 1 | Marketplace com 128k+ Claude Skills/MCPs |
 
 ### Pessoas / Criadores (Brasil)
 
@@ -83,6 +88,14 @@
 | [[wiki/entities/rony-meisler]] | @Rony Meisler | 1 | Empreendedorismo e ferramentas de IA |
 | [[wiki/entities/bruno-wambier]] | @Bruno Wambier | 1 | Negócios automatizados com IA, AIaaS, infoprodutos |
 | [[wiki/entities/adriano-couto]] | @Adriano Couto | 1 | Gestão com IA, gatilhos cognitivos, frameworks McKinsey |
+
+### Pessoas / Criadores (Internacional — adicionados)
+
+| Página | Handle | Fontes | Foco |
+|--------|--------|--------|------|
+| [[wiki/entities/aashish-pahwa]] | @okaashish | 1 | Claude Skills para PMs, fundador do feedough.com |
+| [[wiki/entities/luna-vega]] | @Luna Vega | 1 | Mini web app + Instagram como canal de venda |
+| [[wiki/entities/paul-hilse]] | @Paul Hilse | 1 | Curadoria de educadores de IA e negócios online |
 
 ### Pessoas / Criadores (Internacional)
 

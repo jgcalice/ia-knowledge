@@ -2,13 +2,13 @@
 title: "Estratégia de Negócios com IA"
 type: concept
 tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders]
-source_count: 3
+source_count: 5
 last_updated: 2026-04-23
 ---
 
 # Estratégia de Negócios com IA
 
-> **Fontes:** 3 | **Domínio:** Aplicação de LLMs para análise estratégica e modelos de negócio nativos de IA
+> **Fontes:** 5 | **Domínio:** Aplicação de LLMs para análise estratégica e modelos de negócio nativos de IA
 
 ## Definição
 
@@ -37,8 +37,27 @@ Conteúdo idêntico aparece em duas fontes independentes ([[evolving-ai]] e [[bu
 [[bruno-wambier]] cataloga 5 modelos replicáveis sem escala prévia — infoprodutos (eBook, curso), mídia (YouTube narrado por IA, newsletter) e serviço (agente de WhatsApp como AIaaS a R$297/mês). Ângulo distinto dos 7 prompts: aqui a IA **constrói o produto**, não só analisa o mercado.
 → [[2026-04-07_5-negocios-automatizados-ia]]
 
+### Mini web app focado vendido via Instagram
+[[luna-vega]] apresenta arquétipo distinto: **um produto SaaS ultra-nichado** vendido exclusivamente via Instagram com pipeline integrado de 7 prompts (ideia → build → bio → carrossel → caption → reel → DM). Diferente do catálogo de [[bruno-wambier]] (5 modelos diversos) e dos 7 prompts estratégicos (análise de mercado): aqui é **vertical + hiper-focado**. Case: aluna fez $8k no 1º mês com <500 seguidores.
+→ [[2026-04-17_mini-web-app-claude]]
+
+### Arquétipo AI Agency
+[[paul-hilse]] cita Dan Martell e Liam Ottley como referências de **agência de automação de IA para outras empresas** — distinto de AIaaS (agente como produto empacotado). Liam Ottley tem peça "automatizar 70% do meu negócio com Claude Code em 30 dias" como vitrine do método.
+→ [[2026-04-22_7-youtubers-ia]]
+
+## Arquétipos de negócio com IA mapeados
+
+| Arquétipo | Descrição | Fonte principal |
+|-----------|-----------|----------------|
+| **Consultoria estratégica** | 7 prompts para análise de mercado + oferta + escalonamento | [[evolving-ai]], [[business-bulls]] |
+| **Infoprodutos nativos de IA** | 5 modelos (eBook, YouTube narrado, newsletter, curso, AIaaS WhatsApp) | [[bruno-wambier]] |
+| **Mini web app + Instagram** | Produto SaaS focado, distribuição 100% social | [[luna-vega]] |
+| **AI Agency** | Agência automatiza outras empresas com IA | [[paul-hilse]] (via Martell/Ottley) |
+
 ## Fontes
 
 - [[2026-04-01_claude-fundador-startup-7-prompts]]
 - [[2026-04-20_claude-ceo-7-prompts]]
 - [[2026-04-07_5-negocios-automatizados-ia]]
+- [[2026-04-17_mini-web-app-claude]]
+- [[2026-04-22_7-youtubers-ia]]

@@ -2,13 +2,13 @@
 title: "Carreira e Negócios com IA"
 type: concept
 tags: [carreira, negócios, linkedin, ia, recrutamento, oportunidades, renda, transição-de-carreira]
-source_count: 7
-last_updated: 2026-04-21
+source_count: 8
+last_updated: 2026-04-23
 ---
 
 # Carreira e Negócios com IA
 
-> **Fontes:** 7 | **Domínio:** Aplicações de IA para desenvolvimento profissional
+> **Fontes:** 8 | **Domínio:** Aplicações de IA para desenvolvimento profissional
 
 ## Definição
 
@@ -67,6 +67,12 @@ Bruno Souza apresenta o modelo de implementar IA para negócios locais:
 
 > ⚠️ **Nota crítica**: Afirmações de resultado de Bruno Souza e Sabrina Ramonov têm forte componente de venda de infoproduto. Valores não verificados.
 
+### 8. Mini web app como produto digital próprio
+[[luna-vega]] propõe um novo arquétipo de monetização: construir e vender **mini web app focado** via Instagram em ~2h de build com Claude. Case citado: $8k no 1º mês com <500 seguidores. Reforço do padrão "produto próprio > serviço por hora" já presente em [[bruno-wambier]] e Naval Ravikant ([[god-of-prompt]]).
+→ [[2026-04-17_mini-web-app-claude]]
+
+> ⚠️ **Nota crítica também aqui**: case "$8k/mês com <500 seguidores" não é verificável — uso externo ao wiki deve tratar como anedota narrativa, não evidência.
+
 ## Padrão recorrente no feed
 
 Há **convergência temática clara**: múltiplos criadores internacionais reforçam que combinar skills existentes + IA é mais valioso que uma skill isolada. A direção não é "aprenda IA do zero", mas "use IA para ampliar o que você já faz bem."
@@ -80,3 +86,4 @@ Há **convergência temática clara**: múltiplos criadores internacionais refor
 - [[2026-03-26_certificacao-claude-architect]]
 - [[2026-04-16_wealth-protocol-naval]]
 - [[2026-04-01_claude-fundador-startup-7-prompts]]
+- [[2026-04-17_mini-web-app-claude]]

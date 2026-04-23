@@ -61,6 +61,18 @@ Fonte: `2026-04-07_bruno_wambier_DW2LV60j1Yn.md`. Páginas criadas: wiki/sources
 
 Fonte: `2026-04-08_adriano_couto_gestao_com_ia_DW4j00QEnNu.md`. Páginas criadas: wiki/sources/2026-04-08_gatilhos-cognitivos-claude.md, entities/adriano-couto.md. Atualizado: concepts/prompt-engineering (11→12, nova subseção "Palavras-gatilho"), overview.md (22→23 fontes), index.md.
 
+## [2026-04-23] ingest | 6 Claude Skills para Product Managers — @Aashish Pahwa
+
+Fonte: `2026-04-07_aashish_pahwa_DW0siNeD0ao.md`. Páginas criadas: wiki/sources/2026-04-07_claude-skills-product-managers.md, entities/aashish-pahwa.md, entities/claude-skills.md (nova), entities/smithery.md (nova). Atualizado: concepts/prompt-engineering (12→13, subseção "Skills como palavras-gatilho"), concepts/agentes-ia (5→6, subseção "Claude Skills como micro-agentes"), overview.md (novo Cluster 6: Produto com IA).
+
+## [2026-04-23] ingest | 7 Prompts para Construir e Vender Mini Web App — @Luna Vega
+
+Fonte: `2026-04-17_luna_vega_DXPjYBQjvaj.md`. Páginas criadas: wiki/sources/2026-04-17_mini-web-app-claude.md, entities/luna-vega.md. Atualizado: concepts/prompt-engineering (13→14, subseção "Prompts parametrizados encadeados"), concepts/estratégia-de-negócios-com-ia (3→4, arquétipo "Mini web app + Instagram"), concepts/carreira-com-ia (7→8, item 8 "Mini web app como produto"), overview.md (24→25 fontes).
+
+## [2026-04-23] ingest | 7 YouTubers para Aprender IA — @Paul Hilse
+
+Fonte: `2026-04-22_paul_hilse_DXcv5OJgKx4.md`. Páginas criadas: wiki/sources/2026-04-22_7-youtubers-ia.md, entities/paul-hilse.md. Atualizado: concepts/aprendizado-com-ia (2→3, subseção "Curadoria de YouTubers"), concepts/estratégia-de-negócios-com-ia (4→5, arquétipo "AI Agency"), overview.md (25→26 fontes, ampliação do Cluster 5).
+
 ## [2026-04-21] ingest | Lote de 16 novos posts — ingestão automática
 
 Fontes processadas: 2026-02-25_michael_kocher, 2026-03-11_brandon_lew, 2026-03-22_god_of_prompt, 2026-03-24_evolving_ai, 2026-03-26_bashiri, 2026-04-01_evolving_ai, 2026-04-05_usama_akram, 2026-04-07_technology, 2026-04-11_brycen_wood, 2026-04-14_rafael_brandao, 2026-04-15_flavio_rafael, 2026-04-16_god_of_prompt, 2026-04-17_ross_fledderjohn, 2026-04-17_sabrina_ramonov, 2026-04-18_rony_meisler, 2026-04-20_business_bulls. Páginas de fonte criadas: 16. Entidades criadas: 11 novas (god-of-prompt, bashiri, sabrina-ramonov, ross-fledderjohn, michael-kocher, brandon-lew, usama-akram, brycen-wood, rony-meisler, business-bulls, flavio-rafael, career-ops). Entidades atualizadas: 4 (claude-code, rafael-brandao, evolving-ai, linkedin). Conceitos criados: 5 novos (busca-de-emprego-com-ia, design-de-estilo-de-vida, agentes-ia, estratégia-de-negócios-com-ia, aprendizado-com-ia). Conceitos atualizados: 3 (carreira-com-ia: 1→7 fontes, prompt-engineering: 3→9 fontes, geração-de-leads-com-ia: 2→3 fontes). Wiki: 21→54 páginas totais, 5→21 fontes. Nota: 4 arquivos parciais por rate limit de processamento (vision indisponível).

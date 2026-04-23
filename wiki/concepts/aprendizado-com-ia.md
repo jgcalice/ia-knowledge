@@ -2,13 +2,13 @@
 title: "Aprendizado com IA"
 type: concept
 tags: [aprendizado, claude, educação, cursos, certificação]
-source_count: 2
-last_updated: 2026-04-21
+source_count: 3
+last_updated: 2026-04-23
 ---
 
 # Aprendizado com IA
 
-> **Fontes:** 2 | **Domínio:** Educação e desenvolvimento profissional com IA
+> **Fontes:** 3 | **Domínio:** Educação e desenvolvimento profissional com IA
 
 ## Definição
 
@@ -32,7 +32,12 @@ Uso de LLMs como tutores personalizados e curadoria de recursos para aprender ha
 5. Brock Mesarich — Claude Cowork Ultimate Course
 → [[2026-04-05_5-videos-especialista-claude]]
 
+### Curadoria de YouTubers para seguir continuamente
+[[paul-hilse]] lista 7 canais com ângulos distintos: **Ben AI** (automação), **AI Edge** (no-code), **MIT Monk** (estratégia + IA + crescimento pessoal), **Jeff Su** (ferramentas no trabalho), **Dan Martell** (escalar negócio), **Varun Mayya** (impacto econômico da IA), **Liam Ottley** (AI agency). Complementa [[usama-akram]]: lá era "cursos fixos" (curto prazo), aqui é "pessoas para seguir" (longo prazo).
+→ [[2026-04-22_7-youtubers-ia]]
+
 ## Fontes
 
 - [[2026-03-24_aprender-com-claude-6-prompts]]
 - [[2026-04-05_5-videos-especialista-claude]]
+- [[2026-04-22_7-youtubers-ia]]

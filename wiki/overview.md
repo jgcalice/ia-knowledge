@@ -2,12 +2,12 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-04-23
-source_count: 23
+source_count: 26
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 23 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira e Gestão
+> Wiki iniciado em 2026-04-21 | 26 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão e Produto
 
 ## Tese atual
 
@@ -68,6 +68,8 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - Branding completo em 2h com 120+ agentes ([[rafael-brandao]])
 - SEO na primeira página do Google com 3 arquivos de texto ([[brycen-wood]])
 - 5 modelos nativos de IA (eBook, YouTube narrado, newsletter, curso online, agente WhatsApp como AIaaS) ([[bruno-wambier]])
+- Mini web app focado + Instagram como canal único ([[luna-vega]])
+- AI Agency (Dan Martell, Liam Ottley) — agência automatiza outras empresas ([[paul-hilse]])
 
 ---
 
@@ -76,16 +78,26 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 - 6 prompts para Claude funcionar como tutor pessoal ([[evolving-ai]])
 - 5 cursos gratuitos no YouTube para dominar Claude Code ([[usama-akram]])
+- 7 YouTubers com ângulos distintos (business, no-code, estratégia, ferramentas, escala, economia, AI agency) ([[paul-hilse]])
+
+---
+
+### Cluster 6: Produto com IA (emergente)
+**Conceito central:** [[claude-skills]]
+
+- 6 Claude Skills para Product Managers: Feature Forge, Spec Miner, The Fool, Architecture Designer, API Designer, Microservice Architect ([[aashish-pahwa]])
+- Marketplace [[smithery]] com 128k+ skills — ecossistema já em escala
+- Skills formalizam o padrão de "palavra-gatilho" iniciado por [[adriano-couto]]
 
 ---
 
 ## Mapa de entidades
 
-**Ferramentas e plataformas**: [[claude-code]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]]
+**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]]
 
 **Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]]
 
-**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]]
+**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]]
 
 ---
 
@@ -98,6 +110,8 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - **Tokens como recurso escasso**: três fontes abordam → evidência de preocupação real dos usuários
 - **Conteúdo duplicado confirmado**: prompts de estratégia de negócios aparecem idênticos em [[evolving-ai]] e [[business-bulls]] — sinal de que são referência consolidada
 - **Palavras-gatilho como novo padrão**: [[adriano-couto]] introduz MECE/5 Whys/Invert/ELI5/Artefato como ativadores semânticos — uma palavra muda o pipeline de resposta do Claude, sem precisar explicar o framework
+- **Skills formalizam os gatilhos**: [[aashish-pahwa]] + [[smithery]] mostram ecossistema de ~128k Claude Skills — a palavra-gatilho artesanal virou pacote distribuível
+- **Arquétipos de negócio se multiplicando**: já mapeamos 4 — consultoria estratégica, infoprodutos nativos, mini web app + Instagram, AI Agency. Nenhum é "IA só como ferramenta" — todos são **produtos/serviços nascidos da IA**
 
 ---
 
@@ -105,9 +119,9 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 23 |
-| Páginas de fontes | 23 |
+| Fontes ingeridas | 26 |
+| Páginas de fontes | 26 |
 | Páginas de conceitos | 9 |
-| Páginas de entidades | 24 |
+| Páginas de entidades | 29 |
 | Páginas de síntese | 1 |
-| **Total de páginas** | **58** |
+| **Total de páginas** | **65** |

@@ -2,7 +2,7 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas]
-source_count: 12
+source_count: 14
 last_updated: 2026-04-23
 ---
 
@@ -79,6 +79,14 @@ Cada prompt orquestra um pipeline completo (conteúdo → distribuição → aut
 Uma única palavra anexada ao prompt ativa um framework que o modelo já conhece, mudando o pipeline de resposta antes da geração. Exemplos documentados: **MECE**, **Confidence Level**, **5 Whys**, **Invert**, **ELI5**, **Artefato**. Distinto dos prompts estruturados — aqui o poder está em uma palavra reconhecível que carrega toda a semântica do framework.
 → [[2026-04-08_gatilhos-cognitivos-claude]]
 
+### Skills como palavras-gatilho formalizadas
+[[claude-skills]] são a evolução industrial da palavra-gatilho: cada skill tem nome, frases de ativação e `Search Tag`, distribuídas em marketplaces como [[smithery]] (128k+ skills). Feature Forge, Spec Miner, The Fool, Architecture Designer, API Designer e Microservice Architect são exemplos catalogados.
+→ [[2026-04-07_claude-skills-product-managers]]
+
+### Prompts parametrizados encadeados para pipeline produto-marketing
+7 prompts em sequência onde cada um alimenta o seguinte: ideia → build → bio → carrossel → caption → reel → DM. Parâmetros padronizados (`[target audience]`, `[niche]`, `[product name]`, `[transformation]`) garantem reuso entre projetos.
+→ [[2026-04-17_mini-web-app-claude]]
+
 ## Fontes
 
 - [[2026-03-19_leads-infinitos-cloudcode]]
@@ -93,3 +101,5 @@ Uma única palavra anexada ao prompt ativa um framework que o modelo já conhece
 - [[2026-03-13_estrutura-de-prompt-6-partes]]
 - [[2026-04-07_5-negocios-automatizados-ia]]
 - [[2026-04-08_gatilhos-cognitivos-claude]]
+- [[2026-04-07_claude-skills-product-managers]]
+- [[2026-04-17_mini-web-app-claude]]
