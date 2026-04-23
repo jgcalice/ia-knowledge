@@ -2,12 +2,12 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-04-23
-source_count: 30
+source_count: 31
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 30 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão e Produto
+> Wiki iniciado em 2026-04-21 | 31 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão e Produto
 
 ## Tese atual
 
@@ -44,6 +44,7 @@ Três fontes convergem no mesmo problema:
 - **Modelo**: escolher Haiku/Sonnet/Opus conforme a tarefa ([[evolving-ai]])
 - **Contexto**: compactar sessões longas com Compact Skill ([[evolving-ai]])
 - **Grafo de conhecimento**: [[graphify]] mapeia o workspace e reduz tokens em 71,5x → 20.000 → 280/sessão ([[marc-cleroux]])
+- **Session handoff**: custo é exponencial (98,5% dos tokens = rereading); context rot degrada acurácia de 92%→78%; sessões devem ser reiniciadas a ~12% via handoff estruturado ([[nate-herk]])
 
 ---
 
@@ -99,7 +100,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 **Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]]
 
-**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]]
+**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]]
 
 ---
 
@@ -109,7 +110,8 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - **Carreira com IA é tema central**: 7 das 21 fontes abordam diretamente carreira, LinkedIn ou renda — é o segundo maior cluster
 - **Combinação de skills > skill isolada**: padrão recorrente em múltiplas fontes independentes
 - **Ação antes de planejamento**: "stop planning, start selling" / "just go build it" — mensagem anti-procrastinação dominante
-- **Tokens como recurso escasso**: três fontes abordam → evidência de preocupação real dos usuários
+- **Tokens como recurso escasso**: quatro fontes abordam → preocupação consolidada; [[nate-herk]] documenta que custo é exponencial e que o 1M token window convida desperdício
+- **Context rot como risco subestimado**: além de custo, longas sessões degradam *qualidade* — acurácia de recuperação cai 14pp de 256k→1M tokens ([[nate-herk]])
 - **Conteúdo duplicado confirmado**: prompts de estratégia de negócios aparecem idênticos em [[evolving-ai]] e [[business-bulls]] — sinal de que são referência consolidada
 - **Palavras-gatilho como novo padrão**: [[adriano-couto]] introduz MECE/5 Whys/Invert/ELI5/Artefato como ativadores semânticos — uma palavra muda o pipeline de resposta do Claude, sem precisar explicar o framework
 - **Skills formalizam os gatilhos**: [[aashish-pahwa]] + [[smithery]] mostram ecossistema de ~128k Claude Skills — a palavra-gatilho artesanal virou pacote distribuível
@@ -122,9 +124,9 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 28 |
-| Páginas de fontes | 28 |
+| Fontes ingeridas | 31 |
+| Páginas de fontes | 31 |
 | Páginas de conceitos | 9 |
-| Páginas de entidades | 35 |
+| Páginas de entidades | 36 |
 | Páginas de síntese | 1 |
-| **Total de páginas** | **73** |
+| **Total de páginas** | **77** |

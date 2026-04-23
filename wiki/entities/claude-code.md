@@ -3,7 +3,7 @@ title: "Claude / Claude Code"
 type: entity
 category: tool
 tags: [llm, claude, anthropic, claude-code, ia]
-source_count: 24
+source_count: 25
 last_updated: 2026-04-23
 ---
 
@@ -79,6 +79,9 @@ Documentados por [[sal-shirgaleev]] em [[2026-04-22_sal-shirgaleev-5-comandos-cl
 | `/compact` | Comprime o histórico da sessão sem perder intenção — evita "esquecimento" em sessões longas |
 | `/recap` | Gera resumo de uma linha de tudo que o agente fez na sessão — útil ao retomar sessões longas |
 | `/effort` | Configura o nível de esforço por tarefa (low/medium/high/extra high/max) |
+| `/re` (Rewind) | Pula para qualquer mensagem anterior e descarta tudo depois; inclui opção "summarize from here" para handoff |
+| `/btw` | Overlay para perguntas rápidas que **não entram no histórico** da sessão — mantém contexto limpo |
+| `/context` | Mostra o consumo atual de tokens na sessão (útil rodar em sessão fresca para ver overhead de startup) |
 
 ## Boas práticas identificadas
 
@@ -90,6 +93,12 @@ Documentados por [[sal-shirgaleev]] em [[2026-04-22_sal-shirgaleev-5-comandos-cl
 - Ativar Auto Mode para evitar interrupções constantes de permissão em sessões longas
 - Frontloading: enviar todas as instruções de uma vez em projetos novos, em vez de incrementalmente
 - Configurar notificações via prompt: `"after every piece of work you do, please send me a notification"`
+- Session handoff a ~12% da janela (120k/1M no Opus): resumo → `/clear` → nova sessão — [[nate-herk]]
+- Usar `/re` (Rewind) após tentativas falhas para não deixar código errado no contexto
+- Usar `/btw` para perguntas rápidas sem poluir o histórico da sessão
+- Manter CLAUDE.md sob 200 linhas / ~2.000 tokens — carrega a cada sessão, bloat é custo constante
+- Usar `.claudeignore` para excluir pastas/arquivos irrelevantes do repo
+- Sessions chaining: sessão de discovery → sessão de planning → sessão de execution
 
 ## Fontes
 
@@ -117,3 +126,4 @@ Documentados por [[sal-shirgaleev]] em [[2026-04-22_sal-shirgaleev-5-comandos-cl
 - [[2026-04-14_eduardo-santos-vibe-prospecting]]
 - [[2026-04-22_sal-shirgaleev-5-comandos-claude]]
 - [[2026-04-18_alex-finn-dicas-claude-code]]
+- [[2026-04-20_nate-herk-gerenciar-limites-sessao]]

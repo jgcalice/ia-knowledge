@@ -1,8 +1,8 @@
 ---
 title: "Agentes de IA"
 type: concept
-tags: [agentes-ia, claude-code, automação, multi-agent, subagentes]
-source_count: 6
+tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens]
+source_count: 7
 last_updated: 2026-04-23
 ---
 
@@ -47,6 +47,16 @@ Sistemas baseados em LLMs que executam tarefas de forma autônoma, podendo integ
 [[aashish-pahwa]] cataloga 6 skills (Feature Forge, Spec Miner, The Fool, Architecture Designer, API Designer, Microservice Architect) — cada uma opera como micro-agente especializado ativado por frase-gatilho. Marketplaces como [[smithery]] têm 128k+ skills — evidência de ecossistema maduro de agentes compartilháveis.
 → [[2026-04-07_claude-skills-product-managers]]
 
+### Sub-agentes como estratégia de token management
+([[nate-herk]], [[2026-04-20_nate-herk-gerenciar-limites-sessao]])
+
+Além de paralelizar trabalho, sub-agentes são uma estratégia primária para economizar tokens:
+- Cada sub-agente tem **janela de contexto própria e fresca** — o agente principal não acumula o trabalho interno
+- Podem usar modelos mais baratos: *"spin up a sub agent to summarize this using Haiku"*
+- Analogia: pesquisador interno — o chefe só recebe o resumo, não lê os 50 artigos junto
+
+Prompt simples de delegação: `"Spin up a sub agent to [tarefa] and make sure that sub agent is using Haiku"`
+
 ## Fontes
 
 - [[2026-04-17_claude-update-task-assignment]]
@@ -55,3 +65,4 @@ Sistemas baseados em LLMs que executam tarefas de forma autônoma, podendo integ
 - [[2026-04-05_5-videos-especialista-claude]]
 - [[2026-04-07_5-negocios-automatizados-ia]]
 - [[2026-04-07_claude-skills-product-managers]]
+- [[2026-04-20_nate-herk-gerenciar-limites-sessao]]

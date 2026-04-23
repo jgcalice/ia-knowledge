@@ -1,8 +1,8 @@
 ---
 title: "Otimização de Tokens no Claude"
 type: concept
-tags: [tokens, otimização, claude, pdf, markdown, contexto, modelo]
-source_count: 5
+tags: [tokens, otimização, claude, pdf, markdown, contexto, modelo, sessão, context-rot]
+source_count: 6
 last_updated: 2026-04-23
 ---
 
@@ -59,9 +59,69 @@ Instalar [[graphify]] no workspace do Claude Code: a ferramenta escaneia todos o
 
 Técnica baseada no sistema de [[andrej-karpathy]] (ex-OpenAI/Tesla). Visualização possível via [[obsidian]] graph view.
 
+### 8. Mecânica real dos tokens — custo exponencial
+([[nate-herk]], [[2026-04-20_nate-herk-gerenciar-limites-sessao]])
+
+- Cada mensagem faz o Claude **reler toda a conversa** desde o início — custo compõe, não soma
+- Mensagem 1 = ~500 tokens; Mensagem 30 = ~15.500 tokens (31x mais)
+- Análise de 100+ msgs por um desenvolvedor: **98,5% dos tokens foram gastos relendo histórico**
+- Sessões frescas já consomem overhead: [[claude-code]] pode partir de 62.000 tokens antes do primeiro prompt (CLAUDE.md + MCPs + skills)
+
+### 9. Context rot — degradação progressiva de qualidade
+([[nate-herk]], [[2026-04-20_nate-herk-gerenciar-limites-sessao]])
+
+- À medida que a sessão cresce, a atenção do modelo se dispersa e a qualidade degrada
+- **Dados**: acurácia de recuperação cai de 92% (256k tokens) → 78% (1M tokens)
+- Sintomas: edição de arquivos sem leitura, contradições, respostas vagas
+- Implicação: sessões longas custam mais E produzem pior output — o problema é duplo
+- Análise de 18.000 thinking blocks / 7.000 sessões: profundidade de thinking caiu 67% com sessões mais longas; "edit without reading" foi de 6% → 34%
+
+### 10. Compactação manual vs. automática
+([[nate-herk]], [[2026-04-20_nate-herk-gerenciar-limites-sessao]])
+
+> ⚠️ Complementa (e amplia) a Técnica #5 (compactação com `/compact`)
+
+| Tipo | Quando dispara | Resultado |
+|------|---------------|-----------|
+| Auto compaction | 95% da janela | Retém 20-30% dos detalhes; dispara no pico do context rot |
+| `/compact` | Manual | Resume o histórico, melhor que auto mas ainda perde contexto |
+| Session handoff (Nate) | ~12% da janela (120k/1M) | Resumo controlado + `/clear` + nova sessão com handoff = melhor qualidade |
+
+**Método session handoff:**
+1. Pedir ao Claude: *"Give me a full summary of everything we've done and current status"*
+2. Copiar o resumo
+3. `/clear` — janela completamente fresca
+4. Colar o resumo e continuar
+
+[[nate-herk]] construiu uma skill `/session handoff` que automatiza esse processo e gera um output estruturado com: decisões bloqueadas, arquivos-chave, estado atual e perguntas abertas.
+
+> Divergência registrada: [[sal-shirgaleev]] recomenda `/compact` como boa prática; [[nate-herk]] diz que abandonou `/compact` em favor do session handoff manual. Ambas são válidas — a diferença é o nível de controle sobre o que é preservado.
+
+### 11. /rewind — voltar no tempo e limpar contexto
+([[nate-herk]], [[2026-04-20_nate-herk-gerenciar-limites-sessao]])
+
+- `/re` (double ESC ou comando): pula para qualquer mensagem anterior e descarta tudo depois
+- Inclui opção "summarize from here" para criar handoff note a partir daquele ponto
+- Prática recomendada pela Anthropic: usar após tentativas falhas em vez de deixar código errado no contexto
+
+### 12. /btw — perguntas laterais sem poluir o contexto
+([[nate-herk]], [[2026-04-20_nate-herk-gerenciar-limites-sessao]])
+
+- `/btw` abre overlay para perguntas rápidas que **não entram no histórico da sessão**
+- Mantém o contexto principal limpo enquanto resolve dúvidas pontuais
+
+### 13. Regra dos 0-20% (Prime Time)
+([[nate-herk]], [[2026-04-20_nate-herk-gerenciar-limites-sessao]])
+
+- Os primeiros 20% da sessão têm melhor performance: CLAUDE.md fresco, sem context rot
+- [[nate-herk]] usa 120k tokens como limite pessoal no Opus (1M ctx) e reinicia via session handoff
+- Um usuário foi de $345/mês → $42.000/mês apenas por maus hábitos de contexto (sem aumento de output quality)
+
 ## Princípio unificador
 
 > "The clearer and tighter your input, the less work Claude has to do, and the longer your session lasts before you hit a wall." — @Evolving AI
+
+> "The 1 million token window is insurance, not a goal to fill." — @Nate Herk
 
 ## Fontes
 
@@ -70,3 +130,4 @@ Técnica baseada no sistema de [[andrej-karpathy]] (ex-OpenAI/Tesla). Visualiza�
 - [[2026-04-11_transformacao-linkedin-ia]] (indiretamente — prompts concisos)
 - [[2026-04-12_graphify-memoria-infinita-claude]]
 - [[2026-04-22_sal-shirgaleev-5-comandos-claude]]
+- [[2026-04-20_nate-herk-gerenciar-limites-sessao]]
