@@ -1,0 +1,82 @@
+---
+title: "Carreira e Negócios com IA"
+type: concept
+tags: [carreira, negócios, linkedin, ia, recrutamento, oportunidades, renda, transição-de-carreira]
+source_count: 7
+last_updated: 2026-04-21
+---
+
+# Carreira e Negócios com IA
+
+> **Fontes:** 7 | **Domínio:** Aplicações de IA para desenvolvimento profissional
+
+## Definição
+
+Uso de LLMs para acelerar progressão de carreira (visibilidade, posicionamento, acesso a oportunidades) e/ou construir negócios baseados em implementação de IA.
+
+## O que foi documentado
+
+### 1. Otimização de perfil LinkedIn
+[[bruno-souza]] ensina um sistema completo de reescrita de perfil com 5 prompts:
+1. Headline otimizado para buscas de recrutadores (máx 120 chars)
+2. About section persuasiva e humanizada (máx 2000 chars)
+3. Mensagens de referência em 3 versões (máx 300 chars)
+4. Skills e keywords alinhadas às vagas-alvo
+5. Experiência: "Fiz X, usando Y, o que resultou em Z" + métricas
+→ [[2026-04-11_transformacao-linkedin-ia]]
+
+### 2. Busca de emprego automatizada
+Sistema Career Ops (open-source, MIT) construído com Claude Code:
+- Avalia 700+ vagas em 10 dimensões de compatibilidade
+- Gera currículo ATS-otimizado por vaga
+- Resultado documentado: oferta de emprego real
+→ [[2026-04-07_career-ops-busca-emprego-ia]] | Ferramenta: [[career-ops]]
+
+### 3. Redesenho estratégico de carreira (Tim Ferriss)
+4 prompts para Claude no estilo Tim Ferriss:
+- **Prompt 1**: Identificar vantagem injusta (combinação rara de skills, regra 80/20)
+- **Prompt 2**: Auditoria DEAL — Definir, Eliminar, Automatizar, Liberar (meta: +10h livres/semana)
+- **Prompt 3**: Ver para onde a carreira leva (freedom ratio + fear-setting + comparação 5 anos)
+- **Prompt 4**: Estratégia de riqueza de 10 anos (muse business → automação → ownership)
+→ [[2026-03-22_redesenho-carreira-tim-ferriss]] | Autor: [[god-of-prompt]]
+
+### 4. Monetização de skills existentes (Sabrina Ramonov)
+4 prompts sequenciais para identificar o que vender agora:
+- Prompt 1: 2 formas de ganhar $1.000 em 30 dias com skills já existentes, sem audiência
+- Prompt 2: encontrar mentor referência (1 pessoa)
+- Prompt 3: plano de 20 dias para primeiro cliente (aquisição começa no dia 1)
+- Bônus: cortar o plano na metade, manter só o que leva a dinheiro
+→ [[2026-04-17_prompts-renda-rapida]] | Autor: [[sabrina-ramonov]]
+
+### 5. Certificação Claude Certified Architect
+Certificação gratuita da Anthropic, valorizada corporativamente (Deloitte):
+- 2 horas, 60 questões, proctored com webcam
+- Conteúdo: construção de agentes e pipelines de deployment
+- 4 passos: Claude Partner Network → prep courses → practice exam → exame real
+→ [[2026-03-26_certificacao-claude-architect]] | Autor: [[bashiri]]
+
+### 6. Estratégia de riqueza (Naval Ravikant)
+6 prompts aplicando filosofia Naval — parar de trocar tempo por dinheiro:
+- Foco em renda que escala sem input proporcional de tempo
+→ [[2026-04-16_wealth-protocol-naval]] | Autor: [[god-of-prompt]]
+
+### 7. Modelo de negócio: implementador de IA
+Bruno Souza apresenta o modelo de implementar IA para negócios locais:
+- $1-2k/mês por cliente
+- Sem necessidade de código ou formação técnica
+
+> ⚠️ **Nota crítica**: Afirmações de resultado de Bruno Souza e Sabrina Ramonov têm forte componente de venda de infoproduto. Valores não verificados.
+
+## Padrão recorrente no feed
+
+Há **convergência temática clara**: múltiplos criadores internacionais reforçam que combinar skills existentes + IA é mais valioso que uma skill isolada. A direção não é "aprenda IA do zero", mas "use IA para ampliar o que você já faz bem."
+
+## Fontes
+
+- [[2026-04-11_transformacao-linkedin-ia]]
+- [[2026-04-07_career-ops-busca-emprego-ia]]
+- [[2026-03-22_redesenho-carreira-tim-ferriss]]
+- [[2026-04-17_prompts-renda-rapida]]
+- [[2026-03-26_certificacao-claude-architect]]
+- [[2026-04-16_wealth-protocol-naval]]
+- [[2026-04-01_claude-fundador-startup-7-prompts]]

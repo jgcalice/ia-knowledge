@@ -1,0 +1,18 @@
+# Obsidian — ignorar estado local/ambiente
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+
+# Claude Code — configs locais com preferências pessoais
+.claude/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporários
+*.tmp
+*.bak
+*~

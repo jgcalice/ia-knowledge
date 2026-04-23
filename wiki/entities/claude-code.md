@@ -1,0 +1,67 @@
+---
+title: "Claude / Claude Code"
+type: entity
+category: tool
+tags: [llm, claude, anthropic, claude-code, ia]
+source_count: 16
+last_updated: 2026-04-21
+---
+
+# Claude / Claude Code
+
+> **Categoria:** Ferramenta — LLM | **Fabricante:** Anthropic | **Aparece em:** 5 fontes
+
+## O que é
+
+Claude é o modelo de linguagem da Anthropic. Claude Code (referido nos posts como "Cloud Code" ou "CloudCode") é a interface CLI/agente do Claude, capaz de executar código, integrar ferramentas via conectores e fazer scraping. Nas fontes deste wiki, é a ferramenta central em quase todos os workflows.
+
+## Modelos mencionados
+
+| Modelo | Características (conforme [[2026-04-18_7-hacks-tokens-claude]]) |
+|--------|----------------------------------------------------------------|
+| Haiku | Tarefas simples, classificação, formatação, alto volume |
+| Sonnet | Código, análise de dados, Q&A geral — melhor custo-benefício |
+| Opus | Arquitetura complexa, debugging profundo, escrita longa — ~5x mais caro que Sonnet |
+
+## Usos documentados no wiki
+
+- **Geração de leads via Google Maps** — com [[api-file]] ([[lucas-garcia-pit]]) e [[apify]] ([[hudson-brendon]])
+- **Otimização de perfil LinkedIn** — via prompts estruturados ([[bruno-souza]])
+- **Interpretação de documentos** — com pré-processamento via [[markitdown]] ([[rafael-brandao]])
+- **Busca de emprego automatizada** — sistema Career Ops avalia 700+ vagas e gera currículos ATS ([[2026-04-07_career-ops-busca-emprego-ia]])
+- **Redesenho de carreira** — prompts Tim Ferriss e Naval Ravikant para estratégia de riqueza ([[god-of-prompt]])
+- **Certificação Architect** — exame formal da Anthropic para AI Engineering ([[bashiri]])
+- **Criação de marca completa** — 120+ agentes em pipeline para branding em 2h ([[rafael-brandao]])
+- **SEO com IA** — criação de llms.txt e Markdown mirrors para ranking no Google ([[brycen-wood]])
+- **Estratégia de negócios** — 7 prompts para análise de mercado, oferta e escalonamento ([[evolving-ai]], [[business-bulls]])
+- **Monetização de skills** — prompts para identificar o que vender e plano de 20 dias ([[sabrina-ramonov]])
+
+## Boas práticas identificadas
+
+- Dar contexto completo sobre o projeto e ICP antes de iniciar scraping de leads
+- Usar o mesmo chat para evitar repetição de leads já capturados
+- Escolher o modelo certo para cada tarefa (ver tabela acima)
+- Usar o "Compact Skill" para compactar sessões longas antes de iniciar novo chat
+
+## Fontes
+
+- [[2026-03-19_leads-infinitos-cloudcode]]
+- [[2026-03-28_prospecção-leads-claude-apify]]
+- [[2026-04-11_transformacao-linkedin-ia]]
+- [[2026-04-11_tokens-markdown]]
+- [[2026-04-18_7-hacks-tokens-claude]]
+- [[2026-02-25_idea-reality-mcp]]
+- [[2026-03-11_ferramentas-dev-essenciais]]
+- [[2026-03-22_redesenho-carreira-tim-ferriss]]
+- [[2026-03-24_aprender-com-claude-6-prompts]]
+- [[2026-03-26_certificacao-claude-architect]]
+- [[2026-04-01_claude-fundador-startup-7-prompts]]
+- [[2026-04-05_5-videos-especialista-claude]]
+- [[2026-04-07_career-ops-busca-emprego-ia]]
+- [[2026-04-11_seo-3-arquivos]]
+- [[2026-04-14_marca-cloudcode-2horas]]
+- [[2026-04-15_leads-qualificados-claudecode]]
+- [[2026-04-16_wealth-protocol-naval]]
+- [[2026-04-17_claude-update-task-assignment]]
+- [[2026-04-17_prompts-renda-rapida]]
+- [[2026-04-20_claude-ceo-7-prompts]]
