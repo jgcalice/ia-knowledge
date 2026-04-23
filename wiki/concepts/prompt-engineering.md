@@ -2,7 +2,7 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas]
-source_count: 15
+source_count: 16
 last_updated: 2026-04-23
 ---
 
@@ -94,6 +94,21 @@ Comandos built-in do Claude Code funcionam como prompts de sistema permanentes o
 - `/review` — prompt de QA profundo embutido: audita todo o codebase, não só o arquivo aberto
 → [[2026-04-22_sal-shirgaleev-5-comandos-claude]]
 
+### Adaptive Thinking via Prompts
+Com Opus 4.7, o extended thinking não tem mais toggle de UI — é controlado exclusivamente por linguagem natural no prompt:
+- Tarefa complexa / desafiadora: `"think carefully step by step"`
+- Tarefa simples / trivial: `"prioritize responding quickly rather than thinking deeply"`
+
+Combinado com `/effort`, o usuário controla dois eixos independentes:
+- **Esforço total na tarefa** → `/effort` (low → max)
+- **Profundidade de raciocínio por microtarefa** → instrução de thinking no prompt
+
+→ [[2026-04-18_alex-finn-dicas-claude-code]]
+
+### Frontload Information
+Opus 4.7 é superior na capacidade de seguir instruções longas e complexas fornecidas de uma vez só. Melhor prática: enviar todas as especificações, restrições e requisitos em um único prompt inicial em vez de incrementalmente. Em Auto Mode, o modelo executa o plano completo sem interrupções.
+→ [[2026-04-18_alex-finn-dicas-claude-code]]
+
 ## Fontes
 
 - [[2026-03-19_leads-infinitos-cloudcode]]
@@ -111,3 +126,4 @@ Comandos built-in do Claude Code funcionam como prompts de sistema permanentes o
 - [[2026-04-07_claude-skills-product-managers]]
 - [[2026-04-17_mini-web-app-claude]]
 - [[2026-04-22_sal-shirgaleev-5-comandos-claude]]
+- [[2026-04-18_alex-finn-dicas-claude-code]]

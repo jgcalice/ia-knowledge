@@ -3,7 +3,7 @@ title: "Claude / Claude Code"
 type: entity
 category: tool
 tags: [llm, claude, anthropic, claude-code, ia]
-source_count: 23
+source_count: 24
 last_updated: 2026-04-23
 ---
 
@@ -38,9 +38,37 @@ Claude é o modelo de linguagem da Anthropic. Claude Code (referido nos posts co
 - **Memória infinita via grafo** — instalação do [[graphify]] mapeia o workspace em grafo de conhecimento → 71,5x menos tokens por sessão ([[marc-cleroux]])
 - **Prospecção via Conector** — uso dos Conectores do Claude.ai + [[vibe-prospecting]] para gerar listas de leads por nicho/cargo/cidade, 100% gratuito via browser ([[eduardo-santos]])
 
+## Modos de operação
+
+| Modo | Como ativar | Comportamento |
+|------|-------------|---------------|
+| Auto Mode | `Shift+Tab` 3x no CLI | Claude decide permissões autonomamente — permite sessões contínuas de horas sem interrupção. Recomendado como padrão. |
+| Accept Edits | `Shift+Tab` 2x | Aceita edições automaticamente, mas ainda pede aprovação para ações maiores |
+| Default | padrão | Pede aprovação a cada passo |
+
+Documentado por [[alex-finn]] em [[2026-04-18_alex-finn-dicas-claude-code]].
+
+## Níveis de esforço (/effort)
+
+Configurado via `/effort` (Boris Cherny / [[alex-finn]]):
+
+| Nível | Quando usar |
+|-------|-------------|
+| max | Prompt inicial de kickoff de app (frontload completo) |
+| extra high | Maioria das tarefas de desenvolvimento |
+| high / medium / low | Planos baratos ou tarefas triviais (ex: mudar cor de botão) |
+
+## Adaptive Thinking (Opus 4.7)
+
+Opus 4.7 **removeu o toggle de extended thinking** do Opus 4.6. O controle de profundidade de raciocínio agora é feito via prompt:
+- Tarefa complexa: `"think carefully step by step"`
+- Tarefa simples: `"prioritize responding quickly rather than thinking deeply"`
+
+Os dois eixos de controle são independentes: `/effort` controla duração total na tarefa; instrução de thinking controla profundidade por microtarefa.
+
 ## Comandos built-in (pouco conhecidos)
 
-Documentados por [[sal-shirgaleev]] em [[2026-04-22_sal-shirgaleev-5-comandos-claude]]:
+Documentados por [[sal-shirgaleev]] em [[2026-04-22_sal-shirgaleev-5-comandos-claude]] e [[alex-finn]] em [[2026-04-18_alex-finn-dicas-claude-code]]:
 
 | Comando | Função |
 |---------|--------|
@@ -49,6 +77,8 @@ Documentados por [[sal-shirgaleev]] em [[2026-04-22_sal-shirgaleev-5-comandos-cl
 | `/review` | Auditoria completa do codebase: bugs, edge cases, segurança, code smell |
 | `/plan` | Gera mapa de execução (etapas, arquivos, decisões) antes de escrever qualquer código |
 | `/compact` | Comprime o histórico da sessão sem perder intenção — evita "esquecimento" em sessões longas |
+| `/recap` | Gera resumo de uma linha de tudo que o agente fez na sessão — útil ao retomar sessões longas |
+| `/effort` | Configura o nível de esforço por tarefa (low/medium/high/extra high/max) |
 
 ## Boas práticas identificadas
 
@@ -57,6 +87,9 @@ Documentados por [[sal-shirgaleev]] em [[2026-04-22_sal-shirgaleev-5-comandos-cl
 - Escolher o modelo certo para cada tarefa (ver tabela acima)
 - Usar `/compact` para compactar sessões longas antes de iniciar novo chat (comando built-in)
 - Usar `/plan` antes de qualquer feature para evitar retrabalho por desalinhamento
+- Ativar Auto Mode para evitar interrupções constantes de permissão em sessões longas
+- Frontloading: enviar todas as instruções de uma vez em projetos novos, em vez de incrementalmente
+- Configurar notificações via prompt: `"after every piece of work you do, please send me a notification"`
 
 ## Fontes
 
@@ -83,3 +116,4 @@ Documentados por [[sal-shirgaleev]] em [[2026-04-22_sal-shirgaleev-5-comandos-cl
 - [[2026-04-12_graphify-memoria-infinita-claude]]
 - [[2026-04-14_eduardo-santos-vibe-prospecting]]
 - [[2026-04-22_sal-shirgaleev-5-comandos-claude]]
+- [[2026-04-18_alex-finn-dicas-claude-code]]

@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-23] ingest | 7 Dicas Claude Code + Opus 4.7 — @Alex Finn
+
+Fonte: `2026-04-18_alex_finn_8YhYtIF9PYI.md`. Páginas criadas: wiki/sources/2026-04-18_alex-finn-dicas-claude-code.md, entities/alex-finn.md. Atualizadas: entities/claude-code.md (source_count 23→24, seções Auto Mode, /effort, Adaptive Thinking, /recap, notificações), concepts/prompt-engineering.md (source_count 15→16, seções Adaptive Thinking e Frontload Information), wiki/overview.md (29→30 fontes, novo padrão emergente), index.md.
+
 ## [2026-04-23] ingest | 5 Comandos Claude Code Pouco Usados — @Sal Shirgaleev
 
 Fonte: `2026-04-22_sal_shirgaleev_DXa1Hf7ldZZ.md`. Páginas criadas: wiki/sources/2026-04-22_sal-shirgaleev-5-comandos-claude.md, entities/sal-shirgaleev.md. Atualizadas: entities/claude-code.md (source_count 22→23, nova seção "Comandos built-in"), concepts/otimização-de-tokens.md (source_count 4→5, /compact como comando built-in), concepts/prompt-engineering.md (source_count 14→15, nova seção "Comandos como interface de instrução"), overview.md (28→29 fontes), index.md.
