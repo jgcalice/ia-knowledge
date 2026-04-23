@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-23 | Total de páginas: 81 | Fontes ingeridas: 32
+> Atualizado em: 2026-04-23 | Total de páginas: 83 | Fontes ingeridas: 33
 
 ---
 
@@ -47,6 +47,7 @@
 | [[wiki/sources/2026-04-18_alex-finn-dicas-claude-code]] | @Alex Finn | 2026-04-18 | 7 dicas Claude Code + Opus 4.7: Auto Mode, /recap, /effort, Adaptive Thinking |
 | [[wiki/sources/2026-04-20_nate-herk-gerenciar-limites-sessao]] | @Nate Herk | 2026-04-20 | Gerenciar limites de sessão: context rot, session handoff, sub-agentes, /btw |
 | [[wiki/sources/2026-04-15_lucas-garcia-pit-seguranca-claudecode]] | @Lucas Garcia Pit | 2026-04-15 | 5 fundamentos de segurança para apps construídos com Claude Code |
+| [[wiki/sources/2026-04-22_pabloinpublic-find-skills]] | @PabloInPublic | 2026-04-22 | find-skills: meta-skill Vercel Labs para descobrir skills no Claude Code |
 
 ---
 
@@ -108,6 +109,7 @@
 | [[wiki/entities/sal-shirgaleev]] | @sshirg | 1 | Comandos e hacks de produtividade com Claude Code |
 | [[wiki/entities/alex-finn]] | @Alex Finn | 1 | Vibe Coding, Claude Code, YouTube creator |
 | [[wiki/entities/nate-herk]] | @Nate Herk | 1 | AI Automation, gestão de tokens/sessão, token dashboard |
+| [[wiki/entities/pablo-in-public]] | @PabloInPublic | 1 | Build in public, dicas Claude Code (espanhol) |
 
 ### Pessoas / Criadores (Internacional)
 

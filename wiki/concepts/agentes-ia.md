@@ -2,7 +2,7 @@
 title: "Agentes de IA"
 type: concept
 tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens]
-source_count: 7
+source_count: 8
 last_updated: 2026-04-23
 ---
 
@@ -57,6 +57,14 @@ Além de paralelizar trabalho, sub-agentes são uma estratégia primária para e
 
 Prompt simples de delegação: `"Spin up a sub agent to [tarefa] and make sure that sub agent is using Haiku"`
 
+### Meta-skill de descoberta: find-skills
+
+([[pablo-in-public]], [[2026-04-22_pabloinpublic-find-skills]])
+
+Com 128k+ skills publicadas, o gargalo deixou de ser "não existir skills" e passou a ser "não saber qual instalar". A `find-skills` (Vercel Labs) é uma meta-skill que resolve isso: busca entre todas as outras usando linguagem natural dentro do Claude Code, eliminando busca cega e leitura de documentações extensivas.
+
+Padrão novo no wiki: **skill como orquestradora de descoberta de outras skills** — uma camada meta no ecossistema de agentes distribuíveis.
+
 ## Fontes
 
 - [[2026-04-17_claude-update-task-assignment]]
@@ -66,3 +74,4 @@ Prompt simples de delegação: `"Spin up a sub agent to [tarefa] and make sure t
 - [[2026-04-07_5-negocios-automatizados-ia]]
 - [[2026-04-07_claude-skills-product-managers]]
 - [[2026-04-20_nate-herk-gerenciar-limites-sessao]]
+- [[2026-04-22_pabloinpublic-find-skills]]

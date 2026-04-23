@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-23] ingest | find-skills: Meta-skill para Descoberta de Skills no Claude Code — @PabloInPublic
+
+Fonte: `2026-04-22_pabloinpublic_DXcWjL0jLsd.md`. Páginas criadas: wiki/sources/2026-04-22_pabloinpublic-find-skills.md, entities/pablo-in-public.md. Atualizadas: entities/claude-skills.md (source_count 1→2, nova seção "Meta-skill de descoberta: find-skills"), entities/claude-code.md (source_count 26→27, find-skills em "Usos documentados"), concepts/agentes-ia.md (source_count 7→8, nova seção "Meta-skill de descoberta"), wiki/overview.md (32→33 fontes, novo padrão emergente, pablo-in-public no mapa, status table), index.md (+1 fonte, +1 entidade, total 83 páginas).
+
 ## [2026-04-23] ingest | Segurança no Uso do Claude Code — @Lucas Garcia Pit
 
 Fonte: `2026-04-15_lucas_garcia_pit_pit_ia_negocios_DXJw3MkkScn.md`. Páginas criadas: wiki/sources/2026-04-15_lucas-garcia-pit-seguranca-claudecode.md, wiki/concepts/segurança-com-ia.md. Atualizadas: entities/lucas-garcia-pit.md (source_count 1→2, novo conteúdo + tema segurança), entities/claude-code.md (source_count 25→26, nova seção "Segurança ao usar Claude Code"), wiki/overview.md (31→32 fontes, novo Cluster 7 Segurança, novo padrão emergente), index.md (+1 fonte, +1 conceito, entidade lucas-garcia-pit atualizada).

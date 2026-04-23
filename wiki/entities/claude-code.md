@@ -3,7 +3,7 @@ title: "Claude / Claude Code"
 type: entity
 category: tool
 tags: [llm, claude, anthropic, claude-code, ia]
-source_count: 26
+source_count: 27
 last_updated: 2026-04-23
 ---
 
@@ -36,6 +36,7 @@ Claude é o modelo de linguagem da Anthropic. Claude Code (referido nos posts co
 - **Estratégia de negócios** — 7 prompts para análise de mercado, oferta e escalonamento ([[evolving-ai]], [[business-bulls]])
 - **Monetização de skills** — prompts para identificar o que vender e plano de 20 dias ([[sabrina-ramonov]])
 - **Memória infinita via grafo** — instalação do [[graphify]] mapeia o workspace em grafo de conhecimento → 71,5x menos tokens por sessão ([[marc-cleroux]])
+- **Descoberta de skills** — `find-skills` (Vercel Labs): meta-skill instalada via `npx` que busca entre milhares de skills publicadas no GitHub usando linguagem natural ([[pablo-in-public]])
 - **Prospecção via Conector** — uso dos Conectores do Claude.ai + [[vibe-prospecting]] para gerar listas de leads por nicho/cargo/cidade, 100% gratuito via browser ([[eduardo-santos]])
 
 ## Modos de operação
@@ -139,3 +140,4 @@ Documentado por [[lucas-garcia-pit]] em [[2026-04-15_lucas-garcia-pit-seguranca-
 - [[2026-04-22_sal-shirgaleev-5-comandos-claude]]
 - [[2026-04-18_alex-finn-dicas-claude-code]]
 - [[2026-04-20_nate-herk-gerenciar-limites-sessao]]
+- [[2026-04-22_pabloinpublic-find-skills]]

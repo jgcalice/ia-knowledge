@@ -3,7 +3,7 @@ title: "Claude Skills"
 type: entity
 category: tool
 tags: [claude, anthropic, skills, agentes-ia, prompt-engineering, marketplace]
-source_count: 1
+source_count: 2
 last_updated: 2026-04-23
 ---
 
@@ -36,6 +36,18 @@ Catalogadas via [[2026-04-07_claude-skills-product-managers]]:
 | API Designer | `APIs` | Endpoints, modelos de dados, OpenAPI |
 | Microservice Architect | `distributed systems` | Decomposição em serviços independentes |
 
+## Meta-skill de descoberta: find-skills
+
+Com o ecossistema em escala de centenas de milhares de skills, o problema virou **descoberta**. [[pablo-in-public]] documenta a solução: `find-skills` (Vercel Labs) — uma skill que busca entre todas as outras usando linguagem natural dentro do Claude Code.
+
+**Instalação:**
+```
+npx skills add https://github.com/vercel-labs/skills --skill find-skills
+```
+**Uso:** dentro do Claude Code, perguntar: "há alguma skill boa para [objetivo]?" → recebe a coincidência mais relevante.
+
+→ [[2026-04-22_pabloinpublic-find-skills]]
+
 ## Marketplaces
 
 - **[[smithery]]** — 128.624 skills catalogadas (escala de referência)
@@ -52,3 +64,4 @@ Catalogadas via [[2026-04-07_claude-skills-product-managers]]:
 ## Fontes
 
 - [[2026-04-07_claude-skills-product-managers]]
+- [[2026-04-22_pabloinpublic-find-skills]]
