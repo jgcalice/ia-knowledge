@@ -2,7 +2,7 @@
 title: "Estratégia de Negócios com IA"
 type: concept
 tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders]
-source_count: 6
+source_count: 7
 last_updated: 2026-04-24
 ---
 
@@ -59,6 +59,21 @@ Conteúdo idêntico aparece em duas fontes independentes ([[evolving-ai]] e [[bu
 | **AI Agency** | Agência automatiza outras empresas com IA | [[paul-hilse]] (via Martell/Ottley) |
 | **Stack de skills (founder solo)** | 5 skills open-source cobrindo ads, conversão, social, community e SEO | [[paras-madan]] |
 
+## Validação de ideias antes de construir (pré-estratégia)
+
+[[harry]] documenta 5 prompts sequenciais com framework [[paul-graham]] que **antecedem** toda estratégia — usados antes de qualquer código ou planejamento de mercado:
+
+| # | Prompt | O que responde |
+|---|--------|----------------|
+| 1 | Pressure Test | A suposição central é verdadeira? Quais as falhas fatais? |
+| 2 | Validate Problem | É uma dor real (painkiller) ou inventada (vitamina)? |
+| 3 | Map Competitors | Quem são os concorrentes — incluindo o comportamento atual? |
+| 4 | First 10 Customers | Como encontrá-los manualmente, sem automação? |
+| 5 | MVP in 2 Weeks | Qual a menor versão que testa a suposição mais arriscada? |
+
+Diferencial em relação aos 7 prompts de estratégia ([[evolving-ai]] / [[business-bulls]]): aqueles pressupõem um produto existente — este framework é a etapa anterior, para decidir se vale construir.
+→ [[2026-04-23_harry-validacao-startup-paul-graham]]
+
 ## Fontes
 
 - [[2026-04-01_claude-fundador-startup-7-prompts]]
@@ -67,3 +82,4 @@ Conteúdo idêntico aparece em duas fontes independentes ([[evolving-ai]] e [[bu
 - [[2026-04-17_mini-web-app-claude]]
 - [[2026-04-22_7-youtubers-ia]]
 - [[2026-04-18_paras-madan-top5-skills-founders]]
+- [[2026-04-23_harry-validacao-startup-paul-graham]]

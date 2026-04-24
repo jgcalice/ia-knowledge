@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-24] ingest | 5 Prompts para Validar Startup com Paul Graham — @Harry
+
+Fonte: `2026-04-23_harry_DXeq-yFkqRP.md`. Páginas criadas: wiki/sources/2026-04-23_harry-validacao-startup-paul-graham.md, entities/harry.md, entities/paul-graham.md. Atualizadas: concepts/prompt-engineering.md (source_count 19→20, subseção ROLE/TASK/STEPS/RULES/OUTPUT expandida com insight de usar nome de referencial como ROLE), concepts/estratégia-de-negócios-com-ia.md (source_count 6→7, nova seção "Validação de ideias antes de construir" com tabela dos 5 prompts PG), wiki/overview.md (37→38 fontes, harry no mapa Internacional, paul-graham em Referências externas, novo padrão emergente, status table 95→98 páginas), index.md (+1 fonte, +2 entidades, total 98 páginas).
+
 ## [2026-04-24] ingest | Top 5 Claude Skills para Fundadores — @Paras Madan
 
 Fonte: `2026-04-18_paras_madan_startups_tech_DXQ1hB_iK-s.md`. Páginas criadas: wiki/sources/2026-04-18_paras-madan-top5-skills-founders.md, entities/paras-madan.md. Atualizadas: entities/claude-skills.md (source_count 2→3, nova seção "Skills para Fundadores" com tabela das 5 skills: Meta Ads, Position Me, LinkedIn Post Generator, Reddit ICP Monitor, Google Trends SEO — distribuídas via varnam.tech/opendirectory), concepts/estratégia-de-negócios-com-ia.md (source_count 5→6, novo arquétipo "Stack de skills para founder solo" + tabela atualizada com 5 arquétipos), concepts/prompt-engineering.md (source_count 18→19, nova seção "Skills como pipeline de conteúdo parametrizado"), wiki/overview.md (36→37 fontes, paras-madan no mapa, 2 novos padrões emergentes, status table atualizada), index.md (+1 fonte, +1 entidade, total 95 páginas).

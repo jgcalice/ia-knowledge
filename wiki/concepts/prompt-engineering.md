@@ -2,7 +2,7 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas]
-source_count: 19
+source_count: 20
 last_updated: 2026-04-24
 ---
 
@@ -54,13 +54,15 @@ Antes de scraping de leads: fornecer ao LLM contexto completo sobre o projeto, o
 Prompts mais específicos e restritivos geralmente produzem resultados mais úteis e consomem menos tokens. A imprecisão no input gera imprecisão e verbosidade no output.
 
 ### Prompts com estrutura ROLE/TASK/STEPS/RULES/OUTPUT
-Formato ultra-estruturado adotado pelo [[god-of-prompt]]:
-- ROLE: define persona/especialidade do modelo
+Formato ultra-estruturado adotado em múltiplas fontes como padrão consolidado de prompts de alto desempenho para negócios:
+- ROLE: define persona/especialidade do modelo (ex: "Paul Graham-style YC evaluator", "Tim Ferriss coach")
 - TASK: objetivo claro em uma frase
 - STEPS: sequência numerada de ações
-- RULES: constraints explícitas (o que proibir)
-- OUTPUT: formato exato esperado
-→ [[2026-03-22_redesenho-carreira-tim-ferriss]], [[2026-04-16_wealth-protocol-naval]]
+- RULES: constraints explícitas (o que proibir — ex: "never say 'has potential but'")
+- OUTPUT: formato exato esperado (ex: "Core Assumption > Fatal Flaws > Verdict")
+
+Usar o nome de um investidor/especialista reconhecido como ROLE aumenta a especificidade — o modelo já carrega a semântica do estilo de raciocínio daquele referencial.
+→ [[2026-03-22_redesenho-carreira-tim-ferriss]], [[2026-04-16_wealth-protocol-naval]], [[2026-04-23_harry-validacao-startup-paul-graham]]
 
 ### Prompts sequenciais encadeados
 4 prompts em sequência no mesmo chat, cada um dependendo do anterior:
@@ -161,3 +163,4 @@ Diferencial vs. prompts únicos: são skills instaláveis, não prompts que o us
 - [[2026-04-18_alex-finn-dicas-claude-code]]
 - [[2026-04-16_sanskaar-singh-linkedin-prompts]]
 - [[2026-04-22_castilho-6-palavras-claude]]
+- [[2026-04-23_harry-validacao-startup-paul-graham]]
