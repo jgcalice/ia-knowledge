@@ -2,7 +2,7 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas]
-source_count: 18
+source_count: 19
 last_updated: 2026-04-24
 ---
 
@@ -131,6 +131,15 @@ Nomes de frameworks de raciocínio já conhecidos pelo modelo funcionam como ati
 
 Steelman e Red Team são opostos complementares: usados em sequência cobrem todo o espectro de revisão crítica.
 → [[2026-04-22_castilho-6-palavras-claude]] | [[castilho]]
+
+### Skills como pipeline de conteúdo parametrizado (Founder's stack)
+[[paras-madan]] documenta 3 skills que codificam pipelines completos de produção de conteúdo e análise:
+- **LinkedIn Post Generator:** qualquer input (blog, PR, frase) → detecção automática de hook + arco narrativo + formato (Founder/Ship, Insight, Product Launch) → post publicável
+- **Reddit ICP Monitor:** prompt permanente de escuta → score 1-5 por post → resposta útil (score ≥ 4) sem autopromoção
+- **Google Trends SEO:** query de tendência → breakout keyword → outline SEO completo
+
+Diferencial vs. prompts únicos: são skills instaláveis, não prompts que o usuário mantém — o pipeline fica encapsulado na skill.
+→ [[2026-04-18_paras-madan-top5-skills-founders]]
 
 ## Fontes
 

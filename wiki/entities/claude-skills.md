@@ -3,8 +3,8 @@ title: "Claude Skills"
 type: entity
 category: tool
 tags: [claude, anthropic, skills, agentes-ia, prompt-engineering, marketplace]
-source_count: 2
-last_updated: 2026-04-23
+source_count: 3
+last_updated: 2026-04-24
 ---
 
 # Claude Skills
@@ -61,7 +61,22 @@ npx skills add https://github.com/vercel-labs/skills --skill find-skills
 - [[prompt-engineering]] — formalização do padrão "palavra-gatilho"
 - [[adriano-couto]] — precursor artesanal (MECE, 5 Whys como gatilhos antes de virarem skills)
 
+## Skills para Fundadores (baseadas em [[paras-madan]])
+
+5 skills de fonte aberta distribuídas via `varnam.tech/opendirectory`, focadas em canais de crescimento para founders:
+
+| Skill | Canal | Destaque |
+|-------|-------|---------|
+| Meta Ads | Paid Ads | Agent como media buyer — CPA, audiências, relatórios da Meta API |
+| Position Me | Conversão | Crawl + LIFT model + reescrita PAS + GEO checks |
+| LinkedIn Post Generator | Social | Input livre → hook + arco narrativo + post publicável |
+| Reddit ICP Monitor | Community | Score 1-5 por post; ≥4 dispara resposta útil sem autopromoção |
+| Google Trends SEO | SEO | Breakout keywords antes do pico + outline SEO-otimizado |
+
+→ [[2026-04-18_paras-madan-top5-skills-founders]]
+
 ## Fontes
 
 - [[2026-04-07_claude-skills-product-managers]]
 - [[2026-04-22_pabloinpublic-find-skills]]
+- [[2026-04-18_paras-madan-top5-skills-founders]]

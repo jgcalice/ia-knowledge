@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-24] ingest | Top 5 Claude Skills para Fundadores — @Paras Madan
+
+Fonte: `2026-04-18_paras_madan_startups_tech_DXQ1hB_iK-s.md`. Páginas criadas: wiki/sources/2026-04-18_paras-madan-top5-skills-founders.md, entities/paras-madan.md. Atualizadas: entities/claude-skills.md (source_count 2→3, nova seção "Skills para Fundadores" com tabela das 5 skills: Meta Ads, Position Me, LinkedIn Post Generator, Reddit ICP Monitor, Google Trends SEO — distribuídas via varnam.tech/opendirectory), concepts/estratégia-de-negócios-com-ia.md (source_count 5→6, novo arquétipo "Stack de skills para founder solo" + tabela atualizada com 5 arquétipos), concepts/prompt-engineering.md (source_count 18→19, nova seção "Skills como pipeline de conteúdo parametrizado"), wiki/overview.md (36→37 fontes, paras-madan no mapa, 2 novos padrões emergentes, status table atualizada), index.md (+1 fonte, +1 entidade, total 95 páginas).
+
 ## [2026-04-24] ingest | Automação da Busca de Emprego com CareerOps Plugin — @Arshman Khalid
 
 Fonte: `2026-04-22_arshman_khalid_DXbCZz4t3iN.md`. Páginas criadas: wiki/sources/2026-04-22_arshman-khalid-automacao-busca-emprego.md, entities/arshman-khalid.md. Atualizadas: entities/career-ops.md (source_count 1→2, expansão do pipeline com versão plugin + LinkedIn Jobs Scraper), entities/apify.md (source_count 1→2, novo Actor LinkedIn Jobs Scraper documentado), entities/linkedin.md (source_count 4→5, nova fonte de scraping de vagas), concepts/busca-de-emprego-com-ia.md (source_count 1→2, nova seção com pipeline completo incluindo negociação salarial), concepts/carreira-com-ia.md (source_count 9→10, Career Ops v2 documentado), wiki/overview.md (35→36 fontes, nova linha na tabela Cluster 3, arshman-khalid no mapa), index.md (+1 fonte, +1 entidade, contadores atualizados, total 93 páginas).

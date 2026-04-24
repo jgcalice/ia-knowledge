@@ -2,12 +2,12 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-04-24
-source_count: 36
+source_count: 37
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 36 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão e Produto
+> Wiki iniciado em 2026-04-21 | 37 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão e Produto
 
 ## Tese atual
 
@@ -83,6 +83,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - 5 modelos nativos de IA (eBook, YouTube narrado, newsletter, curso online, agente WhatsApp como AIaaS) ([[bruno-wambier]])
 - Mini web app focado + Instagram como canal único ([[luna-vega]])
 - AI Agency (Dan Martell, Liam Ottley) — agência automatiza outras empresas ([[paul-hilse]])
+- Stack de 5 skills open-source para founder solo: Meta Ads + Position Me + LinkedIn Post Generator + Reddit ICP Monitor + Google Trends SEO ([[paras-madan]])
 
 ---
 
@@ -112,7 +113,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 **Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]]
 
-**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]]
+**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]]
 
 ---
 
@@ -129,7 +130,8 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - **Skills formalizam os gatilhos**: [[aashish-pahwa]] + [[smithery]] mostram ecossistema de ~128k Claude Skills — a palavra-gatilho artesanal virou pacote distribuível
 - **Ecossistema de skills exige tooling próprio**: `find-skills` (Vercel Labs) é uma meta-skill que busca entre todas as outras por linguagem natural — sinal de que o ecossistema atingiu escala de descoberta ([[pablo-in-public]])
 - **Mental Models como ativadores semânticos**: Steelman, Rubber Duck, SCAMPER, Force Multiplier, Red Team e Devil's Advocate funcionam como palavras-gatilho de segunda geração — nomes de frameworks de raciocínio que o modelo já conhece e executa com uma palavra ([[castilho]])
-- **Arquétipos de negócio se multiplicando**: já mapeamos 4 — consultoria estratégica, infoprodutos nativos, mini web app + Instagram, AI Agency. Nenhum é "IA só como ferramenta" — todos são **produtos/serviços nascidos da IA**
+- **Arquétipos de negócio se multiplicando**: já mapeamos 5 — consultoria estratégica, infoprodutos nativos, mini web app + Instagram, AI Agency, stack de skills para founder solo ([[paras-madan]]). Nenhum é "IA só como ferramenta" — todos são **produtos/serviços nascidos da IA**
+- **Skills como equipe virtual distribuível**: [[paras-madan]] expande o padrão de [[aashish-pahwa]] (skills para PMs) para canais de crescimento — o founder substitui media buyer, CRO consultant, copywriter, community manager e SEO analyst com 5 skills open-source
 - **Claude Code como agente autônomo**: Auto Mode + Frontload + Notificações mudam o paradigma de "babysitting" (aprovação constante) para "delegação real" — o agente trabalha horas sem supervisão ([[alex-finn]])
 - **Segurança como ponto cego do desenvolvimento com IA**: Claude Code acelera tanto o desenvolvimento que devs pulam fundamentos clássicos de back-end (RLS, rate limit, server-side secrets) — [[lucas-garcia-pit]] documenta os 5 mais críticos
 
@@ -139,9 +141,9 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 36 |
-| Páginas de fontes | 36 |
+| Fontes ingeridas | 37 |
+| Páginas de fontes | 37 |
 | Páginas de conceitos | 10 |
-| Páginas de entidades | 46 |
+| Páginas de entidades | 47 |
 | Páginas de síntese | 1 |
-| **Total de páginas** | **93** |
+| **Total de páginas** | **95** |

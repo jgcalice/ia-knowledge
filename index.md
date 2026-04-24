@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-24 | Total de páginas: 93 | Fontes ingeridas: 36
+> Atualizado em: 2026-04-24 | Total de páginas: 95 | Fontes ingeridas: 37
 
 ---
 
@@ -51,6 +51,7 @@
 | [[wiki/sources/2026-04-16_sanskaar-singh-linkedin-prompts]] | @Sanskaar Singh R • AI Wizard | 2026-04-16 | 5 prompts para transformar LinkedIn via perspectiva do recrutador |
 | [[wiki/sources/2026-04-22_castilho-6-palavras-claude]] | @castilhoia | 2026-04-22 | 6 palavras (Steelman, Rubber Duck, SCAMPER, Force Multiplier, Red Team, Devil's Advocate) como ativadores semânticos no Claude |
 | [[wiki/sources/2026-04-22_arshman-khalid-automacao-busca-emprego]] | @Arshman Khalid | 2026-04-22 | CareerOps plugin: automação completa da busca de emprego com LinkedIn + Apify |
+| [[wiki/sources/2026-04-18_paras-madan-top5-skills-founders]] | @Paras Madan | 2026-04-18 | Top 5 Claude Skills para fundadores: Meta Ads, Position Me, LinkedIn Post Generator, Reddit ICP Monitor, Google Trends SEO |
 
 ---
 
@@ -116,6 +117,7 @@
 | [[wiki/entities/sanskaar-singh]] | @Sanskaar Singh R • AI Wizard | 1 | LinkedIn + IA, diagnóstico recruiter-first |
 | [[wiki/entities/castilho]] | @castilhoia | 1 | IA para negócios, ativadores semânticos (Mental Models) no Claude |
 | [[wiki/entities/arshman-khalid]] | @Arshman Khalid | 1 | Automação de busca de emprego com CareerOps plugin + Apify LinkedIn |
+| [[wiki/entities/paras-madan]] | @Paras Madan | 1 | Claude Skills open-source para fundadores (ads, conversão, social, community, SEO) |
 
 ### Pessoas / Criadores (Internacional)
 
