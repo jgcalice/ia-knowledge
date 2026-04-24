@@ -2,8 +2,8 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas]
-source_count: 17
-last_updated: 2026-04-23
+source_count: 18
+last_updated: 2026-04-24
 ---
 
 # Prompt Engineering
@@ -117,6 +117,21 @@ Em vez de pedir ao LLM para "melhorar" um texto, solicitar que ele simule o julg
 Para decisões com componente criativo (headline, copy, pitch), pedir N versões ao longo de um espectro explícito (e.g., "de conservador a ousado"). Devolve a decisão criativa final ao usuário, que escolhe o ponto do espectro que prefere.
 → [[2026-04-16_sanskaar-singh-linkedin-prompts]]
 
+### Frameworks de raciocínio como ativadores semânticos (Mental Models)
+Nomes de frameworks de raciocínio já conhecidos pelo modelo funcionam como ativadores de modo — uma palavra muda o pipeline de resposta sem precisar explicar o método. Seis documentados:
+
+| Palavra | Efeito | Quando usar |
+|---------|--------|-------------|
+| **Steelman** | Constrói o argumento mais sólido possível em favor da ideia | Testar decisão antes de executar |
+| **Rubber Duck** | Faz perguntas para o usuário descobrir a resposta sozinho | Pensar em voz alta, não receber solução pronta |
+| **SCAMPER** | Gera variações sistemáticas (Substitute, Combine, Adapt, Modify, Put to other uses, Eliminate, Reverse) | Travado, precisa de ângulos novos |
+| **Force Multiplier** | Identifica a alavanca de maior impacto entre todas as iniciativas | Muitas frentes abertas, pouco foco |
+| **Red Team** | Ataca a ideia buscando todas as vulnerabilidades, sem filtro | Apresentar plano para quem vai tentar destruí-lo |
+| **Devil's Advocate** | Assume posição contrária à premissa definida com argumentos reais | Testar crença específica (cirúrgico, vs. Red Team que é total) |
+
+Steelman e Red Team são opostos complementares: usados em sequência cobrem todo o espectro de revisão crítica.
+→ [[2026-04-22_castilho-6-palavras-claude]] | [[castilho]]
+
 ## Fontes
 
 - [[2026-03-19_leads-infinitos-cloudcode]]
@@ -136,3 +151,4 @@ Para decisões com componente criativo (headline, copy, pitch), pedir N versões
 - [[2026-04-22_sal-shirgaleev-5-comandos-claude]]
 - [[2026-04-18_alex-finn-dicas-claude-code]]
 - [[2026-04-16_sanskaar-singh-linkedin-prompts]]
+- [[2026-04-22_castilho-6-palavras-claude]]

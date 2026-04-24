@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-24] ingest | 6 Palavras que Transformam o Claude em Super-Herói — @castilhoia
+
+Fonte: `2026-04-22_castilho_ia_para_negocios_DXb2sXKFhH-.md`. Páginas criadas: wiki/sources/2026-04-22_castilho-6-palavras-claude.md, entities/castilho.md. Atualizadas: concepts/prompt-engineering.md (source_count 17→18, nova subseção "Frameworks de raciocínio como ativadores semânticos" com tabela dos 6 mental models), wiki/overview.md (34→35 fontes, castilho no mapa BR, novo padrão emergente "Mental Models como ativadores semânticos"), index.md (+1 fonte, +1 entidade, total 87 páginas).
+
 ## [2026-04-23] ingest | 5 Prompts para Transformar LinkedIn com IA — @Sanskaar Singh R
 
 Fonte: `2026-04-16_sanskaar_singh_r_ai_wizard_DXLkANKE24F.md`. Páginas criadas: wiki/sources/2026-04-16_sanskaar-singh-linkedin-prompts.md, entities/sanskaar-singh.md. Atualizadas: entities/linkedin.md (source_count 3→4, nova Abordagem 2 "recruiter-first"), concepts/carreira-com-ia.md (source_count 8→9, seção LinkedIn expandida com abordagem Sanskaar), concepts/prompt-engineering.md (source_count 16→17, novas seções "Diagnóstico pelo ângulo do usuário-alvo" e "Entrega em espectro de versões"), wiki/overview.md (33→34 fontes, Cluster 3 atualizado, sanskaar-singh no mapa), index.md (+1 fonte, +1 entidade, total 85 páginas).
