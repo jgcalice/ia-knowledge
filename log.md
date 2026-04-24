@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-24] ingest | 7 Ferramentas OSINT para Segurança Digital — @Gustavo Melo
+
+Fonte: `2026-04-18_gustavo_melo_tecnologia_e_ia_DXSW7KNkUIl.md`. Páginas criadas: wiki/sources/2026-04-18_gustavo-melo-ferramentas-osint.md, entities/gustavo-melo.md. Atualizadas: concepts/segurança-com-ia.md (source_count 1→2, expansão do conceito para incluir Dimensão 2: OSINT/privacidade digital com tabela das 7 ferramentas), wiki/overview.md (42 fontes, gustavo-melo no mapa BR, novo padrão emergente OSINT como alfabetização digital, Cluster 7 expandido com Dimensão 2, status table 106 páginas), index.md (+1 fonte, +1 entidade, conceito atualizado, total 107 páginas).
+
 ## [2026-04-24] ingest | Importando da China com Fansbuy — @Nico
 
 Fonte: `2026-04-24_nico_DXhyXfQRtWi.md`. Conteúdo fora do escopo de IA (importação China/e-commerce). Páginas criadas: wiki/sources/2026-04-24_nico_fansbuy-importacao-china.md, entities/nico.md. index.md atualizado (+1 fonte, +1 entidade, total 105 páginas).

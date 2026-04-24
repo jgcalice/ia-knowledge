@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-24 | Total de páginas: 105 | Fontes ingeridas: 41
+> Atualizado em: 2026-04-24 | Total de páginas: 107 | Fontes ingeridas: 42
 
 ---
 
@@ -56,6 +56,7 @@
 | [[wiki/sources/2026-04-16_yik-chan-100-recursos-ocultos-claude]] | @Yik Chan | 2026-04-16 | 100 recursos ocultos do Claude: Daily Efficiency, Content Creation, Claude Code e Pro Users |
 | [[wiki/sources/2026-04-18_simplifying-ai-wealth-protocol-naval]] | @Simplifying AI | 2026-04-18 | Wealth Protocol: texto completo de 5 prompts Naval Ravikant para construir riqueza sem trocar tempo por dinheiro |
 | [[wiki/sources/2026-04-24_nico_fansbuy-importacao-china]] | @Nico | 2026-04-24 | ⚠️ Fora do escopo IA — Guia prático de importação da China via Fansbuy |
+| [[wiki/sources/2026-04-18_gustavo-melo-ferramentas-osint]] | @Gustavo Melo \| Tecnologia e IA | 2026-04-18 | 7 ferramentas OSINT para pesquisa e segurança digital (ZoomEye, Have I Been Pwned, Namecheck, Pic2Map, EPA, Exploding Database) |
 
 ---
 
@@ -72,7 +73,7 @@
 | [[wiki/concepts/agentes-ia]] | 6 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills |
 | [[wiki/concepts/estratégia-de-negócios-com-ia]] | 5 | 4 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
-| [[wiki/concepts/segurança-com-ia]] | 1 | Segurança no desenvolvimento de apps com LLMs (API keys, RLS, rate limit, webhooks) |
+| [[wiki/concepts/segurança-com-ia]] | 2 | Segurança no desenvolvimento de apps com LLMs + OSINT e privacidade digital |
 
 ---
 
@@ -128,6 +129,7 @@
 | [[wiki/entities/simplifying-ai]] | @Simplifying AI | 1 | Plataforma de "daily AI upgrade" — prompts e frameworks prontos (simplifyingai.co) |
 | [[wiki/entities/naval-ravikant]] | Naval Ravikant | 2 | Filósofo de riqueza — fundador AngelList — framework "Wealth Protocol" |
 | [[wiki/entities/nico]] | @Nico | 1 | Criador de conteúdo sobre importação da China (Fansbuy) — fora do escopo IA |
+| [[wiki/entities/gustavo-melo]] | @Gustavo Melo \| Tecnologia e IA | 1 | Segurança digital e OSINT (BR) — ferramentas de investigação e privacidade |
 
 ### Pessoas / Criadores (Internacional)
 

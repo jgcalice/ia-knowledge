@@ -2,12 +2,12 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-04-24
-source_count: 40
+source_count: 42
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 40 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão e Produto
+> Wiki iniciado em 2026-04-21 | 42 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão e Produto
 
 ## Tese atual
 
@@ -66,11 +66,12 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 ---
 
-### Cluster 7: Segurança no Desenvolvimento com IA (novo)
+### Cluster 7: Segurança Digital com IA
 **Conceito central:** [[segurança-com-ia]]
 
-- 5 fundamentos de segurança para apps construídos com Claude Code: API keys no servidor, RLS no Supabase, lógica sensível no back-end, rate limiting e webhooks com assinatura verificada ([[lucas-garcia-pit]])
-- Tese central: o risco não é a ferramenta (Claude Code), mas o dev que acelera sem fundamentos de back-end
+- **Dimensão 1 — Desenvolvimento**: 5 fundamentos de segurança para apps construídos com Claude Code: API keys no servidor, RLS no Supabase, lógica sensível no back-end, rate limiting e webhooks com assinatura verificada ([[lucas-garcia-pit]])
+- **Dimensão 2 — Privacidade/OSINT**: 7 ferramentas para mapear exposição de dados pessoais: ZoomEye (dispositivos expostos), Have I Been Pwned (vazamentos), Namecheck (contas), Pic2Map (EXIF), EPA (vínculos por e-mail/telefone), Exploding Database (Google Dorks) ([[gustavo-melo]])
+- **Tese unificada**: aceleração (via IA no dev, via internet na acumulação) cria exposições invisíveis que exigem consciência ativa para serem corrigidas
 
 ---
 
@@ -114,7 +115,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 **Conceitos de segurança**: [[segurança-com-ia]]
 
-**Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]]
+**Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]]
 
 **Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]]
 
@@ -137,6 +138,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - **Skills como equipe virtual distribuível**: [[paras-madan]] expande o padrão de [[aashish-pahwa]] (skills para PMs) para canais de crescimento — o founder substitui media buyer, CRO consultant, copywriter, community manager e SEO analyst com 5 skills open-source
 - **Claude Code como agente autônomo**: Auto Mode + Frontload + Notificações mudam o paradigma de "babysitting" (aprovação constante) para "delegação real" — o agente trabalha horas sem supervisão ([[alex-finn]])
 - **Segurança como ponto cego do desenvolvimento com IA**: Claude Code acelera tanto o desenvolvimento que devs pulam fundamentos clássicos de back-end (RLS, rate limit, server-side secrets) — [[lucas-garcia-pit]] documenta os 5 mais críticos
+- **OSINT como alfabetização digital**: a internet expõe muito mais dados pessoais do que as pessoas percebem — [[gustavo-melo]] apresenta 7 ferramentas (ZoomEye, Have I Been Pwned, Namecheck, Pic2Map, EPA, Exploding Database) para auditar a própria exposição; Have I Been Pwned é a mais legitimada pela comunidade de segurança
 - **Validação como etapa anterior à estratégia**: o framework [[paul-graham]] (via [[harry]]) documenta a camada pré-estratégia — testar ideia antes de qualquer planejamento de mercado; complementa os 7 prompts de [[evolving-ai]] / [[business-bulls]] que começam depois que o produto existe
 - **Claude tem dois modos de usuário documentados**: "usuário conversacional" (Daily Efficiency sem CLI, sem API — emails, PDFs, tone) e "usuário técnico" (Claude Code com CLAUDE.md, sub-agentes, slash commands); [[yik-chan]] é a primeira fonte a catalogar os 25 usos de nível básico de forma sistemática
 - **Brand Voice Document em Projects como padrão de persistência de estilo**: salvar tom/palavras proibidas/regras de escrita no Projects elimina repetição de briefing — evolução da lógica do CLAUDE.md para contextos de conteúdo (não só código)
@@ -148,9 +150,9 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 40 |
-| Páginas de fontes | 40 |
+| Fontes ingeridas | 42 |
+| Páginas de fontes | 42 |
 | Páginas de conceitos | 10 |
-| Páginas de entidades | 52 |
+| Páginas de entidades | 53 |
 | Páginas de síntese | 1 |
-| **Total de páginas** | **103** |
+| **Total de páginas** | **106** |
