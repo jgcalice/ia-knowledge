@@ -2,12 +2,12 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-04-24
-source_count: 35
+source_count: 36
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 35 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão e Produto
+> Wiki iniciado em 2026-04-21 | 36 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão e Produto
 
 ## Tese atual
 
@@ -57,7 +57,8 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 |--------|-----------|-------|
 | Visibilidade (LinkedIn) — Abordagem 1 | 5 prompts por formato/constraint para reescrever headline, about, skills, experiência | [[bruno-souza]] |
 | Visibilidade (LinkedIn) — Abordagem 2 | Diagnóstico recruiter-first + 5 versões em espectro + keywords por JD | [[sanskaar-singh]] |
-| Busca automatizada | Career Ops: 700+ vagas avaliadas, currículo ATS por vaga | [[career-ops]] |
+| Busca automatizada v1 | Career Ops terminal: 700+ vagas avaliadas, currículo ATS por vaga | [[career-ops]] |
+| Busca automatizada v2 | Career Ops plugin: LinkedIn scraping → scoring → ATS → STAR → outreach → negociação | [[arshman-khalid]] |
 | Redesenho estratégico | 4 prompts Tim Ferriss: vantagem injusta, DEAL, freedom ratio, 10 anos | [[god-of-prompt]] |
 | Monetização imediata | 4 prompts para ganhar $1k em 30 dias com skills existentes | [[sabrina-ramonov]] |
 | Certificação formal | Claude Certified Architect (grátis, proctored, valorizado pela Deloitte) | [[bashiri]] |
@@ -111,7 +112,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 **Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]]
 
-**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]]
+**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]]
 
 ---
 
@@ -138,9 +139,9 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 35 |
-| Páginas de fontes | 35 |
+| Fontes ingeridas | 36 |
+| Páginas de fontes | 36 |
 | Páginas de conceitos | 10 |
-| Páginas de entidades | 45 |
+| Páginas de entidades | 46 |
 | Páginas de síntese | 1 |
-| **Total de páginas** | **91** |
+| **Total de páginas** | **93** |

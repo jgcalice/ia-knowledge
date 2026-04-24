@@ -2,13 +2,13 @@
 title: "Carreira e Negócios com IA"
 type: concept
 tags: [carreira, negócios, linkedin, ia, recrutamento, oportunidades, renda, transição-de-carreira]
-source_count: 9
-last_updated: 2026-04-23
+source_count: 10
+last_updated: 2026-04-24
 ---
 
 # Carreira e Negócios com IA
 
-> **Fontes:** 8 | **Domínio:** Aplicações de IA para desenvolvimento profissional
+> **Fontes:** 10 | **Domínio:** Aplicações de IA para desenvolvimento profissional
 
 ## Definição
 
@@ -36,11 +36,17 @@ Dois sistemas documentados, com ângulos complementares:
 → [[2026-04-16_sanskaar-singh-linkedin-prompts]] | Autor: [[sanskaar-singh]]
 
 ### 2. Busca de emprego automatizada
-Sistema Career Ops (open-source, MIT) construído com Claude Code:
+
+**Career Ops v1** (open-source, MIT, script terminal):
 - Avalia 700+ vagas em 10 dimensões de compatibilidade
 - Gera currículo ATS-otimizado por vaga
 - Resultado documentado: oferta de emprego real
 → [[2026-04-07_career-ops-busca-emprego-ia]] | Ferramenta: [[career-ops]]
+
+**Career Ops v2** (plugin Claude, integrado ao Apify LinkedIn Jobs):
+- Pipeline end-to-end: scraping LinkedIn → scoring A-F → ATS resume + cover letter → gaps → STAR → outreach → negociação salarial
+- Arshman Khalid afirma 518 candidaturas → 28 entrevistas (incl. Google)
+→ [[2026-04-22_arshman-khalid-automacao-busca-emprego]] | Autor: [[arshman-khalid]]
 
 ### 3. Redesenho estratégico de carreira (Tim Ferriss)
 4 prompts para Claude no estilo Tim Ferriss:
@@ -98,3 +104,4 @@ Há **convergência temática clara**: múltiplos criadores internacionais refor
 - [[2026-04-16_wealth-protocol-naval]]
 - [[2026-04-01_claude-fundador-startup-7-prompts]]
 - [[2026-04-17_mini-web-app-claude]]
+- [[2026-04-22_arshman-khalid-automacao-busca-emprego]]

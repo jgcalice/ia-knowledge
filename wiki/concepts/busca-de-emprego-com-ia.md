@@ -1,14 +1,14 @@
 ---
 title: "Busca de Emprego com IA"
 type: concept
-tags: [carreira, busca-de-emprego, automação, ats, currículo, claude-code]
-source_count: 1
-last_updated: 2026-04-21
+tags: [carreira, busca-de-emprego, automação, ats, currículo, claude-code, apify, linkedin, negociação]
+source_count: 2
+last_updated: 2026-04-24
 ---
 
 # Busca de Emprego com IA
 
-> **Fontes:** 1 | **Domínio:** Automação de carreira / Job search pipeline
+> **Fontes:** 2 | **Domínio:** Automação de carreira / Job search pipeline
 
 ## Definição
 
@@ -46,6 +46,33 @@ A busca de emprego com IA complementa a otimização de LinkedIn:
 1. **LinkedIn otimizado** ([[2026-04-11_transformacao-linkedin-ia]]) → te acha por busca de recrutadores
 2. **Career Ops** → você acha as vagas certas e aplica com currículo customizado
 
+## CareerOps como plugin Claude (Arshman Khalid)
+
+Segunda documentação do Career Ops — desta vez como **plugin instalável via zip** no Claude, integrado ao **Apify LinkedIn Jobs Scraper**. Pipeline expandido em relação à versão anterior:
+
+```
+Scraping de vagas LinkedIn (via Apify)
+    ↓
+Scoring A-F contra experiência do candidato
+    ↓
+Currículo ATS + carta de apresentação para vagas A-tier
+    ↓
+Identificação de gaps de skills + como corrigir
+    ↓
+Histórias STAR mapeadas para a vaga
+    ↓
+Outreach para o hiring manager
+    ↓
+Scripts de negociação salarial (após oferta)
+```
+
+**Nova dimensão documentada:** o pipeline vai além da candidatura — acompanha até a negociação salarial, o que não estava documentado na fonte anterior.
+
+**Argumento central do autor:** "Empresas usam IA para rejeitar seu currículo em 6 segundos. Use IA para rejeitar a vaga delas em 3 segundos."
+
+→ [[2026-04-22_arshman-khalid-automacao-busca-emprego]] | Autor: [[arshman-khalid]]
+
 ## Fontes
 
 - [[2026-04-07_career-ops-busca-emprego-ia]]
+- [[2026-04-22_arshman-khalid-automacao-busca-emprego]]

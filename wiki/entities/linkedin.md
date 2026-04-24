@@ -3,8 +3,8 @@ title: "LinkedIn"
 type: entity
 category: platform
 tags: [linkedin, carreira, recrutamento, perfil, otimização]
-source_count: 4
-last_updated: 2026-04-23
+source_count: 5
+last_updated: 2026-04-24
 ---
 
 # LinkedIn
@@ -45,3 +45,4 @@ Diagnóstico antes de qualquer reescrita: pedir ao Claude para simular o julgame
 - [[2026-04-16_sanskaar-singh-linkedin-prompts]]
 - [[2026-04-07_career-ops-busca-emprego-ia]] — LinkedIn como canal de vagas integrado ao sistema Career Ops
 - [[2026-04-15_leads-qualificados-claudecode]] — LinkedIn como dado de enriquecimento de lead (perfil do prospect)
+- [[2026-04-22_arshman-khalid-automacao-busca-emprego]] — LinkedIn Jobs scraped via Apify Actor para alimentar pipeline de candidatura automatizada

@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-24] ingest | Automação da Busca de Emprego com CareerOps Plugin — @Arshman Khalid
+
+Fonte: `2026-04-22_arshman_khalid_DXbCZz4t3iN.md`. Páginas criadas: wiki/sources/2026-04-22_arshman-khalid-automacao-busca-emprego.md, entities/arshman-khalid.md. Atualizadas: entities/career-ops.md (source_count 1→2, expansão do pipeline com versão plugin + LinkedIn Jobs Scraper), entities/apify.md (source_count 1→2, novo Actor LinkedIn Jobs Scraper documentado), entities/linkedin.md (source_count 4→5, nova fonte de scraping de vagas), concepts/busca-de-emprego-com-ia.md (source_count 1→2, nova seção com pipeline completo incluindo negociação salarial), concepts/carreira-com-ia.md (source_count 9→10, Career Ops v2 documentado), wiki/overview.md (35→36 fontes, nova linha na tabela Cluster 3, arshman-khalid no mapa), index.md (+1 fonte, +1 entidade, contadores atualizados, total 93 páginas).
+
 ## [2026-04-24] ingest | 6 Palavras que Transformam o Claude em Super-Herói — @castilhoia
 
 Fonte: `2026-04-22_castilho_ia_para_negocios_DXb2sXKFhH-.md`. Páginas criadas: wiki/sources/2026-04-22_castilho-6-palavras-claude.md, entities/castilho.md. Atualizadas: concepts/prompt-engineering.md (source_count 17→18, nova subseção "Frameworks de raciocínio como ativadores semânticos" com tabela dos 6 mental models), wiki/overview.md (34→35 fontes, castilho no mapa BR, novo padrão emergente "Mental Models como ativadores semânticos"), index.md (+1 fonte, +1 entidade, total 87 páginas).

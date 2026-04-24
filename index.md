@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-24 | Total de páginas: 87 | Fontes ingeridas: 35
+> Atualizado em: 2026-04-24 | Total de páginas: 93 | Fontes ingeridas: 36
 
 ---
 
@@ -50,6 +50,7 @@
 | [[wiki/sources/2026-04-22_pabloinpublic-find-skills]] | @PabloInPublic | 2026-04-22 | find-skills: meta-skill Vercel Labs para descobrir skills no Claude Code |
 | [[wiki/sources/2026-04-16_sanskaar-singh-linkedin-prompts]] | @Sanskaar Singh R • AI Wizard | 2026-04-16 | 5 prompts para transformar LinkedIn via perspectiva do recrutador |
 | [[wiki/sources/2026-04-22_castilho-6-palavras-claude]] | @castilhoia | 2026-04-22 | 6 palavras (Steelman, Rubber Duck, SCAMPER, Force Multiplier, Red Team, Devil's Advocate) como ativadores semânticos no Claude |
+| [[wiki/sources/2026-04-22_arshman-khalid-automacao-busca-emprego]] | @Arshman Khalid | 2026-04-22 | CareerOps plugin: automação completa da busca de emprego com LinkedIn + Apify |
 
 ---
 
@@ -60,8 +61,8 @@
 | [[wiki/concepts/geração-de-leads-com-ia]] | 3 | Uso de LLMs + scraping para prospecção B2B automatizada |
 | [[wiki/concepts/otimização-de-tokens]] | 4 | Técnicas para reduzir consumo de tokens no Claude |
 | [[wiki/concepts/prompt-engineering]] | 14 | Padrões de estruturação + palavras-gatilho + Claude Skills |
-| [[wiki/concepts/carreira-com-ia]] | 8 | IA para aceleração de carreira, LinkedIn, renda e produtos próprios |
-| [[wiki/concepts/busca-de-emprego-com-ia]] | 1 | Busca de emprego automatizada com Career Ops e ATS |
+| [[wiki/concepts/carreira-com-ia]] | 10 | IA para aceleração de carreira, LinkedIn, renda e produtos próprios |
+| [[wiki/concepts/busca-de-emprego-com-ia]] | 2 | Busca de emprego automatizada com Career Ops e ATS |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 2 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
 | [[wiki/concepts/agentes-ia]] | 6 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills |
 | [[wiki/concepts/estratégia-de-negócios-com-ia]] | 5 | 4 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency) |
@@ -82,7 +83,7 @@
 | [[wiki/entities/markitdown]] | tool | 2 | Conversor de documentos para Markdown (Microsoft) |
 | [[wiki/entities/google-maps]] | platform | 2 | Fonte de dados para geração de leads B2B |
 | [[wiki/entities/linkedin]] | platform | 3 | Plataforma de otimização de perfil e busca de vagas |
-| [[wiki/entities/career-ops]] | tool | 1 | Sistema open-source de busca de emprego com Claude Code |
+| [[wiki/entities/career-ops]] | tool | 2 | Sistema open-source de busca de emprego com Claude Code (plugin + terminal) |
 | [[wiki/entities/claude-skills]] | tool | 1 | Feature Anthropic: pacotes nomeados de comportamento (Feature Forge, The Fool, etc.) |
 | [[wiki/entities/smithery]] | platform | 1 | Marketplace com 128k+ Claude Skills/MCPs |
 | [[wiki/entities/vibe-prospecting]] | tool | 1 | Conector Claude.ai para geração de leads por nicho/cargo/cidade |
@@ -114,6 +115,7 @@
 | [[wiki/entities/pablo-in-public]] | @PabloInPublic | 1 | Build in public, dicas Claude Code (espanhol) |
 | [[wiki/entities/sanskaar-singh]] | @Sanskaar Singh R • AI Wizard | 1 | LinkedIn + IA, diagnóstico recruiter-first |
 | [[wiki/entities/castilho]] | @castilhoia | 1 | IA para negócios, ativadores semânticos (Mental Models) no Claude |
+| [[wiki/entities/arshman-khalid]] | @Arshman Khalid | 1 | Automação de busca de emprego com CareerOps plugin + Apify LinkedIn |
 
 ### Pessoas / Criadores (Internacional)
 
