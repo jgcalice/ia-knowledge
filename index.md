@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-24 | Total de páginas: 103 | Fontes ingeridas: 40
+> Atualizado em: 2026-04-24 | Total de páginas: 105 | Fontes ingeridas: 41
 
 ---
 
@@ -55,6 +55,7 @@
 | [[wiki/sources/2026-04-23_harry-validacao-startup-paul-graham]] | @Harry | 2026-04-23 | 5 prompts para validar startup com framework de Paul Graham: pressure test, problema real, concorrentes, primeiros 10 clientes, MVP 2 semanas |
 | [[wiki/sources/2026-04-16_yik-chan-100-recursos-ocultos-claude]] | @Yik Chan | 2026-04-16 | 100 recursos ocultos do Claude: Daily Efficiency, Content Creation, Claude Code e Pro Users |
 | [[wiki/sources/2026-04-18_simplifying-ai-wealth-protocol-naval]] | @Simplifying AI | 2026-04-18 | Wealth Protocol: texto completo de 5 prompts Naval Ravikant para construir riqueza sem trocar tempo por dinheiro |
+| [[wiki/sources/2026-04-24_nico_fansbuy-importacao-china]] | @Nico | 2026-04-24 | ⚠️ Fora do escopo IA — Guia prático de importação da China via Fansbuy |
 
 ---
 
@@ -126,6 +127,7 @@
 | [[wiki/entities/yik-chan]] | @sifuyik | 1 | Dicas de produtividade com Claude: 100 recursos divididos em 4 categorias |
 | [[wiki/entities/simplifying-ai]] | @Simplifying AI | 1 | Plataforma de "daily AI upgrade" — prompts e frameworks prontos (simplifyingai.co) |
 | [[wiki/entities/naval-ravikant]] | Naval Ravikant | 2 | Filósofo de riqueza — fundador AngelList — framework "Wealth Protocol" |
+| [[wiki/entities/nico]] | @Nico | 1 | Criador de conteúdo sobre importação da China (Fansbuy) — fora do escopo IA |
 
 ### Pessoas / Criadores (Internacional)
 
