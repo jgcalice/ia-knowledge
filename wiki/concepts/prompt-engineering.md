@@ -2,7 +2,7 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas]
-source_count: 21
+source_count: 22
 last_updated: 2026-04-24
 ---
 
@@ -61,8 +61,8 @@ Formato ultra-estruturado adotado em múltiplas fontes como padrão consolidado 
 - RULES: constraints explícitas (o que proibir — ex: "never say 'has potential but'")
 - OUTPUT: formato exato esperado (ex: "Core Assumption > Fatal Flaws > Verdict")
 
-Usar o nome de um investidor/especialista reconhecido como ROLE aumenta a especificidade — o modelo já carrega a semântica do estilo de raciocínio daquele referencial.
-→ [[2026-03-22_redesenho-carreira-tim-ferriss]], [[2026-04-16_wealth-protocol-naval]], [[2026-04-23_harry-validacao-startup-paul-graham]]
+Usar o nome de um investidor/especialista reconhecido como ROLE aumenta a especificidade — o modelo já carrega a semântica do estilo de raciocínio daquele referencial. O texto completo dos prompts do Wealth Protocol (Naval Ravikant) confirma o padrão: cada prompt combina ROLE filosófico + contexto pessoal substituível + tarefa analítica específica.
+→ [[2026-03-22_redesenho-carreira-tim-ferriss]], [[2026-04-16_wealth-protocol-naval]], [[2026-04-23_harry-validacao-startup-paul-graham]], [[2026-04-18_simplifying-ai-wealth-protocol-naval]]
 
 ### Prompts sequenciais encadeados
 4 prompts em sequência no mesmo chat, cada um dependendo do anterior:
@@ -177,3 +177,4 @@ Diferencial vs. prompts únicos: são skills instaláveis, não prompts que o us
 - [[2026-04-22_castilho-6-palavras-claude]]
 - [[2026-04-23_harry-validacao-startup-paul-graham]]
 - [[2026-04-16_yik-chan-100-recursos-ocultos-claude]]
+- [[2026-04-18_simplifying-ai-wealth-protocol-naval]]

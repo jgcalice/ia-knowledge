@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-24 | Total de páginas: 100 | Fontes ingeridas: 39
+> Atualizado em: 2026-04-24 | Total de páginas: 103 | Fontes ingeridas: 40
 
 ---
 
@@ -54,6 +54,7 @@
 | [[wiki/sources/2026-04-18_paras-madan-top5-skills-founders]] | @Paras Madan | 2026-04-18 | Top 5 Claude Skills para fundadores: Meta Ads, Position Me, LinkedIn Post Generator, Reddit ICP Monitor, Google Trends SEO |
 | [[wiki/sources/2026-04-23_harry-validacao-startup-paul-graham]] | @Harry | 2026-04-23 | 5 prompts para validar startup com framework de Paul Graham: pressure test, problema real, concorrentes, primeiros 10 clientes, MVP 2 semanas |
 | [[wiki/sources/2026-04-16_yik-chan-100-recursos-ocultos-claude]] | @Yik Chan | 2026-04-16 | 100 recursos ocultos do Claude: Daily Efficiency, Content Creation, Claude Code e Pro Users |
+| [[wiki/sources/2026-04-18_simplifying-ai-wealth-protocol-naval]] | @Simplifying AI | 2026-04-18 | Wealth Protocol: texto completo de 5 prompts Naval Ravikant para construir riqueza sem trocar tempo por dinheiro |
 
 ---
 
@@ -64,9 +65,9 @@
 | [[wiki/concepts/geração-de-leads-com-ia]] | 3 | Uso de LLMs + scraping para prospecção B2B automatizada |
 | [[wiki/concepts/otimização-de-tokens]] | 4 | Técnicas para reduzir consumo de tokens no Claude |
 | [[wiki/concepts/prompt-engineering]] | 14 | Padrões de estruturação + palavras-gatilho + Claude Skills |
-| [[wiki/concepts/carreira-com-ia]] | 10 | IA para aceleração de carreira, LinkedIn, renda e produtos próprios |
+| [[wiki/concepts/carreira-com-ia]] | 11 | IA para aceleração de carreira, LinkedIn, renda e produtos próprios |
 | [[wiki/concepts/busca-de-emprego-com-ia]] | 2 | Busca de emprego automatizada com Career Ops e ATS |
-| [[wiki/concepts/design-de-estilo-de-vida]] | 2 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
+| [[wiki/concepts/design-de-estilo-de-vida]] | 3 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
 | [[wiki/concepts/agentes-ia]] | 6 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills |
 | [[wiki/concepts/estratégia-de-negócios-com-ia]] | 5 | 4 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
@@ -80,7 +81,7 @@
 
 | Página | Tipo | Fontes | Descrição |
 |--------|------|--------|-----------|
-| [[wiki/entities/claude-code]] | tool | 16 | LLM da Anthropic — ferramenta central de todas as fontes |
+| [[wiki/entities/claude-code]] | tool | 29 | LLM da Anthropic — ferramenta central de todas as fontes |
 | [[wiki/entities/apify]] | tool | 1 | Plataforma de scraping com conector nativo no Claude |
 | [[wiki/entities/api-file]] | platform | 1 | Marketplace de APIs para scraping e integração |
 | [[wiki/entities/markitdown]] | tool | 2 | Conversor de documentos para Markdown (Microsoft) |
@@ -123,6 +124,8 @@
 | [[wiki/entities/harry]] | @Harry / @codingknowledge | 1 | Prompts estruturados para validação de startups com frameworks de Paul Graham |
 | [[wiki/entities/paul-graham]] | Paul Graham | 1 | Co-fundador YC — referência de metodologia de avaliação de startups (pressure test, do things that don't scale) |
 | [[wiki/entities/yik-chan]] | @sifuyik | 1 | Dicas de produtividade com Claude: 100 recursos divididos em 4 categorias |
+| [[wiki/entities/simplifying-ai]] | @Simplifying AI | 1 | Plataforma de "daily AI upgrade" — prompts e frameworks prontos (simplifyingai.co) |
+| [[wiki/entities/naval-ravikant]] | Naval Ravikant | 2 | Filósofo de riqueza — fundador AngelList — framework "Wealth Protocol" |
 
 ### Pessoas / Criadores (Internacional)
 

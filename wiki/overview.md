@@ -2,12 +2,12 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-04-24
-source_count: 39
+source_count: 40
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 39 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão e Produto
+> Wiki iniciado em 2026-04-21 | 40 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão e Produto
 
 ## Tese atual
 
@@ -62,7 +62,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 | Redesenho estratégico | 4 prompts Tim Ferriss: vantagem injusta, DEAL, freedom ratio, 10 anos | [[god-of-prompt]] |
 | Monetização imediata | 4 prompts para ganhar $1k em 30 dias com skills existentes | [[sabrina-ramonov]] |
 | Certificação formal | Claude Certified Architect (grátis, proctored, valorizado pela Deloitte) | [[bashiri]] |
-| Filosofia de riqueza | 6 prompts Naval Ravikant — parar de trocar tempo por dinheiro | [[god-of-prompt]] |
+| Filosofia de riqueza | 6 prompts Naval Ravikant — texto completo de 5 prompts nomeados (Excavator, Auditor, Brand Architect, Productize, Judgment) | [[god-of-prompt]] · [[simplifying-ai]] |
 
 ---
 
@@ -108,9 +108,9 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 ## Mapa de entidades
 
-**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]]
+**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]]
 
-**Referências externas**: [[paul-graham]]
+**Referências externas**: [[paul-graham]] · [[naval-ravikant]]
 
 **Conceitos de segurança**: [[segurança-com-ia]]
 
@@ -140,6 +140,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - **Validação como etapa anterior à estratégia**: o framework [[paul-graham]] (via [[harry]]) documenta a camada pré-estratégia — testar ideia antes de qualquer planejamento de mercado; complementa os 7 prompts de [[evolving-ai]] / [[business-bulls]] que começam depois que o produto existe
 - **Claude tem dois modos de usuário documentados**: "usuário conversacional" (Daily Efficiency sem CLI, sem API — emails, PDFs, tone) e "usuário técnico" (Claude Code com CLAUDE.md, sub-agentes, slash commands); [[yik-chan]] é a primeira fonte a catalogar os 25 usos de nível básico de forma sistemática
 - **Brand Voice Document em Projects como padrão de persistência de estilo**: salvar tom/palavras proibidas/regras de escrita no Projects elimina repetição de briefing — evolução da lógica do CLAUDE.md para contextos de conteúdo (não só código)
+- **Wealth Protocol como template viral**: dois criadores distintos ([[god-of-prompt]] e [[simplifying-ai]]) publicam o mesmo "Wealth Protocol" baseado em [[naval-ravikant]] — sinal de que é um framework circulando como template na comunidade, não conteúdo original; a segunda fonte ([[2026-04-18_simplifying-ai-wealth-protocol-naval]]) revelou o texto completo dos 5 prompts nomeados
 
 ---
 
@@ -147,9 +148,9 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 39 |
-| Páginas de fontes | 39 |
+| Fontes ingeridas | 40 |
+| Páginas de fontes | 40 |
 | Páginas de conceitos | 10 |
-| Páginas de entidades | 50 |
+| Páginas de entidades | 52 |
 | Páginas de síntese | 1 |
-| **Total de páginas** | **100** |
+| **Total de páginas** | **103** |

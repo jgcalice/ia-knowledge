@@ -2,7 +2,7 @@
 title: "Carreira e Negócios com IA"
 type: concept
 tags: [carreira, negócios, linkedin, ia, recrutamento, oportunidades, renda, transição-de-carreira]
-source_count: 10
+source_count: 11
 last_updated: 2026-04-24
 ---
 
@@ -74,7 +74,10 @@ Certificação gratuita da Anthropic, valorizada corporativamente (Deloitte):
 ### 6. Estratégia de riqueza (Naval Ravikant)
 6 prompts aplicando filosofia Naval — parar de trocar tempo por dinheiro:
 - Foco em renda que escala sem input proporcional de tempo
-→ [[2026-04-16_wealth-protocol-naval]] | Autor: [[god-of-prompt]]
+- Os 5 prompts nomeados: Specific Knowledge Excavator, Auditor, Brand Architect, Productize Yourself, Judgment Calibration
+- Todos parametrizáveis com contexto pessoal do usuário
+→ [[2026-04-16_wealth-protocol-naval]] | Autor: [[god-of-prompt]] (parcial)
+→ [[2026-04-18_simplifying-ai-wealth-protocol-naval]] | Autor: [[simplifying-ai]] (texto completo)
 
 ### 7. Modelo de negócio: implementador de IA
 Bruno Souza apresenta o modelo de implementar IA para negócios locais:
@@ -102,6 +105,7 @@ Há **convergência temática clara**: múltiplos criadores internacionais refor
 - [[2026-04-17_prompts-renda-rapida]]
 - [[2026-03-26_certificacao-claude-architect]]
 - [[2026-04-16_wealth-protocol-naval]]
+- [[2026-04-18_simplifying-ai-wealth-protocol-naval]]
 - [[2026-04-01_claude-fundador-startup-7-prompts]]
 - [[2026-04-17_mini-web-app-claude]]
 - [[2026-04-22_arshman-khalid-automacao-busca-emprego]]

@@ -3,7 +3,7 @@ title: "Claude / Claude Code"
 type: entity
 category: tool
 tags: [llm, claude, anthropic, claude-code, ia]
-source_count: 28
+source_count: 29
 last_updated: 2026-04-24
 ---
 
@@ -29,7 +29,7 @@ Claude é o modelo de linguagem da Anthropic. Claude Code (referido nos posts co
 - **Otimização de perfil LinkedIn** — via prompts estruturados ([[bruno-souza]])
 - **Interpretação de documentos** — com pré-processamento via [[markitdown]] ([[rafael-brandao]])
 - **Busca de emprego automatizada** — sistema Career Ops avalia 700+ vagas e gera currículos ATS ([[2026-04-07_career-ops-busca-emprego-ia]])
-- **Redesenho de carreira** — prompts Tim Ferriss e Naval Ravikant para estratégia de riqueza ([[god-of-prompt]])
+- **Redesenho de carreira** — prompts Tim Ferriss e Naval Ravikant para estratégia de riqueza ([[god-of-prompt]], [[simplifying-ai]])
 - **Certificação Architect** — exame formal da Anthropic para AI Engineering ([[bashiri]])
 - **Criação de marca completa** — 120+ agentes em pipeline para branding em 2h ([[rafael-brandao]])
 - **SEO com IA** — criação de llms.txt e Markdown mirrors para ranking no Google ([[brycen-wood]])

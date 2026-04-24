@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-24] ingest | Wealth Protocol — Texto Completo dos Prompts Naval Ravikant — @Simplifying AI
+
+Fonte: `2026-04-18_simplifying_ai_DXRniCUAlAG.md`. Páginas criadas: wiki/sources/2026-04-18_simplifying-ai-wealth-protocol-naval.md, entities/simplifying-ai.md, entities/naval-ravikant.md. Atualizadas: entities/claude-code.md (source_count 28→29), concepts/design-de-estilo-de-vida.md (source_count 2→3, texto completo dos 5 prompts nomeados adicionado), concepts/carreira-com-ia.md (source_count 10→11, seção Naval expandida com 2ª fonte), concepts/prompt-engineering.md (source_count 21→22, confirmação do padrão ROLE+filósofo+contexto pessoal com fonte adicional), wiki/overview.md (39→40 fontes, simplifying-ai + naval-ravikant no mapa, novo padrão emergente "Wealth Protocol como template viral", status table 100→103 páginas), index.md (+1 fonte, +2 entidades, total 103 páginas).
+
 ## [2026-04-24] ingest | 100 Recursos Ocultos do Claude — @Yik Chan
 
 Fonte: `2026-04-16_yik_chan_DXLDhhzmD33.md`. Páginas criadas: wiki/sources/2026-04-16_yik-chan-100-recursos-ocultos-claude.md, entities/yik-chan.md. Atualizadas: entities/claude-code.md (source_count 27→28, novo uso "produtividade diária sem CLI", boas práticas Subagents Parallel até 4 agentes simultâneos), concepts/prompt-engineering.md (source_count 20→21, novas subseções "Brand Voice Document em Projects" e "Persona Mode e Output Constraints"), concepts/agentes-ia.md (source_count 8→9, dado de até 4 sub-agentes simultâneos confirmado), wiki/overview.md (38→39 fontes, yik-chan no mapa Internacional, 2 novos padrões emergentes, status table 98→100 páginas), index.md (+1 fonte, +1 entidade, total 100 páginas).
