@@ -3,8 +3,8 @@ title: "Claude / Claude Code"
 type: entity
 category: tool
 tags: [llm, claude, anthropic, claude-code, ia]
-source_count: 27
-last_updated: 2026-04-23
+source_count: 28
+last_updated: 2026-04-24
 ---
 
 # Claude / Claude Code
@@ -38,6 +38,7 @@ Claude é o modelo de linguagem da Anthropic. Claude Code (referido nos posts co
 - **Memória infinita via grafo** — instalação do [[graphify]] mapeia o workspace em grafo de conhecimento → 71,5x menos tokens por sessão ([[marc-cleroux]])
 - **Descoberta de skills** — `find-skills` (Vercel Labs): meta-skill instalada via `npx` que busca entre milhares de skills publicadas no GitHub usando linguagem natural ([[pablo-in-public]])
 - **Prospecção via Conector** — uso dos Conectores do Claude.ai + [[vibe-prospecting]] para gerar listas de leads por nicho/cargo/cidade, 100% gratuito via browser ([[eduardo-santos]])
+- **Produtividade diária sem CLI** — uso conversacional do Claude para emails, resumo de PDFs, tone setting e outros 20+ casos de uso sem instalação ([[yik-chan]])
 
 ## Modos de operação
 
@@ -107,6 +108,7 @@ Documentado por [[lucas-garcia-pit]] em [[2026-04-15_lucas-garcia-pit-seguranca-
 - Frontloading: enviar todas as instruções de uma vez em projetos novos, em vez de incrementalmente
 - Configurar notificações via prompt: `"after every piece of work you do, please send me a notification"`
 - Session handoff a ~12% da janela (120k/1M no Opus): resumo → `/clear` → nova sessão — [[nate-herk]]
+- Subagents Parallel: um único comando pode disparar até 4 agentes trabalhando em tarefas diferentes simultaneamente — [[yik-chan]] confirma dado de [[nate-herk]]
 - Usar `/re` (Rewind) após tentativas falhas para não deixar código errado no contexto
 - Usar `/btw` para perguntas rápidas sem poluir o histórico da sessão
 - Manter CLAUDE.md sob 200 linhas / ~2.000 tokens — carrega a cada sessão, bloat é custo constante
@@ -141,3 +143,4 @@ Documentado por [[lucas-garcia-pit]] em [[2026-04-15_lucas-garcia-pit-seguranca-
 - [[2026-04-18_alex-finn-dicas-claude-code]]
 - [[2026-04-20_nate-herk-gerenciar-limites-sessao]]
 - [[2026-04-22_pabloinpublic-find-skills]]
+- [[2026-04-16_yik-chan-100-recursos-ocultos-claude]]

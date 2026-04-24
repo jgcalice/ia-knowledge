@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-24 | Total de páginas: 98 | Fontes ingeridas: 38
+> Atualizado em: 2026-04-24 | Total de páginas: 100 | Fontes ingeridas: 39
 
 ---
 
@@ -53,6 +53,7 @@
 | [[wiki/sources/2026-04-22_arshman-khalid-automacao-busca-emprego]] | @Arshman Khalid | 2026-04-22 | CareerOps plugin: automação completa da busca de emprego com LinkedIn + Apify |
 | [[wiki/sources/2026-04-18_paras-madan-top5-skills-founders]] | @Paras Madan | 2026-04-18 | Top 5 Claude Skills para fundadores: Meta Ads, Position Me, LinkedIn Post Generator, Reddit ICP Monitor, Google Trends SEO |
 | [[wiki/sources/2026-04-23_harry-validacao-startup-paul-graham]] | @Harry | 2026-04-23 | 5 prompts para validar startup com framework de Paul Graham: pressure test, problema real, concorrentes, primeiros 10 clientes, MVP 2 semanas |
+| [[wiki/sources/2026-04-16_yik-chan-100-recursos-ocultos-claude]] | @Yik Chan | 2026-04-16 | 100 recursos ocultos do Claude: Daily Efficiency, Content Creation, Claude Code e Pro Users |
 
 ---
 
@@ -121,6 +122,7 @@
 | [[wiki/entities/paras-madan]] | @Paras Madan | 1 | Claude Skills open-source para fundadores (ads, conversão, social, community, SEO) |
 | [[wiki/entities/harry]] | @Harry / @codingknowledge | 1 | Prompts estruturados para validação de startups com frameworks de Paul Graham |
 | [[wiki/entities/paul-graham]] | Paul Graham | 1 | Co-fundador YC — referência de metodologia de avaliação de startups (pressure test, do things that don't scale) |
+| [[wiki/entities/yik-chan]] | @sifuyik | 1 | Dicas de produtividade com Claude: 100 recursos divididos em 4 categorias |
 
 ### Pessoas / Criadores (Internacional)
 

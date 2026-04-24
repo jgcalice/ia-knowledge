@@ -2,7 +2,7 @@
 title: "Agentes de IA"
 type: concept
 tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens]
-source_count: 8
+source_count: 9
 last_updated: 2026-04-23
 ---
 
@@ -57,6 +57,8 @@ Além de paralelizar trabalho, sub-agentes são uma estratégia primária para e
 
 Prompt simples de delegação: `"Spin up a sub agent to [tarefa] and make sure that sub agent is using Haiku"`
 
+Dado confirmado por [[yik-chan]] ([[2026-04-16_yik-chan-100-recursos-ocultos-claude]]): a feature "Subagents Parallel" suporta **até 4 agentes simultâneos** em tarefas diferentes com um único comando.
+
 ### Meta-skill de descoberta: find-skills
 
 ([[pablo-in-public]], [[2026-04-22_pabloinpublic-find-skills]])
@@ -75,3 +77,4 @@ Padrão novo no wiki: **skill como orquestradora de descoberta de outras skills*
 - [[2026-04-07_claude-skills-product-managers]]
 - [[2026-04-20_nate-herk-gerenciar-limites-sessao]]
 - [[2026-04-22_pabloinpublic-find-skills]]
+- [[2026-04-16_yik-chan-100-recursos-ocultos-claude]]

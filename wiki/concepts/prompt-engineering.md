@@ -2,7 +2,7 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas]
-source_count: 20
+source_count: 21
 last_updated: 2026-04-24
 ---
 
@@ -134,6 +134,18 @@ Nomes de frameworks de raciocínio já conhecidos pelo modelo funcionam como ati
 Steelman e Red Team são opostos complementares: usados em sequência cobrem todo o espectro de revisão crítica.
 → [[2026-04-22_castilho-6-palavras-claude]] | [[castilho]]
 
+### Brand Voice Document em Projects
+Persistir estilo de escrita, palavras proibidas e regras de tom como documento permanente no Claude Projects — elimina a necessidade de repetir o briefing de voz a cada prompt. Padrão distinto do CLAUDE.md (focado em regras de código): aqui o objetivo é calibrar o modelo para produção de conteúdo.
+- **Learn Your Voice**: colar 10 posts próprios → "write every future post in this style" — o modelo aprende o estilo e o Projects o retém
+- **Style Preset Switcher**: salvar 5 estilos distintos em Projects e alternar por comando
+→ [[2026-04-16_yik-chan-100-recursos-ocultos-claude]]
+
+### Persona Mode e Output Constraints
+Duas técnicas nomeadas para controle fino da saída do modelo:
+- **Persona Mode**: "act as a senior strategist" — instrução de papel que ativa um conjunto de comportamentos sem precisar descrever cada um
+- **Output Constraints**: limite explícito de palavras (ex: "less than 100 words") — reduz verbosidade e força síntese
+→ [[2026-04-16_yik-chan-100-recursos-ocultos-claude]] | confirma padrão de [[adriano-couto]]
+
 ### Skills como pipeline de conteúdo parametrizado (Founder's stack)
 [[paras-madan]] documenta 3 skills que codificam pipelines completos de produção de conteúdo e análise:
 - **LinkedIn Post Generator:** qualquer input (blog, PR, frase) → detecção automática de hook + arco narrativo + formato (Founder/Ship, Insight, Product Launch) → post publicável
@@ -164,3 +176,4 @@ Diferencial vs. prompts únicos: são skills instaláveis, não prompts que o us
 - [[2026-04-16_sanskaar-singh-linkedin-prompts]]
 - [[2026-04-22_castilho-6-palavras-claude]]
 - [[2026-04-23_harry-validacao-startup-paul-graham]]
+- [[2026-04-16_yik-chan-100-recursos-ocultos-claude]]

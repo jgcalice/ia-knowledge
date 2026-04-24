@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-24] ingest | 100 Recursos Ocultos do Claude — @Yik Chan
+
+Fonte: `2026-04-16_yik_chan_DXLDhhzmD33.md`. Páginas criadas: wiki/sources/2026-04-16_yik-chan-100-recursos-ocultos-claude.md, entities/yik-chan.md. Atualizadas: entities/claude-code.md (source_count 27→28, novo uso "produtividade diária sem CLI", boas práticas Subagents Parallel até 4 agentes simultâneos), concepts/prompt-engineering.md (source_count 20→21, novas subseções "Brand Voice Document em Projects" e "Persona Mode e Output Constraints"), concepts/agentes-ia.md (source_count 8→9, dado de até 4 sub-agentes simultâneos confirmado), wiki/overview.md (38→39 fontes, yik-chan no mapa Internacional, 2 novos padrões emergentes, status table 98→100 páginas), index.md (+1 fonte, +1 entidade, total 100 páginas).
+
 ## [2026-04-24] ingest | 5 Prompts para Validar Startup com Paul Graham — @Harry
 
 Fonte: `2026-04-23_harry_DXeq-yFkqRP.md`. Páginas criadas: wiki/sources/2026-04-23_harry-validacao-startup-paul-graham.md, entities/harry.md, entities/paul-graham.md. Atualizadas: concepts/prompt-engineering.md (source_count 19→20, subseção ROLE/TASK/STEPS/RULES/OUTPUT expandida com insight de usar nome de referencial como ROLE), concepts/estratégia-de-negócios-com-ia.md (source_count 6→7, nova seção "Validação de ideias antes de construir" com tabela dos 5 prompts PG), wiki/overview.md (37→38 fontes, harry no mapa Internacional, paul-graham em Referências externas, novo padrão emergente, status table 95→98 páginas), index.md (+1 fonte, +2 entidades, total 98 páginas).

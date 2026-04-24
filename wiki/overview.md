@@ -2,12 +2,12 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-04-24
-source_count: 38
+source_count: 39
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 38 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão e Produto
+> Wiki iniciado em 2026-04-21 | 39 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão e Produto
 
 ## Tese atual
 
@@ -116,7 +116,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 **Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]]
 
-**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]]
+**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]]
 
 ---
 
@@ -138,6 +138,8 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - **Claude Code como agente autônomo**: Auto Mode + Frontload + Notificações mudam o paradigma de "babysitting" (aprovação constante) para "delegação real" — o agente trabalha horas sem supervisão ([[alex-finn]])
 - **Segurança como ponto cego do desenvolvimento com IA**: Claude Code acelera tanto o desenvolvimento que devs pulam fundamentos clássicos de back-end (RLS, rate limit, server-side secrets) — [[lucas-garcia-pit]] documenta os 5 mais críticos
 - **Validação como etapa anterior à estratégia**: o framework [[paul-graham]] (via [[harry]]) documenta a camada pré-estratégia — testar ideia antes de qualquer planejamento de mercado; complementa os 7 prompts de [[evolving-ai]] / [[business-bulls]] que começam depois que o produto existe
+- **Claude tem dois modos de usuário documentados**: "usuário conversacional" (Daily Efficiency sem CLI, sem API — emails, PDFs, tone) e "usuário técnico" (Claude Code com CLAUDE.md, sub-agentes, slash commands); [[yik-chan]] é a primeira fonte a catalogar os 25 usos de nível básico de forma sistemática
+- **Brand Voice Document em Projects como padrão de persistência de estilo**: salvar tom/palavras proibidas/regras de escrita no Projects elimina repetição de briefing — evolução da lógica do CLAUDE.md para contextos de conteúdo (não só código)
 
 ---
 
@@ -145,9 +147,9 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 38 |
-| Páginas de fontes | 38 |
+| Fontes ingeridas | 39 |
+| Páginas de fontes | 39 |
 | Páginas de conceitos | 10 |
-| Páginas de entidades | 49 |
+| Páginas de entidades | 50 |
 | Páginas de síntese | 1 |
-| **Total de páginas** | **98** |
+| **Total de páginas** | **100** |
