@@ -1,22 +1,23 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-04-24
-source_count: 42
+last_updated: 2026-04-25
+source_count: 43
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 42 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão e Produto
+> Wiki iniciado em 2026-04-21 | 43 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto e **Adoção Empresarial**
 
 ## Tese atual
 
-O conteúdo de IA consumido até agora orbita em torno de **quatro domínios práticos**:
+O conteúdo de IA consumido até agora orbita em torno de **cinco domínios práticos**:
 
 1. **Como gerar mais leads com menos esforço** — usando LLMs + scraping de Google Maps e APIs
 2. **Como usar Claude de forma mais eficiente** — reduzindo consumo de tokens e escolhendo ferramentas certas
 3. **Como acelerar carreira e aumentar renda** — LinkedIn, busca de emprego automatizada, certificações, redesenho estratégico
 4. **Como construir negócios com IA** — estratégia de mercado, branding, SEO e automação de processos
+5. **Como organizações adotam IA em escala** — playbook empresarial, mudança organizacional, escolha de modelo, dado como moat (NOVO via [[stanford-digital-economy-lab]])
 
 ---
 
@@ -107,11 +108,40 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 ---
 
+### Cluster 8: Adoção Empresarial de IA (NOVO via Stanford)
+**Conceito central:** [[adoção-empresarial-de-ia]]
+
+Primeira fonte empírica em larga escala no wiki: [[stanford-digital-economy-lab]] estudou 51 implementações bem-sucedidas em 41 organizações, 7 países, 5 regiões ([[2026-04-01_enterprise-ai-playbook-stanford]]).
+
+| Achado | Dado |
+|---|---|
+| Custos invisíveis | **77%** dos desafios são change management, dado, processo (não tecnologia) |
+| Falha como pré-requisito | **61%** dos sucessos tiveram falha anterior; 100% dos sponsors continuaram através da falha |
+| Sponsorship | Active Steering em **58%**, Strategic Integration (OKR + bônus) em **29%** — único caminho para transformação organization-wide |
+| Resistência | Staff functions (Legal/HR/Risk/Compliance) em **35%** > end-users **23%** |
+| Headcount | **45%** reduzem; 55% redeployment, hiring avoided ou sem mudança |
+| Agentic | **20%** dos casos; **71%** ganho mediano vs 40% high-automation |
+| Dado | **47%** explicitamente descrevem dado proprietário como moat |
+| Modelo | **42%** commodity (rotineiras 71% commodity; advanced 18%) |
+| Segurança | Em todos os 12 casos analisados: bloqueia inicialmente, **habilita depois** |
+
+Sub-conceitos derivados:
+- [[mudança-organizacional-com-ia]] — change management como 35% da resistência
+- [[dados-como-moat]] — 47% citam dado proprietário; "save everything"
+- [[escolha-de-modelo-fundacional]] — 42% commodity; multi-model + abstraction layer
+- [[produtividade-e-emprego-com-ia]] — 45% reduzem; canários: workers 22-25 expostos -16%
+
+Síntese: [[instagram-vs-pesquisa-empirica-ia]] — comparação dos dois ângulos do wiki
+
+---
+
 ## Mapa de entidades
 
 **Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]]
 
-**Referências externas**: [[paul-graham]] · [[naval-ravikant]]
+**Instituições acadêmicas**: [[stanford-digital-economy-lab]]
+
+**Referências externas**: [[paul-graham]] · [[naval-ravikant]] · [[erik-brynjolfsson]] · [[alvin-wang-graylin]] · [[elisa-pereira]]
 
 **Conceitos de segurança**: [[segurança-com-ia]]
 
@@ -143,6 +173,11 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - **Claude tem dois modos de usuário documentados**: "usuário conversacional" (Daily Efficiency sem CLI, sem API — emails, PDFs, tone) e "usuário técnico" (Claude Code com CLAUDE.md, sub-agentes, slash commands); [[yik-chan]] é a primeira fonte a catalogar os 25 usos de nível básico de forma sistemática
 - **Brand Voice Document em Projects como padrão de persistência de estilo**: salvar tom/palavras proibidas/regras de escrita no Projects elimina repetição de briefing — evolução da lógica do CLAUDE.md para contextos de conteúdo (não só código)
 - **Wealth Protocol como template viral**: dois criadores distintos ([[god-of-prompt]] e [[simplifying-ai]]) publicam o mesmo "Wealth Protocol" baseado em [[naval-ravikant]] — sinal de que é um framework circulando como template na comunidade, não conteúdo original; a segunda fonte ([[2026-04-18_simplifying-ai-wealth-protocol-naval]]) revelou o texto completo dos 5 prompts nomeados
+- **Tecnologia não é o gargalo (dado empírico)**: 51 cases empresariais bem-sucedidos confirmam que **77% dos desafios são não-técnicos** — change management, dado, processo. Para **42% dos casos o modelo é commodity**. A vantagem competitiva durável está na **camada de orquestração + dado proprietário**, não na escolha do LLM ([[stanford-digital-economy-lab]])
+- **Custo invisível como ponto cego do Instagram**: nenhuma fonte de criadores enxerga que 80% do trabalho de IA empresarial é não-técnico (Legal, HR, Risk, Compliance, redesenho de processos). [[stanford-digital-economy-lab]] preenche essa lacuna com 51 cases — comparação completa em [[instagram-vs-pesquisa-empirica-ia]]
+- **Shadow AI em escala industrial**: fabricante de semiconductors com 1.500-1.600 ferramentas IA não-aprovadas em uso simultâneo antes de plataforma oficial — primeira evidência empírica no wiki da magnitude do uso "informal" de IA dentro de empresas
+- **Canários no mercado de trabalho**: workers 22-25 em ocupações expostas a IA já têm queda relativa de 16% em emprego (devs jovens: -20%) — caveat crítico ao otimismo dos criadores de Instagram sobre redeployment automático
+- **Modelos chineses open-source dominando o stack agêntico**: Qwen, Kimi, Minimax, GLM = 4 dos top-5 no OpenRouter por volume de tokens em fev/2026, puxados por agentic workloads — invisível na conversa anglófona até agora
 
 ---
 
@@ -150,9 +185,9 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 42 |
-| Páginas de fontes | 42 |
-| Páginas de conceitos | 10 |
-| Páginas de entidades | 53 |
-| Páginas de síntese | 1 |
-| **Total de páginas** | **106** |
+| Fontes ingeridas | 43 |
+| Páginas de fontes | 43 |
+| Páginas de conceitos | 15 |
+| Páginas de entidades | 57 |
+| Páginas de síntese | 2 |
+| **Total de páginas** | **117** |

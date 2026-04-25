@@ -1,14 +1,14 @@
 ---
 title: "Agentes de IA"
 type: concept
-tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens]
-source_count: 9
-last_updated: 2026-04-23
+tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial]
+source_count: 10
+last_updated: 2026-04-25
 ---
 
 # Agentes de IA
 
-> **Fontes:** 6 | **Domínio:** Arquitetura de sistemas de IA
+> **Fontes:** 10 | **Domínio:** Arquitetura de sistemas de IA
 
 ## Definição
 
@@ -67,6 +67,30 @@ Com 128k+ skills publicadas, o gargalo deixou de ser "não existir skills" e pas
 
 Padrão novo no wiki: **skill como orquestradora de descoberta de outras skills** — uma camada meta no ecossistema de agentes distribuíveis.
 
+### Dado empírico empresarial: agentic = 71% vs 40%
+
+([[stanford-digital-economy-lab]], [[2026-04-01_enterprise-ai-playbook-stanford]])
+
+Primeiro dado empírico em larga escala no wiki sobre uso agêntico de IA em empresas (51 cases, abr/2026):
+
+| Nível | Definição | % dos casos | Ganho mediano |
+|---|---|---|---|
+| **Agentic** | Ações autônomas, multi-step, end-to-end sem intervenção | **20%** | **71%** |
+| High Automation | IA >80%, humano revisa exceções | 34% | 40% |
+| Human-in-Loop | IA + humano em cada output | 46% | 22% |
+
+**Características compartilhadas pelos casos agênticos bem-sucedidos:**
+1. Alto volume + repetitivo
+2. Critérios de sucesso claros (sim/não)
+3. Erros recuperáveis
+4. Acesso a dados em múltiplos sistemas
+
+**Caso emblemático**: rede de 25 supermercados com IA agêntica que **substituiu o procurement manager** — prevê demanda, decide o que comprar, quando, de qual fornecedor. Resultado: -40% desperdício, -80% stockouts, EBITDA dobrou. *Pequeno varejista alcançando margens próximas do líder de mercado.*
+
+**Horizonte agêntico crescendo exponencialmente** (METR, fev/2026): janela de tarefas que modelos frontier completam autonomamente **dobra a cada ~7 meses**. Em 2026 chegou a **15 horas de trabalho humano experiente** — habilita mais casos para a coluna agêntica.
+
+Padrão emergente: agentic AI **não é uma nova UI**, é **redefinição do papel de humanos e máquinas** no workflow. Companies passaram a tratar IA como extensão do time, não só ferramenta.
+
 ## Fontes
 
 - [[2026-04-17_claude-update-task-assignment]]
@@ -78,3 +102,4 @@ Padrão novo no wiki: **skill como orquestradora de descoberta de outras skills*
 - [[2026-04-20_nate-herk-gerenciar-limites-sessao]]
 - [[2026-04-22_pabloinpublic-find-skills]]
 - [[2026-04-16_yik-chan-100-recursos-ocultos-claude]]
+- [[2026-04-01_enterprise-ai-playbook-stanford]]

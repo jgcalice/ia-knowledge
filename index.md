@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-24 | Total de páginas: 107 | Fontes ingeridas: 42
+> Atualizado em: 2026-04-25 | Total de páginas: 118 | Fontes ingeridas: 43
 
 ---
 
@@ -57,6 +57,7 @@
 | [[wiki/sources/2026-04-18_simplifying-ai-wealth-protocol-naval]] | @Simplifying AI | 2026-04-18 | Wealth Protocol: texto completo de 5 prompts Naval Ravikant para construir riqueza sem trocar tempo por dinheiro |
 | [[wiki/sources/2026-04-24_nico_fansbuy-importacao-china]] | @Nico | 2026-04-24 | ⚠️ Fora do escopo IA — Guia prático de importação da China via Fansbuy |
 | [[wiki/sources/2026-04-18_gustavo-melo-ferramentas-osint]] | @Gustavo Melo \| Tecnologia e IA | 2026-04-18 | 7 ferramentas OSINT para pesquisa e segurança digital (ZoomEye, Have I Been Pwned, Namecheck, Pic2Map, EPA, Exploding Database) |
+| [[wiki/sources/2026-04-01_enterprise-ai-playbook-stanford]] | Pereira, Graylin, Brynjolfsson (Stanford) | 2026-04 | The Enterprise AI Playbook — relatório empírico com 51 casos de IA empresarial bem-sucedida, 41 organizações, 7 países |
 
 ---
 
@@ -73,11 +74,22 @@
 | [[wiki/concepts/agentes-ia]] | 6 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills |
 | [[wiki/concepts/estratégia-de-negócios-com-ia]] | 5 | 4 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
-| [[wiki/concepts/segurança-com-ia]] | 2 | Segurança no desenvolvimento de apps com LLMs + OSINT e privacidade digital |
+| [[wiki/concepts/segurança-com-ia]] | 3 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança empresarial |
+| [[wiki/concepts/adoção-empresarial-de-ia]] | 1 | Playbook empresarial: 11 capítulos sobre como organizações passam de piloto a ROI real |
+| [[wiki/concepts/dados-como-moat]] | 1 | Dados proprietários como vantagem competitiva durável; 47% das empresas explicitamente o citam como moat |
+| [[wiki/concepts/escolha-de-modelo-fundacional]] | 1 | Comoditização parcial (42% commodity); multi-model + abstraction layer como vantagem |
+| [[wiki/concepts/mudança-organizacional-com-ia]] | 1 | Change management como 35% da resistência; sponsorship continuado através da falha; iteração em 100% dos sucessos |
+| [[wiki/concepts/produtividade-e-emprego-com-ia]] | 1 | 45% reduzem headcount; 55% redeployment ou hiring avoided; "canários" em workers 22-25 expostos |
 
 ---
 
 ## Entidades (`wiki/entities/`)
+
+### Instituições acadêmicas
+
+| Página | Tipo | Fontes | Descrição |
+|--------|------|--------|-----------|
+| [[wiki/entities/stanford-digital-economy-lab]] | company | 1 | Centro de pesquisa Stanford sobre economia digital, IA e produtividade — fonte do *Enterprise AI Playbook* |
 
 ### Ferramentas e plataformas
 
@@ -130,6 +142,9 @@
 | [[wiki/entities/naval-ravikant]] | Naval Ravikant | 2 | Filósofo de riqueza — fundador AngelList — framework "Wealth Protocol" |
 | [[wiki/entities/nico]] | @Nico | 1 | Criador de conteúdo sobre importação da China (Fansbuy) — fora do escopo IA |
 | [[wiki/entities/gustavo-melo]] | @Gustavo Melo \| Tecnologia e IA | 1 | Segurança digital e OSINT (BR) — ferramentas de investigação e privacidade |
+| [[wiki/entities/erik-brynjolfsson]] | Erik Brynjolfsson | 1 | Director Stanford DEL; Productivity J-Curve, GDP-B, Canaries in the Coal Mine — referencial teórico de IA + economia |
+| [[wiki/entities/alvin-wang-graylin]] | Alvin Wang Graylin | 1 | Digital Fellow Stanford DEL; foco em economia da IA e políticas para transição pós-trabalho |
+| [[wiki/entities/elisa-pereira]] | Elisa Pereira | 1 | Pesquisadora Stanford DEL; background VC + IA na América Latina, soberania tecnológica |
 
 ### Pessoas / Criadores (Internacional)
 
@@ -153,3 +168,4 @@
 | Página | Fontes | Descrição |
 |--------|--------|-----------|
 | [[wiki/synthesis/comparação-métodos-leads]] | 2 | Apify vs API File para geração de leads no Google Maps |
+| [[wiki/synthesis/instagram-vs-pesquisa-empirica-ia]] | 43 | Comparação dos dois ângulos do wiki: criadores de Instagram (tático individual) vs Stanford Digital Economy Lab (empírico organizacional) |

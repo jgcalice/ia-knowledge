@@ -5,6 +5,31 @@
 
 ---
 
+## [2026-04-25] ingest | The Enterprise AI Playbook (Stanford DEL, 51 cases) — Pereira, Graylin, Brynjolfsson
+
+Fonte: `Clippings/EnterpriseAIPlaybook_PereiraGraylinBrynjolfsson.pdf` (31 pp., abril 2026, Stanford Digital Economy Lab). Texto extraído via pdftotext para `Clippings/EnterpriseAIPlaybook_extracted.txt`. **Primeira fonte acadêmica empírica em larga escala do wiki** — 51 casos de IA empresarial bem-sucedida em 41 organizações, 7 países, 5 regiões, entrevistas ago/25–fev/26.
+
+Páginas criadas (10):
+- `wiki/sources/2026-04-01_enterprise-ai-playbook-stanford.md` — sumário completo dos 11 capítulos + caveats + insights para o wiki + contradições
+- `wiki/entities/stanford-digital-economy-lab.md` — instituição
+- `wiki/entities/erik-brynjolfsson.md` — Director do lab; J-Curve, GDP-B, Canaries
+- `wiki/entities/alvin-wang-graylin.md` — Digital Fellow; economia da IA
+- `wiki/entities/elisa-pereira.md` — pesquisadora; background LatAm
+- `wiki/concepts/adoção-empresarial-de-ia.md` — playbook 11 caps consolidado
+- `wiki/concepts/dados-como-moat.md` — 47% citam dado proprietário; "save everything"
+- `wiki/concepts/escolha-de-modelo-fundacional.md` — 42% commodity; multi-model + abstraction
+- `wiki/concepts/mudança-organizacional-com-ia.md` — change management; sponsorship continuado
+- `wiki/concepts/produtividade-e-emprego-com-ia.md` — 45% reduzem; canários em workers 22-25 (-16%)
+- `wiki/synthesis/instagram-vs-pesquisa-empirica-ia.md` — síntese comparativa do wiki todo (Instagram tático individual vs Stanford empírico organizacional)
+
+Páginas atualizadas (4):
+- `wiki/concepts/agentes-ia.md` (source_count 9→10) — adicionado dado empírico Stanford: agentic 71% mediano vs 40% high-automation; METR mede modelos completando 15h de trabalho humano (fev/2026); 4 dos top-5 modelos no OpenRouter são chineses open-source
+- `wiki/concepts/segurança-com-ia.md` (source_count 2→3) — adicionada Dimensão 3: Shadow AI (1.500-1.600 ferramentas em uma empresa; 70-80% dos workers usam tools não aprovadas; $4.88M custo médio de breach), segurança como enabler front-loaded, caso banco varejista PII scrubbing pipeline
+- `wiki/overview.md` (42→43 fontes; 106→117 páginas) — novo Cluster 8 Adoção Empresarial; instituições acadêmicas no mapa de entidades; 6 novos padrões emergentes (tecnologia não é gargalo, custo invisível como ponto cego, Shadow AI escala industrial, canários no mercado de trabalho, modelos chineses dominando OpenRouter, custos invisíveis 77% empíricos)
+- `index.md` (107→118 páginas; 42→43 fontes) — +1 fonte, +5 conceitos, +3 pessoas, +1 instituição (nova categoria), +1 síntese
+
+Hook fix: `.ingested_posts` tinha entrada com typo `lucas_garcia_pit_pit_ia_negocios_DXJw3MkkScn.md` (duplicação `pit_pit`); corrigida para o nome real do arquivo `lucas_garcia_pit_ia_negocios_DXJw3MkkScn.md` — o post já havia sido ingerido em 2026-04-23 mas o hook disparou de novo por causa da divergência.
+
 ## [2026-04-24] ingest | 7 Ferramentas OSINT para Segurança Digital — @Gustavo Melo
 
 Fonte: `2026-04-18_gustavo_melo_tecnologia_e_ia_DXSW7KNkUIl.md`. Páginas criadas: wiki/sources/2026-04-18_gustavo-melo-ferramentas-osint.md, entities/gustavo-melo.md. Atualizadas: concepts/segurança-com-ia.md (source_count 1→2, expansão do conceito para incluir Dimensão 2: OSINT/privacidade digital com tabela das 7 ferramentas), wiki/overview.md (42 fontes, gustavo-melo no mapa BR, novo padrão emergente OSINT como alfabetização digital, Cluster 7 expandido com Dimensão 2, status table 106 páginas), index.md (+1 fonte, +1 entidade, conceito atualizado, total 107 páginas).
