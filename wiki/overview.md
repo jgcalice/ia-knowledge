@@ -2,12 +2,12 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-04-26
-source_count: 45
+source_count: 46
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 45 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto e **Adoção Empresarial**
+> Wiki iniciado em 2026-04-21 | 46 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto e **Adoção Empresarial**
 
 ## Tese atual
 
@@ -70,9 +70,11 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 ### Cluster 7: Segurança Digital com IA
 **Conceito central:** [[segurança-com-ia]]
 
-- **Dimensão 1 — Desenvolvimento**: 5 fundamentos de segurança para apps construídos com Claude Code: API keys no servidor, RLS no Supabase, lógica sensível no back-end, rate limiting e webhooks com assinatura verificada ([[lucas-garcia-pit]])
-- **Dimensão 2 — Privacidade/OSINT**: 7 ferramentas para mapear exposição de dados pessoais: ZoomEye (dispositivos expostos), Have I Been Pwned (vazamentos), Namecheck (contas), Pic2Map (EXIF), EPA (vínculos por e-mail/telefone), Exploding Database (Google Dorks) ([[gustavo-melo]])
-- **Tese unificada**: aceleração (via IA no dev, via internet na acumulação) cria exposições invisíveis que exigem consciência ativa para serem corrigidas
+- **Dimensão 1 — Desenvolvimento preventivo**: 5 fundamentos design-time para apps com Claude Code: API keys no servidor, RLS no Supabase, lógica sensível no back-end, rate limiting e webhooks assinados ([[lucas-garcia-pit]])
+- **Dimensão 2 — Privacidade/OSINT**: 7 ferramentas para mapear exposição de dados pessoais: ZoomEye, HIBP, Namecheck, Pic2Map, EPA, Exploding Database ([[gustavo-melo]])
+- **Dimensão 3 — Empresarial**: Shadow AI (70-80% usam ferramentas não aprovadas), segurança como enabler front-loaded, pipeline PII scrubbing como moat ([[stanford-digital-economy-lab]])
+- **Dimensão 4 — Vibecoding pré-deploy**: prompt de 6 blocos que instrui o agente a auditar o codebase como engenheiro sênior de segurança ($15k em valor); conceito de **attack chains** (3 vulns "low" = 1 "critical") ([[artificial-intelligence-business]] / @thewizeai) — NOVO
+- **Tese unificada**: aceleração (LLMs no dev, internet nos dados, mandato corporativo) cria exposições invisíveis que exigem intenção ativa para serem corrigidas — em 4 escalas diferentes
 
 ---
 

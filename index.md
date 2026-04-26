@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-26 | Total de páginas: 122 | Fontes ingeridas: 45
+> Atualizado em: 2026-04-26 | Total de páginas: 124 | Fontes ingeridas: 46
 
 ---
 
@@ -60,6 +60,7 @@
 | [[wiki/sources/2026-04-01_enterprise-ai-playbook-stanford]] | Pereira, Graylin, Brynjolfsson (Stanford) | 2026-04 | The Enterprise AI Playbook — relatório empírico com 51 casos de IA empresarial bem-sucedida, 41 organizações, 7 países |
 | [[wiki/sources/2026-04-23_ai-fied-riqueza-5-prompts-naval]] | @AI-Fied \| AI Tools & Tech | 2026-04-23 | 5 prompts Naval Ravikant: Find Your Unfair Advantage, Audite Seu Aproveitamento, Turn Yourself Into a Product, Encontre Onde Você Está Trocando Tempo por Dinheiro, Design Work That Compounds |
 | [[wiki/sources/2026-04-21_ai-updater-cookbook-agente-dados]] | @Artificial Intelligence (AI) Updater | 2026-04-21 | Cookbook Anthropic: agente de análise de dados com Claude Managed Agents — upload CSV → relatório HTML interativo |
+| [[wiki/sources/2026-04-25_vibecoding-seguranca-auditoria-ia]] | @Artificial Intelligence l Business (@thewizeai) | 2026-04-25 | Prompt red team de 6 blocos para auditar segurança de apps vibecoded (auth, input, data, infra, supply chain, exploit chains) |
 
 ---
 
@@ -76,7 +77,8 @@
 | [[wiki/concepts/agentes-ia]] | 6 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills |
 | [[wiki/concepts/estratégia-de-negócios-com-ia]] | 5 | 4 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
-| [[wiki/concepts/segurança-com-ia]] | 3 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança empresarial |
+| [[wiki/concepts/segurança-com-ia]] | 4 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding |
+| [[wiki/concepts/vibecoding]] | 1 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança, abordagens preventiva e detective |
 | [[wiki/concepts/adoção-empresarial-de-ia]] | 1 | Playbook empresarial: 11 capítulos sobre como organizações passam de piloto a ROI real |
 | [[wiki/concepts/dados-como-moat]] | 1 | Dados proprietários como vantagem competitiva durável; 47% das empresas explicitamente o citam como moat |
 | [[wiki/concepts/escolha-de-modelo-fundacional]] | 1 | Comoditização parcial (42% commodity); multi-model + abstraction layer como vantagem |

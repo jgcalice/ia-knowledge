@@ -1,9 +1,9 @@
 ---
 title: "Segurança com IA"
 type: concept
-tags: [segurança, claude-code, desenvolvimento, api, backend, supabase, osint, privacidade, shadow-ai, governança]
-source_count: 3
-last_updated: 2026-04-25
+tags: [segurança, claude-code, desenvolvimento, api, backend, supabase, osint, privacidade, shadow-ai, governança, vibecoding, red-team]
+source_count: 4
+last_updated: 2026-04-26
 ---
 
 # Segurança com IA
@@ -53,12 +53,6 @@ Documentadas em [[2026-04-18_gustavo-melo-ferramentas-osint]]:
 | **Shint Premium Work** | Agregador de dados pessoais | Verificar o que está publicamente associado ao seu CPF/e-mail |
 
 **Padrão subjacente**: todas as ferramentas exploram dados *já públicos* — a novidade é a agregação e a facilidade de acesso.
-
----
-
-## Convergência entre as duas dimensões
-
-Ambas as perspectivas compartilham o mesmo princípio de fundo: **a aceleração (pela IA no desenvolvimento, pela internet no acúmulo de dados) cria exposições invisíveis que só são corrigidas com consciência ativa**. O dev que usa Claude Code sem pensar em segurança e o usuário que publica fotos sem verificar metadados EXIF cometem o mesmo erro: subestimar o que está exposto.
 
 ---
 
@@ -112,18 +106,51 @@ Os 5 fundamentos do [[lucas-garcia-pit]] (API keys server-side, RLS, lógica ser
 
 ---
 
-## Síntese das três dimensões
+## Dimensão 4: Auditoria de Segurança para Vibecoding
 
-| Dimensão | Quem usa | Princípio | Falha típica |
+(Via [[artificial-intelligence-business]] / @thewizeai, [[2026-04-25_vibecoding-seguranca-auditoria-ia]])
+
+### Tese
+
+> "The dirty secret of vibecoding is that speed and security are inversely correlated."
+
+Apps construídos rapidamente com LLMs não passam por nenhuma revisão de segurança. A maioria não tem auth checks, validação de entrada, nem ideia do que está exposto. Um único prompt pode replicar o processo de uma auditoria red team profissional ($15k+).
+
+### O prompt de 6 blocos
+
+| Bloco | Conteúdo |
+|---|---|
+| **Role + Scope** | "Act as senior security engineer. Assume hostile environment." Cobertura: frontend, backend, auth, DB, infra, third-party |
+| **Core Objectives** | Vulnerabilidades em todos os severidade levels; falhas lógicas não-óbvias; construir threat model com perfis de atacantes |
+| **Auth + Input** | Broken auth, privilege escalation, token leakage; SQL/NoSQL/template injection, XSS (stored/reflected/DOM), CSRF, file upload |
+| **Data + API Logic** | Sensitive data exposure, hardcoded secrets, insecure storage; IDOR/BOLA, mass assignment, rate limiting, business logic abuse, race conditions |
+| **Infra + Supply Chain** | CORS/CSP/HSTS misconfigured, debug endpoints expostos, env vars, cloud misconfig; pacotes vulneráveis, dependências maliciosas |
+| **Ameaças Avançadas** | Logic flaws únicos ao sistema, feature abuse, cache poisoning, replay/timing attacks, **multi-step exploit chains** |
+
+### O conceito de Attack Chain
+
+O insight mais importante desta dimensão: **3 vulnerabilidades "low" podem se combinar em 1 "critical"**. Isso muda o modelo mental de segurança de checklist linear para grafo de dependências. O formato de output obriga o agente a mapear essas chains explicitamente.
+
+### Relação com a Dimensão 1
+
+Os 5 fundamentos da Dimensão 1 ([[lucas-garcia-pit]]) são **preventivos** (design-time). O prompt desta dimensão é **detective** (pré-deploy). Os dois são complementares: preventivo evita os erros mais comuns; detective pega o que passou.
+
+---
+
+## Síntese das quatro dimensões
+
+| Dimensão | Quem usa | Princípio | Quando aplicar |
 |---|---|---|---|
-| 1 — Desenvolvimento | Dev individual com Claude Code | Nunca confiar no cliente (zero trust) | API key no front-end, sem RLS, lógica no client |
-| 2 — Pessoal/OSINT | Usuário comum | Auditar a própria exposição | Foto com EXIF público, vazamento HIBP, EPA expondo links |
-| 3 — Empresarial | Organização inteira | Segurança como infra reutilizável | Shadow AI em massa, "tudo no firewall" sem alternativa |
+| 1 — Desenvolvimento preventivo | Dev individual com Claude Code | Zero trust; nunca confiar no cliente | Durante o design/build |
+| 2 — Pessoal/OSINT | Usuário comum | Auditar a própria exposição | Periodicamente |
+| 3 — Empresarial | Organização inteira | Segurança como infra reutilizável | Antes de habilitar IA enterprise |
+| 4 — Vibecoding (pré-deploy) | Dev que vibecoda | Assume já comprometido; pense como atacante | Antes de cada deploy |
 
-**Três escalas, mesmo padrão**: a aceleração (IA, internet, mandato corporativo "use AI") cria exposições invisíveis que só são corrigidas com infraestrutura intencional.
+**Padrão unificado**: a aceleração cria exposições invisíveis que só são corrigidas com **intenção ativa** — seja no design, na auditoria pessoal, na governança corporativa ou no review pré-deploy.
 
 ## Fontes
 
 - [[2026-04-15_lucas-garcia-pit-seguranca-claudecode]] — 5 pontos de segurança para apps com Claude Code
 - [[2026-04-18_gustavo-melo-ferramentas-osint]] — 7 ferramentas OSINT para pesquisa e segurança digital
 - [[2026-04-01_enterprise-ai-playbook-stanford]] — Shadow AI, segurança empresarial como enabler
+- [[2026-04-25_vibecoding-seguranca-auditoria-ia]] — prompt red team completo para auditoria de apps vibecoded

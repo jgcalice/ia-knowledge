@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-26] ingest | Segurança em Vibecoding: Auditoria Red Team com IA — @Artificial Intelligence l Business (@thewizeai)
+
+Fonte: `2026-04-25_artificial_intelligence_l_business_DXkC_7DDR6W.md`. Páginas criadas: wiki/sources/2026-04-25_vibecoding-seguranca-auditoria-ia.md, wiki/concepts/vibecoding.md (novo conceito). Atualizadas: entities/artificial-intelligence-business.md (source_count 1→2, nova fonte adicionada), concepts/segurança-com-ia.md (source_count 3→4, Dimensão 4 "Vibecoding pré-deploy" adicionada + nova Síntese das 4 dimensões, seções antigas "Convergência entre as duas dimensões" e "Síntese das três dimensões" removidas), wiki/overview.md (45→46 fontes, Cluster 7 expandido com Dimensão 4), index.md (122→124 páginas, 45→46 fontes, +1 fonte, +1 conceito vibecoding).
+
 ## [2026-04-26] ingest | Cookbook Agente de Análise de Dados com Claude Managed Agents — @Artificial Intelligence (AI) Updater
 
 Fonte: `2026-04-21_artificial_intelligence_ai_updater_DXZWWAjkmy9.md`. Páginas criadas: wiki/sources/2026-04-21_ai-updater-cookbook-agente-dados.md, entities/ai-updater.md. Atualizadas: concepts/agentes-ia.md (source_count 10→11, seção "Claude Managed Agents como runtime hospedado" adicionada com tabela Agent/Environment/Session/Events + toolset), entities/claude-code.md (source_count 29→30, novo uso "Análise de dados automática" adicionado), wiki/overview.md (44→45 fontes, [[ai-updater]] adicionado ao mapa Internacional, novo padrão emergente sobre Claude Managed Agents), index.md (122 páginas, +1 fonte, +1 entidade).
