@@ -2,12 +2,12 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-04-26
-source_count: 46
+source_count: 47
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 46 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto e **Adoção Empresarial**
+> Wiki iniciado em 2026-04-21 | 47 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto e **Adoção Empresarial**
 
 ## Tese atual
 
@@ -71,7 +71,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 **Conceito central:** [[segurança-com-ia]]
 
 - **Dimensão 1 — Desenvolvimento preventivo**: 5 fundamentos design-time para apps com Claude Code: API keys no servidor, RLS no Supabase, lógica sensível no back-end, rate limiting e webhooks assinados ([[lucas-garcia-pit]])
-- **Dimensão 2 — Privacidade/OSINT**: 7 ferramentas para mapear exposição de dados pessoais: ZoomEye, HIBP, Namecheck, Pic2Map, EPA, Exploding Database ([[gustavo-melo]])
+- **Dimensão 2 — Privacidade/OSINT**: 12 ferramentas documentadas em 2 fontes BR independentes: ZoomEye, HIBP, Namecheck, Pic2Map, EPA, Exploding Database ([[gustavo-melo]]) + Sherlock, Maltego, SpiderFoot, Shodan, Google Dorking ([[sidney-rodrigo]])
 - **Dimensão 3 — Empresarial**: Shadow AI (70-80% usam ferramentas não aprovadas), segurança como enabler front-loaded, pipeline PII scrubbing como moat ([[stanford-digital-economy-lab]])
 - **Dimensão 4 — Vibecoding pré-deploy**: prompt de 6 blocos que instrui o agente a auditar o codebase como engenheiro sênior de segurança ($15k em valor); conceito de **attack chains** (3 vulns "low" = 1 "critical") ([[artificial-intelligence-business]] / @thewizeai) — NOVO
 - **Tese unificada**: aceleração (LLMs no dev, internet nos dados, mandato corporativo) cria exposições invisíveis que exigem intenção ativa para serem corrigidas — em 4 escalas diferentes
@@ -147,7 +147,7 @@ Síntese: [[instagram-vs-pesquisa-empirica-ia]] — comparação dos dois ângul
 
 **Conceitos de segurança**: [[segurança-com-ia]]
 
-**Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]]
+**Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]]
 
 **Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]]
 
@@ -170,7 +170,7 @@ Síntese: [[instagram-vs-pesquisa-empirica-ia]] — comparação dos dois ângul
 - **Skills como equipe virtual distribuível**: [[paras-madan]] expande o padrão de [[aashish-pahwa]] (skills para PMs) para canais de crescimento — o founder substitui media buyer, CRO consultant, copywriter, community manager e SEO analyst com 5 skills open-source
 - **Claude Code como agente autônomo**: Auto Mode + Frontload + Notificações mudam o paradigma de "babysitting" (aprovação constante) para "delegação real" — o agente trabalha horas sem supervisão ([[alex-finn]])
 - **Segurança como ponto cego do desenvolvimento com IA**: Claude Code acelera tanto o desenvolvimento que devs pulam fundamentos clássicos de back-end (RLS, rate limit, server-side secrets) — [[lucas-garcia-pit]] documenta os 5 mais críticos
-- **OSINT como alfabetização digital**: a internet expõe muito mais dados pessoais do que as pessoas percebem — [[gustavo-melo]] apresenta 7 ferramentas (ZoomEye, Have I Been Pwned, Namecheck, Pic2Map, EPA, Exploding Database) para auditar a própria exposição; Have I Been Pwned é a mais legitimada pela comunidade de segurança
+- **OSINT como alfabetização digital**: a internet expõe muito mais dados pessoais do que as pessoas percebem — duas fontes BR independentes documentam 12 ferramentas para auditar exposição: [[gustavo-melo]] (7 ferramentas para uso pessoal defensivo) e [[sidney-rodrigo]] (5 ferramentas do arsenal de analistas profissionais — Sherlock, Maltego, SpiderFoot, Shodan, Google Dorking). Convergência em duas categorias: scanners de dispositivos (ZoomEye ≈ Shodan) e Google Dorks (Exploding Database ≈ Google Dorking)
 - **Validação como etapa anterior à estratégia**: o framework [[paul-graham]] (via [[harry]]) documenta a camada pré-estratégia — testar ideia antes de qualquer planejamento de mercado; complementa os 7 prompts de [[evolving-ai]] / [[business-bulls]] que começam depois que o produto existe
 - **Claude tem dois modos de usuário documentados**: "usuário conversacional" (Daily Efficiency sem CLI, sem API — emails, PDFs, tone) e "usuário técnico" (Claude Code com CLAUDE.md, sub-agentes, slash commands); [[yik-chan]] é a primeira fonte a catalogar os 25 usos de nível básico de forma sistemática
 - **Brand Voice Document em Projects como padrão de persistência de estilo**: salvar tom/palavras proibidas/regras de escrita no Projects elimina repetição de briefing — evolução da lógica do CLAUDE.md para contextos de conteúdo (não só código)
@@ -188,9 +188,9 @@ Síntese: [[instagram-vs-pesquisa-empirica-ia]] — comparação dos dois ângul
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 43 |
-| Páginas de fontes | 43 |
-| Páginas de conceitos | 15 |
-| Páginas de entidades | 57 |
+| Fontes ingeridas | 47 |
+| Páginas de fontes | 47 |
+| Páginas de conceitos | 16 |
+| Páginas de entidades | 61 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **117** |
+| **Total de páginas** | **126** |

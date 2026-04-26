@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-26] ingest | 5 Ferramentas OSINT Profissionais — @sidneyrodrigobr
+
+Fonte: `2026-04-08_sidney_analista_de_redes_e_ciberseguranca_DW4BELkjMVb.md`. Páginas criadas: wiki/sources/2026-04-08_sidney-ferramentas-osint.md, entities/sidney-rodrigo.md. Atualizadas: concepts/segurança-com-ia.md (source_count 4→5, Dimensão 2 expandida com Fonte B — 5 ferramentas profissionais: Sherlock, Maltego, SpiderFoot, Shodan, Google Dorking; convergências com Fonte A documentadas: Shodan≈ZoomEye, Google Dorking≈Exploding Database), wiki/overview.md (46→47 fontes, [[sidney-rodrigo]] adicionado ao mapa BR e ao Cluster 7, status table atualizada 117→126 páginas), index.md (124→126 páginas, 46→47 fontes, +1 fonte, +1 entidade).
+
 ## [2026-04-26] ingest | Segurança em Vibecoding: Auditoria Red Team com IA — @Artificial Intelligence l Business (@thewizeai)
 
 Fonte: `2026-04-25_artificial_intelligence_l_business_DXkC_7DDR6W.md`. Páginas criadas: wiki/sources/2026-04-25_vibecoding-seguranca-auditoria-ia.md, wiki/concepts/vibecoding.md (novo conceito). Atualizadas: entities/artificial-intelligence-business.md (source_count 1→2, nova fonte adicionada), concepts/segurança-com-ia.md (source_count 3→4, Dimensão 4 "Vibecoding pré-deploy" adicionada + nova Síntese das 4 dimensões, seções antigas "Convergência entre as duas dimensões" e "Síntese das três dimensões" removidas), wiki/overview.md (45→46 fontes, Cluster 7 expandido com Dimensão 4), index.md (122→124 páginas, 45→46 fontes, +1 fonte, +1 conceito vibecoding).

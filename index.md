@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-26 | Total de páginas: 124 | Fontes ingeridas: 46
+> Atualizado em: 2026-04-26 | Total de páginas: 126 | Fontes ingeridas: 47
 
 ---
 
@@ -61,6 +61,7 @@
 | [[wiki/sources/2026-04-23_ai-fied-riqueza-5-prompts-naval]] | @AI-Fied \| AI Tools & Tech | 2026-04-23 | 5 prompts Naval Ravikant: Find Your Unfair Advantage, Audite Seu Aproveitamento, Turn Yourself Into a Product, Encontre Onde Você Está Trocando Tempo por Dinheiro, Design Work That Compounds |
 | [[wiki/sources/2026-04-21_ai-updater-cookbook-agente-dados]] | @Artificial Intelligence (AI) Updater | 2026-04-21 | Cookbook Anthropic: agente de análise de dados com Claude Managed Agents — upload CSV → relatório HTML interativo |
 | [[wiki/sources/2026-04-25_vibecoding-seguranca-auditoria-ia]] | @Artificial Intelligence l Business (@thewizeai) | 2026-04-25 | Prompt red team de 6 blocos para auditar segurança de apps vibecoded (auth, input, data, infra, supply chain, exploit chains) |
+| [[wiki/sources/2026-04-08_sidney-ferramentas-osint]] | @sidneyrodrigobr | 2026-04-08 | 5 ferramentas OSINT profissionais: Sherlock, Maltego, SpiderFoot, Shodan, Google Dorking |
 
 ---
 
@@ -147,6 +148,7 @@
 | [[wiki/entities/nico]] | @Nico | 1 | Criador de conteúdo sobre importação da China (Fansbuy) — fora do escopo IA |
 | [[wiki/entities/ai-fied]] | @ai.fiedstudio | 1 | Ferramentas e prompts de IA — 5 prompts Naval Ravikant para estratégia de riqueza |
 | [[wiki/entities/gustavo-melo]] | @Gustavo Melo \| Tecnologia e IA | 1 | Segurança digital e OSINT (BR) — ferramentas de investigação e privacidade |
+| [[wiki/entities/sidney-rodrigo]] | @sidneyrodrigobr | 1 | Analista de redes e cibersegurança (BR) — 5 ferramentas OSINT profissionais |
 | [[wiki/entities/erik-brynjolfsson]] | Erik Brynjolfsson | 1 | Director Stanford DEL; Productivity J-Curve, GDP-B, Canaries in the Coal Mine — referencial teórico de IA + economia |
 | [[wiki/entities/alvin-wang-graylin]] | Alvin Wang Graylin | 1 | Digital Fellow Stanford DEL; foco em economia da IA e políticas para transição pós-trabalho |
 | [[wiki/entities/elisa-pereira]] | Elisa Pereira | 1 | Pesquisadora Stanford DEL; background VC + IA na América Latina, soberania tecnológica |

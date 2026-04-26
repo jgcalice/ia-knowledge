@@ -2,13 +2,13 @@
 title: "Segurança com IA"
 type: concept
 tags: [segurança, claude-code, desenvolvimento, api, backend, supabase, osint, privacidade, shadow-ai, governança, vibecoding, red-team]
-source_count: 4
+source_count: 5
 last_updated: 2026-04-26
 ---
 
 # Segurança com IA
 
-> Três dimensões: (1) segurança no *desenvolvimento* de apps com LLMs, (2) segurança *pessoal/digital* via ferramentas OSINT, e (3) segurança *empresarial/governança* (Shadow AI, infraestrutura como enabler).
+> Quatro dimensões: (1) segurança no *desenvolvimento* de apps com LLMs, (2) segurança *pessoal/digital* via ferramentas OSINT (12 ferramentas documentadas em 2 fontes), (3) segurança *empresarial/governança* (Shadow AI, infraestrutura como enabler), e (4) auditoria red team pré-deploy para apps vibecoded.
 
 ## Dimensão 1: Segurança no Desenvolvimento (via @Lucas Garcia Pit)
 
@@ -32,13 +32,13 @@ Documentados em [[2026-04-15_lucas-garcia-pit-seguranca-claudecode]]:
 
 ---
 
-## Dimensão 2: Segurança Digital e OSINT (via @Gustavo Melo)
+## Dimensão 2: Segurança Digital e OSINT
 
 ### Tese
 
-A internet expõe muito mais dados pessoais do que a maioria das pessoas percebe. Ferramentas de OSINT (Open Source Intelligence) — usadas por hackers e investigadores — estão disponíveis gratuitamente e permitem mapear a exposição de qualquer pessoa. Conhecer essas ferramentas é a primeira linha de defesa.
+A internet expõe muito mais dados pessoais do que a maioria das pessoas percebe. Ferramentas de OSINT (Open Source Intelligence) — usadas por hackers e investigadores — estão disponíveis gratuitamente e permitem mapear a exposição de qualquer pessoa ou infraestrutura. Conhecer essas ferramentas é a primeira linha de defesa. Duas fontes brasileiras independentes documentam 12 ferramentas complementares.
 
-### As 7 ferramentas OSINT
+### Fonte A: 7 ferramentas para auditoria pessoal de exposição (via @Gustavo Melo)
 
 Documentadas em [[2026-04-18_gustavo-melo-ferramentas-osint]]:
 
@@ -52,7 +52,23 @@ Documentadas em [[2026-04-18_gustavo-melo-ferramentas-osint]]:
 | **Exploding Database** | Google Dorks avançados | Verificar se arquivos próprios foram indexados indevidamente |
 | **Shint Premium Work** | Agregador de dados pessoais | Verificar o que está publicamente associado ao seu CPF/e-mail |
 
-**Padrão subjacente**: todas as ferramentas exploram dados *já públicos* — a novidade é a agregação e a facilidade de acesso.
+### Fonte B: 5 ferramentas usadas por profissionais de segurança (via @sidneyrodrigobr)
+
+Documentadas em [[2026-04-08_sidney-ferramentas-osint]]:
+
+| Ferramenta | Tipo | Capacidade |
+|-----------|------|-----------|
+| **Sherlock** | Rastreador de perfis (Python, open-source) | Varre 400 redes sociais a partir de um username |
+| **Maltego** | Mapeador de conexões visual | E-mail → mapa de domínios, redes sociais, servidores, localização; usado pela Polícia Federal |
+| **SpiderFoot** | OSINT automatizado | Vasculha 200 fontes (leaks, WHOIS, DNS, fóruns, pastebins) → dossiê em minutos |
+| **Shodan** | "Google dos dispositivos vulneráveis" | Indexa roteadores, câmeras e servidores expostos na internet |
+| **Google Dorking + Intelligence X** | Busca cirúrgica avançada | Localiza planilhas, CPFs, e-mails vazados e dados indexados publicamente |
+
+### Convergências entre as duas fontes
+
+- **Shodan ≈ ZoomEye**: ambos são scanners de dispositivos expostos — Gustavo usa ZoomEye, Sidney usa Shodan. Mesma categoria, ferramentas concorrentes.
+- **Google Dorking ≈ Exploding Database**: a Exploding Database é construída sobre Google Dorks; Sidney nomeia a técnica diretamente. Confirmação independente de que dorks são o método padrão para indexação de dados expostos.
+- **Princípio unificador**: todas as 12 ferramentas exploram dados *já públicos* — a novidade é a agregação e a velocidade de acesso. "O problema não é o acesso; é o uso."
 
 ---
 
@@ -152,5 +168,6 @@ Os 5 fundamentos da Dimensão 1 ([[lucas-garcia-pit]]) são **preventivos** (des
 
 - [[2026-04-15_lucas-garcia-pit-seguranca-claudecode]] — 5 pontos de segurança para apps com Claude Code
 - [[2026-04-18_gustavo-melo-ferramentas-osint]] — 7 ferramentas OSINT para pesquisa e segurança digital
+- [[2026-04-08_sidney-ferramentas-osint]] — 5 ferramentas OSINT usadas por profissionais (Sherlock, Maltego, SpiderFoot, Shodan, Google Dorking)
 - [[2026-04-01_enterprise-ai-playbook-stanford]] — Shadow AI, segurança empresarial como enabler
 - [[2026-04-25_vibecoding-seguranca-auditoria-ia]] — prompt red team completo para auditoria de apps vibecoded
