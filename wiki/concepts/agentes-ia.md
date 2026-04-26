@@ -2,7 +2,7 @@
 title: "Agentes de IA"
 type: concept
 tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents]
-source_count: 11
+source_count: 12
 last_updated: 2026-04-26
 ---
 
@@ -91,6 +91,19 @@ Primeiro dado empírico em larga escala no wiki sobre uso agêntico de IA em emp
 
 Padrão emergente: agentic AI **não é uma nova UI**, é **redefinição do papel de humanos e máquinas** no workflow. Companies passaram a tratar IA como extensão do time, não só ferramenta.
 
+### CLAUDE.md de Boris Cherny: orquestração como configuração de agente
+
+([[manthan-patel]], [[2026-04-17_manthan-patel-claudemd-boris-cherny]])
+
+[[boris-cherny]] (Anthropic) documenta que sub-agentes no CLAUDE.md têm motivação distinta da economia de tokens de [[nate-herk]]:
+
+- **Contexto limpo**: o agente principal não acumula histórico de trabalho interno dos sub-agentes
+- **Paralelismo**: análises e tarefas independentes executadas simultaneamente
+
+Além dos sub-agentes, o arquivo de [[boris-cherny]] codifica um ciclo de autoaperfeiçoamento (auto-improvement loop) como comportamento padrão do agente — atualizar lições e revisar padrões de forma contínua. É o primeiro registro explícito no wiki de um ciclo de melhoria configurado no agente, não só executado manualmente pelo usuário.
+
+**Princípio de impacto mínimo aplicado a agentes autônomos**: "Minimal Impact" — tocar apenas o que a tarefa exige — é especialmente crítico para agentes que operam com Auto Mode, pois reduz o risco de side effects não intencionais em sessões longas sem supervisão.
+
 ### Claude Managed Agents: runtime hospedado para agentes com estado
 
 ([[ai-updater]], [[2026-04-21_ai-updater-cookbook-agente-dados]])
@@ -123,3 +136,4 @@ Ferramentas nativas (`agent_toolset_20260401`): `bash`, `read`, `write`, `edit`,
 - [[2026-04-16_yik-chan-100-recursos-ocultos-claude]]
 - [[2026-04-01_enterprise-ai-playbook-stanford]]
 - [[2026-04-21_ai-updater-cookbook-agente-dados]]
+- [[2026-04-17_manthan-patel-claudemd-boris-cherny]]

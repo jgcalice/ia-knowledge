@@ -2,12 +2,12 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-04-26
-source_count: 47
+source_count: 48
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 47 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto e **Adoção Empresarial**
+> Wiki iniciado em 2026-04-21 | 48 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto e **Adoção Empresarial**
 
 ## Tese atual
 
@@ -149,7 +149,9 @@ Síntese: [[instagram-vs-pesquisa-empirica-ia]] — comparação dos dois ângul
 
 **Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]]
 
-**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]]
+**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]]
+
+**Referências de produto Anthropic**: [[boris-cherny]]
 
 ---
 
@@ -181,6 +183,7 @@ Síntese: [[instagram-vs-pesquisa-empirica-ia]] — comparação dos dois ângul
 - **Shadow AI em escala industrial**: fabricante de semiconductors com 1.500-1.600 ferramentas IA não-aprovadas em uso simultâneo antes de plataforma oficial — primeira evidência empírica no wiki da magnitude do uso "informal" de IA dentro de empresas
 - **Canários no mercado de trabalho**: workers 22-25 em ocupações expostas a IA já têm queda relativa de 16% em emprego (devs jovens: -20%) — caveat crítico ao otimismo dos criadores de Instagram sobre redeployment automático
 - **Modelos chineses open-source dominando o stack agêntico**: Qwen, Kimi, Minimax, GLM = 4 dos top-5 no OpenRouter por volume de tokens em fev/2026, puxados por agentic workloads — invisível na conversa anglófona até agora
+- **CLAUDE.md como sistema de autonomia, não só de configuração**: [[boris-cherny]] (Anthropic) documenta que o CLAUDE.md pode codificar meta-comportamentos de agente — plan mode obrigatório, sub-agentes para contexto limpo, ciclo de autoaperfeiçoamento, bug fixing autônomo e princípios Simplicity/No Laziness/Minimal Impact; complementa e fundamenta os hacks táticos de [[sal-shirgaleev]], [[alex-finn]] e [[nate-herk]]
 
 ---
 
@@ -188,9 +191,9 @@ Síntese: [[instagram-vs-pesquisa-empirica-ia]] — comparação dos dois ângul
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 47 |
-| Páginas de fontes | 47 |
+| Fontes ingeridas | 48 |
+| Páginas de fontes | 48 |
 | Páginas de conceitos | 16 |
-| Páginas de entidades | 61 |
+| Páginas de entidades | 63 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **126** |
+| **Total de páginas** | **129** |

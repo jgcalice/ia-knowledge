@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-26] ingest | Princípios do CLAUDE.md de Boris Cherny — @Manthan Patel | Lead Gen Man
+
+Fonte: `2026-04-17_manthan_patel_lead_gen_man_DXPlgNwDZgz.md`. Páginas criadas: wiki/sources/2026-04-17_manthan-patel-claudemd-boris-cherny.md, entities/manthan-patel.md, entities/boris-cherny.md. Atualizadas: entities/claude-code.md (source_count 30→31, nova boas práticas sobre CLAUDE.md de Boris Cherny), concepts/prompt-engineering.md (source_count 23→24, nova seção "CLAUDE.md como sistema de instruções permanentes de orquestração" com Core Principles, Workflow Orchestration e Task Management), concepts/agentes-ia.md (source_count 11→12, nova seção sobre sub-agentes para contexto limpo, ciclo de autoaperfeiçoamento e princípio de impacto mínimo), wiki/overview.md (47→48 fontes, manthan-patel + boris-cherny no mapa, novo padrão emergente "CLAUDE.md como sistema de autonomia", status table 126→129 páginas), index.md (126→129 páginas, 47→48 fontes, +1 fonte, +2 entidades).
+
 ## [2026-04-26] ingest | 5 Ferramentas OSINT Profissionais — @sidneyrodrigobr
 
 Fonte: `2026-04-08_sidney_analista_de_redes_e_ciberseguranca_DW4BELkjMVb.md`. Páginas criadas: wiki/sources/2026-04-08_sidney-ferramentas-osint.md, entities/sidney-rodrigo.md. Atualizadas: concepts/segurança-com-ia.md (source_count 4→5, Dimensão 2 expandida com Fonte B — 5 ferramentas profissionais: Sherlock, Maltego, SpiderFoot, Shodan, Google Dorking; convergências com Fonte A documentadas: Shodan≈ZoomEye, Google Dorking≈Exploding Database), wiki/overview.md (46→47 fontes, [[sidney-rodrigo]] adicionado ao mapa BR e ao Cluster 7, status table atualizada 117→126 páginas), index.md (124→126 páginas, 46→47 fontes, +1 fonte, +1 entidade).

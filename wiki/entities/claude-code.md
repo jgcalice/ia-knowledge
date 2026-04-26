@@ -3,7 +3,7 @@ title: "Claude / Claude Code"
 type: entity
 category: tool
 tags: [llm, claude, anthropic, claude-code, ia, claude-managed-agents]
-source_count: 30
+source_count: 31
 last_updated: 2026-04-26
 ---
 
@@ -115,6 +115,7 @@ Documentado por [[lucas-garcia-pit]] em [[2026-04-15_lucas-garcia-pit-seguranca-
 - Manter CLAUDE.md sob 200 linhas / ~2.000 tokens — carrega a cada sessão, bloat é custo constante
 - Usar `.claudeignore` para excluir pastas/arquivos irrelevantes do repo
 - Sessions chaining: sessão de discovery → sessão de planning → sessão de execution
+- CLAUDE.md de [[boris-cherny]]: codificar Workflow Orchestration + Task Management + Core Principles no arquivo de configuração transforma o agente de "respondedor" em "executor autônomo estruturado"
 
 ## Fontes
 
@@ -146,3 +147,4 @@ Documentado por [[lucas-garcia-pit]] em [[2026-04-15_lucas-garcia-pit-seguranca-
 - [[2026-04-22_pabloinpublic-find-skills]]
 - [[2026-04-16_yik-chan-100-recursos-ocultos-claude]]
 - [[2026-04-21_ai-updater-cookbook-agente-dados]]
+- [[2026-04-17_manthan-patel-claudemd-boris-cherny]]

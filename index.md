@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-26 | Total de páginas: 126 | Fontes ingeridas: 47
+> Atualizado em: 2026-04-26 | Total de páginas: 129 | Fontes ingeridas: 48
 
 ---
 
@@ -62,6 +62,7 @@
 | [[wiki/sources/2026-04-21_ai-updater-cookbook-agente-dados]] | @Artificial Intelligence (AI) Updater | 2026-04-21 | Cookbook Anthropic: agente de análise de dados com Claude Managed Agents — upload CSV → relatório HTML interativo |
 | [[wiki/sources/2026-04-25_vibecoding-seguranca-auditoria-ia]] | @Artificial Intelligence l Business (@thewizeai) | 2026-04-25 | Prompt red team de 6 blocos para auditar segurança de apps vibecoded (auth, input, data, infra, supply chain, exploit chains) |
 | [[wiki/sources/2026-04-08_sidney-ferramentas-osint]] | @sidneyrodrigobr | 2026-04-08 | 5 ferramentas OSINT profissionais: Sherlock, Maltego, SpiderFoot, Shodan, Google Dorking |
+| [[wiki/sources/2026-04-17_manthan-patel-claudemd-boris-cherny]] | @Manthan Patel \| Lead Gen Man | 2026-04-17 | Princípios do CLAUDE.md de Boris Cherny: Plan Mode, Sub-agentes, Simplicity/No Laziness/Minimal Impact |
 
 ---
 
@@ -153,6 +154,8 @@
 | [[wiki/entities/alvin-wang-graylin]] | Alvin Wang Graylin | 1 | Digital Fellow Stanford DEL; foco em economia da IA e políticas para transição pós-trabalho |
 | [[wiki/entities/elisa-pereira]] | Elisa Pereira | 1 | Pesquisadora Stanford DEL; background VC + IA na América Latina, soberania tecnológica |
 | [[wiki/entities/ai-updater]] | @Artificial Intelligence (AI) Updater | 1 | Canal de novidades IA — divulgação de cookbooks e lançamentos da Anthropic |
+| [[wiki/entities/manthan-patel]] | @Manthan Patel \| Lead Gen Man | 1 | Criador de conteúdo — Claude Code, hacks de produtividade, CLAUDE.md de Boris Cherny |
+| [[wiki/entities/boris-cherny]] | Boris Cherny | 1 | Engenheiro Anthropic — autor do CLAUDE.md de referência (Workflow Orchestration, Core Principles) |
 
 ### Pessoas / Criadores (Internacional)
 

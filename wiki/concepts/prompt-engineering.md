@@ -2,8 +2,8 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas]
-source_count: 23
-last_updated: 2026-04-24
+source_count: 24
+last_updated: 2026-04-26
 ---
 
 # Prompt Engineering
@@ -146,6 +146,28 @@ Duas técnicas nomeadas para controle fino da saída do modelo:
 - **Output Constraints**: limite explícito de palavras (ex: "less than 100 words") — reduz verbosidade e força síntese
 → [[2026-04-16_yik-chan-100-recursos-ocultos-claude]] | confirma padrão de [[adriano-couto]]
 
+### CLAUDE.md como sistema de instruções permanentes de orquestração (Boris Cherny)
+
+[[boris-cherny]] (Anthropic) documenta que o CLAUDE.md pode codificar não só regras de código, mas um sistema completo de autonomia operacional em três camadas:
+
+**Core Principles** — comportamentos de raciocínio aplicados a toda tarefa:
+- **Simplicity First**: a menor mudança que funciona — zero over-engineering
+- **No Laziness**: identificar causa raiz, nunca criar patch temporário
+- **Minimal Impact**: tocar apenas o que a tarefa exige — sem side effects
+
+**Workflow Orchestration** — quando e como escalar o processo:
+- Entrar em plan mode antes de qualquer tarefa não trivial; replanejar se algo quebrar
+- Usar sub-agentes para manter o contexto principal limpo e fazer análises em paralelo
+- Manter ciclo de autoaperfeiçoamento: atualizar lições e revisar frequentemente
+- Corrigir bugs e testes com falha de forma autônoma, sem pedir ajuda
+
+**Task Management** — sequência de 6 passos obrigatórios:
+1. Planejar Primeiro → 2. Verificar o Plano → 3. Rastrear Progresso → 4. Explicar Mudanças → 5. Documentar Resultados → 6. Capturar Lições
+
+Diferencial vs. CLAUDE.md de configuração: a maioria das fontes do wiki usa CLAUDE.md para persistir regras de projeto; Boris Cherny usa para persistir *meta-comportamentos* — como o agente deve pensar e operar em qualquer projeto.
+
+→ [[2026-04-17_manthan-patel-claudemd-boris-cherny]] | [[manthan-patel]] | [[boris-cherny]]
+
 ### Skills como pipeline de conteúdo parametrizado (Founder's stack)
 [[paras-madan]] documenta 3 skills que codificam pipelines completos de produção de conteúdo e análise:
 - **LinkedIn Post Generator:** qualquer input (blog, PR, frase) → detecção automática de hook + arco narrativo + formato (Founder/Ship, Insight, Product Launch) → post publicável
@@ -178,3 +200,4 @@ Diferencial vs. prompts únicos: são skills instaláveis, não prompts que o us
 - [[2026-04-23_harry-validacao-startup-paul-graham]]
 - [[2026-04-16_yik-chan-100-recursos-ocultos-claude]]
 - [[2026-04-18_simplifying-ai-wealth-protocol-naval]]
+- [[2026-04-17_manthan-patel-claudemd-boris-cherny]]
