@@ -1,9 +1,9 @@
 ---
 title: "Agentes de IA"
 type: concept
-tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial]
-source_count: 10
-last_updated: 2026-04-25
+tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents]
+source_count: 11
+last_updated: 2026-04-26
 ---
 
 # Agentes de IA
@@ -91,6 +91,25 @@ Primeiro dado empírico em larga escala no wiki sobre uso agêntico de IA em emp
 
 Padrão emergente: agentic AI **não é uma nova UI**, é **redefinição do papel de humanos e máquinas** no workflow. Companies passaram a tratar IA como extensão do time, não só ferramenta.
 
+### Claude Managed Agents: runtime hospedado para agentes com estado
+
+([[ai-updater]], [[2026-04-21_ai-updater-cookbook-agente-dados]])
+
+A Anthropic lançou cookbook oficial demonstrando **Claude Managed Agents** — runtime hospedado que elimina a necessidade de montar stack própria de agentes:
+
+| Conceito | Papel |
+|----------|-------|
+| **Agent** | Modelo + system prompt + tools + MCP servers + skills |
+| **Environment** | Container reutilizável com dependências pré-instaladas (pandas, plotly) |
+| **Session** | Instância do agente em execução num environment + arquivos montados |
+| **Events** | Troca de mensagens entre app e agente (`user.message`, `agent.message`, tool calls) |
+
+Ferramentas nativas (`agent_toolset_20260401`): `bash`, `read`, `write`, `edit`, `glob`, `grep`, `web_fetch`, `web_search`
+
+**Caso de uso demonstrado**: análise de CSV → relatório HTML interativo com gráficos. Padrão de 5 passos: criar environment → criar agent → upload dataset → criar session + enviar tarefa → stream da execução.
+
+**Impacto arquitetural**: diferente de construir um agente do zero (ferramentas customizadas, gerenciamento de estado manual), Managed Agents fornece plataforma gerenciada com observabilidade nativa via Console (`sessions.events.stream()` mostra tool calls e tokens ao vivo).
+
 ## Fontes
 
 - [[2026-04-17_claude-update-task-assignment]]
@@ -103,3 +122,4 @@ Padrão emergente: agentic AI **não é uma nova UI**, é **redefinição do pap
 - [[2026-04-22_pabloinpublic-find-skills]]
 - [[2026-04-16_yik-chan-100-recursos-ocultos-claude]]
 - [[2026-04-01_enterprise-ai-playbook-stanford]]
+- [[2026-04-21_ai-updater-cookbook-agente-dados]]

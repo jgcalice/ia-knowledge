@@ -2,9 +2,9 @@
 title: "Claude / Claude Code"
 type: entity
 category: tool
-tags: [llm, claude, anthropic, claude-code, ia]
-source_count: 29
-last_updated: 2026-04-24
+tags: [llm, claude, anthropic, claude-code, ia, claude-managed-agents]
+source_count: 30
+last_updated: 2026-04-26
 ---
 
 # Claude / Claude Code
@@ -39,6 +39,7 @@ Claude é o modelo de linguagem da Anthropic. Claude Code (referido nos posts co
 - **Descoberta de skills** — `find-skills` (Vercel Labs): meta-skill instalada via `npx` que busca entre milhares de skills publicadas no GitHub usando linguagem natural ([[pablo-in-public]])
 - **Prospecção via Conector** — uso dos Conectores do Claude.ai + [[vibe-prospecting]] para gerar listas de leads por nicho/cargo/cidade, 100% gratuito via browser ([[eduardo-santos]])
 - **Produtividade diária sem CLI** — uso conversacional do Claude para emails, resumo de PDFs, tone setting e outros 20+ casos de uso sem instalação ([[yik-chan]])
+- **Análise de dados automática** — cookbook oficial da Anthropic: upload CSV → Claude Managed Agents gera relatório HTML interativo com gráficos via `agent_toolset_20260401` ([[ai-updater]])
 
 ## Modos de operação
 
@@ -144,3 +145,4 @@ Documentado por [[lucas-garcia-pit]] em [[2026-04-15_lucas-garcia-pit-seguranca-
 - [[2026-04-20_nate-herk-gerenciar-limites-sessao]]
 - [[2026-04-22_pabloinpublic-find-skills]]
 - [[2026-04-16_yik-chan-100-recursos-ocultos-claude]]
+- [[2026-04-21_ai-updater-cookbook-agente-dados]]

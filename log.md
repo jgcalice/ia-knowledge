@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-26] ingest | Cookbook Agente de Análise de Dados com Claude Managed Agents — @Artificial Intelligence (AI) Updater
+
+Fonte: `2026-04-21_artificial_intelligence_ai_updater_DXZWWAjkmy9.md`. Páginas criadas: wiki/sources/2026-04-21_ai-updater-cookbook-agente-dados.md, entities/ai-updater.md. Atualizadas: concepts/agentes-ia.md (source_count 10→11, seção "Claude Managed Agents como runtime hospedado" adicionada com tabela Agent/Environment/Session/Events + toolset), entities/claude-code.md (source_count 29→30, novo uso "Análise de dados automática" adicionado), wiki/overview.md (44→45 fontes, [[ai-updater]] adicionado ao mapa Internacional, novo padrão emergente sobre Claude Managed Agents), index.md (122 páginas, +1 fonte, +1 entidade).
+
 ## [2026-04-26] ingest | 5 Prompts Naval Ravikant para Estratégia de Riqueza — @AI-Fied | AI Tools & Tech
 
 Fonte: `2026-04-23_ai_fied_ai_tools_tech_DXduEWUDDQv.md`. Páginas criadas: wiki/sources/2026-04-23_ai-fied-riqueza-5-prompts-naval.md, entities/ai-fied.md. Atualizadas: entities/naval-ravikant.md (source_count 2→3, 3ª fonte com framework Naval), concepts/design-de-estilo-de-vida.md (source_count 3→4, adicionados 5 prompts da variação AI-Fied), concepts/carreira-com-ia.md (source_count 11→12, seção "6. Estratégia de riqueza" expandida com 3ª referência), concepts/prompt-engineering.md (source_count 22→23, referência à 3ª confirmação do padrão ROLE/TASK/STEPS/RULES/OUTPUT Naval), wiki/overview.md (43→44 fontes, [[ai-fied]] adicionado ao Cluster 3 e ao mapa Internacional, total 120 páginas), index.md (+1 fonte, +1 entidade, total 120 páginas).

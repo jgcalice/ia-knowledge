@@ -2,12 +2,12 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-04-26
-source_count: 44
+source_count: 45
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 44 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto e **Adoção Empresarial**
+> Wiki iniciado em 2026-04-21 | 45 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto e **Adoção Empresarial**
 
 ## Tese atual
 
@@ -147,7 +147,7 @@ Síntese: [[instagram-vs-pesquisa-empirica-ia]] — comparação dos dois ângul
 
 **Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]]
 
-**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]]
+**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]]
 
 ---
 
@@ -175,6 +175,7 @@ Síntese: [[instagram-vs-pesquisa-empirica-ia]] — comparação dos dois ângul
 - **Wealth Protocol como template viral**: dois criadores distintos ([[god-of-prompt]] e [[simplifying-ai]]) publicam o mesmo "Wealth Protocol" baseado em [[naval-ravikant]] — sinal de que é um framework circulando como template na comunidade, não conteúdo original; a segunda fonte ([[2026-04-18_simplifying-ai-wealth-protocol-naval]]) revelou o texto completo dos 5 prompts nomeados
 - **Tecnologia não é o gargalo (dado empírico)**: 51 cases empresariais bem-sucedidos confirmam que **77% dos desafios são não-técnicos** — change management, dado, processo. Para **42% dos casos o modelo é commodity**. A vantagem competitiva durável está na **camada de orquestração + dado proprietário**, não na escolha do LLM ([[stanford-digital-economy-lab]])
 - **Custo invisível como ponto cego do Instagram**: nenhuma fonte de criadores enxerga que 80% do trabalho de IA empresarial é não-técnico (Legal, HR, Risk, Compliance, redesenho de processos). [[stanford-digital-economy-lab]] preenche essa lacuna com 51 cases — comparação completa em [[instagram-vs-pesquisa-empirica-ia]]
+- **Claude Managed Agents como plataforma de infraestrutura**: a Anthropic lançou runtime hospedado para agentes com estado (Agent + Environment + Session + Events) — elimina setup manual de orquestração e oferece observabilidade nativa via Console; o caso de uso demonstrado (CSV → relatório HTML interativo) é o template canônico de agente de análise de dados ([[ai-updater]])
 - **Shadow AI em escala industrial**: fabricante de semiconductors com 1.500-1.600 ferramentas IA não-aprovadas em uso simultâneo antes de plataforma oficial — primeira evidência empírica no wiki da magnitude do uso "informal" de IA dentro de empresas
 - **Canários no mercado de trabalho**: workers 22-25 em ocupações expostas a IA já têm queda relativa de 16% em emprego (devs jovens: -20%) — caveat crítico ao otimismo dos criadores de Instagram sobre redeployment automático
 - **Modelos chineses open-source dominando o stack agêntico**: Qwen, Kimi, Minimax, GLM = 4 dos top-5 no OpenRouter por volume de tokens em fev/2026, puxados por agentic workloads — invisível na conversa anglófona até agora

@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-26 | Total de páginas: 120 | Fontes ingeridas: 44
+> Atualizado em: 2026-04-26 | Total de páginas: 122 | Fontes ingeridas: 45
 
 ---
 
@@ -59,6 +59,7 @@
 | [[wiki/sources/2026-04-18_gustavo-melo-ferramentas-osint]] | @Gustavo Melo \| Tecnologia e IA | 2026-04-18 | 7 ferramentas OSINT para pesquisa e segurança digital (ZoomEye, Have I Been Pwned, Namecheck, Pic2Map, EPA, Exploding Database) |
 | [[wiki/sources/2026-04-01_enterprise-ai-playbook-stanford]] | Pereira, Graylin, Brynjolfsson (Stanford) | 2026-04 | The Enterprise AI Playbook — relatório empírico com 51 casos de IA empresarial bem-sucedida, 41 organizações, 7 países |
 | [[wiki/sources/2026-04-23_ai-fied-riqueza-5-prompts-naval]] | @AI-Fied \| AI Tools & Tech | 2026-04-23 | 5 prompts Naval Ravikant: Find Your Unfair Advantage, Audite Seu Aproveitamento, Turn Yourself Into a Product, Encontre Onde Você Está Trocando Tempo por Dinheiro, Design Work That Compounds |
+| [[wiki/sources/2026-04-21_ai-updater-cookbook-agente-dados]] | @Artificial Intelligence (AI) Updater | 2026-04-21 | Cookbook Anthropic: agente de análise de dados com Claude Managed Agents — upload CSV → relatório HTML interativo |
 
 ---
 
@@ -147,6 +148,7 @@
 | [[wiki/entities/erik-brynjolfsson]] | Erik Brynjolfsson | 1 | Director Stanford DEL; Productivity J-Curve, GDP-B, Canaries in the Coal Mine — referencial teórico de IA + economia |
 | [[wiki/entities/alvin-wang-graylin]] | Alvin Wang Graylin | 1 | Digital Fellow Stanford DEL; foco em economia da IA e políticas para transição pós-trabalho |
 | [[wiki/entities/elisa-pereira]] | Elisa Pereira | 1 | Pesquisadora Stanford DEL; background VC + IA na América Latina, soberania tecnológica |
+| [[wiki/entities/ai-updater]] | @Artificial Intelligence (AI) Updater | 1 | Canal de novidades IA — divulgação de cookbooks e lançamentos da Anthropic |
 
 ### Pessoas / Criadores (Internacional)
 
