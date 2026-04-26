@@ -2,7 +2,7 @@
 title: "Carreira e Negócios com IA"
 type: concept
 tags: [carreira, negócios, linkedin, ia, recrutamento, oportunidades, renda, transição-de-carreira]
-source_count: 11
+source_count: 12
 last_updated: 2026-04-24
 ---
 
@@ -78,6 +78,7 @@ Certificação gratuita da Anthropic, valorizada corporativamente (Deloitte):
 - Todos parametrizáveis com contexto pessoal do usuário
 → [[2026-04-16_wealth-protocol-naval]] | Autor: [[god-of-prompt]] (parcial)
 → [[2026-04-18_simplifying-ai-wealth-protocol-naval]] | Autor: [[simplifying-ai]] (texto completo)
+→ [[2026-04-23_ai-fied-riqueza-5-prompts-naval]] | Autor: [[ai-fied]] (3ª variação, nomes distintos: Find Your Unfair Advantage · Audite Seu Aproveitamento · Turn Yourself Into a Product · Encontre Onde Você Está Trocando Tempo por Dinheiro · Design Work That Compounds)
 
 ### 7. Modelo de negócio: implementador de IA
 Bruno Souza apresenta o modelo de implementar IA para negócios locais:

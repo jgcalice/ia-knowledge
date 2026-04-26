@@ -3,13 +3,13 @@ title: "Naval Ravikant"
 type: entity
 category: person
 tags: [riqueza, filosofia, alavancagem, carreira, empreendedorismo, conhecimento-específico]
-source_count: 2
-last_updated: 2026-04-24
+source_count: 3
+last_updated: 2026-04-26
 ---
 
 # Naval Ravikant
 
-> **Categoria:** Referência externa — Filósofo/Empreendedor | **Aparece em:** 2 fontes
+> **Categoria:** Referência externa — Filósofo/Empreendedor | **Aparece em:** 3 fontes
 
 ## Quem é
 
@@ -31,3 +31,4 @@ A filosofia de Naval é usada como **framework semântico no ROLE dos prompts** 
 
 - [[2026-04-16_wealth-protocol-naval]] — @God Of Prompt: 6 prompts baseados na filosofia Naval (conteúdo parcial)
 - [[2026-04-18_simplifying-ai-wealth-protocol-naval]] — @Simplifying AI: texto completo de 5 dos 6 prompts do Wealth Protocol
+- [[2026-04-23_ai-fied-riqueza-5-prompts-naval]] — @AI-Fied: 5 prompts com nomes distintos mas mesma estrutura ROLE/TASK/STEPS/RULES/OUTPUT — terceira fonte a confirmar o framework

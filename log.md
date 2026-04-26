@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-26] ingest | 5 Prompts Naval Ravikant para Estratégia de Riqueza — @AI-Fied | AI Tools & Tech
+
+Fonte: `2026-04-23_ai_fied_ai_tools_tech_DXduEWUDDQv.md`. Páginas criadas: wiki/sources/2026-04-23_ai-fied-riqueza-5-prompts-naval.md, entities/ai-fied.md. Atualizadas: entities/naval-ravikant.md (source_count 2→3, 3ª fonte com framework Naval), concepts/design-de-estilo-de-vida.md (source_count 3→4, adicionados 5 prompts da variação AI-Fied), concepts/carreira-com-ia.md (source_count 11→12, seção "6. Estratégia de riqueza" expandida com 3ª referência), concepts/prompt-engineering.md (source_count 22→23, referência à 3ª confirmação do padrão ROLE/TASK/STEPS/RULES/OUTPUT Naval), wiki/overview.md (43→44 fontes, [[ai-fied]] adicionado ao Cluster 3 e ao mapa Internacional, total 120 páginas), index.md (+1 fonte, +1 entidade, total 120 páginas).
+
 ## [2026-04-25] ingest | The Enterprise AI Playbook (Stanford DEL, 51 cases) — Pereira, Graylin, Brynjolfsson
 
 Fonte: `Clippings/EnterpriseAIPlaybook_PereiraGraylinBrynjolfsson.pdf` (31 pp., abril 2026, Stanford Digital Economy Lab). Texto extraído via pdftotext para `Clippings/EnterpriseAIPlaybook_extracted.txt`. **Primeira fonte acadêmica empírica em larga escala do wiki** — 51 casos de IA empresarial bem-sucedida em 41 organizações, 7 países, 5 regiões, entrevistas ago/25–fev/26.

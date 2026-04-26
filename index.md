@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-25 | Total de páginas: 118 | Fontes ingeridas: 43
+> Atualizado em: 2026-04-26 | Total de páginas: 120 | Fontes ingeridas: 44
 
 ---
 
@@ -58,6 +58,7 @@
 | [[wiki/sources/2026-04-24_nico_fansbuy-importacao-china]] | @Nico | 2026-04-24 | ⚠️ Fora do escopo IA — Guia prático de importação da China via Fansbuy |
 | [[wiki/sources/2026-04-18_gustavo-melo-ferramentas-osint]] | @Gustavo Melo \| Tecnologia e IA | 2026-04-18 | 7 ferramentas OSINT para pesquisa e segurança digital (ZoomEye, Have I Been Pwned, Namecheck, Pic2Map, EPA, Exploding Database) |
 | [[wiki/sources/2026-04-01_enterprise-ai-playbook-stanford]] | Pereira, Graylin, Brynjolfsson (Stanford) | 2026-04 | The Enterprise AI Playbook — relatório empírico com 51 casos de IA empresarial bem-sucedida, 41 organizações, 7 países |
+| [[wiki/sources/2026-04-23_ai-fied-riqueza-5-prompts-naval]] | @AI-Fied \| AI Tools & Tech | 2026-04-23 | 5 prompts Naval Ravikant: Find Your Unfair Advantage, Audite Seu Aproveitamento, Turn Yourself Into a Product, Encontre Onde Você Está Trocando Tempo por Dinheiro, Design Work That Compounds |
 
 ---
 
@@ -141,6 +142,7 @@
 | [[wiki/entities/simplifying-ai]] | @Simplifying AI | 1 | Plataforma de "daily AI upgrade" — prompts e frameworks prontos (simplifyingai.co) |
 | [[wiki/entities/naval-ravikant]] | Naval Ravikant | 2 | Filósofo de riqueza — fundador AngelList — framework "Wealth Protocol" |
 | [[wiki/entities/nico]] | @Nico | 1 | Criador de conteúdo sobre importação da China (Fansbuy) — fora do escopo IA |
+| [[wiki/entities/ai-fied]] | @ai.fiedstudio | 1 | Ferramentas e prompts de IA — 5 prompts Naval Ravikant para estratégia de riqueza |
 | [[wiki/entities/gustavo-melo]] | @Gustavo Melo \| Tecnologia e IA | 1 | Segurança digital e OSINT (BR) — ferramentas de investigação e privacidade |
 | [[wiki/entities/erik-brynjolfsson]] | Erik Brynjolfsson | 1 | Director Stanford DEL; Productivity J-Curve, GDP-B, Canaries in the Coal Mine — referencial teórico de IA + economia |
 | [[wiki/entities/alvin-wang-graylin]] | Alvin Wang Graylin | 1 | Digital Fellow Stanford DEL; foco em economia da IA e políticas para transição pós-trabalho |
