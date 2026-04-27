@@ -2,7 +2,7 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas]
-source_count: 25
+source_count: 26
 last_updated: 2026-04-26
 ---
 
@@ -171,6 +171,20 @@ Diferencial vs. CLAUDE.md de configuração: a maioria das fontes do wiki usa CL
 
 → [[2026-04-17_manthan-patel-claudemd-boris-cherny]] | [[manthan-patel]] | [[boris-cherny]]
 
+### Prompts como substitutos de serviços profissionais de alto custo
+
+LLMs internalizaram décadas de literatura especializada de múltiplos domínios profissionais. Prompts parametrizados com os mesmos inputs que um profissional coletaria numa consulta inicial reproduzem a qualidade do serviço a custo zero. Padrão documentado em fitness:
+
+```
+Audit these exact inputs: age [age], fitness level [level], goal [goal], 
+available days [days per week], equipment access [equipment] and time 
+per session [minutes]. Design a workout program so perfectly matched 
+to these inputs that generic plans feel embarrassing next to it.
+```
+
+O campo `[...]` é um dado de anamnese; o modelo preenche o protocolo com conhecimento que o profissional cobraria $200/hora para aplicar. A lógica escala para nutrição, planejamento financeiro pessoal e advocacia básica.
+→ [[2026-04-14_arising-ai-fitness-7-prompts]] | [[arising-ai]]
+
 ### Skills como pipeline de conteúdo parametrizado (Founder's stack)
 [[paras-madan]] documenta 3 skills que codificam pipelines completos de produção de conteúdo e análise:
 - **LinkedIn Post Generator:** qualquer input (blog, PR, frase) → detecção automática de hook + arco narrativo + formato (Founder/Ship, Insight, Product Launch) → post publicável
@@ -205,3 +219,4 @@ Diferencial vs. prompts únicos: são skills instaláveis, não prompts que o us
 - [[2026-04-18_simplifying-ai-wealth-protocol-naval]]
 - [[2026-04-17_manthan-patel-claudemd-boris-cherny]]
 - [[2026-04-26_faria-lima-elevator-ia-investimentos]]
+- [[2026-04-14_arising-ai-fitness-7-prompts]]

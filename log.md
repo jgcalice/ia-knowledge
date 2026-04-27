@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-26] ingest | 7 Prompts para Substituir o Personal Trainer com IA — @Arising Ai
+
+Fonte: `2026-04-14_arising_ai_DXHEx9MEyJ_.md`. Páginas criadas: wiki/sources/2026-04-14_arising-ai-fitness-7-prompts.md, wiki/concepts/bem-estar-com-ia.md (novo conceito — primeiro domínio de fitness/bem-estar do wiki). Atualizadas: entities/arising-ai.md (source_count 1→2, perfil expandido para cobrir fitness além de renda passiva), concepts/prompt-engineering.md (source_count 25→26, nova seção "Prompts como substitutos de serviços profissionais de alto custo" com exemplo de anamnese de fitness), wiki/overview.md (49→50 fontes, [[arising-ai]] adicionado ao mapa Internacional, novo padrão emergente "Bem-estar como novo domínio do wiki", status table 132→134 páginas, conceitos 17→18), index.md (132→134 páginas, 49→50 fontes, +1 fonte, +1 conceito).
+
 ## [2026-04-26] ingest | Substituindo Gurus com IA: 8 Prompts de Análise de Investimento — @Faria Lima Elevator
 
 Fonte: `2026-04-26_faria_lima_elevator_DXnDPEZkXu2.md`. Páginas criadas: wiki/sources/2026-04-26_faria-lima-elevator-ia-investimentos.md, entities/faria-lima-elevator.md, concepts/finanças-com-ia.md (novo conceito — primeiro domínio de finanças do wiki). Atualizadas: concepts/prompt-engineering.md (source_count 24→25, variante institucional do padrão ROLE documentada: Goldman Sachs, Morgan Stanley, Bridgewater, BlackRock, Citadel, Harvard Endowment, Bain como ROLEs em prompts de análise financeira), wiki/overview.md (48→49 fontes, novo Cluster 9 Finanças e Investimentos com IA, [[faria-lima-elevator]] adicionado ao mapa BR, novo padrão emergente "Finanças como novo domínio do wiki", status table 129→132 páginas), index.md (129→132 páginas, 48→49 fontes, +1 fonte, +1 entidade, +1 conceito).

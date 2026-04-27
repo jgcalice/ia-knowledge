@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-26 | Total de páginas: 132 | Fontes ingeridas: 49
+> Atualizado em: 2026-04-26 | Total de páginas: 134 | Fontes ingeridas: 50
 
 ---
 
@@ -64,6 +64,7 @@
 | [[wiki/sources/2026-04-08_sidney-ferramentas-osint]] | @sidneyrodrigobr | 2026-04-08 | 5 ferramentas OSINT profissionais: Sherlock, Maltego, SpiderFoot, Shodan, Google Dorking |
 | [[wiki/sources/2026-04-17_manthan-patel-claudemd-boris-cherny]] | @Manthan Patel \| Lead Gen Man | 2026-04-17 | Princípios do CLAUDE.md de Boris Cherny: Plan Mode, Sub-agentes, Simplicity/No Laziness/Minimal Impact |
 | [[wiki/sources/2026-04-26_faria-lima-elevator-ia-investimentos]] | @Faria Lima Elevator | 2026-04-26 | 8 prompts de análise de investimento com personas de instituições financeiras (Goldman Sachs, Morgan Stanley, Bridgewater…) |
+| [[wiki/sources/2026-04-14_arising-ai-fitness-7-prompts]] | @Arising Ai | 2026-04-14 | 7 prompts para substituir personal trainer de $200/sessão: programa personalizado, fat loss, hipertrofia, bodyweight, recuperação, platô e consistência |
 
 ---
 
@@ -88,6 +89,7 @@
 | [[wiki/concepts/mudança-organizacional-com-ia]] | 1 | Change management como 35% da resistência; sponsorship continuado através da falha; iteração em 100% dos sucessos |
 | [[wiki/concepts/produtividade-e-emprego-com-ia]] | 1 | 45% reduzem headcount; 55% redeployment ou hiring avoided; "canários" em workers 22-25 expostos |
 | [[wiki/concepts/finanças-com-ia]] | 1 | Análise de investimentos de nível institucional com LLMs — técnica de usar nomes de grandes casas (Goldman Sachs, Bridgewater) como ROLE |
+| [[wiki/concepts/bem-estar-com-ia]] | 1 | Prompts parametrizados substituindo serviços profissionais de fitness — inputs de anamnese → protocolo de nível profissional |
 
 ---
 

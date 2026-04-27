@@ -2,12 +2,12 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-04-26
-source_count: 49
+source_count: 50
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 49 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial** e **Finanças**
+> Wiki iniciado em 2026-04-21 | 50 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -169,7 +169,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]] · [[faria-lima-elevator]]
 
-**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]]
+**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]]
 
 **Referências de produto Anthropic**: [[boris-cherny]]
 
@@ -205,6 +205,7 @@ Fonte: ([[faria-lima-elevator]])
 - **Modelos chineses open-source dominando o stack agêntico**: Qwen, Kimi, Minimax, GLM = 4 dos top-5 no OpenRouter por volume de tokens em fev/2026, puxados por agentic workloads — invisível na conversa anglófona até agora
 - **CLAUDE.md como sistema de autonomia, não só de configuração**: [[boris-cherny]] (Anthropic) documenta que o CLAUDE.md pode codificar meta-comportamentos de agente — plan mode obrigatório, sub-agentes para contexto limpo, ciclo de autoaperfeiçoamento, bug fixing autônomo e princípios Simplicity/No Laziness/Minimal Impact; complementa e fundamenta os hacks táticos de [[sal-shirgaleev]], [[alex-finn]] e [[nate-herk]]
 - **Finanças como novo domínio do wiki**: [[faria-lima-elevator]] documenta o primeiro conteúdo de investimentos — técnica de usar nomes de instituições financeiras de elite (Goldman Sachs, Bridgewater, BlackRock) como ROLE em prompts. Estende o padrão ROLE/TASK/STEPS/RULES/OUTPUT de *pessoas* para *firmas*: o modelo carrega as metodologias publicadas por essas casas como conhecimento semântico, e nomeá-las é suficiente para convocar o framework completo sem descrever o método
+- **Bem-estar como novo domínio do wiki**: [[arising-ai]] documenta o primeiro conteúdo de fitness — 7 prompts parametrizados substituem um personal trainer de $200/sessão. O padrão central é "inputs de anamnese → outputs de protocolo profissional": o LLM já internalizou décadas de literatura de fitness, e campos `[age]`, `[goal]`, `[equipment]` são suficientes para convocar um programa de nível profissional. A lógica escala para nutrição, planejamento financeiro pessoal e outros domínios de alto custo ([[bem-estar-com-ia]])
 
 ---
 
@@ -212,9 +213,9 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 49 |
-| Páginas de fontes | 49 |
-| Páginas de conceitos | 17 |
+| Fontes ingeridas | 50 |
+| Páginas de fontes | 50 |
+| Páginas de conceitos | 18 |
 | Páginas de entidades | 64 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **132** |
+| **Total de páginas** | **134** |
