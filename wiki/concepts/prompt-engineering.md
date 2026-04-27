@@ -2,7 +2,7 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas]
-source_count: 24
+source_count: 25
 last_updated: 2026-04-26
 ---
 
@@ -62,6 +62,9 @@ Formato ultra-estruturado adotado em múltiplas fontes como padrão consolidado 
 - OUTPUT: formato exato esperado (ex: "Core Assumption > Fatal Flaws > Verdict")
 
 Usar o nome de um investidor/especialista reconhecido como ROLE aumenta a especificidade — o modelo já carrega a semântica do estilo de raciocínio daquele referencial. O texto completo dos prompts do Wealth Protocol (Naval Ravikant) confirma o padrão: cada prompt combina ROLE filosófico + contexto pessoal substituível + tarefa analítica específica.
+
+**Variante institucional**: o ROLE pode ser o nome de uma *firma* em vez de uma pessoa — especialmente poderoso em finanças, onde as metodologias das grandes casas (Goldman Sachs, Morgan Stanley, Bridgewater, BlackRock, Citadel) são públicas e estão no treinamento do modelo. "Você é um analista sênior de ações no Goldman Sachs" convoca stock screener completo com P/L, DCF, bull/bear case e nota de risco sem precisar descrever o método. → [[2026-04-26_faria-lima-elevator-ia-investimentos]] ([[faria-lima-elevator]])
+
 → [[2026-03-22_redesenho-carreira-tim-ferriss]], [[2026-04-16_wealth-protocol-naval]], [[2026-04-23_harry-validacao-startup-paul-graham]], [[2026-04-18_simplifying-ai-wealth-protocol-naval]], [[2026-04-23_ai-fied-riqueza-5-prompts-naval]] (3ª fonte confirmando o padrão Naval)
 
 ### Prompts sequenciais encadeados
@@ -201,3 +204,4 @@ Diferencial vs. prompts únicos: são skills instaláveis, não prompts que o us
 - [[2026-04-16_yik-chan-100-recursos-ocultos-claude]]
 - [[2026-04-18_simplifying-ai-wealth-protocol-naval]]
 - [[2026-04-17_manthan-patel-claudemd-boris-cherny]]
+- [[2026-04-26_faria-lima-elevator-ia-investimentos]]

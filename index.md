@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-26 | Total de páginas: 129 | Fontes ingeridas: 48
+> Atualizado em: 2026-04-26 | Total de páginas: 132 | Fontes ingeridas: 49
 
 ---
 
@@ -63,6 +63,7 @@
 | [[wiki/sources/2026-04-25_vibecoding-seguranca-auditoria-ia]] | @Artificial Intelligence l Business (@thewizeai) | 2026-04-25 | Prompt red team de 6 blocos para auditar segurança de apps vibecoded (auth, input, data, infra, supply chain, exploit chains) |
 | [[wiki/sources/2026-04-08_sidney-ferramentas-osint]] | @sidneyrodrigobr | 2026-04-08 | 5 ferramentas OSINT profissionais: Sherlock, Maltego, SpiderFoot, Shodan, Google Dorking |
 | [[wiki/sources/2026-04-17_manthan-patel-claudemd-boris-cherny]] | @Manthan Patel \| Lead Gen Man | 2026-04-17 | Princípios do CLAUDE.md de Boris Cherny: Plan Mode, Sub-agentes, Simplicity/No Laziness/Minimal Impact |
+| [[wiki/sources/2026-04-26_faria-lima-elevator-ia-investimentos]] | @Faria Lima Elevator | 2026-04-26 | 8 prompts de análise de investimento com personas de instituições financeiras (Goldman Sachs, Morgan Stanley, Bridgewater…) |
 
 ---
 
@@ -86,6 +87,7 @@
 | [[wiki/concepts/escolha-de-modelo-fundacional]] | 1 | Comoditização parcial (42% commodity); multi-model + abstraction layer como vantagem |
 | [[wiki/concepts/mudança-organizacional-com-ia]] | 1 | Change management como 35% da resistência; sponsorship continuado através da falha; iteração em 100% dos sucessos |
 | [[wiki/concepts/produtividade-e-emprego-com-ia]] | 1 | 45% reduzem headcount; 55% redeployment ou hiring avoided; "canários" em workers 22-25 expostos |
+| [[wiki/concepts/finanças-com-ia]] | 1 | Análise de investimentos de nível institucional com LLMs — técnica de usar nomes de grandes casas (Goldman Sachs, Bridgewater) como ROLE |
 
 ---
 
@@ -156,6 +158,7 @@
 | [[wiki/entities/ai-updater]] | @Artificial Intelligence (AI) Updater | 1 | Canal de novidades IA — divulgação de cookbooks e lançamentos da Anthropic |
 | [[wiki/entities/manthan-patel]] | @Manthan Patel \| Lead Gen Man | 1 | Criador de conteúdo — Claude Code, hacks de produtividade, CLAUDE.md de Boris Cherny |
 | [[wiki/entities/boris-cherny]] | Boris Cherny | 1 | Engenheiro Anthropic — autor do CLAUDE.md de referência (Workflow Orchestration, Core Principles) |
+| [[wiki/entities/faria-lima-elevator]] | @FariaLimaElevat | 1 | Criador BR — 8 prompts de análise de investimento com personas de instituições financeiras de elite |
 
 ### Pessoas / Criadores (Internacional)
 

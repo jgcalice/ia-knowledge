@@ -2,12 +2,12 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-04-26
-source_count: 48
+source_count: 49
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 48 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto e **Adoção Empresarial**
+> Wiki iniciado em 2026-04-21 | 49 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial** e **Finanças**
 
 ## Tese atual
 
@@ -137,6 +137,26 @@ Síntese: [[instagram-vs-pesquisa-empirica-ia]] — comparação dos dois ângul
 
 ---
 
+### Cluster 9: Finanças e Investimentos com IA (NOVO)
+**Conceito central:** [[finanças-com-ia]]
+
+Primeiro domínio de finanças no wiki — técnica de usar instituições financeiras de elite como ROLE em prompts de análise:
+
+| # | ROLE | Análise |
+|---|---|---|
+| 1 | Goldman Sachs | Stock Screener multi-critério (P/L, crescimento, bull/bear, nota de risco) |
+| 2 | Morgan Stanley | DCF completo com WACC, valor terminal e tabela de sensibilidade |
+| 3 | Bridgewater | Risk report com stress test, tail risk e hedges recomendados |
+| 4 | JPMorgan | Pre-earnings brief com histórico beat/miss e movimento de opções |
+| 5 | BlackRock | Portfólio multi-asset com policy statement e regras de rebalanceamento |
+| 6 | Citadel | Análise técnica quantitativa (MMAs, RSI, MACD, Fibonacci, plano de trade) |
+| 7 | Harvard Endowment | Carteira de dividendos com simulação DRIP 10 anos |
+| 8 | Bain | Análise competitiva setorial com SWOT das 2 líderes e catalisadores 12 meses |
+
+Fonte: ([[faria-lima-elevator]])
+
+---
+
 ## Mapa de entidades
 
 **Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]]
@@ -147,7 +167,7 @@ Síntese: [[instagram-vs-pesquisa-empirica-ia]] — comparação dos dois ângul
 
 **Conceitos de segurança**: [[segurança-com-ia]]
 
-**Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]]
+**Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]] · [[faria-lima-elevator]]
 
 **Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]]
 
@@ -184,6 +204,7 @@ Síntese: [[instagram-vs-pesquisa-empirica-ia]] — comparação dos dois ângul
 - **Canários no mercado de trabalho**: workers 22-25 em ocupações expostas a IA já têm queda relativa de 16% em emprego (devs jovens: -20%) — caveat crítico ao otimismo dos criadores de Instagram sobre redeployment automático
 - **Modelos chineses open-source dominando o stack agêntico**: Qwen, Kimi, Minimax, GLM = 4 dos top-5 no OpenRouter por volume de tokens em fev/2026, puxados por agentic workloads — invisível na conversa anglófona até agora
 - **CLAUDE.md como sistema de autonomia, não só de configuração**: [[boris-cherny]] (Anthropic) documenta que o CLAUDE.md pode codificar meta-comportamentos de agente — plan mode obrigatório, sub-agentes para contexto limpo, ciclo de autoaperfeiçoamento, bug fixing autônomo e princípios Simplicity/No Laziness/Minimal Impact; complementa e fundamenta os hacks táticos de [[sal-shirgaleev]], [[alex-finn]] e [[nate-herk]]
+- **Finanças como novo domínio do wiki**: [[faria-lima-elevator]] documenta o primeiro conteúdo de investimentos — técnica de usar nomes de instituições financeiras de elite (Goldman Sachs, Bridgewater, BlackRock) como ROLE em prompts. Estende o padrão ROLE/TASK/STEPS/RULES/OUTPUT de *pessoas* para *firmas*: o modelo carrega as metodologias publicadas por essas casas como conhecimento semântico, e nomeá-las é suficiente para convocar o framework completo sem descrever o método
 
 ---
 
@@ -191,9 +212,9 @@ Síntese: [[instagram-vs-pesquisa-empirica-ia]] — comparação dos dois ângul
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 48 |
-| Páginas de fontes | 48 |
-| Páginas de conceitos | 16 |
-| Páginas de entidades | 63 |
+| Fontes ingeridas | 49 |
+| Páginas de fontes | 49 |
+| Páginas de conceitos | 17 |
+| Páginas de entidades | 64 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **129** |
+| **Total de páginas** | **132** |

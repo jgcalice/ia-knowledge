@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-26] ingest | Substituindo Gurus com IA: 8 Prompts de Análise de Investimento — @Faria Lima Elevator
+
+Fonte: `2026-04-26_faria_lima_elevator_DXnDPEZkXu2.md`. Páginas criadas: wiki/sources/2026-04-26_faria-lima-elevator-ia-investimentos.md, entities/faria-lima-elevator.md, concepts/finanças-com-ia.md (novo conceito — primeiro domínio de finanças do wiki). Atualizadas: concepts/prompt-engineering.md (source_count 24→25, variante institucional do padrão ROLE documentada: Goldman Sachs, Morgan Stanley, Bridgewater, BlackRock, Citadel, Harvard Endowment, Bain como ROLEs em prompts de análise financeira), wiki/overview.md (48→49 fontes, novo Cluster 9 Finanças e Investimentos com IA, [[faria-lima-elevator]] adicionado ao mapa BR, novo padrão emergente "Finanças como novo domínio do wiki", status table 129→132 páginas), index.md (129→132 páginas, 48→49 fontes, +1 fonte, +1 entidade, +1 conceito).
+
 ## [2026-04-26] ingest | Princípios do CLAUDE.md de Boris Cherny — @Manthan Patel | Lead Gen Man
 
 Fonte: `2026-04-17_manthan_patel_lead_gen_man_DXPlgNwDZgz.md`. Páginas criadas: wiki/sources/2026-04-17_manthan-patel-claudemd-boris-cherny.md, entities/manthan-patel.md, entities/boris-cherny.md. Atualizadas: entities/claude-code.md (source_count 30→31, nova boas práticas sobre CLAUDE.md de Boris Cherny), concepts/prompt-engineering.md (source_count 23→24, nova seção "CLAUDE.md como sistema de instruções permanentes de orquestração" com Core Principles, Workflow Orchestration e Task Management), concepts/agentes-ia.md (source_count 11→12, nova seção sobre sub-agentes para contexto limpo, ciclo de autoaperfeiçoamento e princípio de impacto mínimo), wiki/overview.md (47→48 fontes, manthan-patel + boris-cherny no mapa, novo padrão emergente "CLAUDE.md como sistema de autonomia", status table 126→129 páginas), index.md (126→129 páginas, 47→48 fontes, +1 fonte, +2 entidades).
