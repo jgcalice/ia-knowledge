@@ -2,12 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-04-29
-source_count: 54
+source_count: 55
+
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 54 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 55 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -31,6 +32,8 @@ Três métodos documentados, padrão similar, ferramentas diferentes:
 - **Método 2**: [[claude-code]] + [[apify]] → [[google-maps]] → leads organizados ([[hudson-brendon]])
 - **Método 3**: Skill "lista de alto valor" + API → leads com dados completos incluindo LinkedIn ([[flavio-rafael]])
 - **Método 4**: [[vibe-prospecting]] (Conector Claude.ai web) + prompt → leads por nicho/cargo/cidade, gratuito e sem CLI ([[eduardo-santos]])
+
+- **Método 5**: Prompts + ChatGPT/Claude → identificar negócios #6–20 no Maps → prospecção + entrega de serviço GMB ($500–$1K/mês retainer) ([[derek-gray]])
 
 **Síntese**: [[comparação-métodos-leads]]
 
@@ -91,6 +94,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - Mini web app focado + Instagram como canal único ([[luna-vega]])
 - AI Agency (Dan Martell, Liam Ottley) — agência automatiza outras empresas ([[paul-hilse]])
 - Stack de 5 skills open-source para founder solo: Meta Ads + Position Me + LinkedIn Post Generator + Reddit ICP Monitor + Google Trends SEO ([[paras-madan]])
+- GMB Optimization Agency: 8 prompts para prospectar negócios #6–20 no Maps e entregar SEO local como serviço — retainers $500–$1K/mês ([[derek-gray]])
 
 ---
 
@@ -190,7 +194,8 @@ Fonte: ([[faria-lima-elevator]])
 - **Skills formalizam os gatilhos**: [[aashish-pahwa]] + [[smithery]] mostram ecossistema de ~128k Claude Skills — a palavra-gatilho artesanal virou pacote distribuível
 - **Ecossistema de skills exige tooling próprio**: `find-skills` (Vercel Labs) é uma meta-skill que busca entre todas as outras por linguagem natural — sinal de que o ecossistema atingiu escala de descoberta ([[pablo-in-public]])
 - **Mental Models como ativadores semânticos**: Steelman, Rubber Duck, SCAMPER, Force Multiplier, Red Team e Devil's Advocate funcionam como palavras-gatilho de segunda geração — nomes de frameworks de raciocínio que o modelo já conhece e executa com uma palavra ([[castilho]])
-- **Arquétipos de negócio se multiplicando**: já mapeamos 5 — consultoria estratégica, infoprodutos nativos, mini web app + Instagram, AI Agency, stack de skills para founder solo ([[paras-madan]]). Nenhum é "IA só como ferramenta" — todos são **produtos/serviços nascidos da IA**
+- **Arquétipos de negócio se multiplicando**: já mapeamos 7 — consultoria estratégica, infoprodutos nativos, mini web app + Instagram, AI Agency, stack de skills para founder solo, bootstrap SaaS + distribuição sequencial e GMB Optimization Agency ([[paras-madan]], [[derek-gray]]). Nenhum é "IA só como ferramenta" — todos são **produtos/serviços nascidos da IA**
+- **Google Maps como mercado duplo**: [[derek-gray]] documenta o segundo papel do Maps no wiki — além de fonte de leads para prospecção B2B (métodos 1–4), o Maps é o *canal de entrega e prospecção simultânea* para agências de SEO local. Negócios rankeados #6–20 são o mercado-alvo; 8 prompts cobrem todo o ciclo operacional
 - **Skills como equipe virtual distribuível**: [[paras-madan]] expande o padrão de [[aashish-pahwa]] (skills para PMs) para canais de crescimento — o founder substitui media buyer, CRO consultant, copywriter, community manager e SEO analyst com 5 skills open-source
 - **Claude Code como agente autônomo**: Auto Mode + Frontload + Notificações mudam o paradigma de "babysitting" (aprovação constante) para "delegação real" — o agente trabalha horas sem supervisão ([[alex-finn]])
 - **Segurança como ponto cego do desenvolvimento com IA**: Claude Code acelera tanto o desenvolvimento que devs pulam fundamentos clássicos de back-end (RLS, rate limit, server-side secrets) — [[lucas-garcia-pit]] documenta os 5 mais críticos
@@ -220,9 +225,9 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 54 |
-| Páginas de fontes | 54 |
+| Fontes ingeridas | 55 |
+| Páginas de fontes | 55 |
 | Páginas de conceitos | 18 |
 | Páginas de entidades | 68 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **142** |
+| **Total de páginas** | **143** |

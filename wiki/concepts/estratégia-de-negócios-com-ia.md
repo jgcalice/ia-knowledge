@@ -1,9 +1,9 @@
 ---
 title: "Estratégia de Negócios com IA"
 type: concept
-tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit]
-source_count: 8
-last_updated: 2026-04-28
+tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local]
+source_count: 9
+last_updated: 2026-04-29
 ---
 
 # Estratégia de Negócios com IA
@@ -74,6 +74,18 @@ Diferencial em relação aos 7 prompts de estratégia ([[evolving-ai]] / [[busin
 Padrão convergente com outros dados do wiki: [[brycen-wood]] (SEO 1ª página com 3 arquivos) + [[paras-madan]] (Reddit ICP Monitor Skill + Google Trends SEO Skill para founder solo). IA acelera ambas as etapas: geração de conteúdo programático em escala e monitoramento automatizado de comunidades.
 → [[2026-04-22_starter-story-joseph-3m-arr]]
 
+### GMB Optimization Agency (SEO local como serviço recorrente)
+
+[[derek-gray]] apresenta um arquétipo de negócio operacionalmente detalhado: **agência de otimização de Google Business Profile**, executada com 8 prompts de IA e modelo de receita recorrente.
+
+- **Mercado-alvo**: negócios locais rankeados #6–20 no Google Maps — visíveis, mas "invisíveis" para a maioria dos clientes
+- **Precificação**: retainers de $500–$1K/mês por cliente (Derek reporta $10K/mês)
+- **Entrega completa por IA**: 8 prompts cobrem todo o ciclo — análise de mercado → prospecção → conteúdo GBP → respostas de reviews → auditoria SEO → keywords → lead magnets → aquisição
+- **Barreira de entrada baixa**: não exige código, não exige plataforma própria — apenas prompts e conhecimento de GBP
+
+Diferença dos modelos anteriores: aqui a IA **opera e entrega o serviço** (não só analisa ou distribui), e o canal de entrega (Google Maps) é o mesmo canal de prospecção.
+→ [[2026-04-05_derek-gray-renda-recorrente-google-maps]]
+
 ## Arquétipos de negócio com IA mapeados
 
 | Arquétipo | Descrição | Fonte principal |
@@ -84,6 +96,7 @@ Padrão convergente com outros dados do wiki: [[brycen-wood]] (SEO 1ª página c
 | **AI Agency** | Agência automatiza outras empresas com IA | [[paul-hilse]] (via Martell/Ottley) |
 | **Stack de skills (founder solo)** | 5 skills open-source cobrindo ads, conversão, social, community e SEO | [[paras-madan]] |
 | **Bootstrap SaaS + distribuição sequencial** | Reddit hand-to-hand → Programmatic SEO → $3M ARR | [[starter-story]] (case Joseph) |
+| **GMB Optimization Agency** | 8 prompts para agência de SEO local — retainers $500–$1K/mês, alvo #6–20 Maps | [[derek-gray]] |
 
 ## Fontes
 
@@ -95,3 +108,4 @@ Padrão convergente com outros dados do wiki: [[brycen-wood]] (SEO 1ª página c
 - [[2026-04-18_paras-madan-top5-skills-founders]]
 - [[2026-04-23_harry-validacao-startup-paul-graham]]
 - [[2026-04-22_starter-story-joseph-3m-arr]]
+- [[2026-04-05_derek-gray-renda-recorrente-google-maps]]

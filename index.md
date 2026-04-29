@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-29 | Total de páginas: 142 | Fontes ingeridas: 54
+> Atualizado em: 2026-04-29 | Total de páginas: 143 | Fontes ingeridas: 55
 
 ---
 
@@ -67,6 +67,7 @@
 | [[wiki/sources/2026-04-14_arising-ai-fitness-7-prompts]] | @Arising Ai | 2026-04-14 | 7 prompts para substituir personal trainer de $200/sessão: programa personalizado, fat loss, hipertrofia, bodyweight, recuperação, platô e consistência |
 | [[wiki/sources/2026-04-22_starter-story-joseph-3m-arr]] | @Starter Story | 2026-04-22 | Playbook bootstrap $3M ARR: Reddit hand-to-hand (100 clientes) + Programmatic SEO ($250K/mês, 150K+ usuários, G2 #5) |
 | [[wiki/sources/2026-04-26_coding-ai-fullstack-entrevistas-claude]] | @coderss_world | 2026-04-26 | 6 entrevistas em 7 dias com Claude — candidaturas personalizadas por JD sem CLI |
+| [[wiki/sources/2026-04-05_derek-gray-renda-recorrente-google-maps]] | @Derek Gray | 2026-04-05 | 8 prompts para agência GMB + SEO local — retainers $500–$1K/mês |
 | [[wiki/sources/2026-04-28_derek-gray-chatgpt-wealth]] | @Derek Gray | 2026-04-28 | ChatGPT para construção de riqueza (ingestão parcial) |
 | [[wiki/sources/2026-04-27_nate-herk-32-hacks-claude-code]] | @Nate Herk | 2026-04-27 | 32 hacks do Claude Code — do iniciante ao pro |
 
@@ -113,7 +114,7 @@
 | [[wiki/entities/apify]] | tool | 1 | Plataforma de scraping com conector nativo no Claude |
 | [[wiki/entities/api-file]] | platform | 1 | Marketplace de APIs para scraping e integração |
 | [[wiki/entities/markitdown]] | tool | 2 | Conversor de documentos para Markdown (Microsoft) |
-| [[wiki/entities/google-maps]] | platform | 2 | Fonte de dados para geração de leads B2B |
+| [[wiki/entities/google-maps]] | platform | 3 | Fonte de dados para leads B2B + mercado de SEO local (agência GMB) |
 | [[wiki/entities/linkedin]] | platform | 3 | Plataforma de otimização de perfil e busca de vagas |
 | [[wiki/entities/career-ops]] | tool | 2 | Sistema open-source de busca de emprego com Claude Code (plugin + terminal) |
 | [[wiki/entities/claude-skills]] | tool | 1 | Feature Anthropic: pacotes nomeados de comportamento (Feature Forge, The Fool, etc.) |
@@ -167,7 +168,7 @@
 | [[wiki/entities/faria-lima-elevator]] | @FariaLimaElevat | 1 | Criador BR — 8 prompts de análise de investimento com personas de instituições financeiras de elite |
 | [[wiki/entities/starter-story]] | @Starter Story | 1 | Plataforma de histórias de founders bootstrapped — case Joseph: $3M ARR com Reddit + Programmatic SEO |
 | [[wiki/entities/coding-ai-fullstack]] | @coderss_world | 1 | Canal Internacional — casos reais de IA aplicada a carreira e tecnologia |
-| [[wiki/entities/derek-gray]] | @Derek Gray | 1 | Criador Internacional — ChatGPT para construção de riqueza pessoal |
+| [[wiki/entities/derek-gray]] | @Derek Gray | 2 | Criador Internacional — GMB Optimization Agency (8 prompts, $10K/mês) + ChatGPT para riqueza |
 | [[wiki/entities/context7]] | Context7 MCP | 1 | Servidor MCP que injeta documentação atualizada de libs no contexto do Claude |
 
 ### Pessoas / Criadores (Internacional)
