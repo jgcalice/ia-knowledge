@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-28] ingest | Bootstrap SaaS $3M ARR: Playbook de Joseph (Reddit + Programmatic SEO) — @Starter Story
+
+Fonte: `2026-04-22_starter_story_DXciAnEAUaP.md` (parcial — quota OpenAI excedida no processamento; caption suficiente para ingestão). Páginas criadas: wiki/sources/2026-04-22_starter-story-joseph-3m-arr.md, entities/starter-story.md. Atualizadas: concepts/estratégia-de-negócios-com-ia.md (source_count 7→8, nova seção "Distribuição como vantagem: Reddit + Programmatic SEO", arquétipo "Bootstrap SaaS + distribuição sequencial" adicionado à tabela), wiki/overview.md (50→51 fontes, [[starter-story]] adicionado ao mapa Internacional e ao Cluster 4, novo padrão emergente sobre Reddit + SEO programático, status table 134→136 páginas), index.md (134→136 páginas, 50→51 fontes, +1 fonte, +1 entidade).
+
 ## [2026-04-26] ingest | 7 Prompts para Substituir o Personal Trainer com IA — @Arising Ai
 
 Fonte: `2026-04-14_arising_ai_DXHEx9MEyJ_.md`. Páginas criadas: wiki/sources/2026-04-14_arising-ai-fitness-7-prompts.md, wiki/concepts/bem-estar-com-ia.md (novo conceito — primeiro domínio de fitness/bem-estar do wiki). Atualizadas: entities/arising-ai.md (source_count 1→2, perfil expandido para cobrir fitness além de renda passiva), concepts/prompt-engineering.md (source_count 25→26, nova seção "Prompts como substitutos de serviços profissionais de alto custo" com exemplo de anamnese de fitness), wiki/overview.md (49→50 fontes, [[arising-ai]] adicionado ao mapa Internacional, novo padrão emergente "Bem-estar como novo domínio do wiki", status table 132→134 páginas, conceitos 17→18), index.md (132→134 páginas, 49→50 fontes, +1 fonte, +1 conceito).

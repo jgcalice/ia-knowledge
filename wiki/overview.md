@@ -1,13 +1,13 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-04-26
-source_count: 50
+last_updated: 2026-04-28
+source_count: 51
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 50 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 51 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -83,6 +83,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 
 - 5 prompts para validar idea de startup com framework Paul Graham: pressure test → problema real → concorrentes → primeiros 10 clientes → MVP em 2 semanas ([[harry]])
 - 7 prompts para análise de mercado, oferta e escalonamento ([[evolving-ai]], [[business-bulls]])
+- Playbook "low-hanging fruit": Reddit hand-to-hand combat (primeiros 100 clientes) → Programmatic SEO ($3M+ ARR, 150K+ usuários, $250K/mês) — ([[starter-story]], case Joseph)
 - Branding completo em 2h com 120+ agentes ([[rafael-brandao]])
 - SEO na primeira página do Google com 3 arquivos de texto ([[brycen-wood]])
 - 5 modelos nativos de IA (eBook, YouTube narrado, newsletter, curso online, agente WhatsApp como AIaaS) ([[bruno-wambier]])
@@ -169,7 +170,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]] · [[faria-lima-elevator]]
 
-**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]]
+**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]]
 
 **Referências de produto Anthropic**: [[boris-cherny]]
 
@@ -206,6 +207,7 @@ Fonte: ([[faria-lima-elevator]])
 - **CLAUDE.md como sistema de autonomia, não só de configuração**: [[boris-cherny]] (Anthropic) documenta que o CLAUDE.md pode codificar meta-comportamentos de agente — plan mode obrigatório, sub-agentes para contexto limpo, ciclo de autoaperfeiçoamento, bug fixing autônomo e princípios Simplicity/No Laziness/Minimal Impact; complementa e fundamenta os hacks táticos de [[sal-shirgaleev]], [[alex-finn]] e [[nate-herk]]
 - **Finanças como novo domínio do wiki**: [[faria-lima-elevator]] documenta o primeiro conteúdo de investimentos — técnica de usar nomes de instituições financeiras de elite (Goldman Sachs, Bridgewater, BlackRock) como ROLE em prompts. Estende o padrão ROLE/TASK/STEPS/RULES/OUTPUT de *pessoas* para *firmas*: o modelo carrega as metodologias publicadas por essas casas como conhecimento semântico, e nomeá-las é suficiente para convocar o framework completo sem descrever o método
 - **Bem-estar como novo domínio do wiki**: [[arising-ai]] documenta o primeiro conteúdo de fitness — 7 prompts parametrizados substituem um personal trainer de $200/sessão. O padrão central é "inputs de anamnese → outputs de protocolo profissional": o LLM já internalizou décadas de literatura de fitness, e campos `[age]`, `[goal]`, `[equipment]` são suficientes para convocar um programa de nível profissional. A lógica escala para nutrição, planejamento financeiro pessoal e outros domínios de alto custo ([[bem-estar-com-ia]])
+- **Reddit + Programmatic SEO como playbook replicável de distribuição**: [[starter-story]] confirma (case Joseph, $3M+ ARR) que a sequência "hand-to-hand combat no Reddit → programmatic SEO" é um caminho bootstrap provado. Complementa os dados do wiki sobre [[brycen-wood]] (SEO técnico) e [[paras-madan]] (Reddit ICP Monitor Skill): as três fontes convergem em Reddit e SEO programático como canais de menor resistência para SaaS
 
 ---
 
@@ -213,9 +215,9 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 50 |
-| Páginas de fontes | 50 |
+| Fontes ingeridas | 51 |
+| Páginas de fontes | 51 |
 | Páginas de conceitos | 18 |
-| Páginas de entidades | 64 |
+| Páginas de entidades | 65 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **134** |
+| **Total de páginas** | **136** |

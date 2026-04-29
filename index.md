@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-26 | Total de páginas: 134 | Fontes ingeridas: 50
+> Atualizado em: 2026-04-28 | Total de páginas: 136 | Fontes ingeridas: 51
 
 ---
 
@@ -65,6 +65,7 @@
 | [[wiki/sources/2026-04-17_manthan-patel-claudemd-boris-cherny]] | @Manthan Patel \| Lead Gen Man | 2026-04-17 | Princípios do CLAUDE.md de Boris Cherny: Plan Mode, Sub-agentes, Simplicity/No Laziness/Minimal Impact |
 | [[wiki/sources/2026-04-26_faria-lima-elevator-ia-investimentos]] | @Faria Lima Elevator | 2026-04-26 | 8 prompts de análise de investimento com personas de instituições financeiras (Goldman Sachs, Morgan Stanley, Bridgewater…) |
 | [[wiki/sources/2026-04-14_arising-ai-fitness-7-prompts]] | @Arising Ai | 2026-04-14 | 7 prompts para substituir personal trainer de $200/sessão: programa personalizado, fat loss, hipertrofia, bodyweight, recuperação, platô e consistência |
+| [[wiki/sources/2026-04-22_starter-story-joseph-3m-arr]] | @Starter Story | 2026-04-22 | Playbook bootstrap $3M ARR: Reddit hand-to-hand (100 clientes) + Programmatic SEO ($250K/mês, 150K+ usuários, G2 #5) |
 
 ---
 
@@ -161,6 +162,7 @@
 | [[wiki/entities/manthan-patel]] | @Manthan Patel \| Lead Gen Man | 1 | Criador de conteúdo — Claude Code, hacks de produtividade, CLAUDE.md de Boris Cherny |
 | [[wiki/entities/boris-cherny]] | Boris Cherny | 1 | Engenheiro Anthropic — autor do CLAUDE.md de referência (Workflow Orchestration, Core Principles) |
 | [[wiki/entities/faria-lima-elevator]] | @FariaLimaElevat | 1 | Criador BR — 8 prompts de análise de investimento com personas de instituições financeiras de elite |
+| [[wiki/entities/starter-story]] | @Starter Story | 1 | Plataforma de histórias de founders bootstrapped — case Joseph: $3M ARR com Reddit + Programmatic SEO |
 
 ### Pessoas / Criadores (Internacional)
 
