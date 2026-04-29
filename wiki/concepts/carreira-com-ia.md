@@ -2,8 +2,8 @@
 title: "Carreira e Negócios com IA"
 type: concept
 tags: [carreira, negócios, linkedin, ia, recrutamento, oportunidades, renda, transição-de-carreira]
-source_count: 12
-last_updated: 2026-04-24
+source_count: 13
+last_updated: 2026-04-29
 ---
 
 # Carreira e Negócios com IA
@@ -93,6 +93,16 @@ Bruno Souza apresenta o modelo de implementar IA para negócios locais:
 
 > ⚠️ **Nota crítica também aqui**: case "$8k/mês com <500 seguidores" não é verificável — uso externo ao wiki deve tratar como anedota narrativa, não evidência.
 
+### 9. Candidaturas personalizadas em escala (sem automação)
+Caso documentado sem pipeline técnico — uso direto do Claude.ai por qualquer candidato:
+- Colar JD no Claude → extrair skills prioritárias → reescrever currículo → gerar cover letter
+- Resultado anedótico: 6 entrevistas em 7 dias
+- **Diferença da abordagem**: sem scraping, sem CLI — fluxo manual por vaga, acessível a não-devs
+
+> ⚠️ **Nota crítica**: resultado de 6 entrevistas/7 dias não é verificável — tratar como prova de conceito, não benchmark.
+
+→ [[2026-04-26_coding-ai-fullstack-entrevistas-claude]] | Autor: [[coding-ai-fullstack]]
+
 ## Padrão recorrente no feed
 
 Há **convergência temática clara**: múltiplos criadores internacionais reforçam que combinar skills existentes + IA é mais valioso que uma skill isolada. A direção não é "aprenda IA do zero", mas "use IA para ampliar o que você já faz bem."
@@ -110,3 +120,4 @@ Há **convergência temática clara**: múltiplos criadores internacionais refor
 - [[2026-04-01_claude-fundador-startup-7-prompts]]
 - [[2026-04-17_mini-web-app-claude]]
 - [[2026-04-22_arshman-khalid-automacao-busca-emprego]]
+- [[2026-04-26_coding-ai-fullstack-entrevistas-claude]]

@@ -2,8 +2,8 @@
 title: "Busca de Emprego com IA"
 type: concept
 tags: [carreira, busca-de-emprego, automação, ats, currículo, claude-code, apify, linkedin, negociação]
-source_count: 2
-last_updated: 2026-04-24
+source_count: 3
+last_updated: 2026-04-29
 ---
 
 # Busca de Emprego com IA
@@ -72,7 +72,29 @@ Scripts de negociação salarial (após oferta)
 
 → [[2026-04-22_arshman-khalid-automacao-busca-emprego]] | Autor: [[arshman-khalid]]
 
+## Candidaturas personalizadas sem automação (Coding AI FullStack 300K)
+
+Nível de entrada documentado — uso direto do Claude.ai, sem CLI, sem plugins:
+
+**Fluxo documentado:**
+```
+Colar job description no Claude
+    ↓
+Claude extrai skills e palavras-chave prioritárias do anúncio
+    ↓
+Claude reescreve o currículo com foco naquelas skills
+    ↓
+Claude gera carta de apresentação alinhada à vaga
+```
+
+**Resultado do caso**: 6 entrevistas em 7 dias (anedota narrativa, não verificável).
+
+**Diferença chave em relação ao Career Ops**: não há automação ou scraping — o fluxo é manual por vaga, mas muito mais rápido que reescrita sem IA. Acessível para qualquer pessoa sem conhecimento técnico.
+
+→ [[2026-04-26_coding-ai-fullstack-entrevistas-claude]] | Autor: [[coding-ai-fullstack]]
+
 ## Fontes
 
 - [[2026-04-07_career-ops-busca-emprego-ia]]
 - [[2026-04-22_arshman-khalid-automacao-busca-emprego]]
+- [[2026-04-26_coding-ai-fullstack-entrevistas-claude]]

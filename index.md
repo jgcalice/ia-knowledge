@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-28 | Total de páginas: 136 | Fontes ingeridas: 51
+> Atualizado em: 2026-04-29 | Total de páginas: 138 | Fontes ingeridas: 52
 
 ---
 
@@ -66,6 +66,7 @@
 | [[wiki/sources/2026-04-26_faria-lima-elevator-ia-investimentos]] | @Faria Lima Elevator | 2026-04-26 | 8 prompts de análise de investimento com personas de instituições financeiras (Goldman Sachs, Morgan Stanley, Bridgewater…) |
 | [[wiki/sources/2026-04-14_arising-ai-fitness-7-prompts]] | @Arising Ai | 2026-04-14 | 7 prompts para substituir personal trainer de $200/sessão: programa personalizado, fat loss, hipertrofia, bodyweight, recuperação, platô e consistência |
 | [[wiki/sources/2026-04-22_starter-story-joseph-3m-arr]] | @Starter Story | 2026-04-22 | Playbook bootstrap $3M ARR: Reddit hand-to-hand (100 clientes) + Programmatic SEO ($250K/mês, 150K+ usuários, G2 #5) |
+| [[wiki/sources/2026-04-26_coding-ai-fullstack-entrevistas-claude]] | @coderss_world | 2026-04-26 | 6 entrevistas em 7 dias com Claude — candidaturas personalizadas por JD sem CLI |
 
 ---
 
@@ -77,7 +78,6 @@
 | [[wiki/concepts/otimização-de-tokens]] | 4 | Técnicas para reduzir consumo de tokens no Claude |
 | [[wiki/concepts/prompt-engineering]] | 14 | Padrões de estruturação + palavras-gatilho + Claude Skills |
 | [[wiki/concepts/carreira-com-ia]] | 11 | IA para aceleração de carreira, LinkedIn, renda e produtos próprios |
-| [[wiki/concepts/busca-de-emprego-com-ia]] | 2 | Busca de emprego automatizada com Career Ops e ATS |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 3 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
 | [[wiki/concepts/agentes-ia]] | 6 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills |
 | [[wiki/concepts/estratégia-de-negócios-com-ia]] | 5 | 4 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency) |
@@ -91,6 +91,7 @@
 | [[wiki/concepts/produtividade-e-emprego-com-ia]] | 1 | 45% reduzem headcount; 55% redeployment ou hiring avoided; "canários" em workers 22-25 expostos |
 | [[wiki/concepts/finanças-com-ia]] | 1 | Análise de investimentos de nível institucional com LLMs — técnica de usar nomes de grandes casas (Goldman Sachs, Bridgewater) como ROLE |
 | [[wiki/concepts/bem-estar-com-ia]] | 1 | Prompts parametrizados substituindo serviços profissionais de fitness — inputs de anamnese → protocolo de nível profissional |
+| [[wiki/concepts/busca-de-emprego-com-ia]] | 3 | Busca de emprego automatizada com Career Ops, ATS e candidaturas personalizadas por vaga |
 
 ---
 
@@ -163,6 +164,7 @@
 | [[wiki/entities/boris-cherny]] | Boris Cherny | 1 | Engenheiro Anthropic — autor do CLAUDE.md de referência (Workflow Orchestration, Core Principles) |
 | [[wiki/entities/faria-lima-elevator]] | @FariaLimaElevat | 1 | Criador BR — 8 prompts de análise de investimento com personas de instituições financeiras de elite |
 | [[wiki/entities/starter-story]] | @Starter Story | 1 | Plataforma de histórias de founders bootstrapped — case Joseph: $3M ARR com Reddit + Programmatic SEO |
+| [[wiki/entities/coding-ai-fullstack]] | @coderss_world | 1 | Canal Internacional — casos reais de IA aplicada a carreira e tecnologia |
 
 ### Pessoas / Criadores (Internacional)
 

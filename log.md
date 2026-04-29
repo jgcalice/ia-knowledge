@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-29] ingest | 6 Entrevistas em 7 Dias com Claude — Candidaturas Personalizadas com IA — @coderss_world
+
+Fonte: `2026-04-26_coding_ai_fullstack_300k_DXlwOHQjdvH.md` (parcial — quota OpenAI excedida no processamento; caption suficiente para ingestão). Páginas criadas: wiki/sources/2026-04-26_coding-ai-fullstack-entrevistas-claude.md, entities/coding-ai-fullstack.md. Atualizadas: concepts/busca-de-emprego-com-ia.md (source_count 2→3, nova seção "Candidaturas personalizadas sem automação" com fluxo JD→skills→currículo→cover letter), concepts/carreira-com-ia.md (source_count 12→13, novo item 9 "Candidaturas personalizadas em escala" na seção de busca de emprego), entities/claude-code.md (source_count 31→32, novo use case "Candidaturas personalizadas"), wiki/overview.md (51→52 fontes, [[coding-ai-fullstack]] adicionado ao mapa Internacional, novo padrão emergente "Busca de emprego com IA tem três níveis documentados", status table 136→138 páginas), index.md (136→138 páginas, 51→52 fontes, +1 fonte, +1 entidade).
+
 ## [2026-04-28] ingest | Bootstrap SaaS $3M ARR: Playbook de Joseph (Reddit + Programmatic SEO) — @Starter Story
 
 Fonte: `2026-04-22_starter_story_DXciAnEAUaP.md` (parcial — quota OpenAI excedida no processamento; caption suficiente para ingestão). Páginas criadas: wiki/sources/2026-04-22_starter-story-joseph-3m-arr.md, entities/starter-story.md. Atualizadas: concepts/estratégia-de-negócios-com-ia.md (source_count 7→8, nova seção "Distribuição como vantagem: Reddit + Programmatic SEO", arquétipo "Bootstrap SaaS + distribuição sequencial" adicionado à tabela), wiki/overview.md (50→51 fontes, [[starter-story]] adicionado ao mapa Internacional e ao Cluster 4, novo padrão emergente sobre Reddit + SEO programático, status table 134→136 páginas), index.md (134→136 páginas, 50→51 fontes, +1 fonte, +1 entidade).
