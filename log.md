@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-29] ingest | ChatGPT para Construção de Riqueza — @Derek Gray
+
+Fonte: `2026-04-28_derek_gray_DXsLym4gnyC.md` (parcial — quota OpenAI excedida; apenas caption capturado). Páginas criadas: wiki/sources/2026-04-28_derek-gray-chatgpt-wealth.md, entities/derek-gray.md. Atualizadas: concepts/finanças-com-ia.md (source_count 1→2, segundo ângulo documentado: ChatGPT para riqueza individual vs análise institucional), wiki/overview.md (52→53 fontes, [[derek-gray]] adicionado ao mapa Internacional, status table 138→140 páginas), index.md (138→140 páginas, 52→53 fontes).
+
 ## [2026-04-29] ingest | 6 Entrevistas em 7 Dias com Claude — Candidaturas Personalizadas com IA — @coderss_world
 
 Fonte: `2026-04-26_coding_ai_fullstack_300k_DXlwOHQjdvH.md` (parcial — quota OpenAI excedida no processamento; caption suficiente para ingestão). Páginas criadas: wiki/sources/2026-04-26_coding-ai-fullstack-entrevistas-claude.md, entities/coding-ai-fullstack.md. Atualizadas: concepts/busca-de-emprego-com-ia.md (source_count 2→3, nova seção "Candidaturas personalizadas sem automação" com fluxo JD→skills→currículo→cover letter), concepts/carreira-com-ia.md (source_count 12→13, novo item 9 "Candidaturas personalizadas em escala" na seção de busca de emprego), entities/claude-code.md (source_count 31→32, novo use case "Candidaturas personalizadas"), wiki/overview.md (51→52 fontes, [[coding-ai-fullstack]] adicionado ao mapa Internacional, novo padrão emergente "Busca de emprego com IA tem três níveis documentados", status table 136→138 páginas), index.md (136→138 páginas, 51→52 fontes, +1 fonte, +1 entidade).

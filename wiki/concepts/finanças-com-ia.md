@@ -2,8 +2,8 @@
 title: "Finanças com IA"
 type: concept
 tags: [finanças-com-ia, investimentos, análise-financeira, prompt-engineering, llm]
-source_count: 1
-last_updated: 2026-04-26
+source_count: 2
+last_updated: 2026-04-29
 ---
 
 # Finanças com IA
@@ -37,10 +37,24 @@ O modelo tem memória semântica das metodologias publicadas por essas institui�
 
 Confirma e estende o padrão ROLE/TASK/STEPS/RULES/OUTPUT documentado em [[prompt-engineering]]: em finanças, a escolha do ROLE (instituição ou gestor) é especialmente poderosa porque as metodologias de análise financeira são bem codificadas e amplamente documentadas publicamente. Difere do padrão de *pessoas* (Paul Graham, Tim Ferriss, Naval Ravikant) — aqui a autoridade é a firma, não o indivíduo.
 
+## Segundo ângulo documentado: ChatGPT para construção de riqueza individual
+
+@Derek Gray publica carousel sobre uso de ChatGPT para construção de riqueza pessoal ("Are you using ChatGPT to build wealth?"). Contraste com a abordagem da Faria Lima Elevator:
+
+| Dimensão | Faria Lima Elevator | Derek Gray |
+|----------|--------------------|-----------:|
+| Foco | Análise institucional (portfólio, valuation, risk) | Construção de riqueza pessoal |
+| Ferramenta | ChatGPT / Claude (qualquer LLM) | ChatGPT |
+| Público-alvo | Investidor sofisticado | Público geral |
+| Conteúdo no wiki | Completo (8 prompts detalhados) | Parcial (apenas título) |
+
+> **Nota:** O caption menciona "ChatGPT 5.5" — modelo inexistente até 2026-04-28. Possível clickbait ou erro do criador.
+
 ## Estado atual do wiki
 
-Domínio com apenas 1 fonte (2026-04-26). Conceito-semente — aguarda expansão com mais fontes sobre finanças com IA.
+Domínio com 2 fontes. Dois ângulos distintos: análise financeira institucional via ROLE (Faria Lima Elevator) e construção de riqueza individual via ChatGPT (Derek Gray — parcial).
 
 ## Fontes
 
 - [[2026-04-26_faria-lima-elevator-ia-investimentos]] — 8 prompts com 8 instituições distintas, cobrindo o ciclo completo de análise financeira
+- [[2026-04-28_derek-gray-chatgpt-wealth]] — carousel sobre ChatGPT para construção de riqueza (ingestão parcial)

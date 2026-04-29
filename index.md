@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-29 | Total de páginas: 138 | Fontes ingeridas: 52
+> Atualizado em: 2026-04-29 | Total de páginas: 140 | Fontes ingeridas: 53
 
 ---
 
@@ -67,6 +67,7 @@
 | [[wiki/sources/2026-04-14_arising-ai-fitness-7-prompts]] | @Arising Ai | 2026-04-14 | 7 prompts para substituir personal trainer de $200/sessão: programa personalizado, fat loss, hipertrofia, bodyweight, recuperação, platô e consistência |
 | [[wiki/sources/2026-04-22_starter-story-joseph-3m-arr]] | @Starter Story | 2026-04-22 | Playbook bootstrap $3M ARR: Reddit hand-to-hand (100 clientes) + Programmatic SEO ($250K/mês, 150K+ usuários, G2 #5) |
 | [[wiki/sources/2026-04-26_coding-ai-fullstack-entrevistas-claude]] | @coderss_world | 2026-04-26 | 6 entrevistas em 7 dias com Claude — candidaturas personalizadas por JD sem CLI |
+| [[wiki/sources/2026-04-28_derek-gray-chatgpt-wealth]] | @Derek Gray | 2026-04-28 | ChatGPT para construção de riqueza (ingestão parcial) |
 
 ---
 
@@ -165,6 +166,7 @@
 | [[wiki/entities/faria-lima-elevator]] | @FariaLimaElevat | 1 | Criador BR — 8 prompts de análise de investimento com personas de instituições financeiras de elite |
 | [[wiki/entities/starter-story]] | @Starter Story | 1 | Plataforma de histórias de founders bootstrapped — case Joseph: $3M ARR com Reddit + Programmatic SEO |
 | [[wiki/entities/coding-ai-fullstack]] | @coderss_world | 1 | Canal Internacional — casos reais de IA aplicada a carreira e tecnologia |
+| [[wiki/entities/derek-gray]] | @Derek Gray | 1 | Criador Internacional — ChatGPT para construção de riqueza pessoal |
 
 ### Pessoas / Criadores (Internacional)
 
