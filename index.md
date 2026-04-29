@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-29 | Total de páginas: 140 | Fontes ingeridas: 53
+> Atualizado em: 2026-04-29 | Total de páginas: 142 | Fontes ingeridas: 54
 
 ---
 
@@ -68,6 +68,7 @@
 | [[wiki/sources/2026-04-22_starter-story-joseph-3m-arr]] | @Starter Story | 2026-04-22 | Playbook bootstrap $3M ARR: Reddit hand-to-hand (100 clientes) + Programmatic SEO ($250K/mês, 150K+ usuários, G2 #5) |
 | [[wiki/sources/2026-04-26_coding-ai-fullstack-entrevistas-claude]] | @coderss_world | 2026-04-26 | 6 entrevistas em 7 dias com Claude — candidaturas personalizadas por JD sem CLI |
 | [[wiki/sources/2026-04-28_derek-gray-chatgpt-wealth]] | @Derek Gray | 2026-04-28 | ChatGPT para construção de riqueza (ingestão parcial) |
+| [[wiki/sources/2026-04-27_nate-herk-32-hacks-claude-code]] | @Nate Herk | 2026-04-27 | 32 hacks do Claude Code — do iniciante ao pro |
 
 ---
 
@@ -167,6 +168,7 @@
 | [[wiki/entities/starter-story]] | @Starter Story | 1 | Plataforma de histórias de founders bootstrapped — case Joseph: $3M ARR com Reddit + Programmatic SEO |
 | [[wiki/entities/coding-ai-fullstack]] | @coderss_world | 1 | Canal Internacional — casos reais de IA aplicada a carreira e tecnologia |
 | [[wiki/entities/derek-gray]] | @Derek Gray | 1 | Criador Internacional — ChatGPT para construção de riqueza pessoal |
+| [[wiki/entities/context7]] | Context7 MCP | 1 | Servidor MCP que injeta documentação atualizada de libs no contexto do Claude |
 
 ### Pessoas / Criadores (Internacional)
 

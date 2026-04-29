@@ -1,9 +1,9 @@
 ---
 title: "Otimização de Tokens no Claude"
 type: concept
-tags: [tokens, otimização, claude, pdf, markdown, contexto, modelo, sessão, context-rot]
-source_count: 6
-last_updated: 2026-04-23
+tags: [tokens, otimização, claude, pdf, markdown, contexto, modelo, sessão, context-rot, mcp, api]
+source_count: 7
+last_updated: 2026-04-29
 ---
 
 # Otimização de Tokens no Claude
@@ -117,6 +117,34 @@ Técnica baseada no sistema de [[andrej-karpathy]] (ex-OpenAI/Tesla). Visualiza�
 - [[nate-herk]] usa 120k tokens como limite pessoal no Opus (1M ctx) e reinicia via session handoff
 - Um usuário foi de $345/mês → $42.000/mês apenas por maus hábitos de contexto (sem aumento de output quality)
 
+### 14. API endpoints vs MCP servers — eficiência por escopo
+
+([[nate-herk]], [[2026-04-27_nate-herk-32-hacks-claude-code]])
+
+MCP servers carregam *todas* as definições de tools no contexto — independente de quantas serão usadas. Para projetos com escopo limitado, isso é desperdício:
+- Se só precisa ler um banco do Notion: hardcodar o endpoint direto em vez de carregar todas as operações do MCP do Notion
+- Economia significativa de tokens quando apenas 1 das N operações disponíveis é necessária
+- Regra: MCP quando precisar de múltiplas operações; endpoint direto quando o escopo for um único acesso
+
+### 15. Compact em ~60% com especificação do que preservar
+
+([[nate-herk]], [[2026-04-27_nate-herk-32-hacks-claude-code]])
+
+> ⚠️ Complementa e refina as Técnicas #5 e #10 (compactação manual vs automática)
+
+- Usar `/compact` quando o contexto atingir **~60%** — não esperar estourar ou chegar em 95%
+- Diferencial: especificar o que preservar: `"/compact, mas mantém todas as decisões de integração de API e o schema de banco"`
+- Para troca de tarefa completa: usar `/clear` em vez de `/compact` (CLAUDE.md e arquivos persistem mesmo após clear)
+
+### 16. CLAUDE.md routing para arquivos externos
+
+([[nate-herk]], [[2026-04-27_nate-herk-32-hacks-claude-code]])
+
+Manter CLAUDE.md lean (150–200 linhas) enquanto ainda disponibiliza contexto rico:
+- Ao invés de colocar style guide, business context e ref docs no CLAUDE.md, **apontar para arquivos separados**
+- Claude sabe *onde buscar* sem *carregar* tudo no contexto de toda sessão
+- Distinção: system prompt (CLAUDE.md) carrega a cada sessão; arquivos externos só quando explicitamente consultados
+
 ## Princípio unificador
 
 > "The clearer and tighter your input, the less work Claude has to do, and the longer your session lasts before you hit a wall." — @Evolving AI
@@ -131,3 +159,4 @@ Técnica baseada no sistema de [[andrej-karpathy]] (ex-OpenAI/Tesla). Visualiza�
 - [[2026-04-12_graphify-memoria-infinita-claude]]
 - [[2026-04-22_sal-shirgaleev-5-comandos-claude]]
 - [[2026-04-20_nate-herk-gerenciar-limites-sessao]]
+- [[2026-04-27_nate-herk-32-hacks-claude-code]]

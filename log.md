@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-29] ingest | 32 Hacks do Claude Code — do Iniciante ao Pro — @Nate Herk | AI Automation
+
+Fonte: `2026-04-27_nate_herk_ai_automation_jqoFP9QapXI.md` (vídeo YouTube, 975s, transcrição completa). Páginas criadas: wiki/sources/2026-04-27_nate-herk-32-hacks-claude-code.md, entities/context7.md (nova entidade — servidor MCP de documentação atualizada). Atualizadas: entities/nate-herk.md (source_count 1→2, perfil expandido com agent teams e git worktrees), entities/claude-code.md (source_count 32→33, novos comandos /voice, /loop, /hooks, ultra think, permissões explícitas, agent teams, git worktrees, Context7), concepts/agentes-ia.md (source_count 12→13, novas seções "Agent teams: comunicação entre agentes" e "Git worktrees: isolamento por branch", tabela comparativa agent teams vs sub-agentes), concepts/otimização-de-tokens.md (source_count 6→7, novas seções #14 API endpoints vs MCP, #15 compact em 60% com especificação, #16 CLAUDE.md routing para arquivos externos), concepts/prompt-engineering.md (source_count 26→27, novas seções plan mode como disciplina, 95% de confiança como threshold, ciclo challenge→update), wiki/overview.md (53→54 fontes, [[context7]] adicionado ao mapa de ferramentas, 3 novos padrões emergentes: agent teams, ultra think, permissões explícitas, status table 140→142 páginas), index.md (140→142 páginas, 53→54 fontes, +1 fonte, +1 entidade).
+
 ## [2026-04-29] ingest | ChatGPT para Construção de Riqueza — @Derek Gray
 
 Fonte: `2026-04-28_derek_gray_DXsLym4gnyC.md` (parcial — quota OpenAI excedida; apenas caption capturado). Páginas criadas: wiki/sources/2026-04-28_derek-gray-chatgpt-wealth.md, entities/derek-gray.md. Atualizadas: concepts/finanças-com-ia.md (source_count 1→2, segundo ângulo documentado: ChatGPT para riqueza individual vs análise institucional), wiki/overview.md (52→53 fontes, [[derek-gray]] adicionado ao mapa Internacional, status table 138→140 páginas), index.md (138→140 páginas, 52→53 fontes).

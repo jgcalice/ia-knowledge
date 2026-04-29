@@ -3,7 +3,7 @@ title: "Claude / Claude Code"
 type: entity
 category: tool
 tags: [llm, claude, anthropic, claude-code, ia, claude-managed-agents]
-source_count: 32
+source_count: 33
 last_updated: 2026-04-29
 ---
 
@@ -85,7 +85,10 @@ Documentados por [[sal-shirgaleev]] em [[2026-04-22_sal-shirgaleev-5-comandos-cl
 | `/effort` | Configura o nível de esforço por tarefa (low/medium/high/extra high/max) |
 | `/re` (Rewind) | Pula para qualquer mensagem anterior e descarta tudo depois; inclui opção "summarize from here" para handoff |
 | `/btw` | Overlay para perguntas rápidas que **não entram no histórico** da sessão — mantém contexto limpo |
-| `/context` | Mostra o consumo atual de tokens na sessão (útil rodar em sessão fresca para ver overhead de startup) |
+| `/context` | Mostra o consumo atual de tokens na sessão em percentuais por fonte (system prompts, arquivos, MCP servers) |
+| `/voice` | Comando nativo de voz (em rollout); permite ditar instruções direto no terminal |
+| `/loop` | Executa um prompt em intervalo recorrente em background; alerta só quando precisa de input; dura até 3 dias |
+| `/hooks` | Configura hooks de notificação (ex: som ao terminar sessão) em linguagem natural |
 
 ## Segurança ao usar Claude Code
 
@@ -117,6 +120,13 @@ Documentado por [[lucas-garcia-pit]] em [[2026-04-15_lucas-garcia-pit-seguranca-
 - Usar `.claudeignore` para excluir pastas/arquivos irrelevantes do repo
 - Sessions chaining: sessão de discovery → sessão de planning → sessão de execution
 - CLAUDE.md de [[boris-cherny]]: codificar Workflow Orchestration + Task Management + Core Principles no arquivo de configuração transforma o agente de "respondedor" em "executor autônomo estruturado"
+- Git worktrees: `claude --work-tree [nome-feature]` cria workspace isolado em branch próprio; permite 3–5 sessões paralelas no mesmo projeto sem conflito — [[nate-herk]]
+- Compact em ~60% (não esperar estourar); ao compactar, especificar o que preservar: `"/compact, mas mantém decisões de API"` — [[nate-herk]]
+- Ultra think: digitar `ultra think` no prompt aloca orçamento máximo de thinking (~32.000 tokens); usar para arquitetura, debugging complexo, refatorações grandes — [[nate-herk]]
+- Editar permissões explicitamente (allow list + deny list) como alternativa ao `--dangerously-skip-permissions`; deny list tem prioridade sobre allow list — [[nate-herk]]
+- Screenshot self-check loop: build → screenshot → analizar → iterar; 3 passes antes do V1 entregue — [[nate-herk]]
+- Agent teams: distintos de sub-agentes — agentes do time comunicam entre si, compartilham task list e podem atribuir trabalho uns aos outros — [[nate-herk]]
+- Context7 MCP: injeta documentação atualizada e version-specific de libs no contexto antes de gerar código; resolve problema de training cutoff — [[context7]] via [[nate-herk]]
 
 ## Fontes
 
@@ -150,3 +160,4 @@ Documentado por [[lucas-garcia-pit]] em [[2026-04-15_lucas-garcia-pit-seguranca-
 - [[2026-04-21_ai-updater-cookbook-agente-dados]]
 - [[2026-04-17_manthan-patel-claudemd-boris-cherny]]
 - [[2026-04-26_coding-ai-fullstack-entrevistas-claude]]
+- [[2026-04-27_nate-herk-32-hacks-claude-code]]

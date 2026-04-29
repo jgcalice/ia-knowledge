@@ -2,12 +2,12 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-04-29
-source_count: 53
+source_count: 54
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 53 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 54 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -161,7 +161,7 @@ Fonte: ([[faria-lima-elevator]])
 
 ## Mapa de entidades
 
-**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]]
+**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]]
 
 **Instituições acadêmicas**: [[stanford-digital-economy-lab]]
 
@@ -210,6 +210,9 @@ Fonte: ([[faria-lima-elevator]])
 - **Bem-estar como novo domínio do wiki**: [[arising-ai]] documenta o primeiro conteúdo de fitness — 7 prompts parametrizados substituem um personal trainer de $200/sessão. O padrão central é "inputs de anamnese → outputs de protocolo profissional": o LLM já internalizou décadas de literatura de fitness, e campos `[age]`, `[goal]`, `[equipment]` são suficientes para convocar um programa de nível profissional. A lógica escala para nutrição, planejamento financeiro pessoal e outros domínios de alto custo ([[bem-estar-com-ia]])
 - **Reddit + Programmatic SEO como playbook replicável de distribuição**: [[starter-story]] confirma (case Joseph, $3M+ ARR) que a sequência "hand-to-hand combat no Reddit → programmatic SEO" é um caminho bootstrap provado. Complementa os dados do wiki sobre [[brycen-wood]] (SEO técnico) e [[paras-madan]] (Reddit ICP Monitor Skill): as três fontes convergem em Reddit e SEO programático como canais de menor resistência para SaaS
 - **Busca de emprego com IA tem três níveis documentados**: (1) nível de entrada — Claude.ai direto, sem setup, currículo por vaga em minutos ([[coding-ai-fullstack]]); (2) nível intermediário — Career Ops terminal, 700+ vagas avaliadas em script ([[career-ops]]); (3) nível avançado — plugin + Apify LinkedIn, pipeline end-to-end até negociação salarial ([[arshman-khalid]]). O mesmo objetivo, três profundidades técnicas diferentes — o nível de entrada já entrega resultado concreto
+- **Agent teams vs sub-agentes — distinção formalizada**: sub-agentes rodam em paralelo mas não se comunicam; agent teams compartilham task list, comunicam entre si e podem atribuir trabalho uns aos outros. Git worktrees complementam: isolam por branch (filesystem), enquanto sub-agentes isolam por contexto (tokens). [[nate-herk]] é o primeiro criador do wiki a documentar essa taxonomia completa
+- **Ultra think como budget máximo de raciocínio**: digitar `ultra think` no prompt aloca ~32.000 tokens de thinking antes de qualquer resposta — modo reservado para decisões de arquitetura, debugging profundo e refatorações sistêmicas. Complementa o Adaptive Thinking ([[alex-finn]]) e o `/effort` ([[boris-cherny]]): são três eixos de controle de profundidade independentes
+- **Permissões explícitas como alternativa responsável ao modo perigoso**: configurar allow list + deny list (deny tem prioridade) produz a mesma velocidade do `--dangerously-skip-permissions` sem o risco. [[nate-herk]] documenta que a maioria dos criadores (inclusive ele) promoveu o modo perigoso sem apresentar essa alternativa
 
 ---
 
@@ -217,9 +220,9 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 53 |
-| Páginas de fontes | 53 |
+| Fontes ingeridas | 54 |
+| Páginas de fontes | 54 |
 | Páginas de conceitos | 18 |
-| Páginas de entidades | 67 |
+| Páginas de entidades | 68 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **140** |
+| **Total de páginas** | **142** |

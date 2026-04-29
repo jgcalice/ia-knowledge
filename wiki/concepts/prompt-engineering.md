@@ -1,9 +1,9 @@
 ---
 title: "Prompt Engineering"
 type: concept
-tags: [prompt-engineering, prompts, llm, claude, técnicas]
-source_count: 26
-last_updated: 2026-04-26
+tags: [prompt-engineering, prompts, llm, claude, técnicas, plan-mode, self-checking]
+source_count: 27
+last_updated: 2026-04-29
 ---
 
 # Prompt Engineering
@@ -194,6 +194,41 @@ O campo `[...]` é um dado de anamnese; o modelo preenche o protocolo com conhec
 Diferencial vs. prompts únicos: são skills instaláveis, não prompts que o usuário mantém — o pipeline fica encapsulado na skill.
 → [[2026-04-18_paras-madan-top5-skills-founders]]
 
+### Plan mode como disciplina de workflow
+
+([[nate-herk]], [[2026-04-27_nate-herk-32-hacks-claude-code]])
+
+> Complementa e expande o padrão documentado em [[sal-shirgaleev]] e [[boris-cherny]]
+
+Plan mode (`Shift+Tab`) muda o comportamento do Claude antes de qualquer código:
+- Claude lê, pesquisa e mapeia etapas, mas **não escreve uma linha de código**
+- Faz perguntas clarificadoras e alinha a abordagem completa primeiro
+- Resultado documentado: reduz drasticamente o número de rodadas de revisão por desalinhamento
+
+Técnica complementar — **tratar Claude como desenvolvedor júnior**: dar problemas em vez de comandos diretos. "Como devemos tratar o rastreamento de crescimento?" (problema) vs "Escreva uma função que faça X" (comando). Quando Claude raciocina sobre a abordagem, a qualidade do output melhora — mesma lógica do plan mode, em nível de raciocínio.
+
+### 95% de confiança como threshold de alinhamento
+
+([[nate-herk]], [[2026-04-27_nate-herk-32-hacks-claude-code]])
+
+Dois pontos de aplicação do mesmo princípio:
+- **Pré-execução**: `"Faça perguntas até ter 95% de confiança de que entendeu exatamente o que preciso"` — alinhamento antes de qualquer ação
+- **Durante execução**: `"Não avance para o próximo to-do até ter 95% de confiança que o atual está correto"` — verificação inline baked no plano
+
+O conceito de bake self-checking no plano de execução é uma evolução da lista de to-dos padrão: em vez de construir e entregar para feedback humano, o agente constrói, checa, corrige e só então reporta.
+
+### Ciclo de melhoria contínua: challenge → update
+
+([[nate-herk]], [[2026-04-27_nate-herk-32-hacks-claude-code]])
+
+Quando o modelo dá output mediano, push back agressivo produz resultado dramaticamente melhor:
+- "Rasga isso. Faça uma versão mais elegante." / "Não é bom o suficiente. Tente uma abordagem completamente diferente."
+- Segunda tentativa com barra mais alta usa a tentativa anterior como negative example implícito
+
+**O ciclo não termina aí**: ao receber algo melhor, instruir o Claude a atualizar a skill ou o CLAUDE.md para não repetir o padrão ruim. O feedback do usuário vira **melhoria permanente** do comportamento do agente — não apenas uma correção pontual.
+
+Isso conecta com o princípio de autoaperfeiçoamento documentado em [[boris-cherny]]: o agente deve atualizar lições de forma contínua, não só quando explicitamente instruído.
+
 ## Fontes
 
 - [[2026-03-19_leads-infinitos-cloudcode]]
@@ -220,3 +255,4 @@ Diferencial vs. prompts únicos: são skills instaláveis, não prompts que o us
 - [[2026-04-17_manthan-patel-claudemd-boris-cherny]]
 - [[2026-04-26_faria-lima-elevator-ia-investimentos]]
 - [[2026-04-14_arising-ai-fitness-7-prompts]]
+- [[2026-04-27_nate-herk-32-hacks-claude-code]]

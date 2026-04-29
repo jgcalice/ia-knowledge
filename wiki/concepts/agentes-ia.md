@@ -1,9 +1,9 @@
 ---
 title: "Agentes de IA"
 type: concept
-tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents]
-source_count: 12
-last_updated: 2026-04-26
+tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents, agent-teams, git-worktrees]
+source_count: 13
+last_updated: 2026-04-29
 ---
 
 # Agentes de IA
@@ -123,6 +123,37 @@ Ferramentas nativas (`agent_toolset_20260401`): `bash`, `read`, `write`, `edit`,
 
 **Impacto arquitetural**: diferente de construir um agente do zero (ferramentas customizadas, gerenciamento de estado manual), Managed Agents fornece plataforma gerenciada com observabilidade nativa via Console (`sessions.events.stream()` mostra tool calls e tokens ao vivo).
 
+### Agent teams: comunicação entre agentes
+
+([[nate-herk]], [[2026-04-27_nate-herk-32-hacks-claude-code]])
+
+Sub-agentes funcionam em paralelo mas **não se comunicam**. Agent teams resolvem isso:
+- Todos os agentes do time compartilham task list e podem se comunicar entre si
+- Podem atribuir trabalho uns aos outros — não depende do agente principal como intermediário
+- É possível falar diretamente com agentes individuais do time, não só com o agente central
+- Mais caros e com execução mais longa, mas produzem output mais coeso para projetos grandes e interdependentes
+
+**Distinção clara documentada pela primeira vez no wiki:**
+| | Sub-agentes | Agent teams |
+|---|---|---|
+| Comunicação | Não se comunicam | Comunicam entre si |
+| Task list | Cada um tem a sua | Compartilhada |
+| Atribuição | Pelo agente central | Qualquer agente pode atribuir |
+| Custo | Menor | Maior |
+| Melhor para | Tarefas paralelas independentes | Projetos grandes e interdependentes |
+
+### Git worktrees: isolamento por branch para sessões paralelas
+
+([[nate-herk]], [[2026-04-27_nate-herk-32-hacks-claude-code]])
+
+Alternativa/complemento aos sub-agentes para trabalho paralelo no mesmo projeto:
+- `claude --work-tree [nome-feature]` cria workspace isolado em branch próprio (eficiente — não copia a pasta)
+- Abrir outro terminal com nome de feature diferente = branch diferente, sem conflito
+- 3–5 sessões paralelas no mesmo projeto sem sobrescrever trabalho uma da outra
+- Merge das branches ao terminar — fluxo Git padrão
+
+**Distinção vs sub-agentes**: worktrees isolam **por branch** (arquivos do filesystem); sub-agentes isolam **por contexto** (janela de tokens). Usos complementares, não excludentes.
+
 ## Fontes
 
 - [[2026-04-17_claude-update-task-assignment]]
@@ -137,3 +168,4 @@ Ferramentas nativas (`agent_toolset_20260401`): `bash`, `read`, `write`, `edit`,
 - [[2026-04-01_enterprise-ai-playbook-stanford]]
 - [[2026-04-21_ai-updater-cookbook-agente-dados]]
 - [[2026-04-17_manthan-patel-claudemd-boris-cherny]]
+- [[2026-04-27_nate-herk-32-hacks-claude-code]]
