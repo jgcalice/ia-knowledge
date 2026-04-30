@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-30] ingest | Transforme Vendas com Sistemas de IA Eficientes — @Jordan Lee
+
+Fonte: `2026-04-15_jordan_lee_DXKkNqUDLzp.md` (reel, 57s). Páginas criadas: wiki/sources/2026-04-15_jordan-lee-vendas-sistema-ia.md, entities/jordan-lee.md. Atualizadas: concepts/estratégia-de-negócios-com-ia.md (source_count 9→10, novo arquétipo "AI Sales Agency" com tabela dos 3 componentes SDR + Analisador + Consultor e modelo de valor $3K vs $30–50K economizados, arquétipo adicionado à tabela), concepts/agentes-ia.md (source_count 13→14, nova seção "Pipeline de vendas agêntico" com tabela de 3 agentes por etapa do funil e distinção vs AIaaS de bruno-wambier), wiki/overview.md (55→56 fontes, [[jordan-lee]] adicionado ao mapa Internacional e ao Cluster 4, novo padrão emergente "Pipeline agêntico de vendas como novo arquétipo", status table 143→145 páginas), index.md (143→145 páginas, 55→56 fontes, +1 fonte, +1 entidade).
+
 ## [2026-04-29] ingest | Renda Recorrente com IA e Google Maps — @Derek Gray
 
 Fonte: `2026-04-05_derek_gray_DWwzA6mgjUX.md` (carousel, 10/13 slides processados). Páginas criadas: wiki/sources/2026-04-05_derek-gray-renda-recorrente-google-maps.md. Atualizadas: entities/derek-gray.md (source_count 1→2, perfil expandido com GMB Optimization Agency e modelo $10K/mês), entities/google-maps.md (source_count 2→3, novo papel documentado: canal de prospecção + entrega de serviço simultâneos), concepts/geração-de-leads-com-ia.md (source_count 4→5, Método 5 adicionado: prospecção por posição #6–20 no Maps), concepts/estratégia-de-negócios-com-ia.md (source_count 8→9, novo arquétipo "GMB Optimization Agency" com 8 prompts e retainer $500–$1K/mês, tabela de arquétipos expandida de 6 para 7), wiki/overview.md (54→55 fontes, Cluster 1 +Método 5 derek-gray, Cluster 4 +GMB Agency, 2 novos padrões emergentes "Google Maps como mercado duplo" e "Arquétipos 5→7", status table 142→143 páginas), index.md (142→143 páginas, 54→55 fontes, +1 fonte, derek-gray e google-maps source_count atualizados).

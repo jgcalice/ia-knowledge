@@ -2,8 +2,8 @@
 title: "Agentes de IA"
 type: concept
 tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents, agent-teams, git-worktrees]
-source_count: 13
-last_updated: 2026-04-29
+source_count: 14
+last_updated: 2026-04-30
 ---
 
 # Agentes de IA
@@ -154,8 +154,25 @@ Alternativa/complemento aos sub-agentes para trabalho paralelo no mesmo projeto:
 
 **Distinção vs sub-agentes**: worktrees isolam **por branch** (arquivos do filesystem); sub-agentes isolam **por contexto** (janela de tokens). Usos complementares, não excludentes.
 
+### Pipeline de vendas agêntico: SDR + Analisador + Consultor
+
+([[jordan-lee]], [[2026-04-15_jordan-lee-vendas-sistema-ia]])
+
+Primeiro sistema do wiki com **três agentes especializados em sequência cobrindo um funil comercial completo**:
+
+| Agente | Input | Output | Papel no funil |
+|--------|-------|--------|---------------|
+| **AI SDR** | Lista de prospects | Chamada agendada | Topo — outreach e qualificação |
+| **Sales Call Analyzer** | Gravação da chamada | Relatório: dores, objeções, posicionamento do follow-up | Meio — inteligência pós-chamada |
+| **AI Consultant** | Transcript da chamada | Proposta personalizada com solução mapeada | Fundo — fechamento |
+
+Padrão convergente com [[stanford-digital-economy-lab]]: os casos agênticos mais eficazes têm critérios de sucesso claros, alto volume, erros recuperáveis e acesso a dados em múltiplos sistemas — todas as características presentes aqui.
+
+**Distinção em relação a AIaaS de [[bruno-wambier]]**: aquele usa agente de WhatsApp como produto empacotado (resposta a clientes existentes); este usa pipeline de agentes para **adquirir novos clientes** — o funil de aquisição é agêntico, não só a entrega.
+
 ## Fontes
 
+- [[2026-04-15_jordan-lee-vendas-sistema-ia]]
 - [[2026-04-17_claude-update-task-assignment]]
 - [[2026-04-14_marca-cloudcode-2horas]]
 - [[2026-04-07_career-ops-busca-emprego-ia]]

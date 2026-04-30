@@ -2,8 +2,8 @@
 title: "Estratégia de Negócios com IA"
 type: concept
 tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local]
-source_count: 9
-last_updated: 2026-04-29
+source_count: 10
+last_updated: 2026-04-30
 ---
 
 # Estratégia de Negócios com IA
@@ -97,9 +97,26 @@ Diferença dos modelos anteriores: aqui a IA **opera e entrega o serviço** (nã
 | **Stack de skills (founder solo)** | 5 skills open-source cobrindo ads, conversão, social, community e SEO | [[paras-madan]] |
 | **Bootstrap SaaS + distribuição sequencial** | Reddit hand-to-hand → Programmatic SEO → $3M ARR | [[starter-story]] (case Joseph) |
 | **GMB Optimization Agency** | 8 prompts para agência de SEO local — retainers $500–$1K/mês, alvo #6–20 Maps | [[derek-gray]] |
+| **AI Sales Agency** | 3 agentes (SDR + Analisador + Consultor) cobrem todo o funil de vendas — $3K/cliente, sem código | [[jordan-lee]] |
+
+## AI Sales Agency: pipeline completo de vendas com agentes especializados
+
+[[jordan-lee]] apresenta o arquétipo mais operacional do wiki: uma **agência de vendas de IA** onde três agentes cobrem todo o funil — do outreach ao contrato assinado — sem que o operador precise de código ou background técnico.
+
+| Componente | Função | O que elimina |
+|-----------|---------|--------------|
+| **AI SDR** | Agenda chamadas automaticamente | Cold outreach manual e insegurança no contato inicial |
+| **Sales Call Analyzer** | Analisa gravação → dores, objeções, follow-up | Intuição: vendedor entra com "cheat sheet" em vez de suposições |
+| **AI Consultant** | Transcript → proposta personalizada | Pesquisa manual de qual solução serve ao prospect |
+
+**Modelo de valor**: cobrar $3K por cliente que economiza $30–50K/ano em pessoal. O argumento é "você entrega dinheiro grátis e fica com uma pequena parte".
+
+Diferencial dos modelos anteriores: aqui a IA **vende o serviço e entrega o serviço** — o pipeline de aquisição de clientes é inteiramente agêntico, não só a entrega.
+→ [[2026-04-15_jordan-lee-vendas-sistema-ia]]
 
 ## Fontes
 
+- [[2026-04-15_jordan-lee-vendas-sistema-ia]]
 - [[2026-04-01_claude-fundador-startup-7-prompts]]
 - [[2026-04-20_claude-ceo-7-prompts]]
 - [[2026-04-07_5-negocios-automatizados-ia]]

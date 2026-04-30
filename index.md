@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-29 | Total de páginas: 143 | Fontes ingeridas: 55
+> Atualizado em: 2026-04-30 | Total de páginas: 145 | Fontes ingeridas: 56
 
 ---
 
@@ -70,6 +70,7 @@
 | [[wiki/sources/2026-04-05_derek-gray-renda-recorrente-google-maps]] | @Derek Gray | 2026-04-05 | 8 prompts para agência GMB + SEO local — retainers $500–$1K/mês |
 | [[wiki/sources/2026-04-28_derek-gray-chatgpt-wealth]] | @Derek Gray | 2026-04-28 | ChatGPT para construção de riqueza (ingestão parcial) |
 | [[wiki/sources/2026-04-27_nate-herk-32-hacks-claude-code]] | @Nate Herk | 2026-04-27 | 32 hacks do Claude Code — do iniciante ao pro |
+| [[wiki/sources/2026-04-15_jordan-lee-vendas-sistema-ia]] | @Jordan Lee | 2026-04-15 | Pipeline de vendas com 3 agentes de IA (SDR + Analisador + Consultor) |
 
 ---
 
@@ -170,6 +171,7 @@
 | [[wiki/entities/coding-ai-fullstack]] | @coderss_world | 1 | Canal Internacional — casos reais de IA aplicada a carreira e tecnologia |
 | [[wiki/entities/derek-gray]] | @Derek Gray | 2 | Criador Internacional — GMB Optimization Agency (8 prompts, $10K/mês) + ChatGPT para riqueza |
 | [[wiki/entities/context7]] | Context7 MCP | 1 | Servidor MCP que injeta documentação atualizada de libs no contexto do Claude |
+| [[wiki/entities/jordan-lee]] | @Jordan Lee | 1 | Fundador AI Acquisition — AI Sales Agency com pipeline agêntico de vendas ($100K+/mês) |
 
 ### Pessoas / Criadores (Internacional)
 
