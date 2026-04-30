@@ -2,7 +2,7 @@
 title: "Otimização de Tokens no Claude"
 type: concept
 tags: [tokens, otimização, claude, pdf, markdown, contexto, modelo, sessão, context-rot, mcp, api]
-source_count: 7
+source_count: 8
 last_updated: 2026-04-29
 ---
 
@@ -145,6 +145,18 @@ Manter CLAUDE.md lean (150–200 linhas) enquanto ainda disponibiliza contexto r
 - Claude sabe *onde buscar* sem *carregar* tudo no contexto de toda sessão
 - Distinção: system prompt (CLAUDE.md) carrega a cada sessão; arquivos externos só quando explicitamente consultados
 
+### 17. Context-mode: 98% de redução cross-platform
+
+([[paras-madan]], [[2026-04-30_paras-madan-repos-monetizacao]])
+
+Repositório open-source (`context-mode`) projetado para agentes de IA:
+- Reduz em **98%** o contexto necessário — agentes processam dados sem acumular tokens desnecessários
+- Persiste o estado de trabalho entre sessões — sem reconfiguração a cada reinício
+- Funciona em **14 plataformas** incluindo Claude Code e Gemini CLI, sem configuração adicional
+- Setup: `npm install && npm start # context-mode`
+
+> Complementa a Técnica #7 ([[graphify]]: 71,5x menos tokens) e as Técnicas #8-16 de [[nate-herk]]: enquanto aquelas são estratégias de gerenciamento de sessão, `context-mode` é uma camada de infraestrutura cross-platform — a redução é aplicada automaticamente à medida que o agente executa.
+
 ## Princípio unificador
 
 > "The clearer and tighter your input, the less work Claude has to do, and the longer your session lasts before you hit a wall." — @Evolving AI
@@ -153,6 +165,7 @@ Manter CLAUDE.md lean (150–200 linhas) enquanto ainda disponibiliza contexto r
 
 ## Fontes
 
+- [[2026-04-30_paras-madan-repos-monetizacao]]
 - [[2026-04-11_tokens-markdown]]
 - [[2026-04-18_7-hacks-tokens-claude]]
 - [[2026-04-11_transformacao-linkedin-ia]] (indiretamente — prompts concisos)

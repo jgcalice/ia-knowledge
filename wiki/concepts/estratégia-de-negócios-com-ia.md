@@ -2,7 +2,7 @@
 title: "Estratégia de Negócios com IA"
 type: concept
 tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local]
-source_count: 10
+source_count: 11
 last_updated: 2026-04-30
 ---
 
@@ -86,6 +86,22 @@ Padrão convergente com outros dados do wiki: [[brycen-wood]] (SEO 1ª página c
 Diferença dos modelos anteriores: aqui a IA **opera e entrega o serviço** (não só analisa ou distribui), e o canal de entrega (Google Maps) é o mesmo canal de prospecção.
 → [[2026-04-05_derek-gray-renda-recorrente-google-maps]]
 
+## Repositórios open-source como modelo de monetização
+
+[[paras-madan]] apresenta 6 repositórios open-source voltados explicitamente para **gerar renda via IA** — distinto dos arquétipos anteriores, que usam IA como ferramenta; aqui o repositório open-source **é o produto de negócio**:
+
+| Repositório | Função | Modelo de valor |
+|-------------|--------|----------------|
+| `claude-ads` | Auditoria de anúncios em 7 plataformas, saúde 0-100 | Cortar desperdício de budget em ads |
+| `toprank` | Plugin SEO no Claude Code, análise de Search Console | Identificar receita vs despesa |
+| `context-mode` | Reduz 98% do contexto em 14 plataformas | Tokens como commodity — zero para o usuário |
+| Navegador Stealth | Firefox + C++, bypassa Cloudflare sem config | Extração de dados de sites protegidos |
+| [[tradingagents]] | Multi-agent LLM: debate entre analistas especializados | Decisões de trading autônomas |
+| HKUDS/AI-Trader | Agente entra lendo `SKILL.md`, FastAPI + dashboard ao vivo | Plataforma de trading plug-and-play para agentes |
+
+**Padrão distinto**: os arquétipos anteriores usam IA para *operar* um negócio (agência, SaaS, infoproduto); estes repositórios usam IA como *motor interno* de produtos financeiros e de marketing — o retorno é direto (economia de budget, ganhos de trading, dados extraídos).
+→ [[2026-04-30_paras-madan-repos-monetizacao]]
+
 ## Arquétipos de negócio com IA mapeados
 
 | Arquétipo | Descrição | Fonte principal |
@@ -116,6 +132,7 @@ Diferencial dos modelos anteriores: aqui a IA **vende o serviço e entrega o ser
 
 ## Fontes
 
+- [[2026-04-30_paras-madan-repos-monetizacao]]
 - [[2026-04-15_jordan-lee-vendas-sistema-ia]]
 - [[2026-04-01_claude-fundador-startup-7-prompts]]
 - [[2026-04-20_claude-ceo-7-prompts]]

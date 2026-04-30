@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-30 | Total de páginas: 145 | Fontes ingeridas: 56
+> Atualizado em: 2026-04-30 | Total de páginas: 147 | Fontes ingeridas: 57
 
 ---
 
@@ -71,6 +71,7 @@
 | [[wiki/sources/2026-04-28_derek-gray-chatgpt-wealth]] | @Derek Gray | 2026-04-28 | ChatGPT para construção de riqueza (ingestão parcial) |
 | [[wiki/sources/2026-04-27_nate-herk-32-hacks-claude-code]] | @Nate Herk | 2026-04-27 | 32 hacks do Claude Code — do iniciante ao pro |
 | [[wiki/sources/2026-04-15_jordan-lee-vendas-sistema-ia]] | @Jordan Lee | 2026-04-15 | Pipeline de vendas com 3 agentes de IA (SDR + Analisador + Consultor) |
+| [[wiki/sources/2026-04-30_paras-madan-repos-monetizacao]] | @Paras Madan | 2026-04-30 | 6 repos open-source para monetizar com IA (ads, SEO, tokens, scraping, trading) |
 
 ---
 
@@ -150,7 +151,7 @@
 | [[wiki/entities/sanskaar-singh]] | @Sanskaar Singh R • AI Wizard | 1 | LinkedIn + IA, diagnóstico recruiter-first |
 | [[wiki/entities/castilho]] | @castilhoia | 1 | IA para negócios, ativadores semânticos (Mental Models) no Claude |
 | [[wiki/entities/arshman-khalid]] | @Arshman Khalid | 1 | Automação de busca de emprego com CareerOps plugin + Apify LinkedIn |
-| [[wiki/entities/paras-madan]] | @Paras Madan | 1 | Claude Skills open-source para fundadores (ads, conversão, social, community, SEO) |
+| [[wiki/entities/paras-madan]] | @Paras Madan | 2 | Claude Skills + repos open-source para monetização com IA (ads, SEO, trading, scraping) |
 | [[wiki/entities/harry]] | @Harry / @codingknowledge | 1 | Prompts estruturados para validação de startups com frameworks de Paul Graham |
 | [[wiki/entities/paul-graham]] | Paul Graham | 1 | Co-fundador YC — referência de metodologia de avaliação de startups (pressure test, do things that don't scale) |
 | [[wiki/entities/yik-chan]] | @sifuyik | 1 | Dicas de produtividade com Claude: 100 recursos divididos em 4 categorias |
@@ -172,6 +173,7 @@
 | [[wiki/entities/derek-gray]] | @Derek Gray | 2 | Criador Internacional — GMB Optimization Agency (8 prompts, $10K/mês) + ChatGPT para riqueza |
 | [[wiki/entities/context7]] | Context7 MCP | 1 | Servidor MCP que injeta documentação atualizada de libs no contexto do Claude |
 | [[wiki/entities/jordan-lee]] | @Jordan Lee | 1 | Fundador AI Acquisition — AI Sales Agency com pipeline agêntico de vendas ($100K+/mês) |
+| [[wiki/entities/tradingagents]] | TradingAgents | 1 | Framework multi-agent LLM para trading (debate especializado, 55.700 stars, Apache 2.0) |
 
 ### Pessoas / Criadores (Internacional)
 

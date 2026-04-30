@@ -2,7 +2,7 @@
 title: "Agentes de IA"
 type: concept
 tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents, agent-teams, git-worktrees]
-source_count: 14
+source_count: 15
 last_updated: 2026-04-30
 ---
 
@@ -170,8 +170,24 @@ Padrão convergente com [[stanford-digital-economy-lab]]: os casos agênticos ma
 
 **Distinção em relação a AIaaS de [[bruno-wambier]]**: aquele usa agente de WhatsApp como produto empacotado (resposta a clientes existentes); este usa pipeline de agentes para **adquirir novos clientes** — o funil de aquisição é agêntico, não só a entrega.
 
+### Multi-agent debate para trading: TradingAgents
+
+([[paras-madan]], [[2026-04-30_paras-madan-repos-monetizacao]])
+
+[[tradingagents]] é o maior projeto open-source agêntico por stars documentado no wiki (55.700 stars). Diferente dos sistemas anteriores, onde agentes executam tarefas em sequência ou paralelo, aqui o mecanismo central é o **debate**:
+
+- Agentes especializados (fundamentos, sentimento, técnica, gestão de risco) discutem em tempo real
+- O consenso emergente via debate — não o output de um agente único — é a decisão de trading
+- Suporte multi-plataforma: DeepSeek, Gemini, Anthropic, Qwen, Azure
+- `pip install tradingagents`
+
+**HKUDS/AI-Trader** complementa como plataforma: qualquer agente IA se integra lendo um arquivo `SKILL.md` — protocolo análogo ao CLAUDE.md de [[boris-cherny]], mas para sistemas de trading. Backend FastAPI mantém dashboard de preços e histórico de lucros ao vivo.
+
+**Padrão novo**: SKILL.md como **protocolo de integração de agentes em sistemas financeiros** — o arquivo define as capacidades do sistema e qualquer agente que o leia pode participar imediatamente.
+
 ## Fontes
 
+- [[2026-04-30_paras-madan-repos-monetizacao]]
 - [[2026-04-15_jordan-lee-vendas-sistema-ia]]
 - [[2026-04-17_claude-update-task-assignment]]
 - [[2026-04-14_marca-cloudcode-2horas]]

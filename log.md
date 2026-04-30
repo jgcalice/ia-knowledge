@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-30] ingest | 6 Ferramentas Open-Source para Rentabilizar com IA — @Paras Madan
+
+Fonte: `2026-04-30_paras_madan_startups_tech_DXvu0uqE85W.md` (carousel, 8 slides). Páginas criadas: wiki/sources/2026-04-30_paras-madan-repos-monetizacao.md, wiki/entities/tradingagents.md (nova entidade — framework multi-agent de trading, 55.700 stars, Apache 2.0). Atualizadas: entities/paras-madan.md (source_count 1→2, segunda contribuição: tabela das 6 ferramentas), concepts/estratégia-de-negócios-com-ia.md (source_count 10→11, nova seção "Repositórios open-source como modelo de monetização direta" com tabela dos 6 repos), concepts/agentes-ia.md (source_count 14→15, nova seção "Multi-agent debate para trading: TradingAgents" com padrão SKILL.md como protocolo de integração), concepts/otimização-de-tokens.md (source_count 7→8, Técnica #17 context-mode — 98% redução cross-platform em 14 plataformas), wiki/overview.md (56→57 fontes, [[tradingagents]] adicionado ao mapa de ferramentas, novo padrão emergente "Repositórios open-source como modelo de monetização direta", status table 145→147 páginas), index.md (145→147 páginas, 56→57 fontes, +1 fonte, +1 entidade).
+
 ## [2026-04-30] ingest | Transforme Vendas com Sistemas de IA Eficientes — @Jordan Lee
 
 Fonte: `2026-04-15_jordan_lee_DXKkNqUDLzp.md` (reel, 57s). Páginas criadas: wiki/sources/2026-04-15_jordan-lee-vendas-sistema-ia.md, entities/jordan-lee.md. Atualizadas: concepts/estratégia-de-negócios-com-ia.md (source_count 9→10, novo arquétipo "AI Sales Agency" com tabela dos 3 componentes SDR + Analisador + Consultor e modelo de valor $3K vs $30–50K economizados, arquétipo adicionado à tabela), concepts/agentes-ia.md (source_count 13→14, nova seção "Pipeline de vendas agêntico" com tabela de 3 agentes por etapa do funil e distinção vs AIaaS de bruno-wambier), wiki/overview.md (55→56 fontes, [[jordan-lee]] adicionado ao mapa Internacional e ao Cluster 4, novo padrão emergente "Pipeline agêntico de vendas como novo arquétipo", status table 143→145 páginas), index.md (143→145 páginas, 55→56 fontes, +1 fonte, +1 entidade).

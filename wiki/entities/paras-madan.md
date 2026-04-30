@@ -3,8 +3,8 @@ title: "Paras Madan"
 type: entity
 category: person
 tags: [fundadores, claude-skills, startups, marketing-digital, seo, reddit]
-source_count: 1
-last_updated: 2026-04-18
+source_count: 2
+last_updated: 2026-04-30
 ---
 
 # Paras Madan
@@ -30,6 +30,20 @@ Criador de conteúdo focado em startups e tecnologia. Distribui ferramentas aber
 | Reddit ICP Monitor | Community | Escuta + score + resposta útil sem autopromoção |
 | Google Trends SEO | SEO | Breakout keywords antes do pico + outline de blog |
 
+### 6 Ferramentas Open-Source para Rentabilizar com IA (2026-04-30)
+→ [[2026-04-30_paras-madan-repos-monetizacao]]
+
+6 repositórios open-source voltados para geração de renda com IA:
+
+| Ferramenta | Função | Stars |
+|-----------|--------|-------|
+| `claude-ads` | Auditoria de anúncios em 7 plataformas, saúde 0-100 | — |
+| `toprank` | Plugin SEO no Claude Code marketplace | — |
+| `context-mode` | Reduz 98% do contexto em 14 plataformas | — |
+| Navegador Stealth | Firefox + C++, bypassa Cloudflare | 1.400 |
+| [[tradingagents]] | Multi-agent LLM para trading (debate em tempo real) | 55.700 |
+| HKUDS/AI-Trader | Agente entra lendo SKILL.md, FastAPI, dashboard ao vivo | — |
+
 ## Conexões no wiki
 
 - [[claude-skills]] — 5 skills documentadas
@@ -40,3 +54,4 @@ Criador de conteúdo focado em startups e tecnologia. Distribui ferramentas aber
 ## Fontes
 
 - [[2026-04-18_paras-madan-top5-skills-founders]]
+- [[2026-04-30_paras-madan-repos-monetizacao]]
