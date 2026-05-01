@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-04-30
-source_count: 57
+source_count: 58
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 57 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 58 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -96,6 +96,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - Stack de 5 skills open-source para founder solo: Meta Ads + Position Me + LinkedIn Post Generator + Reddit ICP Monitor + Google Trends SEO ([[paras-madan]])
 - GMB Optimization Agency: 8 prompts para prospectar negócios #6–20 no Maps e entregar SEO local como serviço — retainers $500–$1K/mês ([[derek-gray]])
 - AI Sales Agency: 3 agentes (AI SDR + Sales Call Analyzer + AI Consultant) cobrem todo o funil — do outreach ao contrato fechado — sem código. $3K/cliente vs $30–50K economizados/ano ([[jordan-lee]])
+- One-Person Business (Dan Koe model): 5 prompts — ideia → oferta-transformação → sistema de conteúdo → vendas autônomas → escalar sem contratar. Case: $6M, 0 funcionários, 4h/dia ([[ai-fied]] via [[dan-koe]])
 
 ---
 
@@ -170,7 +171,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Instituições acadêmicas**: [[stanford-digital-economy-lab]]
 
-**Referências externas**: [[paul-graham]] · [[naval-ravikant]] · [[erik-brynjolfsson]] · [[alvin-wang-graylin]] · [[elisa-pereira]]
+**Referências externas**: [[paul-graham]] · [[naval-ravikant]] · [[dan-koe]] · [[erik-brynjolfsson]] · [[alvin-wang-graylin]] · [[elisa-pereira]]
 
 **Conceitos de segurança**: [[segurança-com-ia]]
 
@@ -221,6 +222,7 @@ Fonte: ([[faria-lima-elevator]])
 - **Permissões explícitas como alternativa responsável ao modo perigoso**: configurar allow list + deny list (deny tem prioridade) produz a mesma velocidade do `--dangerously-skip-permissions` sem o risco. [[nate-herk]] documenta que a maioria dos criadores (inclusive ele) promoveu o modo perigoso sem apresentar essa alternativa
 - **Pipeline agêntico de vendas como novo arquétipo**: [[jordan-lee]] documenta o primeiro sistema do wiki onde a IA cobre tanto a aquisição (AI SDR → qualificação → chamada agendada) quanto a entrega (Sales Call Analyzer → proposta). Arquétipos anteriores separavam essas funções — aqui o funil comercial inteiro é agêntico, operado sem código por quem "foca em relacionamentos"
 - **Repositórios open-source como modelo de monetização direta**: [[paras-madan]] apresenta 6 repos onde o retorno é direto — cortar budget de anúncios, automatizar trading e extrair dados de sites protegidos. [[tradingagents]] (55.700 stars) introduz o padrão "debate entre agentes" como mecanismo de decisão: fundamentos + sentimento + técnica + risco discutem antes de agir. HKUDS/AI-Trader introduz `SKILL.md` como protocolo de integração de agentes em sistemas financeiros — ecos do CLAUDE.md de [[boris-cherny]] aplicados ao domínio de finanças
+- **"One-Person Business" como arquétipo mais restritivo do wiki**: [[dan-koe]] (via [[ai-fied]]) documenta negócio de $6M com zero funcionários e 4h/dia — a restrição de equipe é princípio de design, não limitação. O arquétipo é complementar aos demais: usa os mesmos LLMs, mas o objetivo explícito é "runs without you" — sistemas que operam sem presença ativa do criador. Convergência com [[naval-ravikant]] (produtize yourself) e [[tim-ferriss]] (Muse Business), agora com case empírico documentado e 5 prompts acionáveis
 
 ---
 
@@ -228,9 +230,9 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 57 |
-| Páginas de fontes | 57 |
+| Fontes ingeridas | 58 |
+| Páginas de fontes | 58 |
 | Páginas de conceitos | 18 |
-| Páginas de entidades | 70 |
+| Páginas de entidades | 71 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **147** |
+| **Total de páginas** | **149** |

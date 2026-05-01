@@ -1,9 +1,9 @@
 ---
 title: "Design de Estilo de Vida com IA"
 type: concept
-tags: [lifestyle-design, carreira, renda, tim-ferriss, naval-ravikant, automação]
-source_count: 4
-last_updated: 2026-04-26
+tags: [lifestyle-design, carreira, renda, tim-ferriss, naval-ravikant, automação, dan-koe, one-person-business]
+source_count: 5
+last_updated: 2026-04-30
 ---
 
 # Design de Estilo de Vida com IA
@@ -42,9 +42,21 @@ Aplicado via prompts Claude: [[2026-04-16_wealth-protocol-naval]] (parcial), [[2
 - **Fear-Setting**: análise do pior cenário de mudar vs. ficar igual — ferramenta de decisão
 - **Combinação rara de skills**: mais valioso que uma única skill em alto nível
 
+### Framework Dan Koe — One-Person Business
+
+- **Zero funcionários** como princípio de design, não limitação
+- **4 horas/dia** operando um negócio de $6M — alavancagem via sistemas e conteúdo
+- **"Runs without you"**: sistema de vendas e conteúdo que operam sem presença ativa do criador
+- **Productização do conhecimento** como caminho de escalonamento: trocar tempo por dinheiro → produto digital que escala
+
+Aplicado via 5 prompts Claude: [[2026-04-30_ai-fied-dan-koe-negocio-solo]] (via [[ai-fied]])
+
+**Convergência com Ferriss e Naval**: o "Muse Business" de Ferriss e o "Productize Yourself" de Naval chegam ao mesmo destino pelo mesmo caminho — o modelo Koe é o caso empírico mais documentado: $6M com a restrição explícita de 4h/dia.
+
 ## Fontes
 
 - [[2026-03-22_redesenho-carreira-tim-ferriss]]
 - [[2026-04-16_wealth-protocol-naval]]
 - [[2026-04-18_simplifying-ai-wealth-protocol-naval]]
 - [[2026-04-23_ai-fied-riqueza-5-prompts-naval]]
+- [[2026-04-30_ai-fied-dan-koe-negocio-solo]]

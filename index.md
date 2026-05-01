@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-30 | Total de páginas: 147 | Fontes ingeridas: 57
+> Atualizado em: 2026-04-30 | Total de páginas: 149 | Fontes ingeridas: 58
 
 ---
 
@@ -72,6 +72,7 @@
 | [[wiki/sources/2026-04-27_nate-herk-32-hacks-claude-code]] | @Nate Herk | 2026-04-27 | 32 hacks do Claude Code — do iniciante ao pro |
 | [[wiki/sources/2026-04-15_jordan-lee-vendas-sistema-ia]] | @Jordan Lee | 2026-04-15 | Pipeline de vendas com 3 agentes de IA (SDR + Analisador + Consultor) |
 | [[wiki/sources/2026-04-30_paras-madan-repos-monetizacao]] | @Paras Madan | 2026-04-30 | 6 repos open-source para monetizar com IA (ads, SEO, tokens, scraping, trading) |
+| [[wiki/sources/2026-04-30_ai-fied-dan-koe-negocio-solo]] | @AI-Fied \| AI Tools & Tech | 2026-04-30 | 5 prompts para construir negócio solo $6M como Dan Koe: ideia, oferta-transformação, conteúdo, vendas autônomas, escalar sem equipe |
 
 ---
 
@@ -158,7 +159,8 @@
 | [[wiki/entities/simplifying-ai]] | @Simplifying AI | 1 | Plataforma de "daily AI upgrade" — prompts e frameworks prontos (simplifyingai.co) |
 | [[wiki/entities/naval-ravikant]] | Naval Ravikant | 2 | Filósofo de riqueza — fundador AngelList — framework "Wealth Protocol" |
 | [[wiki/entities/nico]] | @Nico | 1 | Criador de conteúdo sobre importação da China (Fansbuy) — fora do escopo IA |
-| [[wiki/entities/ai-fied]] | @ai.fiedstudio | 1 | Ferramentas e prompts de IA — 5 prompts Naval Ravikant para estratégia de riqueza |
+| [[wiki/entities/ai-fied]] | @ai.fiedstudio | 2 | Ferramentas e prompts de IA — Naval Ravikant (riqueza) + Dan Koe (one-person business $6M) |
+| [[wiki/entities/dan-koe]] | @thedankoe | 1 | Empreendedor "one-person business" — referência $6M, 0 funcionários, 4h/dia; framework reverse-engineered via Claude |
 | [[wiki/entities/gustavo-melo]] | @Gustavo Melo \| Tecnologia e IA | 1 | Segurança digital e OSINT (BR) — ferramentas de investigação e privacidade |
 | [[wiki/entities/sidney-rodrigo]] | @sidneyrodrigobr | 1 | Analista de redes e cibersegurança (BR) — 5 ferramentas OSINT profissionais |
 | [[wiki/entities/erik-brynjolfsson]] | Erik Brynjolfsson | 1 | Director Stanford DEL; Productivity J-Curve, GDP-B, Canaries in the Coal Mine — referencial teórico de IA + economia |

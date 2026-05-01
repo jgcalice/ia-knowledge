@@ -1,8 +1,8 @@
 ---
 title: "Estratégia de Negócios com IA"
 type: concept
-tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local]
-source_count: 11
+tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe]
+source_count: 12
 last_updated: 2026-04-30
 ---
 
@@ -114,6 +114,24 @@ Diferença dos modelos anteriores: aqui a IA **opera e entrega o serviço** (nã
 | **Bootstrap SaaS + distribuição sequencial** | Reddit hand-to-hand → Programmatic SEO → $3M ARR | [[starter-story]] (case Joseph) |
 | **GMB Optimization Agency** | 8 prompts para agência de SEO local — retainers $500–$1K/mês, alvo #6–20 Maps | [[derek-gray]] |
 | **AI Sales Agency** | 3 agentes (SDR + Analisador + Consultor) cobrem todo o funil de vendas — $3K/cliente, sem código | [[jordan-lee]] |
+| **One-Person Business (Dan Koe model)** | 5 prompts: ideia → oferta-transformação → conteúdo → vendas autônomas → escalar sem equipe | [[ai-fied]] (via [[dan-koe]]) |
+
+## One-Person Business: o modelo de Dan Koe reverse-engineered com Claude
+
+[[ai-fied]] apresenta o arquétipo mais restritivo do wiki: **zero funcionários, 4 horas/dia, $6M de receita**. O modelo de [[dan-koe]] é "reverse-engineered" em 5 prompts sequenciais que cobrem o ciclo completo:
+
+| Prompt | Objetivo | Princípio central |
+|--------|----------|------------------|
+| **Find Your $1M Idea** | Interseção skills × interesses → posicionamento | Clareza de monetização em 90 dias |
+| **Turn Your Skill Into an Offer** | Oferta que vende *transformação*, não tempo | Preço ancorado no resultado, nunca nas horas |
+| **Build a Content System** | Um tópico × N plataformas → autoridade | Sustentável > impressionante no papel |
+| **Build a Sales System** | Funil que qualifica + nutre + converte | Zero chamadas de vendas; valor antes de pedido |
+| **Scale Without Hiring** | Conhecimento → produto digital → renda passiva | Nunca recomendar contratação |
+
+**Diferencial dos arquétipos anteriores**: enquanto a AI Sales Agency ([[jordan-lee]]) usa agentes para operar o funil e o GMB Agency ([[derek-gray]]) usa IA para entregar o serviço, o modelo Koe usa IA para *construir o sistema inteiro* — o objetivo final é que o negócio rode sem o criador presente ("runs without you"). A restrição de "uma pessoa" não é limitação temporária, mas princípio de design.
+
+**Convergência com outros frameworks**: o Prompt 5 (escalonamento via produto digital) é operacionalmente idêntico ao "Productize Yourself" de [[naval-ravikant]] — mas com roteiro de 12 meses e marcos mensais de receita.
+→ [[2026-04-30_ai-fied-dan-koe-negocio-solo]]
 
 ## AI Sales Agency: pipeline completo de vendas com agentes especializados
 
@@ -132,6 +150,7 @@ Diferencial dos modelos anteriores: aqui a IA **vende o serviço e entrega o ser
 
 ## Fontes
 
+- [[2026-04-30_ai-fied-dan-koe-negocio-solo]]
 - [[2026-04-30_paras-madan-repos-monetizacao]]
 - [[2026-04-15_jordan-lee-vendas-sistema-ia]]
 - [[2026-04-01_claude-fundador-startup-7-prompts]]
