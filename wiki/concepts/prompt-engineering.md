@@ -2,7 +2,7 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas, plan-mode, self-checking]
-source_count: 27
+source_count: 28
 last_updated: 2026-04-29
 ---
 
@@ -71,6 +71,7 @@ Usar o nome de um investidor/especialista reconhecido como ROLE aumenta a especi
 4 prompts em sequência no mesmo chat, cada um dependendo do anterior:
 - Prompt 1 identifica o que vender → Prompt 2 encontra mentor → Prompt 3 cria plano → Bônus corta o plano
 → [[2026-04-17_prompts-renda-rapida]]
+→ Confirmado em prática por [[allessandra-sinisgalli]]: [[2026-04-30_allessandra-sinisgalli-15k-4-prompts]] — Claude fez perguntas de alinhamento antes de responder ao Prompt 1 e gerou artefatos concretos (script WhatsApp, oferta com garantia, matemática de contatos) ao adotar a persona de [[alex-hormozi]] no Prompt 3.
 
 ### Prompts de análise estratégica de negócios
 7 prompts com saída ultra-estruturada (tabelas, seções nomeadas, limite de palavras) para análise de mercado, priorização de problemas e escalonamento:
@@ -256,3 +257,4 @@ Isso conecta com o princípio de autoaperfeiçoamento documentado em [[boris-che
 - [[2026-04-26_faria-lima-elevator-ia-investimentos]]
 - [[2026-04-14_arising-ai-fitness-7-prompts]]
 - [[2026-04-27_nate-herk-32-hacks-claude-code]]
+- [[2026-04-30_allessandra-sinisgalli-15k-4-prompts]]

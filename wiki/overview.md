@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-05-01
-source_count: 62
+source_count: 63
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 62 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 63 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -65,7 +65,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 | Busca automatizada v2 | Career Ops plugin: LinkedIn scraping → scoring → ATS → STAR → outreach → negociação | [[arshman-khalid]] |
 | Candidaturas personalizadas (sem código) | JD → Claude extrai skills → reescreve currículo → cover letter; caso: 6 entrevistas/7 dias | [[coding-ai-fullstack]] |
 | Redesenho estratégico | 4 prompts Tim Ferriss: vantagem injusta, DEAL, freedom ratio, 10 anos | [[god-of-prompt]] |
-| Monetização imediata | 4 prompts para ganhar $1k em 30 dias com skills existentes | [[sabrina-ramonov]] |
+| Monetização imediata | 4 prompts para ganhar $1k em 30 dias com skills existentes | [[sabrina-ramonov]] · confirmado por [[allessandra-sinisgalli]] |
 | Monetização com templates | 5 prompts-template `[insert X]`: freelance do cargo atual, plano 30 dias $10K, desafio 7 dias, day rate $1K/dia, serviço $10K/mês | [[laura-anderson]] |
 | Certificação formal | Claude Certified Architect (grátis, proctored, valorizado pela Deloitte) | [[bashiri]] |
 | Filosofia de riqueza | 6 prompts Naval Ravikant — texto completo de 5 prompts nomeados (Excavator, Auditor, Brand Architect, Productize, Judgment); 3ª variação confirmando o framework | [[god-of-prompt]] · [[simplifying-ai]] · [[ai-fied]] |
@@ -173,11 +173,11 @@ Fonte: ([[faria-lima-elevator]])
 
 **Instituições acadêmicas**: [[stanford-digital-economy-lab]]
 
-**Referências externas**: [[paul-graham]] · [[naval-ravikant]] · [[dan-koe]] · [[erik-brynjolfsson]] · [[alvin-wang-graylin]] · [[elisa-pereira]]
+**Referências externas**: [[paul-graham]] · [[naval-ravikant]] · [[dan-koe]] · [[erik-brynjolfsson]] · [[alvin-wang-graylin]] · [[elisa-pereira]] · [[alex-hormozi]]
 
 **Conceitos de segurança**: [[segurança-com-ia]]
 
-**Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]] · [[faria-lima-elevator]]
+**Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]] · [[faria-lima-elevator]] · [[allessandra-sinisgalli]]
 
 **Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]]
 
@@ -228,6 +228,7 @@ Fonte: ([[faria-lima-elevator]])
 - **"One-Person Business" como arquétipo mais restritivo do wiki**: [[dan-koe]] (via [[ai-fied]]) documenta negócio de $6M com zero funcionários e 4h/dia — a restrição de equipe é princípio de design, não limitação. O arquétipo é complementar aos demais: usa os mesmos LLMs, mas o objetivo explícito é "runs without you" — sistemas que operam sem presença ativa do criador. Convergência com [[naval-ravikant]] (produtize yourself) e [[tim-ferriss]] (Muse Business), agora com case empírico documentado e 5 prompts acionáveis
 - **Playbook operacional vs. playbook agêntico — dois níveis da AI Agency**: [[jordan-lee]] tem agora dois documentos complementares no wiki: o primeiro ([[2026-04-15_jordan-lee-vendas-sistema-ia]]) descreve o pipeline agêntico de vendas (3 agentes cobrem todo o funil); o segundo ([[2026-04-30_your-ai-compass-7-prompts-agencia-ia]]) expõe o playbook operacional de 7 prompts — o que o operador humano executa para montar, vender e gerenciar a agência. Juntos formam o único registro completo do wiki de como construir e operar uma AI Agency end-to-end
 - **Agent Development Kit — primeira arquitetura completa de infraestrutura de agente no wiki**: [[manthan-patel]] sistematiza 5 camadas — CLAUDE.md (constituição persistente), Skills (conhecimento modular sob demanda), Hooks (shell scripts determinísticos em 5 tipos de evento), Subagents (delegação com contexto isolado) e Plugins (pacotes npm para distribuição em equipe). Hooks são a novidade técnica: a camada que converte intenções do agente em regras obrigatórias executadas pelo sistema, sem participação da IA. Complementa e generaliza o CLAUDE.md de [[boris-cherny]] para o quadro completo de configuração + controle + distribuição
+- **Convergência Brasil–EUA no framework de monetização de skills**: [[allessandra-sinisgalli]] reproduz os mesmos 4 prompts de [[sabrina-ramonov]] e documenta o comportamento real do Claude — o modelo faz perguntas de alinhamento antes de responder (95% de confiança em prática), indica [[alex-hormozi]] com justificativa específica e gera artefatos concretos em persona do mentor. Segundo caso confirmando o framework; reforça que "implementação > planejamento" como tese não é específica de uma criadora, mas um padrão convergente
 
 ---
 
@@ -235,9 +236,9 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 62 |
-| Páginas de fontes | 62 |
+| Fontes ingeridas | 63 |
+| Páginas de fontes | 63 |
 | Páginas de conceitos | 18 |
-| Páginas de entidades | 73 |
+| Páginas de entidades | 75 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **155** |
+| **Total de páginas** | **158** |

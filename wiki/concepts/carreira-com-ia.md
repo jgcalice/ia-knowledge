@@ -2,7 +2,7 @@
 title: "Carreira e Negócios com IA"
 type: concept
 tags: [carreira, negócios, linkedin, ia, recrutamento, oportunidades, renda, transição-de-carreira]
-source_count: 14
+source_count: 15
 last_updated: 2026-05-01
 ---
 
@@ -63,6 +63,9 @@ Dois sistemas documentados, com ângulos complementares:
 - Prompt 3: plano de 20 dias para primeiro cliente (aquisição começa no dia 1)
 - Bônus: cortar o plano na metade, manter só o que leva a dinheiro
 → [[2026-04-17_prompts-renda-rapida]] | Autor: [[sabrina-ramonov]]
+
+> **Confirmação prática (2026-04-30):** [[allessandra-sinisgalli]] reproduziu os mesmos 4 prompts no Claude e documentou: (1) o modelo fez 3 perguntas de alinhamento antes de responder ao Prompt 1 (threshold 95% confiança); (2) identificou [[alex-hormozi]] como mentor com justificativa específica; (3) em persona Hormozi gerou oferta com garantia, script WhatsApp, call de 15 min e matemática de contatos para o primeiro cliente.
+→ [[2026-04-30_allessandra-sinisgalli-15k-4-prompts]]
 
 ### 5. Certificação Claude Certified Architect
 Certificação gratuita da Anthropic, valorizada corporativamente (Deloitte):
@@ -136,3 +139,4 @@ Há **convergência temática clara**: múltiplos criadores internacionais refor
 - [[2026-04-22_arshman-khalid-automacao-busca-emprego]]
 - [[2026-04-26_coding-ai-fullstack-entrevistas-claude]]
 - [[2026-04-26_laura-anderson-prompts-renda-rapida]]
+- [[2026-04-30_allessandra-sinisgalli-15k-4-prompts]]

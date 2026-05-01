@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-01 | Total de páginas: 155 | Fontes ingeridas: 62
+> Atualizado em: 2026-05-01 | Total de páginas: 158 | Fontes ingeridas: 63
 
 ---
 
@@ -77,6 +77,7 @@
 | [[wiki/sources/2026-04-26_laura-anderson-prompts-renda-rapida]] | @Laura Anderson | 2026-04-26 | 5 prompts-template `[insert X]` para monetizar skills: freelance, plano 30 dias $10K, desafio 7 dias, day rate $1K/dia, serviço $10K/mês |
 | [[wiki/sources/2026-04-30_your-ai-compass-7-prompts-agencia-ia]] | @Your Ai Compass | 2026-04-30 | 7 prompts de Jordan Lee para AI Agency: nicho → oferta ($2K/$5K/$10K) → email frio → objeções → onboarding → upsell → CEO report |
 | [[wiki/sources/2026-04-30_manthan-patel-agent-development-kit]] | @Manthan Patel \| Lead Gen Man | 2026-04-30 | As 5 Camadas do Desenvolvimento de Agentes: CLAUDE.md, Skills, Hooks (5 tipos de evento), Subagents e Plugins (npm) |
+| [[wiki/sources/2026-04-30_allessandra-sinisgalli-15k-4-prompts]] | @Allessandra Sinisgalli | 2026-04-30 | 4 prompts sequenciais testados na prática: identificar o que vender → mentor → plano 20 dias → cortar procrastinação |
 
 ---
 
@@ -182,6 +183,8 @@
 | [[wiki/entities/your-ai-compass]] | @Your Ai Compass | 1 | Criador Internacional — curadoria de playbooks de AI Agency (republica Jordan Lee e outros) |
 | [[wiki/entities/tradingagents]] | TradingAgents | 1 | Framework multi-agent LLM para trading (debate especializado, 55.700 stars, Apache 2.0) |
 | [[wiki/entities/laura-anderson]] | @Laura Anderson | 1 | Criadora Internacional — 5 prompts-template para monetizar skills existentes rapidamente |
+| [[wiki/entities/allessandra-sinisgalli]] | @Allessandra Sinisgalli | 1 | Criadora BR — testou na prática os 4 prompts de Sabrina Ramonov; documentou comportamento real do Claude |
+| [[wiki/entities/alex-hormozi]] | Alex Hormozi | 1 | Referência externa — mentor indicado pelo Claude no Prompt 2 do framework de monetização de skills |
 
 ### Pessoas / Criadores (Internacional)
 
