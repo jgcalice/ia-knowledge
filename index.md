@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-01 | Total de páginas: 165 | Fontes ingeridas: 67
+> Atualizado em: 2026-05-01 | Total de páginas: 167 | Fontes ingeridas: 68
 
 ---
 
@@ -82,6 +82,7 @@
 | [[wiki/sources/2026-05-01_bestapps-ferramentas-open-source]] | @Bestapps \| Artificial Intelligence \| AI Agents | 2026-05-01 | 10 repos GitHub open-source que substituem softwares de cinco dígitos (Bloomberg, HeyGen, ad agencies) |
 | [[wiki/sources/2026-04-28_beyond-intelligence-comandos-claude]] | @Beyond Intelligence — AI News & Tools | 2026-04-28 | 89 comandos do Claude em 11 categorias — taxonomia completa de modos de uso |
 | [[wiki/sources/2026-04-27_manthan-patel-pasta-claude]] | @Manthan Patel \| Lead Gen Man | 2026-04-27 | Pasta .claude/ como sistema: CLAUDE.md advisory vs hooks determinísticos |
+| [[wiki/sources/2026-04-30_bert-swing-trading-ia]] | @Bert \| No-Chase Swing Trading for 9-5s | 2026-04-30 | Scanner de 3 prompts para selecionar 25 ações em 5 min — screening + ranking + deep dive |
 
 ---
 
@@ -202,6 +203,7 @@
 
 | Página | Handle | Fontes | Foco |
 |--------|--------|--------|------|
+| [[wiki/entities/bert-no-chase]] | @Bert \| No-Chase Swing Trading for 9-5s | 1 | Trader e educador de swing trading — pipeline de 3 prompts IA para screening de ações |
 | [[wiki/entities/evolving-ai]] | @Evolving AI | 3 | Newsletter IA, hacks técnicos, estratégia de negócios |
 | [[wiki/entities/god-of-prompt]] | @godofprompt | 2 | Prompt engineering para carreira e riqueza |
 | [[wiki/entities/bashiri]] | @Bashiri | 1 | Transição para AI Engineering, certificações |

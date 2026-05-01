@@ -1,9 +1,9 @@
 ---
 title: "Finanças com IA"
 type: concept
-tags: [finanças-com-ia, investimentos, análise-financeira, prompt-engineering, llm]
-source_count: 2
-last_updated: 2026-04-29
+tags: [finanças-com-ia, investimentos, análise-financeira, prompt-engineering, llm, trading]
+source_count: 3
+last_updated: 2026-04-30
 ---
 
 # Finanças com IA
@@ -50,11 +50,36 @@ Confirma e estende o padrão ROLE/TASK/STEPS/RULES/OUTPUT documentado em [[promp
 
 > **Nota:** O caption menciona "ChatGPT 5.5" — modelo inexistente até 2026-04-28. Possível clickbait ou erro do criador.
 
+## Terceira abordagem: Pipeline de screening sequencial para seleção de ações
+
+@Bert (No-Chase Swing Trading for 9-5s) documenta um pipeline de 3 prompts para encontrar e selecionar ações em menos de 5 minutos — diferente das abordagens anteriores por focar em *seleção eficiente de candidatos* antes de qualquer análise aprofundada.
+
+| Prompt | Entrada | Saída |
+|--------|---------|-------|
+| #1 — Construtor de universo | Tema de mercado (ex: IA, energia, semis) | Lista de 25 ações relacionadas ao tema |
+| #2 — Ranqueador | Lista de 25 ações | Ranking por qualidade do negócio + desconto de preço |
+| #3 — Deep dive | Top 3 ranqueados | Análise completa: pontos fortes, por que está barata, catalisador, riscos |
+
+**Limitação explicitamente reconhecida:** IA não é eficaz no *timing* de entrada — essa etapa exige leitura de gráfico + análise técnica humana. A combinação IA (triagem fundamentalista) + chart reading (timing) é o diferencial do método.
+
+**Compatível com Claude, ChatGPT ou Gemini.**
+
+Fonte: [[2026-04-30_bert-swing-trading-ia]] | [[bert-no-chase]]
+
+## Padrão estrutural comparativo entre as três abordagens
+
+| Abordagem | Técnica central | Público | Limitações reconhecidas |
+|-----------|-----------------|---------|------------------------|
+| Institucional (ROLE) | Nomear instituição → convoca metodologia publicada | Investidor sofisticado | Nenhuma mencionada |
+| Riqueza individual | ChatGPT para construção de patrimônio | Público geral | Parcial (conteúdo incompleto) |
+| Screening sequencial | Pipeline funil (tema → 25 → top 3 + deep dive) | Trabalhador CLT / swing trader | Timing de entrada permanece humano |
+
 ## Estado atual do wiki
 
-Domínio com 2 fontes. Dois ângulos distintos: análise financeira institucional via ROLE (Faria Lima Elevator) e construção de riqueza individual via ChatGPT (Derek Gray — parcial).
+Domínio com 3 fontes. Três ângulos distintos: análise financeira institucional via ROLE (Faria Lima Elevator), construção de riqueza individual via ChatGPT (Derek Gray — parcial), e pipeline de screening para seleção de ações (Bert).
 
 ## Fontes
 
 - [[2026-04-26_faria-lima-elevator-ia-investimentos]] — 8 prompts com 8 instituições distintas, cobrindo o ciclo completo de análise financeira
 - [[2026-04-28_derek-gray-chatgpt-wealth]] — carousel sobre ChatGPT para construção de riqueza (ingestão parcial)
+- [[2026-04-30_bert-swing-trading-ia]] — pipeline de 3 prompts para screening e seleção de ações em 5 minutos

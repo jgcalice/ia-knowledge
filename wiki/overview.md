@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-05-01
-source_count: 67
+source_count: 68
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 67 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 68 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -166,6 +166,8 @@ Primeiro domínio de finanças no wiki — técnica de usar instituições finan
 
 Fonte: ([[faria-lima-elevator]])
 
+**3º ângulo:** Pipeline sequencial de screening para seleção de ações de swing trade — 3 prompts em funil (tema → 25 candidatos → top 3 deep dive) em 5 minutos. **Limitação explícita:** IA não substitui leitura de gráfico no timing de entrada. Case: $129K/ano com full-time job, AMD e Palantir como exemplos. ([[bert-no-chase]])
+
 ---
 
 ## Mapa de entidades
@@ -182,7 +184,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]] · [[faria-lima-elevator]] · [[allessandra-sinisgalli]]
 
-**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]]
+**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]] · [[bert-no-chase]]
 
 **Referências de produto Anthropic**: [[boris-cherny]]
 
@@ -236,6 +238,7 @@ Fonte: ([[faria-lima-elevator]])
 - **Repos open-source como corte de cinco dígitos — framing de substituição, não de ferramenta**: [[bestapps-ai]] reencadra o tema "repos para monetizar" (já presente em [[paras-madan]]): a pergunta não é "que ferramenta usar?" mas "quanto você economiza vs a alternativa paga?". FinceptTerminal = $24K/ano; Open-Gen-AI = $100+/mês; Claude Ads = $2K/cliente. O modelo de receita emerge automaticamente: entregar o setup como serviço e cobrar uma fração do custo substituído. Convergência temática: Claude Ads e Context Mode aparecem em ambos os posts — dois repos com múltiplas confirmações independentes
 - **Taxonomia de 89 comandos como mapa mental de modos de uso**: [[beyond-intelligence]] publica referência mais ampla que os 13 pseudo-comandos de [[ai-developer-js]] — 89 entradas em 11 categorias funcionais. O valor não está nos itens individuais (o post não distingue comandos nativos CLI de pseudo-comandos informais), mas na **taxonomia** em si: Start & Create → Focus & Context → Think & Solve → Write & Edit → Organize & Structure → Code & Tech → Data & Analysis → Automate & Integrate → Personalize & Control → Learn & Research → Collaborate & Share. As 11 categorias mapeiam o espectro completo de intenções de uso do Claude — uma referência de orientação, não de execução
 - **Pasta `.claude/` como sistema — distinção advisory vs. determinístico**: [[manthan-patel]] ancora as 5 camadas do Agent Development Kit em localizações físicas concretas e formula a distinção operacional mais importante para quem implementa: *"CLAUDE.md is advisory. hooks are deterministic."* O CLAUDE.md é consultado pelo modelo, que *pode* seguir; os hooks são scripts que o *sistema* executa sempre, sem decisão da IA. Regras que o desenvolvedor quer garantir devem estar em hooks, não em CLAUDE.md. Princípio de design: *"The folder structure IS the system"*
+- **Screening de ações como caso-modelo de pipeline sequencial em domínio especializado**: [[bert-no-chase]] documenta o uso de 3 prompts encadeados (tema → universo → ranking → deep dive) para triagem de candidatos a swing trade em 5 minutos. O padrão sequencial já documentado em [[geração-de-leads-com-ia]] e em [[finanças-com-ia]] reaparece aqui com a mesma lógica: ampliar → filtrar → aprofundar. Novidade editorial: o autor reconhece explicitamente que IA não substitui análise técnica no timing — a IA faz a triagem fundamentalista; o humano decide *quando* entrar
 
 ---
 
@@ -243,9 +246,9 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 67 |
-| Páginas de fontes | 67 |
+| Fontes ingeridas | 68 |
+| Páginas de fontes | 68 |
 | Páginas de conceitos | 18 |
-| Páginas de entidades | 78 |
+| Páginas de entidades | 79 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **165** |
+| **Total de páginas** | **167** |

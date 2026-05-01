@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-05-01] ingest | Scanner de Ações em 5 Minutos com IA — @Bert | No-Chase Swing Trading for 9-5s
+
+Fonte: `2026-04-30_bert_no_chase_swing_trading_for_9_5s_DXwl6eFla3k.md` (reel, 58s). Página criada: wiki/sources/2026-04-30_bert-swing-trading-ia.md. Entidade criada: entities/bert-no-chase.md (novo criador internacional — swing trading para trabalhadores CLT; pipeline de 3 prompts para triagem fundamentalista de ações; reconhece explicitamente limitação da IA no timing de entrada). Atualizadas: concepts/finanças-com-ia.md (source_count 2→3, 3ª abordagem documentada — "pipeline sequencial de screening": tema → 25 candidatos → ranking por qualidade+desconto → deep dive top 3; nova tabela comparativa das 3 abordagens), wiki/overview.md (67→68 fontes, [[bert-no-chase]] adicionado ao mapa Internacional, novo padrão emergente "Screening de ações como caso-modelo de pipeline sequencial em domínio especializado", status table 165→167 páginas), index.md (165→167 páginas, 67→68 fontes, +1 fonte, +1 entidade).
+
 ## [2026-05-01] ingest | Estrutura da Pasta .claude — @Manthan Patel | Lead Gen Man
 
 Fonte: `2026-04-27_manthan_patel_lead_gen_man_DXpO61yDZ1m.md` (imagem única). Página criada: wiki/sources/2026-04-27_manthan-patel-pasta-claude.md. Atualizadas: entities/manthan-patel.md (source_count 2→3, 3ª contribuição: anatomia física da pasta .claude/ — "CLAUDE.md is advisory. hooks are deterministic." + "The folder structure IS the system"), entities/claude-code.md (source_count 35→36, nova seção "Estrutura da pasta .claude/" com tabela de 6 componentes e distinção operacional advisory vs. determinístico), concepts/agentes-ia.md (source_count 17→18, clarificação operacional adicionada ao bloco Agent Development Kit — consequência prática: regras obrigatórias devem estar em hooks, não em CLAUDE.md), wiki/overview.md (66→67 fontes, novo padrão emergente "Pasta .claude/ como sistema — distinção advisory vs. determinístico", status table 164→165 páginas), index.md (164→165 páginas, 66→67 fontes, +1 fonte, manthan-patel source_count 2→3).
