@@ -2,8 +2,8 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas, plan-mode, self-checking]
-source_count: 28
-last_updated: 2026-04-29
+source_count: 29
+last_updated: 2026-05-01
 ---
 
 # Prompt Engineering
@@ -138,6 +138,31 @@ Nomes de frameworks de raciocínio já conhecidos pelo modelo funcionam como ati
 Steelman e Red Team são opostos complementares: usados em sequência cobrem todo o espectro de revisão crítica.
 → [[2026-04-22_castilho-6-palavras-claude]] | [[castilho]]
 
+### Slash-command style activators (pseudo-comandos informais)
+
+Variação das palavras-gatilho com prefixo `/` para comunicar o modo desejado ao Claude. Distintos dos comandos reais do Claude Code CLI ([[2026-04-22_sal-shirgaleev-5-comandos-claude]]) e das palavras-gatilho em texto ([[2026-04-08_gatilhos-cognitivos-claude]], [[2026-04-22_castilho-6-palavras-claude]]).
+
+13 pseudo-comandos documentados:
+
+| Comando | Modo ativado |
+|---------|-------------|
+| `/godmode` | Modo agressivo/poderoso — maximiza impacto |
+| `/devil` | Visão oposta (≈ Devil's Advocate) |
+| `/10x` | Reescreve 10x mais conciso e afiado |
+| `/pitch` | Pitch de 30s para investidor/cliente |
+| `/ghost` | Resposta human-like |
+| `/compare` | Análise lado-a-lado |
+| `/scout` | Identifica riscos e pontos cegos (≈ Red Team) |
+| `/artifacts` | Constrói apps ao vivo no chat |
+| `/ooda` | Loop OODA para problemas complexos |
+| `/critique` | Encontra falhas e melhora |
+| `/explainlikeim5` | Explicação ultra-simples (≈ ELI5) |
+| `/brief` | Resposta mais curta possível |
+| `/teacher` | Modo mentor/debate |
+
+> ⚠️ Esses comandos são **informais** — não são comandos nativos do Claude Code CLI. Funcionam como ativadores semânticos com prefixo "/" onde vários são equivalentes a ativadores já documentados: `/devil` ≈ Devil's Advocate, `/scout` ≈ Red Team ([[castilhoia]]), `/explainlikeim5` = ELI5 ([[adriano-couto]]). O valor é a notação mnemônica com barra, que torna o ativador mais reconhecível.
+→ [[2026-04-22_ai-developer-claude-secret-codes]] | [[ai-developer-js]]
+
 ### Brand Voice Document em Projects
 Persistir estilo de escrita, palavras proibidas e regras de tom como documento permanente no Claude Projects — elimina a necessidade de repetir o briefing de voz a cada prompt. Padrão distinto do CLAUDE.md (focado em regras de código): aqui o objetivo é calibrar o modelo para produção de conteúdo.
 - **Learn Your Voice**: colar 10 posts próprios → "write every future post in this style" — o modelo aprende o estilo e o Projects o retém
@@ -258,3 +283,4 @@ Isso conecta com o princípio de autoaperfeiçoamento documentado em [[boris-che
 - [[2026-04-14_arising-ai-fitness-7-prompts]]
 - [[2026-04-27_nate-herk-32-hacks-claude-code]]
 - [[2026-04-30_allessandra-sinisgalli-15k-4-prompts]]
+- [[2026-04-22_ai-developer-claude-secret-codes]]

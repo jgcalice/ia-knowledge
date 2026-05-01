@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-01 | Total de páginas: 158 | Fontes ingeridas: 63
+> Atualizado em: 2026-05-01 | Total de páginas: 160 | Fontes ingeridas: 64
 
 ---
 
@@ -78,6 +78,7 @@
 | [[wiki/sources/2026-04-30_your-ai-compass-7-prompts-agencia-ia]] | @Your Ai Compass | 2026-04-30 | 7 prompts de Jordan Lee para AI Agency: nicho → oferta ($2K/$5K/$10K) → email frio → objeções → onboarding → upsell → CEO report |
 | [[wiki/sources/2026-04-30_manthan-patel-agent-development-kit]] | @Manthan Patel \| Lead Gen Man | 2026-04-30 | As 5 Camadas do Desenvolvimento de Agentes: CLAUDE.md, Skills, Hooks (5 tipos de evento), Subagents e Plugins (npm) |
 | [[wiki/sources/2026-04-30_allessandra-sinisgalli-15k-4-prompts]] | @Allessandra Sinisgalli | 2026-04-30 | 4 prompts sequenciais testados na prática: identificar o que vender → mentor → plano 20 dias → cortar procrastinação |
+| [[wiki/sources/2026-04-22_ai-developer-claude-secret-codes]] | @AI Developer \| Code + AI \| JS | 2026-04-22 | 13 pseudo-comandos com prefixo "/" como ativadores semânticos informais do Claude |
 
 ---
 
@@ -142,6 +143,12 @@
 | [[wiki/entities/bruno-wambier]] | @Bruno Wambier | 1 | Negócios automatizados com IA, AIaaS, infoprodutos |
 | [[wiki/entities/adriano-couto]] | @Adriano Couto | 1 | Gestão com IA, gatilhos cognitivos, frameworks McKinsey |
 | [[wiki/entities/eduardo-santos]] | @Eduardo Santos | 1 | IA nas empresas, prospecção com Vibe Prospecting |
+
+### Agregadores de conteúdo
+
+| Página | Handle | Fontes | Foco |
+|--------|--------|--------|------|
+| [[wiki/entities/ai-developer-js]] | @AI Developer \| Code + AI \| JS | 1 | Canal agregador de dicas práticas de Claude para desenvolvedores JS |
 
 ### Pessoas / Criadores (Internacional — adicionados)
 
