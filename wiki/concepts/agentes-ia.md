@@ -2,7 +2,7 @@
 title: "Agentes de IA"
 type: concept
 tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents, agent-teams, git-worktrees, hooks, plugins, skills]
-source_count: 17
+source_count: 18
 last_updated: 2026-05-01
 ---
 
@@ -207,6 +207,17 @@ Cinco tipos de evento disponíveis: `PreToolUse.sh`, `PostToolUse.sh`, `SessionS
 
 **Plugins como ecossistema distribuível**: a analogia npm é intencional — skills e agentes viram artefatos versionados, assinados e instaláveis por toda a equipe. Complementa o marketplace [[smithery]] (128k+ skills): smithery é a camada de descoberta, plugins são a camada de distribuição interna.
 
+**Clarificação operacional — CLAUDE.md advisory vs. hooks determinísticos** ([[manthan-patel]], [[2026-04-27_manthan-patel-pasta-claude]]):
+
+O post de 2026-04-27 torna explícito o que o ADK deixava implícito: *"CLAUDE.md is advisory. hooks are deterministic."* A distinção é crítica para quem implementa:
+
+- **CLAUDE.md** → o modelo *lê* e *pode* seguir; é uma recomendação codificada, não uma obrigação executável
+- **Hooks** → shell scripts que o *sistema* executa; a IA não participa da decisão de rodá-los ou não
+
+Consequência prática: regras que o desenvolvedor quer garantir (ex: "nunca commitar sem passar nos testes") devem estar em hooks, não no CLAUDE.md. O CLAUDE.md é para convenções e contexto; hooks são para invariantes.
+
+O post ancora as 5 camadas abstratas em localizações físicas concretas: `hooks/`, `commands/`, `skills/`, `agents/`, `plugins/` — tornando o ADK implementável sem ambiguidade. Princípio de design formulado: *"The folder structure IS the system"*.
+
 ### Novos arquétipos de agente: e-mail, hedge fund autônomo e browser anti-bot
 
 ([[bestapps-ai]], [[2026-05-01_bestapps-ferramentas-open-source]])
@@ -255,3 +266,4 @@ Três arquétipos inéditos no wiki:
 - [[2026-04-21_ai-updater-cookbook-agente-dados]]
 - [[2026-04-17_manthan-patel-claudemd-boris-cherny]]
 - [[2026-04-27_nate-herk-32-hacks-claude-code]]
+- [[2026-04-27_manthan-patel-pasta-claude]]

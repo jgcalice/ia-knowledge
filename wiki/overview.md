@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-05-01
-source_count: 66
+source_count: 67
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 66 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 67 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -235,6 +235,7 @@ Fonte: ([[faria-lima-elevator]])
 - **Slash-command style activators como notação mnemônica para ativadores semânticos**: [[ai-developer-js]] documenta 13 pseudo-comandos com prefixo "/" (/godmode, /devil, /10x, /scout, /compare…) que funcionam como ativadores informais de modo no Claude. São variações com notação de barra dos mesmos ativadores semânticos já documentados ([[castilhoia]]) e ELI5 ([[adriano-couto]]). O valor é a mnemônica: o "/" torna o ativador visualmente distinto e fácil de lembrar; não são comandos nativos do Claude Code CLI
 - **Repos open-source como corte de cinco dígitos — framing de substituição, não de ferramenta**: [[bestapps-ai]] reencadra o tema "repos para monetizar" (já presente em [[paras-madan]]): a pergunta não é "que ferramenta usar?" mas "quanto você economiza vs a alternativa paga?". FinceptTerminal = $24K/ano; Open-Gen-AI = $100+/mês; Claude Ads = $2K/cliente. O modelo de receita emerge automaticamente: entregar o setup como serviço e cobrar uma fração do custo substituído. Convergência temática: Claude Ads e Context Mode aparecem em ambos os posts — dois repos com múltiplas confirmações independentes
 - **Taxonomia de 89 comandos como mapa mental de modos de uso**: [[beyond-intelligence]] publica referência mais ampla que os 13 pseudo-comandos de [[ai-developer-js]] — 89 entradas em 11 categorias funcionais. O valor não está nos itens individuais (o post não distingue comandos nativos CLI de pseudo-comandos informais), mas na **taxonomia** em si: Start & Create → Focus & Context → Think & Solve → Write & Edit → Organize & Structure → Code & Tech → Data & Analysis → Automate & Integrate → Personalize & Control → Learn & Research → Collaborate & Share. As 11 categorias mapeiam o espectro completo de intenções de uso do Claude — uma referência de orientação, não de execução
+- **Pasta `.claude/` como sistema — distinção advisory vs. determinístico**: [[manthan-patel]] ancora as 5 camadas do Agent Development Kit em localizações físicas concretas e formula a distinção operacional mais importante para quem implementa: *"CLAUDE.md is advisory. hooks are deterministic."* O CLAUDE.md é consultado pelo modelo, que *pode* seguir; os hooks são scripts que o *sistema* executa sempre, sem decisão da IA. Regras que o desenvolvedor quer garantir devem estar em hooks, não em CLAUDE.md. Princípio de design: *"The folder structure IS the system"*
 
 ---
 
@@ -242,9 +243,9 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 66 |
-| Páginas de fontes | 66 |
+| Fontes ingeridas | 67 |
+| Páginas de fontes | 67 |
 | Páginas de conceitos | 18 |
 | Páginas de entidades | 78 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **164** |
+| **Total de páginas** | **165** |

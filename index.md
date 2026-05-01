@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-01 | Total de páginas: 164 | Fontes ingeridas: 66
+> Atualizado em: 2026-05-01 | Total de páginas: 165 | Fontes ingeridas: 67
 
 ---
 
@@ -81,6 +81,7 @@
 | [[wiki/sources/2026-04-22_ai-developer-claude-secret-codes]] | @AI Developer \| Code + AI \| JS | 2026-04-22 | 13 pseudo-comandos com prefixo "/" como ativadores semânticos informais do Claude |
 | [[wiki/sources/2026-05-01_bestapps-ferramentas-open-source]] | @Bestapps \| Artificial Intelligence \| AI Agents | 2026-05-01 | 10 repos GitHub open-source que substituem softwares de cinco dígitos (Bloomberg, HeyGen, ad agencies) |
 | [[wiki/sources/2026-04-28_beyond-intelligence-comandos-claude]] | @Beyond Intelligence — AI News & Tools | 2026-04-28 | 89 comandos do Claude em 11 categorias — taxonomia completa de modos de uso |
+| [[wiki/sources/2026-04-27_manthan-patel-pasta-claude]] | @Manthan Patel \| Lead Gen Man | 2026-04-27 | Pasta .claude/ como sistema: CLAUDE.md advisory vs hooks determinísticos |
 
 ---
 
@@ -183,7 +184,7 @@
 | [[wiki/entities/alvin-wang-graylin]] | Alvin Wang Graylin | 1 | Digital Fellow Stanford DEL; foco em economia da IA e políticas para transição pós-trabalho |
 | [[wiki/entities/elisa-pereira]] | Elisa Pereira | 1 | Pesquisadora Stanford DEL; background VC + IA na América Latina, soberania tecnológica |
 | [[wiki/entities/ai-updater]] | @Artificial Intelligence (AI) Updater | 1 | Canal de novidades IA — divulgação de cookbooks e lançamentos da Anthropic |
-| [[wiki/entities/manthan-patel]] | @Manthan Patel \| Lead Gen Man | 2 | Criador de conteúdo — Claude Code, CLAUDE.md de Boris Cherny + Agent Development Kit (5 camadas) |
+| [[wiki/entities/manthan-patel]] | @Manthan Patel \| Lead Gen Man | 3 | Criador de conteúdo — Claude Code, CLAUDE.md de Boris Cherny + Agent Development Kit (5 camadas) + pasta .claude/ anatomy |
 | [[wiki/entities/boris-cherny]] | Boris Cherny | 1 | Engenheiro Anthropic — autor do CLAUDE.md de referência (Workflow Orchestration, Core Principles) |
 | [[wiki/entities/faria-lima-elevator]] | @FariaLimaElevat | 1 | Criador BR — 8 prompts de análise de investimento com personas de instituições financeiras de elite |
 | [[wiki/entities/starter-story]] | @Starter Story | 1 | Plataforma de histórias de founders bootstrapped — case Joseph: $3M ARR com Reddit + Programmatic SEO |

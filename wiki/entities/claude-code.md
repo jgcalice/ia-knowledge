@@ -3,7 +3,7 @@ title: "Claude / Claude Code"
 type: entity
 category: tool
 tags: [llm, claude, anthropic, claude-code, ia, claude-managed-agents]
-source_count: 35
+source_count: 36
 last_updated: 2026-05-01
 ---
 
@@ -90,6 +90,25 @@ Documentados por [[sal-shirgaleev]] em [[2026-04-22_sal-shirgaleev-5-comandos-cl
 | `/loop` | Executa um prompt em intervalo recorrente em background; alerta só quando precisa de input; dura até 3 dias |
 | `/hooks` | Configura hooks de notificação (ex: som ao terminar sessão) em linguagem natural |
 
+## Estrutura da pasta `.claude/`
+
+Documentado por [[manthan-patel]] em [[2026-04-27_manthan-patel-pasta-claude]]:
+
+| Subdiretório / Arquivo | Tipo | Papel |
+|------------------------|------|-------|
+| `CLAUDE.md` | Advisory | Regras e convenções que o modelo *pode* seguir — carregado sempre, não obrigatório |
+| `hooks/` | Determinístico | Shell scripts que *sempre* executam em eventos de agente — o sistema força, a IA não escolhe |
+| `commands/` | Atalhos | Slash commands `/` que disparam workflows predefinidos na sessão |
+| `skills/` | Modular | Workflows reutilizáveis carregados sob demanda por description-matching |
+| `agents/` | Isolado | Agentes com contexto próprio — o agente principal só recebe o resultado final |
+| `plugins/` | Distribuição | Agrupa skills + agents + hooks + commands em artefato npm instalável |
+
+**Distinção operacional crítica**: CLAUDE.md é advisory (o modelo lê e *pode* seguir); hooks são determinísticos (sempre executam, sem participação da IA). Desenvolvedores que tratam o CLAUDE.md como regras obrigatórias confundem os dois mecanismos.
+
+**Princípio de design**: *"The folder structure IS the system"* — a organização física dos arquivos é a arquitetura de comportamento do agente.
+
+> Ver taxonomia completa: [[agentes-ia]] — seção "Agent Development Kit"
+
 ## Segurança ao usar Claude Code
 
 Documentado por [[lucas-garcia-pit]] em [[2026-04-15_lucas-garcia-pit-seguranca-claudecode]]:
@@ -161,3 +180,4 @@ Documentado por [[lucas-garcia-pit]] em [[2026-04-15_lucas-garcia-pit-seguranca-
 - [[2026-04-17_manthan-patel-claudemd-boris-cherny]]
 - [[2026-04-26_coding-ai-fullstack-entrevistas-claude]]
 - [[2026-04-27_nate-herk-32-hacks-claude-code]]
+- [[2026-04-27_manthan-patel-pasta-claude]]

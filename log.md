@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-05-01] ingest | Estrutura da Pasta .claude — @Manthan Patel | Lead Gen Man
+
+Fonte: `2026-04-27_manthan_patel_lead_gen_man_DXpO61yDZ1m.md` (imagem única). Página criada: wiki/sources/2026-04-27_manthan-patel-pasta-claude.md. Atualizadas: entities/manthan-patel.md (source_count 2→3, 3ª contribuição: anatomia física da pasta .claude/ — "CLAUDE.md is advisory. hooks are deterministic." + "The folder structure IS the system"), entities/claude-code.md (source_count 35→36, nova seção "Estrutura da pasta .claude/" com tabela de 6 componentes e distinção operacional advisory vs. determinístico), concepts/agentes-ia.md (source_count 17→18, clarificação operacional adicionada ao bloco Agent Development Kit — consequência prática: regras obrigatórias devem estar em hooks, não em CLAUDE.md), wiki/overview.md (66→67 fontes, novo padrão emergente "Pasta .claude/ como sistema — distinção advisory vs. determinístico", status table 164→165 páginas), index.md (164→165 páginas, 66→67 fontes, +1 fonte, manthan-patel source_count 2→3).
+
 ## [2026-05-01] ingest | 89 Comandos do Claude em 11 Categorias — @Beyond Intelligence — AI News & Tools
 
 Fonte: `2026-04-28_beyond_intelligence_ai_news_tools_DXrMEEUjJ9e.md` (imagem única). Página criada: wiki/sources/2026-04-28_beyond-intelligence-comandos-claude.md. Entidade criada: entities/beyond-intelligence.md (novo canal agregador — AI news & tools; publica cheatsheets e tabelas de referência visual). Atualizadas: concepts/prompt-engineering.md (source_count 29→30, seção "Slash-command style activators" expandida com parágrafo sobre a taxonomia de 89 comandos em 11 categorias da @Beyond Intelligence; distinção editorial: post não separa comandos nativos CLI de pseudo-comandos informais — o valor está na taxonomia como mapa mental de modos de uso), entities/claude-code.md (source_count 34→35), wiki/overview.md (65→66 fontes, [[beyond-intelligence]] adicionado ao mapa de Agregadores, novo padrão emergente "Taxonomia de 89 comandos como mapa mental de modos de uso", status table 162→164 páginas), index.md (162→164 páginas, 65→66 fontes, +1 fonte, +1 entidade).
