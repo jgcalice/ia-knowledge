@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-30] ingest | 2 Sites Gratuitos para Investigar Pessoas pelo Nome — @Gustavo Melo | Tecnologia e IA
+
+Fonte: `2026-04-30_gustavo_melo_tecnologia_e_ia_DXxPlwaRrpC.md` (reel, 35s). Página criada: wiki/sources/2026-04-30_gustavo-melo-investigacao-pessoas.md. Atualizadas: entities/gustavo-melo.md (source_count 1→2, segunda contribuição: Webmail + My7 como serviços de investigação de pessoa física; ângulo editorial expandido para dois modos — defensivo e investigativo), concepts/segurança-com-ia.md (source_count 5→6, Dimensão 2 expandida com Fonte C — 2 serviços de background check; total de ferramentas documentadas 12→14; nova convergência Webmail/My7 ≈ Shint Premium Work), wiki/overview.md (58→59 fontes, Dimensão 2 atualizada para 3 fontes e 14 ferramentas, status table 149→150 páginas), index.md (149→150 páginas, 58→59 fontes, +1 fonte).
+
 ## [2026-04-30] ingest | 5 Prompts Claude para Negócio Solo como Dan Koe — @AI-Fied | AI Tools & Tech
 
 Fonte: `2026-04-30_ai_fied_ai_tools_tech_DXvxdPZjOQ6.md` (carousel, 7 slides). Páginas criadas: wiki/sources/2026-04-30_ai-fied-dan-koe-negocio-solo.md, entities/dan-koe.md (nova entidade — empreendedor "one-person business" $6M, 0 funcionários, 4h/dia). Atualizadas: entities/ai-fied.md (source_count 1→2, segunda contribuição: framework Dan Koe reverse-engineered com 5 prompts), concepts/estratégia-de-negócios-com-ia.md (source_count 11→12, nova seção "One-Person Business: o modelo de Dan Koe" com tabela dos 5 prompts + diferencial, novo arquétipo adicionado à tabela), concepts/design-de-estilo-de-vida.md (source_count 4→5, nova seção "Framework Dan Koe" com 4h/dia e "runs without you" documentados, convergência com Ferriss e Naval explicitada), wiki/overview.md (57→58 fontes, [[dan-koe]] adicionado às Referências externas, novo item Cluster 4, novo padrão emergente "One-Person Business como arquétipo mais restritivo do wiki", status table 147→149 páginas), index.md (147→149 páginas, 57→58 fontes, +1 fonte, +1 entidade).

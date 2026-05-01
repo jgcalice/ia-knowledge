@@ -1,14 +1,14 @@
 ---
 title: "Segurança com IA"
 type: concept
-tags: [segurança, claude-code, desenvolvimento, api, backend, supabase, osint, privacidade, shadow-ai, governança, vibecoding, red-team]
-source_count: 5
-last_updated: 2026-04-26
+tags: [segurança, claude-code, desenvolvimento, api, backend, supabase, osint, privacidade, shadow-ai, governança, vibecoding, red-team, investigação]
+source_count: 6
+last_updated: 2026-04-30
 ---
 
 # Segurança com IA
 
-> Quatro dimensões: (1) segurança no *desenvolvimento* de apps com LLMs, (2) segurança *pessoal/digital* via ferramentas OSINT (12 ferramentas documentadas em 2 fontes), (3) segurança *empresarial/governança* (Shadow AI, infraestrutura como enabler), e (4) auditoria red team pré-deploy para apps vibecoded.
+> Quatro dimensões: (1) segurança no *desenvolvimento* de apps com LLMs, (2) segurança *pessoal/digital* via ferramentas OSINT (14 ferramentas documentadas em 3 fontes), (3) segurança *empresarial/governança* (Shadow AI, infraestrutura como enabler), e (4) auditoria red team pré-deploy para apps vibecoded.
 
 ## Dimensão 1: Segurança no Desenvolvimento (via @Lucas Garcia Pit)
 
@@ -64,11 +64,23 @@ Documentadas em [[2026-04-08_sidney-ferramentas-osint]]:
 | **Shodan** | "Google dos dispositivos vulneráveis" | Indexa roteadores, câmeras e servidores expostos na internet |
 | **Google Dorking + Intelligence X** | Busca cirúrgica avançada | Localiza planilhas, CPFs, e-mails vazados e dados indexados publicamente |
 
-### Convergências entre as duas fontes
+### Fonte C: 2 serviços de investigação de pessoa física (via @Gustavo Melo, post 2)
+
+Documentados em [[2026-04-30_gustavo-melo-investigacao-pessoas]]:
+
+| Serviço | Tipo | Dados disponíveis |
+|---------|------|------------------|
+| **Webmail** | Agregador de perfil pessoal ("Google das pessoas") | Redes sociais, fotos, contatos, nota de reputação, processos judiciais |
+| **My7** | Background check amplo | Histórico de nomes, veículos, telefones, e-mails, dados pessoais aggregados |
+
+**Distinção de ângulo**: Fontes A e B são voltadas a auditar a *própria* exposição (uso defensivo). A Fonte C é voltada a investigar *outras pessoas* — uso mais ambíguo eticamente. O autor reconhece a ambiguidade: "se usar pro bem ou pro mal, o problema é teu."
+
+### Convergências entre as três fontes
 
 - **Shodan ≈ ZoomEye**: ambos são scanners de dispositivos expostos — Gustavo usa ZoomEye, Sidney usa Shodan. Mesma categoria, ferramentas concorrentes.
 - **Google Dorking ≈ Exploding Database**: a Exploding Database é construída sobre Google Dorks; Sidney nomeia a técnica diretamente. Confirmação independente de que dorks são o método padrão para indexação de dados expostos.
-- **Princípio unificador**: todas as 12 ferramentas exploram dados *já públicos* — a novidade é a agregação e a velocidade de acesso. "O problema não é o acesso; é o uso."
+- **Webmail/My7 ≈ Shint Premium Work** (Fonte A): todos são agregadores de dados pessoais brasileiros — a diferença é o enquadramento (defensivo vs investigativo).
+- **Princípio unificador**: todas as 14 ferramentas exploram dados *já públicos* — a novidade é a agregação e a velocidade de acesso. "O problema não é o acesso; é o uso."
 
 ---
 
@@ -171,3 +183,4 @@ Os 5 fundamentos da Dimensão 1 ([[lucas-garcia-pit]]) são **preventivos** (des
 - [[2026-04-08_sidney-ferramentas-osint]] — 5 ferramentas OSINT usadas por profissionais (Sherlock, Maltego, SpiderFoot, Shodan, Google Dorking)
 - [[2026-04-01_enterprise-ai-playbook-stanford]] — Shadow AI, segurança empresarial como enabler
 - [[2026-04-25_vibecoding-seguranca-auditoria-ia]] — prompt red team completo para auditoria de apps vibecoded
+- [[2026-04-30_gustavo-melo-investigacao-pessoas]] — 2 sites de investigação de pessoa física: Webmail e My7

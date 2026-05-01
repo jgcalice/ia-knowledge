@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-04-30
-source_count: 58
+source_count: 59
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 58 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 59 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -75,7 +75,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 **Conceito central:** [[segurança-com-ia]]
 
 - **Dimensão 1 — Desenvolvimento preventivo**: 5 fundamentos design-time para apps com Claude Code: API keys no servidor, RLS no Supabase, lógica sensível no back-end, rate limiting e webhooks assinados ([[lucas-garcia-pit]])
-- **Dimensão 2 — Privacidade/OSINT**: 12 ferramentas documentadas em 2 fontes BR independentes: ZoomEye, HIBP, Namecheck, Pic2Map, EPA, Exploding Database ([[gustavo-melo]]) + Sherlock, Maltego, SpiderFoot, Shodan, Google Dorking ([[sidney-rodrigo]])
+- **Dimensão 2 — Privacidade/OSINT**: 14 ferramentas documentadas em 3 fontes BR: ZoomEye, HIBP, Namecheck, Pic2Map, EPA, Exploding Database ([[gustavo-melo]] post 1) + Sherlock, Maltego, SpiderFoot, Shodan, Google Dorking ([[sidney-rodrigo]]) + Webmail e My7 — investigação de pessoa física ([[gustavo-melo]] post 2)
 - **Dimensão 3 — Empresarial**: Shadow AI (70-80% usam ferramentas não aprovadas), segurança como enabler front-loaded, pipeline PII scrubbing como moat ([[stanford-digital-economy-lab]])
 - **Dimensão 4 — Vibecoding pré-deploy**: prompt de 6 blocos que instrui o agente a auditar o codebase como engenheiro sênior de segurança ($15k em valor); conceito de **attack chains** (3 vulns "low" = 1 "critical") ([[artificial-intelligence-business]] / @thewizeai) — NOVO
 - **Tese unificada**: aceleração (LLMs no dev, internet nos dados, mandato corporativo) cria exposições invisíveis que exigem intenção ativa para serem corrigidas — em 4 escalas diferentes
@@ -230,9 +230,9 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 58 |
-| Páginas de fontes | 58 |
+| Fontes ingeridas | 59 |
+| Páginas de fontes | 59 |
 | Páginas de conceitos | 18 |
 | Páginas de entidades | 71 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **149** |
+| **Total de páginas** | **150** |

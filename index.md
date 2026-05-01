@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-30 | Total de páginas: 149 | Fontes ingeridas: 58
+> Atualizado em: 2026-04-30 | Total de páginas: 150 | Fontes ingeridas: 59
 
 ---
 
@@ -73,6 +73,7 @@
 | [[wiki/sources/2026-04-15_jordan-lee-vendas-sistema-ia]] | @Jordan Lee | 2026-04-15 | Pipeline de vendas com 3 agentes de IA (SDR + Analisador + Consultor) |
 | [[wiki/sources/2026-04-30_paras-madan-repos-monetizacao]] | @Paras Madan | 2026-04-30 | 6 repos open-source para monetizar com IA (ads, SEO, tokens, scraping, trading) |
 | [[wiki/sources/2026-04-30_ai-fied-dan-koe-negocio-solo]] | @AI-Fied \| AI Tools & Tech | 2026-04-30 | 5 prompts para construir negócio solo $6M como Dan Koe: ideia, oferta-transformação, conteúdo, vendas autônomas, escalar sem equipe |
+| [[wiki/sources/2026-04-30_gustavo-melo-investigacao-pessoas]] | @Gustavo Melo \| Tecnologia e IA | 2026-04-30 | 2 sites gratuitos para investigar pessoas pelo nome: Webmail (reputação + judicial) e My7 (veículos, histórico, contatos) |
 
 ---
 
