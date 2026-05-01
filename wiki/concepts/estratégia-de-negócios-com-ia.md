@@ -2,8 +2,8 @@
 title: "Estratégia de Negócios com IA"
 type: concept
 tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe]
-source_count: 12
-last_updated: 2026-04-30
+source_count: 13
+last_updated: 2026-05-01
 ---
 
 # Estratégia de Negócios com IA
@@ -115,6 +115,7 @@ Diferença dos modelos anteriores: aqui a IA **opera e entrega o serviço** (nã
 | **GMB Optimization Agency** | 8 prompts para agência de SEO local — retainers $500–$1K/mês, alvo #6–20 Maps | [[derek-gray]] |
 | **AI Sales Agency** | 3 agentes (SDR + Analisador + Consultor) cobrem todo o funil de vendas — $3K/cliente, sem código | [[jordan-lee]] |
 | **One-Person Business (Dan Koe model)** | 5 prompts: ideia → oferta-transformação → conteúdo → vendas autônomas → escalar sem equipe | [[ai-fied]] (via [[dan-koe]]) |
+| **Freelance + Day Rate + Desafio Pago** | 5 templates com placeholders para monetizar skill existente em dias/semanas; day rate: $1K/dia com IA | [[laura-anderson]] |
 
 ## One-Person Business: o modelo de Dan Koe reverse-engineered com Claude
 
@@ -162,3 +163,4 @@ Diferencial dos modelos anteriores: aqui a IA **vende o serviço e entrega o ser
 - [[2026-04-23_harry-validacao-startup-paul-graham]]
 - [[2026-04-22_starter-story-joseph-3m-arr]]
 - [[2026-04-05_derek-gray-renda-recorrente-google-maps]]
+- [[2026-04-26_laura-anderson-prompts-renda-rapida]]

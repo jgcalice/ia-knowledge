@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-05-01] ingest | 5 Prompts de IA para Gerar Renda Rápida com Skills Existentes — @Laura Anderson
+
+Fonte: `2026-04-26_laura_anderson_DXmua0Zkaj0.md` (reel, 179s). Página criada: wiki/sources/2026-04-26_laura-anderson-prompts-renda-rapida.md. Entidade criada: entities/laura-anderson.md (nova entidade — criadora Internacional focada em monetização rápida com prompts-template). Atualizadas: concepts/carreira-com-ia.md (source_count 13→14, novo item 10 "5 prompts para renda rápida com skills (Laura Anderson)" com tabela dos 5 modelos e nota crítica sobre afirmação falsa de loteria), concepts/estratégia-de-negócios-com-ia.md (source_count 12→13, novo arquétipo "Freelance + Day Rate + Desafio Pago" adicionado à tabela), wiki/overview.md (59→60 fontes, [[laura-anderson]] adicionado ao Cluster 3 e novo padrão emergente "Templates com placeholders como padrão de democratização de prompts", status table 150→152 páginas), index.md (150→152 páginas, 59→60 fontes, +1 fonte, +1 entidade).
+
 ## [2026-04-30] ingest | 2 Sites Gratuitos para Investigar Pessoas pelo Nome — @Gustavo Melo | Tecnologia e IA
 
 Fonte: `2026-04-30_gustavo_melo_tecnologia_e_ia_DXxPlwaRrpC.md` (reel, 35s). Página criada: wiki/sources/2026-04-30_gustavo-melo-investigacao-pessoas.md. Atualizadas: entities/gustavo-melo.md (source_count 1→2, segunda contribuição: Webmail + My7 como serviços de investigação de pessoa física; ângulo editorial expandido para dois modos — defensivo e investigativo), concepts/segurança-com-ia.md (source_count 5→6, Dimensão 2 expandida com Fonte C — 2 serviços de background check; total de ferramentas documentadas 12→14; nova convergência Webmail/My7 ≈ Shint Premium Work), wiki/overview.md (58→59 fontes, Dimensão 2 atualizada para 3 fontes e 14 ferramentas, status table 149→150 páginas), index.md (149→150 páginas, 58→59 fontes, +1 fonte).

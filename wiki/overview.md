@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-04-30
-source_count: 59
+last_updated: 2026-05-01
+source_count: 60
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 59 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 60 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -66,6 +66,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 | Candidaturas personalizadas (sem código) | JD → Claude extrai skills → reescreve currículo → cover letter; caso: 6 entrevistas/7 dias | [[coding-ai-fullstack]] |
 | Redesenho estratégico | 4 prompts Tim Ferriss: vantagem injusta, DEAL, freedom ratio, 10 anos | [[god-of-prompt]] |
 | Monetização imediata | 4 prompts para ganhar $1k em 30 dias com skills existentes | [[sabrina-ramonov]] |
+| Monetização com templates | 5 prompts-template `[insert X]`: freelance do cargo atual, plano 30 dias $10K, desafio 7 dias, day rate $1K/dia, serviço $10K/mês | [[laura-anderson]] |
 | Certificação formal | Claude Certified Architect (grátis, proctored, valorizado pela Deloitte) | [[bashiri]] |
 | Filosofia de riqueza | 6 prompts Naval Ravikant — texto completo de 5 prompts nomeados (Excavator, Auditor, Brand Architect, Productize, Judgment); 3ª variação confirmando o framework | [[god-of-prompt]] · [[simplifying-ai]] · [[ai-fied]] |
 
@@ -222,6 +223,7 @@ Fonte: ([[faria-lima-elevator]])
 - **Permissões explícitas como alternativa responsável ao modo perigoso**: configurar allow list + deny list (deny tem prioridade) produz a mesma velocidade do `--dangerously-skip-permissions` sem o risco. [[nate-herk]] documenta que a maioria dos criadores (inclusive ele) promoveu o modo perigoso sem apresentar essa alternativa
 - **Pipeline agêntico de vendas como novo arquétipo**: [[jordan-lee]] documenta o primeiro sistema do wiki onde a IA cobre tanto a aquisição (AI SDR → qualificação → chamada agendada) quanto a entrega (Sales Call Analyzer → proposta). Arquétipos anteriores separavam essas funções — aqui o funil comercial inteiro é agêntico, operado sem código por quem "foca em relacionamentos"
 - **Repositórios open-source como modelo de monetização direta**: [[paras-madan]] apresenta 6 repos onde o retorno é direto — cortar budget de anúncios, automatizar trading e extrair dados de sites protegidos. [[tradingagents]] (55.700 stars) introduz o padrão "debate entre agentes" como mecanismo de decisão: fundamentos + sentimento + técnica + risco discutem antes de agir. HKUDS/AI-Trader introduz `SKILL.md` como protocolo de integração de agentes em sistemas financeiros — ecos do CLAUDE.md de [[boris-cherny]] aplicados ao domínio de finanças
+- **Templates com placeholders como padrão de democratização de prompts**: [[laura-anderson]] documenta o padrão mais explícito até aqui — todos os 5 prompts usam `[insert job title]`, `[list skills]`, `[insert background]` como portas de entrada. O usuário não precisa aprender prompt engineering; preenche campos e executa. O LLM faz 70–90% do trabalho operacional. Convergência com [[sabrina-ramonov]] (mesma intenção, formatos diferentes): ambas posicionam IA como parceiro de execução, não de planejamento.
 - **"One-Person Business" como arquétipo mais restritivo do wiki**: [[dan-koe]] (via [[ai-fied]]) documenta negócio de $6M com zero funcionários e 4h/dia — a restrição de equipe é princípio de design, não limitação. O arquétipo é complementar aos demais: usa os mesmos LLMs, mas o objetivo explícito é "runs without you" — sistemas que operam sem presença ativa do criador. Convergência com [[naval-ravikant]] (produtize yourself) e [[tim-ferriss]] (Muse Business), agora com case empírico documentado e 5 prompts acionáveis
 
 ---
@@ -230,9 +232,9 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 59 |
-| Páginas de fontes | 59 |
+| Fontes ingeridas | 60 |
+| Páginas de fontes | 60 |
 | Páginas de conceitos | 18 |
-| Páginas de entidades | 71 |
+| Páginas de entidades | 72 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **150** |
+| **Total de páginas** | **152** |

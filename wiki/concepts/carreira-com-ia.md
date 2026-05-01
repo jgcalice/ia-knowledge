@@ -2,13 +2,13 @@
 title: "Carreira e Negócios com IA"
 type: concept
 tags: [carreira, negócios, linkedin, ia, recrutamento, oportunidades, renda, transição-de-carreira]
-source_count: 13
-last_updated: 2026-04-29
+source_count: 14
+last_updated: 2026-05-01
 ---
 
 # Carreira e Negócios com IA
 
-> **Fontes:** 10 | **Domínio:** Aplicações de IA para desenvolvimento profissional
+> **Fontes:** 14 | **Domínio:** Aplicações de IA para desenvolvimento profissional
 
 ## Definição
 
@@ -93,6 +93,20 @@ Bruno Souza apresenta o modelo de implementar IA para negócios locais:
 
 > ⚠️ **Nota crítica também aqui**: case "$8k/mês com <500 seguidores" não é verificável — uso externo ao wiki deve tratar como anedota narrativa, não evidência.
 
+### 10. 5 prompts para renda rápida com skills (Laura Anderson)
+5 templates com placeholders `[insert X]` para monetizar habilidades existentes sem audiência, produto ou anúncios:
+- **Prompt 1**: Freelance a partir do cargo atual → oferta + pricing tiers + cold outreach pronto
+- **Prompt 2**: Plano de caixa de 30 dias ($10K) com ChatGPT + Canva + Stripe, tráfego orgânico, plano diário
+- **Prompt 3**: Transformar skill em desafio pago de 7 dias ($27–$97), ChatGPT opera 90% do desafio
+- **Prompt 4**: "Day rate" de $1.000 — entrega em 1 dia com IA, precificação por resultado, sem chamada de vendas
+- **Prompt 5**: 3 ofertas de serviço para escalar a $10K/mês com horas mínimas
+
+Padrão central: usuário preenche `[job title]` / `[skills]` / `[background]` e recebe plano personalizado pronto para executar; LLM faz 70–90% do trabalho operacional.
+
+> ⚠️ **Nota crítica**: abertura do reel usa afirmação falsa sobre loteria como gancho emocional; os prompts em si são independentes e têm valor prático verificável.
+
+→ [[2026-04-26_laura-anderson-prompts-renda-rapida]] | Autor: [[laura-anderson]]
+
 ### 9. Candidaturas personalizadas em escala (sem automação)
 Caso documentado sem pipeline técnico — uso direto do Claude.ai por qualquer candidato:
 - Colar JD no Claude → extrair skills prioritárias → reescrever currículo → gerar cover letter
@@ -121,3 +135,4 @@ Há **convergência temática clara**: múltiplos criadores internacionais refor
 - [[2026-04-17_mini-web-app-claude]]
 - [[2026-04-22_arshman-khalid-automacao-busca-emprego]]
 - [[2026-04-26_coding-ai-fullstack-entrevistas-claude]]
+- [[2026-04-26_laura-anderson-prompts-renda-rapida]]
