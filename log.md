@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-04-30] ingest | 7 Prompts para Construir uma Agência de IA — @Your Ai Compass (via Jordan Lee)
+
+Fonte: `2026-04-30_your_ai_compass_DXxBc7ZDC_h.md` (carousel, 10 slides). Página criada: wiki/sources/2026-04-30_your-ai-compass-7-prompts-agencia-ia.md. Entidade criada: entities/your-ai-compass.md (novo canal — curadoria de playbooks de AI Agency). Atualizadas: entities/jordan-lee.md (source_count 1→2, segunda contribuição: playbook operacional de 7 prompts — Niche Domination, Offer Builder, Cold Email Machine, Objection Destroyer, Onboarding Playbook, Upsell Identifier, CEO Weekly Report), concepts/estratégia-de-negócios-com-ia.md (source_count 13→14, nova subseção "Playbook operacional completo da AI Agency: 7 prompts de Jordan Lee" com tabela dos 7 prompts e modelo $2K/$5K/$10K/mês), wiki/overview.md (60→61 fontes, [[your-ai-compass]] adicionado ao mapa Internacional, novo padrão emergente "Playbook operacional vs. playbook agêntico — dois níveis da AI Agency", status table 152→154 páginas), index.md (152→154 páginas, 60→61 fontes, +1 fonte, +1 entidade, jordan-lee source_count atualizado).
+
 ## [2026-05-01] ingest | 5 Prompts de IA para Gerar Renda Rápida com Skills Existentes — @Laura Anderson
 
 Fonte: `2026-04-26_laura_anderson_DXmua0Zkaj0.md` (reel, 179s). Página criada: wiki/sources/2026-04-26_laura-anderson-prompts-renda-rapida.md. Entidade criada: entities/laura-anderson.md (nova entidade — criadora Internacional focada em monetização rápida com prompts-template). Atualizadas: concepts/carreira-com-ia.md (source_count 13→14, novo item 10 "5 prompts para renda rápida com skills (Laura Anderson)" com tabela dos 5 modelos e nota crítica sobre afirmação falsa de loteria), concepts/estratégia-de-negócios-com-ia.md (source_count 12→13, novo arquétipo "Freelance + Day Rate + Desafio Pago" adicionado à tabela), wiki/overview.md (59→60 fontes, [[laura-anderson]] adicionado ao Cluster 3 e novo padrão emergente "Templates com placeholders como padrão de democratização de prompts", status table 150→152 páginas), index.md (150→152 páginas, 59→60 fontes, +1 fonte, +1 entidade).

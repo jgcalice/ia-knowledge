@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-01 | Total de páginas: 152 | Fontes ingeridas: 60
+> Atualizado em: 2026-04-30 | Total de páginas: 154 | Fontes ingeridas: 61
 
 ---
 
@@ -75,6 +75,7 @@
 | [[wiki/sources/2026-04-30_ai-fied-dan-koe-negocio-solo]] | @AI-Fied \| AI Tools & Tech | 2026-04-30 | 5 prompts para construir negócio solo $6M como Dan Koe: ideia, oferta-transformação, conteúdo, vendas autônomas, escalar sem equipe |
 | [[wiki/sources/2026-04-30_gustavo-melo-investigacao-pessoas]] | @Gustavo Melo \| Tecnologia e IA | 2026-04-30 | 2 sites gratuitos para investigar pessoas pelo nome: Webmail (reputação + judicial) e My7 (veículos, histórico, contatos) |
 | [[wiki/sources/2026-04-26_laura-anderson-prompts-renda-rapida]] | @Laura Anderson | 2026-04-26 | 5 prompts-template `[insert X]` para monetizar skills: freelance, plano 30 dias $10K, desafio 7 dias, day rate $1K/dia, serviço $10K/mês |
+| [[wiki/sources/2026-04-30_your-ai-compass-7-prompts-agencia-ia]] | @Your Ai Compass | 2026-04-30 | 7 prompts de Jordan Lee para AI Agency: nicho → oferta ($2K/$5K/$10K) → email frio → objeções → onboarding → upsell → CEO report |
 
 ---
 
@@ -176,7 +177,8 @@
 | [[wiki/entities/coding-ai-fullstack]] | @coderss_world | 1 | Canal Internacional — casos reais de IA aplicada a carreira e tecnologia |
 | [[wiki/entities/derek-gray]] | @Derek Gray | 2 | Criador Internacional — GMB Optimization Agency (8 prompts, $10K/mês) + ChatGPT para riqueza |
 | [[wiki/entities/context7]] | Context7 MCP | 1 | Servidor MCP que injeta documentação atualizada de libs no contexto do Claude |
-| [[wiki/entities/jordan-lee]] | @Jordan Lee | 1 | Fundador AI Acquisition — AI Sales Agency com pipeline agêntico de vendas ($100K+/mês) |
+| [[wiki/entities/jordan-lee]] | @Jordan Lee | 2 | Fundador AI Acquisition — AI Sales Agency com pipeline agêntico + playbook operacional completo de 7 prompts |
+| [[wiki/entities/your-ai-compass]] | @Your Ai Compass | 1 | Criador Internacional — curadoria de playbooks de AI Agency (republica Jordan Lee e outros) |
 | [[wiki/entities/tradingagents]] | TradingAgents | 1 | Framework multi-agent LLM para trading (debate especializado, 55.700 stars, Apache 2.0) |
 | [[wiki/entities/laura-anderson]] | @Laura Anderson | 1 | Criadora Internacional — 5 prompts-template para monetizar skills existentes rapidamente |
 

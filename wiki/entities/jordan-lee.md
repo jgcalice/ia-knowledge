@@ -3,13 +3,13 @@ title: "Jordan Lee"
 type: entity
 category: person
 tags: [negócios, vendas, automação, ia-agency, não-técnico, ai-acquisition]
-source_count: 1
-last_updated: 2026-04-15
+source_count: 2
+last_updated: 2026-04-30
 ---
 
 # Jordan Lee
 
-> **Handle:** @Jordan Lee | **Categoria:** Pessoa / Criador Internacional | **Fontes:** 1
+> **Handle:** @Jordan Lee | **Categoria:** Pessoa / Criador Internacional | **Fontes:** 2
 
 ## Quem é
 
@@ -28,3 +28,4 @@ Autodeclara faturamento de $100K+/mês com o sistema que ensina. Disclosure: em 
 | Fonte | Data | Tema |
 |-------|------|------|
 | [[2026-04-15_jordan-lee-vendas-sistema-ia]] | 2026-04-15 | Pipeline de vendas com 3 agentes de IA |
+| [[2026-04-30_your-ai-compass-7-prompts-agencia-ia]] | 2026-04-30 | 7 prompts: nicho → oferta → email → objeções → onboarding → upsell → pipeline |

@@ -2,8 +2,8 @@
 title: "Estratégia de Negócios com IA"
 type: concept
 tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe]
-source_count: 13
-last_updated: 2026-05-01
+source_count: 14
+last_updated: 2026-04-30
 ---
 
 # Estratégia de Negócios com IA
@@ -141,7 +141,7 @@ Diferença dos modelos anteriores: aqui a IA **opera e entrega o serviço** (nã
 | Componente | Função | O que elimina |
 |-----------|---------|--------------|
 | **AI SDR** | Agenda chamadas automaticamente | Cold outreach manual e insegurança no contato inicial |
-| **Sales Call Analyzer** | Analisa gravação → dores, objeções, follow-up | Intuição: vendedor entra com "cheat sheet" em vez de suposições |
+| **Sales Call Analyzer** | Analisa gravação → doras, objeções, follow-up | Intuição: vendedor entra com "cheat sheet" em vez de suposições |
 | **AI Consultant** | Transcript → proposta personalizada | Pesquisa manual de qual solução serve ao prospect |
 
 **Modelo de valor**: cobrar $3K por cliente que economiza $30–50K/ano em pessoal. O argumento é "você entrega dinheiro grátis e fica com uma pequena parte".
@@ -149,11 +149,31 @@ Diferença dos modelos anteriores: aqui a IA **opera e entrega o serviço** (nã
 Diferencial dos modelos anteriores: aqui a IA **vende o serviço e entrega o serviço** — o pipeline de aquisição de clientes é inteiramente agêntico, não só a entrega.
 → [[2026-04-15_jordan-lee-vendas-sistema-ia]]
 
+### Playbook operacional completo da AI Agency: 7 prompts de Jordan Lee
+
+Segunda fonte de [[jordan-lee]], publicada via [[your-ai-compass]], documenta o **ciclo operacional completo** da AI Agency em 7 prompts sequenciais — produto concreto: AI receptionist vendido a negócios por $2K–$5K (ou $10K/mês em retainer).
+
+| # | Prompt | Objetivo |
+|---|--------|---------|
+| 1 | **Niche Domination** | Colar 10 setores + perguntar qual tem maior potencial de automação por IA sub-$100/mês |
+| 2 | **Offer Builder** | Gerar oferta em 3 níveis: $2K (Quick Install), $5K (Full Setup), $10K/mês (Retainer) |
+| 3 | **Cold Email Machine** | 5 variações de email frio por nicho, <90 palavras, liderando com custo do processo manual |
+| 4 | **Objection Destroyer** | 5 objeções → reframe em 2 frases ancorado em número ou case study |
+| 5 | **Onboarding Playbook** | Checklist do cliente: o que trazer, o que configurar no Dia 1, o que mostrar no Dia 7 |
+| 6 | **Upsell Identifier** | Ferramentas de IA que economizam ou aumentam receita do cliente (ex: Qualified $500-700/mês, Taplio $99-150/mês) |
+| 7 | **CEO Weekly Report** | Análise do próprio pipeline da agência: leads → calls → deals → receita → onde está perdendo |
+
+**Modelo projetado**: 7 prompts + acquisity.ai (scraping + email + agendamento automático) → $2K/mês por cliente → $10K/mês em 12 meses.
+
+Complemento da fonte anterior: enquanto [[2026-04-15_jordan-lee-vendas-sistema-ia]] descreve os 3 agentes de vendas, esta fonte documenta **o que os agentes entregam ao cliente final** (AI receptionist) e **como o operador gerencia o negócio** (CEO Weekly Report).
+→ [[2026-04-30_your-ai-compass-7-prompts-agencia-ia]]
+
 ## Fontes
 
 - [[2026-04-30_ai-fied-dan-koe-negocio-solo]]
 - [[2026-04-30_paras-madan-repos-monetizacao]]
 - [[2026-04-15_jordan-lee-vendas-sistema-ia]]
+- [[2026-04-30_your-ai-compass-7-prompts-agencia-ia]]
 - [[2026-04-01_claude-fundador-startup-7-prompts]]
 - [[2026-04-20_claude-ceo-7-prompts]]
 - [[2026-04-07_5-negocios-automatizados-ia]]
