@@ -1,9 +1,9 @@
 ---
 title: "Agentes de IA"
 type: concept
-tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents, agent-teams, git-worktrees]
-source_count: 15
-last_updated: 2026-04-30
+tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents, agent-teams, git-worktrees, hooks, plugins, skills]
+source_count: 16
+last_updated: 2026-05-01
 ---
 
 # Agentes de IA
@@ -185,8 +185,31 @@ Padrão convergente com [[stanford-digital-economy-lab]]: os casos agênticos ma
 
 **Padrão novo**: SKILL.md como **protocolo de integração de agentes em sistemas financeiros** — o arquivo define as capacidades do sistema e qualquer agente que o leia pode participar imediatamente.
 
+### Agent Development Kit: arquitetura em 5 camadas
+
+([[manthan-patel]], [[2026-04-30_manthan-patel-agent-development-kit]])
+
+Primeira taxonomia completa de infraestrutura de agente documentada no wiki — 5 camadas com localização, função e artefatos próprios:
+
+| Camada | Nome | Papel | Onde vive |
+|--------|------|-------|-----------|
+| 1 | **CLAUDE.md** | Memória/Constituição — carregado sempre, define regras e convenções | `~/.claude/CLAUDE.md` (global) + `.claude/CLAUDE.md` (projeto) |
+| 2 | **Skills** | Conhecimento modular — ativado por description-matching, carregado só quando necessário | `~/.claude/skills/` |
+| 3 | **Hooks** | Controle determinístico — shell scripts (não-IA) disparados em eventos de agente | Scripts com matcher + command |
+| 4 | **Subagents** | Delegação — contexto próprio e fresco; pai só vê o resultado final | Arquivo `*.md` de definição por papel |
+| 5 | **Plugins** | Distribuição — pacote npm com manifest.json; agrupa skills + agents + hooks + commands | `plugin.json` → npm |
+
+**Hooks — detalhe técnico (inédito no wiki):**
+
+Cinco tipos de evento disponíveis: `PreToolUse.sh`, `PostToolUse.sh`, `SessionStart.sh`, `Stop.sh`, `SubagentStop.sh`. Cada hook tem um matcher (padrão de chamada de ferramenta — wildcard, regex ou exato) e um command (shell script que define a regra). É a camada que converte intenções em obrigações — o agente não escolhe, o sistema força.
+
+**Distinção Skills vs Subagents**: Skills injetam contexto na sessão principal (o agente principal executa com mais conhecimento); Subagents criam uma sessão filho isolada que retorna uma única mensagem. São complementares: uma skill pode instruir como delegar, um subagent executa a delegação.
+
+**Plugins como ecossistema distribuível**: a analogia npm é intencional — skills e agentes viram artefatos versionados, assinados e instaláveis por toda a equipe. Complementa o marketplace [[smithery]] (128k+ skills): smithery é a camada de descoberta, plugins são a camada de distribuição interna.
+
 ## Fontes
 
+- [[2026-04-30_manthan-patel-agent-development-kit]]
 - [[2026-04-30_paras-madan-repos-monetizacao]]
 - [[2026-04-15_jordan-lee-vendas-sistema-ia]]
 - [[2026-04-17_claude-update-task-assignment]]

@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-04-30 | Total de páginas: 154 | Fontes ingeridas: 61
+> Atualizado em: 2026-05-01 | Total de páginas: 155 | Fontes ingeridas: 62
 
 ---
 
@@ -76,6 +76,7 @@
 | [[wiki/sources/2026-04-30_gustavo-melo-investigacao-pessoas]] | @Gustavo Melo \| Tecnologia e IA | 2026-04-30 | 2 sites gratuitos para investigar pessoas pelo nome: Webmail (reputação + judicial) e My7 (veículos, histórico, contatos) |
 | [[wiki/sources/2026-04-26_laura-anderson-prompts-renda-rapida]] | @Laura Anderson | 2026-04-26 | 5 prompts-template `[insert X]` para monetizar skills: freelance, plano 30 dias $10K, desafio 7 dias, day rate $1K/dia, serviço $10K/mês |
 | [[wiki/sources/2026-04-30_your-ai-compass-7-prompts-agencia-ia]] | @Your Ai Compass | 2026-04-30 | 7 prompts de Jordan Lee para AI Agency: nicho → oferta ($2K/$5K/$10K) → email frio → objeções → onboarding → upsell → CEO report |
+| [[wiki/sources/2026-04-30_manthan-patel-agent-development-kit]] | @Manthan Patel \| Lead Gen Man | 2026-04-30 | As 5 Camadas do Desenvolvimento de Agentes: CLAUDE.md, Skills, Hooks (5 tipos de evento), Subagents e Plugins (npm) |
 
 ---
 
@@ -170,7 +171,7 @@
 | [[wiki/entities/alvin-wang-graylin]] | Alvin Wang Graylin | 1 | Digital Fellow Stanford DEL; foco em economia da IA e políticas para transição pós-trabalho |
 | [[wiki/entities/elisa-pereira]] | Elisa Pereira | 1 | Pesquisadora Stanford DEL; background VC + IA na América Latina, soberania tecnológica |
 | [[wiki/entities/ai-updater]] | @Artificial Intelligence (AI) Updater | 1 | Canal de novidades IA — divulgação de cookbooks e lançamentos da Anthropic |
-| [[wiki/entities/manthan-patel]] | @Manthan Patel \| Lead Gen Man | 1 | Criador de conteúdo — Claude Code, hacks de produtividade, CLAUDE.md de Boris Cherny |
+| [[wiki/entities/manthan-patel]] | @Manthan Patel \| Lead Gen Man | 2 | Criador de conteúdo — Claude Code, CLAUDE.md de Boris Cherny + Agent Development Kit (5 camadas) |
 | [[wiki/entities/boris-cherny]] | Boris Cherny | 1 | Engenheiro Anthropic — autor do CLAUDE.md de referência (Workflow Orchestration, Core Principles) |
 | [[wiki/entities/faria-lima-elevator]] | @FariaLimaElevat | 1 | Criador BR — 8 prompts de análise de investimento com personas de instituições financeiras de elite |
 | [[wiki/entities/starter-story]] | @Starter Story | 1 | Plataforma de histórias de founders bootstrapped — case Joseph: $3M ARR com Reddit + Programmatic SEO |

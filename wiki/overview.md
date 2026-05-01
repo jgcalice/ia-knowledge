@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-04-30
-source_count: 61
+last_updated: 2026-05-01
+source_count: 62
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 61 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 62 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -227,6 +227,7 @@ Fonte: ([[faria-lima-elevator]])
 - **Templates com placeholders como padrão de democratização de prompts**: [[laura-anderson]] documenta o padrão mais explícito até aqui — todos os 5 prompts usam `[insert job title]`, `[list skills]`, `[insert background]` como portas de entrada. O usuário não precisa aprender prompt engineering; preenche campos e executa. O LLM faz 70–90% do trabalho operacional. Convergência com [[sabrina-ramonov]] (mesma intenção, formatos diferentes): ambas posicionam IA como parceiro de execução, não de planejamento.
 - **"One-Person Business" como arquétipo mais restritivo do wiki**: [[dan-koe]] (via [[ai-fied]]) documenta negócio de $6M com zero funcionários e 4h/dia — a restrição de equipe é princípio de design, não limitação. O arquétipo é complementar aos demais: usa os mesmos LLMs, mas o objetivo explícito é "runs without you" — sistemas que operam sem presença ativa do criador. Convergência com [[naval-ravikant]] (produtize yourself) e [[tim-ferriss]] (Muse Business), agora com case empírico documentado e 5 prompts acionáveis
 - **Playbook operacional vs. playbook agêntico — dois níveis da AI Agency**: [[jordan-lee]] tem agora dois documentos complementares no wiki: o primeiro ([[2026-04-15_jordan-lee-vendas-sistema-ia]]) descreve o pipeline agêntico de vendas (3 agentes cobrem todo o funil); o segundo ([[2026-04-30_your-ai-compass-7-prompts-agencia-ia]]) expõe o playbook operacional de 7 prompts — o que o operador humano executa para montar, vender e gerenciar a agência. Juntos formam o único registro completo do wiki de como construir e operar uma AI Agency end-to-end
+- **Agent Development Kit — primeira arquitetura completa de infraestrutura de agente no wiki**: [[manthan-patel]] sistematiza 5 camadas — CLAUDE.md (constituição persistente), Skills (conhecimento modular sob demanda), Hooks (shell scripts determinísticos em 5 tipos de evento), Subagents (delegação com contexto isolado) e Plugins (pacotes npm para distribuição em equipe). Hooks são a novidade técnica: a camada que converte intenções do agente em regras obrigatórias executadas pelo sistema, sem participação da IA. Complementa e generaliza o CLAUDE.md de [[boris-cherny]] para o quadro completo de configuração + controle + distribuição
 
 ---
 
@@ -234,9 +235,9 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 61 |
-| Páginas de fontes | 61 |
+| Fontes ingeridas | 62 |
+| Páginas de fontes | 62 |
 | Páginas de conceitos | 18 |
 | Páginas de entidades | 73 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **154** |
+| **Total de páginas** | **155** |

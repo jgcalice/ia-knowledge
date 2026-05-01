@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-05-01] ingest | As 5 Camadas do Desenvolvimento de Agentes com Claude — @Manthan Patel | Lead Gen Man
+
+Fonte: `2026-04-30_manthan_patel_lead_gen_man_DXxAsiXDQ9L.md` (carousel, 7 slides). Página criada: wiki/sources/2026-04-30_manthan-patel-agent-development-kit.md. Atualizadas: entities/manthan-patel.md (source_count 1→2, segunda contribuição: Agent Development Kit com 5 camadas — CLAUDE.md, Skills, Hooks, Subagents, Plugins; tags expandidas para hooks e plugins), concepts/agentes-ia.md (source_count 15→16, nova seção "Agent Development Kit: arquitetura em 5 camadas" com tabela das 5 camadas + detalhe técnico de Hooks e distinção Skills vs Subagents vs Plugins), wiki/overview.md (61→62 fontes, novo padrão emergente "Agent Development Kit — primeira arquitetura completa de infraestrutura de agente no wiki", status table 154→155 páginas), index.md (154→155 páginas, 61→62 fontes, +1 fonte, manthan-patel source_count 1→2).
+
 ## [2026-04-30] ingest | 7 Prompts para Construir uma Agência de IA — @Your Ai Compass (via Jordan Lee)
 
 Fonte: `2026-04-30_your_ai_compass_DXxBc7ZDC_h.md` (carousel, 10 slides). Página criada: wiki/sources/2026-04-30_your-ai-compass-7-prompts-agencia-ia.md. Entidade criada: entities/your-ai-compass.md (novo canal — curadoria de playbooks de AI Agency). Atualizadas: entities/jordan-lee.md (source_count 1→2, segunda contribuição: playbook operacional de 7 prompts — Niche Domination, Offer Builder, Cold Email Machine, Objection Destroyer, Onboarding Playbook, Upsell Identifier, CEO Weekly Report), concepts/estratégia-de-negócios-com-ia.md (source_count 13→14, nova subseção "Playbook operacional completo da AI Agency: 7 prompts de Jordan Lee" com tabela dos 7 prompts e modelo $2K/$5K/$10K/mês), wiki/overview.md (60→61 fontes, [[your-ai-compass]] adicionado ao mapa Internacional, novo padrão emergente "Playbook operacional vs. playbook agêntico — dois níveis da AI Agency", status table 152→154 páginas), index.md (152→154 páginas, 60→61 fontes, +1 fonte, +1 entidade, jordan-lee source_count atualizado).
