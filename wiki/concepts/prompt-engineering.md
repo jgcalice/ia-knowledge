@@ -2,7 +2,7 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas, plan-mode, self-checking]
-source_count: 29
+source_count: 30
 last_updated: 2026-05-01
 ---
 
@@ -162,6 +162,9 @@ Variação das palavras-gatilho com prefixo `/` para comunicar o modo desejado a
 
 > ⚠️ Esses comandos são **informais** — não são comandos nativos do Claude Code CLI. Funcionam como ativadores semânticos com prefixo "/" onde vários são equivalentes a ativadores já documentados: `/devil` ≈ Devil's Advocate, `/scout` ≈ Red Team ([[castilhoia]]), `/explainlikeim5` = ELI5 ([[adriano-couto]]). O valor é a notação mnemônica com barra, que torna o ativador mais reconhecível.
 → [[2026-04-22_ai-developer-claude-secret-codes]] | [[ai-developer-js]]
+
+**Expansão: taxonomia de 89 comandos em 11 categorias** — [[beyond-intelligence]] publica referência mais ampla com 89 entradas organizadas em: Start & Create, Focus & Context, Think & Solve, Write & Edit, Organize & Structure, Code & Tech, Data & Analysis, Automate & Integrate, Personalize & Control, Learn & Research, Collaborate & Share + Power Shortcuts (bônus). O valor não está em cada entrada individual (a distinção entre comando nativo CLI e pseudo-comando é ignorada no post), mas na **taxonomia** como mapa mental dos modos de uso do Claude — da criação ao compartilhamento.
+→ [[2026-04-28_beyond-intelligence-comandos-claude]] | [[beyond-intelligence]]
 
 ### Brand Voice Document em Projects
 Persistir estilo de escrita, palavras proibidas e regras de tom como documento permanente no Claude Projects — elimina a necessidade de repetir o briefing de voz a cada prompt. Padrão distinto do CLAUDE.md (focado em regras de código): aqui o objetivo é calibrar o modelo para produção de conteúdo.

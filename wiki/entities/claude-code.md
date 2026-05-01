@@ -3,7 +3,7 @@ title: "Claude / Claude Code"
 type: entity
 category: tool
 tags: [llm, claude, anthropic, claude-code, ia, claude-managed-agents]
-source_count: 34
+source_count: 35
 last_updated: 2026-05-01
 ---
 
