@@ -2,7 +2,7 @@
 title: "Agentes de IA"
 type: concept
 tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents, agent-teams, git-worktrees, hooks, plugins, skills]
-source_count: 16
+source_count: 17
 last_updated: 2026-05-01
 ---
 
@@ -207,8 +207,38 @@ Cinco tipos de evento disponíveis: `PreToolUse.sh`, `PostToolUse.sh`, `SessionS
 
 **Plugins como ecossistema distribuível**: a analogia npm é intencional — skills e agentes viram artefatos versionados, assinados e instaláveis por toda a equipe. Complementa o marketplace [[smithery]] (128k+ skills): smithery é a camada de descoberta, plugins são a camada de distribuição interna.
 
+### Novos arquétipos de agente: e-mail, hedge fund autônomo e browser anti-bot
+
+([[bestapps-ai]], [[2026-05-01_bestapps-ferramentas-open-source]])
+
+Três arquétipos inéditos no wiki:
+
+**Agentic Inbox** (`cloudflare/agentic-inbox`, 1.8k⭐) — agente de e-mail auto-hospedado no Cloudflare Workers:
+- Cada e-mail tem banco de dados próprio (isolamento de estado por thread)
+- Lê o inbox, esboça respostas automáticas e deploya com um clique
+- Modelo de receita: produtos white-label de gestão de e-mail com IA
+- Distinção dos agentes anteriores: não opera um funil de vendas ([[jordan-lee]]) nem analisa dados ([[ai-updater]]) — gerencia comunicação assíncrona de forma autônoma
+
+**Autohedge** (`The-Swarm-Corporation/Autohedge`, 1.9k⭐) — fundo hedge autônomo com inteligência de enxame:
+- Um swarm de agentes analisa mercados e executa trades na blockchain Solana sem intervenção humana
+- O usuário define a estratégia em linguagem natural; o sistema constrói e opera o fundo
+- Extensão do padrão "debate entre agentes" já documentado em [[tradingagents]]: aqui o debate culmina em execução autônoma on-chain, sem botão de aprovação humana
+- Primeira menção no wiki de agente com execução financeira autônoma em blockchain
+
+**CamoFox Browser** (`jo-inc/camofox-browser`, 3.4k⭐) — camada de acesso para agentes de scraping:
+- Fork do Firefox que falsifica fingerprints de browser e expõe REST API
+- Agentes de IA chamam a API para acessar sites que bloqueiam bots normalmente
+- Habilita agentes de pesquisa e scraping em targets protegidos por Cloudflare e similares
+- Distinção: não é um agente — é infraestrutura que habilita agentes a agirem onde não conseguiriam
+
+**Vibe Trading** (3.6k⭐) — estratégia por linguagem natural com debate de 29 equipes:
+- Input: estratégia em inglês simples → 29 equipes de agentes debatem e validam
+- Output: backtesting em ações/cripto/forex + exportação para TradingView/MetaTrader sem chaves de API
+- Complementa [[tradingagents]] (debate focado em sentimento/técnica/fundamentos) com uma camada de linguagem natural na entrada e exportação para plataformas profissionais na saída
+
 ## Fontes
 
+- [[2026-05-01_bestapps-ferramentas-open-source]]
 - [[2026-04-30_manthan-patel-agent-development-kit]]
 - [[2026-04-30_paras-madan-repos-monetizacao]]
 - [[2026-04-15_jordan-lee-vendas-sistema-ia]]

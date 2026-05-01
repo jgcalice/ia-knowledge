@@ -2,7 +2,7 @@
 title: "Otimização de Tokens no Claude"
 type: concept
 tags: [tokens, otimização, claude, pdf, markdown, contexto, modelo, sessão, context-rot, mcp, api]
-source_count: 8
+source_count: 9
 last_updated: 2026-04-29
 ---
 
@@ -147,10 +147,13 @@ Manter CLAUDE.md lean (150–200 linhas) enquanto ainda disponibiliza contexto r
 
 ### 17. Context-mode: 98% de redução cross-platform
 
-([[paras-madan]], [[2026-04-30_paras-madan-repos-monetizacao]])
+([[paras-madan]], [[2026-04-30_paras-madan-repos-monetizacao]]) — **confirmado por [[bestapps-ai]], [[2026-05-01_bestapps-ferramentas-open-source]]**
 
-Repositório open-source (`context-mode`) projetado para agentes de IA:
+Repositório open-source (`mksglu/context-mode`, 11k⭐) projetado para agentes de IA:
 - Reduz em **98%** o contexto necessário — agentes processam dados sem acumular tokens desnecessários
+- **200x mais barato** por chamada de ferramenta — intercepta cada tool call e otimiza o payload
+- **Agentes Claude Code realizam 6x mais por sessão** sem atingir limites (dado exclusivo da fonte bestapps)
+- Sessões que antes duravam 30 min agora chegam a 3 horas
 - Persiste o estado de trabalho entre sessões — sem reconfiguração a cada reinício
 - Funciona em **14 plataformas** incluindo Claude Code e Gemini CLI, sem configuração adicional
 - Setup: `npm install && npm start # context-mode`
@@ -165,6 +168,7 @@ Repositório open-source (`context-mode`) projetado para agentes de IA:
 
 ## Fontes
 
+- [[2026-05-01_bestapps-ferramentas-open-source]]
 - [[2026-04-30_paras-madan-repos-monetizacao]]
 - [[2026-04-11_tokens-markdown]]
 - [[2026-04-18_7-hacks-tokens-claude]]

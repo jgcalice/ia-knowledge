@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-05-01
-source_count: 64
+source_count: 65
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 64 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 65 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -99,6 +99,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - AI Sales Agency: 3 agentes (AI SDR + Sales Call Analyzer + AI Consultant) cobrem todo o funil — do outreach ao contrato fechado — sem código. $3K/cliente vs $30–50K economizados/ano ([[jordan-lee]])
 - Playbook operacional completo de AI Agency: 7 prompts de [[jordan-lee]] (via [[your-ai-compass]]) — Niche Domination → Offer Builder ($2K/$5K/$10K) → Cold Email Machine → Objection Destroyer → Onboarding Playbook → Upsell Identifier → CEO Weekly Report
 - One-Person Business (Dan Koe model): 5 prompts — ideia → oferta-transformação → sistema de conteúdo → vendas autônomas → escalar sem contratar. Case: $6M, 0 funcionários, 4h/dia ([[ai-fied]] via [[dan-koe]])
+- Repos open-source como substitutos de softwares de cinco dígitos: FinceptTerminal ($24K/ano → grátis), Open-Gen-AI ($100+/mês → grátis), Claude Ads ($2K/cliente → $1,5K de receita via revenda). O ângulo não é "ferramenta para operar negócio", mas "substituir a linha de despesa e embolsar a diferença" ([[bestapps-ai]])
 
 ---
 
@@ -171,7 +172,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]]
 
-**Agregadores de conteúdo**: [[ai-developer-js]]
+**Agregadores de conteúdo**: [[ai-developer-js]] · [[bestapps-ai]]
 
 **Instituições acadêmicas**: [[stanford-digital-economy-lab]]
 
@@ -232,6 +233,7 @@ Fonte: ([[faria-lima-elevator]])
 - **Agent Development Kit — primeira arquitetura completa de infraestrutura de agente no wiki**: [[manthan-patel]] sistematiza 5 camadas — CLAUDE.md (constituição persistente), Skills (conhecimento modular sob demanda), Hooks (shell scripts determinísticos em 5 tipos de evento), Subagents (delegação com contexto isolado) e Plugins (pacotes npm para distribuição em equipe). Hooks são a novidade técnica: a camada que converte intenções do agente em regras obrigatórias executadas pelo sistema, sem participação da IA. Complementa e generaliza o CLAUDE.md de [[boris-cherny]] para o quadro completo de configuração + controle + distribuição
 - **Convergência Brasil–EUA no framework de monetização de skills**: [[allessandra-sinisgalli]] reproduz os mesmos 4 prompts de [[sabrina-ramonov]] e documenta o comportamento real do Claude — o modelo faz perguntas de alinhamento antes de responder (95% de confiança em prática), indica [[alex-hormozi]] com justificativa específica e gera artefatos concretos em persona do mentor. Segundo caso confirmando o framework; reforça que "implementação > planejamento" como tese não é específica de uma criadora, mas um padrão convergente
 - **Slash-command style activators como notação mnemônica para ativadores semânticos**: [[ai-developer-js]] documenta 13 pseudo-comandos com prefixo "/" (/godmode, /devil, /10x, /scout, /compare…) que funcionam como ativadores informais de modo no Claude. São variações com notação de barra dos mesmos ativadores semânticos já documentados ([[castilhoia]]) e ELI5 ([[adriano-couto]]). O valor é a mnemônica: o "/" torna o ativador visualmente distinto e fácil de lembrar; não são comandos nativos do Claude Code CLI
+- **Repos open-source como corte de cinco dígitos — framing de substituição, não de ferramenta**: [[bestapps-ai]] reencadra o tema "repos para monetizar" (já presente em [[paras-madan]]): a pergunta não é "que ferramenta usar?" mas "quanto você economiza vs a alternativa paga?". FinceptTerminal = $24K/ano; Open-Gen-AI = $100+/mês; Claude Ads = $2K/cliente. O modelo de receita emerge automaticamente: entregar o setup como serviço e cobrar uma fração do custo substituído. Convergência temática: Claude Ads e Context Mode aparecem em ambos os posts — dois repos com múltiplas confirmações independentes
 
 ---
 
@@ -239,9 +241,9 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 64 |
-| Páginas de fontes | 64 |
+| Fontes ingeridas | 65 |
+| Páginas de fontes | 65 |
 | Páginas de conceitos | 18 |
-| Páginas de entidades | 76 |
+| Páginas de entidades | 77 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **160** |
+| **Total de páginas** | **162** |

@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-01 | Total de páginas: 160 | Fontes ingeridas: 64
+> Atualizado em: 2026-05-01 | Total de páginas: 162 | Fontes ingeridas: 65
 
 ---
 
@@ -79,6 +79,7 @@
 | [[wiki/sources/2026-04-30_manthan-patel-agent-development-kit]] | @Manthan Patel \| Lead Gen Man | 2026-04-30 | As 5 Camadas do Desenvolvimento de Agentes: CLAUDE.md, Skills, Hooks (5 tipos de evento), Subagents e Plugins (npm) |
 | [[wiki/sources/2026-04-30_allessandra-sinisgalli-15k-4-prompts]] | @Allessandra Sinisgalli | 2026-04-30 | 4 prompts sequenciais testados na prática: identificar o que vender → mentor → plano 20 dias → cortar procrastinação |
 | [[wiki/sources/2026-04-22_ai-developer-claude-secret-codes]] | @AI Developer \| Code + AI \| JS | 2026-04-22 | 13 pseudo-comandos com prefixo "/" como ativadores semânticos informais do Claude |
+| [[wiki/sources/2026-05-01_bestapps-ferramentas-open-source]] | @Bestapps \| Artificial Intelligence \| AI Agents | 2026-05-01 | 10 repos GitHub open-source que substituem softwares de cinco dígitos (Bloomberg, HeyGen, ad agencies) |
 
 ---
 
@@ -149,6 +150,7 @@
 | Página | Handle | Fontes | Foco |
 |--------|--------|--------|------|
 | [[wiki/entities/ai-developer-js]] | @AI Developer \| Code + AI \| JS | 1 | Canal agregador de dicas práticas de Claude para desenvolvedores JS |
+| [[wiki/entities/bestapps-ai]] | @bestapps.ai | 1 | Canal curador de repos open-source que substituem softwares proprietários caros |
 
 ### Pessoas / Criadores (Internacional — adicionados)
 
