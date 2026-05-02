@@ -1,9 +1,9 @@
 ---
 title: "Busca de Emprego com IA"
 type: concept
-tags: [carreira, busca-de-emprego, automação, ats, currículo, claude-code, apify, linkedin, negociação]
-source_count: 3
-last_updated: 2026-04-29
+tags: [carreira, busca-de-emprego, automação, ats, currículo, claude-code, apify, linkedin, negociação, cover-letter, quantificação]
+source_count: 4
+last_updated: 2026-05-02
 ---
 
 # Busca de Emprego com IA
@@ -93,8 +93,26 @@ Claude gera carta de apresentação alinhada à vaga
 
 → [[2026-04-26_coding-ai-fullstack-entrevistas-claude]] | Autor: [[coding-ai-fullstack]]
 
+## Toolkit de reconstrução de candidatura (Your AI Compass)
+
+4 prompts sequenciais com personas de recrutadores de elite — pipline de reconstrução completa do perfil:
+
+| # | Prompt | ROLE | Foco |
+|---|--------|------|------|
+| 1 | 6-Second Resume Rewriter | Senior Google recruiter | Fórmula XYZ + métricas + 1 página |
+| 2 | ATS Optimization | Especialista Workday/Greenhouse/Lever | Keywords integradas + estrutura limpa |
+| 3 | McKinsey Achievement Quantifier | McKinsey (implícito) | "Conseguiu X → Resultado Y → Por fazer Z" |
+| 4 | High-Conversion Cover Letter | Recruitment director Robert Half | 250–300 palavras, fit cultural, próximo passo |
+
+**Nível de acesso:** Claude.ai direto, sem CLI. Pipeline executável por qualquer candidato.
+
+**Diferencial vs. abordagens anteriores:** enquanto [[coding-ai-fullstack]] usa Claude como revisor genérico e [[career-ops]] automatiza o scraping, este toolkit foca na *qualidade da candidatura em si* — especialmente a otimização ATS (Prompt 2) e a quantificação de conquistas (Prompt 3), que as outras abordagens documentam superficialmente.
+
+→ [[2026-04-28_your-ai-compass-perfil-profissional]] | [[your-ai-compass]]
+
 ## Fontes
 
 - [[2026-04-07_career-ops-busca-emprego-ia]]
 - [[2026-04-22_arshman-khalid-automacao-busca-emprego]]
 - [[2026-04-26_coding-ai-fullstack-entrevistas-claude]]
+- [[2026-04-28_your-ai-compass-perfil-profissional]]

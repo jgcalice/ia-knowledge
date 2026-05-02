@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-05-01
-source_count: 68
+last_updated: 2026-05-02
+source_count: 69
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 68 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 69 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -64,6 +64,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 | Busca automatizada v1 | Career Ops terminal: 700+ vagas avaliadas, currículo ATS por vaga | [[career-ops]] |
 | Busca automatizada v2 | Career Ops plugin: LinkedIn scraping → scoring → ATS → STAR → outreach → negociação | [[arshman-khalid]] |
 | Candidaturas personalizadas (sem código) | JD → Claude extrai skills → reescreve currículo → cover letter; caso: 6 entrevistas/7 dias | [[coding-ai-fullstack]] |
+| Reconstrução completa de candidatura | 4 prompts com ROLEs de recrutadores elite: resume XYZ + ATS optimization + McKinsey quantifier + cover letter Robert Half | [[your-ai-compass]] |
 | Redesenho estratégico | 4 prompts Tim Ferriss: vantagem injusta, DEAL, freedom ratio, 10 anos | [[god-of-prompt]] |
 | Monetização imediata | 4 prompts para ganhar $1k em 30 dias com skills existentes | [[sabrina-ramonov]] · confirmado por [[allessandra-sinisgalli]] |
 | Monetização com templates | 5 prompts-template `[insert X]`: freelance do cargo atual, plano 30 dias $10K, desafio 7 dias, day rate $1K/dia, serviço $10K/mês | [[laura-anderson]] |
@@ -239,6 +240,7 @@ Fonte: ([[faria-lima-elevator]])
 - **Taxonomia de 89 comandos como mapa mental de modos de uso**: [[beyond-intelligence]] publica referência mais ampla que os 13 pseudo-comandos de [[ai-developer-js]] — 89 entradas em 11 categorias funcionais. O valor não está nos itens individuais (o post não distingue comandos nativos CLI de pseudo-comandos informais), mas na **taxonomia** em si: Start & Create → Focus & Context → Think & Solve → Write & Edit → Organize & Structure → Code & Tech → Data & Analysis → Automate & Integrate → Personalize & Control → Learn & Research → Collaborate & Share. As 11 categorias mapeiam o espectro completo de intenções de uso do Claude — uma referência de orientação, não de execução
 - **Pasta `.claude/` como sistema — distinção advisory vs. determinístico**: [[manthan-patel]] ancora as 5 camadas do Agent Development Kit em localizações físicas concretas e formula a distinção operacional mais importante para quem implementa: *"CLAUDE.md is advisory. hooks are deterministic."* O CLAUDE.md é consultado pelo modelo, que *pode* seguir; os hooks são scripts que o *sistema* executa sempre, sem decisão da IA. Regras que o desenvolvedor quer garantir devem estar em hooks, não em CLAUDE.md. Princípio de design: *"The folder structure IS the system"*
 - **Screening de ações como caso-modelo de pipeline sequencial em domínio especializado**: [[bert-no-chase]] documenta o uso de 3 prompts encadeados (tema → universo → ranking → deep dive) para triagem de candidatos a swing trade em 5 minutos. O padrão sequencial já documentado em [[geração-de-leads-com-ia]] e em [[finanças-com-ia]] reaparece aqui com a mesma lógica: ampliar → filtrar → aprofundar. Novidade editorial: o autor reconhece explicitamente que IA não substitui análise técnica no timing — a IA faz a triagem fundamentalista; o humano decide *quando* entrar
+- **Pipeline de reconstrução de candidatura com ROLEs de elite**: [[your-ai-compass]] documenta 4 prompts encadeados onde Claude assume personas sequenciais de recrutadores de alto nível — Google (triagem de currículo), ATS specialist (compatibilidade automática), McKinsey (quantificação de conquistas) e Robert Half (carta de apresentação). O padrão ROLE-como-instituição confirma-se no domínio de carreira: nomear organizações cujas metodologias o modelo internalizou (Google hiring bar, McKinsey achievement framework) é suficiente para convocar o framework completo sem descrever o método. O ATS Optimization Prompt é a contribuição técnica mais nova — nomear sistemas reais (Workday, Greenhouse, Lever) orienta o modelo para as restrições de parsing específicas de cada plataforma
 
 ---
 
@@ -246,9 +248,9 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 68 |
-| Páginas de fontes | 68 |
+| Fontes ingeridas | 69 |
+| Páginas de fontes | 69 |
 | Páginas de conceitos | 18 |
 | Páginas de entidades | 79 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **167** |
+| **Total de páginas** | **168** |

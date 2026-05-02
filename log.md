@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-05-02] ingest | 4 Prompts para Reconstruir Perfil Profissional com Claude — @Your Ai Compass
+
+Fonte: `2026-04-28_your_ai_compass_DXrb_NnjKCF.md` (carousel, 6 slides). Página criada: wiki/sources/2026-04-28_your-ai-compass-perfil-profissional.md. Atualizadas: entities/your-ai-compass.md (source_count 1→2, segunda contribuição: toolkit de 4 prompts para reconstrução de candidatura com ROLEs de recrutadores de elite), entities/linkedin.md (source_count 5→6, nova Abordagem 3 com tabela dos 4 prompts sequenciais), concepts/busca-de-emprego-com-ia.md (source_count 3→4, nova seção "Toolkit de reconstrução de candidatura" com tabela dos 4 prompts e diferencial vs. Career Ops e coding-ai-fullstack), concepts/carreira-com-ia.md (source_count 15→16, Abordagem Your AI Compass adicionada à seção 1 de otimização de perfil), wiki/overview.md (68→69 fontes, nova linha no Cluster 3, novo padrão emergente "Pipeline de reconstrução de candidatura com ROLEs de elite", status table 167→168 páginas), index.md (167→168 páginas, 68→69 fontes, +1 fonte, your-ai-compass source_count 1→2, linkedin source_count 3→6).
+
 ## [2026-05-01] ingest | Scanner de Ações em 5 Minutos com IA — @Bert | No-Chase Swing Trading for 9-5s
 
 Fonte: `2026-04-30_bert_no_chase_swing_trading_for_9_5s_DXwl6eFla3k.md` (reel, 58s). Página criada: wiki/sources/2026-04-30_bert-swing-trading-ia.md. Entidade criada: entities/bert-no-chase.md (novo criador internacional — swing trading para trabalhadores CLT; pipeline de 3 prompts para triagem fundamentalista de ações; reconhece explicitamente limitação da IA no timing de entrada). Atualizadas: concepts/finanças-com-ia.md (source_count 2→3, 3ª abordagem documentada — "pipeline sequencial de screening": tema → 25 candidatos → ranking por qualidade+desconto → deep dive top 3; nova tabela comparativa das 3 abordagens), wiki/overview.md (67→68 fontes, [[bert-no-chase]] adicionado ao mapa Internacional, novo padrão emergente "Screening de ações como caso-modelo de pipeline sequencial em domínio especializado", status table 165→167 páginas), index.md (165→167 páginas, 67→68 fontes, +1 fonte, +1 entidade).

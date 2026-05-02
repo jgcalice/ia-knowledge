@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-01 | Total de páginas: 167 | Fontes ingeridas: 68
+> Atualizado em: 2026-05-02 | Total de páginas: 168 | Fontes ingeridas: 69
 
 ---
 
@@ -83,6 +83,7 @@
 | [[wiki/sources/2026-04-28_beyond-intelligence-comandos-claude]] | @Beyond Intelligence — AI News & Tools | 2026-04-28 | 89 comandos do Claude em 11 categorias — taxonomia completa de modos de uso |
 | [[wiki/sources/2026-04-27_manthan-patel-pasta-claude]] | @Manthan Patel \| Lead Gen Man | 2026-04-27 | Pasta .claude/ como sistema: CLAUDE.md advisory vs hooks determinísticos |
 | [[wiki/sources/2026-04-30_bert-swing-trading-ia]] | @Bert \| No-Chase Swing Trading for 9-5s | 2026-04-30 | Scanner de 3 prompts para selecionar 25 ações em 5 min — screening + ranking + deep dive |
+| [[wiki/sources/2026-04-28_your-ai-compass-perfil-profissional]] | @Your Ai Compass | 2026-04-28 | 4 prompts com ROLEs de recrutadores elite: resume XYZ + ATS Optimization + McKinsey Quantifier + Cover Letter |
 
 ---
 
@@ -128,7 +129,7 @@
 | [[wiki/entities/api-file]] | platform | 1 | Marketplace de APIs para scraping e integração |
 | [[wiki/entities/markitdown]] | tool | 2 | Conversor de documentos para Markdown (Microsoft) |
 | [[wiki/entities/google-maps]] | platform | 3 | Fonte de dados para leads B2B + mercado de SEO local (agência GMB) |
-| [[wiki/entities/linkedin]] | platform | 3 | Plataforma de otimização de perfil e busca de vagas |
+| [[wiki/entities/linkedin]] | platform | 6 | Plataforma de otimização de perfil e busca de vagas |
 | [[wiki/entities/career-ops]] | tool | 2 | Sistema open-source de busca de emprego com Claude Code (plugin + terminal) |
 | [[wiki/entities/claude-skills]] | tool | 1 | Feature Anthropic: pacotes nomeados de comportamento (Feature Forge, The Fool, etc.) |
 | [[wiki/entities/smithery]] | platform | 1 | Marketplace com 128k+ Claude Skills/MCPs |
@@ -193,7 +194,7 @@
 | [[wiki/entities/derek-gray]] | @Derek Gray | 2 | Criador Internacional — GMB Optimization Agency (8 prompts, $10K/mês) + ChatGPT para riqueza |
 | [[wiki/entities/context7]] | Context7 MCP | 1 | Servidor MCP que injeta documentação atualizada de libs no contexto do Claude |
 | [[wiki/entities/jordan-lee]] | @Jordan Lee | 2 | Fundador AI Acquisition — AI Sales Agency com pipeline agêntico + playbook operacional completo de 7 prompts |
-| [[wiki/entities/your-ai-compass]] | @Your Ai Compass | 1 | Criador Internacional — curadoria de playbooks de AI Agency (republica Jordan Lee e outros) |
+| [[wiki/entities/your-ai-compass]] | @Your Ai Compass | 2 | Criador Internacional — curadoria de playbooks de AI Agency + otimização de perfil profissional |
 | [[wiki/entities/tradingagents]] | TradingAgents | 1 | Framework multi-agent LLM para trading (debate especializado, 55.700 stars, Apache 2.0) |
 | [[wiki/entities/laura-anderson]] | @Laura Anderson | 1 | Criadora Internacional — 5 prompts-template para monetizar skills existentes rapidamente |
 | [[wiki/entities/allessandra-sinisgalli]] | @Allessandra Sinisgalli | 1 | Criadora BR — testou na prática os 4 prompts de Sabrina Ramonov; documentou comportamento real do Claude |

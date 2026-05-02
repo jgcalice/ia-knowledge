@@ -1,9 +1,9 @@
 ---
 title: "Carreira e Negócios com IA"
 type: concept
-tags: [carreira, negócios, linkedin, ia, recrutamento, oportunidades, renda, transição-de-carreira]
-source_count: 15
-last_updated: 2026-05-01
+tags: [carreira, negócios, linkedin, ia, recrutamento, oportunidades, renda, transição-de-carreira, ats, currículo, cover-letter]
+source_count: 16
+last_updated: 2026-05-02
 ---
 
 # Carreira e Negócios com IA
@@ -34,6 +34,13 @@ Dois sistemas documentados, com ângulos complementares:
 4. Keywords & Search: comparar JDs com o perfil para encontrar lacunas de SEO
 5. Experience Polish: Claude faz perguntas para ajudar o usuário a descobrir métricas
 → [[2026-04-16_sanskaar-singh-linkedin-prompts]] | Autor: [[sanskaar-singh]]
+
+**Abordagem Your AI Compass** — 4 prompts com ROLEs de recrutadores de elite:
+1. 6-Second Resume Rewriter: senior Google recruiter → fórmula XYZ, métricas, 1 página
+2. ATS Optimization: especialista Workday/Greenhouse/Lever → keywords integradas + estrutura limpa para parsing automático
+3. McKinsey Achievement Quantifier: quantifica cada bullet em impacto mensurável ("Conseguiu X → Resultado Y → Por fazer Z")
+4. High-Conversion Cover Letter: recruitment director Robert Half → 250–300 palavras + demonstração de pesquisa + fit cultural
+→ [[2026-04-28_your-ai-compass-perfil-profissional]] | [[your-ai-compass]]
 
 ### 2. Busca de emprego automatizada
 
@@ -140,3 +147,4 @@ Há **convergência temática clara**: múltiplos criadores internacionais refor
 - [[2026-04-26_coding-ai-fullstack-entrevistas-claude]]
 - [[2026-04-26_laura-anderson-prompts-renda-rapida]]
 - [[2026-04-30_allessandra-sinisgalli-15k-4-prompts]]
+- [[2026-04-28_your-ai-compass-perfil-profissional]]
