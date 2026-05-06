@@ -2,8 +2,8 @@
 title: "Agentes de IA"
 type: concept
 tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents, agent-teams, git-worktrees, hooks, plugins, skills]
-source_count: 18
-last_updated: 2026-05-01
+source_count: 19
+last_updated: 2026-05-06
 ---
 
 # Agentes de IA
@@ -218,6 +218,22 @@ Consequência prática: regras que o desenvolvedor quer garantir (ex: "nunca com
 
 O post ancora as 5 camadas abstratas em localizações físicas concretas: `hooks/`, `commands/`, `skills/`, `agents/`, `plugins/` — tornando o ADK implementável sem ambiguidade. Princípio de design formulado: *"The folder structure IS the system"*.
 
+### GSD: context engineering como garantia de qualidade
+
+([[nate-herk]], [[2026-05-03_nate-herk-6-habilidades-claude-code]])
+
+O plugin GSD (get-shit-done-cc) formaliza sub-agentes como **infraestrutura de qualidade**, não só de economia de tokens:
+
+- Problema: **context rot** a partir de ~50% da janela → código piora, Claude esquece requisitos, pula etapas, corta atalhos
+- Mecanismo: cada tarefa recebe um sub-agente com janela de contexto **completamente fresca** — o agente principal não acumula o histórico de execução interno
+- Quality gates automáticos integrados:
+  - *Scope protection*: detecta quando o planejador dropa silenciosamente um requisito
+  - *Security enforcement*: ancora verificações ao threat model sem que o dev precise checar manualmente
+- Modo autônomo: entrega uma spec → o sistema planeja, executa, commita e avança
+- **Custo explicitado**: os sub-agentes gastam tokens — mas o tradeoff é os tokens vs. as horas de retrabalho por esquecimento
+
+> Complementa a análise de sub-agentes de [[nate-herk]] em [[2026-04-20_nate-herk-gerenciar-limites-sessao]] (perspectiva: economia de tokens) e de [[boris-cherny]] em [[2026-04-17_manthan-patel-claudemd-boris-cherny]] (perspectiva: contexto limpo + paralelismo). O GSD adiciona uma terceira perspectiva: **qualidade garantida por design de contexto**.
+
 ### Novos arquétipos de agente: e-mail, hedge fund autônomo e browser anti-bot
 
 ([[bestapps-ai]], [[2026-05-01_bestapps-ferramentas-open-source]])
@@ -249,6 +265,7 @@ Três arquétipos inéditos no wiki:
 
 ## Fontes
 
+- [[2026-05-03_nate-herk-6-habilidades-claude-code]]
 - [[2026-05-01_bestapps-ferramentas-open-source]]
 - [[2026-04-30_manthan-patel-agent-development-kit]]
 - [[2026-04-30_paras-madan-repos-monetizacao]]

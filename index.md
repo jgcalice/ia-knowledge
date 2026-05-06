@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-02 | Total de páginas: 168 | Fontes ingeridas: 69
+> Atualizado em: 2026-05-06 | Total de páginas: 174 | Fontes ingeridas: 70
 
 ---
 
@@ -84,6 +84,7 @@
 | [[wiki/sources/2026-04-27_manthan-patel-pasta-claude]] | @Manthan Patel \| Lead Gen Man | 2026-04-27 | Pasta .claude/ como sistema: CLAUDE.md advisory vs hooks determinísticos |
 | [[wiki/sources/2026-04-30_bert-swing-trading-ia]] | @Bert \| No-Chase Swing Trading for 9-5s | 2026-04-30 | Scanner de 3 prompts para selecionar 25 ações em 5 min — screening + ranking + deep dive |
 | [[wiki/sources/2026-04-28_your-ai-compass-perfil-profissional]] | @Your Ai Compass | 2026-04-28 | 4 prompts com ROLEs de recrutadores elite: resume XYZ + ATS Optimization + McKinsey Quantifier + Cover Letter |
+| [[wiki/sources/2026-05-03_nate-herk-6-habilidades-claude-code]] | @Nate Herk \| AI Automation | 2026-05-03 | 6 habilidades fundamentais do Claude Code para automação de IA: Skill Creator, Superpowers, GSD, /review, Context Mode, Claude Mem |
 
 ---
 
@@ -124,14 +125,14 @@
 
 | Página | Tipo | Fontes | Descrição |
 |--------|------|--------|-----------|
-| [[wiki/entities/claude-code]] | tool | 29 | LLM da Anthropic — ferramenta central de todas as fontes |
+| [[wiki/entities/claude-code]] | tool | 37 | LLM da Anthropic — ferramenta central de todas as fontes |
 | [[wiki/entities/apify]] | tool | 1 | Plataforma de scraping com conector nativo no Claude |
 | [[wiki/entities/api-file]] | platform | 1 | Marketplace de APIs para scraping e integração |
 | [[wiki/entities/markitdown]] | tool | 2 | Conversor de documentos para Markdown (Microsoft) |
 | [[wiki/entities/google-maps]] | platform | 3 | Fonte de dados para leads B2B + mercado de SEO local (agência GMB) |
 | [[wiki/entities/linkedin]] | platform | 6 | Plataforma de otimização de perfil e busca de vagas |
 | [[wiki/entities/career-ops]] | tool | 2 | Sistema open-source de busca de emprego com Claude Code (plugin + terminal) |
-| [[wiki/entities/claude-skills]] | tool | 1 | Feature Anthropic: pacotes nomeados de comportamento (Feature Forge, The Fool, etc.) |
+| [[wiki/entities/claude-skills]] | tool | 4 | Feature Anthropic: pacotes nomeados de comportamento (Feature Forge, The Fool, etc.) + stack oficial de automação (Skill Creator, Superpowers, GSD, Context Mode, Claude Mem) |
 | [[wiki/entities/smithery]] | platform | 1 | Marketplace com 128k+ Claude Skills/MCPs |
 | [[wiki/entities/vibe-prospecting]] | tool | 1 | Conector Claude.ai para geração de leads por nicho/cargo/cidade |
 
@@ -166,7 +167,7 @@
 | [[wiki/entities/paul-hilse]] | @Paul Hilse | 1 | Curadoria de educadores de IA e negócios online |
 | [[wiki/entities/sal-shirgaleev]] | @sshirg | 1 | Comandos e hacks de produtividade com Claude Code |
 | [[wiki/entities/alex-finn]] | @Alex Finn | 1 | Vibe Coding, Claude Code, YouTube creator |
-| [[wiki/entities/nate-herk]] | @Nate Herk | 1 | AI Automation, gestão de tokens/sessão, token dashboard |
+| [[wiki/entities/nate-herk]] | @Nate Herk | 3 | AI Automation, gestão de tokens/sessão, token dashboard, 6 skills fundamentais para automação |
 | [[wiki/entities/pablo-in-public]] | @PabloInPublic | 1 | Build in public, dicas Claude Code (espanhol) |
 | [[wiki/entities/sanskaar-singh]] | @Sanskaar Singh R • AI Wizard | 1 | LinkedIn + IA, diagnóstico recruiter-first |
 | [[wiki/entities/castilho]] | @castilhoia | 1 | IA para negócios, ativadores semânticos (Mental Models) no Claude |

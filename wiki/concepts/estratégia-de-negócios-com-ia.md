@@ -2,8 +2,8 @@
 title: "Estratégia de Negócios com IA"
 type: concept
 tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe]
-source_count: 15
-last_updated: 2026-05-01
+source_count: 16
+last_updated: 2026-05-06
 ---
 
 # Estratégia de Negócios com IA
@@ -185,8 +185,27 @@ Segunda fonte de [[jordan-lee]], publicada via [[your-ai-compass]], documenta o 
 Complemento da fonte anterior: enquanto [[2026-04-15_jordan-lee-vendas-sistema-ia]] descreve os 3 agentes de vendas, esta fonte documenta **o que os agentes entregam ao cliente final** (AI receptionist) e **como o operador gerencia o negócio** (CEO Weekly Report).
 → [[2026-04-30_your-ai-compass-7-prompts-agencia-ia]]
 
+## Vender outcomes, não workflows
+
+([[nate-herk]], [[2026-05-03_nate-herk-6-habilidades-claude-code]])
+
+Framework de posicionamento para quem vende automações com IA, extraído de 400h de experiência com clientes reais:
+
+- **Erro comum**: tentar vender o workflow (as seis skills, as ferramentas, o processo técnico)
+- **Correto**: vender o **resultado de negócio** — "10 horas economizadas por semana", "erros humanos eliminados", "mais leads em menos tempo"
+- O cliente não se importa com quantas linhas de código foram escritas ou quais ferramentas foram usadas — importa que o sistema funcione quando o negócio depende dele
+- **Ponto de entrada para iniciantes**: escolher uma skill, aprender, construir 2–3 workflows com ela e mostrar um demo — o cliente compra o que vê funcionar
+
+**Convergência com outros frameworks**:
+- [[jordan-lee]] (AI Sales Agency): "você entrega dinheiro grátis e fica com uma pequena parte" — o argumento de venda é o ROI financeiro mensurável
+- [[paras-madan]] (Stack de skills): as 5 skills não são vendidas como features, mas como substitutos de profissionais ($2.000/cliente vs. contratar equipe)
+- Princípio unificador: a venda de IA é sempre a venda do *delta* que ela entrega ao cliente
+
+→ [[2026-05-03_nate-herk-6-habilidades-claude-code]]
+
 ## Fontes
 
+- [[2026-05-03_nate-herk-6-habilidades-claude-code]]
 - [[2026-04-30_ai-fied-dan-koe-negocio-solo]]
 - [[2026-05-01_bestapps-ferramentas-open-source]]
 - [[2026-04-30_paras-madan-repos-monetizacao]]

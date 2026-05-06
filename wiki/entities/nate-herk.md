@@ -2,9 +2,9 @@
 title: "Nate Herk | AI Automation"
 type: entity
 category: person
-tags: [youtube, ai-automation, claude-code, tokens, sessão, hacks, agentes-ia]
-source_count: 2
-last_updated: 2026-04-29
+tags: [youtube, ai-automation, claude-code, tokens, sessão, hacks, agentes-ia, skills, context-mode, claude-mem]
+source_count: 3
+last_updated: 2026-05-06
 ---
 
 # Nate Herk | AI Automation
@@ -23,6 +23,7 @@ Criador de conteúdo focado em AI Automation, com presença no YouTube e comunid
 - Tools customizadas: token dashboard, session handoff skill
 - Análise de frameworks e repos de otimização de contexto
 - Arquitetura de agent teams e Git worktrees
+- Stack de 6 skills essenciais para monetizar automações com IA (Skill Creator, Superpowers, GSD, /review, Context Mode, Claude Mem)
 
 ## Recursos mencionados
 
@@ -36,3 +37,4 @@ Criador de conteúdo focado em AI Automation, com presença no YouTube e comunid
 
 - [[2026-04-20_nate-herk-gerenciar-limites-sessao]]
 - [[2026-04-27_nate-herk-32-hacks-claude-code]]
+- [[2026-05-03_nate-herk-6-habilidades-claude-code]]

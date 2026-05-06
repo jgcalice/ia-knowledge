@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-05-02
-source_count: 69
+last_updated: 2026-05-06
+source_count: 70
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 69 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 70 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -49,6 +49,8 @@ Três fontes convergem no mesmo problema:
 - **Contexto**: compactar sessões longas com Compact Skill ([[evolving-ai]])
 - **Grafo de conhecimento**: [[graphify]] mapeia o workspace e reduz tokens em 71,5x → 20.000 → 280/sessão ([[marc-cleroux]])
 - **Session handoff**: custo é exponencial (98,5% dos tokens = rereading); context rot degrada acurácia de 92%→78%; sessões devem ser reiniciadas a ~12% via handoff estruturado ([[nate-herk]])
+- **Claude Mem**: primeira solução de memória cross-session totalmente automática — SQLite + busca vetorial, 10x menos tokens de startup; auto-gera CLAUDE.md por pasta ([[nate-herk]])
+- **GSD como context engineering**: sub-agentes frescos por tarefa + quality gates automáticos (scope protection + security enforcement) — custo em tokens aceito para eliminar retrabalho por context rot ([[nate-herk]])
 
 ---
 

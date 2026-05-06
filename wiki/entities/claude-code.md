@@ -3,8 +3,8 @@ title: "Claude / Claude Code"
 type: entity
 category: tool
 tags: [llm, claude, anthropic, claude-code, ia, claude-managed-agents]
-source_count: 36
-last_updated: 2026-05-01
+source_count: 37
+last_updated: 2026-05-06
 ---
 
 # Claude / Claude Code
@@ -69,6 +69,25 @@ Opus 4.7 **removeu o toggle de extended thinking** do Opus 4.6. O controle de pr
 - Tarefa simples: `"prioritize responding quickly rather than thinking deeply"`
 
 Os dois eixos de controle são independentes: `/effort` controla duração total na tarefa; instrução de thinking controla profundidade por microtarefa.
+
+## /ultra review — revisão multi-agente em cloud
+
+([[nate-herk]], [[2026-05-03_nate-herk-6-habilidades-claude-code]])
+
+Lançado com Opus 4.7. Diferente do `/review` (local), o `/ultra review` sobe o branch para um sandbox na nuvem e spawna uma frota de agentes revisores em paralelo — cada um atacando o código de um ângulo diferente (lógica, segurança, performance, edge cases). Um bug só entra na lista se for **reproduzido e verificado independentemente** — sem falsos positivos, sem nitpicks de estilo.
+
+| | `/review` | `/ultra review` |
+|---|---|---|
+| Onde roda | Local | Cloud sandbox |
+| Agentes | 1 | Frota em paralelo |
+| Verificação | Single pass | Reprodução independente exigida |
+| Custo | Tokens normais | 3 runs grátis → $5–$20/run |
+| Tempo | Segundos | 10–20 min (background) |
+| Requisito | — | Conta Claude (não só API key) |
+
+**Versão mínima**: Claude Code 2.1.86+ — não precisa instalar, já vem embutido.
+
+**Fluxo recomendado**: planejar com Superpowers → executar com GSD → `/ultra review` antes de qualquer merge crítico (pagamentos, auth, migrações de banco).
 
 ## Comandos built-in (pouco conhecidos)
 
@@ -149,6 +168,7 @@ Documentado por [[lucas-garcia-pit]] em [[2026-04-15_lucas-garcia-pit-seguranca-
 
 ## Fontes
 
+- [[2026-05-03_nate-herk-6-habilidades-claude-code]]
 - [[2026-03-19_leads-infinitos-cloudcode]]
 - [[2026-03-28_prospecção-leads-claude-apify]]
 - [[2026-04-11_transformacao-linkedin-ia]]

@@ -2,8 +2,8 @@
 title: "Otimização de Tokens no Claude"
 type: concept
 tags: [tokens, otimização, claude, pdf, markdown, contexto, modelo, sessão, context-rot, mcp, api]
-source_count: 9
-last_updated: 2026-04-29
+source_count: 10
+last_updated: 2026-05-06
 ---
 
 # Otimização de Tokens no Claude
@@ -160,6 +160,19 @@ Repositório open-source (`mksglu/context-mode`, 11k⭐) projetado para agentes 
 
 > Complementa a Técnica #7 ([[graphify]]: 71,5x menos tokens) e as Técnicas #8-16 de [[nate-herk]]: enquanto aquelas são estratégias de gerenciamento de sessão, `context-mode` é uma camada de infraestrutura cross-platform — a redução é aplicada automaticamente à medida que o agente executa.
 
+### 18. Claude Mem — memória cross-session automática
+
+([[nate-herk]], [[2026-05-03_nate-herk-6-habilidades-claude-code]])
+
+Enquanto as Técnicas #8–16 gerenciam tokens *dentro* de uma sessão, o Claude Mem elimina o **custo de startup** de cada nova sessão.
+
+- Problema: re-explicar o projeto na abertura de cada sessão custa ~10 min e milhares de tokens
+- Solução: Claude Mem hookaça no ciclo de vida da sessão, captura automaticamente edições, decisões, bugs e comandos → comprime em resumos semânticos → SQLite local com busca vetorial
+- Recuperação em 3 camadas (index compacto → timeline → detalhes): 10x menos tokens vs. dump completo no início
+- Auto-gera e atualiza arquivos `CLAUDE.md` por pasta enquanto você codifica
+- Distinção vs. Graphify (#7): Graphify mapeia *arquivos e relações* do workspace (grafo estático); Claude Mem captura *eventos e decisões* da sessão (memória episódica dinâmica)
+- Instalação: `/plugin marketplace add thedotmack/claude-mem` + `/plugin install claude-mem` (NÃO rodar `npm install` — hooks não registram)
+
 ## Princípio unificador
 
 > "The clearer and tighter your input, the less work Claude has to do, and the longer your session lasts before you hit a wall." — @Evolving AI
@@ -177,3 +190,4 @@ Repositório open-source (`mksglu/context-mode`, 11k⭐) projetado para agentes 
 - [[2026-04-22_sal-shirgaleev-5-comandos-claude]]
 - [[2026-04-20_nate-herk-gerenciar-limites-sessao]]
 - [[2026-04-27_nate-herk-32-hacks-claude-code]]
+- [[2026-05-03_nate-herk-6-habilidades-claude-code]]

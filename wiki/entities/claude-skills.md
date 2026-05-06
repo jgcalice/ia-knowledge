@@ -3,8 +3,8 @@ title: "Claude Skills"
 type: entity
 category: tool
 tags: [claude, anthropic, skills, agentes-ia, prompt-engineering, marketplace]
-source_count: 3
-last_updated: 2026-04-24
+source_count: 4
+last_updated: 2026-05-06
 ---
 
 # Claude Skills
@@ -75,8 +75,25 @@ npx skills add https://github.com/vercel-labs/skills --skill find-skills
 
 → [[2026-04-18_paras-madan-top5-skills-founders]]
 
+## Stack oficial de automação (baseada em [[nate-herk]])
+
+6 plugins/skills que [[nate-herk]] identifica como os que empresas reais pagam, após 400h de prática:
+
+| # | Nome | Instalação | O que faz |
+|---|------|-----------|-----------|
+| 1 | **Skill Creator** | `/plugin install skill-creator@claude-plugins-official` | Fábrica de skills: descreve em linguagem natural → Claude rascunha, testa, empacota |
+| 2 | **Superpowers** | `/plugin install superpowers@claude-plugins-official` | Fluxo sênior: planejar → ambiente isolado → testes → brainstorm → revisão dupla |
+| 3 | **GSD** | `npx get-shit-done-cc --claude --global` | Context engineering: sub-agentes frescos por tarefa + quality gates automáticos |
+| 4 | **/review & /ultra review** | Built-in (Claude Code 2.1.86+) | Revisão local rápida e revisão multi-agente em cloud com reprodução verificada |
+| 5 | **Context Mode** | `/plugin marketplace add mksglu/context-mode` | Sandbox por tool call: 315 KB → 5 KB por sessão; SQLite para continuidade |
+| 6 | **Claude Mem** | `/plugin marketplace add thedotmack/claude-mem` | Memória cross-session automática via SQLite + busca vetorial; 10x menos tokens |
+| B | **Frontend Design** | `/plugin install frontend-design@claude-plugins-official` | UI com menos cara de IA; bônus — nativo no Claude Design (Anthropic Labs) |
+
+→ [[2026-05-03_nate-herk-6-habilidades-claude-code]]
+
 ## Fontes
 
 - [[2026-04-07_claude-skills-product-managers]]
 - [[2026-04-22_pabloinpublic-find-skills]]
 - [[2026-04-18_paras-madan-top5-skills-founders]]
+- [[2026-05-03_nate-herk-6-habilidades-claude-code]]
