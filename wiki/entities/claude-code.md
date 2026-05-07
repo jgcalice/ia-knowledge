@@ -3,8 +3,8 @@ title: "Claude / Claude Code"
 type: entity
 category: tool
 tags: [llm, claude, anthropic, claude-code, ia, claude-managed-agents]
-source_count: 37
-last_updated: 2026-05-06
+source_count: 38
+last_updated: 2026-05-07
 ---
 
 # Claude / Claude Code
@@ -41,6 +41,7 @@ Claude é o modelo de linguagem da Anthropic. Claude Code (referido nos posts co
 - **Produtividade diária sem CLI** — uso conversacional do Claude para emails, resumo de PDFs, tone setting e outros 20+ casos de uso sem instalação ([[yik-chan]])
 - **Análise de dados automática** — cookbook oficial da Anthropic: upload CSV → Claude Managed Agents gera relatório HTML interativo com gráficos via `agent_toolset_20260401` ([[ai-updater]])
 - **Candidaturas personalizadas** — análise de job descriptions + reescrita de currículo + geração de cover letter por vaga; caso documentado: 6 entrevistas em 7 dias ([[coding-ai-fullstack]])
+- **Orquestração via Ruflo** — camada open-source `ruvnet/ruflo` adiciona 100+ agentes auto-organizáveis com roteamento automático de modelo por complexidade → -50% custo de tokens, +250% uso por sessão ([[duncan-rogoff]])
 
 ## Modos de operação
 

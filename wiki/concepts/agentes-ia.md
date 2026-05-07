@@ -2,8 +2,8 @@
 title: "Agentes de IA"
 type: concept
 tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents, agent-teams, git-worktrees, hooks, plugins, skills]
-source_count: 19
-last_updated: 2026-05-06
+source_count: 20
+last_updated: 2026-05-07
 ---
 
 # Agentes de IA
@@ -217,6 +217,33 @@ O post de 2026-04-27 torna explícito o que o ADK deixava implícito: *"CLAUDE.m
 Consequência prática: regras que o desenvolvedor quer garantir (ex: "nunca commitar sem passar nos testes") devem estar em hooks, não no CLAUDE.md. O CLAUDE.md é para convenções e contexto; hooks são para invariantes.
 
 O post ancora as 5 camadas abstratas em localizações físicas concretas: `hooks/`, `commands/`, `skills/`, `agents/`, `plugins/` — tornando o ADK implementável sem ambiguidade. Princípio de design formulado: *"The folder structure IS the system"*.
+
+### Ruflo: camada de orquestração externa com roteamento automático de modelo
+
+([[duncan-rogoff]], [[2026-05-03_duncan-rogoff-ruflo-claude-code]])
+
+[[ruflo]] (`ruvnet/ruflo`, 38.2K⭐, #1 GitHub em mai/2026) é uma camada de orquestração open-source que se instala sobre o Claude Code via um único `init` command, fornecendo um "sistema nervoso" de mais de 100 agentes auto-organizáveis.
+
+**Mecanismo central — roteamento automático por complexidade:**
+- Ruflo lê o task e decide automaticamente qual modelo usar
+- Tarefas simples → modelos baratos (ex: Haiku); tarefas complexas → modelos poderosos (ex: Opus)
+- Sem intervenção do dev: *"The routing happens automatically. You just write code."*
+
+**Resultados declarados:**
+- Custos de tokens caem até **50%**
+- Uso do Claude Code estende até **250%** por sessão
+- Agentes compartilham memória → sistema fica mais inteligente a cada run
+
+**Distinção dos padrões anteriores do wiki:**
+
+| | Sub-agentes nativos | Agent teams | Ruflo |
+|---|---|---|---|
+| Onde vive | Dentro da sessão Claude | Dentro da sessão Claude | Camada externa (projeto) |
+| Roteamento de modelo | Manual pelo dev | Manual pelo dev | **Automático por complexidade** |
+| Coordenação | Pelo agente central | Entre si | 100+ agentes auto-organizáveis |
+| Instalação | Nenhuma | Nenhuma | `init` command |
+
+> ⚠️ Complementa (e não substitui) as técnicas de [[nate-herk]]: enquanto GSD e session handoff gerenciam tokens *dentro* da sessão, Ruflo age como **infraestrutura de pré-roteamento** que reduz tokens *antes* de a sessão crescer.
 
 ### GSD: context engineering como garantia de qualidade
 

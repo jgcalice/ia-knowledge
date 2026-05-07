@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-05-06
-source_count: 70
+last_updated: 2026-05-07
+source_count: 71
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 70 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 71 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -51,6 +51,7 @@ Três fontes convergem no mesmo problema:
 - **Session handoff**: custo é exponencial (98,5% dos tokens = rereading); context rot degrada acurácia de 92%→78%; sessões devem ser reiniciadas a ~12% via handoff estruturado ([[nate-herk]])
 - **Claude Mem**: primeira solução de memória cross-session totalmente automática — SQLite + busca vetorial, 10x menos tokens de startup; auto-gera CLAUDE.md por pasta ([[nate-herk]])
 - **GSD como context engineering**: sub-agentes frescos por tarefa + quality gates automáticos (scope protection + security enforcement) — custo em tokens aceito para eliminar retrabalho por context rot ([[nate-herk]])
+- **Ruflo (roteamento automático)**: camada de orquestração externa `ruvnet/ruflo` roteia tasks automaticamente para o modelo mais barato compatível com a complexidade → -50% tokens, +250% uso por sessão ([[duncan-rogoff]])
 
 ---
 
@@ -175,7 +176,7 @@ Fonte: ([[faria-lima-elevator]])
 
 ## Mapa de entidades
 
-**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]]
+**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]]
 
 **Agregadores de conteúdo**: [[ai-developer-js]] · [[bestapps-ai]] · [[beyond-intelligence]]
 
@@ -187,7 +188,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]] · [[faria-lima-elevator]] · [[allessandra-sinisgalli]]
 
-**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]] · [[bert-no-chase]]
+**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]] · [[bert-no-chase]] · [[duncan-rogoff]]
 
 **Referências de produto Anthropic**: [[boris-cherny]]
 
@@ -243,6 +244,7 @@ Fonte: ([[faria-lima-elevator]])
 - **Pasta `.claude/` como sistema — distinção advisory vs. determinístico**: [[manthan-patel]] ancora as 5 camadas do Agent Development Kit em localizações físicas concretas e formula a distinção operacional mais importante para quem implementa: *"CLAUDE.md is advisory. hooks are deterministic."* O CLAUDE.md é consultado pelo modelo, que *pode* seguir; os hooks são scripts que o *sistema* executa sempre, sem decisão da IA. Regras que o desenvolvedor quer garantir devem estar em hooks, não em CLAUDE.md. Princípio de design: *"The folder structure IS the system"*
 - **Screening de ações como caso-modelo de pipeline sequencial em domínio especializado**: [[bert-no-chase]] documenta o uso de 3 prompts encadeados (tema → universo → ranking → deep dive) para triagem de candidatos a swing trade em 5 minutos. O padrão sequencial já documentado em [[geração-de-leads-com-ia]] e em [[finanças-com-ia]] reaparece aqui com a mesma lógica: ampliar → filtrar → aprofundar. Novidade editorial: o autor reconhece explicitamente que IA não substitui análise técnica no timing — a IA faz a triagem fundamentalista; o humano decide *quando* entrar
 - **Pipeline de reconstrução de candidatura com ROLEs de elite**: [[your-ai-compass]] documenta 4 prompts encadeados onde Claude assume personas sequenciais de recrutadores de alto nível — Google (triagem de currículo), ATS specialist (compatibilidade automática), McKinsey (quantificação de conquistas) e Robert Half (carta de apresentação). O padrão ROLE-como-instituição confirma-se no domínio de carreira: nomear organizações cujas metodologias o modelo internalizou (Google hiring bar, McKinsey achievement framework) é suficiente para convocar o framework completo sem descrever o método. O ATS Optimization Prompt é a contribuição técnica mais nova — nomear sistemas reais (Workday, Greenhouse, Lever) orienta o modelo para as restrições de parsing específicas de cada plataforma
+- **Ruflo como camada de roteamento automático — a automação da escolha de modelo**: [[duncan-rogoff]] apresenta o primeiro registro no wiki de uma infraestrutura externa que automatiza a decisão de qual modelo usar por task (Técnica #3 do [[otimização-de-tokens]]). Diferente das abordagens manuais ([[nate-herk]], [[evolving-ai]]), o Ruflo inspeciona a complexidade do task e faz o roteamento sem intervenção do dev. Padrão novo: **a escolha de modelo deixou de ser decisão de prompt e passou a ser infraestrutura**
 
 ---
 
@@ -250,9 +252,9 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 69 |
-| Páginas de fontes | 69 |
+| Fontes ingeridas | 71 |
+| Páginas de fontes | 71 |
 | Páginas de conceitos | 18 |
-| Páginas de entidades | 79 |
+| Páginas de entidades | 81 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **168** |
+| **Total de páginas** | **177** |

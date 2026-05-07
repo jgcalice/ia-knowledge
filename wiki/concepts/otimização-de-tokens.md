@@ -2,8 +2,8 @@
 title: "Otimização de Tokens no Claude"
 type: concept
 tags: [tokens, otimização, claude, pdf, markdown, contexto, modelo, sessão, context-rot, mcp, api]
-source_count: 10
-last_updated: 2026-05-06
+source_count: 11
+last_updated: 2026-05-07
 ---
 
 # Otimização de Tokens no Claude
@@ -172,6 +172,18 @@ Enquanto as Técnicas #8–16 gerenciam tokens *dentro* de uma sessão, o Claude
 - Auto-gera e atualiza arquivos `CLAUDE.md` por pasta enquanto você codifica
 - Distinção vs. Graphify (#7): Graphify mapeia *arquivos e relações* do workspace (grafo estático); Claude Mem captura *eventos e decisões* da sessão (memória episódica dinâmica)
 - Instalação: `/plugin marketplace add thedotmack/claude-mem` + `/plugin install claude-mem` (NÃO rodar `npm install` — hooks não registram)
+
+### 19. Ruflo — roteamento automático de modelo por complexidade de task
+
+([[duncan-rogoff]], [[2026-05-03_duncan-rogoff-ruflo-claude-code]])
+
+A camada de orquestração [[ruflo]] (`ruvnet/ruflo`) implementa automaticamente o princípio da Técnica #3 (escolha inteligente de modelo) — mas sem intervenção manual do desenvolvedor:
+
+- Lê a complexidade do task em tempo real e roteia para o modelo mais adequado
+- Tasks simples → modelos baratos; tasks complexas → modelos poderosos
+- Redução declarada de **até 50% nos custos de tokens**; extensão de **até 250% no uso por sessão**
+
+> Diferente das Técnicas #3–#18, que exigem que o dev tome decisões manuais sobre modelo, compactação ou handoff, o Ruflo é a primeira solução do wiki onde o roteamento de modelo é **totalmente automatizado por infraestrutura externa** — sem configuração por task.
 
 ## Princípio unificador
 

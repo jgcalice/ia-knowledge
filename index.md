@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-06 | Total de páginas: 174 | Fontes ingeridas: 70
+> Atualizado em: 2026-05-07 | Total de páginas: 177 | Fontes ingeridas: 71
 
 ---
 
@@ -85,6 +85,7 @@
 | [[wiki/sources/2026-04-30_bert-swing-trading-ia]] | @Bert \| No-Chase Swing Trading for 9-5s | 2026-04-30 | Scanner de 3 prompts para selecionar 25 ações em 5 min — screening + ranking + deep dive |
 | [[wiki/sources/2026-04-28_your-ai-compass-perfil-profissional]] | @Your Ai Compass | 2026-04-28 | 4 prompts com ROLEs de recrutadores elite: resume XYZ + ATS Optimization + McKinsey Quantifier + Cover Letter |
 | [[wiki/sources/2026-05-03_nate-herk-6-habilidades-claude-code]] | @Nate Herk \| AI Automation | 2026-05-03 | 6 habilidades fundamentais do Claude Code para automação de IA: Skill Creator, Superpowers, GSD, /review, Context Mode, Claude Mem |
+| [[wiki/sources/2026-05-03_duncan-rogoff-ruflo-claude-code]] | @Duncan Rogoff \| AI for Personal Brands | 2026-05-03 | Ruflo: camada de orquestração #1 GitHub — 100+ agentes, roteamento automático de modelo, -50% tokens, +250% uso |
 
 ---
 
@@ -125,7 +126,8 @@
 
 | Página | Tipo | Fontes | Descrição |
 |--------|------|--------|-----------|
-| [[wiki/entities/claude-code]] | tool | 37 | LLM da Anthropic — ferramenta central de todas as fontes |
+| [[wiki/entities/claude-code]] | tool | 38 | LLM da Anthropic — ferramenta central de todas as fontes |
+| [[wiki/entities/ruflo]] | tool | 1 | Camada de orquestração open-source para Claude Code: 100+ agentes, roteamento automático de modelo por complexidade, MIT |
 | [[wiki/entities/apify]] | tool | 1 | Plataforma de scraping com conector nativo no Claude |
 | [[wiki/entities/api-file]] | platform | 1 | Marketplace de APIs para scraping e integração |
 | [[wiki/entities/markitdown]] | tool | 2 | Conversor de documentos para Markdown (Microsoft) |
@@ -206,6 +208,7 @@
 | Página | Handle | Fontes | Foco |
 |--------|--------|--------|------|
 | [[wiki/entities/bert-no-chase]] | @Bert \| No-Chase Swing Trading for 9-5s | 1 | Trader e educador de swing trading — pipeline de 3 prompts IA para screening de ações |
+| [[wiki/entities/duncan-rogoff]] | @Duncan Rogoff \| AI for Personal Brands | 1 | Criador Internacional — Ruflo como camada de orquestração para Claude Code |
 | [[wiki/entities/evolving-ai]] | @Evolving AI | 3 | Newsletter IA, hacks técnicos, estratégia de negócios |
 | [[wiki/entities/god-of-prompt]] | @godofprompt | 2 | Prompt engineering para carreira e riqueza |
 | [[wiki/entities/bashiri]] | @Bashiri | 1 | Transição para AI Engineering, certificações |
