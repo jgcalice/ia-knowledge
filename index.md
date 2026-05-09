@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-07 | Total de páginas: 177 | Fontes ingeridas: 71
+> Atualizado em: 2026-05-08 | Total de páginas: 178 | Fontes ingeridas: 72
 
 ---
 
@@ -86,6 +86,7 @@
 | [[wiki/sources/2026-04-28_your-ai-compass-perfil-profissional]] | @Your Ai Compass | 2026-04-28 | 4 prompts com ROLEs de recrutadores elite: resume XYZ + ATS Optimization + McKinsey Quantifier + Cover Letter |
 | [[wiki/sources/2026-05-03_nate-herk-6-habilidades-claude-code]] | @Nate Herk \| AI Automation | 2026-05-03 | 6 habilidades fundamentais do Claude Code para automação de IA: Skill Creator, Superpowers, GSD, /review, Context Mode, Claude Mem |
 | [[wiki/sources/2026-05-03_duncan-rogoff-ruflo-claude-code]] | @Duncan Rogoff \| AI for Personal Brands | 2026-05-03 | Ruflo: camada de orquestração #1 GitHub — 100+ agentes, roteamento automático de modelo, -50% tokens, +250% uso |
+| [[wiki/sources/2026-05-08_ai-fied-munger-5-prompts]] | @AI-Fied \| AI Tools & Tech | 2026-05-08 | 5 prompts do sistema Charlie Munger: escrita long-form, aprendizado rápido, análise competitiva com SWOT, análise de ações DIY e planejamento fiscal |
 
 ---
 
@@ -181,7 +182,7 @@
 | [[wiki/entities/simplifying-ai]] | @Simplifying AI | 1 | Plataforma de "daily AI upgrade" — prompts e frameworks prontos (simplifyingai.co) |
 | [[wiki/entities/naval-ravikant]] | Naval Ravikant | 2 | Filósofo de riqueza — fundador AngelList — framework "Wealth Protocol" |
 | [[wiki/entities/nico]] | @Nico | 1 | Criador de conteúdo sobre importação da China (Fansbuy) — fora do escopo IA |
-| [[wiki/entities/ai-fied]] | @ai.fiedstudio | 2 | Ferramentas e prompts de IA — Naval Ravikant (riqueza) + Dan Koe (one-person business $6M) |
+| [[wiki/entities/ai-fied]] | @ai.fiedstudio | 3 | Ferramentas e prompts de IA — Naval Ravikant (riqueza) + Dan Koe (one-person business $6M) + Charlie Munger (5 domínios práticos) |
 | [[wiki/entities/dan-koe]] | @thedankoe | 1 | Empreendedor "one-person business" — referência $6M, 0 funcionários, 4h/dia; framework reverse-engineered via Claude |
 | [[wiki/entities/gustavo-melo]] | @Gustavo Melo \| Tecnologia e IA | 1 | Segurança digital e OSINT (BR) — ferramentas de investigação e privacidade |
 | [[wiki/entities/sidney-rodrigo]] | @sidneyrodrigobr | 1 | Analista de redes e cibersegurança (BR) — 5 ferramentas OSINT profissionais |

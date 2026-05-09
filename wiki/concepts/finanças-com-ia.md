@@ -2,8 +2,8 @@
 title: "Finanças com IA"
 type: concept
 tags: [finanças-com-ia, investimentos, análise-financeira, prompt-engineering, llm, trading]
-source_count: 3
-last_updated: 2026-04-30
+source_count: 4
+last_updated: 2026-05-08
 ---
 
 # Finanças com IA
@@ -74,12 +74,41 @@ Fonte: [[2026-04-30_bert-swing-trading-ia]] | [[bert-no-chase]]
 | Riqueza individual | ChatGPT para construção de patrimônio | Público geral | Parcial (conteúdo incompleto) |
 | Screening sequencial | Pipeline funil (tema → 25 → top 3 + deep dive) | Trabalhador CLT / swing trader | Timing de entrada permanece humano |
 
+## Quarto ângulo documentado: Análise DIY de ações com template estruturado
+
+[[ai-fied]] publica o "Analyze Any Stock" — prompt de analista financeiro genérico (não uma instituição específica) com estrutura ROLE/TASK/STEPS/RULES/OUTPUT completa:
+
+| Seção | Conteúdo |
+|-------|---------|
+| ROLE | Analista financeiro para análise completa: fundamentos, valuation, entrada e saída |
+| TASK | Analisar ação-alvo com recomendação compra/hold/venda e metas de preço |
+| OUTPUT | Modelo de negócios → Saúde financeira → Moat → Valuation → Bear case → Bull case → Recomendação |
+
+**Distinção vs. abordagens anteriores:**
+- Vs. [[faria-lima-elevator]]: lá o ROLE é uma *instituição* (Goldman Sachs, BlackRock) — convoca metodologia publicada específica. Aqui é um "analista financeiro" genérico com template explícito
+- Vs. [[bert-no-chase]]: lá o foco é *triagem eficiente* (tema → 25 candidatos → top 3). Aqui é análise completa de uma ação já selecionada
+- Vs. [[derek-gray]]: lá o foco é *construção de riqueza pessoal*. Aqui é análise técnica de ação específica
+
+**Primeira menção de planejamento fiscal no wiki**: o Prompt 5 do mesmo carousel documenta um "Tax Strategist" — checklist de deduções + documentos + erros comuns + cenários fiscais + comparação CPA vs. software. Abre espaço para expansão do domínio "finanças pessoais" além de análise de investimentos.
+
+Fonte: [[2026-05-08_ai-fied-munger-5-prompts]] | [[ai-fied]]
+
+## Padrão estrutural comparativo entre as quatro abordagens
+
+| Abordagem | Técnica central | Público | Limitações reconhecidas |
+|-----------|-----------------|---------|------------------------|
+| Institucional (ROLE) | Nomear instituição → convoca metodologia publicada | Investidor sofisticado | Nenhuma mencionada |
+| Riqueza individual | ChatGPT para construção de patrimônio | Público geral | Parcial (conteúdo incompleto) |
+| Screening sequencial | Pipeline funil (tema → 25 → top 3 + deep dive) | Trabalhador CLT / swing trader | Timing de entrada permanece humano |
+| DIY estruturado | Template explícito com analista genérico | Qualquer usuário | Finaliza com disclaimer "não é recomendação financeira" |
+
 ## Estado atual do wiki
 
-Domínio com 3 fontes. Três ângulos distintos: análise financeira institucional via ROLE (Faria Lima Elevator), construção de riqueza individual via ChatGPT (Derek Gray — parcial), e pipeline de screening para seleção de ações (Bert).
+Domínio com 4 fontes. Quatro ângulos distintos: análise financeira institucional via ROLE (Faria Lima Elevator), construção de riqueza individual via ChatGPT (Derek Gray — parcial), pipeline de screening para seleção de ações (Bert) e análise DIY com template estruturado (AI-Fied).
 
 ## Fontes
 
 - [[2026-04-26_faria-lima-elevator-ia-investimentos]] — 8 prompts com 8 instituições distintas, cobrindo o ciclo completo de análise financeira
 - [[2026-04-28_derek-gray-chatgpt-wealth]] — carousel sobre ChatGPT para construção de riqueza (ingestão parcial)
 - [[2026-04-30_bert-swing-trading-ia]] — pipeline de 3 prompts para screening e seleção de ações em 5 minutos
+- [[2026-05-08_ai-fied-munger-5-prompts]] — prompt DIY de análise de ações com template ROLE/TASK/STEPS/RULES/OUTPUT + primeiro prompt de planejamento fiscal do wiki

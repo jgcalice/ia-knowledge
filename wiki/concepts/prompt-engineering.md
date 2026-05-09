@@ -2,8 +2,8 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas, plan-mode, self-checking]
-source_count: 30
-last_updated: 2026-05-01
+source_count: 31
+last_updated: 2026-05-08
 ---
 
 # Prompt Engineering
@@ -257,6 +257,15 @@ Quando o modelo dá output mediano, push back agressivo produz resultado dramati
 **O ciclo não termina aí**: ao receber algo melhor, instruir o Claude a atualizar a skill ou o CLAUDE.md para não repetir o padrão ruim. O feedback do usuário vira **melhoria permanente** do comportamento do agente — não apenas uma correção pontual.
 
 Isso conecta com o princípio de autoaperfeiçoamento documentado em [[boris-cherny]]: o agente deve atualizar lições de forma contínua, não só quando explicitamente instruído.
+
+### "Referência famosa como gancho" para coleção de prompts
+
+Padrão de marketing consolidado por [[ai-fied]]: usar o nome de uma figura histórica ou de negócios amplamente reconhecida (Charlie Munger, Naval Ravikant, Dan Koe) como ancoragem de atenção para um conjunto de prompts ROLE/TASK/STEPS/RULES/OUTPUT. O conteúdo central são os prompts — a referência funciona como wrapper de autoridade. Três iterações confirmadas:
+- [[2026-04-23_ai-fied-riqueza-5-prompts-naval]] — Naval Ravikant + riqueza
+- [[2026-04-30_ai-fied-dan-koe-negocio-solo]] — Dan Koe + one-person business
+- [[2026-05-08_ai-fied-munger-5-prompts]] — Charlie Munger + 5 domínios (escrita, aprendizado, competição, ações, impostos)
+
+O padrão é distinto dos "prompts para pensar como fundador $100M" de [[evolving-ai]] / [[business-bulls]] — lá a referência é implícita; aqui é explícita e é o gancho principal do title card.
 
 ## Fontes
 

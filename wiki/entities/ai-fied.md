@@ -2,14 +2,14 @@
 title: "AI-Fied | AI Tools & Tech"
 type: entity
 category: person
-tags: [riqueza, naval-ravikant, prompt-engineering, carreira, design-de-estilo-de-vida, one-person-business, dan-koe]
-source_count: 2
-last_updated: 2026-04-30
+tags: [riqueza, naval-ravikant, prompt-engineering, carreira, design-de-estilo-de-vida, one-person-business, dan-koe, charlie-munger, análise-financeira]
+source_count: 3
+last_updated: 2026-05-08
 ---
 
 # AI-Fied | AI Tools & Tech
 
-> **Handle:** @ai.fiedstudio | **Categoria:** Criador de conteúdo (Internacional) | **Aparece em:** 2 fontes
+> **Handle:** @ai.fiedstudio | **Categoria:** Criador de conteúdo (Internacional) | **Aparece em:** 3 fontes
 
 ## Quem é
 
@@ -25,3 +25,4 @@ Criador de conteúdo focado em ferramentas e aplicações práticas de IA. Opera
 
 - [[2026-04-23_ai-fied-riqueza-5-prompts-naval]] — 5 prompts Naval Ravikant para estratégia de riqueza: Find Your Unfair Advantage, Audite Seu Aproveitamento, Turn Yourself Into a Product, Encontre Onde Você Está Trocando Tempo por Dinheiro, Design Work That Compounds
 - [[2026-04-30_ai-fied-dan-koe-negocio-solo]] — 5 prompts para construir negócio solo $6M como Dan Koe: ideia, oferta como transformação, sistema de conteúdo, sistema de vendas autônomo e escalonamento sem contratar
+- [[2026-05-08_ai-fied-munger-5-prompts]] — 5 prompts "decodificados do sistema de Charlie Munger": escrita long-form, aprendizado rápido de habilidades, análise competitiva com SWOT e movimentos táticos, análise de ações DIY e planejamento fiscal

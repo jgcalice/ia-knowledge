@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-05-07
-source_count: 71
+last_updated: 2026-05-08
+source_count: 72
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 71 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 72 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -172,6 +172,8 @@ Fonte: ([[faria-lima-elevator]])
 
 **3º ângulo:** Pipeline sequencial de screening para seleção de ações de swing trade — 3 prompts em funil (tema → 25 candidatos → top 3 deep dive) em 5 minutos. **Limitação explícita:** IA não substitui leitura de gráfico no timing de entrada. Case: $129K/ano com full-time job, AMD e Palantir como exemplos. ([[bert-no-chase]])
 
+**4º ângulo:** Análise DIY de ações com analista genérico — template ROLE/TASK/STEPS/RULES/OUTPUT com saída estruturada: modelo de negócios → saúde financeira → moat → valuation → bear/bull case → recomendação. Distinto dos ângulos anteriores: sem nomear instituição (vs. [[faria-lima-elevator]]), sem funil de triagem (vs. [[bert-no-chase]]). Mesmo carousel introduz **1º prompt de planejamento fiscal do wiki**: Tax Strategist com checklist de deduções, cenários fiscais e comparação CPA vs. software. ([[ai-fied]])
+
 ---
 
 ## Mapa de entidades
@@ -245,6 +247,8 @@ Fonte: ([[faria-lima-elevator]])
 - **Screening de ações como caso-modelo de pipeline sequencial em domínio especializado**: [[bert-no-chase]] documenta o uso de 3 prompts encadeados (tema → universo → ranking → deep dive) para triagem de candidatos a swing trade em 5 minutos. O padrão sequencial já documentado em [[geração-de-leads-com-ia]] e em [[finanças-com-ia]] reaparece aqui com a mesma lógica: ampliar → filtrar → aprofundar. Novidade editorial: o autor reconhece explicitamente que IA não substitui análise técnica no timing — a IA faz a triagem fundamentalista; o humano decide *quando* entrar
 - **Pipeline de reconstrução de candidatura com ROLEs de elite**: [[your-ai-compass]] documenta 4 prompts encadeados onde Claude assume personas sequenciais de recrutadores de alto nível — Google (triagem de currículo), ATS specialist (compatibilidade automática), McKinsey (quantificação de conquistas) e Robert Half (carta de apresentação). O padrão ROLE-como-instituição confirma-se no domínio de carreira: nomear organizações cujas metodologias o modelo internalizou (Google hiring bar, McKinsey achievement framework) é suficiente para convocar o framework completo sem descrever o método. O ATS Optimization Prompt é a contribuição técnica mais nova — nomear sistemas reais (Workday, Greenhouse, Lever) orienta o modelo para as restrições de parsing específicas de cada plataforma
 - **Ruflo como camada de roteamento automático — a automação da escolha de modelo**: [[duncan-rogoff]] apresenta o primeiro registro no wiki de uma infraestrutura externa que automatiza a decisão de qual modelo usar por task (Técnica #3 do [[otimização-de-tokens]]). Diferente das abordagens manuais ([[nate-herk]], [[evolving-ai]]), o Ruflo inspeciona a complexidade do task e faz o roteamento sem intervenção do dev. Padrão novo: **a escolha de modelo deixou de ser decisão de prompt e passou a ser infraestrutura**
+- **"Referência famosa como gancho" consolidado como padrão de conteúdo**: [[ai-fied]] confirma a terceira iteração — Munger junta-se a Naval Ravikant e Dan Koe como wrapper de autoridade para coleções de prompts ROLE/TASK/STEPS/RULES/OUTPUT. O conteúdo central são sempre os prompts; a figura histórica é o title card. Padrão emergente na comunidade de criadores de conteúdo de IA.
+- **Planejamento fiscal como ponto cego do wiki**: primeiro prompt de tax strategy documentado ([[ai-fied]], Prompt 5 do carousel Munger) — revela que [[finanças-com-ia]] pode expandir de "análise de ações" para "planejamento financeiro pessoal" (impostos, deduções, CPA vs. software).
 
 ---
 
@@ -252,9 +256,9 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 71 |
-| Páginas de fontes | 71 |
+| Fontes ingeridas | 72 |
+| Páginas de fontes | 72 |
 | Páginas de conceitos | 18 |
 | Páginas de entidades | 81 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **177** |
+| **Total de páginas** | **178** |
