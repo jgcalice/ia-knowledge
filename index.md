@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-09 | Total de páginas: 181 | Fontes ingeridas: 73
+> Atualizado em: 2026-05-10 | Total de páginas: 183 | Fontes ingeridas: 74
 
 ---
 
@@ -88,6 +88,7 @@
 | [[wiki/sources/2026-05-03_duncan-rogoff-ruflo-claude-code]] | @Duncan Rogoff \| AI for Personal Brands | 2026-05-03 | Ruflo: camada de orquestração #1 GitHub — 100+ agentes, roteamento automático de modelo, -50% tokens, +250% uso |
 | [[wiki/sources/2026-05-08_ai-fied-munger-5-prompts]] | @AI-Fied \| AI Tools & Tech | 2026-05-08 | 5 prompts do sistema Charlie Munger: escrita long-form, aprendizado rápido, análise competitiva com SWOT, análise de ações DIY e planejamento fiscal |
 | [[wiki/sources/2026-05-09_derek-gray-google-maps-claude-monetizacao]] | @Derek Gray | 2026-05-09 | Stack completo Google Maps + Claude + Lovable + Quepo — sweet spot pattern, outreach <70 palavras, GMB recorrente $12K/mês |
+| [[wiki/sources/2026-05-07_ai-technology-footprint-digital]] | @AI \| Technology | 2026-05-07 | 7 passos para remover 99,8% da pegada digital: data brokers, Google, HIBP, rastreamento, posts antigos, SimpleLogin |
 
 ---
 
@@ -103,7 +104,7 @@
 | [[wiki/concepts/agentes-ia]] | 6 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills |
 | [[wiki/concepts/estratégia-de-negócios-com-ia]] | 5 | 4 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
-| [[wiki/concepts/segurança-com-ia]] | 4 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding |
+| [[wiki/concepts/segurança-com-ia]] | 5 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital |
 | [[wiki/concepts/vibecoding]] | 1 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança, abordagens preventiva e detective |
 | [[wiki/concepts/adoção-empresarial-de-ia]] | 1 | Playbook empresarial: 11 capítulos sobre como organizações passam de piloto a ROI real |
 | [[wiki/concepts/dados-como-moat]] | 1 | Dados proprietários como vantagem competitiva durável; 47% das empresas explicitamente o citam como moat |
@@ -161,6 +162,7 @@
 | [[wiki/entities/ai-developer-js]] | @AI Developer \| Code + AI \| JS | 1 | Canal agregador de dicas práticas de Claude para desenvolvedores JS |
 | [[wiki/entities/bestapps-ai]] | @bestapps.ai | 1 | Canal curador de repos open-source que substituem softwares proprietários caros |
 | [[wiki/entities/beyond-intelligence]] | @Beyond Intelligence — AI News & Tools | 1 | Canal agregador de AI news — tabelas de referência visual (89 comandos Claude em 11 categorias) |
+| [[wiki/entities/ai-technology]] | @AI \| Technology | 1 | Canal de privacidade digital e segurança online — guia de 7 passos para remoção de pegada digital |
 
 ### Pessoas / Criadores (Internacional — adicionados)
 

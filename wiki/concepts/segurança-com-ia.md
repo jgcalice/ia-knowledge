@@ -1,14 +1,14 @@
 ---
 title: "Segurança com IA"
 type: concept
-tags: [segurança, claude-code, desenvolvimento, api, backend, supabase, osint, privacidade, shadow-ai, governança, vibecoding, red-team, investigação]
-source_count: 6
-last_updated: 2026-04-30
+tags: [segurança, claude-code, desenvolvimento, api, backend, supabase, osint, privacidade, shadow-ai, governança, vibecoding, red-team, investigação, pegada-digital, data-brokers]
+source_count: 7
+last_updated: 2026-05-10
 ---
 
 # Segurança com IA
 
-> Quatro dimensões: (1) segurança no *desenvolvimento* de apps com LLMs, (2) segurança *pessoal/digital* via ferramentas OSINT (14 ferramentas documentadas em 3 fontes), (3) segurança *empresarial/governança* (Shadow AI, infraestrutura como enabler), e (4) auditoria red team pré-deploy para apps vibecoded.
+> Cinco dimensões: (1) segurança no *desenvolvimento* de apps com LLMs, (2) segurança *pessoal/digital* via ferramentas OSINT (14 ferramentas documentadas em 3 fontes), (3) segurança *empresarial/governança* (Shadow AI, infraestrutura como enabler), (4) auditoria red team pré-deploy para apps vibecoded, e (5) remoção ativa de pegada digital (7 passos para apagar 99,8% da exposição online).
 
 ## Dimensão 1: Segurança no Desenvolvimento (via @Lucas Garcia Pit)
 
@@ -165,16 +165,49 @@ Os 5 fundamentos da Dimensão 1 ([[lucas-garcia-pit]]) são **preventivos** (des
 
 ---
 
-## Síntese das quatro dimensões
+---
+
+## Dimensão 5: Remoção Ativa de Pegada Digital
+
+(Via [[ai-technology]], [[2026-05-07_ai-technology-footprint-digital]])
+
+### Tese
+
+> "Deleting an app from your phone usually changes nothing online."
+
+A internet acumula dados pessoais em camadas invisíveis: data brokers, resultados de busca, contas esquecidas, histórico de rastreamento e posts antigos. Ferramentas de IA e automação tornaram possível apagar anos de pegada digital em horas. A redução de 99,8% da exposição visível diminui rastreamento, golpes, spam e risco de roubo de identidade.
+
+### O guia de 7 passos
+
+| Passo | Ação | Ferramenta |
+|-------|------|-----------|
+| **1 — Data Brokers** | Opt-out manual em cada site de venda de dados | Spokeo, Whitepages, BeenVerified |
+| **2 — Google Search** | Submeter "Google removal request" para remover páginas com dados pessoais | Formulário oficial Google |
+| **3 — Contas esquecidas** | Gmail → pesquisar "Verify your email" → deletar cada conta encontrada | Gmail (busca de e-mails de verificação) |
+| **4 — Vazamentos** | Verificar breaches → trocar todas as senhas expostas | **HaveIBeenPwned** |
+| **5 — Rastreamento Google** | My Activity → Delete all → pausar Web & App Activity, Location History, YouTube History | Google My Activity / Activity Controls |
+| **6 — Posts antigos** | Deletar/sobrescrever conteúdo em X, Reddit e Facebook | TweetDelete (X), Redact (Reddit), Activity Log (Facebook) |
+| **7 — Prevenção futura** | E-mail alias por cadastro + navegador com bloqueio de tracker nativo | SimpleLogin (alias), Brave/Firefox (tracker blocker) |
+
+### Distinção em relação à Dimensão 2
+
+A Dimensão 2 é sobre **diagnóstico** (OSINT — descobrir o que está exposto). A Dimensão 5 é sobre **remoção** (apagar o que foi encontrado). São pares complementares:
+- Diagnosticar primeiro (HIBP, ZoomEye, Namecheck) → depois remover (opt-out, formulário Google, delete de contas)
+- **HaveIBeenPwned** aparece em ambas as dimensões — confirmação independente de sua centralidade como ponto de partida defensivo
+
+---
+
+## Síntese das cinco dimensões
 
 | Dimensão | Quem usa | Princípio | Quando aplicar |
 |---|---|---|---|
 | 1 — Desenvolvimento preventivo | Dev individual com Claude Code | Zero trust; nunca confiar no cliente | Durante o design/build |
-| 2 — Pessoal/OSINT | Usuário comum | Auditar a própria exposição | Periodicamente |
+| 2 — Pessoal/OSINT (diagnóstico) | Usuário comum | Auditar a própria exposição | Periodicamente |
 | 3 — Empresarial | Organização inteira | Segurança como infra reutilizável | Antes de habilitar IA enterprise |
 | 4 — Vibecoding (pré-deploy) | Dev que vibecoda | Assume já comprometido; pense como atacante | Antes de cada deploy |
+| 5 — Remoção ativa de pegada | Qualquer usuário | Diagnóstico sem remoção é ineficaz | Após diagnóstico (Dim. 2) e periodicamente |
 
-**Padrão unificado**: a aceleração cria exposições invisíveis que só são corrigidas com **intenção ativa** — seja no design, na auditoria pessoal, na governança corporativa ou no review pré-deploy.
+**Padrão unificado**: a aceleração (LLMs no dev, internet nos dados, mandato corporativo) cria exposições invisíveis que só são corrigidas com **intenção ativa** — seja no design, na auditoria pessoal, na remoção ativa, na governança corporativa ou no review pré-deploy.
 
 ## Fontes
 
@@ -184,3 +217,4 @@ Os 5 fundamentos da Dimensão 1 ([[lucas-garcia-pit]]) são **preventivos** (des
 - [[2026-04-01_enterprise-ai-playbook-stanford]] — Shadow AI, segurança empresarial como enabler
 - [[2026-04-25_vibecoding-seguranca-auditoria-ia]] — prompt red team completo para auditoria de apps vibecoded
 - [[2026-04-30_gustavo-melo-investigacao-pessoas]] — 2 sites de investigação de pessoa física: Webmail e My7
+- [[2026-05-07_ai-technology-footprint-digital]] — guia de 7 passos para remover 99,8% da pegada digital: data brokers, Google, contas esquecidas, HIBP, rastreamento, posts antigos e prevenção via SimpleLogin/Brave

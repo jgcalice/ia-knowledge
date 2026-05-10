@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-05-09
-source_count: 73
+last_updated: 2026-05-10
+source_count: 74
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 73 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 74 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -82,8 +82,9 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - **Dimensão 1 — Desenvolvimento preventivo**: 5 fundamentos design-time para apps com Claude Code: API keys no servidor, RLS no Supabase, lógica sensível no back-end, rate limiting e webhooks assinados ([[lucas-garcia-pit]])
 - **Dimensão 2 — Privacidade/OSINT**: 14 ferramentas documentadas em 3 fontes BR: ZoomEye, HIBP, Namecheck, Pic2Map, EPA, Exploding Database ([[gustavo-melo]] post 1) + Sherlock, Maltego, SpiderFoot, Shodan, Google Dorking ([[sidney-rodrigo]]) + Webmail e My7 — investigação de pessoa física ([[gustavo-melo]] post 2)
 - **Dimensão 3 — Empresarial**: Shadow AI (70-80% usam ferramentas não aprovadas), segurança como enabler front-loaded, pipeline PII scrubbing como moat ([[stanford-digital-economy-lab]])
-- **Dimensão 4 — Vibecoding pré-deploy**: prompt de 6 blocos que instrui o agente a auditar o codebase como engenheiro sênior de segurança ($15k em valor); conceito de **attack chains** (3 vulns "low" = 1 "critical") ([[artificial-intelligence-business]] / @thewizeai) — NOVO
-- **Tese unificada**: aceleração (LLMs no dev, internet nos dados, mandato corporativo) cria exposições invisíveis que exigem intenção ativa para serem corrigidas — em 4 escalas diferentes
+- **Dimensão 4 — Vibecoding pré-deploy**: prompt de 6 blocos que instrui o agente a auditar o codebase como engenheiro sênior de segurança ($15k em valor); conceito de **attack chains** (3 vulns "low" = 1 "critical") ([[artificial-intelligence-business]] / @thewizeai)
+- **Dimensão 5 — Remoção ativa de pegada digital** (NOVO): guia de 7 passos para apagar 99,8% da exposição online — data brokers (Spokeo, Whitepages, BeenVerified), Google removal request, contas esquecidas via Gmail, HaveIBeenPwned, desativar rastreamento Google, posts antigos (TweetDelete/Redact) e prevenção futura com SimpleLogin e Brave/Firefox ([[ai-technology]])
+- **Tese unificada**: aceleração (LLMs no dev, internet nos dados, mandato corporativo) cria exposições invisíveis que exigem intenção ativa para serem corrigidas — em 5 escalas diferentes
 
 ---
 
@@ -190,7 +191,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]] · [[faria-lima-elevator]] · [[allessandra-sinisgalli]]
 
-**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]] · [[bert-no-chase]] · [[duncan-rogoff]]
+**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]] · [[bert-no-chase]] · [[duncan-rogoff]] · [[ai-technology]]
 
 **Referências de produto Anthropic**: [[boris-cherny]]
 
@@ -252,6 +253,7 @@ Fonte: ([[faria-lima-elevator]])
 - **"Nunca mencione IA" como regra de outreach confirmada**: [[derek-gray]] documenta que 90% do outreach falha por mencionar Claude, IA, ou processo técnico. O cliente compra o resultado (mockup funcional, ranking no Maps), não a tecnologia. Padrão convergente com [[nate-herk]] ("vender outcomes, não workflows") e [[jordan-lee]] ("você entrega dinheiro grátis, fica com uma pequena parte") — três fontes independentes confirmam que a ocultação da IA no pitch é *estratégia*, não limitação
 - **[[lovable]] entra no wiki como ferramenta de prototipagem para outreach**: primeiro registro de geração de landing page como parte do pipeline de prospecção local — o mockup ao vivo substitui o pitch de venda (o cliente vê a solução antes de qualquer conversa comercial)
 - **[[quepo]] como modelo de "agente como serviço recorrente"**: primeiro agente de IA proprietário de um criador documentado no wiki — automatiza 95% do GBP Management, convertendo um serviço ativo em renda passiva recorrente. Padrão distinto do AIaaS de [[bruno-wambier]] (agente empacotado como produto) — aqui o agente opera nos bastidores sem que o cliente saiba
+- **Remoção ativa como par complementar ao diagnóstico OSINT**: [[ai-technology]] fecha o ciclo da Dimensão 2 de [[segurança-com-ia]] — as fontes anteriores (OSINT, HaveIBeenPwned, Webmail/My7) ensinavam a *descobrir* a exposição; este guia ensina a *remover*. HaveIBeenPwned aparece em ambos os lados, confirmando sua posição como pivô entre diagnóstico e remediação. Data brokers (Spokeo, Whitepages, BeenVerified) e SimpleLogin são primeiras ocorrências no wiki
 
 ---
 
@@ -259,9 +261,9 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 73 |
-| Páginas de fontes | 73 |
+| Fontes ingeridas | 74 |
+| Páginas de fontes | 74 |
 | Páginas de conceitos | 18 |
-| Páginas de entidades | 83 |
+| Páginas de entidades | 84 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **181** |
+| **Total de páginas** | **183** |
