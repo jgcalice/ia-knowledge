@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-05-08
-source_count: 72
+last_updated: 2026-05-09
+source_count: 73
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 72 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 73 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -33,7 +33,7 @@ Três métodos documentados, padrão similar, ferramentas diferentes:
 - **Método 3**: Skill "lista de alto valor" + API → leads com dados completos incluindo LinkedIn ([[flavio-rafael]])
 - **Método 4**: [[vibe-prospecting]] (Conector Claude.ai web) + prompt → leads por nicho/cargo/cidade, gratuito e sem CLI ([[eduardo-santos]])
 
-- **Método 5**: Prompts + ChatGPT/Claude → identificar negócios #6–20 no Maps → prospecção + entrega de serviço GMB ($500–$1K/mês retainer) ([[derek-gray]])
+- **Método 5**: Prompts + ChatGPT/Claude → identificar negócios #6–20 no Maps → prospecção + entrega de serviço GMB ($500–$1K/mês retainer) ([[derek-gray]]); **sweet spot pattern** documentado na 3ª fonte: 5+ anos, <80 reviews, sem site, 3.9+ ⭐ → 25–30 leads de um nicho/cidade
 
 **Síntese**: [[comparação-métodos-leads]]
 
@@ -99,7 +99,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - Mini web app focado + Instagram como canal único ([[luna-vega]])
 - AI Agency (Dan Martell, Liam Ottley) — agência automatiza outras empresas ([[paul-hilse]])
 - Stack de 5 skills open-source para founder solo: Meta Ads + Position Me + LinkedIn Post Generator + Reddit ICP Monitor + Google Trends SEO ([[paras-madan]])
-- GMB Optimization Agency: 8 prompts para prospectar negócios #6–20 no Maps e entregar SEO local como serviço — retainers $500–$1K/mês ([[derek-gray]])
+- GMB Optimization Agency: stack completo Google Maps → Claude → [[lovable]] → Outreach → [[quepo]] (95% automatizado) — $12K/mês em 6 meses. Sweet spot: 5+ anos, <80 reviews, sem site, 3.9+ ⭐. Argumento de ROI: top 5 captura 60% dos cliques = $4–6K em PPC → proposta a $500/mês ([[derek-gray]])
 - AI Sales Agency: 3 agentes (AI SDR + Sales Call Analyzer + AI Consultant) cobrem todo o funil — do outreach ao contrato fechado — sem código. $3K/cliente vs $30–50K economizados/ano ([[jordan-lee]])
 - Playbook operacional completo de AI Agency: 7 prompts de [[jordan-lee]] (via [[your-ai-compass]]) — Niche Domination → Offer Builder ($2K/$5K/$10K) → Cold Email Machine → Objection Destroyer → Onboarding Playbook → Upsell Identifier → CEO Weekly Report
 - One-Person Business (Dan Koe model): 5 prompts — ideia → oferta-transformação → sistema de conteúdo → vendas autônomas → escalar sem contratar. Case: $6M, 0 funcionários, 4h/dia ([[ai-fied]] via [[dan-koe]])
@@ -178,7 +178,7 @@ Fonte: ([[faria-lima-elevator]])
 
 ## Mapa de entidades
 
-**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]]
+**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]] · [[lovable]] · [[quepo]]
 
 **Agregadores de conteúdo**: [[ai-developer-js]] · [[bestapps-ai]] · [[beyond-intelligence]]
 
@@ -249,6 +249,9 @@ Fonte: ([[faria-lima-elevator]])
 - **Ruflo como camada de roteamento automático — a automação da escolha de modelo**: [[duncan-rogoff]] apresenta o primeiro registro no wiki de uma infraestrutura externa que automatiza a decisão de qual modelo usar por task (Técnica #3 do [[otimização-de-tokens]]). Diferente das abordagens manuais ([[nate-herk]], [[evolving-ai]]), o Ruflo inspeciona a complexidade do task e faz o roteamento sem intervenção do dev. Padrão novo: **a escolha de modelo deixou de ser decisão de prompt e passou a ser infraestrutura**
 - **"Referência famosa como gancho" consolidado como padrão de conteúdo**: [[ai-fied]] confirma a terceira iteração — Munger junta-se a Naval Ravikant e Dan Koe como wrapper de autoridade para coleções de prompts ROLE/TASK/STEPS/RULES/OUTPUT. O conteúdo central são sempre os prompts; a figura histórica é o title card. Padrão emergente na comunidade de criadores de conteúdo de IA.
 - **Planejamento fiscal como ponto cego do wiki**: primeiro prompt de tax strategy documentado ([[ai-fied]], Prompt 5 do carousel Munger) — revela que [[finanças-com-ia]] pode expandir de "análise de ações" para "planejamento financeiro pessoal" (impostos, deduções, CPA vs. software).
+- **"Nunca mencione IA" como regra de outreach confirmada**: [[derek-gray]] documenta que 90% do outreach falha por mencionar Claude, IA, ou processo técnico. O cliente compra o resultado (mockup funcional, ranking no Maps), não a tecnologia. Padrão convergente com [[nate-herk]] ("vender outcomes, não workflows") e [[jordan-lee]] ("você entrega dinheiro grátis, fica com uma pequena parte") — três fontes independentes confirmam que a ocultação da IA no pitch é *estratégia*, não limitação
+- **[[lovable]] entra no wiki como ferramenta de prototipagem para outreach**: primeiro registro de geração de landing page como parte do pipeline de prospecção local — o mockup ao vivo substitui o pitch de venda (o cliente vê a solução antes de qualquer conversa comercial)
+- **[[quepo]] como modelo de "agente como serviço recorrente"**: primeiro agente de IA proprietário de um criador documentado no wiki — automatiza 95% do GBP Management, convertendo um serviço ativo em renda passiva recorrente. Padrão distinto do AIaaS de [[bruno-wambier]] (agente empacotado como produto) — aqui o agente opera nos bastidores sem que o cliente saiba
 
 ---
 
@@ -256,9 +259,9 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 72 |
-| Páginas de fontes | 72 |
+| Fontes ingeridas | 73 |
+| Páginas de fontes | 73 |
 | Páginas de conceitos | 18 |
-| Páginas de entidades | 81 |
+| Páginas de entidades | 83 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **178** |
+| **Total de páginas** | **181** |

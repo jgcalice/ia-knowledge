@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-08 | Total de páginas: 178 | Fontes ingeridas: 72
+> Atualizado em: 2026-05-09 | Total de páginas: 181 | Fontes ingeridas: 73
 
 ---
 
@@ -87,6 +87,7 @@
 | [[wiki/sources/2026-05-03_nate-herk-6-habilidades-claude-code]] | @Nate Herk \| AI Automation | 2026-05-03 | 6 habilidades fundamentais do Claude Code para automação de IA: Skill Creator, Superpowers, GSD, /review, Context Mode, Claude Mem |
 | [[wiki/sources/2026-05-03_duncan-rogoff-ruflo-claude-code]] | @Duncan Rogoff \| AI for Personal Brands | 2026-05-03 | Ruflo: camada de orquestração #1 GitHub — 100+ agentes, roteamento automático de modelo, -50% tokens, +250% uso |
 | [[wiki/sources/2026-05-08_ai-fied-munger-5-prompts]] | @AI-Fied \| AI Tools & Tech | 2026-05-08 | 5 prompts do sistema Charlie Munger: escrita long-form, aprendizado rápido, análise competitiva com SWOT, análise de ações DIY e planejamento fiscal |
+| [[wiki/sources/2026-05-09_derek-gray-google-maps-claude-monetizacao]] | @Derek Gray | 2026-05-09 | Stack completo Google Maps + Claude + Lovable + Quepo — sweet spot pattern, outreach <70 palavras, GMB recorrente $12K/mês |
 
 ---
 
@@ -132,7 +133,7 @@
 | [[wiki/entities/apify]] | tool | 1 | Plataforma de scraping com conector nativo no Claude |
 | [[wiki/entities/api-file]] | platform | 1 | Marketplace de APIs para scraping e integração |
 | [[wiki/entities/markitdown]] | tool | 2 | Conversor de documentos para Markdown (Microsoft) |
-| [[wiki/entities/google-maps]] | platform | 3 | Fonte de dados para leads B2B + mercado de SEO local (agência GMB) |
+| [[wiki/entities/google-maps]] | platform | 4 | Fonte de dados para leads B2B + mercado de SEO local (agência GMB) + sweet spot pattern |
 | [[wiki/entities/linkedin]] | platform | 6 | Plataforma de otimização de perfil e busca de vagas |
 | [[wiki/entities/career-ops]] | tool | 2 | Sistema open-source de busca de emprego com Claude Code (plugin + terminal) |
 | [[wiki/entities/claude-skills]] | tool | 4 | Feature Anthropic: pacotes nomeados de comportamento (Feature Forge, The Fool, etc.) + stack oficial de automação (Skill Creator, Superpowers, GSD, Context Mode, Claude Mem) |
@@ -195,7 +196,9 @@
 | [[wiki/entities/faria-lima-elevator]] | @FariaLimaElevat | 1 | Criador BR — 8 prompts de análise de investimento com personas de instituições financeiras de elite |
 | [[wiki/entities/starter-story]] | @Starter Story | 1 | Plataforma de histórias de founders bootstrapped — case Joseph: $3M ARR com Reddit + Programmatic SEO |
 | [[wiki/entities/coding-ai-fullstack]] | @coderss_world | 1 | Canal Internacional — casos reais de IA aplicada a carreira e tecnologia |
-| [[wiki/entities/derek-gray]] | @Derek Gray | 2 | Criador Internacional — GMB Optimization Agency (8 prompts, $10K/mês) + ChatGPT para riqueza |
+| [[wiki/entities/derek-gray]] | @Derek Gray | 3 | Criador Internacional — GMB Optimization Agency: stack completo Google Maps + Claude + Lovable + Quepo; $12K/mês em 6 meses |
+| [[wiki/entities/lovable]] | — | 1 | Ferramenta no-code de landing pages via prompts — mockup ao vivo em 5 minutos para pipeline de prospecção local |
+| [[wiki/entities/quepo]] | — | 1 | Agente de IA proprietário de Derek Gray — automatiza 95% do GBP Management (auditorias, ranking, conteúdo, reviews) |
 | [[wiki/entities/context7]] | Context7 MCP | 1 | Servidor MCP que injeta documentação atualizada de libs no contexto do Claude |
 | [[wiki/entities/jordan-lee]] | @Jordan Lee | 2 | Fundador AI Acquisition — AI Sales Agency com pipeline agêntico + playbook operacional completo de 7 prompts |
 | [[wiki/entities/your-ai-compass]] | @Your Ai Compass | 2 | Criador Internacional — curadoria de playbooks de AI Agency + otimização de perfil profissional |

@@ -2,8 +2,8 @@
 title: "Geração de Leads com IA"
 type: concept
 tags: [leads, prospecção, automação, google-maps, ia, b2b, conectores, vibe-prospecting, seo-local]
-source_count: 5
-last_updated: 2026-04-29
+source_count: 6
+last_updated: 2026-05-09
 ---
 
 # Geração de Leads com IA
@@ -48,6 +48,29 @@ Tabela de leads (telefone, endereço, site, redes, avaliação)
 Diferença chave: aqui o objetivo não é *usar* o lead como cliente direto do seu produto — é *ajudar o negócio local a melhorar seu próprio rankeamento* como serviço recorrente.
 → [[2026-04-05_derek-gray-renda-recorrente-google-maps]]
 
+### Sweet spot pattern (critérios objetivos de qualificação de lead)
+
+Segunda fonte de [[derek-gray]] (2026-05-09) documenta critérios de filtragem antes de qualquer outreach — o "padrão de mina de ouro":
+
+| Critério | Valor-alvo |
+|----------|-----------|
+| Tempo de operação | Mais de 5 anos (negócio estabelecido) |
+| Número de avaliações | Menos de 80 (baixa visibilidade online) |
+| Presença na web | Sem website ou website desatualizado |
+| Qualidade das avaliações | 3,9 estrelas ou mais (boa reputação) |
+
+**Meta**: 25–30 leads de **um único nicho em uma cidade**. A combinação (negócio maduro + presença digital fraca + boa reputação) indica receita existente perdendo clientes por ausência online.
+
+**Pipeline completo com o sweet spot**:
+
+```
+Maps (sweet spot filter) → Claude (diagnóstico + brief + mensagem <70 palavras)
+→ Lovable (landing page mockup em 5 min) → Outreach (link do mockup, nunca mencionar IA)
+→ GBP Management recorrente ($500–800/mês via Quepo)
+```
+
+→ [[2026-05-09_derek-gray-google-maps-claude-monetizacao]]
+
 ## Boas práticas identificadas
 
 1. **Contextualizar o ICP** antes de iniciar o scraping — quanto mais contexto sobre o lead ideal, mais qualificados os resultados (Lucas Garcia Pit)
@@ -71,3 +94,4 @@ Diferença chave: aqui o objetivo não é *usar* o lead como cliente direto do s
 - [[2026-04-15_leads-qualificados-claudecode]]
 - [[2026-04-14_eduardo-santos-vibe-prospecting]]
 - [[2026-04-05_derek-gray-renda-recorrente-google-maps]]
+- [[2026-05-09_derek-gray-google-maps-claude-monetizacao]]

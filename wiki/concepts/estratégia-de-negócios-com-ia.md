@@ -1,9 +1,9 @@
 ---
 title: "Estratégia de Negócios com IA"
 type: concept
-tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe]
-source_count: 16
-last_updated: 2026-05-06
+tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach]
+source_count: 17
+last_updated: 2026-05-09
 ---
 
 # Estratégia de Negócios com IA
@@ -76,15 +76,35 @@ Padrão convergente com outros dados do wiki: [[brycen-wood]] (SEO 1ª página c
 
 ### GMB Optimization Agency (SEO local como serviço recorrente)
 
-[[derek-gray]] apresenta um arquétipo de negócio operacionalmente detalhado: **agência de otimização de Google Business Profile**, executada com 8 prompts de IA e modelo de receita recorrente.
+[[derek-gray]] apresenta um arquétipo de negócio operacionalmente detalhado: **agência de otimização de Google Business Profile**, executada com stack de IA e modelo de receita recorrente. Documentado em duas fontes com crescente nível de detalhe.
 
+**Fonte 1** ([[2026-04-05_derek-gray-renda-recorrente-google-maps]]):
 - **Mercado-alvo**: negócios locais rankeados #6–20 no Google Maps — visíveis, mas "invisíveis" para a maioria dos clientes
 - **Precificação**: retainers de $500–$1K/mês por cliente (Derek reporta $10K/mês)
 - **Entrega completa por IA**: 8 prompts cobrem todo o ciclo — análise de mercado → prospecção → conteúdo GBP → respostas de reviews → auditoria SEO → keywords → lead magnets → aquisição
-- **Barreira de entrada baixa**: não exige código, não exige plataforma própria — apenas prompts e conhecimento de GBP
+- **Barreira de entrada baixa**: não exige código, não exige plataforma própria
+
+**Fonte 2** ([[2026-05-09_derek-gray-google-maps-claude-monetizacao]]) — stack completo com ferramentas específicas:
+
+```
+Google Maps (sweet spot) → Claude (briefs + outreach) → Lovable (landing page) 
+→ Outreach (<70 palavras, nunca mencionar IA) → Quepo (95% automatizado)
+```
+
+| Ferramenta | Papel no pipeline |
+|-----------|------------------|
+| [[google-maps]] | Identificar negócios (5+ anos, <80 reviews, sem site, 3.9+ ⭐) |
+| Claude | Gerar diagnóstico (50 palavras) + brief do site (100 palavras) + mensagem fria (<70 palavras) em tabela CRM |
+| [[lovable]] | Construir landing page mockup em 5 minutos → URL ao vivo para enviar no outreach |
+| [[quepo]] | Agente de IA: auditorias, otimização orgânica, gestão de conteúdo e reviews — 95% automatizado |
+
+**Argumento de ROI para o cliente**: top 5 da Map Pack captura 60% dos cliques. Custo equivalente em PPC = $4.000–$6.000/mês para 100 cliques. Proposta: $500/mês.
+
+**Escalonamento**: 10 clientes → $5K/mês; 20 clientes → $10–20K/mês.
+
+**Resultado documentado**: $12K/mês em 6 meses sem cold-calling ou habilidades técnicas.
 
 Diferença dos modelos anteriores: aqui a IA **opera e entrega o serviço** (não só analisa ou distribui), e o canal de entrega (Google Maps) é o mesmo canal de prospecção.
-→ [[2026-04-05_derek-gray-renda-recorrente-google-maps]]
 
 ## Repositórios open-source como modelo de monetização
 
@@ -205,6 +225,7 @@ Framework de posicionamento para quem vende automações com IA, extraído de 40
 
 ## Fontes
 
+- [[2026-05-09_derek-gray-google-maps-claude-monetizacao]]
 - [[2026-05-03_nate-herk-6-habilidades-claude-code]]
 - [[2026-04-30_ai-fied-dan-koe-negocio-solo]]
 - [[2026-05-01_bestapps-ferramentas-open-source]]
