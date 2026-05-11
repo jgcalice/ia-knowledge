@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-05-10
-source_count: 74
+last_updated: 2026-05-11
+source_count: 75
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 74 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 75 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -174,6 +174,8 @@ Fonte: ([[faria-lima-elevator]])
 **3º ângulo:** Pipeline sequencial de screening para seleção de ações de swing trade — 3 prompts em funil (tema → 25 candidatos → top 3 deep dive) em 5 minutos. **Limitação explícita:** IA não substitui leitura de gráfico no timing de entrada. Case: $129K/ano com full-time job, AMD e Palantir como exemplos. ([[bert-no-chase]])
 
 **4º ângulo:** Análise DIY de ações com analista genérico — template ROLE/TASK/STEPS/RULES/OUTPUT com saída estruturada: modelo de negócios → saúde financeira → moat → valuation → bear/bull case → recomendação. Distinto dos ângulos anteriores: sem nomear instituição (vs. [[faria-lima-elevator]]), sem funil de triagem (vs. [[bert-no-chase]]). Mesmo carousel introduz **1º prompt de planejamento fiscal do wiki**: Tax Strategist com checklist de deduções, cenários fiscais e comparação CPA vs. software. ([[ai-fied]])
+
+**5º ângulo (NOVO):** Pipeline sequencial completo — 10 prompts em ordem replicando o workflow inteiro de analistas institucionais de Wall Street. Alternativa gratuita ao Bloomberg Terminal ($24K/ano): Kickoff Report → Earnings Analysis → Bull/Bear Debate → Forensic Accounting → Valuation Framework → Company Comparison → Investor Summary → Stress Test → Big Business vs Big Stock. **Novidade estrutural**: sequência como metodologia (order > isolation); Forensic Accounting como ângulo inédito no wiki (stock-based comp, contabilidade agressiva, red flags pré-compra); stress test com atribuição de probabilidades aos cenários. ([[artificial-intelligence-business]] / @thewizeai)
 
 ---
 

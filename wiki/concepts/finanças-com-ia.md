@@ -2,8 +2,8 @@
 title: "Finanças com IA"
 type: concept
 tags: [finanças-com-ia, investimentos, análise-financeira, prompt-engineering, llm, trading]
-source_count: 4
-last_updated: 2026-05-08
+source_count: 5
+last_updated: 2026-05-11
 ---
 
 # Finanças com IA
@@ -102,9 +102,47 @@ Fonte: [[2026-05-08_ai-fied-munger-5-prompts]] | [[ai-fied]]
 | Screening sequencial | Pipeline funil (tema → 25 → top 3 + deep dive) | Trabalhador CLT / swing trader | Timing de entrada permanece humano |
 | DIY estruturado | Template explícito com analista genérico | Qualquer usuário | Finaliza com disclaimer "não é recomendação financeira" |
 
+## Quinto ângulo documentado: Pipeline sequencial completo de análise institucional
+
+@Artificial Intelligence l Business (@thewizeai) publica 10 prompts para replicar o raciocínio de analistas de Wall Street com Claude — alternativa gratuita ao Bloomberg Terminal ($24.000/ano).
+
+**Diferença fundamental em relação às abordagens anteriores:** não é um único prompt com ROLE institucional (vs. [[faria-lima-elevator]]), nem triagem em funil (vs. [[bert-no-chase]]), nem template genérico de analista (vs. [[ai-fied]]). É um *pipeline sequencial completo* onde a ordem dos prompts é parte da metodologia.
+
+| # | Prompt | Função no pipeline |
+|---|--------|--------------------|
+| 1 | Institutional Kickoff Report | Base: modelo de negócio, motores de receita, moat, riscos, gestão, 3 bulls + 3 bears |
+| 2 | Quarterly Results Analysis | Camada: earnings breakdown — melhorou/piorou/gestão enfatiza/evita/red flags/KPIs próximo tri |
+| 3 | Bull vs Bear Debate | Posição: caso otimista vs. pessimista; qual lado vence *agora* |
+| 4 | Forensic Accounting Analysis | Auditoria: qualidade de receitas, cash flow, diluição, stock-based comp, contabilidade agressiva, red flags antes de comprar |
+| 5 | Honest Valuation Framework | Preço: P/E, EV/EBITDA, Price/Sales, FCF yield, DCF — barato/justo/caro sem fingir precisão |
+| 6 | Company Comparison | Alternativa: head-to-head A vs. B em 10 critérios; qual segurar 5 anos |
+| 7 | Investor Summary Sheet | Síntese: 1 página a partir de filings/transcript — o que observar no próximo relatório |
+| 8 | Stress Test of Investment Thesis | Risco: 3 cenários (bull/base/bear) com estimativas de receita, margem, sentimento, variação de preço e *probabilidade* |
+| 9 | Big Business vs Big Stock | Qualidade: o negócio é grande? A ação também? — classificação em 4 quadrantes |
+
+**Princípio-chave:** os prompts devem ser usados *em sequência*, não em isolamento. "Start with the Kickoff Report to build your foundation, then layer on the earnings analysis, valuation, and risk assessment."
+
+**Novidades em relação ao domínio até então documentado:**
+- **Forensic Accounting** como camada de análise — qualidade contábil, stock-based compensation, discrepâncias reportado vs. real. Inédito no wiki de finanças
+- **Bull vs Bear Debate como artefato forçado** — não análise neutra, mas posição explícita sobre qual tese vence agora
+- **Stress test com probabilidades** — os três cenários exigem atribuição numérica de probabilidade, não apenas descrição qualitativa
+- **Sequência como metodologia** — insight estrutural: a ordem dos prompts replica o *processo* de raciocínio institucional
+
+Fonte: [[2026-05-01_artificial-intelligence-business-analise-acoes]] | [[artificial-intelligence-business]]
+
+## Padrão estrutural comparativo entre as cinco abordagens
+
+| Abordagem | Técnica central | Público | Limitações reconhecidas |
+|-----------|-----------------|---------|------------------------|
+| Institucional (ROLE) | Nomear instituição → convoca metodologia publicada | Investidor sofisticado | Nenhuma mencionada |
+| Riqueza individual | ChatGPT para construção de patrimônio | Público geral | Parcial (conteúdo incompleto) |
+| Screening sequencial | Pipeline funil (tema → 25 → top 3 + deep dive) | Trabalhador CLT / swing trader | Timing de entrada permanece humano |
+| DIY estruturado | Template explícito com analista genérico | Qualquer usuário | Finaliza com disclaimer "não é recomendação financeira" |
+| Pipeline completo sequencial | 10 prompts em sequência replicando workflow institucional | Investidor individual ambicioso | Não substitui dado proprietário (Bloomberg) |
+
 ## Estado atual do wiki
 
-Domínio com 4 fontes. Quatro ângulos distintos: análise financeira institucional via ROLE (Faria Lima Elevator), construção de riqueza individual via ChatGPT (Derek Gray — parcial), pipeline de screening para seleção de ações (Bert) e análise DIY com template estruturado (AI-Fied).
+Domínio com 5 fontes. Cinco ângulos distintos: análise financeira institucional via ROLE (Faria Lima Elevator), construção de riqueza individual via ChatGPT (Derek Gray — parcial), pipeline de screening para seleção de ações (Bert), análise DIY com template estruturado (AI-Fied) e pipeline sequencial completo de análise institucional (Artificial Intelligence l Business / @thewizeai).
 
 ## Fontes
 
@@ -112,3 +150,4 @@ Domínio com 4 fontes. Quatro ângulos distintos: análise financeira institucio
 - [[2026-04-28_derek-gray-chatgpt-wealth]] — carousel sobre ChatGPT para construção de riqueza (ingestão parcial)
 - [[2026-04-30_bert-swing-trading-ia]] — pipeline de 3 prompts para screening e seleção de ações em 5 minutos
 - [[2026-05-08_ai-fied-munger-5-prompts]] — prompt DIY de análise de ações com template ROLE/TASK/STEPS/RULES/OUTPUT + primeiro prompt de planejamento fiscal do wiki
+- [[2026-05-01_artificial-intelligence-business-analise-acoes]] — 10 prompts sequenciais para análise institucional completa: Kickoff → Earnings → Bull/Bear → Forensic → Valuation → Comparison → Summary → Stress Test → Quality

@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-10 | Total de páginas: 183 | Fontes ingeridas: 74
+> Atualizado em: 2026-05-11 | Total de páginas: 185 | Fontes ingeridas: 75
 
 ---
 
@@ -89,6 +89,7 @@
 | [[wiki/sources/2026-05-08_ai-fied-munger-5-prompts]] | @AI-Fied \| AI Tools & Tech | 2026-05-08 | 5 prompts do sistema Charlie Munger: escrita long-form, aprendizado rápido, análise competitiva com SWOT, análise de ações DIY e planejamento fiscal |
 | [[wiki/sources/2026-05-09_derek-gray-google-maps-claude-monetizacao]] | @Derek Gray | 2026-05-09 | Stack completo Google Maps + Claude + Lovable + Quepo — sweet spot pattern, outreach <70 palavras, GMB recorrente $12K/mês |
 | [[wiki/sources/2026-05-07_ai-technology-footprint-digital]] | @AI \| Technology | 2026-05-07 | 7 passos para remover 99,8% da pegada digital: data brokers, Google, HIBP, rastreamento, posts antigos, SimpleLogin |
+| [[wiki/sources/2026-05-01_artificial-intelligence-business-analise-acoes]] | @Artificial Intelligence l Business | 2026-05-01 | 10 prompts sequenciais para análise de ações como Wall Street com Claude — alternativa gratuita ao Bloomberg Terminal ($24K/ano) |
 
 ---
 
@@ -111,7 +112,7 @@
 | [[wiki/concepts/escolha-de-modelo-fundacional]] | 1 | Comoditização parcial (42% commodity); multi-model + abstraction layer como vantagem |
 | [[wiki/concepts/mudança-organizacional-com-ia]] | 1 | Change management como 35% da resistência; sponsorship continuado através da falha; iteração em 100% dos sucessos |
 | [[wiki/concepts/produtividade-e-emprego-com-ia]] | 1 | 45% reduzem headcount; 55% redeployment ou hiring avoided; "canários" em workers 22-25 expostos |
-| [[wiki/concepts/finanças-com-ia]] | 1 | Análise de investimentos de nível institucional com LLMs — técnica de usar nomes de grandes casas (Goldman Sachs, Bridgewater) como ROLE |
+| [[wiki/concepts/finanças-com-ia]] | 5 | Análise de investimentos de nível institucional com LLMs — 5 ângulos: ROLE institucional, riqueza individual, screening funil, DIY estruturado, pipeline sequencial completo |
 | [[wiki/concepts/bem-estar-com-ia]] | 1 | Prompts parametrizados substituindo serviços profissionais de fitness — inputs de anamnese → protocolo de nível profissional |
 | [[wiki/concepts/busca-de-emprego-com-ia]] | 3 | Busca de emprego automatizada com Career Ops, ATS e candidaturas personalizadas por vaga |
 
