@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-11 | Total de páginas: 187 | Fontes ingeridas: 76
+> Atualizado em: 2026-05-11 | Total de páginas: 189 | Fontes ingeridas: 77
 
 ---
 
@@ -91,6 +91,7 @@
 | [[wiki/sources/2026-05-07_ai-technology-footprint-digital]] | @AI \| Technology | 2026-05-07 | 7 passos para remover 99,8% da pegada digital: data brokers, Google, HIBP, rastreamento, posts antigos, SimpleLogin |
 | [[wiki/sources/2026-05-01_artificial-intelligence-business-analise-acoes]] | @Artificial Intelligence l Business | 2026-05-01 | 10 prompts sequenciais para análise de ações como Wall Street com Claude — alternativa gratuita ao Bloomberg Terminal ($24K/ano) |
 | [[wiki/sources/2026-05-09_shimin-mohammadi-amazon-claude]] | @Shimin Mohammadi | 2026-05-09 | Amazon FBA com Claude: 5 prompts para lançar produto físico — produto → fabricante → marca → listing SEO → plano de lançamento |
+| [[wiki/sources/2026-05-08_growai-10-ferramentas-gratuitas]] | @GROWAI | 2026-05-08 | 10 ferramentas open-source gratuitas para faturar $10K/mês: Claude Ads, Hyperframes, Fincept Terminal, Open-Gen-AI, Agentic Inbox, AutoHedge, Context Mode, CamoFox, Vibe Trading |
 
 ---
 
@@ -165,6 +166,7 @@
 | [[wiki/entities/bestapps-ai]] | @bestapps.ai | 1 | Canal curador de repos open-source que substituem softwares proprietários caros |
 | [[wiki/entities/beyond-intelligence]] | @Beyond Intelligence — AI News & Tools | 1 | Canal agregador de AI news — tabelas de referência visual (89 comandos Claude em 11 categorias) |
 | [[wiki/entities/ai-technology]] | @AI \| Technology | 1 | Canal de privacidade digital e segurança online — guia de 7 passos para remoção de pegada digital |
+| [[wiki/entities/growai]] | @GROWAI | 1 | Canal curador de repos open-source para monetização com IA — "$10K/mês com ferramentas gratuitas do GitHub" |
 
 ### Pessoas / Criadores (Internacional — e-commerce)
 

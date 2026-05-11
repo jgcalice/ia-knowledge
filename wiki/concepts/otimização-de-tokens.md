@@ -2,8 +2,8 @@
 title: "Otimização de Tokens no Claude"
 type: concept
 tags: [tokens, otimização, claude, pdf, markdown, contexto, modelo, sessão, context-rot, mcp, api]
-source_count: 11
-last_updated: 2026-05-07
+source_count: 12
+last_updated: 2026-05-11
 ---
 
 # Otimização de Tokens no Claude
@@ -147,7 +147,7 @@ Manter CLAUDE.md lean (150–200 linhas) enquanto ainda disponibiliza contexto r
 
 ### 17. Context-mode: 98% de redução cross-platform
 
-([[paras-madan]], [[2026-04-30_paras-madan-repos-monetizacao]]) — **confirmado por [[bestapps-ai]], [[2026-05-01_bestapps-ferramentas-open-source]]**
+([[paras-madan]], [[2026-04-30_paras-madan-repos-monetizacao]]) — **confirmado por [[bestapps-ai]], [[2026-05-01_bestapps-ferramentas-open-source]]** — **3ª confirmação: [[growai]], [[2026-05-08_growai-10-ferramentas-gratuitas]]**
 
 Repositório open-source (`mksglu/context-mode`, 11k⭐) projetado para agentes de IA:
 - Reduz em **98%** o contexto necessário — agentes processam dados sem acumular tokens desnecessários
@@ -193,6 +193,7 @@ A camada de orquestração [[ruflo]] (`ruvnet/ruflo`) implementa automaticamente
 
 ## Fontes
 
+- [[2026-05-08_growai-10-ferramentas-gratuitas]]
 - [[2026-05-01_bestapps-ferramentas-open-source]]
 - [[2026-04-30_paras-madan-repos-monetizacao]]
 - [[2026-04-11_tokens-markdown]]

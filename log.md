@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-05-11] ingest | 10 Ferramentas Gratuitas para Lucrar com IA — @GROWAI
+
+Fonte: `2026-05-08_growai_DYFtUkwE9dJ.md` (carousel, 10/12 slides). Página criada: wiki/sources/2026-05-08_growai-10-ferramentas-gratuitas.md. Entidade criada: entities/growai.md (novo canal agregador Internacional — repos open-source como monetização direta: "$10K/mês com ferramentas gratuitas do GitHub"; enquadramento distinto de bestapps-ai e paras-madan). Atualizada: concepts/estratégia-de-negócios-com-ia.md (source_count 18→19, 3ª confirmação do padrão "repos como modelo de monetização", GROWAI como 3ª fonte após paras-madan e bestapps-ai; detalhe novo de Claude Ads a $1.500/cliente e Fincept Terminal com 37 agentes IA). Atualizada: concepts/agentes-ia.md (source_count 20→21, GROWAI como 2ª confirmação para Agentic Inbox, AutoHedge, Vibe Trading, CamoFox; Hyperframes adicionado como novo arquétipo "produção de vídeo para agentes"). Atualizada: concepts/otimização-de-tokens.md (source_count 11→12, GROWAI como 3ª confirmação do context-mode). wiki/overview.md (76→77 fontes, [[growai]] adicionado ao mapa de Agregadores, 3ª confirmação de repos adicionada ao Cluster 4, 187→189 páginas). index.md (187→189 páginas, 76→77 fontes, +1 fonte, +1 entidade).
+
 ## [2026-05-11] ingest | Amazon FBA com Claude: 5 Prompts para $900/dia — @Shimin Mohammadi
 
 Fonte: `2026-05-09_shimin_mohammadi_DYHoJXPEzi3.md` (carousel, 10 slides). Página criada: wiki/sources/2026-05-09_shimin-mohammadi-amazon-claude.md. Entidade criada: entities/shimin-mohammadi.md (nova criadora Internacional — Amazon FBA com IA; pipeline de 5 prompts: produto → fabricante → marca → listing SEO → plano de lançamento). Atualizada: concepts/estratégia-de-negócios-com-ia.md (source_count 17→18, nova seção "Amazon FBA com Claude" com tabela dos 5 prompts + métricas do exemplo Dissolv + novo arquétipo na tabela: Amazon FBA com IA). wiki/overview.md (75→76 fontes, [[shimin-mohammadi]] adicionado ao mapa Internacional, novo padrão emergente "Amazon FBA como único arquétipo de produto físico", status table 185→187 páginas). index.md (185→187 páginas, 75→76 fontes, +1 fonte, +1 entidade).

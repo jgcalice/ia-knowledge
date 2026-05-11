@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-05-11
-source_count: 76
+source_count: 77
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 76 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 77 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -105,7 +105,8 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - Playbook operacional completo de AI Agency: 7 prompts de [[jordan-lee]] (via [[your-ai-compass]]) — Niche Domination → Offer Builder ($2K/$5K/$10K) → Cold Email Machine → Objection Destroyer → Onboarding Playbook → Upsell Identifier → CEO Weekly Report
 - One-Person Business (Dan Koe model): 5 prompts — ideia → oferta-transformação → sistema de conteúdo → vendas autônomas → escalar sem contratar. Case: $6M, 0 funcionários, 4h/dia ([[ai-fied]] via [[dan-koe]])
 - Repos open-source como substitutos de softwares de cinco dígitos: FinceptTerminal ($24K/ano → grátis), Open-Gen-AI ($100+/mês → grátis), Claude Ads ($2K/cliente → $1,5K de receita via revenda). O ângulo não é "ferramenta para operar negócio", mas "substituir a linha de despesa e embolsar a diferença" ([[bestapps-ai]])
-- **Amazon FBA com IA (NOVO)**: 5 prompts para lançar produto físico na Amazon — único arquétipo de e-commerce físico do wiki. Produto → fabricante → marca → listing SEO → plano de lançamento. Amazon FBA cuida de toda a logística. Exemplo documentado: Cleaning Gel Tablets, marca Dissolv, margem 28%, $10K/mês em 7–9 meses ([[shimin-mohammadi]])
+- **Amazon FBA com IA**: 5 prompts para lançar produto físico na Amazon — único arquétipo de e-commerce físico do wiki. Produto → fabricante → marca → listing SEO → plano de lançamento. Amazon FBA cuida de toda a logística. Exemplo documentado: Cleaning Gel Tablets, marca Dissolv, margem 28%, $10K/mês em 7–9 meses ([[shimin-mohammadi]])
+- **3ª confirmação — repos como modelo de monetização (NOVO)**: [[growai]] confirma o ecossistema de repos open-source com enquadramento distinto: "$10K/mês com ferramentas gratuitas do GitHub". Detalhe novo: Claude Ads como auditoria de anúncios por $1.500/cliente; Hyperframes como produção de vídeo automatizada para agentes IA. 3 fontes independentes (paras-madan, bestapps-ai, growai) = padrão consolidado no wiki
 
 ---
 
@@ -184,7 +185,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]] · [[lovable]] · [[quepo]]
 
-**Agregadores de conteúdo**: [[ai-developer-js]] · [[bestapps-ai]] · [[beyond-intelligence]]
+**Agregadores de conteúdo**: [[ai-developer-js]] · [[bestapps-ai]] · [[beyond-intelligence]] · [[growai]]
 
 **Instituições acadêmicas**: [[stanford-digital-economy-lab]]
 

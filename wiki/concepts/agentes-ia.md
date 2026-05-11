@@ -2,8 +2,8 @@
 title: "Agentes de IA"
 type: concept
 tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents, agent-teams, git-worktrees, hooks, plugins, skills]
-source_count: 20
-last_updated: 2026-05-07
+source_count: 21
+last_updated: 2026-05-11
 ---
 
 # Agentes de IA
@@ -261,9 +261,9 @@ O plugin GSD (get-shit-done-cc) formaliza sub-agentes como **infraestrutura de q
 
 > Complementa a análise de sub-agentes de [[nate-herk]] em [[2026-04-20_nate-herk-gerenciar-limites-sessao]] (perspectiva: economia de tokens) e de [[boris-cherny]] em [[2026-04-17_manthan-patel-claudemd-boris-cherny]] (perspectiva: contexto limpo + paralelismo). O GSD adiciona uma terceira perspectiva: **qualidade garantida por design de contexto**.
 
-### Novos arquétipos de agente: e-mail, hedge fund autônomo e browser anti-bot
+### Novos arquétipos de agente: e-mail, hedge fund autônomo, browser anti-bot e vídeo para agentes
 
-([[bestapps-ai]], [[2026-05-01_bestapps-ferramentas-open-source]])
+([[bestapps-ai]], [[2026-05-01_bestapps-ferramentas-open-source]]) — **confirmado por [[growai]], [[2026-05-08_growai-10-ferramentas-gratuitas]]**
 
 Três arquétipos inéditos no wiki:
 
@@ -290,8 +290,15 @@ Três arquétipos inéditos no wiki:
 - Output: backtesting em ações/cripto/forex + exportação para TradingView/MetaTrader sem chaves de API
 - Complementa [[tradingagents]] (debate focado em sentimento/técnica/fundamentos) com uma camada de linguagem natural na entrada e exportação para plataformas profissionais na saída
 
+**Hyperframes** (`heygen-com/hyperframes`, 12.6k⭐) — produção de vídeo nativa para agentes IA:
+- Input: HTML → Output: MP4 sem timeline editor
+- Agentes de IA já produzem HTML; Hyperframes converte esse output em vídeo automaticamente
+- Usos: conteúdo social, ads, demos de produto em escala
+- Padrão arquitetural: ferramenta de *output* de agentes (não de input) — expande o que o agente consegue entregar além de texto e código
+
 ## Fontes
 
+- [[2026-05-08_growai-10-ferramentas-gratuitas]]
 - [[2026-05-03_nate-herk-6-habilidades-claude-code]]
 - [[2026-05-01_bestapps-ferramentas-open-source]]
 - [[2026-04-30_manthan-patel-agent-development-kit]]
