@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-05-11] ingest | Amazon FBA com Claude: 5 Prompts para $900/dia — @Shimin Mohammadi
+
+Fonte: `2026-05-09_shimin_mohammadi_DYHoJXPEzi3.md` (carousel, 10 slides). Página criada: wiki/sources/2026-05-09_shimin-mohammadi-amazon-claude.md. Entidade criada: entities/shimin-mohammadi.md (nova criadora Internacional — Amazon FBA com IA; pipeline de 5 prompts: produto → fabricante → marca → listing SEO → plano de lançamento). Atualizada: concepts/estratégia-de-negócios-com-ia.md (source_count 17→18, nova seção "Amazon FBA com Claude" com tabela dos 5 prompts + métricas do exemplo Dissolv + novo arquétipo na tabela: Amazon FBA com IA). wiki/overview.md (75→76 fontes, [[shimin-mohammadi]] adicionado ao mapa Internacional, novo padrão emergente "Amazon FBA como único arquétipo de produto físico", status table 185→187 páginas). index.md (185→187 páginas, 75→76 fontes, +1 fonte, +1 entidade).
+
 ## [2026-05-11] ingest | 10 Prompts para Análise de Ações como Wall Street com Claude — @Artificial Intelligence l Business
 
 Fonte: `2026-05-01_artificial_intelligence_l_business_DXzzxyCDk-9.md` (carousel, 10/12 slides). Página criada: wiki/sources/2026-05-01_artificial-intelligence-business-analise-acoes.md. Atualizada: entities/artificial-intelligence-business.md (source_count 2→3, 3ª fonte: pipeline sequencial de 10 prompts para análise institucional — Bloomberg Terminal alternativo gratuito; tags expandidas para finanças-com-ia e investimentos). Atualizada: concepts/finanças-com-ia.md (source_count 4→5, 5º ângulo documentado: pipeline sequencial completo — 10 prompts em ordem replicando workflow institucional; novidades: Forensic Accounting, Bull vs Bear Debate com posição forçada, stress test com probabilidades, "sequência como metodologia"; tabela comparativa das 5 abordagens atualizada; novo bloco "Estado atual" e nova entrada na seção Fontes). wiki/overview.md (74→75 fontes, Cluster 9 expandido com 5º ângulo, status table 183→185 páginas). index.md (183→185 páginas, 74→75 fontes, +1 fonte, artificial-intelligence-business source_count 2→3, finanças-com-ia source_count 1→5).

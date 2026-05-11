@@ -1,9 +1,9 @@
 ---
 title: "Estratégia de Negócios com IA"
 type: concept
-tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach]
-source_count: 17
-last_updated: 2026-05-09
+tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce]
+source_count: 18
+last_updated: 2026-05-11
 ---
 
 # Estratégia de Negócios com IA
@@ -153,6 +153,7 @@ Diferença dos modelos anteriores: aqui a IA **opera e entrega o serviço** (nã
 | **AI Sales Agency** | 3 agentes (SDR + Analisador + Consultor) cobrem todo o funil de vendas — $3K/cliente, sem código | [[jordan-lee]] |
 | **One-Person Business (Dan Koe model)** | 5 prompts: ideia → oferta-transformação → conteúdo → vendas autônomas → escalar sem equipe | [[ai-fied]] (via [[dan-koe]]) |
 | **Freelance + Day Rate + Desafio Pago** | 5 templates com placeholders para monetizar skill existente em dias/semanas; day rate: $1K/dia com IA | [[laura-anderson]] |
+| **Amazon FBA com IA** | 5 prompts para lançar produto físico na Amazon: produto → fabricante → marca → listing SEO → plano de lançamento | [[shimin-mohammadi]] |
 
 ## One-Person Business: o modelo de Dan Koe reverse-engineered com Claude
 
@@ -205,6 +206,26 @@ Segunda fonte de [[jordan-lee]], publicada via [[your-ai-compass]], documenta o 
 Complemento da fonte anterior: enquanto [[2026-04-15_jordan-lee-vendas-sistema-ia]] descreve os 3 agentes de vendas, esta fonte documenta **o que os agentes entregam ao cliente final** (AI receptionist) e **como o operador gerencia o negócio** (CEO Weekly Report).
 → [[2026-04-30_your-ai-compass-7-prompts-agencia-ia]]
 
+## Amazon FBA com Claude: e-commerce físico lançado com 5 prompts
+
+[[shimin-mohammadi]] documenta o único arquétipo de **produto físico** do wiki — enquanto todos os demais modelos são digitais (SaaS, agência, infoproduto, leads), aqui o Claude orienta o lançamento de um produto na Amazon FBA do zero:
+
+| # | Prompt | Entrega |
+|---|--------|---------|
+| 1 | **Find a winning product** | 10 itens domésticos de baixa concorrência com >$60K/mês em vendas |
+| 2 | **Find a manufacturer** | Fabricantes com baixo MOQ, OEM/ODM, amostras grátis |
+| 3 | **Create a brand** | Nome + slogan + conceito de logo sem trademark |
+| 4 | **Create Product Description** | Listing Amazon SEO-otimizado com bullet points ricos em keywords |
+| 5 | **Create profitable launch plan** | Roteiro de 6 fases até $10K/mês, com estimativas de custo |
+
+**Métricas do exemplo documentado** (Cleaning Gel Tablets → marca Dissolv): preço $18,99, margem líquida 28%, ~870 unidades/mês, timeline 7–9 meses para $10K de lucro líquido.
+
+**Diferencial dos arquétipos anteriores**: a Amazon é o canal de distribuição *e* de fulfillment — o FBA cuida do envio em cada venda. Quem opera não precisa lidar com logística. A IA faz pesquisa de produto, fabricante, marca, SEO e plano; a Amazon faz o resto.
+
+**Convergência com outros arquétipos**: o pipeline sequencial de 5 prompts com output encadeado é o mesmo padrão de [[jordan-lee]] (AI Sales Agency), [[derek-gray]] (GMB Agency) e [[luna-vega]] (Mini web app) — o que muda é o canal de distribuição e a natureza do produto (físico vs. digital).
+
+→ [[2026-05-09_shimin-mohammadi-amazon-claude]]
+
 ## Vender outcomes, não workflows
 
 ([[nate-herk]], [[2026-05-03_nate-herk-6-habilidades-claude-code]])
@@ -242,3 +263,4 @@ Framework de posicionamento para quem vende automações com IA, extraído de 40
 - [[2026-04-22_starter-story-joseph-3m-arr]]
 - [[2026-04-05_derek-gray-renda-recorrente-google-maps]]
 - [[2026-04-26_laura-anderson-prompts-renda-rapida]]
+- [[2026-05-09_shimin-mohammadi-amazon-claude]]

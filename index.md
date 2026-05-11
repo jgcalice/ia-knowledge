@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-11 | Total de páginas: 185 | Fontes ingeridas: 75
+> Atualizado em: 2026-05-11 | Total de páginas: 187 | Fontes ingeridas: 76
 
 ---
 
@@ -90,6 +90,7 @@
 | [[wiki/sources/2026-05-09_derek-gray-google-maps-claude-monetizacao]] | @Derek Gray | 2026-05-09 | Stack completo Google Maps + Claude + Lovable + Quepo — sweet spot pattern, outreach <70 palavras, GMB recorrente $12K/mês |
 | [[wiki/sources/2026-05-07_ai-technology-footprint-digital]] | @AI \| Technology | 2026-05-07 | 7 passos para remover 99,8% da pegada digital: data brokers, Google, HIBP, rastreamento, posts antigos, SimpleLogin |
 | [[wiki/sources/2026-05-01_artificial-intelligence-business-analise-acoes]] | @Artificial Intelligence l Business | 2026-05-01 | 10 prompts sequenciais para análise de ações como Wall Street com Claude — alternativa gratuita ao Bloomberg Terminal ($24K/ano) |
+| [[wiki/sources/2026-05-09_shimin-mohammadi-amazon-claude]] | @Shimin Mohammadi | 2026-05-09 | Amazon FBA com Claude: 5 prompts para lançar produto físico — produto → fabricante → marca → listing SEO → plano de lançamento |
 
 ---
 
@@ -164,6 +165,12 @@
 | [[wiki/entities/bestapps-ai]] | @bestapps.ai | 1 | Canal curador de repos open-source que substituem softwares proprietários caros |
 | [[wiki/entities/beyond-intelligence]] | @Beyond Intelligence — AI News & Tools | 1 | Canal agregador de AI news — tabelas de referência visual (89 comandos Claude em 11 categorias) |
 | [[wiki/entities/ai-technology]] | @AI \| Technology | 1 | Canal de privacidade digital e segurança online — guia de 7 passos para remoção de pegada digital |
+
+### Pessoas / Criadores (Internacional — e-commerce)
+
+| Página | Handle | Fontes | Foco |
+|--------|--------|--------|------|
+| [[wiki/entities/shimin-mohammadi]] | @Shimin Mohammadi | 1 | Amazon FBA com IA — 5 prompts para lançar produto físico na Amazon ($900/dia) |
 
 ### Pessoas / Criadores (Internacional — adicionados)
 
