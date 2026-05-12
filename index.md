@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-11 | Total de páginas: 189 | Fontes ingeridas: 77
+> Atualizado em: 2026-05-12 | Total de páginas: 190 | Fontes ingeridas: 78
 
 ---
 
@@ -92,6 +92,7 @@
 | [[wiki/sources/2026-05-01_artificial-intelligence-business-analise-acoes]] | @Artificial Intelligence l Business | 2026-05-01 | 10 prompts sequenciais para análise de ações como Wall Street com Claude — alternativa gratuita ao Bloomberg Terminal ($24K/ano) |
 | [[wiki/sources/2026-05-09_shimin-mohammadi-amazon-claude]] | @Shimin Mohammadi | 2026-05-09 | Amazon FBA com Claude: 5 prompts para lançar produto físico — produto → fabricante → marca → listing SEO → plano de lançamento |
 | [[wiki/sources/2026-05-08_growai-10-ferramentas-gratuitas]] | @GROWAI | 2026-05-08 | 10 ferramentas open-source gratuitas para faturar $10K/mês: Claude Ads, Hyperframes, Fincept Terminal, Open-Gen-AI, Agentic Inbox, AutoHedge, Context Mode, CamoFox, Vibe Trading |
+| [[wiki/sources/2026-05-11_derek-gray-setores-tier-agentes-ia]] | @Derek Gray | 2026-05-11 | Tier matrix de nichos (S/God/A/B/D/F) para AI agents em serviços locais + setup mínimo + critério Google Maps #7–25 |
 
 ---
 
@@ -208,7 +209,7 @@
 | [[wiki/entities/faria-lima-elevator]] | @FariaLimaElevat | 1 | Criador BR — 8 prompts de análise de investimento com personas de instituições financeiras de elite |
 | [[wiki/entities/starter-story]] | @Starter Story | 1 | Plataforma de histórias de founders bootstrapped — case Joseph: $3M ARR com Reddit + Programmatic SEO |
 | [[wiki/entities/coding-ai-fullstack]] | @coderss_world | 1 | Canal Internacional — casos reais de IA aplicada a carreira e tecnologia |
-| [[wiki/entities/derek-gray]] | @Derek Gray | 3 | Criador Internacional — GMB Optimization Agency: stack completo Google Maps + Claude + Lovable + Quepo; $12K/mês em 6 meses |
+| [[wiki/entities/derek-gray]] | @Derek Gray | 4 | Criador Internacional — GMB Optimization Agency: stack completo Google Maps + Claude + Lovable + Quepo; tier matrix de nichos (Solar God-Tier, Gyms F-Tier); $50K/mês em 36 meses |
 | [[wiki/entities/lovable]] | — | 1 | Ferramenta no-code de landing pages via prompts — mockup ao vivo em 5 minutos para pipeline de prospecção local |
 | [[wiki/entities/quepo]] | — | 1 | Agente de IA proprietário de Derek Gray — automatiza 95% do GBP Management (auditorias, ranking, conteúdo, reviews) |
 | [[wiki/entities/context7]] | Context7 MCP | 1 | Servidor MCP que injeta documentação atualizada de libs no contexto do Claude |

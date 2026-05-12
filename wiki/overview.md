@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-05-11
-source_count: 77
+last_updated: 2026-05-12
+source_count: 78
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 77 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 78 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -107,6 +107,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - Repos open-source como substitutos de softwares de cinco dígitos: FinceptTerminal ($24K/ano → grátis), Open-Gen-AI ($100+/mês → grátis), Claude Ads ($2K/cliente → $1,5K de receita via revenda). O ângulo não é "ferramenta para operar negócio", mas "substituir a linha de despesa e embolsar a diferença" ([[bestapps-ai]])
 - **Amazon FBA com IA**: 5 prompts para lançar produto físico na Amazon — único arquétipo de e-commerce físico do wiki. Produto → fabricante → marca → listing SEO → plano de lançamento. Amazon FBA cuida de toda a logística. Exemplo documentado: Cleaning Gel Tablets, marca Dissolv, margem 28%, $10K/mês em 7–9 meses ([[shimin-mohammadi]])
 - **3ª confirmação — repos como modelo de monetização (NOVO)**: [[growai]] confirma o ecossistema de repos open-source com enquadramento distinto: "$10K/mês com ferramentas gratuitas do GitHub". Detalhe novo: Claude Ads como auditoria de anúncios por $1.500/cliente; Hyperframes como produção de vídeo automatizada para agentes IA. 3 fontes independentes (paras-madan, bestapps-ai, growai) = padrão consolidado no wiki
+- **Tier matrix de nichos para AI agents** (NOVO): [[derek-gray]] classifica 6 setores de serviços locais por potencial de ROI — Solar (God-Tier) e Window Replacement (S-Tier) são top porque o CAC já é alto ($5K+), treinando os clientes a pagar por aquisição. Gyms (F-Tier) é o primeiro exemplo no wiki de nicho que *parece* óbvio para Maps SEO mas onde o vetor de decisão é social (amigos), não busca. Setup mínimo documentado: $55/mês em software
 
 ---
 
@@ -259,6 +260,7 @@ Fonte: ([[faria-lima-elevator]])
 - **[[quepo]] como modelo de "agente como serviço recorrente"**: primeiro agente de IA proprietário de um criador documentado no wiki — automatiza 95% do GBP Management, convertendo um serviço ativo em renda passiva recorrente. Padrão distinto do AIaaS de [[bruno-wambier]] (agente empacotado como produto) — aqui o agente opera nos bastidores sem que o cliente saiba
 - **Remoção ativa como par complementar ao diagnóstico OSINT**: [[ai-technology]] fecha o ciclo da Dimensão 2 de [[segurança-com-ia]] — as fontes anteriores (OSINT, HaveIBeenPwned, Webmail/My7) ensinavam a *descobrir* a exposição; este guia ensina a *remover*. HaveIBeenPwned aparece em ambos os lados, confirmando sua posição como pivô entre diagnóstico e remediação. Data brokers (Spokeo, Whitepages, BeenVerified) e SimpleLogin são primeiras ocorrências no wiki
 - **Amazon FBA como único arquétipo de produto físico**: [[shimin-mohammadi]] introduz o primeiro modelo de e-commerce com produto físico no wiki — todos os arquétipos anteriores (SaaS, agência, infoproduto, GMB, leads) são digitais ou de serviço. O padrão de "5 prompts encadeados com output sequencial" se confirma (4ª iteração independente: [[jordan-lee]], [[derek-gray]], [[luna-vega]], [[shimin-mohammadi]]). Novidade estrutural: Amazon FBA elimina a barreira de logística — o operador pesquisa produto, cria marca e faz listing; a Amazon cuida do resto
+- **Tier matrix de nichos como pré-filtro estratégico**: [[derek-gray]] documenta que a escolha do setor precede qualquer prospecção — Solar (God-Tier) tem CAC de $5K+, tornando $500–1K/mês trivial de justificar; Gyms (F-Tier) falham porque a decisão de compra é social, não via Google. Primeiro mapeamento explícito no wiki de setores onde Maps SEO *não funciona*
 
 ---
 
@@ -266,9 +268,9 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 76 |
-| Páginas de fontes | 76 |
+| Fontes ingeridas | 78 |
+| Páginas de fontes | 78 |
 | Páginas de conceitos | 18 |
 | Páginas de entidades | 85 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **187** |
+| **Total de páginas** | **190** |

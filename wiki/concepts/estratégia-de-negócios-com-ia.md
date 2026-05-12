@@ -2,8 +2,8 @@
 title: "Estratégia de Negócios com IA"
 type: concept
 tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce]
-source_count: 19
-last_updated: 2026-05-11
+source_count: 20
+last_updated: 2026-05-12
 ---
 
 # Estratégia de Negócios com IA
@@ -105,6 +105,29 @@ Google Maps (sweet spot) → Claude (briefs + outreach) → Lovable (landing pag
 **Resultado documentado**: $12K/mês em 6 meses sem cold-calling ou habilidades técnicas.
 
 Diferença dos modelos anteriores: aqui a IA **opera e entrega o serviço** (não só analisa ou distribui), e o canal de entrega (Google Maps) é o mesmo canal de prospecção.
+
+### Tier matrix de nichos: quais setores priorizar para AI agents
+
+([[derek-gray]], [[2026-05-11_derek-gray-setores-tier-agentes-ia]]) — 4ª fonte de Derek Gray no wiki
+
+Antes de prospectar, a escolha do setor determina o potencial de ROI. Derek classifica 6 nichos de serviços locais com base em ticket médio, recorrência e comportamento de compra do consumidor:
+
+| Setor | Tier | Recorrência | Por que funciona |
+|-------|------|-------------|-----------------|
+| Window Replacement | **S-Tier** | $500–1K/mês | $5K–40K/projeto; pesquisa extensa antes de comprar; 1 cliente paga o ano |
+| Solar Installation | **God-Tier** | $500–1K/mês | CAC já é $5K+; invoice paga em 5 min — o cliente está treinado a pagar |
+| Epoxy Flooring | **A-Tier** | $800/mês vitalício | $8K–20K/projeto; prospera com fotos e reviews no Google |
+| Pest Control | **B-Tier** | $400–600/mês (verão) | Modelo recorrente essencial; proprietários não são tech-savvy |
+| Plumbers | **D-Tier** | $300–600/mês | Boa retenção; já sobrecarregados; pagam para rankar "plumber near me" |
+| Gyms | **F-Tier** | $300/mês máx | Escolha por amigos, não por Google — Maps optimization não funciona aqui |
+
+**Insight crítico sobre Gyms (F-Tier)**: é o primeiro exemplo explícito no wiki de uma categoria que *parece* óbvia para SEO local mas onde o canal (Google Search) não é o vetor de decisão — consumidores escolhem academia por indicação social.
+
+**Setup mínimo documentado**: LegalZoom $249 (uma vez) + Claude Pro $20/mês + Loom Premium $15/mês + Google Professional Email $20/mês = $55/mês em software. Menor barreira de entrada de qualquer arquétipo de negócio do wiki.
+
+**Critério de lead**: Google Maps ranking #7–25, 4–5 estrelas → lista de 15–20 potenciais clientes.
+
+**Progressão de renda pessoal documentada**: após 36 meses com agentes de IA (GBP + websites + produtos digitais) → $50K/mês passivos.
 
 ## Repositórios open-source como modelo de monetização
 
@@ -251,6 +274,7 @@ Framework de posicionamento para quem vende automações com IA, extraído de 40
 
 ## Fontes
 
+- [[2026-05-11_derek-gray-setores-tier-agentes-ia]]
 - [[2026-05-08_growai-10-ferramentas-gratuitas]]
 - [[2026-05-09_derek-gray-google-maps-claude-monetizacao]]
 - [[2026-05-03_nate-herk-6-habilidades-claude-code]]

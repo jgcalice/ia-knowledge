@@ -2,8 +2,8 @@
 title: "Geração de Leads com IA"
 type: concept
 tags: [leads, prospecção, automação, google-maps, ia, b2b, conectores, vibe-prospecting, seo-local]
-source_count: 6
-last_updated: 2026-05-09
+source_count: 7
+last_updated: 2026-05-12
 ---
 
 # Geração de Leads com IA
@@ -47,6 +47,12 @@ Tabela de leads (telefone, endereço, site, redes, avaliação)
 
 Diferença chave: aqui o objetivo não é *usar* o lead como cliente direto do seu produto — é *ajudar o negócio local a melhorar seu próprio rankeamento* como serviço recorrente.
 → [[2026-04-05_derek-gray-renda-recorrente-google-maps]]
+
+### Variante #7–25: faixa expandida de qualificação
+
+([[derek-gray]], [[2026-05-11_derek-gray-setores-tier-agentes-ia]]) — 4ª fonte Derek Gray
+
+Esta fonte documenta a faixa **#7–25** (vs. #6–20 das fontes anteriores) com critério adicional: **4–5 estrelas** de avaliação. O objetivo muda ligeiramente: criar lista de 15–20 leads antes do primeiro outreach. Mesma lógica, janela de prospecção ligeiramente mais ampla.
 
 ### Sweet spot pattern (critérios objetivos de qualificação de lead)
 
@@ -95,3 +101,4 @@ Maps (sweet spot filter) → Claude (diagnóstico + brief + mensagem <70 palavra
 - [[2026-04-14_eduardo-santos-vibe-prospecting]]
 - [[2026-04-05_derek-gray-renda-recorrente-google-maps]]
 - [[2026-05-09_derek-gray-google-maps-claude-monetizacao]]
+- [[2026-05-11_derek-gray-setores-tier-agentes-ia]]
