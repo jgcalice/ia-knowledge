@@ -1,1 +1,0 @@
-Teste de ingestao a partir do container Docker
