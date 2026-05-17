@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-05-12
-source_count: 78
+last_updated: 2026-05-17
+source_count: 79
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 78 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 79 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -106,7 +106,8 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - One-Person Business (Dan Koe model): 5 prompts — ideia → oferta-transformação → sistema de conteúdo → vendas autônomas → escalar sem contratar. Case: $6M, 0 funcionários, 4h/dia ([[ai-fied]] via [[dan-koe]])
 - Repos open-source como substitutos de softwares de cinco dígitos: FinceptTerminal ($24K/ano → grátis), Open-Gen-AI ($100+/mês → grátis), Claude Ads ($2K/cliente → $1,5K de receita via revenda). O ângulo não é "ferramenta para operar negócio", mas "substituir a linha de despesa e embolsar a diferença" ([[bestapps-ai]])
 - **Amazon FBA com IA**: 5 prompts para lançar produto físico na Amazon — único arquétipo de e-commerce físico do wiki. Produto → fabricante → marca → listing SEO → plano de lançamento. Amazon FBA cuida de toda a logística. Exemplo documentado: Cleaning Gel Tablets, marca Dissolv, margem 28%, $10K/mês em 7–9 meses ([[shimin-mohammadi]])
-- **3ª confirmação — repos como modelo de monetização (NOVO)**: [[growai]] confirma o ecossistema de repos open-source com enquadramento distinto: "$10K/mês com ferramentas gratuitas do GitHub". Detalhe novo: Claude Ads como auditoria de anúncios por $1.500/cliente; Hyperframes como produção de vídeo automatizada para agentes IA. 3 fontes independentes (paras-madan, bestapps-ai, growai) = padrão consolidado no wiki
+- **3ª confirmação — repos como modelo de monetização**: [[growai]] confirma o ecossistema de repos open-source com enquadramento distinto: "$10K/mês com ferramentas gratuitas do GitHub". Detalhe novo: Claude Ads como auditoria de anúncios por $1.500/cliente; Hyperframes como produção de vídeo automatizada para agentes IA. 3 fontes independentes (paras-madan, bestapps-ai, growai) = padrão consolidado no wiki
+- **4ª perspectiva sobre repos — white-label SaaS (NOVO)**: [[harish-bhatt]] documenta o ângulo de "tornar-se o provedor de SaaS" via fork de repos estabelecidos — Cal.com ($5M ARR), Ghost (100% margem), [[n8n]] ($14M captados), Supabase ($116M captados). Não é usar a ferramenta, é revender o acesso. Primeira aparição de [[n8n]] no wiki como alternativa open-source ao Zapier para montar automação agency
 - **Tier matrix de nichos para AI agents** (NOVO): [[derek-gray]] classifica 6 setores de serviços locais por potencial de ROI — Solar (God-Tier) e Window Replacement (S-Tier) são top porque o CAC já é alto ($5K+), treinando os clientes a pagar por aquisição. Gyms (F-Tier) é o primeiro exemplo no wiki de nicho que *parece* óbvio para Maps SEO mas onde o vetor de decisão é social (amigos), não busca. Setup mínimo documentado: $55/mês em software
 
 ---
@@ -184,7 +185,7 @@ Fonte: ([[faria-lima-elevator]])
 
 ## Mapa de entidades
 
-**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]] · [[lovable]] · [[quepo]]
+**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]] · [[lovable]] · [[quepo]] · [[n8n]]
 
 **Agregadores de conteúdo**: [[ai-developer-js]] · [[bestapps-ai]] · [[beyond-intelligence]] · [[growai]]
 
@@ -196,7 +197,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]] · [[faria-lima-elevator]] · [[allessandra-sinisgalli]]
 
-**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]] · [[bert-no-chase]] · [[duncan-rogoff]] · [[ai-technology]] · [[shimin-mohammadi]]
+**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]] · [[bert-no-chase]] · [[duncan-rogoff]] · [[ai-technology]] · [[shimin-mohammadi]] · [[harish-bhatt]]
 
 **Referências de produto Anthropic**: [[boris-cherny]]
 
@@ -261,6 +262,7 @@ Fonte: ([[faria-lima-elevator]])
 - **Remoção ativa como par complementar ao diagnóstico OSINT**: [[ai-technology]] fecha o ciclo da Dimensão 2 de [[segurança-com-ia]] — as fontes anteriores (OSINT, HaveIBeenPwned, Webmail/My7) ensinavam a *descobrir* a exposição; este guia ensina a *remover*. HaveIBeenPwned aparece em ambos os lados, confirmando sua posição como pivô entre diagnóstico e remediação. Data brokers (Spokeo, Whitepages, BeenVerified) e SimpleLogin são primeiras ocorrências no wiki
 - **Amazon FBA como único arquétipo de produto físico**: [[shimin-mohammadi]] introduz o primeiro modelo de e-commerce com produto físico no wiki — todos os arquétipos anteriores (SaaS, agência, infoproduto, GMB, leads) são digitais ou de serviço. O padrão de "5 prompts encadeados com output sequencial" se confirma (4ª iteração independente: [[jordan-lee]], [[derek-gray]], [[luna-vega]], [[shimin-mohammadi]]). Novidade estrutural: Amazon FBA elimina a barreira de logística — o operador pesquisa produto, cria marca e faz listing; a Amazon cuida do resto
 - **Tier matrix de nichos como pré-filtro estratégico**: [[derek-gray]] documenta que a escolha do setor precede qualquer prospecção — Solar (God-Tier) tem CAC de $5K+, tornando $500–1K/mês trivial de justificar; Gyms (F-Tier) falham porque a decisão de compra é social, não via Google. Primeiro mapeamento explícito no wiki de setores onde Maps SEO *não funciona*
+- **White-label SaaS como 4º ângulo dos repos open-source**: [[harish-bhatt]] (@codingknowledge) introduz a perspectiva de "você vira o provedor" — fork de repos com ARR bilionário de referência (Cal.com, Supabase, Ghost) e revenda do acesso como SaaS próprio. Difere estruturalmente dos três ângulos anteriores: paras-madan (operar canais com repos), bestapps-ai (substituir software caro), growai (monetizar ferramentas de IA). Aqui o repositório **é o produto** vendido ao cliente final, não o meio de construção do serviço. [[n8n]] entra no wiki como alternativa open-source ao Zapier com 400+ integrações e IA nativa
 
 ---
 
@@ -268,9 +270,9 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 78 |
-| Páginas de fontes | 78 |
+| Fontes ingeridas | 79 |
+| Páginas de fontes | 79 |
 | Páginas de conceitos | 18 |
-| Páginas de entidades | 85 |
+| Páginas de entidades | 87 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **190** |
+| **Total de páginas** | **193** |

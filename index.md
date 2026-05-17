@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-12 | Total de páginas: 190 | Fontes ingeridas: 78
+> Atualizado em: 2026-05-17 | Total de páginas: 193 | Fontes ingeridas: 79
 
 ---
 
@@ -92,6 +92,7 @@
 | [[wiki/sources/2026-05-01_artificial-intelligence-business-analise-acoes]] | @Artificial Intelligence l Business | 2026-05-01 | 10 prompts sequenciais para análise de ações como Wall Street com Claude — alternativa gratuita ao Bloomberg Terminal ($24K/ano) |
 | [[wiki/sources/2026-05-09_shimin-mohammadi-amazon-claude]] | @Shimin Mohammadi | 2026-05-09 | Amazon FBA com Claude: 5 prompts para lançar produto físico — produto → fabricante → marca → listing SEO → plano de lançamento |
 | [[wiki/sources/2026-05-08_growai-10-ferramentas-gratuitas]] | @GROWAI | 2026-05-08 | 10 ferramentas open-source gratuitas para faturar $10K/mês: Claude Ads, Hyperframes, Fincept Terminal, Open-Gen-AI, Agentic Inbox, AutoHedge, Context Mode, CamoFox, Vibe Trading |
+| [[wiki/sources/2026-05-16_harish-bhatt-repos-renda-passiva]] | @Harish bhatt (@codingknowledge) | 2026-05-16 | 9 repos GitHub para white-label SaaS: Cal.com, Plausible, Ghost, n8n, Supabase, Medusa, AppFlowy, Coolify, Listmonk |
 | [[wiki/sources/2026-05-11_derek-gray-setores-tier-agentes-ia]] | @Derek Gray | 2026-05-11 | Tier matrix de nichos (S/God/A/B/D/F) para AI agents em serviços locais + setup mínimo + critério Google Maps #7–25 |
 
 ---
@@ -106,7 +107,7 @@
 | [[wiki/concepts/carreira-com-ia]] | 11 | IA para aceleração de carreira, LinkedIn, renda e produtos próprios |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 3 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
 | [[wiki/concepts/agentes-ia]] | 6 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills |
-| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 5 | 4 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency) |
+| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 21 | 4 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency) + white-label SaaS |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
 | [[wiki/concepts/segurança-com-ia]] | 5 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital |
 | [[wiki/concepts/vibecoding]] | 1 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança, abordagens preventiva e detective |
@@ -134,6 +135,7 @@
 | Página | Tipo | Fontes | Descrição |
 |--------|------|--------|-----------|
 | [[wiki/entities/claude-code]] | tool | 38 | LLM da Anthropic — ferramenta central de todas as fontes |
+| [[wiki/entities/n8n]] | tool | 1 | Plataforma de automação de workflows open-source — alternativa ao Zapier com 400+ integrações e IA nativa |
 | [[wiki/entities/ruflo]] | tool | 1 | Camada de orquestração open-source para Claude Code: 100+ agentes, roteamento automático de modelo por complexidade, MIT |
 | [[wiki/entities/apify]] | tool | 1 | Plataforma de scraping com conector nativo no Claude |
 | [[wiki/entities/api-file]] | platform | 1 | Marketplace de APIs para scraping e integração |
@@ -174,6 +176,7 @@
 | Página | Handle | Fontes | Foco |
 |--------|--------|--------|------|
 | [[wiki/entities/shimin-mohammadi]] | @Shimin Mohammadi | 1 | Amazon FBA com IA — 5 prompts para lançar produto físico na Amazon ($900/dia) |
+| [[wiki/entities/harish-bhatt]] | @Harish bhatt (@codingknowledge) | 1 | Repos GitHub para white-label SaaS — fork → self-host → revender como SaaS recorrente |
 
 ### Pessoas / Criadores (Internacional — adicionados)
 

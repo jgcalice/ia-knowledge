@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-05-17] ingest | 10 Repos GitHub para Renda Passiva via White-label SaaS — @Harish bhatt (@codingknowledge)
+
+Fonte: `2026-05-16_harish_bhatt_DYZ5UTiknH2.md` (carousel, 10/12 slides). Página criada: wiki/sources/2026-05-16_harish-bhatt-repos-renda-passiva.md. Entidades criadas: entities/harish-bhatt.md (novo criador Internacional — @codingknowledge; modelo "fork → self-host → white-label → vender como SaaS"), entities/n8n.md (nova ferramenta — plataforma de automação open-source, "Zapier open-source", 400+ integrações, IA nativa, $14M captados, licença fair code). Atualizada: concepts/estratégia-de-negócios-com-ia.md (source_count 20→21, 4ª perspectiva sobre repos open-source: white-label SaaS — fork de repos estabelecidos para tornar-se provedor; tabela de 9 repos com prova social; novo arquétipo "White-label SaaS" adicionado à tabela de arquétipos). wiki/overview.md (78→79 fontes, [[harish-bhatt]] adicionado ao mapa Internacional, [[n8n]] adicionado às ferramentas, novo padrão emergente "White-label SaaS como 4º ângulo dos repos open-source", status table 190→193 páginas). index.md (190→193 páginas, 78→79 fontes, +1 fonte, +2 entidades, estratégia-de-negócios-com-ia source_count atualizado).
+
 ## [2026-05-12] ingest | Setores Tier para Agentes de IA em 2026 — @Derek Gray
 
 Fonte: `2026-05-11_derek_gray_DYNgix7glSP.md` (carousel, 10/16 slides). Página criada: wiki/sources/2026-05-11_derek-gray-setores-tier-agentes-ia.md. Atualizada: entities/derek-gray.md (source_count 3→4, 4ª fonte: tier matrix de nichos S/God/A/B/D/F + setup mínimo + critério Google Maps #7–25). Atualizada: concepts/estratégia-de-negócios-com-ia.md (source_count 19→20, nova sub-seção "Tier matrix de nichos" na seção GMB Agency; insight: Gyms F-Tier por vetor de decisão social, não busca; setup mínimo $55/mês documentado). Atualizada: concepts/geração-de-leads-com-ia.md (source_count 6→7, variante #7–25 documentada com critério 4–5 estrelas). wiki/overview.md (77→78 fontes, 2 novos padrões emergentes, status table corrigida: 76→78 fontes e 187→190 páginas). index.md (189→190 páginas, 77→78 fontes, +1 fonte, derek-gray source_count 3→4).
