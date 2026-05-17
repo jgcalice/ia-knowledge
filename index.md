@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-17 | Total de páginas: 197 | Fontes ingeridas: 81
+> Atualizado em: 2026-05-17 | Total de páginas: 200 | Fontes ingeridas: 82
 
 ---
 
@@ -96,6 +96,7 @@
 | [[wiki/sources/2026-05-11_derek-gray-setores-tier-agentes-ia]] | @Derek Gray | 2026-05-11 | Tier matrix de nichos (S/God/A/B/D/F) para AI agents em serviços locais + setup mínimo + critério Google Maps #7–25 |
 | [[wiki/sources/2026-05-15_ai-business-empresa-1b-agentes]] | @Artificial Intelligence l Business | 2026-05-15 | Playbook de 7 passos sem código para $10K/mês com Claude Managed Agents; 20 agentes em paralelo; aposta Dario Amodei $1B |
 | [[wiki/sources/2026-04-14_roman-khaneichuk-claude-portfolio]] | @Roman Khaneichuk | 2026-04-14 | Claude como gestor autônomo: $50K, 30 agentes bull/bear, portfólio de 15 ações, execução automática via Autopilot |
+| [[wiki/sources/2026-04-08_daniel-socrates-seo-ia]] | @Daniel Sócrates \| SEO & IA | 2026-04-08 | SEO com GSC + Claude: priorizar palavras-chave "quase ranqueando" e otimizar conteúdo existente |
 
 ---
 
@@ -121,6 +122,7 @@
 | [[wiki/concepts/finanças-com-ia]] | 6 | Análise de investimentos de nível institucional com LLMs — 6 ângulos: ROLE institucional, riqueza individual, screening funil, DIY estruturado, pipeline sequencial completo, gestor autônomo com dinheiro real |
 | [[wiki/concepts/bem-estar-com-ia]] | 1 | Prompts parametrizados substituindo serviços profissionais de fitness — inputs de anamnese → protocolo de nível profissional |
 | [[wiki/concepts/busca-de-emprego-com-ia]] | 3 | Busca de emprego automatizada com Career Ops, ATS e candidaturas personalizadas por vaga |
+| [[wiki/concepts/seo-com-ia]] | 2 | SEO com IA: duas abordagens complementares — arquivos técnicos (llms.txt) e otimização de conteúdo existente via dados GSC |
 
 ---
 
@@ -161,6 +163,7 @@
 | [[wiki/entities/rony-meisler]] | @Rony Meisler | 1 | Empreendedorismo e ferramentas de IA |
 | [[wiki/entities/bruno-wambier]] | @Bruno Wambier | 1 | Negócios automatizados com IA, AIaaS, infoprodutos |
 | [[wiki/entities/adriano-couto]] | @Adriano Couto | 1 | Gestão com IA, gatilhos cognitivos, frameworks McKinsey |
+| [[wiki/entities/daniel-socrates]] | @Daniel Sócrates \| SEO & IA | 1 | SEO & IA (BR) — workflow GSC + Claude para otimização de conteúdo existente |
 | [[wiki/entities/eduardo-santos]] | @Eduardo Santos | 1 | IA nas empresas, prospecção com Vibe Prospecting |
 
 ### Agregadores de conteúdo

@@ -2,7 +2,7 @@
 title: "Estratégia de Negócios com IA"
 type: concept
 tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce]
-source_count: 22
+source_count: 23
 last_updated: 2026-05-17
 ---
 
@@ -295,8 +295,28 @@ Framework de posicionamento para quem vende automações com IA, extraído de 40
 
 → [[2026-05-03_nate-herk-6-habilidades-claude-code]]
 
+## SEO com IA como tática de otimização de conteúdo existente
+
+([[daniel-socrates]], [[2026-04-08_daniel-socrates-seo-ia]])
+
+Workflow de baixo custo para subir posições no Google sem criar nova página — complemento ao SEO técnico de [[brycen-wood]]:
+
+1. Google Search Console → Desempenho → ativar Posição Média
+2. Filtrar consultas por posição (palavras "quase ranqueando", tipicamente posições 6–20)
+3. Copiar dados → Claude: pedir lista priorizada de "ganhos rápidos"
+4. Escolher palavra-chave relevante → identificar no GSC qual página já ranqueia
+5. Ajuste mínimo: mover a palavra-chave para o início do texto da página
+6. Solicitar indexação no GSC para acelerar reconhecimento do ajuste
+
+**Insight central:** o maior ganho de SEO frequentemente está em *otimizar o que já existe*, não em criar conteúdo novo. Claude serve como agente de triagem de dados, não de geração de conteúdo.
+
+**Conceito central:** [[seo-com-ia]] — documentado em 2 fontes complementares ([[brycen-wood]]: arquivos técnicos; [[daniel-socrates]]: dados GSC)
+
+→ [[2026-04-08_daniel-socrates-seo-ia]]
+
 ## Fontes
 
+- [[2026-04-08_daniel-socrates-seo-ia]]
 - [[2026-05-15_ai-business-empresa-1b-agentes]]
 - [[2026-05-16_harish-bhatt-repos-renda-passiva]]
 - [[2026-05-11_derek-gray-setores-tier-agentes-ia]]

@@ -18,3 +18,7 @@ Empreendedor de pequeno negócio físico (Summit Wraps and Graphics) que documen
 ## Conteúdo no wiki
 
 - [[2026-04-11_seo-3-arquivos]] — 3 arquivos de texto (llms.txt, Markdown mirrors, sitemap) que colocaram seu negócio na primeira página do Google em 1 mês, usando Claude Code
+
+## Abordagem complementar
+
+Ver [[daniel-socrates]] para abordagem distinta de SEO com IA: dados do Google Search Console → Claude prioriza palavras-chave "quase ranqueando" → ajuste mínimo no conteúdo existente. Os dois métodos são complementares, documentados em [[seo-com-ia]].

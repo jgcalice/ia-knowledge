@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-05-17
-source_count: 81
+source_count: 82
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 81 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 82 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -96,6 +96,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - Playbook "low-hanging fruit": Reddit hand-to-hand combat (primeiros 100 clientes) → Programmatic SEO ($3M+ ARR, 150K+ usuários, $250K/mês) — ([[starter-story]], case Joseph)
 - Branding completo em 2h com 120+ agentes ([[rafael-brandao]])
 - SEO na primeira página do Google com 3 arquivos de texto ([[brycen-wood]])
+- SEO data-driven: Google Search Console + Claude para priorizar palavras-chave "quase ranqueando" e otimizar conteúdo existente sem criar nova página — workflow que agências cobram R$5K, feito em minutos ([[daniel-socrates]])
 - 5 modelos nativos de IA (eBook, YouTube narrado, newsletter, curso online, agente WhatsApp como AIaaS) ([[bruno-wambier]])
 - Mini web app focado + Instagram como canal único ([[luna-vega]])
 - AI Agency (Dan Martell, Liam Ottley) — agência automatiza outras empresas ([[paul-hilse]])
@@ -198,7 +199,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Conceitos de segurança**: [[segurança-com-ia]]
 
-**Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]] · [[faria-lima-elevator]] · [[allessandra-sinisgalli]]
+**Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]] · [[faria-lima-elevator]] · [[allessandra-sinisgalli]] · [[daniel-socrates]]
 
 **Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]] · [[bert-no-chase]] · [[duncan-rogoff]] · [[ai-technology]] · [[shimin-mohammadi]] · [[harish-bhatt]] · [[roman-khaneichuk]]
 
@@ -267,6 +268,7 @@ Fonte: ([[faria-lima-elevator]])
 - **Tier matrix de nichos como pré-filtro estratégico**: [[derek-gray]] documenta que a escolha do setor precede qualquer prospecção — Solar (God-Tier) tem CAC de $5K+, tornando $500–1K/mês trivial de justificar; Gyms (F-Tier) falham porque a decisão de compra é social, não via Google. Primeiro mapeamento explícito no wiki de setores onde Maps SEO *não funciona*
 - **White-label SaaS como 4º ângulo dos repos open-source**: [[harish-bhatt]] (@codingknowledge) introduz a perspectiva de "você vira o provedor" — fork de repos com ARR bilionário de referência (Cal.com, Supabase, Ghost) e revenda do acesso como SaaS próprio. Difere estruturalmente dos três ângulos anteriores: paras-madan (operar canais com repos), bestapps-ai (substituir software caro), growai (monetizar ferramentas de IA). Aqui o repositório **é o produto** vendido ao cliente final, não o meio de construção do serviço. [[n8n]] entra no wiki como alternativa open-source ao Zapier com 400+ integrações e IA nativa
 - **Gestor autônomo com skin in the game real**: [[roman-khaneichuk]] documenta o primeiro caso no wiki onde Claude *executa trades* com capital real ($50.000, Wharton PhD, sem supervisão humana) — cruzamento entre análise financeira agêntica e execução efetiva. O padrão "30 agentes bull vs bear" é a 3ª confirmação independente do mecanismo de debate como decisão financeira (após [[tradingagents]] e [[artificial-intelligence-business]]). [[autopilot]] como camada de distribuição introduz um modelo novo: qualquer usuário delega a um agente e espelha sua execução, sem código e sem análise própria
+- **SEO com IA tem duas abordagens complementares documentadas**: [[brycen-wood]] (técnica, arquivos: llms.txt + Markdown mirrors + sitemap) e [[daniel-socrates]] (dados, otimização de conteúdo existente: GSC → Claude prioriza → ajuste mínimo → solicitar indexação). A primeira prepara o site para ser lido por Google/IA; a segunda identifica e explora oportunidades de ranqueamento via dados reais. Ambas democratizam técnicas que agências cobram caro — conceito consolidado em [[seo-com-ia]]
 
 ---
 
@@ -274,9 +276,9 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 81 |
-| Páginas de fontes | 81 |
-| Páginas de conceitos | 18 |
-| Páginas de entidades | 89 |
+| Fontes ingeridas | 82 |
+| Páginas de fontes | 82 |
+| Páginas de conceitos | 19 |
+| Páginas de entidades | 90 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **197** |
+| **Total de páginas** | **200** |
