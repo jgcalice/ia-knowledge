@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-05-17
-source_count: 80
+source_count: 81
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 80 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 81 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -180,13 +180,15 @@ Fonte: ([[faria-lima-elevator]])
 
 **4º ângulo:** Análise DIY de ações com analista genérico — template ROLE/TASK/STEPS/RULES/OUTPUT com saída estruturada: modelo de negócios → saúde financeira → moat → valuation → bear/bull case → recomendação. Distinto dos ângulos anteriores: sem nomear instituição (vs. [[faria-lima-elevator]]), sem funil de triagem (vs. [[bert-no-chase]]). Mesmo carousel introduz **1º prompt de planejamento fiscal do wiki**: Tax Strategist com checklist de deduções, cenários fiscais e comparação CPA vs. software. ([[ai-fied]])
 
-**5º ângulo (NOVO):** Pipeline sequencial completo — 10 prompts em ordem replicando o workflow inteiro de analistas institucionais de Wall Street. Alternativa gratuita ao Bloomberg Terminal ($24K/ano): Kickoff Report → Earnings Analysis → Bull/Bear Debate → Forensic Accounting → Valuation Framework → Company Comparison → Investor Summary → Stress Test → Big Business vs Big Stock. **Novidade estrutural**: sequência como metodologia (order > isolation); Forensic Accounting como ângulo inédito no wiki (stock-based comp, contabilidade agressiva, red flags pré-compra); stress test com atribuição de probabilidades aos cenários. ([[artificial-intelligence-business]] / @thewizeai)
+**5º ângulo:** Pipeline sequencial completo — 10 prompts em ordem replicando o workflow inteiro de analistas institucionais de Wall Street. Alternativa gratuita ao Bloomberg Terminal ($24K/ano): Kickoff Report → Earnings Analysis → Bull/Bear Debate → Forensic Accounting → Valuation Framework → Company Comparison → Investor Summary → Stress Test → Big Business vs Big Stock. **Novidade estrutural**: sequência como metodologia (order > isolation); Forensic Accounting como ângulo inédito no wiki (stock-based comp, contabilidade agressiva, red flags pré-compra); stress test com atribuição de probabilidades aos cenários. ([[artificial-intelligence-business]] / @thewizeai)
+
+**6º ângulo (NOVO):** Claude como **gestor de portfólio autônomo com dinheiro real** ($50.000, sem supervisão humana). Pipeline de 5 etapas: triagem de 1.000 ações → 30 agentes IA debatendo bull vs bear → price targets ponderados por probabilidade → portfólio de 15 ações → rebalanceamento automático na corretora. [[autopilot]] permite espelhar os trades na conta do usuário sem código ou decisão própria. **Distinção fundamental**: é o único ângulo do wiki onde a IA não só analisa, mas *decide e executa*. ([[roman-khaneichuk]])
 
 ---
 
 ## Mapa de entidades
 
-**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]] · [[lovable]] · [[quepo]] · [[n8n]]
+**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]] · [[lovable]] · [[quepo]] · [[n8n]] · [[autopilot]]
 
 **Agregadores de conteúdo**: [[ai-developer-js]] · [[bestapps-ai]] · [[beyond-intelligence]] · [[growai]]
 
@@ -198,7 +200,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]] · [[faria-lima-elevator]] · [[allessandra-sinisgalli]]
 
-**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]] · [[bert-no-chase]] · [[duncan-rogoff]] · [[ai-technology]] · [[shimin-mohammadi]] · [[harish-bhatt]]
+**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]] · [[bert-no-chase]] · [[duncan-rogoff]] · [[ai-technology]] · [[shimin-mohammadi]] · [[harish-bhatt]] · [[roman-khaneichuk]]
 
 **Referências de produto Anthropic**: [[boris-cherny]]
 
@@ -264,6 +266,7 @@ Fonte: ([[faria-lima-elevator]])
 - **Amazon FBA como único arquétipo de produto físico**: [[shimin-mohammadi]] introduz o primeiro modelo de e-commerce com produto físico no wiki — todos os arquétipos anteriores (SaaS, agência, infoproduto, GMB, leads) são digitais ou de serviço. O padrão de "5 prompts encadeados com output sequencial" se confirma (4ª iteração independente: [[jordan-lee]], [[derek-gray]], [[luna-vega]], [[shimin-mohammadi]]). Novidade estrutural: Amazon FBA elimina a barreira de logística — o operador pesquisa produto, cria marca e faz listing; a Amazon cuida do resto
 - **Tier matrix de nichos como pré-filtro estratégico**: [[derek-gray]] documenta que a escolha do setor precede qualquer prospecção — Solar (God-Tier) tem CAC de $5K+, tornando $500–1K/mês trivial de justificar; Gyms (F-Tier) falham porque a decisão de compra é social, não via Google. Primeiro mapeamento explícito no wiki de setores onde Maps SEO *não funciona*
 - **White-label SaaS como 4º ângulo dos repos open-source**: [[harish-bhatt]] (@codingknowledge) introduz a perspectiva de "você vira o provedor" — fork de repos com ARR bilionário de referência (Cal.com, Supabase, Ghost) e revenda do acesso como SaaS próprio. Difere estruturalmente dos três ângulos anteriores: paras-madan (operar canais com repos), bestapps-ai (substituir software caro), growai (monetizar ferramentas de IA). Aqui o repositório **é o produto** vendido ao cliente final, não o meio de construção do serviço. [[n8n]] entra no wiki como alternativa open-source ao Zapier com 400+ integrações e IA nativa
+- **Gestor autônomo com skin in the game real**: [[roman-khaneichuk]] documenta o primeiro caso no wiki onde Claude *executa trades* com capital real ($50.000, Wharton PhD, sem supervisão humana) — cruzamento entre análise financeira agêntica e execução efetiva. O padrão "30 agentes bull vs bear" é a 3ª confirmação independente do mecanismo de debate como decisão financeira (após [[tradingagents]] e [[artificial-intelligence-business]]). [[autopilot]] como camada de distribuição introduz um modelo novo: qualquer usuário delega a um agente e espelha sua execução, sem código e sem análise própria
 
 ---
 
@@ -271,9 +274,9 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 79 |
-| Páginas de fontes | 79 |
+| Fontes ingeridas | 81 |
+| Páginas de fontes | 81 |
 | Páginas de conceitos | 18 |
-| Páginas de entidades | 87 |
+| Páginas de entidades | 89 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **193** |
+| **Total de páginas** | **197** |

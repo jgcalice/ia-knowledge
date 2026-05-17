@@ -2,8 +2,8 @@
 title: "Finanças com IA"
 type: concept
 tags: [finanças-com-ia, investimentos, análise-financeira, prompt-engineering, llm, trading]
-source_count: 5
-last_updated: 2026-05-11
+source_count: 6
+last_updated: 2026-05-17
 ---
 
 # Finanças com IA
@@ -140,9 +140,48 @@ Fonte: [[2026-05-01_artificial-intelligence-business-analise-acoes]] | [[artific
 | DIY estruturado | Template explícito com analista genérico | Qualquer usuário | Finaliza com disclaimer "não é recomendação financeira" |
 | Pipeline completo sequencial | 10 prompts em sequência replicando workflow institucional | Investidor individual ambicioso | Não substitui dado proprietário (Bloomberg) |
 
+## Sexto ângulo documentado: Claude como gestor de portfólio autônomo com dinheiro real
+
+[[roman-khaneichuk]] apresenta o primeiro caso no wiki onde Claude *executa trades* com capital real ($50.000) sem supervisão humana — cruzamento sem precedente entre análise financeira agêntica e execução efetiva.
+
+**O pipeline de 5 etapas:**
+
+| Etapa | O que acontece | Output |
+|-------|---------------|--------|
+| 1 — Triagem | Filtra 1.000 ações para candidatas válidas | Lista filtrada |
+| 2 — Debate | 30 agentes IA em paralelo: 15 bulls vs 15 bears por ativo | Debate estruturado |
+| 3 — Price targets | Price targets com peso de probabilidade por cenário | Alvo ponderado (bull/base/bear) |
+| 4 — Portfólio | Constrói carteira de 15 ações com alocação por posição | Pesos definidos |
+| 5 — Rebalanceamento | Rebalanceia automaticamente na corretora do usuário | Trades executados |
+
+**[[autopilot]] como camada de distribuição**: qualquer usuário pode espelhar automaticamente os trades do Claude em sua própria conta de corretora — democratizando acesso a gestão agêntica sem necessidade de código ou análise própria.
+
+**Distinção em relação às abordagens anteriores:**
+- Vs. [[faria-lima-elevator]]: lá, o usuário faz a análise com prompts; aqui, o Claude *decide e executa* autonomamente
+- Vs. [[bert-no-chase]]: lá, a IA faz triagem e o humano decide quando entrar; aqui, não há decisão humana no loop
+- Vs. [[artificial-intelligence-business]]: lá, o pipeline gera análise para o usuário agir; aqui, o Claude age diretamente
+- **Novidade estrutural**: primeiro registro do wiki de um **agente de IA com skin in the game real** — dinheiro real, execução real, sem humano no loop
+
+**Confirmação do padrão "debate como mecanismo de decisão"**: o debate bull vs bear com 30 agentes é a mesma lógica do [[tradingagents]] (55.700 stars, open-source) e do Prompt 3 de [[artificial-intelligence-business]] ("Bull vs Bear Debate"). Três fontes independentes convergem no mesmo padrão de decisão — debate estruturado entre perspectivas opostas produz decisões mais robustas que um único agente.
+
+> **Caveat editorial**: o conteúdo é uma parceria paga com @autopilot. Os resultados passados não garantem resultados futuros. Investimentos carregam risco de perda de principal.
+
+Fonte: [[2026-04-14_roman-khaneichuk-claude-portfolio]] | [[roman-khaneichuk]]
+
+## Padrão estrutural comparativo entre as seis abordagens
+
+| Abordagem | Técnica central | Público | Autonomia da IA |
+|-----------|-----------------|---------|----------------|
+| Institucional (ROLE) | Nomear instituição → convoca metodologia publicada | Investidor sofisticado | Nenhuma — IA analisa, humano decide |
+| Riqueza individual | ChatGPT para construção de patrimônio | Público geral | Nenhuma — parcial (conteúdo incompleto) |
+| Screening sequencial | Pipeline funil (tema → 25 → top 3 + deep dive) | Trabalhador CLT / swing trader | Parcial — IA triagem, humano timing |
+| DIY estruturado | Template explícito com analista genérico | Qualquer usuário | Nenhuma — análise, humano decide |
+| Pipeline completo sequencial | 10 prompts em sequência replicando workflow institucional | Investidor individual ambicioso | Nenhuma — análise, humano decide |
+| **Gestor autônomo (dinheiro real)** | **30 agentes debate → portfólio → execução automática** | **Qualquer usuário via Autopilot** | **Total — Claude decide e executa** |
+
 ## Estado atual do wiki
 
-Domínio com 5 fontes. Cinco ângulos distintos: análise financeira institucional via ROLE (Faria Lima Elevator), construção de riqueza individual via ChatGPT (Derek Gray — parcial), pipeline de screening para seleção de ações (Bert), análise DIY com template estruturado (AI-Fied) e pipeline sequencial completo de análise institucional (Artificial Intelligence l Business / @thewizeai).
+Domínio com 6 fontes. Seis ângulos distintos: análise financeira institucional via ROLE (Faria Lima Elevator), construção de riqueza individual via ChatGPT (Derek Gray — parcial), pipeline de screening para seleção de ações (Bert), análise DIY com template estruturado (AI-Fied), pipeline sequencial completo de análise institucional (Artificial Intelligence l Business / @thewizeai) e **gestor de portfólio autônomo com dinheiro real e multi-agent debate** (Roman Khaneichuk via Autopilot).
 
 ## Fontes
 
@@ -151,3 +190,4 @@ Domínio com 5 fontes. Cinco ângulos distintos: análise financeira institucion
 - [[2026-04-30_bert-swing-trading-ia]] — pipeline de 3 prompts para screening e seleção de ações em 5 minutos
 - [[2026-05-08_ai-fied-munger-5-prompts]] — prompt DIY de análise de ações com template ROLE/TASK/STEPS/RULES/OUTPUT + primeiro prompt de planejamento fiscal do wiki
 - [[2026-05-01_artificial-intelligence-business-analise-acoes]] — 10 prompts sequenciais para análise institucional completa: Kickoff → Earnings → Bull/Bear → Forensic → Valuation → Comparison → Summary → Stress Test → Quality
+- [[2026-04-14_roman-khaneichuk-claude-portfolio]] — Claude como gestor autônomo: $50K, 30 agentes bull/bear, portfólio de 15 ações, execução automática via Autopilot (sem supervisão humana)

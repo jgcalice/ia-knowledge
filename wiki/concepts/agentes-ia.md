@@ -2,7 +2,7 @@
 title: "Agentes de IA"
 type: concept
 tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents, agent-teams, git-worktrees, hooks, plugins, skills]
-source_count: 22
+source_count: 23
 last_updated: 2026-05-17
 ---
 
@@ -198,6 +198,14 @@ Primeiro sistema do wiki com **três agentes especializados em sequência cobrin
 Padrão convergente com [[stanford-digital-economy-lab]]: os casos agênticos mais eficazes têm critérios de sucesso claros, alto volume, erros recuperáveis e acesso a dados em múltiplos sistemas — todas as características presentes aqui.
 
 **Distinção em relação a AIaaS de [[bruno-wambier]]**: aquele usa agente de WhatsApp como produto empacotado (resposta a clientes existentes); este usa pipeline de agentes para **adquirir novos clientes** — o funil de aquisição é agêntico, não só a entrega.
+
+### Claude como gestor autônomo com dinheiro real: multi-agent debate em produção
+
+([[roman-khaneichuk]], [[2026-04-14_roman-khaneichuk-claude-portfolio]])
+
+Primeiro caso no wiki de Claude *executando trades* com capital real ($50.000) sem supervisão humana — 30 agentes especializados debatem bull vs bear para cada ativo antes de qualquer decisão de portfólio. Qualquer pessoa pode espelhar os trades automaticamente via app [[autopilot]]. Cruzamento entre padrão de debate multi-agent e execução financeira real.
+
+→ Documentado em detalhe em [[finanças-com-ia]] (6º ângulo).
 
 ### Multi-agent debate para trading: TradingAgents
 

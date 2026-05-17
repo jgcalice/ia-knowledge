@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-17 | Total de páginas: 194 | Fontes ingeridas: 80
+> Atualizado em: 2026-05-17 | Total de páginas: 197 | Fontes ingeridas: 81
 
 ---
 
@@ -95,6 +95,7 @@
 | [[wiki/sources/2026-05-16_harish-bhatt-repos-renda-passiva]] | @Harish bhatt (@codingknowledge) | 2026-05-16 | 9 repos GitHub para white-label SaaS: Cal.com, Plausible, Ghost, n8n, Supabase, Medusa, AppFlowy, Coolify, Listmonk |
 | [[wiki/sources/2026-05-11_derek-gray-setores-tier-agentes-ia]] | @Derek Gray | 2026-05-11 | Tier matrix de nichos (S/God/A/B/D/F) para AI agents em serviços locais + setup mínimo + critério Google Maps #7–25 |
 | [[wiki/sources/2026-05-15_ai-business-empresa-1b-agentes]] | @Artificial Intelligence l Business | 2026-05-15 | Playbook de 7 passos sem código para $10K/mês com Claude Managed Agents; 20 agentes em paralelo; aposta Dario Amodei $1B |
+| [[wiki/sources/2026-04-14_roman-khaneichuk-claude-portfolio]] | @Roman Khaneichuk | 2026-04-14 | Claude como gestor autônomo: $50K, 30 agentes bull/bear, portfólio de 15 ações, execução automática via Autopilot |
 
 ---
 
@@ -117,7 +118,7 @@
 | [[wiki/concepts/escolha-de-modelo-fundacional]] | 1 | Comoditização parcial (42% commodity); multi-model + abstraction layer como vantagem |
 | [[wiki/concepts/mudança-organizacional-com-ia]] | 1 | Change management como 35% da resistência; sponsorship continuado através da falha; iteração em 100% dos sucessos |
 | [[wiki/concepts/produtividade-e-emprego-com-ia]] | 1 | 45% reduzem headcount; 55% redeployment ou hiring avoided; "canários" em workers 22-25 expostos |
-| [[wiki/concepts/finanças-com-ia]] | 5 | Análise de investimentos de nível institucional com LLMs — 5 ângulos: ROLE institucional, riqueza individual, screening funil, DIY estruturado, pipeline sequencial completo |
+| [[wiki/concepts/finanças-com-ia]] | 6 | Análise de investimentos de nível institucional com LLMs — 6 ângulos: ROLE institucional, riqueza individual, screening funil, DIY estruturado, pipeline sequencial completo, gestor autônomo com dinheiro real |
 | [[wiki/concepts/bem-estar-com-ia]] | 1 | Prompts parametrizados substituindo serviços profissionais de fitness — inputs de anamnese → protocolo de nível profissional |
 | [[wiki/concepts/busca-de-emprego-com-ia]] | 3 | Busca de emprego automatizada com Career Ops, ATS e candidaturas personalizadas por vaga |
 
@@ -178,6 +179,8 @@
 |--------|--------|--------|------|
 | [[wiki/entities/shimin-mohammadi]] | @Shimin Mohammadi | 1 | Amazon FBA com IA — 5 prompts para lançar produto físico na Amazon ($900/dia) |
 | [[wiki/entities/harish-bhatt]] | @Harish bhatt (@codingknowledge) | 1 | Repos GitHub para white-label SaaS — fork → self-host → revender como SaaS recorrente |
+| [[wiki/entities/roman-khaneichuk]] | @Roman Khaneichuk | 1 | Claude como gestor de portfólio autônomo — $50K, 30 agentes bull/bear, execução real via Autopilot |
+| [[wiki/entities/autopilot]] | @autopilot | 1 | Plataforma fintech de espelhamento de portfólio — permite replicar trades do Claude na conta da corretora do usuário |
 
 ### Pessoas / Criadores (Internacional — adicionados)
 
