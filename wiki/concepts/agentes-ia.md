@@ -2,8 +2,8 @@
 title: "Agentes de IA"
 type: concept
 tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents, agent-teams, git-worktrees, hooks, plugins, skills]
-source_count: 21
-last_updated: 2026-05-11
+source_count: 22
+last_updated: 2026-05-17
 ---
 
 # Agentes de IA
@@ -122,6 +122,35 @@ Ferramentas nativas (`agent_toolset_20260401`): `bash`, `read`, `write`, `edit`,
 **Caso de uso demonstrado**: análise de CSV → relatório HTML interativo com gráficos. Padrão de 5 passos: criar environment → criar agent → upload dataset → criar session + enviar tarefa → stream da execução.
 
 **Impacto arquitetural**: diferente de construir um agente do zero (ferramentas customizadas, gerenciamento de estado manual), Managed Agents fornece plataforma gerenciada com observabilidade nativa via Console (`sessions.events.stream()` mostra tool calls e tokens ao vivo).
+
+### Multi-agent orchestration: 20 agentes em paralelo e playbook solo de $10K/mês
+
+([[artificial-intelligence-business]], [[2026-05-15_ai-business-empresa-1b-agentes]])
+
+Em maio de 2026 a Anthropic ativou orquestração de **até 20 agentes especializados em paralelo** num único problema — o dado mais alto registrado no wiki (anterior: 4 sub-agentes via [[yik-chan]]). O contexto é a aposta de Dario Amodei: empresa de $1B por uma única pessoa até o fim de 2026.
+
+**O que muda com Claude Managed Agents**: Anthropic gerencia a camada de execução (sandboxed environments, gerenciamento de estado, tool connections, recuperação de erros). O operador define *o que* o agente faz; a plataforma cuida do *como*. Diferente do cookbook de análise de dados ([[ai-updater]]), aqui o foco é o modelo de negócio viabilizado pela plataforma, não a arquitetura técnica.
+
+**MCP como camada de conexão**: é a primeira fonte do wiki que apresenta MCP explicitamente como o protocolo que transforma agente isolado em agente conectado ao stack real de uma empresa (Slack, Google Drive, Gmail). Um "bare agent" apenas pensa e escreve; um agente conectado via MCP age dentro do negócio.
+
+**Stack encadeada como produto**:
+- Um agente = ferramenta que economiza tempo
+- Três agentes encadeados = **negócio** (output de um vira input do próximo)
+- Infraestrutura que compõe valor sem supervisão ativa — "runs on Anthropic's cloud"
+
+**Playbook de 7 passos (sem código, alvo $10K/mês)**:
+
+| Passo | Ação | Princípio |
+|-------|------|-----------|
+| 1 | Escolher UMA tarefa semanal repetitiva | Foco — não cinco tarefas |
+| 2 | Escrever JD como contratação real (especificidade) | Especificidade separa bom de ruim |
+| 3 | Build no Claude Desktop → Cowork → pasta → testar | Sem código na fase inicial |
+| 4 | Conectar via MCP (Slack, Drive, Gmail) | Agente conectado age; isolado só escreve |
+| 5 | Quebrar de propósito (5x em dados reais, refinar) | Cada falha melhora o prompt |
+| 6 | Agendar (diário/semanal, roda na nuvem) | Funciona dormindo |
+| 7 | Empilhar 3 agentes encadeados | Stack = produto, não ferramenta |
+
+**Distinção em relação aos casos anteriores**: enquanto [[manthan-patel]] / [[boris-cherny]] documentam a arquitetura interna de agentes (Agent Development Kit, CLAUDE.md, hooks), este playbook foca no *modelo de negócio* viabilizado pela plataforma — o arquétipo "Solo Founder com Managed Agents" onde o agente não serve outros, mas compõe o valor como infraestrutura própria.
 
 ### Agent teams: comunicação entre agentes
 

@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-17 | Total de páginas: 193 | Fontes ingeridas: 79
+> Atualizado em: 2026-05-17 | Total de páginas: 194 | Fontes ingeridas: 80
 
 ---
 
@@ -94,6 +94,7 @@
 | [[wiki/sources/2026-05-08_growai-10-ferramentas-gratuitas]] | @GROWAI | 2026-05-08 | 10 ferramentas open-source gratuitas para faturar $10K/mês: Claude Ads, Hyperframes, Fincept Terminal, Open-Gen-AI, Agentic Inbox, AutoHedge, Context Mode, CamoFox, Vibe Trading |
 | [[wiki/sources/2026-05-16_harish-bhatt-repos-renda-passiva]] | @Harish bhatt (@codingknowledge) | 2026-05-16 | 9 repos GitHub para white-label SaaS: Cal.com, Plausible, Ghost, n8n, Supabase, Medusa, AppFlowy, Coolify, Listmonk |
 | [[wiki/sources/2026-05-11_derek-gray-setores-tier-agentes-ia]] | @Derek Gray | 2026-05-11 | Tier matrix de nichos (S/God/A/B/D/F) para AI agents em serviços locais + setup mínimo + critério Google Maps #7–25 |
+| [[wiki/sources/2026-05-15_ai-business-empresa-1b-agentes]] | @Artificial Intelligence l Business | 2026-05-15 | Playbook de 7 passos sem código para $10K/mês com Claude Managed Agents; 20 agentes em paralelo; aposta Dario Amodei $1B |
 
 ---
 
@@ -106,7 +107,7 @@
 | [[wiki/concepts/prompt-engineering]] | 14 | Padrões de estruturação + palavras-gatilho + Claude Skills |
 | [[wiki/concepts/carreira-com-ia]] | 11 | IA para aceleração de carreira, LinkedIn, renda e produtos próprios |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 3 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
-| [[wiki/concepts/agentes-ia]] | 6 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills |
+| [[wiki/concepts/agentes-ia]] | 7 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão |
 | [[wiki/concepts/estratégia-de-negócios-com-ia]] | 21 | 4 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency) + white-label SaaS |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
 | [[wiki/concepts/segurança-com-ia]] | 5 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital |

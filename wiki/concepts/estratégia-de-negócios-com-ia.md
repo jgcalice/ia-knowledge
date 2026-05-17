@@ -2,7 +2,7 @@
 title: "Estratégia de Negócios com IA"
 type: concept
 tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce]
-source_count: 21
+source_count: 22
 last_updated: 2026-05-17
 ---
 
@@ -204,6 +204,7 @@ Antes de prospectar, a escolha do setor determina o potencial de ROI. Derek clas
 | **Freelance + Day Rate + Desafio Pago** | 5 templates com placeholders para monetizar skill existente em dias/semanas; day rate: $1K/dia com IA | [[laura-anderson]] |
 | **Amazon FBA com IA** | 5 prompts para lançar produto físico na Amazon: produto → fabricante → marca → listing SEO → plano de lançamento | [[shimin-mohammadi]] |
 | **White-label SaaS** | Fork de repo open-source estabelecido → self-host → branding → vender acesso como SaaS recorrente. Referências: Cal.com ($5M ARR), Ghost (100% margem), n8n ($14M captados) | [[harish-bhatt]] |
+| **Solo Founder com Managed Agents** | 7 passos sem código para $10K/mês: UMA tarefa → JD detalhada → Claude Desktop → MCP (Slack/Drive/Gmail) → testar → agendar → empilhar 3 agentes. O stack encadeado é o produto; roda na nuvem da Anthropic. Contexto: aposta Dario Amodei — empresa de $1B por uma pessoa até fim de 2026 | [[artificial-intelligence-business]] |
 
 ## One-Person Business: o modelo de Dan Koe reverse-engineered com Claude
 
@@ -296,6 +297,7 @@ Framework de posicionamento para quem vende automações com IA, extraído de 40
 
 ## Fontes
 
+- [[2026-05-15_ai-business-empresa-1b-agentes]]
 - [[2026-05-16_harish-bhatt-repos-renda-passiva]]
 - [[2026-05-11_derek-gray-setores-tier-agentes-ia]]
 - [[2026-05-08_growai-10-ferramentas-gratuitas]]

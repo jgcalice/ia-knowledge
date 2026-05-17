@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-05-17
-source_count: 79
+source_count: 80
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 79 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 80 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -108,7 +108,8 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - **Amazon FBA com IA**: 5 prompts para lançar produto físico na Amazon — único arquétipo de e-commerce físico do wiki. Produto → fabricante → marca → listing SEO → plano de lançamento. Amazon FBA cuida de toda a logística. Exemplo documentado: Cleaning Gel Tablets, marca Dissolv, margem 28%, $10K/mês em 7–9 meses ([[shimin-mohammadi]])
 - **3ª confirmação — repos como modelo de monetização**: [[growai]] confirma o ecossistema de repos open-source com enquadramento distinto: "$10K/mês com ferramentas gratuitas do GitHub". Detalhe novo: Claude Ads como auditoria de anúncios por $1.500/cliente; Hyperframes como produção de vídeo automatizada para agentes IA. 3 fontes independentes (paras-madan, bestapps-ai, growai) = padrão consolidado no wiki
 - **4ª perspectiva sobre repos — white-label SaaS (NOVO)**: [[harish-bhatt]] documenta o ângulo de "tornar-se o provedor de SaaS" via fork de repos estabelecidos — Cal.com ($5M ARR), Ghost (100% margem), [[n8n]] ($14M captados), Supabase ($116M captados). Não é usar a ferramenta, é revender o acesso. Primeira aparição de [[n8n]] no wiki como alternativa open-source ao Zapier para montar automação agency
-- **Tier matrix de nichos para AI agents** (NOVO): [[derek-gray]] classifica 6 setores de serviços locais por potencial de ROI — Solar (God-Tier) e Window Replacement (S-Tier) são top porque o CAC já é alto ($5K+), treinando os clientes a pagar por aquisição. Gyms (F-Tier) é o primeiro exemplo no wiki de nicho que *parece* óbvio para Maps SEO mas onde o vetor de decisão é social (amigos), não busca. Setup mínimo documentado: $55/mês em software
+- **Solo Founder com Managed Agents** (NOVO): [[artificial-intelligence-business]] / @thewizeai documenta playbook de 7 passos sem código para $10K/mês com Claude Managed Agents — 20 agentes em paralelo (recorde do wiki), MCP como camada de conexão ao stack da empresa, stack encadeada de 3 agentes como produto. Contexto: aposta de Dario Amodei ($1B one-person company até fim de 2026)
+- **Tier matrix de nichos para AI agents**: [[derek-gray]] classifica 6 setores de serviços locais por potencial de ROI — Solar (God-Tier) e Window Replacement (S-Tier) são top porque o CAC já é alto ($5K+), treinando os clientes a pagar por aquisição. Gyms (F-Tier) é o primeiro exemplo no wiki de nicho que *parece* óbvio para Maps SEO mas onde o vetor de decisão é social (amigos), não busca. Setup mínimo documentado: $55/mês em software
 
 ---
 
