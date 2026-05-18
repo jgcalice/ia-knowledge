@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-17 | Total de páginas: 200 | Fontes ingeridas: 82
+> Atualizado em: 2026-05-18 | Total de páginas: 202 | Fontes ingeridas: 83
 
 ---
 
@@ -97,6 +97,7 @@
 | [[wiki/sources/2026-05-15_ai-business-empresa-1b-agentes]] | @Artificial Intelligence l Business | 2026-05-15 | Playbook de 7 passos sem código para $10K/mês com Claude Managed Agents; 20 agentes em paralelo; aposta Dario Amodei $1B |
 | [[wiki/sources/2026-04-14_roman-khaneichuk-claude-portfolio]] | @Roman Khaneichuk | 2026-04-14 | Claude como gestor autônomo: $50K, 30 agentes bull/bear, portfólio de 15 ações, execução automática via Autopilot |
 | [[wiki/sources/2026-04-08_daniel-socrates-seo-ia]] | @Daniel Sócrates \| SEO & IA | 2026-04-08 | SEO com GSC + Claude: priorizar palavras-chave "quase ranqueando" e otimizar conteúdo existente |
+| [[wiki/sources/2026-05-17_ai-researches-ai-guia-google-seo-ia]] | @AI researches \| AI | 2026-05-17 | Guia oficial Google: SEO tradicional base do AI Overviews; mythbusting llms.txt e fragmentação |
 
 ---
 
@@ -122,7 +123,7 @@
 | [[wiki/concepts/finanças-com-ia]] | 6 | Análise de investimentos de nível institucional com LLMs — 6 ângulos: ROLE institucional, riqueza individual, screening funil, DIY estruturado, pipeline sequencial completo, gestor autônomo com dinheiro real |
 | [[wiki/concepts/bem-estar-com-ia]] | 1 | Prompts parametrizados substituindo serviços profissionais de fitness — inputs de anamnese → protocolo de nível profissional |
 | [[wiki/concepts/busca-de-emprego-com-ia]] | 3 | Busca de emprego automatizada com Career Ops, ATS e candidaturas personalizadas por vaga |
-| [[wiki/concepts/seo-com-ia]] | 2 | SEO com IA: duas abordagens complementares — arquivos técnicos (llms.txt) e otimização de conteúdo existente via dados GSC |
+| [[wiki/concepts/seo-com-ia]] | 3 | SEO com IA: três abordagens — arquivos técnicos (llms.txt), otimização via GSC e guia oficial Google (contradiz necessidade de llms.txt) |
 
 ---
 
@@ -174,6 +175,7 @@
 | [[wiki/entities/bestapps-ai]] | @bestapps.ai | 1 | Canal curador de repos open-source que substituem softwares proprietários caros |
 | [[wiki/entities/beyond-intelligence]] | @Beyond Intelligence — AI News & Tools | 1 | Canal agregador de AI news — tabelas de referência visual (89 comandos Claude em 11 categorias) |
 | [[wiki/entities/ai-technology]] | @AI \| Technology | 1 | Canal de privacidade digital e segurança online — guia de 7 passos para remoção de pegada digital |
+| [[wiki/entities/ai-researches-ai]] | @AI researches \| AI | 1 | Canal internacional (1,2M seguidores) — curadoria de novidades IA, foco em guias oficiais e pesquisas |
 | [[wiki/entities/growai]] | @GROWAI | 1 | Canal curador de repos open-source para monetização com IA — "$10K/mês com ferramentas gratuitas do GitHub" |
 
 ### Pessoas / Criadores (Internacional — e-commerce)

@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-05-17
-source_count: 82
+last_updated: 2026-05-18
+source_count: 83
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 82 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 83 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
 
 ## Tese atual
 
@@ -97,6 +97,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - Branding completo em 2h com 120+ agentes ([[rafael-brandao]])
 - SEO na primeira página do Google com 3 arquivos de texto ([[brycen-wood]])
 - SEO data-driven: Google Search Console + Claude para priorizar palavras-chave "quase ranqueando" e otimizar conteúdo existente sem criar nova página — workflow que agências cobram R$5K, feito em minutos ([[daniel-socrates]])
+- **Guia oficial Google (NOVO)**: AI Overviews e AI Mode usam RAG + query fan-out sobre o mesmo ranking tradicional — não existe algoritmo separado de IA. Mythbusting oficial: `llms.txt`, fragmentação de conteúdo e reescrita para IA **não são necessários**. ⚠️ Contradição com [[brycen-wood]] que recomenda `llms.txt` como chave para SEO na era IA ([[ai-researches-ai]])
 - 5 modelos nativos de IA (eBook, YouTube narrado, newsletter, curso online, agente WhatsApp como AIaaS) ([[bruno-wambier]])
 - Mini web app focado + Instagram como canal único ([[luna-vega]])
 - AI Agency (Dan Martell, Liam Ottley) — agência automatiza outras empresas ([[paul-hilse]])
@@ -191,7 +192,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]] · [[lovable]] · [[quepo]] · [[n8n]] · [[autopilot]]
 
-**Agregadores de conteúdo**: [[ai-developer-js]] · [[bestapps-ai]] · [[beyond-intelligence]] · [[growai]]
+**Agregadores de conteúdo**: [[ai-developer-js]] · [[bestapps-ai]] · [[beyond-intelligence]] · [[growai]] · [[ai-researches-ai]]
 
 **Instituições acadêmicas**: [[stanford-digital-economy-lab]]
 
