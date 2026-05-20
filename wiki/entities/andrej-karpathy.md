@@ -3,8 +3,8 @@ title: "Andrej Karpathy"
 type: entity
 category: person
 tags: [ia, openai, tesla, vibe-coding, knowledge-graph, pesquisador]
-source_count: 1
-last_updated: 2026-04-23
+source_count: 2
+last_updated: 2026-05-20
 ---
 
 # Andrej Karpathy
@@ -21,4 +21,5 @@ Aparece como referência de autoridade no post de [[marc-cleroux]] sobre [[graph
 
 ## Fontes
 
-- [[2026-04-12_graphify-memoria-infinita-claude]] (referência indireta)
+- [[2026-04-12_graphify-memoria-infinita-claude]] (referência indireta — knowledge graph metodológico)
+- [[2026-04-15_max-kelley-plugin-forrest-chang]] (referência indireta como "godfather of Vibe coding" que apontou os 3 problemas do Claude Code respondidos por [[forrest-chang]])

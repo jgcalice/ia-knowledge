@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-18 | Total de páginas: 202 | Fontes ingeridas: 83
+> Atualizado em: 2026-05-20 | Total de páginas: 213 | Fontes ingeridas: 88
 
 ---
 
@@ -98,6 +98,10 @@
 | [[wiki/sources/2026-04-14_roman-khaneichuk-claude-portfolio]] | @Roman Khaneichuk | 2026-04-14 | Claude como gestor autônomo: $50K, 30 agentes bull/bear, portfólio de 15 ações, execução automática via Autopilot |
 | [[wiki/sources/2026-04-08_daniel-socrates-seo-ia]] | @Daniel Sócrates \| SEO & IA | 2026-04-08 | SEO com GSC + Claude: priorizar palavras-chave "quase ranqueando" e otimizar conteúdo existente |
 | [[wiki/sources/2026-05-17_ai-researches-ai-guia-google-seo-ia]] | @AI researches \| AI | 2026-05-17 | Guia oficial Google: SEO tradicional base do AI Overviews; mythbusting llms.txt e fragmentação |
+| [[wiki/sources/2026-04-15_max-kelley-plugin-forrest-chang]] | @Max Kelley | 2026-04-15 | Plugin de Forrest Chang (~42k stars no GitHub) corrige os 3 problemas crônicos do Claude Code (suposições, sobre-engenharia, regressões) |
+| [[wiki/sources/2026-05-07_prompt-prism-future-proof-career]] | @Prompt Prism | 2026-05-07 | 7 prompts para future-proof de carreira em 5 anos — Odyssey Plan + Industry Disruption Scanner + PVP + Skills Gap + Salary Negotiation 2025–2026 |
+| [[wiki/sources/2026-05-09_drew-huibregtse-amazon-kdp]] | @Drew Huibregtse | 2026-05-09 | 5 prompts Claude para criar e vender low-content digital products no Amazon KDP (livros de colorir, journals) — case $15K/mês |
+| [[wiki/sources/2026-05-10_matt-diamante-topical-authority]] | @Matt Diamante | 2026-05-10 | Topical authority via findquestions.com → uma página por pergunta = Google reconhece como especialista |
 
 ---
 
@@ -151,6 +155,10 @@
 | [[wiki/entities/claude-skills]] | tool | 4 | Feature Anthropic: pacotes nomeados de comportamento (Feature Forge, The Fool, etc.) + stack oficial de automação (Skill Creator, Superpowers, GSD, Context Mode, Claude Mem) |
 | [[wiki/entities/smithery]] | platform | 1 | Marketplace com 128k+ Claude Skills/MCPs |
 | [[wiki/entities/vibe-prospecting]] | tool | 1 | Conector Claude.ai para geração de leads por nicho/cargo/cidade |
+| [[wiki/entities/google-search-console]] | tool | 1 | Ferramenta gratuita Google de SEO — fonte de dados estruturados (queries, posição média, cliques) para pipelines com Claude |
+| [[wiki/entities/amazon-kdp]] | platform | 1 | Plataforma Amazon de auto-publicação — distribuição zero-friction de PDFs (interior + capa) |
+| [[wiki/entities/helium-10]] | tool | 1 | Market research Amazon (volume de busca, concorrentes, preço médio) — input para validação de nicho com Claude |
+| [[wiki/entities/findquestions]] | tool | 1 | Discovery de perguntas reais que pessoas fazem no Google — wireframe editorial para topical authority |
 
 ### Pessoas / Criadores (Brasil)
 
@@ -164,7 +172,7 @@
 | [[wiki/entities/rony-meisler]] | @Rony Meisler | 1 | Empreendedorismo e ferramentas de IA |
 | [[wiki/entities/bruno-wambier]] | @Bruno Wambier | 1 | Negócios automatizados com IA, AIaaS, infoprodutos |
 | [[wiki/entities/adriano-couto]] | @Adriano Couto | 1 | Gestão com IA, gatilhos cognitivos, frameworks McKinsey |
-| [[wiki/entities/daniel-socrates]] | @Daniel Sócrates \| SEO & IA | 1 | SEO & IA (BR) — workflow GSC + Claude para otimização de conteúdo existente |
+| [[wiki/entities/daniel-socrates]] | @Daniel Sócrates \| SEO & IA | 1 | SEO + Google Search Console + Claude — otimização de páginas em posições 8–20 |
 | [[wiki/entities/eduardo-santos]] | @Eduardo Santos | 1 | IA nas empresas, prospecção com Vibe Prospecting |
 
 ### Agregadores de conteúdo
@@ -248,6 +256,11 @@
 | [[wiki/entities/usama-akram]] | @Usama Akram | 1 | AI Agents e automação de negócios |
 | [[wiki/entities/brycen-wood]] | @Brycen Wood | 1 | SEO com IA para pequenos negócios |
 | [[wiki/entities/business-bulls]] | @Business Bulls | 1 | Claude como parceiro estratégico de negócios |
+| [[wiki/entities/max-kelley]] | @Max Kelley | 1 | Vibe Coding e curadoria de plugins/repos Claude Code com tração no GitHub |
+| [[wiki/entities/forrest-chang]] | Forrest Chang | 1 | Developer — autor de plugin Claude Code (~42k stars no GitHub) que corrige os 3 problemas default |
+| [[wiki/entities/prompt-prism]] | @Prompt Prism | 1 | Carreira de 5 anos com frameworks acadêmicos (Odyssey Plan) e benchmarks salariais 2025–2026 |
+| [[wiki/entities/drew-huibregtse]] | @Drew Huibregtse \| Digital Products | 1 | Low-content digital products no Amazon KDP — pipeline de 5 prompts com Claude + Canva |
+| [[wiki/entities/matt-diamante]] | @Matt Diamante | 1 | SEO simplificado via topical authority com findquestions.com — uma pergunta por post |
 
 ---
 

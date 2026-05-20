@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-05-18
-source_count: 83
+last_updated: 2026-05-20
+source_count: 88
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 83 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças** e **Bem-estar**
+> Wiki iniciado em 2026-04-21 | 88 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar** e **SEO + Conteúdo**
 
 ## Tese atual
 
@@ -277,9 +277,17 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 82 |
-| Páginas de fontes | 82 |
+| Fontes ingeridas | 88 |
+| Páginas de fontes | 88 |
 | Páginas de conceitos | 19 |
-| Páginas de entidades | 90 |
+| Páginas de entidades | 100 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **200** |
+| **Total de páginas** | **213** |
+
+## Adições da ingestão de 2026-05-20 (4 fontes novas — Daniel Sócrates já ingerido pelo bot)
+
+- **Amazon KDP como arquétipo "low-content digital products"**: [[drew-huibregtse]] introduz primeiro modelo de e-commerce sem produto físico nem supply chain — livros de colorir, journals. Distingue-se de [[shimin-mohammadi]] (Amazon FBA físico) e amplia o cluster e-commerce.
+- **Topical authority como 4ª abordagem em [[seo-com-ia]]**: [[matt-diamante]] (findquestions.com → uma página por pergunta) acrescenta dimensão editorial ao cluster SEO já formado por [[brycen-wood]] (técnico), [[daniel-socrates]] (GSC) e guia oficial Google ([[ai-researches-ai]]).
+- **Carreira com horizonte de 5 anos**: [[prompt-prism]] é a primeira fonte que organiza carreira em horizonte de 5 anos com framework nominal (Odyssey Plan da Stanford d.school). Complementa Tim Ferriss/[[god-of-prompt]] (DEAL/10 anos) e Naval/[[simplifying-ai]]/[[ai-fied]] (Wealth Protocol).
+- **Plugins como remédio de comportamento default**: [[forrest-chang]] (~42k stars no GitHub) é o primeiro autor de plugin Claude Code com tração massiva documentado — corrige 3 falhas crônicas (suposições silenciosas, sobre-engenharia, regressões) que [[boris-cherny]] / CLAUDE.md tentam mitigar via prompt. Divulgado por [[max-kelley]].
+- **Padrão "dataset → Claude prioriza"** consolidado: [[google-search-console]] (SEO) + [[helium-10]] (Amazon) + [[google-maps]] ([[derek-gray]]) + balanços ([[faria-lima-elevator]]) = 4 verticais independentes onde Claude opera como **leitor de tabelas estruturadas** copiadas de ferramentas especializadas, não como gerador do zero.

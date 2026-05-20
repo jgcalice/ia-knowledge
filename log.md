@@ -327,3 +327,23 @@ Fonte: `2026-04-22_paul_hilse_DXcv5OJgKx4.md`. Páginas criadas: wiki/sources/20
 ## [2026-04-21] ingest | Lote de 16 novos posts — ingestão automática
 
 Fontes processadas: 2026-02-25_michael_kocher, 2026-03-11_brandon_lew, 2026-03-22_god_of_prompt, 2026-03-24_evolving_ai, 2026-03-26_bashiri, 2026-04-01_evolving_ai, 2026-04-05_usama_akram, 2026-04-07_technology, 2026-04-11_brycen_wood, 2026-04-14_rafael_brandao, 2026-04-15_flavio_rafael, 2026-04-16_god_of_prompt, 2026-04-17_ross_fledderjohn, 2026-04-17_sabrina_ramonov, 2026-04-18_rony_meisler, 2026-04-20_business_bulls. Páginas de fonte criadas: 16. Entidades criadas: 11 novas (god-of-prompt, bashiri, sabrina-ramonov, ross-fledderjohn, michael-kocher, brandon-lew, usama-akram, brycen-wood, rony-meisler, business-bulls, flavio-rafael, career-ops). Entidades atualizadas: 4 (claude-code, rafael-brandao, evolving-ai, linkedin). Conceitos criados: 5 novos (busca-de-emprego-com-ia, design-de-estilo-de-vida, agentes-ia, estratégia-de-negócios-com-ia, aprendizado-com-ia). Conceitos atualizados: 3 (carreira-com-ia: 1→7 fontes, prompt-engineering: 3→9 fontes, geração-de-leads-com-ia: 2→3 fontes). Wiki: 21→54 páginas totais, 5→21 fontes. Nota: 4 arquivos parciais por rate limit de processamento (vision indisponível).
+
+## [2026-05-20] ingest | Otimização de SEO via Google Search Console + Claude — @Daniel Sócrates
+
+Fonte: 2026-04-08_daniel_socrates_seo_ia_DW34mDJjt_c.md. Páginas criadas: wiki/sources/2026-04-08_daniel-socrates-seo-gsc-claude.md, entities/daniel-socrates.md, entities/google-search-console.md. Atualizado: entities/claude-code (+1), concepts/prompt-engineering (+1), concepts/estratégia-de-negócios-com-ia (+1), overview.md, index.md.
+
+## [2026-05-20] ingest | Plugin de Forrest Chang corrige os 3 problemas do Claude Code — @Max Kelley
+
+Fonte: 2026-04-15_max_kelley_DXKu9xViZsM.md. Páginas criadas: wiki/sources/2026-04-15_max-kelley-plugin-forrest-chang.md, entities/max-kelley.md, entities/forrest-chang.md. Atualizado: entities/claude-code (+1), entities/andrej-karpathy (1→2, referenciado como godfather of Vibe coding), concepts/agentes-ia (+1, plugins como remédio de comportamento default), concepts/prompt-engineering (+1).
+
+## [2026-05-20] ingest | Future-proof career em um fim de semana (7 prompts) — @Prompt Prism
+
+Fonte: 2026-05-07_prompt_prism_DYB2PocEUzU.md. Páginas criadas: wiki/sources/2026-05-07_prompt-prism-future-proof-career.md, entities/prompt-prism.md. Atualizado: entities/claude-code (+1), concepts/carreira-com-ia (+1, primeira fonte com horizonte 5 anos via Odyssey Plan), concepts/prompt-engineering (+1).
+
+## [2026-05-20] ingest | 5 prompts Claude para Amazon KDP — @Drew Huibregtse
+
+Fonte: 2026-05-09_drew_huibregtse_digital_products_DYGV3UQFhTc.md. Páginas criadas: wiki/sources/2026-05-09_drew-huibregtse-amazon-kdp.md, entities/drew-huibregtse.md, entities/amazon-kdp.md, entities/helium-10.md. Atualizado: entities/claude-code (+1), concepts/estratégia-de-negócios-com-ia (+1, novo arquétipo low-content digital products), concepts/prompt-engineering (+1, 6ª iteração do padrão sequencial de 5 prompts).
+
+## [2026-05-20] ingest | Topical authority com findquestions.com — @Matt Diamante
+
+Fonte: 2026-05-10_matt_diamante_DYJ228vjZQn.md. Páginas criadas: wiki/sources/2026-05-10_matt-diamante-topical-authority.md, entities/matt-diamante.md, entities/findquestions.md. Atualizado: concepts/estratégia-de-negócios-com-ia (+1, topical authority como arquétipo editorial), concepts/prompt-engineering (+1). Wiki: 80→85 fontes, 87→97 entidades.

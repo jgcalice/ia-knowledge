@@ -1,9 +1,9 @@
 ---
 title: "Agentes de IA"
 type: concept
-tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents, agent-teams, git-worktrees, hooks, plugins, skills]
-source_count: 23
-last_updated: 2026-05-17
+tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents, agent-teams, git-worktrees, hooks, plugins, skills, comportamento-default]
+source_count: 24
+last_updated: 2026-05-20
 ---
 
 # Agentes de IA

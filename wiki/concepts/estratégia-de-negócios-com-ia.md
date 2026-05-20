@@ -1,9 +1,9 @@
 ---
 title: "Estratégia de Negócios com IA"
 type: concept
-tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce]
-source_count: 23
-last_updated: 2026-05-17
+tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce, amazon-kdp, topical-authority, low-content-products]
+source_count: 26
+last_updated: 2026-05-20
 ---
 
 # Estratégia de Negócios com IA

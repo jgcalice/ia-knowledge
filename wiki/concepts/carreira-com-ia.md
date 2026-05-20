@@ -1,9 +1,9 @@
 ---
 title: "Carreira e Negócios com IA"
 type: concept
-tags: [carreira, negócios, linkedin, ia, recrutamento, oportunidades, renda, transição-de-carreira, ats, currículo, cover-letter]
-source_count: 16
-last_updated: 2026-05-02
+tags: [carreira, negócios, linkedin, ia, recrutamento, oportunidades, renda, transição-de-carreira, ats, currículo, cover-letter, odyssey-plan, longevidade-profissional]
+source_count: 17
+last_updated: 2026-05-20
 ---
 
 # Carreira e Negócios com IA
