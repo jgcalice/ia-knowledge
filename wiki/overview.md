@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-05-20
-source_count: 88
+last_updated: 2026-05-22
+source_count: 89
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 88 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar** e **SEO + Conteúdo**
+> Wiki iniciado em 2026-04-21 | 89 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar** e **SEO + Conteúdo**
 
 ## Tese atual
 
@@ -109,7 +109,8 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - Repos open-source como substitutos de softwares de cinco dígitos: FinceptTerminal ($24K/ano → grátis), Open-Gen-AI ($100+/mês → grátis), Claude Ads ($2K/cliente → $1,5K de receita via revenda). O ângulo não é "ferramenta para operar negócio", mas "substituir a linha de despesa e embolsar a diferença" ([[bestapps-ai]])
 - **Amazon FBA com IA**: 5 prompts para lançar produto físico na Amazon — único arquétipo de e-commerce físico do wiki. Produto → fabricante → marca → listing SEO → plano de lançamento. Amazon FBA cuida de toda a logística. Exemplo documentado: Cleaning Gel Tablets, marca Dissolv, margem 28%, $10K/mês em 7–9 meses ([[shimin-mohammadi]])
 - **3ª confirmação — repos como modelo de monetização**: [[growai]] confirma o ecossistema de repos open-source com enquadramento distinto: "$10K/mês com ferramentas gratuitas do GitHub". Detalhe novo: Claude Ads como auditoria de anúncios por $1.500/cliente; Hyperframes como produção de vídeo automatizada para agentes IA. 3 fontes independentes (paras-madan, bestapps-ai, growai) = padrão consolidado no wiki
-- **4ª perspectiva sobre repos — white-label SaaS (NOVO)**: [[harish-bhatt]] documenta o ângulo de "tornar-se o provedor de SaaS" via fork de repos estabelecidos — Cal.com ($5M ARR), Ghost (100% margem), [[n8n]] ($14M captados), Supabase ($116M captados). Não é usar a ferramenta, é revender o acesso. Primeira aparição de [[n8n]] no wiki como alternativa open-source ao Zapier para montar automação agency
+- **4ª perspectiva sobre repos — white-label SaaS**: [[harish-bhatt]] documenta o ângulo de "tornar-se o provedor de SaaS" via fork de repos estabelecidos — Cal.com ($5M ARR), Ghost (100% margem), [[n8n]] ($14M captados), Supabase ($116M captados). Não é usar a ferramenta, é revender o acesso. Primeira aparição de [[n8n]] no wiki como alternativa open-source ao Zapier para montar automação agency
+- **5ª perspectiva sobre repos — custo zero pessoal/dev (NOVO)**: segundo post de [[harish-bhatt]] enquadra repos como eliminadores de assinaturas SaaS pessoais — [[ollama]] ($0 vs OpenAI API ~$500/mês), [[whisper]] ($0 vs Otter.ai $20/mês), [[n8n]] ($0 vs Zapier Pro $600/mês). Framing "destroem $50B em receita corporativa". Novidade: [[ollama]] como **primeira entrada de IA local no wiki** — LLMs GPT-4 class offline, privacidade por design; [[whisper]] como modelo de transcrição open-source da OpenAI
 - **Solo Founder com Managed Agents** (NOVO): [[artificial-intelligence-business]] / @thewizeai documenta playbook de 7 passos sem código para $10K/mês com Claude Managed Agents — 20 agentes em paralelo (recorde do wiki), MCP como camada de conexão ao stack da empresa, stack encadeada de 3 agentes como produto. Contexto: aposta de Dario Amodei ($1B one-person company até fim de 2026)
 - **Tier matrix de nichos para AI agents**: [[derek-gray]] classifica 6 setores de serviços locais por potencial de ROI — Solar (God-Tier) e Window Replacement (S-Tier) são top porque o CAC já é alto ($5K+), treinando os clientes a pagar por aquisição. Gyms (F-Tier) é o primeiro exemplo no wiki de nicho que *parece* óbvio para Maps SEO mas onde o vetor de decisão é social (amigos), não busca. Setup mínimo documentado: $55/mês em software
 
@@ -190,7 +191,7 @@ Fonte: ([[faria-lima-elevator]])
 
 ## Mapa de entidades
 
-**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]] · [[lovable]] · [[quepo]] · [[n8n]] · [[autopilot]]
+**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]] · [[lovable]] · [[quepo]] · [[n8n]] · [[autopilot]] · [[ollama]] · [[whisper]]
 
 **Agregadores de conteúdo**: [[ai-developer-js]] · [[bestapps-ai]] · [[beyond-intelligence]] · [[growai]] · [[ai-researches-ai]]
 
@@ -268,6 +269,7 @@ Fonte: ([[faria-lima-elevator]])
 - **Amazon FBA como único arquétipo de produto físico**: [[shimin-mohammadi]] introduz o primeiro modelo de e-commerce com produto físico no wiki — todos os arquétipos anteriores (SaaS, agência, infoproduto, GMB, leads) são digitais ou de serviço. O padrão de "5 prompts encadeados com output sequencial" se confirma (4ª iteração independente: [[jordan-lee]], [[derek-gray]], [[luna-vega]], [[shimin-mohammadi]]). Novidade estrutural: Amazon FBA elimina a barreira de logística — o operador pesquisa produto, cria marca e faz listing; a Amazon cuida do resto
 - **Tier matrix de nichos como pré-filtro estratégico**: [[derek-gray]] documenta que a escolha do setor precede qualquer prospecção — Solar (God-Tier) tem CAC de $5K+, tornando $500–1K/mês trivial de justificar; Gyms (F-Tier) falham porque a decisão de compra é social, não via Google. Primeiro mapeamento explícito no wiki de setores onde Maps SEO *não funciona*
 - **White-label SaaS como 4º ângulo dos repos open-source**: [[harish-bhatt]] (@codingknowledge) introduz a perspectiva de "você vira o provedor" — fork de repos com ARR bilionário de referência (Cal.com, Supabase, Ghost) e revenda do acesso como SaaS próprio. Difere estruturalmente dos três ângulos anteriores: paras-madan (operar canais com repos), bestapps-ai (substituir software caro), growai (monetizar ferramentas de IA). Aqui o repositório **é o produto** vendido ao cliente final, não o meio de construção do serviço. [[n8n]] entra no wiki como alternativa open-source ao Zapier com 400+ integrações e IA nativa
+- **5º ângulo dos repos open-source — custo zero para o próprio dev/usuário (NOVO)**: segundo post de [[harish-bhatt]] enquadra os mesmos repos como eliminadores de assinaturas SaaS pessoais — [[ollama]] ($0 vs OpenAI API ~$500/mês), [[whisper]] ($0 vs Otter.ai $20/mês), Penpot ($0 vs Figma $45/editor/mês), [[n8n]] ($0 vs Zapier Pro $600/mês). Framing: "destroem $50B em receita corporativa". Introduz **[[ollama]] como primeira entrada de IA local no wiki** — modelos GPT-4 class offline, privacidade por design, sem quota de API; e **[[whisper]]** como modelo de transcrição OpenAI open-source usado diretamente, sem wrapper pago
 - **Gestor autônomo com skin in the game real**: [[roman-khaneichuk]] documenta o primeiro caso no wiki onde Claude *executa trades* com capital real ($50.000, Wharton PhD, sem supervisão humana) — cruzamento entre análise financeira agêntica e execução efetiva. O padrão "30 agentes bull vs bear" é a 3ª confirmação independente do mecanismo de debate como decisão financeira (após [[tradingagents]] e [[artificial-intelligence-business]]). [[autopilot]] como camada de distribuição introduz um modelo novo: qualquer usuário delega a um agente e espelha sua execução, sem código e sem análise própria
 - **SEO com IA tem duas abordagens complementares documentadas**: [[brycen-wood]] (técnica, arquivos: llms.txt + Markdown mirrors + sitemap) e [[daniel-socrates]] (dados, otimização de conteúdo existente: GSC → Claude prioriza → ajuste mínimo → solicitar indexação). A primeira prepara o site para ser lido por Google/IA; a segunda identifica e explora oportunidades de ranqueamento via dados reais. Ambas democratizam técnicas que agências cobram caro — conceito consolidado em [[seo-com-ia]]
 
@@ -277,12 +279,12 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 88 |
-| Páginas de fontes | 88 |
+| Fontes ingeridas | 89 |
+| Páginas de fontes | 89 |
 | Páginas de conceitos | 19 |
-| Páginas de entidades | 100 |
+| Páginas de entidades | 102 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **213** |
+| **Total de páginas** | **216** |
 
 ## Adições da ingestão de 2026-05-20 (4 fontes novas — Daniel Sócrates já ingerido pelo bot)
 

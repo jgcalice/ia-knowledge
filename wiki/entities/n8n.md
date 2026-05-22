@@ -3,8 +3,8 @@ title: "n8n"
 type: entity
 category: tool
 tags: [automação, no-code, low-code, workflows, integrações, open-source, agentes-ia, zapier]
-source_count: 1
-last_updated: 2026-05-17
+source_count: 2
+last_updated: 2026-05-22
 ---
 
 # n8n
@@ -31,3 +31,4 @@ Primeira aparição do n8n no wiki. É alternativa direta ao Zapier e ao Make (I
 ## Fontes
 
 - [[2026-05-16_harish-bhatt-repos-renda-passiva]] — mencionado como "Open-source Zapier" para montar automação agency ($500–$2K/setup)
+- [[2026-05-21_harish-bhatt-repos-ilegais]] — segundo ângulo: substituto direto do Zapier Pro ($600/mês → $0 self-hosted) para uso pessoal/indie; automações ilimitadas com 400+ integrações

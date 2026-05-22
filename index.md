@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-20 | Total de páginas: 213 | Fontes ingeridas: 88
+> Atualizado em: 2026-05-22 | Total de páginas: 216 | Fontes ingeridas: 89
 
 ---
 
@@ -102,6 +102,7 @@
 | [[wiki/sources/2026-05-07_prompt-prism-future-proof-career]] | @Prompt Prism | 2026-05-07 | 7 prompts para future-proof de carreira em 5 anos — Odyssey Plan + Industry Disruption Scanner + PVP + Skills Gap + Salary Negotiation 2025–2026 |
 | [[wiki/sources/2026-05-09_drew-huibregtse-amazon-kdp]] | @Drew Huibregtse | 2026-05-09 | 5 prompts Claude para criar e vender low-content digital products no Amazon KDP (livros de colorir, journals) — case $15K/mês |
 | [[wiki/sources/2026-05-10_matt-diamante-topical-authority]] | @Matt Diamante | 2026-05-10 | Topical authority via findquestions.com → uma página por pergunta = Google reconhece como especialista |
+| [[wiki/sources/2026-05-21_harish-bhatt-repos-ilegais]] | @Harish bhatt (@codingknowledge) | 2026-05-21 | 9 repos "ilegais de usar": Ollama, Whisper, n8n, Penpot, AppFlowy — substituem SaaS pagos a custo zero |
 
 ---
 
@@ -115,7 +116,7 @@
 | [[wiki/concepts/carreira-com-ia]] | 11 | IA para aceleração de carreira, LinkedIn, renda e produtos próprios |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 3 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
 | [[wiki/concepts/agentes-ia]] | 7 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão |
-| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 21 | 4 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency) + white-label SaaS |
+| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 27 | 5 ângulos sobre repos open-source + 13 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, custo zero) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
 | [[wiki/concepts/segurança-com-ia]] | 5 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital |
 | [[wiki/concepts/vibecoding]] | 1 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança, abordagens preventiva e detective |
@@ -144,7 +145,7 @@
 | Página | Tipo | Fontes | Descrição |
 |--------|------|--------|-----------|
 | [[wiki/entities/claude-code]] | tool | 38 | LLM da Anthropic — ferramenta central de todas as fontes |
-| [[wiki/entities/n8n]] | tool | 1 | Plataforma de automação de workflows open-source — alternativa ao Zapier com 400+ integrações e IA nativa |
+| [[wiki/entities/n8n]] | tool | 2 | Plataforma de automação de workflows open-source — alternativa ao Zapier com 400+ integrações e IA nativa; $600/mês Zapier Pro → $0 self-hosted |
 | [[wiki/entities/ruflo]] | tool | 1 | Camada de orquestração open-source para Claude Code: 100+ agentes, roteamento automático de modelo por complexidade, MIT |
 | [[wiki/entities/apify]] | tool | 1 | Plataforma de scraping com conector nativo no Claude |
 | [[wiki/entities/api-file]] | platform | 1 | Marketplace de APIs para scraping e integração |
@@ -159,6 +160,8 @@
 | [[wiki/entities/amazon-kdp]] | platform | 1 | Plataforma Amazon de auto-publicação — distribuição zero-friction de PDFs (interior + capa) |
 | [[wiki/entities/helium-10]] | tool | 1 | Market research Amazon (volume de busca, concorrentes, preço médio) — input para validação de nicho com Claude |
 | [[wiki/entities/findquestions]] | tool | 1 | Discovery de perguntas reais que pessoas fazem no Google — wireframe editorial para topical authority |
+| [[wiki/entities/ollama]] | tool | 1 | Plataforma open-source para rodar LLMs localmente (GPT-4 class) — custo zero, privacidade por design, funciona offline |
+| [[wiki/entities/whisper]] | tool | 1 | Modelo de reconhecimento de fala open-source da OpenAI — transcrição em 99 idiomas; substitui Otter.ai ($20/mês) gratuitamente |
 
 ### Pessoas / Criadores (Brasil)
 
@@ -191,7 +194,7 @@
 | Página | Handle | Fontes | Foco |
 |--------|--------|--------|------|
 | [[wiki/entities/shimin-mohammadi]] | @Shimin Mohammadi | 1 | Amazon FBA com IA — 5 prompts para lançar produto físico na Amazon ($900/dia) |
-| [[wiki/entities/harish-bhatt]] | @Harish bhatt (@codingknowledge) | 1 | Repos GitHub para white-label SaaS — fork → self-host → revender como SaaS recorrente |
+| [[wiki/entities/harish-bhatt]] | @Harish bhatt (@codingknowledge) | 2 | Repos GitHub open-source: ângulo 1 = white-label SaaS (fork → revender); ângulo 2 = custo zero pessoal (Ollama, Whisper, n8n) |
 | [[wiki/entities/roman-khaneichuk]] | @Roman Khaneichuk | 1 | Claude como gestor de portfólio autônomo — $50K, 30 agentes bull/bear, execução real via Autopilot |
 | [[wiki/entities/autopilot]] | @autopilot | 1 | Plataforma fintech de espelhamento de portfólio — permite replicar trades do Claude na conta da corretora do usuário |
 

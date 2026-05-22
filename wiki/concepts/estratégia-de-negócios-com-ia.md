@@ -1,9 +1,9 @@
 ---
 title: "Estratégia de Negócios com IA"
 type: concept
-tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce, amazon-kdp, topical-authority, low-content-products]
-source_count: 26
-last_updated: 2026-05-20
+tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce, amazon-kdp, topical-authority, low-content-products, open-source, custo-zero]
+source_count: 27
+last_updated: 2026-05-22
 ---
 
 # Estratégia de Negócios com IA
@@ -183,6 +183,27 @@ Antes de prospectar, a escolha do setor determina o potencial de ROI. Derek clas
 **n8n como ponto de convergência**: já documentado como "Zapier open-source" para montar automação agency, é o repo que mais se alinha com os arquétipos de AI Agency ([[jordan-lee]], [[paul-hilse]]) — a diferença é que aqui o stack de automação é propriedade do operador, não plataforma terceirizada.
 → [[2026-05-16_harish-bhatt-repos-renda-passiva]]
 
+**Quinto ângulo — custo zero pessoal e de desenvolvedor** ([[harish-bhatt]], [[2026-05-21_harish-bhatt-repos-ilegais]]):
+
+Segundo post de @codingknowledge no wiki, com enquadramento voltado ao usuário final e ao desenvolvedor indie: **"pare de pagar o SaaS, use o equivalente gratuito"**. O framing de "repos que parecem ilegais de usar" destaca a desproporcionalidade entre custo zero e valor entregue:
+
+| Repo | Substitui | Custo evitado |
+|------|-----------|--------------|
+| [[ollama]] | OpenAI API | ~$500/mês (devs) |
+| Whisper | Otter.ai | $20/mês |
+| Foooocus | Midjourney | $30/mês |
+| Plausible Analytics | Google Analytics 360 | $150K/ano (enterprise) |
+| AppFlowy | Notion | $20/usuário/mês |
+| Penpot | Figma | $45/editor/mês |
+| [[n8n]] | Zapier Pro | $600/mês |
+| Cal.com | Calendly Teams | $16/usuário/mês |
+
+**Distinção estrutural**: os ângulos anteriores enquadram repos como veículos de receita para o operador (cortar custo alheio, operar canal, white-label SaaS). Este ângulo enquadra repos como veículos de economia para o **próprio usuário** — o retorno é direto via eliminação de assinatura.
+
+**Ollama como novidade no wiki**: primeira documentação de execução de LLMs offline — custo zero de API, privacidade por design, sem dependência de rede. Introduz o tema de "IA local" ainda ausente no wiki.
+
+→ [[2026-05-21_harish-bhatt-repos-ilegais]]
+
 **Terceiro ângulo — monetização direta** ([[growai]], [[2026-05-08_growai-10-ferramentas-gratuitas]]):
 
 @GROWAI apresenta os mesmos repositórios com enquadramento editorial distinto: não "corte de custo" (bestapps) nem "operação de canais" (paras-madan), mas **"ferramentas para faturar $10K/mês"**. Detalhe novo: Claude Ads documentado com modelo de negócio específico — *"sell this as a custom ad audit service for $1,500 a pop"* — mais granular do que qualquer fonte anterior. Fincept Terminal ganha novo detalhe: 37 agentes IA embutidos baseados nas metodologias de Buffett, Munger e Lynch.
@@ -316,6 +337,7 @@ Workflow de baixo custo para subir posições no Google sem criar nova página �
 
 ## Fontes
 
+- [[2026-05-21_harish-bhatt-repos-ilegais]]
 - [[2026-04-08_daniel-socrates-seo-ia]]
 - [[2026-05-15_ai-business-empresa-1b-agentes]]
 - [[2026-05-16_harish-bhatt-repos-renda-passiva]]
