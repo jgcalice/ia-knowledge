@@ -2,8 +2,8 @@
 title: "Estratégia de Negócios com IA"
 type: concept
 tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce, amazon-kdp, topical-authority, low-content-products, open-source, custo-zero]
-source_count: 27
-last_updated: 2026-05-22
+source_count: 28
+last_updated: 2026-05-24
 ---
 
 # Estratégia de Negócios com IA
@@ -182,6 +182,8 @@ Antes de prospectar, a escolha do setor determina o potencial de ROI. Derek clas
 
 **n8n como ponto de convergência**: já documentado como "Zapier open-source" para montar automação agency, é o repo que mais se alinha com os arquétipos de AI Agency ([[jordan-lee]], [[paul-hilse]]) — a diferença é que aqui o stack de automação é propriedade do operador, não plataforma terceirizada.
 → [[2026-05-16_harish-bhatt-repos-renda-passiva]]
+
+**Confirmação independente do 4º ângulo** ([[today-in-ai]], [[2026-05-18_today-in-ai-repos-renda-passiva]]): aitickerdaily/curatedai.net publica os mesmos 10 repos com enquadramento idêntico — nichos verticais mais específicos (Cal.com para dentistas/advogados a $200/mês; Plausible para agências a $50/mês por cliente; Penpot para agências com restrições de cloud; Listmonk: custo AWS → revenda com markup). Fonte totalmente independente de [[harish-bhatt]]: confirma que o ângulo "white-label SaaS via fork" é padrão circulante na comunidade, não produção de um criador isolado. Padrão de 3 fontes sobre repos = consolidado no wiki.
 
 **Quinto ângulo — custo zero pessoal e de desenvolvedor** ([[harish-bhatt]], [[2026-05-21_harish-bhatt-repos-ilegais]]):
 

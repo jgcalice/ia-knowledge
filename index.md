@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-22 | Total de páginas: 216 | Fontes ingeridas: 89
+> Atualizado em: 2026-05-24 | Total de páginas: 218 | Fontes ingeridas: 90
 
 ---
 
@@ -103,6 +103,7 @@
 | [[wiki/sources/2026-05-09_drew-huibregtse-amazon-kdp]] | @Drew Huibregtse | 2026-05-09 | 5 prompts Claude para criar e vender low-content digital products no Amazon KDP (livros de colorir, journals) — case $15K/mês |
 | [[wiki/sources/2026-05-10_matt-diamante-topical-authority]] | @Matt Diamante | 2026-05-10 | Topical authority via findquestions.com → uma página por pergunta = Google reconhece como especialista |
 | [[wiki/sources/2026-05-21_harish-bhatt-repos-ilegais]] | @Harish bhatt (@codingknowledge) | 2026-05-21 | 9 repos "ilegais de usar": Ollama, Whisper, n8n, Penpot, AppFlowy — substituem SaaS pagos a custo zero |
+| [[wiki/sources/2026-05-18_today-in-ai-repos-renda-passiva]] | @TODAY IN AI | 2026-05-18 | 10 repos GitHub white-label/SaaS: Cal.com, Plausible, Ghost, n8n, Supabase, Medusa, AppFlowy, Coolify, Listmonk, Penpot |
 
 ---
 
@@ -116,7 +117,7 @@
 | [[wiki/concepts/carreira-com-ia]] | 11 | IA para aceleração de carreira, LinkedIn, renda e produtos próprios |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 3 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
 | [[wiki/concepts/agentes-ia]] | 7 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão |
-| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 27 | 5 ângulos sobre repos open-source + 13 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, custo zero) |
+| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 28 | 5 ângulos sobre repos open-source + 13 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, custo zero) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
 | [[wiki/concepts/segurança-com-ia]] | 5 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital |
 | [[wiki/concepts/vibecoding]] | 1 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança, abordagens preventiva e detective |
@@ -145,7 +146,7 @@
 | Página | Tipo | Fontes | Descrição |
 |--------|------|--------|-----------|
 | [[wiki/entities/claude-code]] | tool | 38 | LLM da Anthropic — ferramenta central de todas as fontes |
-| [[wiki/entities/n8n]] | tool | 2 | Plataforma de automação de workflows open-source — alternativa ao Zapier com 400+ integrações e IA nativa; $600/mês Zapier Pro → $0 self-hosted |
+| [[wiki/entities/n8n]] | tool | 3 | Plataforma de automação de workflows open-source — alternativa ao Zapier com 400+ integrações e IA nativa; $600/mês Zapier Pro → $0 self-hosted |
 | [[wiki/entities/ruflo]] | tool | 1 | Camada de orquestração open-source para Claude Code: 100+ agentes, roteamento automático de modelo por complexidade, MIT |
 | [[wiki/entities/apify]] | tool | 1 | Plataforma de scraping com conector nativo no Claude |
 | [[wiki/entities/api-file]] | platform | 1 | Marketplace de APIs para scraping e integração |
@@ -188,6 +189,7 @@
 | [[wiki/entities/ai-technology]] | @AI \| Technology | 1 | Canal de privacidade digital e segurança online — guia de 7 passos para remoção de pegada digital |
 | [[wiki/entities/ai-researches-ai]] | @AI researches \| AI | 1 | Canal internacional (1,2M seguidores) — curadoria de novidades IA, foco em guias oficiais e pesquisas |
 | [[wiki/entities/growai]] | @GROWAI | 1 | Canal curador de repos open-source para monetização com IA — "$10K/mês com ferramentas gratuitas do GitHub" |
+| [[wiki/entities/today-in-ai]] | @TODAY IN AI | 1 | Canal agregador (aitickerdaily/curatedai.net) — curadoria de repos GitHub para white-label SaaS |
 
 ### Pessoas / Criadores (Internacional — e-commerce)
 
