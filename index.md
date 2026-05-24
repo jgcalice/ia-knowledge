@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-24 | Total de páginas: 218 | Fontes ingeridas: 90
+> Atualizado em: 2026-05-24 | Total de páginas: 219 | Fontes ingeridas: 91
 
 ---
 
@@ -104,6 +104,7 @@
 | [[wiki/sources/2026-05-10_matt-diamante-topical-authority]] | @Matt Diamante | 2026-05-10 | Topical authority via findquestions.com → uma página por pergunta = Google reconhece como especialista |
 | [[wiki/sources/2026-05-21_harish-bhatt-repos-ilegais]] | @Harish bhatt (@codingknowledge) | 2026-05-21 | 9 repos "ilegais de usar": Ollama, Whisper, n8n, Penpot, AppFlowy — substituem SaaS pagos a custo zero |
 | [[wiki/sources/2026-05-18_today-in-ai-repos-renda-passiva]] | @TODAY IN AI | 2026-05-18 | 10 repos GitHub white-label/SaaS: Cal.com, Plausible, Ghost, n8n, Supabase, Medusa, AppFlowy, Coolify, Listmonk, Penpot |
+| [[wiki/sources/2026-04-23_drew-huibregtse-sistema-amazon-kdp]] | @Drew Huibregtse | 2026-04-23 | Sistema de 4 passos Amazon KDP: nicho (Helium 10) → conteúdo IA → capa Canva → upload; case $21.626/30 dias |
 
 ---
 
@@ -117,7 +118,7 @@
 | [[wiki/concepts/carreira-com-ia]] | 11 | IA para aceleração de carreira, LinkedIn, renda e produtos próprios |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 3 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
 | [[wiki/concepts/agentes-ia]] | 7 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão |
-| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 28 | 5 ângulos sobre repos open-source + 13 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, custo zero) |
+| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 29 | 5 ângulos sobre repos open-source + 14 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
 | [[wiki/concepts/segurança-com-ia]] | 5 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital |
 | [[wiki/concepts/vibecoding]] | 1 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança, abordagens preventiva e detective |
@@ -158,8 +159,8 @@
 | [[wiki/entities/smithery]] | platform | 1 | Marketplace com 128k+ Claude Skills/MCPs |
 | [[wiki/entities/vibe-prospecting]] | tool | 1 | Conector Claude.ai para geração de leads por nicho/cargo/cidade |
 | [[wiki/entities/google-search-console]] | tool | 1 | Ferramenta gratuita Google de SEO — fonte de dados estruturados (queries, posição média, cliques) para pipelines com Claude |
-| [[wiki/entities/amazon-kdp]] | platform | 1 | Plataforma Amazon de auto-publicação — distribuição zero-friction de PDFs (interior + capa) |
-| [[wiki/entities/helium-10]] | tool | 1 | Market research Amazon (volume de busca, concorrentes, preço médio) — input para validação de nicho com Claude |
+| [[wiki/entities/amazon-kdp]] | platform | 2 | Plataforma Amazon de auto-publicação — distribuição zero-friction de PDFs (interior + capa) |
+| [[wiki/entities/helium-10]] | tool | 2 | Market research Amazon (volume de busca, concorrentes, preço médio) — input para validação de nicho com Claude |
 | [[wiki/entities/findquestions]] | tool | 1 | Discovery de perguntas reais que pessoas fazem no Google — wireframe editorial para topical authority |
 | [[wiki/entities/ollama]] | tool | 1 | Plataforma open-source para rodar LLMs localmente (GPT-4 class) — custo zero, privacidade por design, funciona offline |
 | [[wiki/entities/whisper]] | tool | 1 | Modelo de reconhecimento de fala open-source da OpenAI — transcrição em 99 idiomas; substitui Otter.ai ($20/mês) gratuitamente |
@@ -264,7 +265,7 @@
 | [[wiki/entities/max-kelley]] | @Max Kelley | 1 | Vibe Coding e curadoria de plugins/repos Claude Code com tração no GitHub |
 | [[wiki/entities/forrest-chang]] | Forrest Chang | 1 | Developer — autor de plugin Claude Code (~42k stars no GitHub) que corrige os 3 problemas default |
 | [[wiki/entities/prompt-prism]] | @Prompt Prism | 1 | Carreira de 5 anos com frameworks acadêmicos (Odyssey Plan) e benchmarks salariais 2025–2026 |
-| [[wiki/entities/drew-huibregtse]] | @Drew Huibregtse \| Digital Products | 1 | Low-content digital products no Amazon KDP — pipeline de 5 prompts com Claude + Canva |
+| [[wiki/entities/drew-huibregtse]] | @Drew Huibregtse \| Digital Products | 2 | Low-content digital products no Amazon KDP — sistema de 4 passos (nicho, conteúdo IA, Canva, KDP) + pipeline de 5 prompts Claude |
 | [[wiki/entities/matt-diamante]] | @Matt Diamante | 1 | SEO simplificado via topical authority com findquestions.com — uma pergunta por post |
 
 ---

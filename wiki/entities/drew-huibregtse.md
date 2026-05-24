@@ -3,8 +3,8 @@ title: "Drew Huibregtse"
 type: entity
 category: person
 tags: [amazon-kdp, infoproduto, renda-passiva, claude]
-source_count: 1
-last_updated: 2026-05-20
+source_count: 2
+last_updated: 2026-05-24
 ---
 
 # Drew Huibregtse
@@ -20,6 +20,7 @@ Criador internacional no nicho de **digital products no Amazon KDP** — handles
 
 ## Aparições no wiki
 
+- [[2026-04-23_drew-huibregtse-sistema-amazon-kdp]] — sistema de 4 passos: pesquisa de nicho (Helium 10) → conteúdo IA → capa Canva → upload KDP; case $21.626/30 dias
 - [[2026-05-09_drew-huibregtse-amazon-kdp]] — 5 prompts Claude para criar e vender livros de colorir e journals no Amazon KDP
 
 ## Relacionado

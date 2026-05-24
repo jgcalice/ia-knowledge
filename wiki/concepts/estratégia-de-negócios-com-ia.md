@@ -2,7 +2,7 @@
 title: "Estratégia de Negócios com IA"
 type: concept
 tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce, amazon-kdp, topical-authority, low-content-products, open-source, custo-zero]
-source_count: 28
+source_count: 29
 last_updated: 2026-05-24
 ---
 
@@ -225,6 +225,7 @@ Segundo post de @codingknowledge no wiki, com enquadramento voltado ao usuário 
 | **AI Sales Agency** | 3 agentes (SDR + Analisador + Consultor) cobrem todo o funil de vendas — $3K/cliente, sem código | [[jordan-lee]] |
 | **One-Person Business (Dan Koe model)** | 5 prompts: ideia → oferta-transformação → conteúdo → vendas autônomas → escalar sem equipe | [[ai-fied]] (via [[dan-koe]]) |
 | **Freelance + Day Rate + Desafio Pago** | 5 templates com placeholders para monetizar skill existente em dias/semanas; day rate: $1K/dia com IA | [[laura-anderson]] |
+| **Amazon KDP — Low-content Digital Products** | Sistema de 4 passos: pesquisa de nicho (Helium 10) → conteúdo IA (Claude/ChatGPT + geradores de imagem) → capa (Canva) → upload KDP. Zero supply chain, royalties passivos. Case: $21.626/30 dias, 1 livro | [[drew-huibregtse]] |
 | **Amazon FBA com IA** | 5 prompts para lançar produto físico na Amazon: produto → fabricante → marca → listing SEO → plano de lançamento | [[shimin-mohammadi]] |
 | **White-label SaaS** | Fork de repo open-source estabelecido → self-host → branding → vender acesso como SaaS recorrente. Referências: Cal.com ($5M ARR), Ghost (100% margem), n8n ($14M captados) | [[harish-bhatt]] |
 | **Solo Founder com Managed Agents** | 7 passos sem código para $10K/mês: UMA tarefa → JD detalhada → Claude Desktop → MCP (Slack/Drive/Gmail) → testar → agendar → empilhar 3 agentes. O stack encadeado é o produto; roda na nuvem da Anthropic. Contexto: aposta Dario Amodei — empresa de $1B por uma pessoa até fim de 2026 | [[artificial-intelligence-business]] |
@@ -279,6 +280,26 @@ Segunda fonte de [[jordan-lee]], publicada via [[your-ai-compass]], documenta o 
 
 Complemento da fonte anterior: enquanto [[2026-04-15_jordan-lee-vendas-sistema-ia]] descreve os 3 agentes de vendas, esta fonte documenta **o que os agentes entregam ao cliente final** (AI receptionist) e **como o operador gerencia o negócio** (CEO Weekly Report).
 → [[2026-04-30_your-ai-compass-7-prompts-agencia-ia]]
+
+## Amazon KDP: low-content digital products com IA e renda passiva
+
+[[drew-huibregtse]] documenta o arquétipo **zero supply chain** do wiki: livros de colorir, journals e planners gerados majoritariamente por IA e distribuídos pela Amazon via KDP — sem produto físico, fabricante, frete ou funcionários.
+
+| Etapa | Ferramenta | Critério de sucesso |
+|-------|------------|-------------------|
+| **1. Pesquisa de nicho** | [[helium-10]] | Alto volume de buscas + baixo review count nos top resultados + títulos fracos |
+| **2. Geração de conteúdo** | Claude ou ChatGPT (prompts) → Gemini / Leonardo / Freepik (imagens) | Cada página em minutos, sem design ou terceirização |
+| **3. Design de capa** | Canva (template KDP) | Capa profissional em 10 minutos |
+| **4. Publicação** | kdp.amazon.com | Ao vivo em 24–72h; 300M compradores ativos; royalties automáticos |
+
+**Métricas documentadas**: $21.626 em 30 dias com 3.025 cópias de um único livro de colorir ("Cozy Cuties"). Alunos: $100K em vendas totais, 20K+ produtos vendidos — sem background prévio em publicação, design ou audiência.
+
+**Princípio editorial**: "o produto digital não tira férias, não pede aumento e fica na Amazon para sempre" — a "vantagem desleal" é que o ativo trabalha 24/7 após o esforço inicial de criação.
+
+**Diferença estrutural em relação ao Amazon FBA** ([[shimin-mohammadi]]): KDP elimina qualquer supply chain (o produto é um arquivo PDF); FBA ainda requer fabricante, estoque e logística — apenas o canal de distribuição é o mesmo.
+
+→ [[2026-04-23_drew-huibregtse-sistema-amazon-kdp]] (visão geral do sistema e social proof)
+→ [[2026-05-09_drew-huibregtse-amazon-kdp]] (pipeline técnico de 5 prompts Claude)
 
 ## Amazon FBA com Claude: e-commerce físico lançado com 5 prompts
 
@@ -363,3 +384,5 @@ Workflow de baixo custo para subir posições no Google sem criar nova página �
 - [[2026-04-05_derek-gray-renda-recorrente-google-maps]]
 - [[2026-04-26_laura-anderson-prompts-renda-rapida]]
 - [[2026-05-09_shimin-mohammadi-amazon-claude]]
+- [[2026-04-23_drew-huibregtse-sistema-amazon-kdp]]
+- [[2026-05-09_drew-huibregtse-amazon-kdp]]

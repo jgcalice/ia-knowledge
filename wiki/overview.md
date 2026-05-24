@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-05-24
-source_count: 90
+source_count: 91
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 90 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar** e **SEO + Conteúdo**
+> Wiki iniciado em 2026-04-21 | 91 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar** e **SEO + Conteúdo**
 
 ## Tese atual
 
@@ -280,12 +280,16 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 90 |
-| Páginas de fontes | 90 |
+| Fontes ingeridas | 91 |
+| Páginas de fontes | 91 |
 | Páginas de conceitos | 19 |
 | Páginas de entidades | 103 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **218** |
+| **Total de páginas** | **219** |
+
+## Adições da ingestão de 2026-05-24 (1 fonte nova)
+
+- **Segunda fonte de [[drew-huibregtse]] sobre Amazon KDP**: post de 2026-04-23 — overview do sistema de 4 passos com social proof detalhado ($21.626/30 dias, 1 livro). Complementa [[2026-05-09_drew-huibregtse-amazon-kdp]] (pipeline técnico). Retroativamente, a seção "Amazon KDP" em [[estratégia-de-negócios-com-ia]] foi adicionada com o arquétipo completo. Source_count atualizados: [[drew-huibregtse]] 1→2, [[amazon-kdp]] 1→2, [[helium-10]] 1→2, [[estratégia-de-negócios-com-ia]] 28→29.
 
 ## Adições da ingestão de 2026-05-20 (4 fontes novas — Daniel Sócrates já ingerido pelo bot)
 

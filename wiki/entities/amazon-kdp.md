@@ -3,8 +3,8 @@ title: "Amazon KDP"
 type: entity
 category: platform
 tags: [amazon, kdp, self-publishing, digital-products, distribuição]
-source_count: 1
-last_updated: 2026-05-20
+source_count: 2
+last_updated: 2026-05-24
 ---
 
 # Amazon KDP (Kindle Direct Publishing)
@@ -28,7 +28,8 @@ Camada de distribuição para o arquétipo **low-content digital products** docu
 
 ## Aparições no wiki
 
-- [[2026-05-09_drew-huibregtse-amazon-kdp]] — pipeline completo de 5 prompts
+- [[2026-04-23_drew-huibregtse-sistema-amazon-kdp]] — sistema de 4 passos; geração de imagem via Gemini/Leonardo/Freepik; case $21.626/30 dias
+- [[2026-05-09_drew-huibregtse-amazon-kdp]] — pipeline completo de 5 prompts Claude
 
 ## Relacionado
 
