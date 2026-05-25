@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-24 | Total de páginas: 219 | Fontes ingeridas: 91
+> Atualizado em: 2026-05-25 | Total de páginas: 222 | Fontes ingeridas: 92
 
 ---
 
@@ -105,6 +105,7 @@
 | [[wiki/sources/2026-05-21_harish-bhatt-repos-ilegais]] | @Harish bhatt (@codingknowledge) | 2026-05-21 | 9 repos "ilegais de usar": Ollama, Whisper, n8n, Penpot, AppFlowy — substituem SaaS pagos a custo zero |
 | [[wiki/sources/2026-05-18_today-in-ai-repos-renda-passiva]] | @TODAY IN AI | 2026-05-18 | 10 repos GitHub white-label/SaaS: Cal.com, Plausible, Ghost, n8n, Supabase, Medusa, AppFlowy, Coolify, Listmonk, Penpot |
 | [[wiki/sources/2026-04-23_drew-huibregtse-sistema-amazon-kdp]] | @Drew Huibregtse | 2026-04-23 | Sistema de 4 passos Amazon KDP: nicho (Helium 10) → conteúdo IA → capa Canva → upload; case $21.626/30 dias |
+| [[wiki/sources/2026-05-24_hasan-toor-modelos-ia-offline]] | @Hasan Toor | 2026-05-24 | Guia de 7 passos para rodar LLMs offline em <20 min: Ollama + LM Studio + RAM guide + Q4_K_M + API localhost:11434 |
 
 ---
 
@@ -131,6 +132,7 @@
 | [[wiki/concepts/bem-estar-com-ia]] | 1 | Prompts parametrizados substituindo serviços profissionais de fitness — inputs de anamnese → protocolo de nível profissional |
 | [[wiki/concepts/busca-de-emprego-com-ia]] | 3 | Busca de emprego automatizada com Career Ops, ATS e candidaturas personalizadas por vaga |
 | [[wiki/concepts/seo-com-ia]] | 3 | SEO com IA: três abordagens — arquivos técnicos (llms.txt), otimização via GSC e guia oficial Google (contradiz necessidade de llms.txt) |
+| [[wiki/concepts/ia-local]] | 2 | Execução de LLMs sem nuvem: Ollama + LM Studio, RAM guide, quantização Q4_K_M, API OpenAI-compatível local |
 
 ---
 
@@ -162,8 +164,9 @@
 | [[wiki/entities/amazon-kdp]] | platform | 2 | Plataforma Amazon de auto-publicação — distribuição zero-friction de PDFs (interior + capa) |
 | [[wiki/entities/helium-10]] | tool | 2 | Market research Amazon (volume de busca, concorrentes, preço médio) — input para validação de nicho com Claude |
 | [[wiki/entities/findquestions]] | tool | 1 | Discovery de perguntas reais que pessoas fazem no Google — wireframe editorial para topical authority |
-| [[wiki/entities/ollama]] | tool | 1 | Plataforma open-source para rodar LLMs localmente (GPT-4 class) — custo zero, privacidade por design, funciona offline |
+| [[wiki/entities/ollama]] | tool | 2 | Plataforma open-source para rodar LLMs localmente (GPT-4 class) — custo zero, privacidade por design, funciona offline; API OpenAI-compatível em localhost:11434 |
 | [[wiki/entities/whisper]] | tool | 1 | Modelo de reconhecimento de fala open-source da OpenAI — transcrição em 99 idiomas; substitui Otter.ai ($20/mês) gratuitamente |
+| [[wiki/entities/lm-studio]] | tool | 1 | Runner GUI para LLMs locais — alternativa ao Ollama para quem evita o terminal; model browser + chat embutido |
 
 ### Pessoas / Criadores (Brasil)
 
@@ -267,6 +270,7 @@
 | [[wiki/entities/prompt-prism]] | @Prompt Prism | 1 | Carreira de 5 anos com frameworks acadêmicos (Odyssey Plan) e benchmarks salariais 2025–2026 |
 | [[wiki/entities/drew-huibregtse]] | @Drew Huibregtse \| Digital Products | 2 | Low-content digital products no Amazon KDP — sistema de 4 passos (nicho, conteúdo IA, Canva, KDP) + pipeline de 5 prompts Claude |
 | [[wiki/entities/matt-diamante]] | @Matt Diamante | 1 | SEO simplificado via topical authority com findquestions.com — uma pergunta por post |
+| [[wiki/entities/hasan-toor]] | @Hasan Toor | 2 | Pesquisa de mercado avançada + guia técnico de IA local (Ollama, LM Studio, Q4_K_M, localhost API) |
 
 ---
 

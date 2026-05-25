@@ -2,8 +2,8 @@
 title: "Estratégia de Negócios com IA"
 type: concept
 tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce, amazon-kdp, topical-authority, low-content-products, open-source, custo-zero]
-source_count: 29
-last_updated: 2026-05-24
+source_count: 30
+last_updated: 2026-05-25
 ---
 
 # Estratégia de Negócios com IA
@@ -339,6 +339,28 @@ Framework de posicionamento para quem vende automações com IA, extraído de 40
 
 → [[2026-05-03_nate-herk-6-habilidades-claude-code]]
 
+## IA local como infraestrutura de custo zero
+
+([[hasan-toor]], [[2026-05-24_hasan-toor-modelos-ia-offline]])
+
+Todo arquétipo de negócio documentado acima incorre em custo de API de LLM. [[hasan-toor]] documenta como eliminar esse custo completamente com IA local — o que muda o cálculo de viabilidade de todos os arquétipos:
+
+| Solução paga | Alternativa local | Custo evitado |
+|-------------|------------------|---------------|
+| Claude Pro $20/mês | Qwen3:8B via [[ollama]] (geral) | $20/mês |
+| OpenAI API ~$500/mês | Qwen3.6:27B local (código) | ~$500/mês |
+| Qualquer API LLM | DeepSeek-R1:8B local (raciocínio) | — |
+
+**Requisito técnico mínimo**: laptop com 16GB RAM roda modelos 7B–8B ("ponto ideal") em qualidade comparável ao Claude; a API local é OpenAI-compatível, portanto qualquer pipeline existente aponta para `http://localhost:11434` sem mudança de código.
+
+**Habilitador**: quantização **Q4_K_M** — permite rodar Llama 4 70B em ~40GB em vez de ~140GB; Ollama aplica por padrão.
+
+**Distinção dos arquétipos de repos anteriores**: os ângulos de [[harish-bhatt]], [[bestapps-ai]] e [[growai]] documentam repos que *operam* o negócio ou *substituem* SaaS de terceiros; este framework elimina o custo do motor cognitivo em si — a fundação de todos os outros arquétipos.
+
+Conceito central: [[ia-local]]
+
+→ [[2026-05-24_hasan-toor-modelos-ia-offline]]
+
 ## SEO com IA como tática de otimização de conteúdo existente
 
 ([[daniel-socrates]], [[2026-04-08_daniel-socrates-seo-ia]])
@@ -386,3 +408,4 @@ Workflow de baixo custo para subir posições no Google sem criar nova página �
 - [[2026-05-09_shimin-mohammadi-amazon-claude]]
 - [[2026-04-23_drew-huibregtse-sistema-amazon-kdp]]
 - [[2026-05-09_drew-huibregtse-amazon-kdp]]
+- [[2026-05-24_hasan-toor-modelos-ia-offline]]

@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-05-24
-source_count: 91
+last_updated: 2026-05-25
+source_count: 92
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 91 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar** e **SEO + Conteúdo**
+> Wiki iniciado em 2026-04-21 | 92 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo** e **IA Local**
 
 ## Tese atual
 
@@ -114,6 +114,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - **5ª perspectiva sobre repos — custo zero pessoal/dev**: segundo post de [[harish-bhatt]] enquadra repos como eliminadores de assinaturas SaaS pessoais — [[ollama]] ($0 vs OpenAI API ~$500/mês), [[whisper]] ($0 vs Otter.ai $20/mês), [[n8n]] ($0 vs Zapier Pro $600/mês). Framing "destroem $50B em receita corporativa". Novidade: [[ollama]] como **primeira entrada de IA local no wiki** — LLMs GPT-4 class offline, privacidade por design; [[whisper]] como modelo de transcrição open-source da OpenAI
 - **Solo Founder com Managed Agents** (NOVO): [[artificial-intelligence-business]] / @thewizeai documenta playbook de 7 passos sem código para $10K/mês com Claude Managed Agents — 20 agentes em paralelo (recorde do wiki), MCP como camada de conexão ao stack da empresa, stack encadeada de 3 agentes como produto. Contexto: aposta de Dario Amodei ($1B one-person company até fim de 2026)
 - **Tier matrix de nichos para AI agents**: [[derek-gray]] classifica 6 setores de serviços locais por potencial de ROI — Solar (God-Tier) e Window Replacement (S-Tier) são top porque o CAC já é alto ($5K+), treinando os clientes a pagar por aquisição. Gyms (F-Tier) é o primeiro exemplo no wiki de nicho que *parece* óbvio para Maps SEO mas onde o vetor de decisão é social (amigos), não busca. Setup mínimo documentado: $55/mês em software
+- **IA local como infraestrutura de custo zero** (NOVO): [[hasan-toor]] documenta guia de 7 passos para rodar modelos open-source (Qwen3, DeepSeek-R1) offline em <20 minutos com [[ollama]] ou [[lm-studio]]. Habilitador técnico: quantização Q4_K_M (140GB → 40GB, qualidade quase idêntica). API OpenAI-compatível em `http://localhost:11434` permite que qualquer pipeline existente aponte para a máquina local sem mudança de código. Conceito central: [[ia-local]]
 
 ---
 
@@ -192,7 +193,7 @@ Fonte: ([[faria-lima-elevator]])
 
 ## Mapa de entidades
 
-**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]] · [[lovable]] · [[quepo]] · [[n8n]] · [[autopilot]] · [[ollama]] · [[whisper]]
+**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]] · [[lovable]] · [[quepo]] · [[n8n]] · [[autopilot]] · [[ollama]] · [[whisper]] · [[lm-studio]]
 
 **Agregadores de conteúdo**: [[ai-developer-js]] · [[bestapps-ai]] · [[beyond-intelligence]] · [[growai]] · [[ai-researches-ai]] · [[today-in-ai]]
 
@@ -204,7 +205,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]] · [[faria-lima-elevator]] · [[allessandra-sinisgalli]] · [[daniel-socrates]]
 
-**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]] · [[bert-no-chase]] · [[duncan-rogoff]] · [[ai-technology]] · [[shimin-mohammadi]] · [[harish-bhatt]] · [[roman-khaneichuk]]
+**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]] · [[bert-no-chase]] · [[duncan-rogoff]] · [[ai-technology]] · [[shimin-mohammadi]] · [[harish-bhatt]] · [[roman-khaneichuk]] · [[hasan-toor]]
 
 **Referências de produto Anthropic**: [[boris-cherny]]
 
@@ -257,6 +258,7 @@ Fonte: ([[faria-lima-elevator]])
 - **Slash-command style activators como notação mnemônica para ativadores semânticos**: [[ai-developer-js]] documenta 13 pseudo-comandos com prefixo "/" (/godmode, /devil, /10x, /scout, /compare…) que funcionam como ativadores informais de modo no Claude. São variações com notação de barra dos mesmos ativadores semânticos já documentados ([[castilhoia]]) e ELI5 ([[adriano-couto]]). O valor é a mnemônica: o "/" torna o ativador visualmente distinto e fácil de lembrar; não são comandos nativos do Claude Code CLI
 - **Repos open-source como corte de cinco dígitos — framing de substituição, não de ferramenta**: [[bestapps-ai]] reencadra o tema "repos para monetizar" (já presente em [[paras-madan]]): a pergunta não é "que ferramenta usar?" mas "quanto você economiza vs a alternativa paga?". FinceptTerminal = $24K/ano; Open-Gen-AI = $100+/mês; Claude Ads = $2K/cliente. O modelo de receita emerge automaticamente: entregar o setup como serviço e cobrar uma fração do custo substituído. Convergência temática: Claude Ads e Context Mode aparecem em ambos os posts — dois repos com múltiplas confirmações independentes
 - **Taxonomia de 89 comandos como mapa mental de modos de uso**: [[beyond-intelligence]] publica referência mais ampla que os 13 pseudo-comandos de [[ai-developer-js]] — 89 entradas em 11 categorias funcionais. O valor não está nos itens individuais (o post não distingue comandos nativos CLI de pseudo-comandos informais), mas na **taxonomia** em si: Start & Create → Focus & Context → Think & Solve → Write & Edit → Organize & Structure → Code & Tech → Data & Analysis → Automate & Integrate → Personalize & Control → Learn & Research → Collaborate & Share. As 11 categorias mapeiam o espectro completo de intenções de uso do Claude — uma referência de orientação, não de execução
+- **IA local elimina o custo de tokens — mais radical que redução**: [[hasan-toor]] documenta que a barreira técnica para rodar LLMs localmente colapsou. Em 20 minutos e 16GB de RAM, qualquer pessoa tem um modelo 7B–8B rodando com qualidade comparável ao Claude Pro ($20/mês) ou ao uso de API. A quantização Q4_K_M ([[ia-local]]) é o enabler: modelos que precisavam de data center cabem agora em hardware de consumidor. Todas as técnicas de [[otimização-de-tokens]] documentadas até aqui tratam de *reduzir* custo; IA local o *elimina*. O impacto no mapa de arquétipos de [[estratégia-de-negócios-com-ia]] é transversal: qualquer negócio baseado em API de LLM pode reconsiderar sua estrutura de custo
 - **Pasta `.claude/` como sistema — distinção advisory vs. determinístico**: [[manthan-patel]] ancora as 5 camadas do Agent Development Kit em localizações físicas concretas e formula a distinção operacional mais importante para quem implementa: *"CLAUDE.md is advisory. hooks are deterministic."* O CLAUDE.md é consultado pelo modelo, que *pode* seguir; os hooks são scripts que o *sistema* executa sempre, sem decisão da IA. Regras que o desenvolvedor quer garantir devem estar em hooks, não em CLAUDE.md. Princípio de design: *"The folder structure IS the system"*
 - **Screening de ações como caso-modelo de pipeline sequencial em domínio especializado**: [[bert-no-chase]] documenta o uso de 3 prompts encadeados (tema → universo → ranking → deep dive) para triagem de candidatos a swing trade em 5 minutos. O padrão sequencial já documentado em [[geração-de-leads-com-ia]] e em [[finanças-com-ia]] reaparece aqui com a mesma lógica: ampliar → filtrar → aprofundar. Novidade editorial: o autor reconhece explicitamente que IA não substitui análise técnica no timing — a IA faz a triagem fundamentalista; o humano decide *quando* entrar
 - **Pipeline de reconstrução de candidatura com ROLEs de elite**: [[your-ai-compass]] documenta 4 prompts encadeados onde Claude assume personas sequenciais de recrutadores de alto nível — Google (triagem de currículo), ATS specialist (compatibilidade automática), McKinsey (quantificação de conquistas) e Robert Half (carta de apresentação). O padrão ROLE-como-instituição confirma-se no domínio de carreira: nomear organizações cujas metodologias o modelo internalizou (Google hiring bar, McKinsey achievement framework) é suficiente para convocar o framework completo sem descrever o método. O ATS Optimization Prompt é a contribuição técnica mais nova — nomear sistemas reais (Workday, Greenhouse, Lever) orienta o modelo para as restrições de parsing específicas de cada plataforma
