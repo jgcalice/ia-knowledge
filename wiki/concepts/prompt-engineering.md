@@ -2,8 +2,8 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas, plan-mode, self-checking]
-source_count: 36
-last_updated: 2026-05-20
+source_count: 37
+last_updated: 2026-05-26
 ---
 
 # Prompt Engineering
@@ -267,6 +267,38 @@ Padrão de marketing consolidado por [[ai-fied]]: usar o nome de uma figura hist
 
 O padrão é distinto dos "prompts para pensar como fundador $100M" de [[evolving-ai]] / [[business-bulls]] — lá a referência é implícita; aqui é explícita e é o gancho principal do title card.
 
+### "Act like a senior engineer" — prompts de papel em engenharia de software
+
+([[harish-bhatt]], [[2026-05-25_harish-bhatt-11-prompts-engenharia-software]])
+
+Extensão do padrão [[Persona Mode e Output Constraints]] aplicada exaustivamente ao domínio de engenharia de software: 11 prompts que convocam papéis completos de engenheiro sênior, cada um com missão específica e lista de entregáveis estruturada. A abertura invariável é `"Act like a senior [papel]"` — suficiente para convocar décadas de best practices sem descrevê-las.
+
+Estrutura padrão de cada prompt:
+1. `"Act like a senior [full-stack engineer / systems architect / debugging expert / frontend engineer / technical lead]"`
+2. Missão explícita: o que deve ser analisado ou construído
+3. Constraint de escopo: `"Do not change functionality. Only upgrade [code quality / architecture / performance]."`
+4. Lista de entregáveis: bullets específicos (architecture breakdown, root cause analysis, edge case analysis, etc.)
+5. Fecho de expectativa: `"Build it like a real startup that could scale to millions of users."` / `"Think deeply before making changes."`
+
+**Variantes documentadas:**
+
+| Prompt | Papel convocado | Entregável chave |
+|--------|----------------|-----------------|
+| Startup MVP | Full-stack engineer como equipe completa | system architecture + DB schema + API + UI + production code |
+| Code audit | Senior engineer em codebase desconhecido | bad architecture + duplicate logic + bottlenecks + refactoring plan |
+| Debugging | Production debugging expert | root cause + failure explanation + edge cases + fixed code |
+| Performance | Performance optimization engineer | bottlenecks + memory leaks + rendering issues + otimized code |
+| Clean architecture | Software architect | nova folder structure + módulos desacoplados + código refatorado |
+| Backend | Systems architect | system architecture + API design + DB schema + caching strategy |
+| Frontend | Senior frontend engineer | reusable components + accessibility + loading/empty/edge states |
+| Technical Lead | AI Technical Lead Mode | clarifying questions + challenge de decisões + 5-year thinking |
+
+**Padrão singular — simulação de equipe de 4 engenheiros em um único prompt** (Prompt 7): instrui o Claude a assumir quatro papéis em sequência — Architect (design escalável) → Engineer (implementação) → Reviewer (code review sênior) → Optimizer (performance final). Cada papel critica e melhora o trabalho do anterior. Equivale a uma sessão de code review multi-perspectiva em uma única chamada, sem orquestração de sub-agentes.
+
+**AI Technical Lead Mode** (Prompt 9): antes de qualquer código, o Claude deve fazer perguntas clarificadoras, desafiar decisões ruins, identificar riscos de escalabilidade e pensar como se fosse manter o produto por 5 anos. Aplicação prática do princípio de [[boris-cherny]] de "entrar em plan mode antes de qualquer tarefa não trivial".
+
+→ [[2026-05-25_harish-bhatt-11-prompts-engenharia-software]] | [[harish-bhatt]]
+
 ## Fontes
 
 - [[2026-03-19_leads-infinitos-cloudcode]]
@@ -296,3 +328,4 @@ O padrão é distinto dos "prompts para pensar como fundador $100M" de [[evolvin
 - [[2026-04-27_nate-herk-32-hacks-claude-code]]
 - [[2026-04-30_allessandra-sinisgalli-15k-4-prompts]]
 - [[2026-04-22_ai-developer-claude-secret-codes]]
+- [[2026-05-25_harish-bhatt-11-prompts-engenharia-software]]

@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-05-25
-source_count: 92
+last_updated: 2026-05-26
+source_count: 93
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 92 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo** e **IA Local**
+> Wiki iniciado em 2026-04-21 | 93 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo** e **IA Local**
 
 ## Tese atual
 
@@ -275,6 +275,7 @@ Fonte: ([[faria-lima-elevator]])
 - **5º ângulo dos repos open-source — custo zero para o próprio dev/usuário (NOVO)**: segundo post de [[harish-bhatt]] enquadra os mesmos repos como eliminadores de assinaturas SaaS pessoais — [[ollama]] ($0 vs OpenAI API ~$500/mês), [[whisper]] ($0 vs Otter.ai $20/mês), Penpot ($0 vs Figma $45/editor/mês), [[n8n]] ($0 vs Zapier Pro $600/mês). Framing: "destroem $50B em receita corporativa". Introduz **[[ollama]] como primeira entrada de IA local no wiki** — modelos GPT-4 class offline, privacidade por design, sem quota de API; e **[[whisper]]** como modelo de transcrição OpenAI open-source usado diretamente, sem wrapper pago
 - **Gestor autônomo com skin in the game real**: [[roman-khaneichuk]] documenta o primeiro caso no wiki onde Claude *executa trades* com capital real ($50.000, Wharton PhD, sem supervisão humana) — cruzamento entre análise financeira agêntica e execução efetiva. O padrão "30 agentes bull vs bear" é a 3ª confirmação independente do mecanismo de debate como decisão financeira (após [[tradingagents]] e [[artificial-intelligence-business]]). [[autopilot]] como camada de distribuição introduz um modelo novo: qualquer usuário delega a um agente e espelha sua execução, sem código e sem análise própria
 - **SEO com IA tem duas abordagens complementares documentadas**: [[brycen-wood]] (técnica, arquivos: llms.txt + Markdown mirrors + sitemap) e [[daniel-socrates]] (dados, otimização de conteúdo existente: GSC → Claude prioriza → ajuste mínimo → solicitar indexação). A primeira prepara o site para ser lido por Google/IA; a segunda identifica e explora oportunidades de ranqueamento via dados reais. Ambas democratizam técnicas que agências cobram caro — conceito consolidado em [[seo-com-ia]]
+- **"Act like a senior engineer" como extensão do Persona Mode para engenharia de software**: [[harish-bhatt]] confirma e especializa o padrão [[Persona Mode e Output Constraints]] ([[yik-chan]]) em 11 variantes de engenharia. Cada prompt estrutura abertura + missão + constraint + entregáveis — tornando o Claude não mais um executador de comandos pontuais, mas um parceiro de nível sênior com responsabilidade de entrega. Novidade singular: Prompt 7 simula 4 papéis em cascata dentro de um único prompt (Architect → Engineer → Reviewer → Optimizer) — auto-review multi-perspectiva sem orquestração externa. 3ª contribuição de [[harish-bhatt]], completamente diferente das duas anteriores (repos open-source) — mesmo criador, segmento diferente
 
 ---
 
@@ -282,12 +283,16 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 91 |
-| Páginas de fontes | 91 |
+| Fontes ingeridas | 93 |
+| Páginas de fontes | 93 |
 | Páginas de conceitos | 19 |
 | Páginas de entidades | 103 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **219** |
+| **Total de páginas** | **220** |
+
+## Adições da ingestão de 2026-05-26 (1 fonte nova)
+
+- **11 prompts de [[harish-bhatt]] para Claude como engenheiro sênior** (3ª contribuição, ângulo completamente diferente das anteriores — repos): extensão do padrão "Act like a senior X" exaustivamente aplicado a engenharia de software (audit, debug, performance, arquitetura, frontend, equipe de 4 agentes, AI Technical Lead). Atualizado: [[prompt-engineering]] (source_count 36→37, nova seção "Act like a senior engineer"), [[harish-bhatt]] (source_count 2→3, ângulo 3 documentado).
 
 ## Adições da ingestão de 2026-05-24 (1 fonte nova)
 

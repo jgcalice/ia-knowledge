@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-25 | Total de páginas: 222 | Fontes ingeridas: 92
+> Atualizado em: 2026-05-26 | Total de páginas: 223 | Fontes ingeridas: 93
 
 ---
 
@@ -106,6 +106,7 @@
 | [[wiki/sources/2026-05-18_today-in-ai-repos-renda-passiva]] | @TODAY IN AI | 2026-05-18 | 10 repos GitHub white-label/SaaS: Cal.com, Plausible, Ghost, n8n, Supabase, Medusa, AppFlowy, Coolify, Listmonk, Penpot |
 | [[wiki/sources/2026-04-23_drew-huibregtse-sistema-amazon-kdp]] | @Drew Huibregtse | 2026-04-23 | Sistema de 4 passos Amazon KDP: nicho (Helium 10) → conteúdo IA → capa Canva → upload; case $21.626/30 dias |
 | [[wiki/sources/2026-05-24_hasan-toor-modelos-ia-offline]] | @Hasan Toor | 2026-05-24 | Guia de 7 passos para rodar LLMs offline em <20 min: Ollama + LM Studio + RAM guide + Q4_K_M + API localhost:11434 |
+| [[wiki/sources/2026-05-25_harish-bhatt-11-prompts-engenharia-software]] | @Harish Bhatt | 2026-05-25 | 11 prompts para Claude como engenheiro sênior: audit, debug, performance, arquitetura, 4-agent team, AI Technical Lead |
 
 ---
 
@@ -115,7 +116,7 @@
 |--------|--------|-----------|
 | [[wiki/concepts/geração-de-leads-com-ia]] | 3 | Uso de LLMs + scraping para prospecção B2B automatizada |
 | [[wiki/concepts/otimização-de-tokens]] | 4 | Técnicas para reduzir consumo de tokens no Claude |
-| [[wiki/concepts/prompt-engineering]] | 14 | Padrões de estruturação + palavras-gatilho + Claude Skills |
+| [[wiki/concepts/prompt-engineering]] | 15 | Padrões de estruturação + palavras-gatilho + Claude Skills + "Act like a senior engineer" |
 | [[wiki/concepts/carreira-com-ia]] | 11 | IA para aceleração de carreira, LinkedIn, renda e produtos próprios |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 3 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
 | [[wiki/concepts/agentes-ia]] | 7 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão |
@@ -200,7 +201,7 @@
 | Página | Handle | Fontes | Foco |
 |--------|--------|--------|------|
 | [[wiki/entities/shimin-mohammadi]] | @Shimin Mohammadi | 1 | Amazon FBA com IA — 5 prompts para lançar produto físico na Amazon ($900/dia) |
-| [[wiki/entities/harish-bhatt]] | @Harish bhatt (@codingknowledge) | 2 | Repos GitHub open-source: ângulo 1 = white-label SaaS (fork → revender); ângulo 2 = custo zero pessoal (Ollama, Whisper, n8n) |
+| [[wiki/entities/harish-bhatt]] | @Harish bhatt (@codingknowledge) | 3 | Repos GitHub open-source: ângulo 1 = white-label SaaS; ângulo 2 = custo zero pessoal; ângulo 3 = 11 prompts para Claude como engenheiro sênior |
 | [[wiki/entities/roman-khaneichuk]] | @Roman Khaneichuk | 1 | Claude como gestor de portfólio autônomo — $50K, 30 agentes bull/bear, execução real via Autopilot |
 | [[wiki/entities/autopilot]] | @autopilot | 1 | Plataforma fintech de espelhamento de portfólio — permite replicar trades do Claude na conta da corretora do usuário |
 
