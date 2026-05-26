@@ -2,9 +2,9 @@
 title: "@TODAY IN AI"
 type: entity
 category: platform
-tags: [agregador, conteúdo-ia, open-source, negócios, github]
-source_count: 1
-last_updated: 2026-05-24
+tags: [agregador, conteúdo-ia, open-source, negócios, github, segurança, vibecoding, pré-lançamento]
+source_count: 2
+last_updated: 2026-05-26
 ---
 
 # @TODAY IN AI
@@ -20,6 +20,7 @@ Conta de curadoria de conteúdo de IA que republica material do editorial aitick
 | Fonte | Data | Tema |
 |-------|------|------|
 | [[2026-05-18_today-in-ai-repos-renda-passiva]] | 2026-05-18 | 10 repos GitHub white-label/SaaS: Cal.com, Plausible, Ghost, n8n, Supabase, Medusa, AppFlowy, Coolify, Listmonk, Penpot |
+| [[2026-05-24_today-in-ai-checklist-prelancamento]] | 2026-05-24 | Checklist jurídico-técnica pré-lançamento: GDPR/CCPA, RLS, failure-path testing, OWASP, server-side validation — "vibe coders are getting sued" |
 
 ## Posicionamento no ecossistema
 

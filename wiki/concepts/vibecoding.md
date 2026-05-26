@@ -1,9 +1,9 @@
 ---
 title: "Vibecoding"
 type: concept
-tags: [vibecoding, desenvolvimento, llm, segurança, produtividade, claude-code]
-source_count: 1
-last_updated: 2026-04-26
+tags: [vibecoding, desenvolvimento, llm, segurança, produtividade, claude-code, jurídico, gdpr, pré-lançamento]
+source_count: 2
+last_updated: 2026-05-26
 ---
 
 # Vibecoding
@@ -36,7 +36,7 @@ O termo carrega uma tensão embutida: a "vibe" de produtividade contrasta com o 
 
 ## Relação com segurança
 
-Duas abordagens documentadas no wiki para mitigar riscos de vibecoding:
+Três abordagens documentadas no wiki para mitigar riscos de vibecoding:
 
 ### Abordagem preventiva (design-time)
 [[2026-04-15_lucas-garcia-pit-seguranca-claudecode]] — 5 fundamentos que devem ser configurados **antes** de vibercodar:
@@ -52,7 +52,18 @@ Duas abordagens documentadas no wiki para mitigar riscos de vibecoding:
 - Infrastructure & Supply Chain
 - Ameaças avançadas: exploit chains, timing attacks, cache poisoning
 
-**As duas abordagens são complementares**: preventiva evita os erros mais comuns; detective pega o que passou.
+### Abordagem jurídico-técnica (pré-lançamento)
+[[2026-05-24_today-in-ai-checklist-prelancamento]] — Checklist ordenada de 6 itens obrigatórios antes de abrir para usuários reais, curada de 60+ MVPs em contexto de agência (@PrajwalTomar_):
+1. Política de privacidade + mapa de dados (GDPR/CCPA desde o 1º dado coletado)
+2. RLS em cada tabela de usuário no Supabase
+3. Testes em caminhos de falha (login errado, reset para e-mail inexistente)
+4. Security headers aprovados
+5. Revisão OWASP
+6. Validação server-side em cada rota de escrita (Zod no cliente é UX, não segurança)
+
+A distinção desta abordagem: foco em **conformidade legal** e **consequência jurídica** — "vibe coders are getting sued". A sequência importa: escalar marketing antes de completar todos os 6 passos amplifica o risco.
+
+**As três abordagens são complementares**: preventiva evita os erros mais comuns no design; detective pega o que passou antes do deploy; jurídico-técnica garante conformidade legal e sequência correta antes do lançamento para usuários reais.
 
 ## Relação com produtividade
 
@@ -62,3 +73,4 @@ Vibecoding é a face prática de usar LLMs para desenvolvimento — a mesma velo
 
 - [[2026-04-25_vibecoding-seguranca-auditoria-ia]] — auditoria red team para apps vibecoded (via @thewizeai)
 - [[2026-04-15_lucas-garcia-pit-seguranca-claudecode]] — 5 fundamentos de segurança preventivos
+- [[2026-05-24_today-in-ai-checklist-prelancamento]] — checklist jurídico-técnica pré-lançamento; consequência jurídica como motivador explícito do vibecoding responsável

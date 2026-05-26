@@ -1,14 +1,14 @@
 ---
 title: "Segurança com IA"
 type: concept
-tags: [segurança, claude-code, desenvolvimento, api, backend, supabase, osint, privacidade, shadow-ai, governança, vibecoding, red-team, investigação, pegada-digital, data-brokers]
-source_count: 7
-last_updated: 2026-05-10
+tags: [segurança, claude-code, desenvolvimento, api, backend, supabase, osint, privacidade, shadow-ai, governança, vibecoding, red-team, investigação, pegada-digital, data-brokers, gdpr, ccpa, pré-lançamento, jurídico]
+source_count: 8
+last_updated: 2026-05-26
 ---
 
 # Segurança com IA
 
-> Cinco dimensões: (1) segurança no *desenvolvimento* de apps com LLMs, (2) segurança *pessoal/digital* via ferramentas OSINT (14 ferramentas documentadas em 3 fontes), (3) segurança *empresarial/governança* (Shadow AI, infraestrutura como enabler), (4) auditoria red team pré-deploy para apps vibecoded, e (5) remoção ativa de pegada digital (7 passos para apagar 99,8% da exposição online).
+> Seis dimensões: (1) segurança no *desenvolvimento* de apps com LLMs, (2) segurança *pessoal/digital* via ferramentas OSINT (14 ferramentas documentadas em 3 fontes), (3) segurança *empresarial/governança* (Shadow AI, infraestrutura como enabler), (4) auditoria red team pré-deploy para apps vibecoded, (5) remoção ativa de pegada digital (7 passos para apagar 99,8% da exposição online), e (6) checklist jurídico-técnico pré-lançamento (GDPR/CCPA, RLS, failure-path testing, OWASP, validação server-side — "vibe coders are getting sued").
 
 ## Dimensão 1: Segurança no Desenvolvimento (via @Lucas Garcia Pit)
 
@@ -197,7 +197,70 @@ A Dimensão 2 é sobre **diagnóstico** (OSINT — descobrir o que está exposto
 
 ---
 
-## Síntese das cinco dimensões
+---
+
+## Dimensão 6: Checklist Jurídico-Técnico Pré-Lançamento
+
+(Via [[today-in-ai]] / @PrajwalTomar_, [[2026-05-24_today-in-ai-checklist-prelancamento]])
+
+### Tese
+
+> "Vibe coders are getting sued."
+
+Apps construídos rapidamente com LLMs enfrentam consequências jurídicas quando lançados sem as verificações de conformidade e segurança mínimas. Um desenvolvedor com 20+ anos e 60+ MVPs em contexto de agência documenta que os erros são **sistemáticos**, não acidentais — padrão recorrente em múltiplos clientes. "Builds that win demos, skipped checklists win incidents."
+
+### O que é novo nesta dimensão
+
+Esta dimensão é distinta das anteriores:
+- **Dimensão 1** = como *construir* com segurança (design-time)
+- **Dimensão 4** = como *auditar* o que foi construído (pré-deploy)
+- **Dimensão 6** = o que verificar *na ordem certa* antes de abrir para usuários reais, com foco em **conformidade legal** e **sequência de prioridade**
+
+O elemento inédito: **consequência jurídica** como motivador explícito — GDPR, CCPA e processos judiciais aparecem no wiki pela primeira vez como consequências reais de negligência em segurança.
+
+### Os 6 pontos da checklist
+
+| # | Item | Por quê é crítico |
+|---|------|------------------|
+| 1 | Política de privacidade + mapa de dados | "Legal exposure scales with user count" — GDPR/CCPA valem desde o primeiro dado coletado |
+| 2 | RLS em cada tabela de usuário (Supabase) | Sem policies: "anyone can open DevTools and read the entire database" — não é exploit, é console aberto |
+| 3 | Testes em caminhos de falha | Logins errados, resets para e-mails inexistentes; mensagens de erro não devem revelar existência de contas |
+| 4 | Security headers aprovados | Revisão rápida do app como especialista de segurança — menos de 2 minutos, alto impacto |
+| 5 | Revisão OWASP | Identifica SQL injection, XSS, controle de acesso quebrado e falhas de autenticação antes que usuários as descubram |
+| 6 | Validação server-side em cada rota de escrita | "Zod on the client improves UX. It does not stop attackers." — atacantes desabilitam JS e usam Postman |
+
+### A ordem de lançamento importa
+
+O insight estrutural: não basta ter todos os itens — eles têm uma **sequência de prioridade** que maximiza a segurança por esforço. Seguir a ordem evita que o escalonamento de marketing amplifique um risco ainda não corrigido.
+
+```
+1. Privacidade (policy + data map)
+2. RLS no Supabase
+3. Auth em failure paths
+4. Security headers
+5. OWASP review
+6. Server-side validation
+→ SÓ ENTÃO: escalar marketing ou cobrar
+```
+
+"Each layer takes minutes to hours, not weeks."
+
+### Novo ponto: failure-path testing (não coberto nas dimensões anteriores)
+
+Dimensão 1 e Dimensão 4 não documentavam explicitamente o teste de *caminhos de erro*. Este é um requisito operacional novo:
+- Testar o que acontece quando o usuário erra a senha
+- Testar reset de senha para e-mail que não existe
+- Verificar que rate limiting e bloqueios não revelam informação (ex: "conta não existe")
+
+### Relação com as outras dimensões
+
+- **Confirma Dimensão 1** (ponto #02 de [[lucas-garcia-pit]]: RLS no Supabase) com o ângulo consequência: "anyone can open DevTools"
+- **Estende Dimensão 1** (ponto #03: lógica no servidor) com a distinção UX vs. segurança para o caso específico de Zod no cliente
+- **Complementa Dimensão 4** (auditoria red team pré-deploy de [[artificial-intelligence-business]]): Dimensão 4 é *detective* (auditar o codebase inteiro como pentester), Dimensão 6 é *checklist ordenada* (6 itens obrigatórios antes do launch, independente da auditoria)
+
+---
+
+## Síntese das seis dimensões
 
 | Dimensão | Quem usa | Princípio | Quando aplicar |
 |---|---|---|---|
@@ -206,8 +269,9 @@ A Dimensão 2 é sobre **diagnóstico** (OSINT — descobrir o que está exposto
 | 3 — Empresarial | Organização inteira | Segurança como infra reutilizável | Antes de habilitar IA enterprise |
 | 4 — Vibecoding (pré-deploy) | Dev que vibecoda | Assume já comprometido; pense como atacante | Antes de cada deploy |
 | 5 — Remoção ativa de pegada | Qualquer usuário | Diagnóstico sem remoção é ineficaz | Após diagnóstico (Dim. 2) e periodicamente |
+| 6 — Pré-lançamento jurídico-técnico | Builder/founder antes do lançamento | Conformidade ativa; negligência tem consequência jurídica | Imediatamente antes de abrir para usuários reais |
 
-**Padrão unificado**: a aceleração (LLMs no dev, internet nos dados, mandato corporativo) cria exposições invisíveis que só são corrigidas com **intenção ativa** — seja no design, na auditoria pessoal, na remoção ativa, na governança corporativa ou no review pré-deploy.
+**Padrão unificado**: a aceleração (LLMs no dev, internet nos dados, mandato corporativo) cria exposições invisíveis que só são corrigidas com **intenção ativa** — seja no design, na auditoria pessoal, na remoção ativa, na governança corporativa, no review pré-deploy ou na checklist jurídico-técnica pré-lançamento.
 
 ## Fontes
 
@@ -218,3 +282,4 @@ A Dimensão 2 é sobre **diagnóstico** (OSINT — descobrir o que está exposto
 - [[2026-04-25_vibecoding-seguranca-auditoria-ia]] — prompt red team completo para auditoria de apps vibecoded
 - [[2026-04-30_gustavo-melo-investigacao-pessoas]] — 2 sites de investigação de pessoa física: Webmail e My7
 - [[2026-05-07_ai-technology-footprint-digital]] — guia de 7 passos para remover 99,8% da pegada digital: data brokers, Google, contas esquecidas, HIBP, rastreamento, posts antigos e prevenção via SimpleLogin/Brave
+- [[2026-05-24_today-in-ai-checklist-prelancamento]] — checklist jurídico-técnica pré-lançamento: GDPR/CCPA, RLS, failure-path testing, security headers, OWASP, validação server-side; 60+ MVPs de agência como fonte (@PrajwalTomar_)

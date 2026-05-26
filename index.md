@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-26 | Total de páginas: 225 | Fontes ingeridas: 94
+> Atualizado em: 2026-05-26 | Total de páginas: 226 | Fontes ingeridas: 95
 
 ---
 
@@ -108,6 +108,7 @@
 | [[wiki/sources/2026-05-24_hasan-toor-modelos-ia-offline]] | @Hasan Toor | 2026-05-24 | Guia de 7 passos para rodar LLMs offline em <20 min: Ollama + LM Studio + RAM guide + Q4_K_M + API localhost:11434 |
 | [[wiki/sources/2026-05-25_harish-bhatt-11-prompts-engenharia-software]] | @Harish Bhatt | 2026-05-25 | 11 prompts para Claude como engenheiro sênior: audit, debug, performance, arquitetura, 4-agent team, AI Technical Lead |
 | [[wiki/sources/2026-05-25_bestapps-7-prompts-voos]] | @Bestapps \| Artificial Intelligence \| AI Agents | 2026-05-25 | 7 prompts para análise profissional de preços de voos: hidden routes, geo-pricing, fare rules, timing, airline vs OTA |
+| [[wiki/sources/2026-05-24_today-in-ai-checklist-prelancamento]] | @TODAY IN AI | 2026-05-24 | Checklist jurídico-técnica pré-lançamento: GDPR/CCPA, RLS, failure-path testing, security headers, OWASP, server-side validation |
 
 ---
 
@@ -123,8 +124,8 @@
 | [[wiki/concepts/agentes-ia]] | 7 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão |
 | [[wiki/concepts/estratégia-de-negócios-com-ia]] | 29 | 5 ângulos sobre repos open-source + 14 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
-| [[wiki/concepts/segurança-com-ia]] | 5 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital |
-| [[wiki/concepts/vibecoding]] | 1 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança, abordagens preventiva e detective |
+| [[wiki/concepts/segurança-com-ia]] | 8 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital + checklist jurídico-técnica pré-lançamento (GDPR/CCPA, RLS, OWASP) |
+| [[wiki/concepts/vibecoding]] | 2 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança; abordagens preventiva, detective e jurídico-técnica (pré-lançamento) |
 | [[wiki/concepts/adoção-empresarial-de-ia]] | 1 | Playbook empresarial: 11 capítulos sobre como organizações passam de piloto a ROI real |
 | [[wiki/concepts/dados-como-moat]] | 1 | Dados proprietários como vantagem competitiva durável; 47% das empresas explicitamente o citam como moat |
 | [[wiki/concepts/escolha-de-modelo-fundacional]] | 1 | Comoditização parcial (42% commodity); multi-model + abstraction layer como vantagem |
@@ -196,7 +197,7 @@
 | [[wiki/entities/ai-technology]] | @AI \| Technology | 1 | Canal de privacidade digital e segurança online — guia de 7 passos para remoção de pegada digital |
 | [[wiki/entities/ai-researches-ai]] | @AI researches \| AI | 1 | Canal internacional (1,2M seguidores) — curadoria de novidades IA, foco em guias oficiais e pesquisas |
 | [[wiki/entities/growai]] | @GROWAI | 1 | Canal curador de repos open-source para monetização com IA — "$10K/mês com ferramentas gratuitas do GitHub" |
-| [[wiki/entities/today-in-ai]] | @TODAY IN AI | 1 | Canal agregador (aitickerdaily/curatedai.net) — curadoria de repos GitHub para white-label SaaS |
+| [[wiki/entities/today-in-ai]] | @TODAY IN AI | 2 | Canal agregador (aitickerdaily/curatedai.net) — curadoria de repos GitHub para white-label SaaS e checklist de segurança pré-lançamento |
 
 ### Pessoas / Criadores (Internacional — e-commerce)
 

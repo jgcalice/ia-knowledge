@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-05-26
-source_count: 94
+source_count: 95
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 94 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local** e **Viagem**
+> Wiki iniciado em 2026-04-21 | 95 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem** e **Segurança/Compliance**
 
 ## Tese atual
 
@@ -83,8 +83,9 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - **Dimensão 2 — Privacidade/OSINT**: 14 ferramentas documentadas em 3 fontes BR: ZoomEye, HIBP, Namecheck, Pic2Map, EPA, Exploding Database ([[gustavo-melo]] post 1) + Sherlock, Maltego, SpiderFoot, Shodan, Google Dorking ([[sidney-rodrigo]]) + Webmail e My7 — investigação de pessoa física ([[gustavo-melo]] post 2)
 - **Dimensão 3 — Empresarial**: Shadow AI (70-80% usam ferramentas não aprovadas), segurança como enabler front-loaded, pipeline PII scrubbing como moat ([[stanford-digital-economy-lab]])
 - **Dimensão 4 — Vibecoding pré-deploy**: prompt de 6 blocos que instrui o agente a auditar o codebase como engenheiro sênior de segurança ($15k em valor); conceito de **attack chains** (3 vulns "low" = 1 "critical") ([[artificial-intelligence-business]] / @thewizeai)
-- **Dimensão 5 — Remoção ativa de pegada digital** (NOVO): guia de 7 passos para apagar 99,8% da exposição online — data brokers (Spokeo, Whitepages, BeenVerified), Google removal request, contas esquecidas via Gmail, HaveIBeenPwned, desativar rastreamento Google, posts antigos (TweetDelete/Redact) e prevenção futura com SimpleLogin e Brave/Firefox ([[ai-technology]])
-- **Tese unificada**: aceleração (LLMs no dev, internet nos dados, mandato corporativo) cria exposições invisíveis que exigem intenção ativa para serem corrigidas — em 5 escalas diferentes
+- **Dimensão 5 — Remoção ativa de pegada digital**: guia de 7 passos para apagar 99,8% da exposição online — data brokers (Spokeo, Whitepages, BeenVerified), Google removal request, contas esquecidas via Gmail, HaveIBeenPwned, desativar rastreamento Google, posts antigos (TweetDelete/Redact) e prevenção futura com SimpleLogin e Brave/Firefox ([[ai-technology]])
+- **Dimensão 6 — Checklist jurídico-técnica pré-lançamento** (NOVO): "vibe coders are getting sued" — checklist ordenada de 6 itens obrigatórios antes de abrir para usuários reais, curada de 60+ MVPs de agência. GDPR/CCPA desde o 1º dado coletado; RLS (#1 miss — qualquer um abre o DevTools e lê o banco); failure-path testing; security headers + OWASP; server-side validation ("Zod on client is UX, not security"). A **sequência importa**: escalar marketing antes de completar a checklist amplifica o risco e o passivo jurídico ([[today-in-ai]] / @PrajwalTomar_)
+- **Tese unificada**: aceleração (LLMs no dev, internet nos dados, mandato corporativo) cria exposições invisíveis que exigem intenção ativa para serem corrigidas — em 6 escalas diferentes
 
 ---
 
@@ -195,7 +196,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]] · [[lovable]] · [[quepo]] · [[n8n]] · [[autopilot]] · [[ollama]] · [[whisper]] · [[lm-studio]]
 
-**Agregadores de conteúdo**: [[ai-developer-js]] · [[bestapps-ai]] (2 fontes) · [[beyond-intelligence]] · [[growai]] · [[ai-researches-ai]] · [[today-in-ai]]
+**Agregadores de conteúdo**: [[ai-developer-js]] · [[bestapps-ai]] (2 fontes) · [[beyond-intelligence]] · [[growai]] · [[ai-researches-ai]] · [[today-in-ai]] (2 fontes)
 
 **Instituições acadêmicas**: [[stanford-digital-economy-lab]]
 
