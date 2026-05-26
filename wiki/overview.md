@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-05-26
-source_count: 93
+source_count: 94
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 93 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo** e **IA Local**
+> Wiki iniciado em 2026-04-21 | 94 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local** e **Viagem**
 
 ## Tese atual
 
@@ -195,7 +195,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]] · [[lovable]] · [[quepo]] · [[n8n]] · [[autopilot]] · [[ollama]] · [[whisper]] · [[lm-studio]]
 
-**Agregadores de conteúdo**: [[ai-developer-js]] · [[bestapps-ai]] · [[beyond-intelligence]] · [[growai]] · [[ai-researches-ai]] · [[today-in-ai]]
+**Agregadores de conteúdo**: [[ai-developer-js]] · [[bestapps-ai]] (2 fontes) · [[beyond-intelligence]] · [[growai]] · [[ai-researches-ai]] · [[today-in-ai]]
 
 **Instituições acadêmicas**: [[stanford-digital-economy-lab]]
 
@@ -275,6 +275,7 @@ Fonte: ([[faria-lima-elevator]])
 - **5º ângulo dos repos open-source — custo zero para o próprio dev/usuário (NOVO)**: segundo post de [[harish-bhatt]] enquadra os mesmos repos como eliminadores de assinaturas SaaS pessoais — [[ollama]] ($0 vs OpenAI API ~$500/mês), [[whisper]] ($0 vs Otter.ai $20/mês), Penpot ($0 vs Figma $45/editor/mês), [[n8n]] ($0 vs Zapier Pro $600/mês). Framing: "destroem $50B em receita corporativa". Introduz **[[ollama]] como primeira entrada de IA local no wiki** — modelos GPT-4 class offline, privacidade por design, sem quota de API; e **[[whisper]]** como modelo de transcrição OpenAI open-source usado diretamente, sem wrapper pago
 - **Gestor autônomo com skin in the game real**: [[roman-khaneichuk]] documenta o primeiro caso no wiki onde Claude *executa trades* com capital real ($50.000, Wharton PhD, sem supervisão humana) — cruzamento entre análise financeira agêntica e execução efetiva. O padrão "30 agentes bull vs bear" é a 3ª confirmação independente do mecanismo de debate como decisão financeira (após [[tradingagents]] e [[artificial-intelligence-business]]). [[autopilot]] como camada de distribuição introduz um modelo novo: qualquer usuário delega a um agente e espelha sua execução, sem código e sem análise própria
 - **SEO com IA tem duas abordagens complementares documentadas**: [[brycen-wood]] (técnica, arquivos: llms.txt + Markdown mirrors + sitemap) e [[daniel-socrates]] (dados, otimização de conteúdo existente: GSC → Claude prioriza → ajuste mínimo → solicitar indexação). A primeira prepara o site para ser lido por Google/IA; a segunda identifica e explora oportunidades de ranqueamento via dados reais. Ambas democratizam técnicas que agências cobram caro — conceito consolidado em [[seo-com-ia]]
+- **Viagem como novo domínio de "substituto de serviço profissional"**: [[bestapps-ai]] documenta 7 prompts para análise de preços de voos que aplicam o padrão ROLE "analista profissional" a consumo B2C pela primeira vez. O mesmo mecanismo documentado em [[bem-estar-com-ia]] (fitness), [[finanças-com-ia]] (análise de ações) e engenharia (Harish Bhatt) funciona igualmente para viagem — o LLM internalizou know-how de revenue management de companhias aéreas. Novidade de design: Prompt 5 categoriza explicitamente 3 tiers éticos (Legitimate / Against T&Cs / Off-limits) — padrão reutilizável em qualquer domínio onde otimização pode cruzar limites legais. Primeiro conteúdo de viagem do wiki: [[viagem-com-ia]]
 - **"Act like a senior engineer" como extensão do Persona Mode para engenharia de software**: [[harish-bhatt]] confirma e especializa o padrão [[Persona Mode e Output Constraints]] ([[yik-chan]]) em 11 variantes de engenharia. Cada prompt estrutura abertura + missão + constraint + entregáveis — tornando o Claude não mais um executador de comandos pontuais, mas um parceiro de nível sênior com responsabilidade de entrega. Novidade singular: Prompt 7 simula 4 papéis em cascata dentro de um único prompt (Architect → Engineer → Reviewer → Optimizer) — auto-review multi-perspectiva sem orquestração externa. 3ª contribuição de [[harish-bhatt]], completamente diferente das duas anteriores (repos open-source) — mesmo criador, segmento diferente
 
 ---
@@ -283,15 +284,16 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 93 |
-| Páginas de fontes | 93 |
-| Páginas de conceitos | 19 |
+| Fontes ingeridas | 94 |
+| Páginas de fontes | 94 |
+| Páginas de conceitos | 20 |
 | Páginas de entidades | 103 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **220** |
+| **Total de páginas** | **222** |
 
-## Adições da ingestão de 2026-05-26 (1 fonte nova)
+## Adições da ingestão de 2026-05-26 (2 fontes novas)
 
+- **7 prompts de [[bestapps-ai]] para análise profissional de preços de voos**: abre [[viagem-com-ia]] como novo domínio do wiki (análogo a [[bem-estar-com-ia]] e [[finanças-com-ia]]). Padrão ROLE "analista profissional" aplicado a consumo B2C pela primeira vez. Destaque: Prompt 5 (fare rules) categoriza estratégias em 3 tiers éticos — primeira delimitação explícita de ética em otimização de consumo no wiki. Atualizado: [[bestapps-ai]] (source_count 1→2), [[prompt-engineering]] (source_count 37→38, extensão da seção "substitutos de serviços profissionais"). Criado: [[viagem-com-ia]] (novo conceito).
 - **11 prompts de [[harish-bhatt]] para Claude como engenheiro sênior** (3ª contribuição, ângulo completamente diferente das anteriores — repos): extensão do padrão "Act like a senior X" exaustivamente aplicado a engenharia de software (audit, debug, performance, arquitetura, frontend, equipe de 4 agentes, AI Technical Lead). Atualizado: [[prompt-engineering]] (source_count 36→37, nova seção "Act like a senior engineer"), [[harish-bhatt]] (source_count 2→3, ângulo 3 documentado).
 
 ## Adições da ingestão de 2026-05-24 (1 fonte nova)

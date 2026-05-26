@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-26 | Total de páginas: 223 | Fontes ingeridas: 93
+> Atualizado em: 2026-05-26 | Total de páginas: 225 | Fontes ingeridas: 94
 
 ---
 
@@ -107,6 +107,7 @@
 | [[wiki/sources/2026-04-23_drew-huibregtse-sistema-amazon-kdp]] | @Drew Huibregtse | 2026-04-23 | Sistema de 4 passos Amazon KDP: nicho (Helium 10) → conteúdo IA → capa Canva → upload; case $21.626/30 dias |
 | [[wiki/sources/2026-05-24_hasan-toor-modelos-ia-offline]] | @Hasan Toor | 2026-05-24 | Guia de 7 passos para rodar LLMs offline em <20 min: Ollama + LM Studio + RAM guide + Q4_K_M + API localhost:11434 |
 | [[wiki/sources/2026-05-25_harish-bhatt-11-prompts-engenharia-software]] | @Harish Bhatt | 2026-05-25 | 11 prompts para Claude como engenheiro sênior: audit, debug, performance, arquitetura, 4-agent team, AI Technical Lead |
+| [[wiki/sources/2026-05-25_bestapps-7-prompts-voos]] | @Bestapps \| Artificial Intelligence \| AI Agents | 2026-05-25 | 7 prompts para análise profissional de preços de voos: hidden routes, geo-pricing, fare rules, timing, airline vs OTA |
 
 ---
 
@@ -116,7 +117,7 @@
 |--------|--------|-----------|
 | [[wiki/concepts/geração-de-leads-com-ia]] | 3 | Uso de LLMs + scraping para prospecção B2B automatizada |
 | [[wiki/concepts/otimização-de-tokens]] | 4 | Técnicas para reduzir consumo de tokens no Claude |
-| [[wiki/concepts/prompt-engineering]] | 15 | Padrões de estruturação + palavras-gatilho + Claude Skills + "Act like a senior engineer" |
+| [[wiki/concepts/prompt-engineering]] | 16 | Padrões de estruturação + palavras-gatilho + Claude Skills + "Act like a senior engineer" + substitutos de serviços profissionais (fitness, voos, finanças) |
 | [[wiki/concepts/carreira-com-ia]] | 11 | IA para aceleração de carreira, LinkedIn, renda e produtos próprios |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 3 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
 | [[wiki/concepts/agentes-ia]] | 7 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão |
@@ -134,6 +135,7 @@
 | [[wiki/concepts/busca-de-emprego-com-ia]] | 3 | Busca de emprego automatizada com Career Ops, ATS e candidaturas personalizadas por vaga |
 | [[wiki/concepts/seo-com-ia]] | 3 | SEO com IA: três abordagens — arquivos técnicos (llms.txt), otimização via GSC e guia oficial Google (contradiz necessidade de llms.txt) |
 | [[wiki/concepts/ia-local]] | 2 | Execução de LLMs sem nuvem: Ollama + LM Studio, RAM guide, quantização Q4_K_M, API OpenAI-compatível local |
+| [[wiki/concepts/viagem-com-ia]] | 1 | Prompts para análise profissional de preços de voos: hidden routes, geo-pricing, fare rules, timing, airline vs OTA |
 
 ---
 
@@ -189,7 +191,7 @@
 | Página | Handle | Fontes | Foco |
 |--------|--------|--------|------|
 | [[wiki/entities/ai-developer-js]] | @AI Developer \| Code + AI \| JS | 1 | Canal agregador de dicas práticas de Claude para desenvolvedores JS |
-| [[wiki/entities/bestapps-ai]] | @bestapps.ai | 1 | Canal curador de repos open-source que substituem softwares proprietários caros |
+| [[wiki/entities/bestapps-ai]] | @bestapps.ai | 2 | Canal curador de repos open-source e prompts de alto impacto com Claude (voos, ferramentas) |
 | [[wiki/entities/beyond-intelligence]] | @Beyond Intelligence — AI News & Tools | 1 | Canal agregador de AI news — tabelas de referência visual (89 comandos Claude em 11 categorias) |
 | [[wiki/entities/ai-technology]] | @AI \| Technology | 1 | Canal de privacidade digital e segurança online — guia de 7 passos para remoção de pegada digital |
 | [[wiki/entities/ai-researches-ai]] | @AI researches \| AI | 1 | Canal internacional (1,2M seguidores) — curadoria de novidades IA, foco em guias oficiais e pesquisas |

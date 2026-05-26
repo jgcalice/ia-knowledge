@@ -2,7 +2,7 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas, plan-mode, self-checking]
-source_count: 37
+source_count: 38
 last_updated: 2026-05-26
 ---
 
@@ -214,6 +214,9 @@ to these inputs that generic plans feel embarrassing next to it.
 O campo `[...]` é um dado de anamnese; o modelo preenche o protocolo com conhecimento que o profissional cobraria $200/hora para aplicar. A lógica escala para nutrição, planejamento financeiro pessoal e advocacia básica.
 → [[2026-04-14_arising-ai-fitness-7-prompts]] | [[arising-ai]]
 
+Confirmação em domínio de consumo (viagem): [[bestapps-ai]] documenta 7 prompts que convocam `analista profissional de preços de voos` para replicar know-how de agentes especializados — hidden routes, geo-pricing, fare rules, timing sweet spot. Primeira aplicação B2C do padrão (domínios anteriores eram B2B: finanças institucionais, fitness, engenharia). Diferencial de design: Prompt 5 (fare rules) categoriza cada estratégia em **Legitimate optimization / Against T&Cs but not illegal / Off-limits** — primeira vez no wiki que um prompt delimita explicitamente a linha ética entre otimização e fraude.
+→ [[2026-05-25_bestapps-7-prompts-voos]] | [[bestapps-ai]] | [[viagem-com-ia]]
+
 ### Skills como pipeline de conteúdo parametrizado (Founder's stack)
 [[paras-madan]] documenta 3 skills que codificam pipelines completos de produção de conteúdo e análise:
 - **LinkedIn Post Generator:** qualquer input (blog, PR, frase) → detecção automática de hook + arco narrativo + formato (Founder/Ship, Insight, Product Launch) → post publicável
@@ -329,3 +332,4 @@ Estrutura padrão de cada prompt:
 - [[2026-04-30_allessandra-sinisgalli-15k-4-prompts]]
 - [[2026-04-22_ai-developer-claude-secret-codes]]
 - [[2026-05-25_harish-bhatt-11-prompts-engenharia-software]]
+- [[2026-05-25_bestapps-7-prompts-voos]]

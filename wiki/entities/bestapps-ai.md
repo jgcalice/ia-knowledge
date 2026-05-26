@@ -2,9 +2,9 @@
 title: "Bestapps AI"
 type: entity
 category: platform
-tags: [ferramentas-ia, open-source, github, curadoria, negócios]
-source_count: 1
-last_updated: 2026-05-01
+tags: [ferramentas-ia, open-source, github, curadoria, negócios, viagem, prompt-engineering]
+source_count: 2
+last_updated: 2026-05-26
 ---
 
 # Bestapps AI
@@ -42,3 +42,4 @@ Canal internacional agregador de ferramentas de IA open-source. Posicionamento: 
 ## Fontes
 
 - [[2026-05-01_bestapps-ferramentas-open-source]]
+- [[2026-05-25_bestapps-7-prompts-voos]]
