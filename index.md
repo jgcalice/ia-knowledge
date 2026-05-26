@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-26 | Total de páginas: 226 | Fontes ingeridas: 95
+> Atualizado em: 2026-05-26 | Total de páginas: 227 | Fontes ingeridas: 96
 
 ---
 
@@ -109,6 +109,7 @@
 | [[wiki/sources/2026-05-25_harish-bhatt-11-prompts-engenharia-software]] | @Harish Bhatt | 2026-05-25 | 11 prompts para Claude como engenheiro sênior: audit, debug, performance, arquitetura, 4-agent team, AI Technical Lead |
 | [[wiki/sources/2026-05-25_bestapps-7-prompts-voos]] | @Bestapps \| Artificial Intelligence \| AI Agents | 2026-05-25 | 7 prompts para análise profissional de preços de voos: hidden routes, geo-pricing, fare rules, timing, airline vs OTA |
 | [[wiki/sources/2026-05-24_today-in-ai-checklist-prelancamento]] | @TODAY IN AI | 2026-05-24 | Checklist jurídico-técnica pré-lançamento: GDPR/CCPA, RLS, failure-path testing, security headers, OWASP, server-side validation |
+| [[wiki/sources/2026-05-12_bruno-souza-modelo-negocio-automatizado]] | @Bruno Souza | 2026-05-12 | Sistema de 5 passos para AI Side-Hustle: ferramentas pré-construídas → negócios locais → $1–3K/mês retainer sem código |
 
 ---
 
@@ -119,10 +120,10 @@
 | [[wiki/concepts/geração-de-leads-com-ia]] | 3 | Uso de LLMs + scraping para prospecção B2B automatizada |
 | [[wiki/concepts/otimização-de-tokens]] | 4 | Técnicas para reduzir consumo de tokens no Claude |
 | [[wiki/concepts/prompt-engineering]] | 16 | Padrões de estruturação + palavras-gatilho + Claude Skills + "Act like a senior engineer" + substitutos de serviços profissionais (fitness, voos, finanças) |
-| [[wiki/concepts/carreira-com-ia]] | 11 | IA para aceleração de carreira, LinkedIn, renda e produtos próprios |
+| [[wiki/concepts/carreira-com-ia]] | 18 | IA para aceleração de carreira, LinkedIn, renda e produtos próprios |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 3 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
 | [[wiki/concepts/agentes-ia]] | 7 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão |
-| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 29 | 5 ângulos sobre repos open-source + 14 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero) |
+| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 31 | 5 ângulos sobre repos open-source + 15 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
 | [[wiki/concepts/segurança-com-ia]] | 8 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital + checklist jurídico-técnica pré-lançamento (GDPR/CCPA, RLS, OWASP) |
 | [[wiki/concepts/vibecoding]] | 2 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança; abordagens preventiva, detective e jurídico-técnica (pré-lançamento) |
@@ -178,7 +179,7 @@
 |--------|--------|--------|------|
 | [[wiki/entities/lucas-garcia-pit]] | @Lucas Garcia Pit | 2 | IA & Negócios, leads + segurança com Claude Code |
 | [[wiki/entities/hudson-brendon]] | @Hudson Brendon | 1 | Automação com IA para negócios, prospecção B2B |
-| [[wiki/entities/bruno-souza]] | @real_bruno_souza | 1 | LinkedIn + IA, negócios com implementação de IA |
+| [[wiki/entities/bruno-souza]] | @real_bruno_souza | 2 | LinkedIn + IA, negócios com implementação de IA; sistema de 5 passos para AI Side-Hustle |
 | [[wiki/entities/rafael-brandao]] | @Rafael Brandão | 2 | Dicas de otimização do Claude + branding |
 | [[wiki/entities/flavio-rafael]] | @Flávio Rafael | 1 | Claude Code para leads e automação de negócios |
 | [[wiki/entities/rony-meisler]] | @Rony Meisler | 1 | Empreendedorismo e ferramentas de IA |

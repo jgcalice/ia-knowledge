@@ -2,8 +2,8 @@
 title: "Carreira e Negócios com IA"
 type: concept
 tags: [carreira, negócios, linkedin, ia, recrutamento, oportunidades, renda, transição-de-carreira, ats, currículo, cover-letter, odyssey-plan, longevidade-profissional]
-source_count: 17
-last_updated: 2026-05-20
+source_count: 18
+last_updated: 2026-05-26
 ---
 
 # Carreira e Negócios com IA
@@ -90,12 +90,20 @@ Certificação gratuita da Anthropic, valorizada corporativamente (Deloitte):
 → [[2026-04-18_simplifying-ai-wealth-protocol-naval]] | Autor: [[simplifying-ai]] (texto completo)
 → [[2026-04-23_ai-fied-riqueza-5-prompts-naval]] | Autor: [[ai-fied]] (3ª variação, nomes distintos: Find Your Unfair Advantage · Audite Seu Aproveitamento · Turn Yourself Into a Product · Encontre Onde Você Está Trocando Tempo por Dinheiro · Design Work That Compounds)
 
-### 7. Modelo de negócio: implementador de IA
-Bruno Souza apresenta o modelo de implementar IA para negócios locais:
-- $1-2k/mês por cliente
-- Sem necessidade de código ou formação técnica
+### 7. Modelo de negócio: implementador de IA (AI Side-Hustle)
 
-> ⚠️ **Nota crítica**: Afirmações de resultado de Bruno Souza e Sabrina Ramonov têm forte componente de venda de infoproduto. Valores não verificados.
+[[bruno-souza]] apresenta o modelo de implementar IA para negócios locais como "side-hustle" sem código e sem experiência técnica. Documentado em duas fontes com crescente nível de detalhe.
+
+**Método de 5 passos** ([[2026-05-12_bruno-souza-modelo-negocio-automatizado]]):
+1. **Escolher ferramenta pré-construída** — Jasper (emails), Smartlead (follow-ups), Reclaim (agendamentos), Claid (fotos de produto)
+2. **Aprender em 1–2 horas** — simples o suficiente para cobrar premium
+3. **Prospectar negócios locais** — gyms, spas, restaurantes (pouco familiarizados com IA)
+4. **Simular o cliente com LLM** — prompt "Pretend you're a burnt-out [business] owner. What repetitive task makes you want to quit?" → resposta vira argumento de venda
+5. **Ligação de 15 min → retainer $1–3K/mês** — vender economia de tempo/dinheiro, não tecnologia
+
+**Distinção no wiki**: Step 4 é o primeiro uso documentado de LLM para *simular o cliente-alvo* como preparação de venda — não é geração de conteúdo, é pesquisa de dor com empathy mapping automatizado.
+
+> ⚠️ **Nota crítica**: Afirmações de resultado de Bruno Souza ($50K/mês) e Sabrina Ramonov têm forte componente de venda de infoproduto. Valores não verificados independentemente.
 
 ### 8. Mini web app como produto digital próprio
 [[luna-vega]] propõe um novo arquétipo de monetização: construir e vender **mini web app focado** via Instagram em ~2h de build com Claude. Case citado: $8k no 1º mês com <500 seguidores. Reforço do padrão "produto próprio > serviço por hora" já presente em [[bruno-wambier]] e Naval Ravikant ([[god-of-prompt]]).
@@ -148,3 +156,4 @@ Há **convergência temática clara**: múltiplos criadores internacionais refor
 - [[2026-04-26_laura-anderson-prompts-renda-rapida]]
 - [[2026-04-30_allessandra-sinisgalli-15k-4-prompts]]
 - [[2026-04-28_your-ai-compass-perfil-profissional]]
+- [[2026-05-12_bruno-souza-modelo-negocio-automatizado]]

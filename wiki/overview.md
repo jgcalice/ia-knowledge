@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-05-26
-source_count: 95
+source_count: 96
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 95 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem** e **Segurança/Compliance**
+> Wiki iniciado em 2026-04-21 | 96 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem** e **Segurança/Compliance**
 
 ## Tese atual
 
@@ -116,6 +116,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - **Solo Founder com Managed Agents** (NOVO): [[artificial-intelligence-business]] / @thewizeai documenta playbook de 7 passos sem código para $10K/mês com Claude Managed Agents — 20 agentes em paralelo (recorde do wiki), MCP como camada de conexão ao stack da empresa, stack encadeada de 3 agentes como produto. Contexto: aposta de Dario Amodei ($1B one-person company até fim de 2026)
 - **Tier matrix de nichos para AI agents**: [[derek-gray]] classifica 6 setores de serviços locais por potencial de ROI — Solar (God-Tier) e Window Replacement (S-Tier) são top porque o CAC já é alto ($5K+), treinando os clientes a pagar por aquisição. Gyms (F-Tier) é o primeiro exemplo no wiki de nicho que *parece* óbvio para Maps SEO mas onde o vetor de decisão é social (amigos), não busca. Setup mínimo documentado: $55/mês em software
 - **IA local como infraestrutura de custo zero** (NOVO): [[hasan-toor]] documenta guia de 7 passos para rodar modelos open-source (Qwen3, DeepSeek-R1) offline em <20 minutos com [[ollama]] ou [[lm-studio]]. Habilitador técnico: quantização Q4_K_M (140GB → 40GB, qualidade quase idêntica). API OpenAI-compatível em `http://localhost:11434` permite que qualquer pipeline existente aponte para a máquina local sem mudança de código. Conceito central: [[ia-local]]
+- **AI Side-Hustle com Ferramentas Pré-construídas** (NOVO): [[bruno-souza]] documenta sistema de 5 passos para cobrar $1–3K/mês de negócios locais implementando ferramentas SaaS de IA existentes (Jasper, Smartlead, Reclaim, Claid) — sem código. Diferencial do Step 4: LLM simula o dono do negócio-alvo para identificar dores repetitivas antes da ligação de vendas — primeiro uso documentado de LLM como *empathy mapping de prospect* no wiki. ⚠️ Contradição com [[derek-gray]]: Gyms são recomendados aqui mas F-Tier para Maps SEO — a diferença é o serviço (automação interna vs. ranqueamento no Google)
 
 ---
 
