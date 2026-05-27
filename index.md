@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-27 | Total de páginas: 230 | Fontes ingeridas: 98
+> Atualizado em: 2026-05-27 | Total de páginas: 232 | Fontes ingeridas: 99
 
 ---
 
@@ -112,6 +112,7 @@
 | [[wiki/sources/2026-05-12_bruno-souza-modelo-negocio-automatizado]] | @Bruno Souza | 2026-05-12 | Sistema de 5 passos para AI Side-Hustle: ferramentas pré-construídas → negócios locais → $1–3K/mês retainer sem código |
 | [[wiki/sources/2026-05-14_drew-huibregtse-livros-colorir-ia]] | @Drew Huibregtse | 2026-05-14 | Como lucrar com livros de colorir usando IA: 5 passos, Claude + ChatGPT/Nano Banana + Canva + KDP — dashboard real $13.392/mês |
 | [[wiki/sources/2026-05-18_roshan-krishna-5-prompts-entrevista]] | @Roshan Krishna | 2026-05-18 | 5 prompts Claude para entrevistas: prever perguntas → respostas STAR → pontos fracos → mock brutal → cheatsheet 60s |
+| [[wiki/sources/2026-05-17_mike-perguntas-entrevista]] | @Mike | 2026-05-17 | 11 perguntas estratégicas para fazer ao entrevistador no final da entrevista |
 
 ---
 
@@ -122,7 +123,7 @@
 | [[wiki/concepts/geração-de-leads-com-ia]] | 3 | Uso de LLMs + scraping para prospecção B2B automatizada |
 | [[wiki/concepts/otimização-de-tokens]] | 4 | Técnicas para reduzir consumo de tokens no Claude |
 | [[wiki/concepts/prompt-engineering]] | 17 | Padrões de estruturação + palavras-gatilho + Claude Skills + "Act like a senior engineer" + substitutos de serviços profissionais (fitness, voos, finanças) + STAR como instrução explícita |
-| [[wiki/concepts/carreira-com-ia]] | 19 | IA para aceleração de carreira, LinkedIn, renda, produtos próprios e performance em entrevistas |
+| [[wiki/concepts/carreira-com-ia]] | 20 | IA para aceleração de carreira, LinkedIn, renda, produtos próprios e performance em entrevistas |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 3 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
 | [[wiki/concepts/agentes-ia]] | 7 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão |
 | [[wiki/concepts/estratégia-de-negócios-com-ia]] | 32 | 5 ângulos sobre repos open-source + 15 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle) |
@@ -136,7 +137,7 @@
 | [[wiki/concepts/produtividade-e-emprego-com-ia]] | 1 | 45% reduzem headcount; 55% redeployment ou hiring avoided; "canários" em workers 22-25 expostos |
 | [[wiki/concepts/finanças-com-ia]] | 6 | Análise de investimentos de nível institucional com LLMs — 6 ângulos: ROLE institucional, riqueza individual, screening funil, DIY estruturado, pipeline sequencial completo, gestor autônomo com dinheiro real |
 | [[wiki/concepts/bem-estar-com-ia]] | 1 | Prompts parametrizados substituindo serviços profissionais de fitness — inputs de anamnese → protocolo de nível profissional |
-| [[wiki/concepts/busca-de-emprego-com-ia]] | 4 | Busca de emprego automatizada com Career Ops, ATS, candidaturas personalizadas e preparação para entrevistas |
+| [[wiki/concepts/busca-de-emprego-com-ia]] | 6 | Busca de emprego automatizada com Career Ops, ATS, candidaturas personalizadas e preparação para entrevistas |
 | [[wiki/concepts/seo-com-ia]] | 3 | SEO com IA: três abordagens — arquivos técnicos (llms.txt), otimização via GSC e guia oficial Google (contradiz necessidade de llms.txt) |
 | [[wiki/concepts/ia-local]] | 2 | Execução de LLMs sem nuvem: Ollama + LM Studio, RAM guide, quantização Q4_K_M, API OpenAI-compatível local |
 | [[wiki/concepts/viagem-com-ia]] | 1 | Prompts para análise profissional de preços de voos: hidden routes, geo-pricing, fare rules, timing, airline vs OTA |
@@ -279,6 +280,7 @@
 | [[wiki/entities/matt-diamante]] | @Matt Diamante | 1 | SEO simplificado via topical authority com findquestions.com — uma pergunta por post |
 | [[wiki/entities/hasan-toor]] | @Hasan Toor | 2 | Pesquisa de mercado avançada + guia técnico de IA local (Ollama, LM Studio, Q4_K_M, localhost API) |
 | [[wiki/entities/roshan-krishna]] | @Roshan Krishna | 1 | 5 prompts Claude para entrevistas de emprego — pipeline de preparação: prever perguntas → STAR → mock brutal → cheatsheet |
+| [[wiki/entities/mike]] | @Mike | 1 | 11 perguntas estratégicas para fazer ao entrevistador no final da entrevista (sem IA) |
 
 ---
 

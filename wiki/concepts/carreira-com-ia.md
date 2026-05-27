@@ -2,7 +2,7 @@
 title: "Carreira e Negócios com IA"
 type: concept
 tags: [carreira, negócios, linkedin, ia, recrutamento, oportunidades, renda, transição-de-carreira, ats, currículo, cover-letter, odyssey-plan, longevidade-profissional, entrevista, star-method]
-source_count: 19
+source_count: 20
 last_updated: 2026-05-27
 ---
 
@@ -148,6 +148,28 @@ Caso documentado sem pipeline técnico — uso direto do Claude.ai por qualquer 
 
 → [[2026-05-18_roshan-krishna-5-prompts-entrevista]] | Autor: [[roshan-krishna]]
 
+### 12. Perguntas estratégicas para o final da entrevista (@Mike)
+Complemento direto à seção 11 — enquanto [[roshan-krishna]] prepara o candidato para *responder* as perguntas do entrevistador, @Mike ensina quais perguntas o *candidato* deve fazer ao final:
+
+| # | Pergunta | Sinal que envia |
+|---|----------|----------------|
+| 1 | "How will you know after 3 months that I'm doing well?" | Foco em resultados |
+| 2 | "What usually breaks new people here?" | Pronto para a realidade |
+| 3 | "Who would I work with most often?" | Consciência do ambiente humano |
+| 4 | "How do you give feedback here?" | Revela cultura real de feedback |
+| 5 | "Who grows fastest in this company?" | Expõe valores reais vs. site institucional |
+| 6 | "What mistakes are serious here?" | Maturidade (maioria evita o tema) |
+| 7 | "What matters most here: speed, quality, or independence?" | Expõe prioridade real |
+| 8 | "Is there room to grow for people who deliver results?" | Verifica se esforço tem retorno |
+| 9 | "What do you personally like about working here?" | Reação do entrevistador conta quase tudo |
+| 10 | "Do you have any doubts about me that I can clear up right now?" | Movimento final poderoso — quase ninguém usa |
+
+**Posição no pipeline**: após o mock interview e cheatsheet de [[roshan-krishna]], este repertório de perguntas cobre a fase final da entrevista que Roshan não documenta.
+
+> ⚠️ **Nota de escopo**: conteúdo de @Mike não usa IA — é comportamento puro na entrevista. Pode ser combinado com Claude para gerar variações personalizadas por vaga.
+
+→ [[2026-05-17_mike-perguntas-entrevista]] | Autor: [[mike]]
+
 ## Padrão recorrente no feed
 
 Há **convergência temática clara**: múltiplos criadores internacionais reforçam que combinar skills existentes + IA é mais valioso que uma skill isolada. A direção não é "aprenda IA do zero", mas "use IA para ampliar o que você já faz bem."
@@ -171,3 +193,4 @@ Há **convergência temática clara**: múltiplos criadores internacionais refor
 - [[2026-04-28_your-ai-compass-perfil-profissional]]
 - [[2026-05-12_bruno-souza-modelo-negocio-automatizado]]
 - [[2026-05-18_roshan-krishna-5-prompts-entrevista]]
+- [[2026-05-17_mike-perguntas-entrevista]]

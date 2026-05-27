@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-05-27] ingest | 11 Perguntas para Se Destacar em Entrevistas de Emprego — @Mike
+
+Fonte: `2026-05-17_mike_DYa1taiAo55.md` (carousel, 10/11 slides). Página criada: wiki/sources/2026-05-17_mike-perguntas-entrevista.md. Entidade criada: entities/mike.md (novo criador Internacional — @Mike; 11 perguntas estratégicas para o candidato fazer ao entrevistador no final da entrevista; conteúdo não usa IA diretamente, mas complementa [[roshan-krishna]] e [[busca-de-emprego-com-ia]]). Atualizadas: concepts/carreira-com-ia.md (source_count 19→20, nova seção 12 "Perguntas estratégicas para o final da entrevista" com tabela de 10 perguntas capturadas e nota de escopo). concepts/busca-de-emprego-com-ia.md (source_count 5→6, nova seção "Perguntas estratégicas para o final da entrevista" com tabela de 10 perguntas). wiki/overview.md (98→99 fontes, nova linha no Cluster 3 para [[mike]]). index.md (230→232 páginas, 98→99 fontes, +1 fonte, +1 entidade, carreira-com-ia 19→20, busca-de-emprego-com-ia 5→6).
+
 ## [2026-05-27] ingest | Como Lucrar com Livros de Colorir Usando IA — @Drew Huibregtse | Digital Products
 
 Fonte: `2026-05-14_drew_huibregtse_digital_products_DYTa07ilsRg.md` (carousel, 10/11 slides). Página criada: wiki/sources/2026-05-14_drew-huibregtse-livros-colorir-ia.md. Atualizadas: entities/drew-huibregtse.md (source_count 2→3, 3ª contribuição: foco em coloring books especificamente, com dashboard real de $13.392/mês abr/2026 e case Tiny Gardens $22.062/30 dias; ChatGPT documentado como ferramenta de imagem). entities/amazon-kdp.md (source_count 2→3, ChatGPT adicionado ao stack de geração de imagem; 3ª aparição). entities/helium-10.md (source_count 2→3, 3ª aparição com mesmo papel de validação de nicho). concepts/estratégia-de-negócios-com-ia.md (source_count 31→32, 3ª fonte adicionada à seção Amazon KDP). wiki/overview.md (97→98 fontes, status 229→230 páginas, nova entrada na seção "Adições de 2026-05-27"). index.md (229→230 páginas, 97→98 fontes, +1 fonte, drew-huibregtse 2→3, amazon-kdp 2→3, helium-10 2→3, estratégia-de-negócios-com-ia 31→32).

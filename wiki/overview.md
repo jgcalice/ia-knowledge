@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-05-27
-source_count: 98
+source_count: 99
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 98 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem** e **Segurança/Compliance**
+> Wiki iniciado em 2026-04-21 | 99 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem** e **Segurança/Compliance**
 
 ## Tese atual
 
@@ -69,6 +69,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 | Candidaturas personalizadas (sem código) | JD → Claude extrai skills → reescreve currículo → cover letter; caso: 6 entrevistas/7 dias | [[coding-ai-fullstack]] |
 | Reconstrução completa de candidatura | 4 prompts com ROLEs de recrutadores elite: resume XYZ + ATS optimization + McKinsey quantifier + cover letter Robert Half | [[your-ai-compass]] |
 | Preparação para entrevista | 5 prompts encadeados: prever perguntas → respostas STAR → pontos fracos → mock brutal (score 0-10) → cheatsheet 60s | [[roshan-krishna]] |
+| Perguntas no final da entrevista | 11 perguntas estratégicas que o candidato faz ao entrevistador: expectativas de sucesso, cultura real, "Do you have any doubts about me?" | [[mike]] |
 | Redesenho estratégico | 4 prompts Tim Ferriss: vantagem injusta, DEAL, freedom ratio, 10 anos | [[god-of-prompt]] |
 | Monetização imediata | 4 prompts para ganhar $1k em 30 dias com skills existentes | [[sabrina-ramonov]] · confirmado por [[allessandra-sinisgalli]] |
 | Monetização com templates | 5 prompts-template `[insert X]`: freelance do cargo atual, plano 30 dias $10K, desafio 7 dias, day rate $1K/dia, serviço $10K/mês | [[laura-anderson]] |

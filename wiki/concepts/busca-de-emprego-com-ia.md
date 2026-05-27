@@ -2,7 +2,7 @@
 title: "Busca de Emprego com IA"
 type: concept
 tags: [carreira, busca-de-emprego, automação, ats, currículo, claude-code, apify, linkedin, negociação, cover-letter, quantificação, entrevista, star-method]
-source_count: 5
+source_count: 6
 last_updated: 2026-05-27
 ---
 
@@ -130,6 +130,31 @@ Enquanto as abordagens anteriores cobrem **antes** da entrevista (perfil, currí
 
 → [[2026-05-18_roshan-krishna-5-prompts-entrevista]] | Autor: [[roshan-krishna]]
 
+## Perguntas estratégicas para o final da entrevista (@Mike)
+
+Enquanto [[roshan-krishna]] prepara o candidato para *responder* as perguntas do entrevistador, @Mike documenta as perguntas que o *candidato* deve fazer ao entrevistador no final.
+
+**Premissa**: "No questions" sinaliza desinteresse ou passividade — revela o candidato antes que qualquer pergunta seja feita.
+
+10 das 11 perguntas capturadas:
+
+| # | Pergunta | Sinal que envia |
+|---|----------|----------------|
+| 1 | "How will you know after 3 months that I'm doing well?" | Foco em resultados |
+| 2 | "What usually breaks new people here?" | Pronto para a realidade |
+| 3 | "Who would I work with most often?" | Consciência do ambiente humano |
+| 4 | "How do you give feedback here?" | Revela cultura real |
+| 5 | "Who grows fastest in this company?" | Expõe valores reais |
+| 6 | "What mistakes are serious here?" | Maturidade |
+| 7 | "What matters most here: speed, quality, or independence?" | Prioridade real |
+| 8 | "Is there room to grow for people who deliver results?" | Esforço tem retorno? |
+| 9 | "What do you personally like about working here?" | Reação do entrevistador conta quase tudo |
+| 10 | "Do you have any doubts about me that I can clear up right now?" | Move final poderoso — quase ninguém usa |
+
+> ⚠️ **Nota**: conteúdo não usa IA diretamente. Pode ser usado com Claude para gerar variações das perguntas adaptadas à JD e ao setor.
+
+→ [[2026-05-17_mike-perguntas-entrevista]] | Autor: [[mike]]
+
 ## Fontes
 
 - [[2026-04-07_career-ops-busca-emprego-ia]]
@@ -137,3 +162,4 @@ Enquanto as abordagens anteriores cobrem **antes** da entrevista (perfil, currí
 - [[2026-04-26_coding-ai-fullstack-entrevistas-claude]]
 - [[2026-04-28_your-ai-compass-perfil-profissional]]
 - [[2026-05-18_roshan-krishna-5-prompts-entrevista]]
+- [[2026-05-17_mike-perguntas-entrevista]]
