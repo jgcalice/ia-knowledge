@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-05-27
-source_count: 97
+source_count: 98
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 97 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem** e **Segurança/Compliance**
+> Wiki iniciado em 2026-04-21 | 98 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem** e **Segurança/Compliance**
 
 ## Tese atual
 
@@ -288,15 +288,16 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 97 |
-| Páginas de fontes | 97 |
+| Fontes ingeridas | 98 |
+| Páginas de fontes | 98 |
 | Páginas de conceitos | 20 |
 | Páginas de entidades | 104 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **229** |
+| **Total de páginas** | **230** |
 
-## Adições da ingestão de 2026-05-27 (1 fonte nova)
+## Adições da ingestão de 2026-05-27 (2 fontes novas)
 
+- **3ª confirmação do sistema Amazon KDP de [[drew-huibregtse]] — coloring books com dashboard real**: carousel de 2026-05-14 foca especificamente em livros de colorir. Novas contribuições: (1) ChatGPT entra no stack de geração de imagem ao lado de Nano Banana — primeira confirmação de ChatGPT como gerador de imagem prático no wiki; (2) prompt canônico para colorir: "Give me 40 detailed interior page descriptions for a [niche] coloring book. Each page should be unique, intricate, and optimized for print."; (3) dashboard real do KDP com datas (abr/2026): $13.392 — dado mais confiável que os números autodeclarados das fontes anteriores; (4) Tiny Gardens: $22.062/30 dias com 2.208 cópias. Atualizado: [[drew-huibregtse]] (source_count 2→3), [[amazon-kdp]] (source_count 2→3, ChatGPT adicionado ao stack), [[helium-10]] (source_count 2→3), [[estratégia-de-negócios-com-ia]] (source_count 31→32, 3ª fonte adicionada à seção Amazon KDP).
 - **5 prompts de [[roshan-krishna]] para preparação de entrevistas de emprego**: cobre a fase pós-candidatura — *desempenho durante a entrevista* — que estava faltando no Cluster 3. Pipeline de 5 prompts encadeados: prever perguntas (JD → 15 Qs em 3 categorias + nota do que cada uma testa) → respostas STAR com placeholders para histórias pessoais → identificar 3 pontos fracos + follow-ups difíceis → mock interview com score 0-10 ("Brutal Mode") → cheatsheet de 60 segundos para revisar antes de entrar. Entidade criada: [[roshan-krishna]]. Atualizado: [[busca-de-emprego-com-ia]] (source_count 4→5, nova seção "Preparação para entrevistas"), [[carreira-com-ia]] (source_count 18→19, novo item 11), [[prompt-engineering]] (source_count 38→39, nova seção "STAR como instrução explícita" + "Brutal Mode" como padrão de feedback).
 
 ## Adições da ingestão de 2026-05-26 (2 fontes novas)

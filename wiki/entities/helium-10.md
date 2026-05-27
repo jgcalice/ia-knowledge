@@ -3,8 +3,8 @@ title: "Helium 10"
 type: entity
 category: tool
 tags: [amazon, validação-de-nicho, market-research, dados-estruturados]
-source_count: 2
-last_updated: 2026-05-24
+source_count: 3
+last_updated: 2026-05-27
 ---
 
 # Helium 10
@@ -23,6 +23,7 @@ Sempre via **copia-cola dos números do Helium 10 para o Claude**, não via inte
 
 - [[2026-04-23_drew-huibregtse-sistema-amazon-kdp]] — Passo 1 do sistema de 4 etapas; critérios: alto volume de buscas + baixo review count + títulos fracos
 - [[2026-05-09_drew-huibregtse-amazon-kdp]] — input do Prompt 1 (validação de nicho em 30s)
+- [[2026-05-14_drew-huibregtse-livros-colorir-ia]] — Passo 1 do sistema de colorir: alto volume + baixo review count + títulos fracos na página 1
 
 ## Relacionado
 

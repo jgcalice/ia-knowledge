@@ -2,8 +2,8 @@
 title: "Estratégia de Negócios com IA"
 type: concept
 tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce, amazon-kdp, topical-authority, low-content-products, open-source, custo-zero]
-source_count: 31
-last_updated: 2026-05-26
+source_count: 32
+last_updated: 2026-05-27
 ---
 
 # Estratégia de Negócios com IA
@@ -301,6 +301,7 @@ Complemento da fonte anterior: enquanto [[2026-04-15_jordan-lee-vendas-sistema-i
 
 → [[2026-04-23_drew-huibregtse-sistema-amazon-kdp]] (visão geral do sistema e social proof)
 → [[2026-05-09_drew-huibregtse-amazon-kdp]] (pipeline técnico de 5 prompts Claude)
+→ [[2026-05-14_drew-huibregtse-livros-colorir-ia]] (3ª confirmação: foco em coloring books; ChatGPT como gerador de imagem; dashboard real $13.392/mês; Tiny Gardens $22.062/30 dias)
 
 ## Amazon FBA com Claude: e-commerce físico lançado com 5 prompts
 

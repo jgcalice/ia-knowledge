@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-27 | Total de páginas: 229 | Fontes ingeridas: 97
+> Atualizado em: 2026-05-27 | Total de páginas: 230 | Fontes ingeridas: 98
 
 ---
 
@@ -110,6 +110,7 @@
 | [[wiki/sources/2026-05-25_bestapps-7-prompts-voos]] | @Bestapps \| Artificial Intelligence \| AI Agents | 2026-05-25 | 7 prompts para análise profissional de preços de voos: hidden routes, geo-pricing, fare rules, timing, airline vs OTA |
 | [[wiki/sources/2026-05-24_today-in-ai-checklist-prelancamento]] | @TODAY IN AI | 2026-05-24 | Checklist jurídico-técnica pré-lançamento: GDPR/CCPA, RLS, failure-path testing, security headers, OWASP, server-side validation |
 | [[wiki/sources/2026-05-12_bruno-souza-modelo-negocio-automatizado]] | @Bruno Souza | 2026-05-12 | Sistema de 5 passos para AI Side-Hustle: ferramentas pré-construídas → negócios locais → $1–3K/mês retainer sem código |
+| [[wiki/sources/2026-05-14_drew-huibregtse-livros-colorir-ia]] | @Drew Huibregtse | 2026-05-14 | Como lucrar com livros de colorir usando IA: 5 passos, Claude + ChatGPT/Nano Banana + Canva + KDP — dashboard real $13.392/mês |
 | [[wiki/sources/2026-05-18_roshan-krishna-5-prompts-entrevista]] | @Roshan Krishna | 2026-05-18 | 5 prompts Claude para entrevistas: prever perguntas → respostas STAR → pontos fracos → mock brutal → cheatsheet 60s |
 
 ---
@@ -124,7 +125,7 @@
 | [[wiki/concepts/carreira-com-ia]] | 19 | IA para aceleração de carreira, LinkedIn, renda, produtos próprios e performance em entrevistas |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 3 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
 | [[wiki/concepts/agentes-ia]] | 7 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão |
-| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 31 | 5 ângulos sobre repos open-source + 15 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle) |
+| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 32 | 5 ângulos sobre repos open-source + 15 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
 | [[wiki/concepts/segurança-com-ia]] | 8 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital + checklist jurídico-técnica pré-lançamento (GDPR/CCPA, RLS, OWASP) |
 | [[wiki/concepts/vibecoding]] | 2 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança; abordagens preventiva, detective e jurídico-técnica (pré-lançamento) |
@@ -167,8 +168,8 @@
 | [[wiki/entities/smithery]] | platform | 1 | Marketplace com 128k+ Claude Skills/MCPs |
 | [[wiki/entities/vibe-prospecting]] | tool | 1 | Conector Claude.ai para geração de leads por nicho/cargo/cidade |
 | [[wiki/entities/google-search-console]] | tool | 1 | Ferramenta gratuita Google de SEO — fonte de dados estruturados (queries, posição média, cliques) para pipelines com Claude |
-| [[wiki/entities/amazon-kdp]] | platform | 2 | Plataforma Amazon de auto-publicação — distribuição zero-friction de PDFs (interior + capa) |
-| [[wiki/entities/helium-10]] | tool | 2 | Market research Amazon (volume de busca, concorrentes, preço médio) — input para validação de nicho com Claude |
+| [[wiki/entities/amazon-kdp]] | platform | 3 | Plataforma Amazon de auto-publicação — distribuição zero-friction de PDFs (interior + capa) |
+| [[wiki/entities/helium-10]] | tool | 3 | Market research Amazon (volume de busca, concorrentes, preço médio) — input para validação de nicho com Claude |
 | [[wiki/entities/findquestions]] | tool | 1 | Discovery de perguntas reais que pessoas fazem no Google — wireframe editorial para topical authority |
 | [[wiki/entities/ollama]] | tool | 2 | Plataforma open-source para rodar LLMs localmente (GPT-4 class) — custo zero, privacidade por design, funciona offline; API OpenAI-compatível em localhost:11434 |
 | [[wiki/entities/whisper]] | tool | 1 | Modelo de reconhecimento de fala open-source da OpenAI — transcrição em 99 idiomas; substitui Otter.ai ($20/mês) gratuitamente |
@@ -274,7 +275,7 @@
 | [[wiki/entities/max-kelley]] | @Max Kelley | 1 | Vibe Coding e curadoria de plugins/repos Claude Code com tração no GitHub |
 | [[wiki/entities/forrest-chang]] | Forrest Chang | 1 | Developer — autor de plugin Claude Code (~42k stars no GitHub) que corrige os 3 problemas default |
 | [[wiki/entities/prompt-prism]] | @Prompt Prism | 1 | Carreira de 5 anos com frameworks acadêmicos (Odyssey Plan) e benchmarks salariais 2025–2026 |
-| [[wiki/entities/drew-huibregtse]] | @Drew Huibregtse \| Digital Products | 2 | Low-content digital products no Amazon KDP — sistema de 4 passos (nicho, conteúdo IA, Canva, KDP) + pipeline de 5 prompts Claude |
+| [[wiki/entities/drew-huibregtse]] | @Drew Huibregtse \| Digital Products | 3 | Low-content digital products no Amazon KDP — sistema de 4 passos + pipeline de 5 prompts Claude + coloring books com dashboard real $13.392/mês |
 | [[wiki/entities/matt-diamante]] | @Matt Diamante | 1 | SEO simplificado via topical authority com findquestions.com — uma pergunta por post |
 | [[wiki/entities/hasan-toor]] | @Hasan Toor | 2 | Pesquisa de mercado avançada + guia técnico de IA local (Ollama, LM Studio, Q4_K_M, localhost API) |
 | [[wiki/entities/roshan-krishna]] | @Roshan Krishna | 1 | 5 prompts Claude para entrevistas de emprego — pipeline de preparação: prever perguntas → STAR → mock brutal → cheatsheet |

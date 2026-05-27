@@ -3,8 +3,8 @@ title: "Amazon KDP"
 type: entity
 category: platform
 tags: [amazon, kdp, self-publishing, digital-products, distribuição]
-source_count: 2
-last_updated: 2026-05-24
+source_count: 3
+last_updated: 2026-05-27
 ---
 
 # Amazon KDP (Kindle Direct Publishing)
@@ -20,8 +20,8 @@ Camada de distribuição para o arquétipo **low-content digital products** docu
 | Etapa | Ferramenta | Output |
 |-------|------------|--------|
 | Validação de nicho | [[helium-10]] + Claude | Veredito de viabilidade |
-| Conteúdo | Claude | 60+ páginas/prompts |
-| Interior visual | Midjourney / Nanobanana / Higgsfield / Leonardo | PDF interior |
+| Conteúdo | Claude | 40–60 páginas/prompts |
+| Interior visual | Midjourney / Nanobanana / Higgsfield / Leonardo / ChatGPT | PDF interior |
 | Listing | Claude | Title + bullets |
 | Capa | Claude + Canva | PDF capa |
 | Publicação | kdp.amazon.com | URL + royalties |
@@ -30,6 +30,7 @@ Camada de distribuição para o arquétipo **low-content digital products** docu
 
 - [[2026-04-23_drew-huibregtse-sistema-amazon-kdp]] — sistema de 4 passos; geração de imagem via Gemini/Leonardo/Freepik; case $21.626/30 dias
 - [[2026-05-09_drew-huibregtse-amazon-kdp]] — pipeline completo de 5 prompts Claude
+- [[2026-05-14_drew-huibregtse-livros-colorir-ia]] — foco em livros de colorir; ChatGPT + Nano Banana no interior; dashboard real $13.392/mês (abr/2026); Tiny Gardens $22.062/30 dias
 
 ## Relacionado
 
