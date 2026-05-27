@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-05-26
-source_count: 96
+last_updated: 2026-05-27
+source_count: 97
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 96 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem** e **Segurança/Compliance**
+> Wiki iniciado em 2026-04-21 | 97 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem** e **Segurança/Compliance**
 
 ## Tese atual
 
@@ -68,6 +68,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 | Busca automatizada v2 | Career Ops plugin: LinkedIn scraping → scoring → ATS → STAR → outreach → negociação | [[arshman-khalid]] |
 | Candidaturas personalizadas (sem código) | JD → Claude extrai skills → reescreve currículo → cover letter; caso: 6 entrevistas/7 dias | [[coding-ai-fullstack]] |
 | Reconstrução completa de candidatura | 4 prompts com ROLEs de recrutadores elite: resume XYZ + ATS optimization + McKinsey quantifier + cover letter Robert Half | [[your-ai-compass]] |
+| Preparação para entrevista | 5 prompts encadeados: prever perguntas → respostas STAR → pontos fracos → mock brutal (score 0-10) → cheatsheet 60s | [[roshan-krishna]] |
 | Redesenho estratégico | 4 prompts Tim Ferriss: vantagem injusta, DEAL, freedom ratio, 10 anos | [[god-of-prompt]] |
 | Monetização imediata | 4 prompts para ganhar $1k em 30 dias com skills existentes | [[sabrina-ramonov]] · confirmado por [[allessandra-sinisgalli]] |
 | Monetização com templates | 5 prompts-template `[insert X]`: freelance do cargo atual, plano 30 dias $10K, desafio 7 dias, day rate $1K/dia, serviço $10K/mês | [[laura-anderson]] |
@@ -207,7 +208,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]] · [[faria-lima-elevator]] · [[allessandra-sinisgalli]] · [[daniel-socrates]]
 
-**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]] · [[bert-no-chase]] · [[duncan-rogoff]] · [[ai-technology]] · [[shimin-mohammadi]] · [[harish-bhatt]] · [[roman-khaneichuk]] · [[hasan-toor]]
+**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]] · [[bert-no-chase]] · [[duncan-rogoff]] · [[ai-technology]] · [[shimin-mohammadi]] · [[harish-bhatt]] · [[roman-khaneichuk]] · [[hasan-toor]] · [[roshan-krishna]]
 
 **Referências de produto Anthropic**: [[boris-cherny]]
 
@@ -279,6 +280,7 @@ Fonte: ([[faria-lima-elevator]])
 - **SEO com IA tem duas abordagens complementares documentadas**: [[brycen-wood]] (técnica, arquivos: llms.txt + Markdown mirrors + sitemap) e [[daniel-socrates]] (dados, otimização de conteúdo existente: GSC → Claude prioriza → ajuste mínimo → solicitar indexação). A primeira prepara o site para ser lido por Google/IA; a segunda identifica e explora oportunidades de ranqueamento via dados reais. Ambas democratizam técnicas que agências cobram caro — conceito consolidado em [[seo-com-ia]]
 - **Viagem como novo domínio de "substituto de serviço profissional"**: [[bestapps-ai]] documenta 7 prompts para análise de preços de voos que aplicam o padrão ROLE "analista profissional" a consumo B2C pela primeira vez. O mesmo mecanismo documentado em [[bem-estar-com-ia]] (fitness), [[finanças-com-ia]] (análise de ações) e engenharia (Harish Bhatt) funciona igualmente para viagem — o LLM internalizou know-how de revenue management de companhias aéreas. Novidade de design: Prompt 5 categoriza explicitamente 3 tiers éticos (Legitimate / Against T&Cs / Off-limits) — padrão reutilizável em qualquer domínio onde otimização pode cruzar limites legais. Primeiro conteúdo de viagem do wiki: [[viagem-com-ia]]
 - **"Act like a senior engineer" como extensão do Persona Mode para engenharia de software**: [[harish-bhatt]] confirma e especializa o padrão [[Persona Mode e Output Constraints]] ([[yik-chan]]) em 11 variantes de engenharia. Cada prompt estrutura abertura + missão + constraint + entregáveis — tornando o Claude não mais um executador de comandos pontuais, mas um parceiro de nível sênior com responsabilidade de entrega. Novidade singular: Prompt 7 simula 4 papéis em cascata dentro de um único prompt (Architect → Engineer → Reviewer → Optimizer) — auto-review multi-perspectiva sem orquestração externa. 3ª contribuição de [[harish-bhatt]], completamente diferente das duas anteriores (repos open-source) — mesmo criador, segmento diferente
+- **Pipeline de carreira completo — da visibilidade à performance na entrevista**: [[roshan-krishna]] fecha a lacuna final do Cluster 3. O wiki agora documenta as 3 fases da jornada de emprego com IA: **otimizar perfil** ([[bruno-souza]], [[sanskaar-singh]]) → **candidatura personalizada** ([[coding-ai-fullstack]], [[your-ai-compass]], [[career-ops]]) → **performance na entrevista** ([[roshan-krishna]]). Novidades técnicas do pipeline de 5 prompts: (1) STAR como instrução explícita ao modelo com limite temporal de 90s para resposta oral — primeira constraint de duração verbal no wiki; (2) `[INSERT YOUR STORY]` como placeholder de delegação parcial — o LLM gera tudo exceto a memória episódica pessoal; (3) "Brutal Mode" (score 0-10 + diagnóstico + versão 9+) como padrão de feedback estruturado anticomplacência
 
 ---
 
@@ -286,12 +288,16 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 94 |
-| Páginas de fontes | 94 |
+| Fontes ingeridas | 97 |
+| Páginas de fontes | 97 |
 | Páginas de conceitos | 20 |
-| Páginas de entidades | 103 |
+| Páginas de entidades | 104 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **222** |
+| **Total de páginas** | **229** |
+
+## Adições da ingestão de 2026-05-27 (1 fonte nova)
+
+- **5 prompts de [[roshan-krishna]] para preparação de entrevistas de emprego**: cobre a fase pós-candidatura — *desempenho durante a entrevista* — que estava faltando no Cluster 3. Pipeline de 5 prompts encadeados: prever perguntas (JD → 15 Qs em 3 categorias + nota do que cada uma testa) → respostas STAR com placeholders para histórias pessoais → identificar 3 pontos fracos + follow-ups difíceis → mock interview com score 0-10 ("Brutal Mode") → cheatsheet de 60 segundos para revisar antes de entrar. Entidade criada: [[roshan-krishna]]. Atualizado: [[busca-de-emprego-com-ia]] (source_count 4→5, nova seção "Preparação para entrevistas"), [[carreira-com-ia]] (source_count 18→19, novo item 11), [[prompt-engineering]] (source_count 38→39, nova seção "STAR como instrução explícita" + "Brutal Mode" como padrão de feedback).
 
 ## Adições da ingestão de 2026-05-26 (2 fontes novas)
 

@@ -1,9 +1,9 @@
 ---
 title: "Busca de Emprego com IA"
 type: concept
-tags: [carreira, busca-de-emprego, automação, ats, currículo, claude-code, apify, linkedin, negociação, cover-letter, quantificação]
-source_count: 4
-last_updated: 2026-05-02
+tags: [carreira, busca-de-emprego, automação, ats, currículo, claude-code, apify, linkedin, negociação, cover-letter, quantificação, entrevista, star-method]
+source_count: 5
+last_updated: 2026-05-27
 ---
 
 # Busca de Emprego com IA
@@ -110,9 +110,30 @@ Claude gera carta de apresentação alinhada à vaga
 
 → [[2026-04-28_your-ai-compass-perfil-profissional]] | [[your-ai-compass]]
 
+## Preparação para entrevistas de emprego (Roshan Krishna)
+
+Enquanto as abordagens anteriores cobrem **antes** da entrevista (perfil, currículo, candidaturas), este pipeline cobre o **desempenho durante a entrevista** — uma fase até então não documentada no wiki.
+
+5 prompts encadeados, cada um usando o output do anterior como input:
+
+| # | Prompt | Output |
+|---|--------|--------|
+| 1 | Prever as perguntas exatas (colar JD) | 15 perguntas em 3 categorias (Técnicas, Comportamentais STAR, Curva) + nota do que cada uma testa |
+| 2 | Construir respostas impactantes | Resposta forte por pergunta via STAR; <90s oral; `[INSERT YOUR STORY]` como placeholder |
+| 3 | Encontrar pontos fracos | 3 respostas mais fracas + gaps + follow-ups difíceis + como tratar cada um |
+| 4 | Mock Interview Brutal Mode | Entrevista ao vivo pergunta a pergunta: score 0-10 + feedback + versão reescrita que pontuaria 9+ |
+| 5 | Cheatsheet de 60 segundos | 3 pontos fortes, 2 histórias essenciais, 1 pergunta-fumble + como salvar, abertura confiante para "Tell me about yourself" |
+
+**Instrução editorial do Prompt 4**: "Don't go easy on me" — combate explicitamente o viés de complacência do modelo.
+
+**Resultado documentado**: o irmão do autor recebeu oferta de emprego; prompts "previram quase todas as perguntas da entrevista".
+
+→ [[2026-05-18_roshan-krishna-5-prompts-entrevista]] | Autor: [[roshan-krishna]]
+
 ## Fontes
 
 - [[2026-04-07_career-ops-busca-emprego-ia]]
 - [[2026-04-22_arshman-khalid-automacao-busca-emprego]]
 - [[2026-04-26_coding-ai-fullstack-entrevistas-claude]]
 - [[2026-04-28_your-ai-compass-perfil-profissional]]
+- [[2026-05-18_roshan-krishna-5-prompts-entrevista]]

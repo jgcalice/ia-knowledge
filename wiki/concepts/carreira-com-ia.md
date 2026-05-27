@@ -1,9 +1,9 @@
 ---
 title: "Carreira e Negócios com IA"
 type: concept
-tags: [carreira, negócios, linkedin, ia, recrutamento, oportunidades, renda, transição-de-carreira, ats, currículo, cover-letter, odyssey-plan, longevidade-profissional]
-source_count: 18
-last_updated: 2026-05-26
+tags: [carreira, negócios, linkedin, ia, recrutamento, oportunidades, renda, transição-de-carreira, ats, currículo, cover-letter, odyssey-plan, longevidade-profissional, entrevista, star-method]
+source_count: 19
+last_updated: 2026-05-27
 ---
 
 # Carreira e Negócios com IA
@@ -135,6 +135,19 @@ Caso documentado sem pipeline técnico — uso direto do Claude.ai por qualquer 
 
 → [[2026-04-26_coding-ai-fullstack-entrevistas-claude]] | Autor: [[coding-ai-fullstack]]
 
+### 11. Preparação para entrevistas de emprego (Roshan Krishna)
+5 prompts encadeados que cobrem a fase pós-candidatura — o *desempenho durante a entrevista* — até então não documentada no wiki:
+
+1. **Prever perguntas**: JD → 15 perguntas em 3 categorias (Técnicas, STAR, Curva) + nota do que cada uma testa
+2. **Construir respostas**: STAR explícito + limite de 90 segundos oral + `[INSERT YOUR STORY]` como placeholder
+3. **Identificar fraquezas**: 3 respostas mais fracas + follow-ups difíceis de um entrevistador "brutal" + como tratar
+4. **Mock interview (Brutal Mode)**: Claude como entrevistador senior — score 0-10 + feedback + versão 9+ reescrita
+5. **Cheatsheet de 60 segundos**: 3 pontos fortes, 2 histórias essenciais, 1 pergunta-fumble + save, abertura para "Tell me about yourself"
+
+**Posição no mapa de carreira**: complementa [[your-ai-compass]] (perfil e currículo) e [[coding-ai-fullstack]] (candidaturas personalizadas) — juntos os três cobrem o pipeline completo de emprego: **otimizar perfil → personalizar candidatura → performar na entrevista**.
+
+→ [[2026-05-18_roshan-krishna-5-prompts-entrevista]] | Autor: [[roshan-krishna]]
+
 ## Padrão recorrente no feed
 
 Há **convergência temática clara**: múltiplos criadores internacionais reforçam que combinar skills existentes + IA é mais valioso que uma skill isolada. A direção não é "aprenda IA do zero", mas "use IA para ampliar o que você já faz bem."
@@ -157,3 +170,4 @@ Há **convergência temática clara**: múltiplos criadores internacionais refor
 - [[2026-04-30_allessandra-sinisgalli-15k-4-prompts]]
 - [[2026-04-28_your-ai-compass-perfil-profissional]]
 - [[2026-05-12_bruno-souza-modelo-negocio-automatizado]]
+- [[2026-05-18_roshan-krishna-5-prompts-entrevista]]

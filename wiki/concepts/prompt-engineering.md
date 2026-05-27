@@ -2,8 +2,8 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas, plan-mode, self-checking]
-source_count: 38
-last_updated: 2026-05-26
+source_count: 39
+last_updated: 2026-05-27
 ---
 
 # Prompt Engineering
@@ -302,6 +302,19 @@ Estrutura padrão de cada prompt:
 
 → [[2026-05-25_harish-bhatt-11-prompts-engenharia-software]] | [[harish-bhatt]]
 
+### STAR como instrução explícita de estrutura de resposta
+
+[[roshan-krishna]] documenta o primeiro uso no wiki onde o método STAR é invocado como **instrução direta ao modelo** (não apenas mencionado). O Prompt 2 da sequência de entrevistas instrui: "Use STAR method for behavioral questions. Keep answers under 90 seconds when spoken aloud. Flag any question where you need a personal story from me and write [INSERT YOUR STORY] as a placeholder."
+
+Três padrões emergentes documentados aqui:
+1. **STAR como constraint de estrutura de output** — o framework é passado como regra de formatação, não como pedido de explicação
+2. **Limite temporal verbal (90s)** — constraint de duração para resposta oral, não textual. Primeiro uso no wiki de limite baseado em tempo de fala
+3. **Placeholder como delegação parcial** — `[INSERT YOUR STORY]` externaliza a parte que o LLM não pode preencher (memória episódica pessoal) sem interromper o fluxo de geração
+
+O Prompt 4 ("Brutal Mode") acrescenta uma instrução anticomplacência explícita — "Don't go easy on me" — combinada com score numérico 0-10 e versão reescrita 9+. Padrão de feedback estruturado acionável: nota + diagnóstico + solução imediata.
+
+→ [[2026-05-18_roshan-krishna-5-prompts-entrevista]] | [[roshan-krishna]]
+
 ## Fontes
 
 - [[2026-03-19_leads-infinitos-cloudcode]]
@@ -333,3 +346,4 @@ Estrutura padrão de cada prompt:
 - [[2026-04-22_ai-developer-claude-secret-codes]]
 - [[2026-05-25_harish-bhatt-11-prompts-engenharia-software]]
 - [[2026-05-25_bestapps-7-prompts-voos]]
+- [[2026-05-18_roshan-krishna-5-prompts-entrevista]]
