@@ -1,8 +1,8 @@
 ---
 title: "Estratégia de Negócios com IA"
 type: concept
-tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce, amazon-kdp, topical-authority, low-content-products, open-source, custo-zero, criação-de-conteúdo]
-source_count: 34
+tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce, amazon-kdp, topical-authority, low-content-products, open-source, custo-zero, criação-de-conteúdo, y-combinator, startups, ia-nativa]
+source_count: 35
 last_updated: 2026-05-29
 ---
 
@@ -210,26 +210,6 @@ Segundo post de @codingknowledge no wiki, com enquadramento voltado ao usuário 
 
 @GROWAI apresenta os mesmos repositórios com enquadramento editorial distinto: não "corte de custo" (bestapps) nem "operação de canais" (paras-madan), mas **"ferramentas para faturar $10K/mês"**. Detalhe novo: Claude Ads documentado com modelo de negócio específico — *"sell this as a custom ad audit service for $1,500 a pop"* — mais granular do que qualquer fonte anterior. Fincept Terminal ganha novo detalhe: 37 agentes IA embutidos baseados nas metodologias de Buffett, Munger e Lynch.
 → [[2026-05-08_growai-10-ferramentas-gratuitas]]
-
-## Arquétipos de negócio com IA mapeados
-
-| Arquétipo | Descrição | Fonte principal |
-|-----------|-----------|----------------|
-| **Consultoria estratégica** | 7 prompts para análise de mercado + oferta + escalonamento | [[evolving-ai]], [[business-bulls]] |
-| **Infoprodutos nativos de IA** | 5 modelos (eBook, YouTube narrado, newsletter, curso, AIaaS WhatsApp) | [[bruno-wambier]] |
-| **Mini web app + Instagram** | Produto SaaS focado, distribuição 100% social | [[luna-vega]] |
-| **AI Agency** | Agência automatiza outras empresas com IA | [[paul-hilse]] (via Martell/Ottley) |
-| **Stack de skills (founder solo)** | 5 skills open-source cobrindo ads, conversão, social, community e SEO | [[paras-madan]] |
-| **Bootstrap SaaS + distribuição sequencial** | Reddit hand-to-hand → Programmatic SEO → $3M ARR | [[starter-story]] (case Joseph) |
-| **GMB Optimization Agency** | 8 prompts para agência de SEO local — retainers $500–$1K/mês, alvo #6–20 Maps | [[derek-gray]] |
-| **AI Sales Agency** | 3 agentes (SDR + Analisador + Consultor) cobrem todo o funil de vendas — $3K/cliente, sem código | [[jordan-lee]] |
-| **One-Person Business (Dan Koe model)** | 5 prompts: ideia → oferta-transformação → conteúdo → vendas autônomas → escalar sem equipe | [[ai-fied]] (via [[dan-koe]]) |
-| **Freelance + Day Rate + Desafio Pago** | 5 templates com placeholders para monetizar skill existente em dias/semanas; day rate: $1K/dia com IA | [[laura-anderson]] |
-| **Amazon KDP — Low-content Digital Products** | Sistema de 4 passos: pesquisa de nicho (Helium 10) → conteúdo IA (Claude/ChatGPT + geradores de imagem) → capa (Canva) → upload KDP. Zero supply chain, royalties passivos. Case: $21.626/30 dias, 1 livro | [[drew-huibregtse]] |
-| **Amazon FBA com IA** | 5 prompts para lançar produto físico na Amazon: produto → fabricante → marca → listing SEO → plano de lançamento | [[shimin-mohammadi]] |
-| **White-label SaaS** | Fork de repo open-source estabelecido → self-host → branding → vender acesso como SaaS recorrente. Referências: Cal.com ($5M ARR), Ghost (100% margem), n8n ($14M captados) | [[harish-bhatt]] |
-| **Solo Founder com Managed Agents** | 7 passos sem código para $10K/mês: UMA tarefa → JD detalhada → Claude Desktop → MCP (Slack/Drive/Gmail) → testar → agendar → empilhar 3 agentes. O stack encadeado é o produto; roda na nuvem da Anthropic. Contexto: aposta Dario Amodei — empresa de $1B por uma pessoa até fim de 2026 | [[artificial-intelligence-business]] |
-| **AI Side-Hustle com Ferramentas Pré-construídas** | Escolher ferramenta de IA existente (Jasper, Smartlead, Reclaim, Claid) → aprender em 1–2h → prospectar negócios locais → simular dores do cliente com LLM → retainer $1–3K/mês. Sem código, sem desenvolvimento próprio | [[bruno-souza]] |
 
 ## One-Person Business: o modelo de Dan Koe reverse-engineered com Claude
 
@@ -447,8 +427,53 @@ Arquétipo distinto de todos os documentados anteriormente: em vez de construir 
 
 → [[2026-05-28_ask-gpts-postiz-social-media]]
 
+## Playbook YC para Startups Nativas de IA (Diana Hu)
+
+([[founded-ceo]], [[2026-05-28_founded-ceo-yc-startup-ia]])
+
+[[diana-hu]], General Partner do [[y-combinator]], publicou o playbook mais referenciado de 2026 para founders construindo empresas nativas de IA. A tese central: **IA não é ferramenta, é o sistema operacional da empresa**.
+
+| # | Princípio | Descrição |
+|---|-----------|-----------|
+| 1 | **AI as Operating System** | Todo workflow, decisão e processo flui por uma camada inteligente. Uma pessoa certa com IA constrói o que antes exigia uma equipe |
+| 2 | **Closed loops everywhere** | Open loop (decidir → executar → esquecer) → closed loop (monitorar output continuamente → ajustar processo → atingir objetivo). Sistema auto-regulado |
+| 3 | **No more human middleware** | Hierarquias de gestão clássicas eliminadas. Objetivo: pouca ou nenhuma camada humana entre decisão e execução |
+| 4 | **Three employee archetypes** (per [[jack-dorsey]]) | IC/builder-operator (executa e constrói), DRI (Directly Responsible Individual — dono de um resultado), AI founder (orquestra agentes como equipe) |
+| 5 | **Token-max, not headcount-max** | Maximizar tokens em vez de headcount — equipes enxutas amplificadas por IA |
+| 6 | **Early-stage advantage** | Sem sistemas legados: startups adotam IA nativa integralmente, enquanto incumbentes ficam presos a tech debt |
+
+> "Build something people want. AI helps you build it faster."
+
+**Contraste com [[adoção-empresarial-de-ia]]**: o Stanford DEL estuda como grandes organizações *superam resistências internas* para adotar IA; o YC parte do zero e defende *eliminar de vez* as estruturas que geram essa resistência. São dois playbooks para fases diferentes: greenfield (YC) vs. incumbente (Stanford).
+
+**"Token-max, not headcount-max"** é o primeiro princípio prescritivo no wiki que trata tokens como fator de produção substituto de pessoas — convergente com os dados do Stanford (45% reduzem headcount), mas com intenção declarada, não observação empírica.
+
+→ [[2026-05-28_founded-ceo-yc-startup-ia]]
+
+## Arquétipos de negócio com IA mapeados
+
+| Arquétipo | Descrição | Fonte principal |
+|-----------|-----------|----------------|
+| **Consultoria estratégica** | 7 prompts para análise de mercado + oferta + escalonamento | [[evolving-ai]], [[business-bulls]] |
+| **Infoprodutos nativos de IA** | 5 modelos (eBook, YouTube narrado, newsletter, curso, AIaaS WhatsApp) | [[bruno-wambier]] |
+| **Mini web app + Instagram** | Produto SaaS focado, distribuição 100% social | [[luna-vega]] |
+| **AI Agency** | Agência automatiza outras empresas com IA | [[paul-hilse]] (via Martell/Ottley) |
+| **Stack de skills (founder solo)** | 5 skills open-source cobrindo ads, conversão, social, community e SEO | [[paras-madan]] |
+| **Bootstrap SaaS + distribuição sequencial** | Reddit hand-to-hand → Programmatic SEO → $3M ARR | [[starter-story]] (case Joseph) |
+| **GMB Optimization Agency** | 8 prompts para agência de SEO local — retainers $500–$1K/mês, alvo #6–20 Maps | [[derek-gray]] |
+| **AI Sales Agency** | 3 agentes (SDR + Analisador + Consultor) cobrem todo o funil de vendas — $3K/cliente, sem código | [[jordan-lee]] |
+| **One-Person Business (Dan Koe model)** | 5 prompts: ideia → oferta-transformação → conteúdo → vendas autônomas → escalar sem equipe | [[ai-fied]] (via [[dan-koe]]) |
+| **Freelance + Day Rate + Desafio Pago** | 5 templates com placeholders para monetizar skill existente em dias/semanas; day rate: $1K/dia com IA | [[laura-anderson]] |
+| **Amazon KDP — Low-content Digital Products** | Sistema de 4 passos: pesquisa de nicho (Helium 10) → conteúdo IA (Claude/ChatGPT + geradores de imagem) → capa (Canva) → upload KDP. Zero supply chain, royalties passivos. Case: $21.626/30 dias, 1 livro | [[drew-huibregtse]] |
+| **Amazon FBA com IA** | 5 prompts para lançar produto físico na Amazon: produto → fabricante → marca → listing SEO → plano de lançamento | [[shimin-mohammadi]] |
+| **White-label SaaS** | Fork de repo open-source estabelecido → self-host → branding → vender acesso como SaaS recorrente. Referências: Cal.com ($5M ARR), Ghost (100% margem), n8n ($14M captados) | [[harish-bhatt]] |
+| **Solo Founder com Managed Agents** | 7 passos sem código para $10K/mês: UMA tarefa → JD detalhada → Claude Desktop → MCP (Slack/Drive/Gmail) → testar → agendar → empilhar 3 agentes. O stack encadeado é o produto; roda na nuvem da Anthropic. Contexto: aposta Dario Amodei — empresa de $1B por uma pessoa até fim de 2026 | [[artificial-intelligence-business]] |
+| **AI Side-Hustle com Ferramentas Pré-construídas** | Escolher ferramenta de IA existente (Jasper, Smartlead, Reclaim, Claid) → aprender em 1–2h → prospectar negócios locais → simular dores do cliente com LLM → retainer $1–3K/mês. Sem código, sem desenvolvimento próprio | [[bruno-souza]] |
+| **Startup AI-Native (YC model)** | Empresa construída com IA como OS: closed loops em todos os processos, zero middleware humano, 3 arquétipos de funcionário (IC, DRI, AI founder), token-max em vez de headcount-max | [[founded-ceo]] (via [[diana-hu]] / [[y-combinator]]) |
+
 ## Fontes
 
+- [[2026-05-28_founded-ceo-yc-startup-ia]]
 - [[2026-05-28_ask-gpts-postiz-social-media]]
 - [[2026-05-28_bestapps-5-repos-potencializam-claude]]
 - [[2026-05-21_harish-bhatt-repos-ilegais]]

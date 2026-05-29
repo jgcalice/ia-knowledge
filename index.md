@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-29 | Total de páginas: 236 | Fontes ingeridas: 101
+> Atualizado em: 2026-05-29 | Total de páginas: 241 | Fontes ingeridas: 102
 
 ---
 
@@ -115,6 +115,7 @@
 | [[wiki/sources/2026-05-28_ask-gpts-postiz-social-media]] | @Ask GPTs | 2026-05-28 | Postiz: gestão open-source de 30+ plataformas sociais com suporte a agentes de IA e n8n |
 | [[wiki/sources/2026-05-28_bestapps-5-repos-potencializam-claude]] | @Bestapps \| Artificial Intelligence \| AI Agents | 2026-05-28 | 5 repos GitHub para criadores de conteúdo: Firecrawl, Superpowers, Remotion, Agent Browser, Claude Blog |
 | [[wiki/sources/2026-05-17_mike-perguntas-entrevista]] | @Mike | 2026-05-17 | 11 perguntas estratégicas para fazer ao entrevistador no final da entrevista |
+| [[wiki/sources/2026-05-28_founded-ceo-yc-startup-ia]] | @FOUNDED CEO | 2026-05-28 | Y Combinator: playbook de Diana Hu com 8 princípios para startups nativas de IA |
 
 ---
 
@@ -128,11 +129,11 @@
 | [[wiki/concepts/carreira-com-ia]] | 20 | IA para aceleração de carreira, LinkedIn, renda, produtos próprios e performance em entrevistas |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 3 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
 | [[wiki/concepts/agentes-ia]] | 7 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão + Agent Browser (automação de Chrome) + pipeline multi-agente de gestão de conteúdo (Postiz) |
-| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 34 | 5 ângulos sobre repos open-source + 15 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) |
+| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 35 | 5 ângulos sobre repos open-source + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
 | [[wiki/concepts/segurança-com-ia]] | 8 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital + checklist jurídico-técnica pré-lançamento (GDPR/CCPA, RLS, OWASP) |
 | [[wiki/concepts/vibecoding]] | 2 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança; abordagens preventiva, detective e jurídico-técnica (pré-lançamento) |
-| [[wiki/concepts/adoção-empresarial-de-ia]] | 1 | Playbook empresarial: 11 capítulos sobre como organizações passam de piloto a ROI real |
+| [[wiki/concepts/adoção-empresarial-de-ia]] | 2 | Playbook empresarial: 11 capítulos sobre como organizações passam de piloto a ROI real + contraste com YC Playbook (greenfield vs. incumbente) |
 | [[wiki/concepts/dados-como-moat]] | 1 | Dados proprietários como vantagem competitiva durável; 47% das empresas explicitamente o citam como moat |
 | [[wiki/concepts/escolha-de-modelo-fundacional]] | 1 | Comoditização parcial (42% commodity); multi-model + abstraction layer como vantagem |
 | [[wiki/concepts/mudança-organizacional-com-ia]] | 1 | Change management como 35% da resistência; sponsorship continuado através da falha; iteração em 100% dos sucessos |
@@ -148,11 +149,12 @@
 
 ## Entidades (`wiki/entities/`)
 
-### Instituições acadêmicas
+### Instituições acadêmicas e aceleradoras
 
 | Página | Tipo | Fontes | Descrição |
 |--------|------|--------|-----------|
 | [[wiki/entities/stanford-digital-economy-lab]] | company | 1 | Centro de pesquisa Stanford sobre economia digital, IA e produtividade — fonte do *Enterprise AI Playbook* |
+| [[wiki/entities/y-combinator]] | company | 1 | Maior acelerador de startups do mundo (Airbnb, Stripe, OpenAI etc.); playbook de Diana Hu para AI-native companies |
 
 ### Ferramentas e plataformas
 
@@ -199,6 +201,7 @@
 | Página | Handle | Fontes | Foco |
 |--------|--------|--------|------|
 | [[wiki/entities/ask-gpts]] | @Ask GPTs | 1 | Canal curador de ferramentas IA — foco em gestão de mídias sociais e stack open-source para criadores |
+| [[wiki/entities/founded-ceo]] | @FOUNDED CEO | 1 | Canal curador Internacional — playbooks de grandes founders e CEOs (YC, Paul Graham etc.); newsletter gratuita |
 | [[wiki/entities/ai-developer-js]] | @AI Developer \| Code + AI \| JS | 1 | Canal agregador de dicas práticas de Claude para desenvolvedores JS |
 | [[wiki/entities/bestapps-ai]] | @bestapps.ai | 3 | Canal curador de repos open-source e prompts de alto impacto com Claude (ferramentas, voos, conteúdo) |
 | [[wiki/entities/beyond-intelligence]] | @Beyond Intelligence — AI News & Tools | 1 | Canal agregador de AI news — tabelas de referência visual (89 comandos Claude em 11 categorias) |
@@ -285,6 +288,8 @@
 | [[wiki/entities/hasan-toor]] | @Hasan Toor | 2 | Pesquisa de mercado avançada + guia técnico de IA local (Ollama, LM Studio, Q4_K_M, localhost API) |
 | [[wiki/entities/roshan-krishna]] | @Roshan Krishna | 1 | 5 prompts Claude para entrevistas de emprego — pipeline de preparação: prever perguntas → STAR → mock brutal → cheatsheet |
 | [[wiki/entities/mike]] | @Mike | 1 | 11 perguntas estratégicas para fazer ao entrevistador no final da entrevista (sem IA) |
+| [[wiki/entities/diana-hu]] | Diana Hu | 1 | General Partner do Y Combinator — autora do playbook AI-native de 2026 (8 princípios) |
+| [[wiki/entities/jack-dorsey]] | Jack Dorsey | 1 | Co-fundador Twitter/Square — referência para os 3 arquétipos de funcionário: IC, DRI, AI founder |
 
 ---
 

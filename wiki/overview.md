@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-05-29
-source_count: 101
+source_count: 102
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 101 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem** e **Segurança/Compliance**
+> Wiki iniciado em 2026-04-21 | 102 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem** e **Segurança/Compliance**
 
 ## Tese atual
 
@@ -120,6 +120,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - **IA local como infraestrutura de custo zero** (NOVO): [[hasan-toor]] documenta guia de 7 passos para rodar modelos open-source (Qwen3, DeepSeek-R1) offline em <20 minutos com [[ollama]] ou [[lm-studio]]. Habilitador técnico: quantização Q4_K_M (140GB → 40GB, qualidade quase idêntica). API OpenAI-compatível em `http://localhost:11434` permite que qualquer pipeline existente aponte para a máquina local sem mudança de código. Conceito central: [[ia-local]]
 - **AI Side-Hustle com Ferramentas Pré-construídas** (NOVO): [[bruno-souza]] documenta sistema de 5 passos para cobrar $1–3K/mês de negócios locais implementando ferramentas SaaS de IA existentes (Jasper, Smartlead, Reclaim, Claid) — sem código. Diferencial do Step 4: LLM simula o dono do negócio-alvo para identificar doras repetitivas antes da ligação de vendas — primeiro uso documentado de LLM como *empathy mapping de prospect* no wiki. ⚠️ Contradição com [[derek-gray]]: Gyms são recomendados aqui mas F-Tier para Maps SEO — a diferença é o serviço (automação interna vs. ranqueamento no Google)
 - **Postiz: infraestrutura open-source de distribuição de conteúdo para agentes** (NOVO): [[ask-gpts]] documenta [[postiz]] como a primeira ferramenta de gestão de mídias sociais self-hosted do wiki — suporta 30+ plataformas (X, LinkedIn, Instagram, TikTok, Threads, Reddit, YouTube, Discord, Bluesky) com suporte nativo a Agent CLI, Public API, [[n8n]] e Claude. Modelo futuro documentado: pipeline multi-agente onde um agente escreve, outro agenda, outro analisa performance, outro otimiza. Extensão do padrão "self-host your own AI stack" — terceira grande categoria de SaaS substituída (após [[n8n]] e [[ollama]])
+- **Playbook YC para Startups AI-Native (NOVO)**: [[diana-hu]] ([[y-combinator]]) publica 8 princípios para founders — IA como OS, closed loops, zero middleware humano, token-max, early-stage advantage. Arquétipo "AI founder" (per [[jack-dorsey]]) como terceiro tipo de funcionário. ⚡ Contraste com [[adoção-empresarial-de-ia]]: o Stanford DEL estuda como superar resistências em grandes orgs; o YC elimina as estruturas que as geram já na fundação ([[founded-ceo]])
 
 ---
 
@@ -200,11 +201,11 @@ Fonte: ([[faria-lima-elevator]])
 
 **Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]] · [[lovable]] · [[quepo]] · [[n8n]] · [[autopilot]] · [[ollama]] · [[whisper]] · [[lm-studio]] · [[postiz]]
 
-**Agregadores de conteúdo**: [[ai-developer-js]] · [[ask-gpts]] · [[bestapps-ai]] (3 fontes) · [[beyond-intelligence]] · [[growai]] · [[ai-researches-ai]] · [[today-in-ai]] (2 fontes)
+**Agregadores de conteúdo**: [[ai-developer-js]] · [[ask-gpts]] · [[bestapps-ai]] (3 fontes) · [[beyond-intelligence]] · [[founded-ceo]] · [[growai]] · [[ai-researches-ai]] · [[today-in-ai]] (2 fontes)
 
-**Instituições acadêmicas**: [[stanford-digital-economy-lab]]
+**Instituições / Aceleradoras**: [[stanford-digital-economy-lab]] · [[y-combinator]]
 
-**Referências externas**: [[paul-graham]] · [[naval-ravikant]] · [[dan-koe]] · [[erik-brynjolfsson]] · [[alvin-wang-graylin]] · [[elisa-pereira]] · [[alex-hormozi]]
+**Referências externas**: [[paul-graham]] · [[naval-ravikant]] · [[dan-koe]] · [[erik-brynjolfsson]] · [[alvin-wang-graylin]] · [[elisa-pereira]] · [[alex-hormozi]] · [[jack-dorsey]] · [[diana-hu]]
 
 **Conceitos de segurança**: [[segurança-com-ia]]
 
@@ -291,14 +292,18 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 101 |
-| Páginas de fontes | 101 |
+| Fontes ingeridas | 102 |
+| Páginas de fontes | 102 |
 | Páginas de conceitos | 21 |
-| Páginas de entidades | 106 |
+| Páginas de entidades | 110 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **236** |
+| **Total de páginas** | **241** |
 
-## Adições da ingestão de 2026-05-29 (2 fontes novas)
+## Adições da ingestão de 2026-05-29 (3 fontes novas)
+
+- **Playbook YC para Startups AI-Native (Diana Hu)** — [[founded-ceo]] documenta o playbook de [[diana-hu]] ([[y-combinator]]): 8 princípios para empresas nativas de IA, da eliminação de middleware humano à token-max como fator de produção. Arquétipo "AI founder" (per [[jack-dorsey]]) é o mais relevante para o wiki — orquestrar agentes como equipe. ⚡ Primeiro playbook greenfield no wiki (vs. [[adoção-empresarial-de-ia]] que cobre incumbentes). Criadas: [[founded-ceo]], [[y-combinator]], [[diana-hu]], [[jack-dorsey]]. Atualizado: [[estratégia-de-negócios-com-ia]] (source_count 34→35, seção YC Playbook + arquétipo na tabela), [[adoção-empresarial-de-ia]] (source_count 1→2, seção contrastiva Stanford vs. YC). Status: 101→102 fontes, 236→241 páginas.
+
+## Adições da ingestão de 2026-05-29 (2 fontes anteriores)
 
 - **[[postiz]]: infraestrutura open-source de gestão de mídias sociais para agentes de IA** — [[ask-gpts]] documenta a primeira ferramenta de distribuição de conteúdo cross-platform do wiki (30+ plataformas, Agent CLI, Public API, [[n8n]], Make.com, compatível com Claude). Novo padrão: **pipeline multi-agente de gestão de conteúdo** onde um agente escreve, outro agenda, outro analisa, outro otimiza. Extensão do padrão "self-host your own AI stack". Criado: [[postiz]] (nova entidade-ferramenta), [[ask-gpts]] (nova entidade-agregador). Atualizado: [[n8n]] (source_count 3→4), [[estratégia-de-negócios-com-ia]] (source_count 33→34, nova seção "Postiz: infraestrutura open-source de distribuição"), [[agentes-ia]] (source_count 25→26, nova seção "pipeline multi-agente de conteúdo"). Status: 100→101 fontes, 233→236 páginas (+1 source +2 entities).
 

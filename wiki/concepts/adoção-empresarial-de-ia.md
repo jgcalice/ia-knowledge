@@ -1,9 +1,9 @@
 ---
 title: "Adoção Empresarial de IA"
 type: concept
-tags: [adoção-empresarial, change-management, j-curve, sponsorship, falha, iteração, ia-empresarial]
-source_count: 1
-last_updated: 2026-04-25
+tags: [adoção-empresarial, change-management, j-curve, sponsorship, falha, iteração, ia-empresarial, startups, y-combinator, ia-nativa]
+source_count: 2
+last_updated: 2026-05-29
 ---
 
 # Adoção Empresarial de IA
@@ -95,6 +95,29 @@ Brynjolfsson, Rock & Syverson (2021) formalizaram que tecnologias de propósito 
 
 A maior parte das fontes do wiki (Instagram) ensinam **como aplicar IA em uma tarefa específica** (gerar leads, redesenhar carreira, automatizar prospecção). O *Playbook* cobre o **degrau acima**: como uma organização inteira passa de piloto a produção. Esse é o gap que a literatura empresarial "How to" no Instagram raramente endereça — e onde 95% dos projetos morrem.
 
+## Contraste: Startups vs. Grandes Organizações
+
+([[founded-ceo]], [[2026-05-28_founded-ceo-yc-startup-ia]])
+
+[[diana-hu]] ([[y-combinator]]) publicou em 2026 um playbook para founders que inverte a lógica do Enterprise AI Playbook:
+
+| Dimensão | Stanford DEL (grandes org.) | YC Playbook (startups) |
+|----------|----------------------------|------------------------|
+| **Ponto de partida** | Sistemas legados existentes | Greenfield — sem legado |
+| **Principal obstáculo** | Change management (77% dos desafios) | Nenhum — a organização é construída com IA desde o dia 1 |
+| **Sponsorship** | Exige Active Steering executivo (58%) | Não se aplica — o fundador *é* o sistema |
+| **Middleware humano** | Reduzido gradualmente | Eliminado por princípio ("No more human middleware") |
+| **Headcount** | 45% reduzem (resultado observado) | Token-max, not headcount-max (princípio prescritivo) |
+| **Modelo organizacional** | Iteração sobre estruturas existentes | 3 arquétipos novos (IC, DRI, AI founder) |
+| **Vantagem competitiva** | Dados proprietários (47% como moat) | Early-stage advantage (ausência de legado) |
+
+**Insight de cross-referência**: o Stanford DEL documenta o que acontece com organizações que *precisam* adotar IA apesar de resistências internas — e mostra que mesmo os melhores casos exigem anos de change management. O playbook do YC oferece a alternativa: não superar a resistência, mas *construir uma organização que não gera essa resistência*.
+
+**"Token-max, not headcount-max"** do YC é a versão prescritiva do dado descritivo do Stanford (45% reduzem headcount). A diferença é de timing: o Stanford observa ex post; o YC recomenda ex ante, como princípio de design.
+
+→ [[2026-05-28_founded-ceo-yc-startup-ia]]
+
 ## Fontes
 
 - [[2026-04-01_enterprise-ai-playbook-stanford]] — Stanford DEL, 51 cases
+- [[2026-05-28_founded-ceo-yc-startup-ia]] — YC Playbook de Diana Hu, 6 de 8 princípios
