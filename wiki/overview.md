@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-05-29
-source_count: 100
+source_count: 101
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 100 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem** e **Segurança/Compliance**
+> Wiki iniciado em 2026-04-21 | 101 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem** e **Segurança/Compliance**
 
 ## Tese atual
 
@@ -118,7 +118,8 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - **Solo Founder com Managed Agents** (NOVO): [[artificial-intelligence-business]] / @thewizeai documenta playbook de 7 passos sem código para $10K/mês com Claude Managed Agents — 20 agentes em paralelo (recorde do wiki), MCP como camada de conexão ao stack da empresa, stack encadeada de 3 agentes como produto. Contexto: aposta de Dario Amodei ($1B one-person company até fim de 2026)
 - **Tier matrix de nichos para AI agents**: [[derek-gray]] classifica 6 setores de serviços locais por potencial de ROI — Solar (God-Tier) e Window Replacement (S-Tier) são top porque o CAC já é alto ($5K+), treinando os clientes a pagar por aquisição. Gyms (F-Tier) é o primeiro exemplo no wiki de nicho que *parece* óbvio para Maps SEO mas onde o vetor de decisão é social (amigos), não busca. Setup mínimo documentado: $55/mês em software
 - **IA local como infraestrutura de custo zero** (NOVO): [[hasan-toor]] documenta guia de 7 passos para rodar modelos open-source (Qwen3, DeepSeek-R1) offline em <20 minutos com [[ollama]] ou [[lm-studio]]. Habilitador técnico: quantização Q4_K_M (140GB → 40GB, qualidade quase idêntica). API OpenAI-compatível em `http://localhost:11434` permite que qualquer pipeline existente aponte para a máquina local sem mudança de código. Conceito central: [[ia-local]]
-- **AI Side-Hustle com Ferramentas Pré-construídas** (NOVO): [[bruno-souza]] documenta sistema de 5 passos para cobrar $1–3K/mês de negócios locais implementando ferramentas SaaS de IA existentes (Jasper, Smartlead, Reclaim, Claid) — sem código. Diferencial do Step 4: LLM simula o dono do negócio-alvo para identificar dores repetitivas antes da ligação de vendas — primeiro uso documentado de LLM como *empathy mapping de prospect* no wiki. ⚠️ Contradição com [[derek-gray]]: Gyms são recomendados aqui mas F-Tier para Maps SEO — a diferença é o serviço (automação interna vs. ranqueamento no Google)
+- **AI Side-Hustle com Ferramentas Pré-construídas** (NOVO): [[bruno-souza]] documenta sistema de 5 passos para cobrar $1–3K/mês de negócios locais implementando ferramentas SaaS de IA existentes (Jasper, Smartlead, Reclaim, Claid) — sem código. Diferencial do Step 4: LLM simula o dono do negócio-alvo para identificar doras repetitivas antes da ligação de vendas — primeiro uso documentado de LLM como *empathy mapping de prospect* no wiki. ⚠️ Contradição com [[derek-gray]]: Gyms são recomendados aqui mas F-Tier para Maps SEO — a diferença é o serviço (automação interna vs. ranqueamento no Google)
+- **Postiz: infraestrutura open-source de distribuição de conteúdo para agentes** (NOVO): [[ask-gpts]] documenta [[postiz]] como a primeira ferramenta de gestão de mídias sociais self-hosted do wiki — suporta 30+ plataformas (X, LinkedIn, Instagram, TikTok, Threads, Reddit, YouTube, Discord, Bluesky) com suporte nativo a Agent CLI, Public API, [[n8n]] e Claude. Modelo futuro documentado: pipeline multi-agente onde um agente escreve, outro agenda, outro analisa performance, outro otimiza. Extensão do padrão "self-host your own AI stack" — terceira grande categoria de SaaS substituída (após [[n8n]] e [[ollama]])
 
 ---
 
@@ -197,9 +198,9 @@ Fonte: ([[faria-lima-elevator]])
 
 ## Mapa de entidades
 
-**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]] · [[lovable]] · [[quepo]] · [[n8n]] · [[autopilot]] · [[ollama]] · [[whisper]] · [[lm-studio]]
+**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]] · [[lovable]] · [[quepo]] · [[n8n]] · [[autopilot]] · [[ollama]] · [[whisper]] · [[lm-studio]] · [[postiz]]
 
-**Agregadores de conteúdo**: [[ai-developer-js]] · [[bestapps-ai]] (3 fontes) · [[beyond-intelligence]] · [[growai]] · [[ai-researches-ai]] · [[today-in-ai]] (2 fontes)
+**Agregadores de conteúdo**: [[ai-developer-js]] · [[ask-gpts]] · [[bestapps-ai]] (3 fontes) · [[beyond-intelligence]] · [[growai]] · [[ai-researches-ai]] · [[today-in-ai]] (2 fontes)
 
 **Instituições acadêmicas**: [[stanford-digital-economy-lab]]
 
@@ -274,6 +275,7 @@ Fonte: ([[faria-lima-elevator]])
 - **[[quepo]] como modelo de "agente como serviço recorrente"**: primeiro agente de IA proprietário de um criador documentado no wiki — automatiza 95% do GBP Management, convertendo um serviço ativo em renda passiva recorrente. Padrão distinto do AIaaS de [[bruno-wambier]] (agente empacotado como produto) — aqui o agente opera nos bastidores sem que o cliente saiba
 - **Remoção ativa como par complementar ao diagnóstico OSINT**: [[ai-technology]] fecha o ciclo da Dimensão 2 de [[segurança-com-ia]] — as fontes anteriores (OSINT, HaveIBeenPwned, Webmail/My7) ensinavam a *descobrir* a exposição; este guia ensina a *remover*. HaveIBeenPwned aparece em ambos os lados, confirmando sua posição como pivô entre diagnóstico e remediação. Data brokers (Spokeo, Whitepages, BeenVerified) e SimpleLogin são primeiras ocorrências no wiki
 - **Amazon FBA como único arquétipo de produto físico**: [[shimin-mohammadi]] introduz o primeiro modelo de e-commerce com produto físico no wiki — todos os arquétipos anteriores (SaaS, agência, infoproduto, GMB, leads) são digitais ou de serviço. O padrão de "5 prompts encadeados com output sequencial" se confirma (4ª iteração independente: [[jordan-lee]], [[derek-gray]], [[luna-vega]], [[shimin-mohammadi]]). Novidade estrutural: Amazon FBA elimina a barreira de logística — o operador pesquisa produto, cria marca e faz listing; a Amazon cuida do resto
+- **Postiz fecha o ciclo do pipeline de conteúdo gerenciado por agentes**: com Agent CLI, Public API e integrações [[n8n]]/Make.com, o [[postiz]] é a camada de distribuição que faltava no stack de criação de conteúdo (Firecrawl para dados, Remotion para vídeo, Claude Blog para escrita — [[bestapps-ai]]). Juntos, esses repos viabilizam um pipeline onde Claude escreve e o Postiz distribui — sem intervenção humana. Padrão confirmado: terceira grande categoria de SaaS substituída por self-host open-source após [[n8n]] e [[ollama]]
 - **Tier matrix de nichos como pré-filtro estratégico**: [[derek-gray]] documenta que a escolha do setor precede qualquer prospecção — Solar (God-Tier) tem CAC de $5K+, tornando $500–1K/mês trivial de justificar; Gyms (F-Tier) falham porque a decisão de compra é social, não via Google. Primeiro mapeamento explícito no wiki de setores onde Maps SEO *não funciona*
 - **White-label SaaS como 4º ângulo dos repos open-source**: [[harish-bhatt]] (@codingknowledge) introduz a perspectiva de "você vira o provedor" — fork de repos com ARR bilionário de referência (Cal.com, Supabase, Ghost) e revenda do acesso como SaaS próprio. Difere estruturalmente dos três ângulos anteriores: paras-madan (operar canais com repos), bestapps-ai (substituir software caro), growai (monetizar ferramentas de IA). Aqui o repositório **é o produto** vendido ao cliente final, não o meio de construção do serviço. [[n8n]] entra no wiki como alternativa open-source ao Zapier com 400+ integrações e IA nativa
 - **5º ângulo dos repos open-source — custo zero para o próprio dev/usuário (NOVO)**: segundo post de [[harish-bhatt]] enquadra os mesmos repos como eliminadores de assinaturas SaaS pessoais — [[ollama]] ($0 vs OpenAI API ~$500/mês), [[whisper]] ($0 vs Otter.ai $20/mês), Penpot ($0 vs Figma $45/editor/mês), [[n8n]] ($0 vs Zapier Pro $600/mês). Framing: "destroem $50B em receita corporativa". Introduz **[[ollama]] como primeira entrada de IA local no wiki** — modelos GPT-4 class offline, privacidade por design, sem quota de API; e **[[whisper]]** como modelo de transcrição OpenAI open-source usado diretamente, sem wrapper pago
@@ -289,14 +291,16 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 100 |
-| Páginas de fontes | 100 |
+| Fontes ingeridas | 101 |
+| Páginas de fontes | 101 |
 | Páginas de conceitos | 21 |
-| Páginas de entidades | 104 |
+| Páginas de entidades | 106 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **233** |
+| **Total de páginas** | **236** |
 
-## Adições da ingestão de 2026-05-29 (1 fonte nova)
+## Adições da ingestão de 2026-05-29 (2 fontes novas)
+
+- **[[postiz]]: infraestrutura open-source de gestão de mídias sociais para agentes de IA** — [[ask-gpts]] documenta a primeira ferramenta de distribuição de conteúdo cross-platform do wiki (30+ plataformas, Agent CLI, Public API, [[n8n]], Make.com, compatível com Claude). Novo padrão: **pipeline multi-agente de gestão de conteúdo** onde um agente escreve, outro agenda, outro analisa, outro otimiza. Extensão do padrão "self-host your own AI stack". Criado: [[postiz]] (nova entidade-ferramenta), [[ask-gpts]] (nova entidade-agregador). Atualizado: [[n8n]] (source_count 3→4), [[estratégia-de-negócios-com-ia]] (source_count 33→34, nova seção "Postiz: infraestrutura open-source de distribuição"), [[agentes-ia]] (source_count 25→26, nova seção "pipeline multi-agente de conteúdo"). Status: 100→101 fontes, 233→236 páginas (+1 source +2 entities).
 
 - **5 repos GitHub de [[bestapps-ai]] para criadores de conteúdo** (3ª contribuição, ângulo distinto das anteriores): Firecrawl (scraping web), Superpowers (encadeamento de tarefas no terminal), Remotion (geração de vídeos verticais MP4), Agent Browser do Vercel Labs (automação de Chrome), Claude Blog (long-form com rubric de 100 pontos). Novo padrão documentado: **rubric de auto-avaliação antes de entregar** — Claude Blog escreve + avalia contra critério explícito antes de mostrar ao criador. Agent Browser adicionado como sub-caso do [[agentes-ia]] (ação em browser vs. extração de dados por Firecrawl). Atualizado: [[bestapps-ai]] (source_count 2→3), [[estratégia-de-negócios-com-ia]] (source_count 32→33, nova seção "Stack de Ferramentas para Criadores de Conteúdo"), [[agentes-ia]] (source_count 24→25, Agent Browser documentado). Status: 99→100 fontes, 232→233 páginas.
 

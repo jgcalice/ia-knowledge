@@ -2,7 +2,7 @@
 title: "Estratégia de Negócios com IA"
 type: concept
 tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce, amazon-kdp, topical-authority, low-content-products, open-source, custo-zero, criação-de-conteúdo]
-source_count: 33
+source_count: 34
 last_updated: 2026-05-29
 ---
 
@@ -426,8 +426,30 @@ Arquétipo distinto de todos os documentados anteriormente: em vez de construir 
 
 → [[2026-05-28_bestapps-5-repos-potencializam-claude]]
 
+### Postiz: infraestrutura open-source de distribuição de conteúdo para agentes
+
+([[ask-gpts]], [[2026-05-28_ask-gpts-postiz-social-media]])
+
+[[postiz]] é a primeira ferramenta de **gestão e distribuição de mídias sociais** documentada no wiki — complementa o stack de criação de conteúdo do [[bestapps-ai]] (Firecrawl para dados, Remotion para vídeo, Claude Blog para escrita) com uma camada de **agendamento e publicação cross-platform**:
+
+| Funcionalidade | Detalhe |
+|---------------|---------|
+| 30+ plataformas | X, LinkedIn, Instagram, TikTok, Threads, Reddit, YouTube, Discord, Bluesky e mais |
+| AI captions | Geração automática de legendas por IA |
+| Agent CLI | Linha de comando para integração com agentes de IA |
+| Public API | Integrável com qualquer pipeline externo |
+| [[n8n]] / Make.com | Conexão nativa com plataformas de automação |
+| Self-hosted | Sem taxas mensais; alternativa ao Buffer/Hootsuite/Sprout Social |
+
+**Modelo futuro documentado**: pipeline onde Claude escreve, outro agente agenda, outro analisa desempenho, outro otimiza — o Postiz como camada de distribuição de um sistema multi-agente de conteúdo gerenciado por IA.
+
+**Extensão do padrão open-source**: terceira grande categoria de SaaS substituída por self-host, após [[n8n]] (automação de workflows) e [[ollama]] (LLMs locais) — agora expandindo para gestão de redes sociais.
+
+→ [[2026-05-28_ask-gpts-postiz-social-media]]
+
 ## Fontes
 
+- [[2026-05-28_ask-gpts-postiz-social-media]]
 - [[2026-05-28_bestapps-5-repos-potencializam-claude]]
 - [[2026-05-21_harish-bhatt-repos-ilegais]]
 - [[2026-04-08_daniel-socrates-seo-ia]]

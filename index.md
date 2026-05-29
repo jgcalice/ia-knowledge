@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-29 | Total de páginas: 233 | Fontes ingeridas: 100
+> Atualizado em: 2026-05-29 | Total de páginas: 236 | Fontes ingeridas: 101
 
 ---
 
@@ -112,6 +112,7 @@
 | [[wiki/sources/2026-05-12_bruno-souza-modelo-negocio-automatizado]] | @Bruno Souza | 2026-05-12 | Sistema de 5 passos para AI Side-Hustle: ferramentas pré-construídas → negócios locais → $1–3K/mês retainer sem código |
 | [[wiki/sources/2026-05-14_drew-huibregtse-livros-colorir-ia]] | @Drew Huibregtse | 2026-05-14 | Como lucrar com livros de colorir usando IA: 5 passos, Claude + ChatGPT/Nano Banana + Canva + KDP — dashboard real $13.392/mês |
 | [[wiki/sources/2026-05-18_roshan-krishna-5-prompts-entrevista]] | @Roshan Krishna | 2026-05-18 | 5 prompts Claude para entrevistas: prever perguntas → respostas STAR → pontos fracos → mock brutal → cheatsheet 60s |
+| [[wiki/sources/2026-05-28_ask-gpts-postiz-social-media]] | @Ask GPTs | 2026-05-28 | Postiz: gestão open-source de 30+ plataformas sociais com suporte a agentes de IA e n8n |
 | [[wiki/sources/2026-05-28_bestapps-5-repos-potencializam-claude]] | @Bestapps \| Artificial Intelligence \| AI Agents | 2026-05-28 | 5 repos GitHub para criadores de conteúdo: Firecrawl, Superpowers, Remotion, Agent Browser, Claude Blog |
 | [[wiki/sources/2026-05-17_mike-perguntas-entrevista]] | @Mike | 2026-05-17 | 11 perguntas estratégicas para fazer ao entrevistador no final da entrevista |
 
@@ -126,8 +127,8 @@
 | [[wiki/concepts/prompt-engineering]] | 17 | Padrões de estruturação + palavras-gatilho + Claude Skills + "Act like a senior engineer" + substitutos de serviços profissionais (fitness, voos, finanças) + STAR como instrução explícita |
 | [[wiki/concepts/carreira-com-ia]] | 20 | IA para aceleração de carreira, LinkedIn, renda, produtos próprios e performance em entrevistas |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 3 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
-| [[wiki/concepts/agentes-ia]] | 7 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão + Agent Browser (automação de Chrome) |
-| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 33 | 5 ângulos sobre repos open-source + 15 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle) + stack para criadores de conteúdo |
+| [[wiki/concepts/agentes-ia]] | 7 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão + Agent Browser (automação de Chrome) + pipeline multi-agente de gestão de conteúdo (Postiz) |
+| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 34 | 5 ângulos sobre repos open-source + 15 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
 | [[wiki/concepts/segurança-com-ia]] | 8 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital + checklist jurídico-técnica pré-lançamento (GDPR/CCPA, RLS, OWASP) |
 | [[wiki/concepts/vibecoding]] | 2 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança; abordagens preventiva, detective e jurídico-técnica (pré-lançamento) |
@@ -158,7 +159,7 @@
 | Página | Tipo | Fontes | Descrição |
 |--------|------|--------|-----------|
 | [[wiki/entities/claude-code]] | tool | 38 | LLM da Anthropic — ferramenta central de todas as fontes |
-| [[wiki/entities/n8n]] | tool | 3 | Plataforma de automação de workflows open-source — alternativa ao Zapier com 400+ integrações e IA nativa; $600/mês Zapier Pro → $0 self-hosted |
+| [[wiki/entities/n8n]] | tool | 4 | Plataforma de automação de workflows open-source — alternativa ao Zapier com 400+ integrações e IA nativa; $600/mês Zapier Pro → $0 self-hosted; integração nativa com Postiz |
 | [[wiki/entities/ruflo]] | tool | 1 | Camada de orquestração open-source para Claude Code: 100+ agentes, roteamento automático de modelo por complexidade, MIT |
 | [[wiki/entities/apify]] | tool | 1 | Plataforma de scraping com conector nativo no Claude |
 | [[wiki/entities/api-file]] | platform | 1 | Marketplace de APIs para scraping e integração |
@@ -176,6 +177,7 @@
 | [[wiki/entities/ollama]] | tool | 2 | Plataforma open-source para rodar LLMs localmente (GPT-4 class) — custo zero, privacidade por design, funciona offline; API OpenAI-compatível em localhost:11434 |
 | [[wiki/entities/whisper]] | tool | 1 | Modelo de reconhecimento de fala open-source da OpenAI — transcrição em 99 idiomas; substitui Otter.ai ($20/mês) gratuitamente |
 | [[wiki/entities/lm-studio]] | tool | 1 | Runner GUI para LLMs locais — alternativa ao Ollama para quem evita o terminal; model browser + chat embutido |
+| [[wiki/entities/postiz]] | tool | 1 | Plataforma open-source de gestão de mídias sociais — 30+ plataformas, Agent CLI, Public API, n8n, compatível com Claude e agentes de IA |
 
 ### Pessoas / Criadores (Brasil)
 
@@ -196,6 +198,7 @@
 
 | Página | Handle | Fontes | Foco |
 |--------|--------|--------|------|
+| [[wiki/entities/ask-gpts]] | @Ask GPTs | 1 | Canal curador de ferramentas IA — foco em gestão de mídias sociais e stack open-source para criadores |
 | [[wiki/entities/ai-developer-js]] | @AI Developer \| Code + AI \| JS | 1 | Canal agregador de dicas práticas de Claude para desenvolvedores JS |
 | [[wiki/entities/bestapps-ai]] | @bestapps.ai | 3 | Canal curador de repos open-source e prompts de alto impacto com Claude (ferramentas, voos, conteúdo) |
 | [[wiki/entities/beyond-intelligence]] | @Beyond Intelligence — AI News & Tools | 1 | Canal agregador de AI news — tabelas de referência visual (89 comandos Claude em 11 categorias) |

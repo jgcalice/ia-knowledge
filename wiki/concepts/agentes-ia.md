@@ -2,7 +2,7 @@
 title: "Agentes de IA"
 type: concept
 tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents, agent-teams, git-worktrees, hooks, plugins, skills, comportamento-default]
-source_count: 25
+source_count: 26
 last_updated: 2026-05-29
 ---
 
@@ -345,8 +345,31 @@ Três arquétipos inéditos no wiki:
 
 → [[2026-05-28_bestapps-5-repos-potencializam-claude]]
 
+### Postiz + Claude: pipeline multi-agente de gestão de conteúdo em mídias sociais
+
+([[ask-gpts]], [[2026-05-28_ask-gpts-postiz-social-media]])
+
+[[postiz]] introduz um novo arquétipo de pipeline agêntico no wiki: **AI-managed content systems** para mídias sociais — onde múltiplos agentes especializados operam o ciclo completo de criação e distribuição de conteúdo de forma autônoma:
+
+| Agente | Papel |
+|--------|-------|
+| Agente de criação | Escreve o conteúdo (Claude ou outro LLM) |
+| Agente de agendamento | Decide quando e onde publicar via Postiz API/Agent CLI |
+| Agente de análise | Monitora performance nas 30+ plataformas via analytics do Postiz |
+| Agente de otimização | Ajusta estratégia com base nos dados de desempenho |
+
+**Distinção dos arquétipos anteriores**:
+- Diferente do Agent Browser (opera browser para tarefas avulsas), o Postiz pipeline é um sistema *persistente* que opera continuamente
+- Diferente do pipeline de vendas de [[jordan-lee]] (SDR + Analisador + Consultor), aqui o output final é conteúdo distribuído, não contrato assinado
+- Primeiro arquétipo do wiki onde o *canal de distribuição* (mídias sociais × 30 plataformas) é gerenciado por agentes
+
+**Integração técnica**: Postiz conecta via Agent CLI, Public API, [[n8n]] e Make.com — qualquer desses pontos de entrada pode ser o dispatcher de um agente.
+
+→ [[2026-05-28_ask-gpts-postiz-social-media]]
+
 ## Fontes
 
+- [[2026-05-28_ask-gpts-postiz-social-media]]
 - [[2026-05-28_bestapps-5-repos-potencializam-claude]]
 - [[2026-05-08_growai-10-ferramentas-gratuitas]]
 - [[2026-05-03_nate-herk-6-habilidades-claude-code]]
