@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-05-27
-source_count: 99
+last_updated: 2026-05-29
+source_count: 100
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 99 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem** e **Segurança/Compliance**
+> Wiki iniciado em 2026-04-21 | 100 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem** e **Segurança/Compliance**
 
 ## Tese atual
 
@@ -199,7 +199,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]] · [[lovable]] · [[quepo]] · [[n8n]] · [[autopilot]] · [[ollama]] · [[whisper]] · [[lm-studio]]
 
-**Agregadores de conteúdo**: [[ai-developer-js]] · [[bestapps-ai]] (2 fontes) · [[beyond-intelligence]] · [[growai]] · [[ai-researches-ai]] · [[today-in-ai]] (2 fontes)
+**Agregadores de conteúdo**: [[ai-developer-js]] · [[bestapps-ai]] (3 fontes) · [[beyond-intelligence]] · [[growai]] · [[ai-researches-ai]] · [[today-in-ai]] (2 fontes)
 
 **Instituições acadêmicas**: [[stanford-digital-economy-lab]]
 
@@ -289,12 +289,16 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 98 |
-| Páginas de fontes | 98 |
-| Páginas de conceitos | 20 |
+| Fontes ingeridas | 100 |
+| Páginas de fontes | 100 |
+| Páginas de conceitos | 21 |
 | Páginas de entidades | 104 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **230** |
+| **Total de páginas** | **233** |
+
+## Adições da ingestão de 2026-05-29 (1 fonte nova)
+
+- **5 repos GitHub de [[bestapps-ai]] para criadores de conteúdo** (3ª contribuição, ângulo distinto das anteriores): Firecrawl (scraping web), Superpowers (encadeamento de tarefas no terminal), Remotion (geração de vídeos verticais MP4), Agent Browser do Vercel Labs (automação de Chrome), Claude Blog (long-form com rubric de 100 pontos). Novo padrão documentado: **rubric de auto-avaliação antes de entregar** — Claude Blog escreve + avalia contra critério explícito antes de mostrar ao criador. Agent Browser adicionado como sub-caso do [[agentes-ia]] (ação em browser vs. extração de dados por Firecrawl). Atualizado: [[bestapps-ai]] (source_count 2→3), [[estratégia-de-negócios-com-ia]] (source_count 32→33, nova seção "Stack de Ferramentas para Criadores de Conteúdo"), [[agentes-ia]] (source_count 24→25, Agent Browser documentado). Status: 99→100 fontes, 232→233 páginas.
 
 ## Adições da ingestão de 2026-05-27 (2 fontes novas)
 

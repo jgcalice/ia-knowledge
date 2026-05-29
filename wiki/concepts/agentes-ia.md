@@ -2,8 +2,8 @@
 title: "Agentes de IA"
 type: concept
 tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents, agent-teams, git-worktrees, hooks, plugins, skills, comportamento-default]
-source_count: 24
-last_updated: 2026-05-20
+source_count: 25
+last_updated: 2026-05-29
 ---
 
 # Agentes de IA
@@ -333,8 +333,21 @@ Três arquétipos inéditos no wiki:
 - Usos: conteúdo social, ads, demos de produto em escala
 - Padrão arquitetural: ferramenta de *output* de agentes (não de input) — expande o que o agente consegue entregar além de texto e código
 
+### Agent Browser (`vercel-labs/agent-browser`, 34k⭐) — automação de browser com agente real
+
+[[bestapps-ai]] documenta o Agent Browser como CLI de automação de browser para agentes IA:
+- Opera uma janela real do Chrome como um humano faria — não simula, executa
+- Recebe instruções em linguagem natural e executa tarefas web de forma autônoma
+- Funciona em background: o criador configura a tarefa e o agente executa enquanto dorme
+- 114 colaboradores, 2k forks — produto de escala real (Vercel Labs)
+
+**Diferença em relação a headless scraping**: enquanto Firecrawl extrai dados para análise, Agent Browser *age* no browser — preenche formulários, navega em fluxos autenticados, opera interfaces que bloqueiam scraping simples.
+
+→ [[2026-05-28_bestapps-5-repos-potencializam-claude]]
+
 ## Fontes
 
+- [[2026-05-28_bestapps-5-repos-potencializam-claude]]
 - [[2026-05-08_growai-10-ferramentas-gratuitas]]
 - [[2026-05-03_nate-herk-6-habilidades-claude-code]]
 - [[2026-05-01_bestapps-ferramentas-open-source]]

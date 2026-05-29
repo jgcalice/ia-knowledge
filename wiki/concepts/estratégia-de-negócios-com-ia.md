@@ -1,9 +1,9 @@
 ---
 title: "Estratégia de Negócios com IA"
 type: concept
-tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce, amazon-kdp, topical-authority, low-content-products, open-source, custo-zero]
-source_count: 32
-last_updated: 2026-05-27
+tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce, amazon-kdp, topical-authority, low-content-products, open-source, custo-zero, criação-de-conteúdo]
+source_count: 33
+last_updated: 2026-05-29
 ---
 
 # Estratégia de Negócios com IA
@@ -406,8 +406,29 @@ Arquétipo distinto de todos os documentados anteriormente: em vez de construir 
 
 → [[2026-05-12_bruno-souza-modelo-negocio-automatizado]]
 
+### Stack de Ferramentas para Criadores de Conteúdo com Claude
+
+[[bestapps-ai]] apresenta ângulo distinto das curadoria anteriores de repos: em vez de substituição de softwares empresariais ou custo zero pessoal, aqui o foco é **produtividade de criadores de conteúdo de mídias sociais** usando Claude + 5 repos open-source.
+
+| Repositório | Problema que resolve | Diferencial |
+|-------------|---------------------|-------------|
+| Firecrawl | Alimentar Claude com dados reais da web | API de scraping escalável — concorrentes, artigos, lançamentos |
+| Superpowers (`obra/superpowers`) | Claude "esquece" entre tarefas em sessões longas | Encadeia 6+ tarefas em um único prompt sem perder o plot |
+| Remotion (`remotion-dev/skills`) | Produção de vídeo requer CapCut/After Effects | Prompt → código → MP4 sem editor de vídeo |
+| Agent Browser (`vercel-labs/agent-browser`) | Tarefas web repetitivas exigem presença humana | Agente opera Chrome real em background |
+| Claude Blog | Escrita IA soa genérica | Rubric de 100 pontos como filtro automático — "você para de receber lixo" |
+
+**Insight de arquitetura**: Claude Blog introduz o padrão de auto-avaliação antes de entregar — o agente escreve + aplica rubric + ajusta antes de mostrar ao criador. Diferente de edição pós-geração.
+
+**Convergências**:
+- Superpowers resolve context rot via terminal — análogo ao session handoff de [[nate-herk]] mas sem estratégia de prompt
+- Agent Browser (Vercel Labs) aparece no ecossistema Claude como par do `find-skills` documentado por [[pabloinpublic]]
+
+→ [[2026-05-28_bestapps-5-repos-potencializam-claude]]
+
 ## Fontes
 
+- [[2026-05-28_bestapps-5-repos-potencializam-claude]]
 - [[2026-05-21_harish-bhatt-repos-ilegais]]
 - [[2026-04-08_daniel-socrates-seo-ia]]
 - [[2026-05-15_ai-business-empresa-1b-agentes]]
