@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-05-30
-source_count: 103
+source_count: 104
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 103 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem** e **Segurança/Compliance**
+> Wiki iniciado em 2026-04-21 | 104 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem** e **Segurança/Compliance**
 
 ## Tese atual
 
@@ -121,6 +121,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - **AI Side-Hustle com Ferramentas Pré-construídas** (NOVO): [[bruno-souza]] documenta sistema de 5 passos para cobrar $1–3K/mês de negócios locais implementando ferramentas SaaS de IA existentes (Jasper, Smartlead, Reclaim, Claid) — sem código. Diferencial do Step 4: LLM simula o dono do negócio-alvo para identificar doras repetitivas antes da ligação de vendas — primeiro uso documentado de LLM como *empathy mapping de prospect* no wiki. ⚠️ Contradição com [[derek-gray]]: Gyms são recomendados aqui mas F-Tier para Maps SEO — a diferença é o serviço (automação interna vs. ranqueamento no Google)
 - **Postiz: infraestrutura open-source de distribuição de conteúdo para agentes** (NOVO): [[ask-gpts]] documenta [[postiz]] como a primeira ferramenta de gestão de mídias sociais self-hosted do wiki — suporta 30+ plataformas (X, LinkedIn, Instagram, TikTok, Threads, Reddit, YouTube, Discord, Bluesky) com suporte nativo a Agent CLI, Public API, [[n8n]] e Claude. Modelo futuro documentado: pipeline multi-agente onde um agente escreve, outro agenda, outro analisa performance, outro otimiza. Extensão do padrão "self-host your own AI stack" — terceira grande categoria de SaaS substituída (após [[n8n]] e [[ollama]])
 - **Playbook YC para Startups AI-Native (NOVO)**: [[diana-hu]] ([[y-combinator]]) publica 8 princípios para founders — IA como OS, closed loops, zero middleware humano, token-max, early-stage advantage. Arquétipo "AI founder" (per [[jack-dorsey]]) como terceiro tipo de funcionário. ⚡ Contraste com [[adoção-empresarial-de-ia]]: o Stanford DEL estuda como superar resistências em grandes orgs; o YC elimina as estruturas que as geram já na fundação ([[founded-ceo]])
+- **YC Request for Startups 2026 — Mapa de setores com alto potencial (NOVO)**: [[business-bulls]] sintetiza a lista de 15 ideias de startup que o [[y-combinator]] quer financiar em 2026 — de IA para agricultura e medicina personalizada a defesa antidrone e chips para espaço. Complementa o playbook operacional de [[diana-hu]] (como construir) com o mapa de onde construir. "Empresas de Serviços Nativos de IA" materializa o arquétipo AI-native mais radical: IA como modelo operacional completo, não ferramenta. ([[2026-05-29_business-bulls-ai-yc-setores-2026]])
 - **Founder Thinking Mode — Custom Instructions como co-fundador permanente (NOVO)**: [[prakash-kumar]] (@startup.snack) documenta um modo persistente instalado nas Custom Instructions do Claude que elimina respostas genéricas e força aconselhamento direto de operador experiente. Distinção de todos os prompts de estratégia anteriores: o ROLE não é especificado por prompt, mas instalado uma vez — toda conversa subsequente herda o contexto de "founder que já construiu e saiu de empresas". A abertura obrigatória "Here's what I'd actually do." é uma constraint de comprometimento que elimina hedging. 5 casos de uso cobrem os pontos críticos do early-stage founder: stress test, gap competitivo, kill the spiral (decisão paralisada), receita oculta e contratação
 
 ---
@@ -294,14 +295,16 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 103 |
-| Páginas de fontes | 103 |
+| Fontes ingeridas | 104 |
+| Páginas de fontes | 104 |
 | Páginas de conceitos | 21 |
 | Páginas de entidades | 111 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **243** |
+| **Total de páginas** | **244** |
 
-## Adições da ingestão de 2026-05-30 (1 fonte nova)
+## Adições da ingestão de 2026-05-30 (2 fontes novas)
+
+- **YC Request for Startups 2026 — Mapa de setores de alto potencial** — [[business-bulls]] sintetiza as 15 ideias do [[y-combinator]] para o verão 2026. Segundo ângulo de YC no wiki: onde construir (vs. Diana Hu: como construir). 8 setores detalhados: Agro com IA, Serviços Nativos de IA, Medicina Personalizada, Cérebro da Empresa, Defesa Antidrone, Interfaces Dinâmicas, Eletrônicos no Espaço, Supply Chain de Hardware. YC está priorizando setores "hard" além de SaaS — expansão do escopo do wiki. Criada: [[2026-05-29_business-bulls-ai-yc-setores-2026]] (nova fonte). Atualizadas: [[business-bulls]] (source_count 1→2), [[y-combinator]] (source_count 1→2, nova seção "Request for Startups 2026"), [[estratégia-de-negócios-com-ia]] (source_count 36→37, nova seção "YC Request for Startups 2026: Mapa de Setores"). Status: 103→104 fontes, 243→244 páginas.
 
 - **Founder Thinking Mode — Claude como co-fundador permanente via Custom Instructions** — [[prakash-kumar]] (@startup.snack) documenta um modo persistente instalado uma vez nas Custom Instructions que transforma todas as conversas de negócios: o ROLE de "seasoned operator" fica ativo por padrão, sem precisar repetir o briefing a cada prompt. 5 casos de uso cobrem os pontos críticos do early-stage founder (stress test → gap competitivo → kill the spiral → receita oculta → contratação). Constraint técnica: abertura obrigatória "Here's what I'd actually do." elimina hedging. Criada: [[prakash-kumar]] (nova entidade — criador Internacional, @startup.snack). Atualizadas: [[prompt-engineering]] (source_count 39→40, nova seção "Custom Instructions como modo persistente de persona — Founder Thinking Mode"), [[estratégia-de-negócios-com-ia]] (source_count 35→36, nova seção "Claude como co-fundador operacional"). Status: 102→103 fontes, 241→243 páginas.
 

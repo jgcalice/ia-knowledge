@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-30 | Total de páginas: 243 | Fontes ingeridas: 103
+> Atualizado em: 2026-05-30 | Total de páginas: 244 | Fontes ingeridas: 104
 
 ---
 
@@ -115,6 +115,7 @@
 | [[wiki/sources/2026-05-28_ask-gpts-postiz-social-media]] | @Ask GPTs | 2026-05-28 | Postiz: gestão open-source de 30+ plataformas sociais com suporte a agentes de IA e n8n |
 | [[wiki/sources/2026-05-28_bestapps-5-repos-potencializam-claude]] | @Bestapps \| Artificial Intelligence \| AI Agents | 2026-05-28 | 5 repos GitHub para criadores de conteúdo: Firecrawl, Superpowers, Remotion, Agent Browser, Claude Blog |
 | [[wiki/sources/2026-05-17_mike-perguntas-entrevista]] | @Mike | 2026-05-17 | 11 perguntas estratégicas para fazer ao entrevistador no final da entrevista |
+| [[wiki/sources/2026-05-29_business-bulls-ai-yc-setores-2026]] | @Business Bulls \| AI | 2026-05-29 | Y Combinator revela 15 setores para startups em 2026: agro, saúde, defesa, espaço, hardware |
 | [[wiki/sources/2026-05-29_prakash-kumar-founder-thinking-mode]] | @Prakash Kumar | 2026-05-29 | Founder Thinking Mode: Custom Instructions como co-fundador permanente + 6 casos de uso |
 | [[wiki/sources/2026-05-28_founded-ceo-yc-startup-ia]] | @FOUNDED CEO | 2026-05-28 | Y Combinator: playbook de Diana Hu com 8 princípios para startups nativas de IA |
 
@@ -130,7 +131,7 @@
 | [[wiki/concepts/carreira-com-ia]] | 20 | IA para aceleração de carreira, LinkedIn, renda, produtos próprios e performance em entrevistas |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 3 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
 | [[wiki/concepts/agentes-ia]] | 7 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão + Agent Browser (automação de Chrome) + pipeline multi-agente de gestão de conteúdo (Postiz) |
-| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 36 | 5 ângulos sobre repos open-source + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode |
+| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 37 | 5 ângulos sobre repos open-source + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode + YC Request for Startups 2026 (mapa de setores: agro, saúde, defesa, espaço, hardware) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
 | [[wiki/concepts/segurança-com-ia]] | 8 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital + checklist jurídico-técnica pré-lançamento (GDPR/CCPA, RLS, OWASP) |
 | [[wiki/concepts/vibecoding]] | 2 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança; abordagens preventiva, detective e jurídico-técnica (pré-lançamento) |
@@ -155,7 +156,7 @@
 | Página | Tipo | Fontes | Descrição |
 |--------|------|--------|-----------|
 | [[wiki/entities/stanford-digital-economy-lab]] | company | 1 | Centro de pesquisa Stanford sobre economia digital, IA e produtividade — fonte do *Enterprise AI Playbook* |
-| [[wiki/entities/y-combinator]] | company | 1 | Maior acelerador de startups do mundo (Airbnb, Stripe, OpenAI etc.); playbook de Diana Hu para AI-native companies |
+| [[wiki/entities/y-combinator]] | company | 2 | Maior acelerador de startups do mundo (Airbnb, Stripe, OpenAI etc.); playbook Diana Hu (como construir) + Request for Startups 2026 (onde construir) |
 
 ### Ferramentas e plataformas
 
@@ -281,7 +282,7 @@
 | [[wiki/entities/brandon-lew]] | @Brandon Lew | 1 | Ferramentas de desenvolvimento de software |
 | [[wiki/entities/usama-akram]] | @Usama Akram | 1 | AI Agents e automação de negócios |
 | [[wiki/entities/brycen-wood]] | @Brycen Wood | 1 | SEO com IA para pequenos negócios |
-| [[wiki/entities/business-bulls]] | @Business Bulls | 1 | Claude como parceiro estratégico de negócios |
+| [[wiki/entities/business-bulls]] | @Business Bulls | 2 | Claude como parceiro estratégico de negócios; YC setores 2026 |
 | [[wiki/entities/max-kelley]] | @Max Kelley | 1 | Vibe Coding e curadoria de plugins/repos Claude Code com tração no GitHub |
 | [[wiki/entities/forrest-chang]] | Forrest Chang | 1 | Developer — autor de plugin Claude Code (~42k stars no GitHub) que corrige os 3 problemas default |
 | [[wiki/entities/prompt-prism]] | @Prompt Prism | 1 | Carreira de 5 anos com frameworks acadêmicos (Odyssey Plan) e benchmarks salariais 2025–2026 |

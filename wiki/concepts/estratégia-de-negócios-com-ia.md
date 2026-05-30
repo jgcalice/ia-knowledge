@@ -2,7 +2,7 @@
 title: "Estratégia de Negócios com IA"
 type: concept
 tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce, amazon-kdp, topical-authority, low-content-products, open-source, custo-zero, criação-de-conteúdo, y-combinator, startups, ia-nativa, custom-instructions, founder-mode]
-source_count: 36
+source_count: 37
 last_updated: 2026-05-30
 ---
 
@@ -479,6 +479,27 @@ Arquétipo distinto de todos os documentados anteriormente: em vez de construir 
 
 → [[2026-05-28_founded-ceo-yc-startup-ia]]
 
+## YC Request for Startups 2026: Mapa de Setores com Alto Potencial
+
+([[business-bulls]], [[2026-05-29_business-bulls-ai-yc-setores-2026]])
+
+Complemento ao playbook operacional de [[diana-hu]] — enquanto aquele descreve *como* construir uma AI-native company, esta lista do YC especifica *onde* construir para atingir escala de bilhões. O YC enquadra a lista como "blueprint para a próxima onda de startups", não como previsão de tendência.
+
+| Setor | Aplicação de IA | Por que o YC quer |
+|-------|----------------|------------------|
+| **Agricultura** | IA + robótica + biologia para reduzir pesticidas | Mercado enorme, software sub-penetrado, impacto climático |
+| **Serviços Nativos de IA** | Corretagem de seguros, administração de saúde operadas inteiramente por IA | IA como modelo operacional, não ferramenta auxiliar |
+| **Medicina Personalizada** | Agentes para diagnóstico + protocolo + acompanhamento por dados do paciente | Saúde é o maior mercado de serviços; personalização ainda é cara |
+| **Cérebro da Empresa** | Extração de conhecimento tácito de orgs em mapa vivo consultável | Substitui gestão de conhecimento estática; ecoa [[agentes-ia]] |
+| **Defesa Antidrone** | Software de detecção e neutralização de enxames | Demanda crescente, poucos players de software especializado |
+| **Interfaces Dinâmicas** | SaaS personalizável pelo usuário final sem código | Elimina barreira entre usuário e produto |
+| **Eletrônicos no Espaço** | Chips otimizados para condições extremas de espaço | Infraestrutura para o setor de New Space |
+| **Cadeia de Suprimentos de Hardware** | Otimização de ciclo de produção industrial | Deep-tech com mercado grande e pouca competição de software |
+
+**Insight editorial**: o YC está sinalizando setores "hard" (defesa, espaço, hardware, agro) que tipicamente ficam de fora do conteúdo de Instagram sobre IA — extensão do escopo habitual do wiki para além de SaaS e serviços digitais. "Empresas de Serviços Nativos de IA" é a materialização mais concreta do arquétipo documentado acima — vai além de "usar IA para operar um serviço" para "IA é o modelo de negócio do serviço".
+
+→ [[2026-05-29_business-bulls-ai-yc-setores-2026]]
+
 ## Arquétipos de negócio com IA mapeados
 
 | Arquétipo | Descrição | Fonte principal |
@@ -502,6 +523,7 @@ Arquétipo distinto de todos os documentados anteriormente: em vez de construir 
 
 ## Fontes
 
+- [[2026-05-29_business-bulls-ai-yc-setores-2026]]
 - [[2026-05-29_prakash-kumar-founder-thinking-mode]]
 - [[2026-05-28_founded-ceo-yc-startup-ia]]
 - [[2026-05-28_ask-gpts-postiz-social-media]]
