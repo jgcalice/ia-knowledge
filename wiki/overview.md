@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-05-29
-source_count: 102
+last_updated: 2026-05-30
+source_count: 103
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 102 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem** e **Segurança/Compliance**
+> Wiki iniciado em 2026-04-21 | 103 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem** e **Segurança/Compliance**
 
 ## Tese atual
 
@@ -121,6 +121,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - **AI Side-Hustle com Ferramentas Pré-construídas** (NOVO): [[bruno-souza]] documenta sistema de 5 passos para cobrar $1–3K/mês de negócios locais implementando ferramentas SaaS de IA existentes (Jasper, Smartlead, Reclaim, Claid) — sem código. Diferencial do Step 4: LLM simula o dono do negócio-alvo para identificar doras repetitivas antes da ligação de vendas — primeiro uso documentado de LLM como *empathy mapping de prospect* no wiki. ⚠️ Contradição com [[derek-gray]]: Gyms são recomendados aqui mas F-Tier para Maps SEO — a diferença é o serviço (automação interna vs. ranqueamento no Google)
 - **Postiz: infraestrutura open-source de distribuição de conteúdo para agentes** (NOVO): [[ask-gpts]] documenta [[postiz]] como a primeira ferramenta de gestão de mídias sociais self-hosted do wiki — suporta 30+ plataformas (X, LinkedIn, Instagram, TikTok, Threads, Reddit, YouTube, Discord, Bluesky) com suporte nativo a Agent CLI, Public API, [[n8n]] e Claude. Modelo futuro documentado: pipeline multi-agente onde um agente escreve, outro agenda, outro analisa performance, outro otimiza. Extensão do padrão "self-host your own AI stack" — terceira grande categoria de SaaS substituída (após [[n8n]] e [[ollama]])
 - **Playbook YC para Startups AI-Native (NOVO)**: [[diana-hu]] ([[y-combinator]]) publica 8 princípios para founders — IA como OS, closed loops, zero middleware humano, token-max, early-stage advantage. Arquétipo "AI founder" (per [[jack-dorsey]]) como terceiro tipo de funcionário. ⚡ Contraste com [[adoção-empresarial-de-ia]]: o Stanford DEL estuda como superar resistências em grandes orgs; o YC elimina as estruturas que as geram já na fundação ([[founded-ceo]])
+- **Founder Thinking Mode — Custom Instructions como co-fundador permanente (NOVO)**: [[prakash-kumar]] (@startup.snack) documenta um modo persistente instalado nas Custom Instructions do Claude que elimina respostas genéricas e força aconselhamento direto de operador experiente. Distinção de todos os prompts de estratégia anteriores: o ROLE não é especificado por prompt, mas instalado uma vez — toda conversa subsequente herda o contexto de "founder que já construiu e saiu de empresas". A abertura obrigatória "Here's what I'd actually do." é uma constraint de comprometimento que elimina hedging. 5 casos de uso cobrem os pontos críticos do early-stage founder: stress test, gap competitivo, kill the spiral (decisão paralisada), receita oculta e contratação
 
 ---
 
@@ -211,7 +212,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]] · [[faria-lima-elevator]] · [[allessandra-sinisgalli]] · [[daniel-socrates]]
 
-**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]] · [[bert-no-chase]] · [[duncan-rogoff]] · [[ai-technology]] · [[shimin-mohammadi]] · [[harish-bhatt]] · [[roman-khaneichuk]] · [[hasan-toor]] · [[roshan-krishna]]
+**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]] · [[bert-no-chase]] · [[duncan-rogoff]] · [[ai-technology]] · [[shimin-mohammadi]] · [[harish-bhatt]] · [[roman-khaneichuk]] · [[hasan-toor]] · [[roshan-krishna]] · [[prakash-kumar]]
 
 **Referências de produto Anthropic**: [[boris-cherny]]
 
@@ -285,6 +286,7 @@ Fonte: ([[faria-lima-elevator]])
 - **Viagem como novo domínio de "substituto de serviço profissional"**: [[bestapps-ai]] documenta 7 prompts para análise de preços de voos que aplicam o padrão ROLE "analista profissional" a consumo B2C pela primeira vez. O mesmo mecanismo documentado em [[bem-estar-com-ia]] (fitness), [[finanças-com-ia]] (análise de ações) e engenharia (Harish Bhatt) funciona igualmente para viagem — o LLM internalizou know-how de revenue management de companhias aéreas. Novidade de design: Prompt 5 categoriza explicitamente 3 tiers éticos (Legitimate / Against T&Cs / Off-limits) — padrão reutilizável em qualquer domínio onde otimização pode cruzar limites legais. Primeiro conteúdo de viagem do wiki: [[viagem-com-ia]]
 - **"Act like a senior engineer" como extensão do Persona Mode para engenharia de software**: [[harish-bhatt]] confirma e especializa o padrão [[Persona Mode e Output Constraints]] ([[yik-chan]]) em 11 variantes de engenharia. Cada prompt estrutura abertura + missão + constraint + entregáveis — tornando o Claude não mais um executador de comandos pontuais, mas um parceiro de nível sênior com responsabilidade de entrega. Novidade singular: Prompt 7 simula 4 papéis em cascata dentro de um único prompt (Architect → Engineer → Reviewer → Optimizer) — auto-review multi-perspectiva sem orquestração externa. 3ª contribuição de [[harish-bhatt]], completamente diferente das duas anteriores (repos open-source) — mesmo criador, segmento diferente
 - **Pipeline de carreira completo — da visibilidade à performance na entrevista**: [[roshan-krishna]] fecha a lacuna final do Cluster 3. O wiki agora documenta as 3 fases da jornada de emprego com IA: **otimizar perfil** ([[bruno-souza]], [[sanskaar-singh]]) → **candidatura personalizada** ([[coding-ai-fullstack]], [[your-ai-compass]], [[career-ops]]) → **performance na entrevista** ([[roshan-krishna]]). Novidades técnicas do pipeline de 5 prompts: (1) STAR como instrução explícita ao modelo com limite temporal de 90s para resposta oral — primeira constraint de duração verbal no wiki; (2) `[INSERT YOUR STORY]` como placeholder de delegação parcial — o LLM gera tudo exceto a memória episódica pessoal; (3) "Brutal Mode" (score 0-10 + diagnóstico + versão 9+) como padrão de feedback estruturado anticomplacência
+- **Custom Instructions como instalação permanente de ROLE — evolução do Persona Mode**: [[prakash-kumar]] documenta a primeira fonte no wiki onde a instrução de persona não é um prompt de sessão, mas instalada nas Custom Instructions — tornando-se o modo padrão de todas as conversas. O Founder Thinking Mode é o caso concreto: "seasoned operator who has built and exited companies" como contexto permanente. Distinção do Brand Voice Document em Projects ([[yik-chan]]): aquele persiste estilo de escrita para conteúdo; este persiste estilo de raciocínio para decisões. Constraint inovadora: abertura obrigatória "Here's what I'd actually do." elimina hedging estruturalmente
 
 ---
 
@@ -292,12 +294,16 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 102 |
-| Páginas de fontes | 102 |
+| Fontes ingeridas | 103 |
+| Páginas de fontes | 103 |
 | Páginas de conceitos | 21 |
-| Páginas de entidades | 110 |
+| Páginas de entidades | 111 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **241** |
+| **Total de páginas** | **243** |
+
+## Adições da ingestão de 2026-05-30 (1 fonte nova)
+
+- **Founder Thinking Mode — Claude como co-fundador permanente via Custom Instructions** — [[prakash-kumar]] (@startup.snack) documenta um modo persistente instalado uma vez nas Custom Instructions que transforma todas as conversas de negócios: o ROLE de "seasoned operator" fica ativo por padrão, sem precisar repetir o briefing a cada prompt. 5 casos de uso cobrem os pontos críticos do early-stage founder (stress test → gap competitivo → kill the spiral → receita oculta → contratação). Constraint técnica: abertura obrigatória "Here's what I'd actually do." elimina hedging. Criada: [[prakash-kumar]] (nova entidade — criador Internacional, @startup.snack). Atualizadas: [[prompt-engineering]] (source_count 39→40, nova seção "Custom Instructions como modo persistente de persona — Founder Thinking Mode"), [[estratégia-de-negócios-com-ia]] (source_count 35→36, nova seção "Claude como co-fundador operacional"). Status: 102→103 fontes, 241→243 páginas.
 
 ## Adições da ingestão de 2026-05-29 (3 fontes novas)
 

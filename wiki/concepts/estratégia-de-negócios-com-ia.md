@@ -1,9 +1,9 @@
 ---
 title: "Estratégia de Negócios com IA"
 type: concept
-tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce, amazon-kdp, topical-authority, low-content-products, open-source, custo-zero, criação-de-conteúdo, y-combinator, startups, ia-nativa]
-source_count: 35
-last_updated: 2026-05-29
+tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce, amazon-kdp, topical-authority, low-content-products, open-source, custo-zero, criação-de-conteúdo, y-combinator, startups, ia-nativa, custom-instructions, founder-mode]
+source_count: 36
+last_updated: 2026-05-30
 ---
 
 # Estratégia de Negócios com IA
@@ -48,6 +48,35 @@ Conteúdo idêntico aparece em duas fontes independentes ([[evolving-ai]] e [[bu
 ### Stack de skills para fundadores (sem contratar)
 [[paras-madan]] apresenta uma abordagem ortogonal: em vez de usar Claude para *planejar* o negócio, usa skills especializadas para *operar* canais de marketing sem equipe. 5 skills abertas (Meta Ads, Position Me, LinkedIn Post, Reddit ICP Monitor, Google Trends SEO) substituem media buyer, CRO consultant, copywriter, community manager e SEO analyst.
 → [[2026-04-18_paras-madan-top5-skills-founders]]
+
+## Claude como co-fundador operacional: Founder Thinking Mode
+
+([[prakash-kumar]], [[2026-05-29_prakash-kumar-founder-thinking-mode]])
+
+Um único prompt instalado nas **Custom Instructions** do Claude transforma todas as conversas de negócios em aconselhamento direto de operador experiente. Distinto dos 7 prompts de estratégia de [[evolving-ai]] / [[business-bulls]] (análise de mercado, distribuição, escalonamento) e do framework de validação de [[harry]] / [[paul-graham]] (pré-produto): o Founder Thinking Mode é para *decisões operacionais do dia a dia*, não para planejamento episódico.
+
+**Prompt de ativação:**
+```
+You are now in Founder Thinking Mode. Think like a first-principles operator 
+who has built and exited companies. When I give you a problem — don't give 
+generic advice. Give me the exact decision a seasoned founder would make. 
+Include trade-offs, risks, and what most people miss. Start every response 
+with: 'Here's what I'd actually do.'
+```
+
+**5 casos de uso para founder (cobrem os principais pontos de decisão):**
+
+| Situação | O que o Claude entrega |
+|----------|----------------------|
+| **Stress test** | Series A investor perspective: o que quebra primeiro, ponto cego, o que o top 3% faz diferente |
+| **Gap competitivo** | 3 movimentos para tornar o concorrente irrelevante em 12 meses, ranqueados por velocidade de execução |
+| **Decisão paralisada** | Análise em 10 min: o que quebra se errar, o que você otimiza vs. deveria, conselho de quem já cometeu o erro |
+| **Receita oculta** | 3 ângulos de monetização ranqueados por effort-to-return, com plano de teste em 2 semanas sem reconstruir nada |
+| **Contratação** | 5 perguntas que separam A-players + 1 red flag do mês 3 detectável em 30 minutos |
+
+**Diferencial estrutural**: a instrução é instalada uma vez nas Custom Instructions — o usuário simplesmente descreve o problema, sem repetir o ROLE a cada conversa. Complementa a lógica dos 7 prompts de [[evolving-ai]] para análise de mercado; onde aqueles usam estrutura ROLE/TASK/STEPS, aqui o modo é o contexto permanente de todas as trocas.
+
+→ [[2026-05-29_prakash-kumar-founder-thinking-mode]]
 
 ## Validação de ideias antes de construir (pré-estratégia)
 
@@ -473,6 +502,7 @@ Arquétipo distinto de todos os documentados anteriormente: em vez de construir 
 
 ## Fontes
 
+- [[2026-05-29_prakash-kumar-founder-thinking-mode]]
 - [[2026-05-28_founded-ceo-yc-startup-ia]]
 - [[2026-05-28_ask-gpts-postiz-social-media]]
 - [[2026-05-28_bestapps-5-repos-potencializam-claude]]

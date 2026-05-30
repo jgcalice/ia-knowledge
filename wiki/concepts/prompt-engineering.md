@@ -1,9 +1,9 @@
 ---
 title: "Prompt Engineering"
 type: concept
-tags: [prompt-engineering, prompts, llm, claude, técnicas, plan-mode, self-checking]
-source_count: 39
-last_updated: 2026-05-27
+tags: [prompt-engineering, prompts, llm, claude, técnicas, plan-mode, self-checking, custom-instructions]
+source_count: 40
+last_updated: 2026-05-30
 ---
 
 # Prompt Engineering
@@ -315,6 +315,33 @@ O Prompt 4 ("Brutal Mode") acrescenta uma instrução anticomplacência explíci
 
 → [[2026-05-18_roshan-krishna-5-prompts-entrevista]] | [[roshan-krishna]]
 
+### Custom Instructions como modo persistente de persona — Founder Thinking Mode
+
+([[prakash-kumar]], [[2026-05-29_prakash-kumar-founder-thinking-mode]])
+
+Extensão do padrão [[Persona Mode e Output Constraints]] ([[yik-chan]]) para um nível estrutural mais profundo: em vez de incluir o ROLE em cada prompt individual, a instrução é instalada nas **Custom Instructions** do Claude — tornando-se o modo padrão de toda sessão.
+
+**Prompt de ativação (instalar nas Custom Instructions):**
+```
+You are now in Founder Thinking Mode. Think like a first-principles operator 
+who has built and exited companies. When I give you a problem — don't give 
+generic advice. Give me the exact decision a seasoned founder would make. 
+Include trade-offs, risks, and what most people miss. Start every response 
+with: 'Here's what I'd actually do.'
+```
+
+**Três inovações técnicas documentadas:**
+
+1. **Custom Instructions como instalação permanente de ROLE**: diferente dos prompts de sessão documentados até aqui (onde o ROLE é especificado a cada conversa), aqui o modo é instalado uma vez e herdado por todas as conversas subsequentes — sem precisar repetir o briefing
+2. **"Here's what I'd actually do." como constraint de comprometimento**: abertura obrigatória que força o modelo a dar recomendação específica, eliminando hedging e evasividade ("it depends", "there are many factors") — variante do padrão de Output Constraints
+3. **Cobertura sistemática de 5 domínios de decisão do founder**: stress test do modelo, gap competitivo, decisão paralisada (kill the spiral), receita oculta e contratação — cada um com um prompt parametrizado de 2–4 linhas
+
+**Distinção dos padrões anteriores:**
+- Vs. [[evolving-ai]] / [[business-bulls]] ("7 prompts de estratégia"): aqueles são prompts estruturados ROLE/TASK/STEPS para análise de mercado e escalonamento; aqui o modo substitui a necessidade de estruturar o ROLE em cada prompt — o usuário simplesmente descreve o problema
+- Vs. [[brand-voice-document-projects]] (Brand Voice em Projects): aquele persiste estilo de escrita para produção de conteúdo; este persiste persona de raciocínio para tomada de decisão
+
+→ [[2026-05-29_prakash-kumar-founder-thinking-mode]] | [[prakash-kumar]]
+
 ## Fontes
 
 - [[2026-03-19_leads-infinitos-cloudcode]]
@@ -347,3 +374,4 @@ O Prompt 4 ("Brutal Mode") acrescenta uma instrução anticomplacência explíci
 - [[2026-05-25_harish-bhatt-11-prompts-engenharia-software]]
 - [[2026-05-25_bestapps-7-prompts-voos]]
 - [[2026-05-18_roshan-krishna-5-prompts-entrevista]]
+- [[2026-05-29_prakash-kumar-founder-thinking-mode]]

@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-29 | Total de páginas: 241 | Fontes ingeridas: 102
+> Atualizado em: 2026-05-30 | Total de páginas: 243 | Fontes ingeridas: 103
 
 ---
 
@@ -115,6 +115,7 @@
 | [[wiki/sources/2026-05-28_ask-gpts-postiz-social-media]] | @Ask GPTs | 2026-05-28 | Postiz: gestão open-source de 30+ plataformas sociais com suporte a agentes de IA e n8n |
 | [[wiki/sources/2026-05-28_bestapps-5-repos-potencializam-claude]] | @Bestapps \| Artificial Intelligence \| AI Agents | 2026-05-28 | 5 repos GitHub para criadores de conteúdo: Firecrawl, Superpowers, Remotion, Agent Browser, Claude Blog |
 | [[wiki/sources/2026-05-17_mike-perguntas-entrevista]] | @Mike | 2026-05-17 | 11 perguntas estratégicas para fazer ao entrevistador no final da entrevista |
+| [[wiki/sources/2026-05-29_prakash-kumar-founder-thinking-mode]] | @Prakash Kumar | 2026-05-29 | Founder Thinking Mode: Custom Instructions como co-fundador permanente + 6 casos de uso |
 | [[wiki/sources/2026-05-28_founded-ceo-yc-startup-ia]] | @FOUNDED CEO | 2026-05-28 | Y Combinator: playbook de Diana Hu com 8 princípios para startups nativas de IA |
 
 ---
@@ -125,11 +126,11 @@
 |--------|--------|-----------|
 | [[wiki/concepts/geração-de-leads-com-ia]] | 3 | Uso de LLMs + scraping para prospecção B2B automatizada |
 | [[wiki/concepts/otimização-de-tokens]] | 4 | Técnicas para reduzir consumo de tokens no Claude |
-| [[wiki/concepts/prompt-engineering]] | 17 | Padrões de estruturação + palavras-gatilho + Claude Skills + "Act like a senior engineer" + substitutos de serviços profissionais (fitness, voos, finanças) + STAR como instrução explícita |
+| [[wiki/concepts/prompt-engineering]] | 40 | Padrões de estruturação + palavras-gatilho + Claude Skills + "Act like a senior engineer" + substitutos de serviços profissionais (fitness, voos, finanças) + STAR como instrução explícita + Custom Instructions como modo persistente (Founder Thinking Mode) |
 | [[wiki/concepts/carreira-com-ia]] | 20 | IA para aceleração de carreira, LinkedIn, renda, produtos próprios e performance em entrevistas |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 3 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
 | [[wiki/concepts/agentes-ia]] | 7 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão + Agent Browser (automação de Chrome) + pipeline multi-agente de gestão de conteúdo (Postiz) |
-| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 35 | 5 ângulos sobre repos open-source + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) |
+| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 36 | 5 ângulos sobre repos open-source + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
 | [[wiki/concepts/segurança-com-ia]] | 8 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital + checklist jurídico-técnica pré-lançamento (GDPR/CCPA, RLS, OWASP) |
 | [[wiki/concepts/vibecoding]] | 2 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança; abordagens preventiva, detective e jurídico-técnica (pré-lançamento) |
@@ -269,6 +270,7 @@
 | Página | Handle | Fontes | Foco |
 |--------|--------|--------|------|
 | [[wiki/entities/bert-no-chase]] | @Bert \| No-Chase Swing Trading for 9-5s | 1 | Trader e educador de swing trading — pipeline de 3 prompts IA para screening de ações |
+| [[wiki/entities/prakash-kumar]] | @Prakash Kumar (@startup.snack) | 1 | Founder Thinking Mode: Custom Instructions como co-fundador permanente no Claude |
 | [[wiki/entities/duncan-rogoff]] | @Duncan Rogoff \| AI for Personal Brands | 1 | Criador Internacional — Ruflo como camada de orquestração para Claude Code |
 | [[wiki/entities/evolving-ai]] | @Evolving AI | 3 | Newsletter IA, hacks técnicos, estratégia de negócios |
 | [[wiki/entities/god-of-prompt]] | @godofprompt | 2 | Prompt engineering para carreira e riqueza |
