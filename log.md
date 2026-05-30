@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-05-30] ingest | Maximize sua Busca de Emprego com Claude AI — A Regra dos 75% — @thinkentrepreneurs
+
+Fonte: `2026-05-29_business_power_career_entrepreneurship_DY7m2rIExRB.md` (carousel, 10/14 slides). Página criada: wiki/sources/2026-05-29_claude-ia-busca-emprego-score.md. Entidade criada: entities/think-entrepreneurs.md (novo criador Internacional — @thinkentrepreneurs / @Business | Power | Career | Entrepreneurship; foco em psicologia de negócios, carreira e empreendedorismo). Atualizadas: concepts/busca-de-emprego-com-ia.md (source_count 6→7, nova seção "A Regra dos 75% e Claude como Scoring Engine" — triagem de vagas com score 0-100 antes de qualquer candidatura; prompt de recrutador de IA; threshold 75% porque ATS filtra keywords antes de humano ver). wiki/overview.md (104→105 fontes, nova linha na tabela do Cluster 3, status 244→246 páginas). index.md (244→246 páginas, 104→105 fontes, +1 fonte, +1 entidade, busca-de-emprego-com-ia 6→7).
+
 ## [2026-05-30] ingest | Y Combinator Revela Setores para Startups em 2026 — @Business Bulls | AI
 
 Fonte: `2026-05-29_business_bulls_ai_DY6-7hlio27.md` (carousel, 2 slides). Página criada: wiki/sources/2026-05-29_business-bulls-ai-yc-setores-2026.md. Atualizadas: entities/business-bulls.md (source_count 1→2, 2ª contribuição: YC Request for Startups 2026 vs. 7 prompts CEO da 1ª fonte; tabela de contribuições adicionada). entities/y-combinator.md (source_count 1→2, nova seção "Request for Startups 2026" com tabela de 8 setores: Agro, Serviços Nativos de IA, Medicina Personalizada, Cérebro da Empresa, Defesa Antidrone, Interfaces Dinâmicas, Eletrônicos no Espaço, Supply Chain de Hardware). concepts/estratégia-de-negócios-com-ia.md (source_count 36→37, nova seção "YC Request for Startups 2026: Mapa de Setores com Alto Potencial" com tabela de 8 setores e insight editorial sobre foco em setores "hard"). wiki/overview.md (103→104 fontes, novo bullet no Cluster 4, "Adições de 2026-05-30" expandida de 1 para 2 fontes, status 243→244 páginas). index.md (243→244 páginas, 103→104 fontes, +1 fonte, business-bulls 1→2, y-combinator 1→2, estratégia-de-negócios-com-ia 36→37).

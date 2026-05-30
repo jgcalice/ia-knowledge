@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-30 | Total de páginas: 244 | Fontes ingeridas: 104
+> Atualizado em: 2026-05-30 | Total de páginas: 246 | Fontes ingeridas: 105
 
 ---
 
@@ -116,6 +116,7 @@
 | [[wiki/sources/2026-05-28_bestapps-5-repos-potencializam-claude]] | @Bestapps \| Artificial Intelligence \| AI Agents | 2026-05-28 | 5 repos GitHub para criadores de conteúdo: Firecrawl, Superpowers, Remotion, Agent Browser, Claude Blog |
 | [[wiki/sources/2026-05-17_mike-perguntas-entrevista]] | @Mike | 2026-05-17 | 11 perguntas estratégicas para fazer ao entrevistador no final da entrevista |
 | [[wiki/sources/2026-05-29_business-bulls-ai-yc-setores-2026]] | @Business Bulls \| AI | 2026-05-29 | Y Combinator revela 15 setores para startups em 2026: agro, saúde, defesa, espaço, hardware |
+| [[wiki/sources/2026-05-29_claude-ia-busca-emprego-score]] | @thinkentrepreneurs | 2026-05-29 | A Regra dos 75%: Claude como scoring engine de candidaturas (ATS + pontuação 0-100) |
 | [[wiki/sources/2026-05-29_prakash-kumar-founder-thinking-mode]] | @Prakash Kumar | 2026-05-29 | Founder Thinking Mode: Custom Instructions como co-fundador permanente + 6 casos de uso |
 | [[wiki/sources/2026-05-28_founded-ceo-yc-startup-ia]] | @FOUNDED CEO | 2026-05-28 | Y Combinator: playbook de Diana Hu com 8 princípios para startups nativas de IA |
 
@@ -142,7 +143,7 @@
 | [[wiki/concepts/produtividade-e-emprego-com-ia]] | 1 | 45% reduzem headcount; 55% redeployment ou hiring avoided; "canários" em workers 22-25 expostos |
 | [[wiki/concepts/finanças-com-ia]] | 6 | Análise de investimentos de nível institucional com LLMs — 6 ângulos: ROLE institucional, riqueza individual, screening funil, DIY estruturado, pipeline sequencial completo, gestor autônomo com dinheiro real |
 | [[wiki/concepts/bem-estar-com-ia]] | 1 | Prompts parametrizados substituindo serviços profissionais de fitness — inputs de anamnese → protocolo de nível profissional |
-| [[wiki/concepts/busca-de-emprego-com-ia]] | 6 | Busca de emprego automatizada com Career Ops, ATS, candidaturas personalizadas e preparação para entrevistas |
+| [[wiki/concepts/busca-de-emprego-com-ia]] | 7 | Busca de emprego automatizada com Career Ops, ATS, candidaturas personalizadas, preparação para entrevistas e score de compatibilidade 0-100 |
 | [[wiki/concepts/seo-com-ia]] | 3 | SEO com IA: três abordagens — arquivos técnicos (llms.txt), otimização via GSC e guia oficial Google (contradiz necessidade de llms.txt) |
 | [[wiki/concepts/ia-local]] | 2 | Execução de LLMs sem nuvem: Ollama + LM Studio, RAM guide, quantização Q4_K_M, API OpenAI-compatível local |
 | [[wiki/concepts/viagem-com-ia]] | 1 | Prompts para análise profissional de preços de voos: hidden routes, geo-pricing, fare rules, timing, airline vs OTA |
@@ -293,6 +294,7 @@
 | [[wiki/entities/mike]] | @Mike | 1 | 11 perguntas estratégicas para fazer ao entrevistador no final da entrevista (sem IA) |
 | [[wiki/entities/diana-hu]] | Diana Hu | 1 | General Partner do Y Combinator — autora do playbook AI-native de 2026 (8 princípios) |
 | [[wiki/entities/jack-dorsey]] | Jack Dorsey | 1 | Co-fundador Twitter/Square — referência para os 3 arquétipos de funcionário: IC, DRI, AI founder |
+| [[wiki/entities/think-entrepreneurs]] | @thinkentrepreneurs | 1 | Criador Internacional — carreira, negócios e psicologia; a Regra dos 75% para scoring de candidaturas com Claude |
 
 ---
 

@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-05-30
-source_count: 104
+source_count: 105
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 104 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem** e **Segurança/Compliance**
+> Wiki iniciado em 2026-04-21 | 105 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem** e **Segurança/Compliance**
 
 ## Tese atual
 
@@ -70,6 +70,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 | Reconstrução completa de candidatura | 4 prompts com ROLEs de recrutadores elite: resume XYZ + ATS optimization + McKinsey quantifier + cover letter Robert Half | [[your-ai-compass]] |
 | Preparação para entrevista | 5 prompts encadeados: prever perguntas → respostas STAR → pontos fracos → mock brutal (score 0-10) → cheatsheet 60s | [[roshan-krishna]] |
 | Perguntas no final da entrevista | 11 perguntas estratégicas que o candidato faz ao entrevistador: expectativas de sucesso, cultura real, "Do you have any doubts about me?" | [[mike]] |
+| Score de compatibilidade (fase 0) | Claude + Web search + currículo → score 0-100 por vaga → Regra dos 75%: só aplicar se ≥ 75 (ATS filtra keywords antes do humano ver) | [[think-entrepreneurs]] |
 | Redesenho estratégico | 4 prompts Tim Ferriss: vantagem injusta, DEAL, freedom ratio, 10 anos | [[god-of-prompt]] |
 | Monetização imediata | 4 prompts para ganhar $1k em 30 dias com skills existentes | [[sabrina-ramonov]] · confirmado por [[allessandra-sinisgalli]] |
 | Monetização com templates | 5 prompts-template `[insert X]`: freelance do cargo atual, plano 30 dias $10K, desafio 7 dias, day rate $1K/dia, serviço $10K/mês | [[laura-anderson]] |
@@ -295,14 +296,18 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 104 |
-| Páginas de fontes | 104 |
+| Fontes ingeridas | 105 |
+| Páginas de fontes | 105 |
 | Páginas de conceitos | 21 |
-| Páginas de entidades | 111 |
+| Páginas de entidades | 112 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **244** |
+| **Total de páginas** | **246** |
 
-## Adições da ingestão de 2026-05-30 (2 fontes novas)
+## Adições da ingestão de 2026-05-30 (3 fontes novas)
+
+- **Score de compatibilidade com Claude — A Regra dos 75%** — [[think-entrepreneurs]] (@thinkentrepreneurs) apresenta Claude como *scoring engine* de candidaturas: upload de currículo + Web search → Claude pontua vagas 0-100 → só aplicar onde score ≥ 75 porque ATS filtra keywords antes de qualquer humano ver. Novo ângulo no wiki: fase 0 de triagem de vagas, anterior a todos os pipelines de preparação de candidatura já documentados. Criadas: [[2026-05-29_claude-ia-busca-emprego-score]] (nova fonte), [[think-entrepreneurs]] (nova entidade). Atualizada: [[busca-de-emprego-com-ia]] (source_count 6→7, nova seção "A Regra dos 75% e Claude como Scoring Engine"). Status: 104→105 fontes, 244→246 páginas.
+
+## Adições da ingestão de 2026-05-30 (2 fontes anteriores)
 
 - **YC Request for Startups 2026 — Mapa de setores de alto potencial** — [[business-bulls]] sintetiza as 15 ideias do [[y-combinator]] para o verão 2026. Segundo ângulo de YC no wiki: onde construir (vs. Diana Hu: como construir). 8 setores detalhados: Agro com IA, Serviços Nativos de IA, Medicina Personalizada, Cérebro da Empresa, Defesa Antidrone, Interfaces Dinâmicas, Eletrônicos no Espaço, Supply Chain de Hardware. YC está priorizando setores "hard" além de SaaS — expansão do escopo do wiki. Criada: [[2026-05-29_business-bulls-ai-yc-setores-2026]] (nova fonte). Atualizadas: [[business-bulls]] (source_count 1→2), [[y-combinator]] (source_count 1→2, nova seção "Request for Startups 2026"), [[estratégia-de-negócios-com-ia]] (source_count 36→37, nova seção "YC Request for Startups 2026: Mapa de Setores"). Status: 103→104 fontes, 243→244 páginas.
 

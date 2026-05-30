@@ -2,8 +2,8 @@
 title: "Busca de Emprego com IA"
 type: concept
 tags: [carreira, busca-de-emprego, automação, ats, currículo, claude-code, apify, linkedin, negociação, cover-letter, quantificação, entrevista, star-method]
-source_count: 6
-last_updated: 2026-05-27
+source_count: 7
+last_updated: 2026-05-30
 ---
 
 # Busca de Emprego com IA
@@ -155,6 +155,40 @@ Enquanto [[roshan-krishna]] prepara o candidato para *responder* as perguntas do
 
 → [[2026-05-17_mike-perguntas-entrevista]] | Autor: [[mike]]
 
+## A Regra dos 75% e Claude como Scoring Engine (@thinkentrepreneurs)
+
+Ângulo distinto de todas as abordagens anteriores: Claude não é usado para *preparar* a candidatura, mas para *decidir se vale a pena aplicar*.
+
+**Premissa**: a maioria dos candidatos aplica sem filtro — 27 candidaturas para 1 entrevista, na média. O problema não é o mercado, é o targeting.
+
+**Fluxo documentado:**
+```
+Ativar "Web search" no Claude.ai
+    ↓
+Carregar currículo em PDF
+    ↓
+Usar prompt de recrutador de IA (busca vagas reais + scores cada uma)
+    ↓
+Score ≥ 75 → aplicar
+Score < 75 → pular (ATS vai eliminar antes de humano ver)
+```
+
+**Prompt template:**
+```
+Act as an AI recruiter. Analyse my resume. Find real companies currently hiring 
+for senior roles in [your field] in [your country]. Categorise by high, medium, 
+and stretch probability. Score each role out of 100 based on my resume match. 
+Include verified application links posted within the last 30 days.
+```
+
+**Por que 75% é o threshold:**
+ATS (Workday, Greenhouse, Lever) escaneia currículos em busca de keywords da JD antes de qualquer humano ver. Score baixo = keywords não alinhadas = eliminação automática. Claude identifica esse gap antecipadamente, antes de desperdiçar uma candidatura.
+
+**Posição na cadeia de job search:**
+- Este conteúdo cobre a **triagem de vagas** (fase 0) — anterior ao Career Ops e ao toolkit de [[your-ai-compass]], que cobrem a preparação da candidatura após a seleção
+
+→ [[2026-05-29_claude-ia-busca-emprego-score]] | Autor: [[think-entrepreneurs]]
+
 ## Fontes
 
 - [[2026-04-07_career-ops-busca-emprego-ia]]
@@ -163,3 +197,4 @@ Enquanto [[roshan-krishna]] prepara o candidato para *responder* as perguntas do
 - [[2026-04-28_your-ai-compass-perfil-profissional]]
 - [[2026-05-18_roshan-krishna-5-prompts-entrevista]]
 - [[2026-05-17_mike-perguntas-entrevista]]
+- [[2026-05-29_claude-ia-busca-emprego-score]]
