@@ -2,8 +2,8 @@
 title: "Estratégia de Negócios com IA"
 type: concept
 tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce, amazon-kdp, topical-authority, low-content-products, open-source, custo-zero, criação-de-conteúdo, y-combinator, startups, ia-nativa, custom-instructions, founder-mode]
-source_count: 37
-last_updated: 2026-05-30
+source_count: 38
+last_updated: 2026-06-01
 ---
 
 # Estratégia de Negócios com IA
@@ -239,6 +239,12 @@ Segundo post de @codingknowledge no wiki, com enquadramento voltado ao usuário 
 
 @GROWAI apresenta os mesmos repositórios com enquadramento editorial distinto: não "corte de custo" (bestapps) nem "operação de canais" (paras-madan), mas **"ferramentas para faturar $10K/mês"**. Detalhe novo: Claude Ads documentado com modelo de negócio específico — *"sell this as a custom ad audit service for $1,500 a pop"* — mais granular do que qualquer fonte anterior. Fincept Terminal ganha novo detalhe: 37 agentes IA embutidos baseados nas metodologias de Buffett, Munger e Lynch.
 → [[2026-05-08_growai-10-ferramentas-gratuitas]]
+
+**6ª confirmação independente do ecossistema** ([[cooper-simson]], [[2026-06-01_cooper-simson-7-repos-substituem-saas]]):
+
+Reel do "Dia 99 da série actual AI" — 7 repos que substituem $6.500/mês em SaaS. Ferramentas mencionadas coincidem com as já documentadas (ClaudeAds, Hyperframes, Open-Gen-AI, Agentic Inbox, CamoFox/CandleFox) + novidade: **[[librechat]]** como interface unificada de múltiplos LLMs (Claude + ChatGPT + Gemini em um só lugar), primeira menção no wiki. Six fontes independentes confirmam o mesmo padrão: repositórios GitHub gratuitos como substitutos diretos de SaaS pago — padrão consolidado.
+
+→ [[2026-06-01_cooper-simson-7-repos-substituem-saas]]
 
 ## One-Person Business: o modelo de Dan Koe reverse-engineered com Claude
 
@@ -556,3 +562,4 @@ Complemento ao playbook operacional de [[diana-hu]] — enquanto aquele descreve
 - [[2026-05-09_drew-huibregtse-amazon-kdp]]
 - [[2026-05-24_hasan-toor-modelos-ia-offline]]
 - [[2026-05-12_bruno-souza-modelo-negocio-automatizado]]
+- [[2026-06-01_cooper-simson-7-repos-substituem-saas]]

@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-05-30 | Total de páginas: 246 | Fontes ingeridas: 105
+> Atualizado em: 2026-06-01 | Total de páginas: 249 | Fontes ingeridas: 106
 
 ---
 
@@ -116,6 +116,7 @@
 | [[wiki/sources/2026-05-28_bestapps-5-repos-potencializam-claude]] | @Bestapps \| Artificial Intelligence \| AI Agents | 2026-05-28 | 5 repos GitHub para criadores de conteúdo: Firecrawl, Superpowers, Remotion, Agent Browser, Claude Blog |
 | [[wiki/sources/2026-05-17_mike-perguntas-entrevista]] | @Mike | 2026-05-17 | 11 perguntas estratégicas para fazer ao entrevistador no final da entrevista |
 | [[wiki/sources/2026-05-29_business-bulls-ai-yc-setores-2026]] | @Business Bulls \| AI | 2026-05-29 | Y Combinator revela 15 setores para startups em 2026: agro, saúde, defesa, espaço, hardware |
+| [[wiki/sources/2026-06-01_cooper-simson-7-repos-substituem-saas]] | @Cooper Simson | 2026-06-01 | 7 repos GitHub que substituem $6.500/mês em SaaS: ClaudeAds, Hyperframes, LibreChat, Fincept Terminal, CamoFox e mais |
 | [[wiki/sources/2026-05-29_claude-ia-busca-emprego-score]] | @thinkentrepreneurs | 2026-05-29 | A Regra dos 75%: Claude como scoring engine de candidaturas (ATS + pontuação 0-100) |
 | [[wiki/sources/2026-05-29_prakash-kumar-founder-thinking-mode]] | @Prakash Kumar | 2026-05-29 | Founder Thinking Mode: Custom Instructions como co-fundador permanente + 6 casos de uso |
 | [[wiki/sources/2026-05-28_founded-ceo-yc-startup-ia]] | @FOUNDED CEO | 2026-05-28 | Y Combinator: playbook de Diana Hu com 8 princípios para startups nativas de IA |
@@ -131,8 +132,8 @@
 | [[wiki/concepts/prompt-engineering]] | 40 | Padrões de estruturação + palavras-gatilho + Claude Skills + "Act like a senior engineer" + substitutos de serviços profissionais (fitness, voos, finanças) + STAR como instrução explícita + Custom Instructions como modo persistente (Founder Thinking Mode) |
 | [[wiki/concepts/carreira-com-ia]] | 20 | IA para aceleração de carreira, LinkedIn, renda, produtos próprios e performance em entrevistas |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 3 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
-| [[wiki/concepts/agentes-ia]] | 7 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão + Agent Browser (automação de Chrome) + pipeline multi-agente de gestão de conteúdo (Postiz) |
-| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 37 | 5 ângulos sobre repos open-source + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode + YC Request for Startups 2026 (mapa de setores: agro, saúde, defesa, espaço, hardware) |
+| [[wiki/concepts/agentes-ia]] | 7 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão + Agent Browser (automação de Chrome) + pipeline multi-agente de gestão de conteúdo (Postiz) + CamoFox confirmado para extração de leads sem bloqueio |
+| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 38 | 6 ângulos sobre repos open-source + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode + YC Request for Startups 2026 (mapa de setores: agro, saúde, defesa, espaço, hardware) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
 | [[wiki/concepts/segurança-com-ia]] | 8 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital + checklist jurídico-técnica pré-lançamento (GDPR/CCPA, RLS, OWASP) |
 | [[wiki/concepts/vibecoding]] | 2 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança; abordagens preventiva, detective e jurídico-técnica (pré-lançamento) |
@@ -183,6 +184,7 @@
 | [[wiki/entities/whisper]] | tool | 1 | Modelo de reconhecimento de fala open-source da OpenAI — transcrição em 99 idiomas; substitui Otter.ai ($20/mês) gratuitamente |
 | [[wiki/entities/lm-studio]] | tool | 1 | Runner GUI para LLMs locais — alternativa ao Ollama para quem evita o terminal; model browser + chat embutido |
 | [[wiki/entities/postiz]] | tool | 1 | Plataforma open-source de gestão de mídias sociais — 30+ plataformas, Agent CLI, Public API, n8n, compatível com Claude e agentes de IA |
+| [[wiki/entities/librechat]] | tool | 1 | Interface unificada open-source para múltiplos LLMs (Claude, ChatGPT, Gemini) em um só lugar — elimina copiar e colar entre plataformas |
 
 ### Pessoas / Criadores (Brasil)
 
@@ -295,6 +297,7 @@
 | [[wiki/entities/diana-hu]] | Diana Hu | 1 | General Partner do Y Combinator — autora do playbook AI-native de 2026 (8 princípios) |
 | [[wiki/entities/jack-dorsey]] | Jack Dorsey | 1 | Co-fundador Twitter/Square — referência para os 3 arquétipos de funcionário: IC, DRI, AI founder |
 | [[wiki/entities/think-entrepreneurs]] | @thinkentrepreneurs | 1 | Criador Internacional — carreira, negócios e psicologia; a Regra dos 75% para scoring de candidaturas com Claude |
+| [[wiki/entities/cooper-simson]] | @Cooper Simson | 1 | Criador Internacional — série "actual AI" (99+ dias); 7 repos open-source que substituem $6.500/mês em SaaS |
 
 ---
 

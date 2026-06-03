@@ -2,8 +2,8 @@
 title: "Agentes de IA"
 type: concept
 tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents, agent-teams, git-worktrees, hooks, plugins, skills, comportamento-default]
-source_count: 26
-last_updated: 2026-05-29
+source_count: 27
+last_updated: 2026-06-01
 ---
 
 # Agentes de IA
@@ -321,6 +321,7 @@ Três arquétipos inéditos no wiki:
 - Agentes de IA chamam a API para acessar sites que bloqueiam bots normalmente
 - Habilita agentes de pesquisa e scraping em targets protegidos por Cloudflare e similares
 - Distinção: não é um agente — é infraestrutura que habilita agentes a agirem onde não conseguiriam
+- **Confirmado por [[cooper-simson]]** ([[2026-06-01_cooper-simson-7-repos-substituem-saas]]): descrito como "browser para workflows de IA que impede que seus agentes sejam bloqueados ao extrair leads da web" — caso de uso específico de extração de leads, complementando o framing de scraping geral da fonte anterior
 
 **Vibe Trading** (3.6k⭐) — estratégia por linguagem natural com debate de 29 equipes:
 - Input: estratégia em inglês simples → 29 equipes de agentes debatem e validam

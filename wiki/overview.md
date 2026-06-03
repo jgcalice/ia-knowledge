@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-05-30
-source_count: 105
+last_updated: 2026-06-01
+source_count: 106
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 105 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem** e **Segurança/Compliance**
+> Wiki iniciado em 2026-04-21 | 106 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem** e **Segurança/Compliance**
 
 ## Tese atual
 
@@ -202,7 +202,7 @@ Fonte: ([[faria-lima-elevator]])
 
 ## Mapa de entidades
 
-**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]] · [[lovable]] · [[quepo]] · [[n8n]] · [[autopilot]] · [[ollama]] · [[whisper]] · [[lm-studio]] · [[postiz]]
+**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]] · [[lovable]] · [[quepo]] · [[n8n]] · [[autopilot]] · [[ollama]] · [[whisper]] · [[lm-studio]] · [[postiz]] · [[librechat]]
 
 **Agregadores de conteúdo**: [[ai-developer-js]] · [[ask-gpts]] · [[bestapps-ai]] (3 fontes) · [[beyond-intelligence]] · [[founded-ceo]] · [[growai]] · [[ai-researches-ai]] · [[today-in-ai]] (2 fontes)
 
@@ -214,7 +214,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]] · [[faria-lima-elevator]] · [[allessandra-sinisgalli]] · [[daniel-socrates]]
 
-**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]] · [[bert-no-chase]] · [[duncan-rogoff]] · [[ai-technology]] · [[shimin-mohammadi]] · [[harish-bhatt]] · [[roman-khaneichuk]] · [[hasan-toor]] · [[roshan-krishna]] · [[prakash-kumar]]
+**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]] · [[bert-no-chase]] · [[duncan-rogoff]] · [[ai-technology]] · [[shimin-mohammadi]] · [[harish-bhatt]] · [[roman-khaneichuk]] · [[hasan-toor]] · [[roshan-krishna]] · [[prakash-kumar]] · [[cooper-simson]]
 
 **Referências de produto Anthropic**: [[boris-cherny]]
 
@@ -288,6 +288,8 @@ Fonte: ([[faria-lima-elevator]])
 - **Viagem como novo domínio de "substituto de serviço profissional"**: [[bestapps-ai]] documenta 7 prompts para análise de preços de voos que aplicam o padrão ROLE "analista profissional" a consumo B2C pela primeira vez. O mesmo mecanismo documentado em [[bem-estar-com-ia]] (fitness), [[finanças-com-ia]] (análise de ações) e engenharia (Harish Bhatt) funciona igualmente para viagem — o LLM internalizou know-how de revenue management de companhias aéreas. Novidade de design: Prompt 5 categoriza explicitamente 3 tiers éticos (Legitimate / Against T&Cs / Off-limits) — padrão reutilizável em qualquer domínio onde otimização pode cruzar limites legais. Primeiro conteúdo de viagem do wiki: [[viagem-com-ia]]
 - **"Act like a senior engineer" como extensão do Persona Mode para engenharia de software**: [[harish-bhatt]] confirma e especializa o padrão [[Persona Mode e Output Constraints]] ([[yik-chan]]) em 11 variantes de engenharia. Cada prompt estrutura abertura + missão + constraint + entregáveis — tornando o Claude não mais um executador de comandos pontuais, mas um parceiro de nível sênior com responsabilidade de entrega. Novidade singular: Prompt 7 simula 4 papéis em cascata dentro de um único prompt (Architect → Engineer → Reviewer → Optimizer) — auto-review multi-perspectiva sem orquestração externa. 3ª contribuição de [[harish-bhatt]], completamente diferente das duas anteriores (repos open-source) — mesmo criador, segmento diferente
 - **Pipeline de carreira completo — da visibilidade à performance na entrevista**: [[roshan-krishna]] fecha a lacuna final do Cluster 3. O wiki agora documenta as 3 fases da jornada de emprego com IA: **otimizar perfil** ([[bruno-souza]], [[sanskaar-singh]]) → **candidatura personalizada** ([[coding-ai-fullstack]], [[your-ai-compass]], [[career-ops]]) → **performance na entrevista** ([[roshan-krishna]]). Novidades técnicas do pipeline de 5 prompts: (1) STAR como instrução explícita ao modelo com limite temporal de 90s para resposta oral — primeira constraint de duração verbal no wiki; (2) `[INSERT YOUR STORY]` como placeholder de delegação parcial — o LLM gera tudo exceto a memória episódica pessoal; (3) "Brutal Mode" (score 0-10 + diagnóstico + versão 9+) como padrão de feedback estruturado anticomplacência
+- **6ª confirmação — repos open-source como substitutos de SaaS**: [[cooper-simson]] confirma o ecossistema no "Dia 99" da sua série educacional — 7 repos que substituem $6.500/mês. Novidade: [[librechat]] como interface unificada de múltiplos LLMs (Claude + ChatGPT + Gemini sem copiar e colar). Seis fontes independentes = padrão consolidado no wiki
+
 - **Custom Instructions como instalação permanente de ROLE — evolução do Persona Mode**: [[prakash-kumar]] documenta a primeira fonte no wiki onde a instrução de persona não é um prompt de sessão, mas instalada nas Custom Instructions — tornando-se o modo padrão de todas as conversas. O Founder Thinking Mode é o caso concreto: "seasoned operator who has built and exited companies" como contexto permanente. Distinção do Brand Voice Document em Projects ([[yik-chan]]): aquele persiste estilo de escrita para conteúdo; este persiste estilo de raciocínio para decisões. Constraint inovadora: abertura obrigatória "Here's what I'd actually do." elimina hedging estruturalmente
 
 ---
@@ -296,12 +298,16 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 105 |
-| Páginas de fontes | 105 |
+| Fontes ingeridas | 106 |
+| Páginas de fontes | 106 |
 | Páginas de conceitos | 21 |
-| Páginas de entidades | 112 |
+| Páginas de entidades | 114 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **246** |
+| **Total de páginas** | **249** |
+
+## Adições da ingestão de 2026-06-01 (1 fonte nova)
+
+- **6ª confirmação do ecossistema de repos GitHub como substitutos de SaaS pago** — [[cooper-simson]] (@Cooper Simson | Actionable AI | Agents | AI Content) lista 7 repos gratuitos no "Dia 99" da sua série educacional sobre IA: ClaudeAds, Hyperframes, Open-Gen-AI, Agentic Inbox, CamoFox/CandleFox, Fincept Terminal/Finstep, e **LibreChat** (novidade: interface unificada para acessar Claude + ChatGPT + Gemini sem copiar e colar entre plataformas). Padrão com 6 fontes independentes = consolidado. Criadas: [[cooper-simson]] (nova entidade-criador), [[librechat]] (nova entidade-ferramenta). Atualizadas: [[estratégia-de-negócios-com-ia]] (source_count 37→38, 6ª confirmação do padrão repos), [[agentes-ia]] (source_count 26→27, CamoFox confirmado para extração de leads). Status: 105→106 fontes, 246→249 páginas.
 
 ## Adições da ingestão de 2026-05-30 (3 fontes novas)
 
