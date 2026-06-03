@@ -1,9 +1,9 @@
 ---
 title: "Carreira e Negócios com IA"
 type: concept
-tags: [carreira, negócios, linkedin, ia, recrutamento, oportunidades, renda, transição-de-carreira, ats, currículo, cover-letter, odyssey-plan, longevidade-profissional, entrevista, star-method]
-source_count: 20
-last_updated: 2026-05-27
+tags: [carreira, negócios, linkedin, ia, recrutamento, oportunidades, renda, transição-de-carreira, ats, currículo, cover-letter, odyssey-plan, longevidade-profissional, entrevista, star-method, personal-brand, image-generation]
+source_count: 21
+last_updated: 2026-06-02
 ---
 
 # Carreira e Negócios com IA
@@ -170,6 +170,28 @@ Complemento direto à seção 11 — enquanto [[roshan-krishna]] prepara o candi
 
 → [[2026-05-17_mike-perguntas-entrevista]] | Autor: [[mike]]
 
+### 13. Marca pessoal na era da IA — do headshot à presença de nicho
+
+[[artificial-intelligence-ai]] documenta o colapso do headshot profissional como sinal de competência, e o surgimento de um novo diferencial: presença de nicho consistente.
+
+**O problema do headshot comoditizado:**
+Qualquer pessoa com smartphone e os prompts certos pode gerar uma foto de nível de revista em minutos, muitas vezes de graça. Quando todos parecem polidos, parecer polido deixa de ser vantagem competitiva.
+
+**10 estilos de headshot com IA** (testados entre 10.000+ edições):
+High-Fashion · Editorial · Chiaroscuro · Warm & Light · Cinematic · Authority · Dramatic · CEO · Turtleneck
+
+Todos compartilham:
+- Preservação obrigatória de features faciais: `KEEP THE FACIAL FEATURES THE SAME AS IN THE ORIGINAL`
+- **Negative prompt padrão**: `no facial alteration, no age changes, no body distortion, no cartoonish styling, no excessive skin smoothing`
+- Câmeras de alto nível como sinalização de qualidade: Phase One XF, Sony A7R V, Canon EOS R5, Nikon Z8, RED V-Raptor
+
+**O novo sinal de carreira:**
+> *"Brands no longer care as much about how professional your photo looks; they care whether you're consistently associated with a specific niche, whether your ideas are being seen, and whether you've built an audience that trusts your perspective."*
+
+A marca pessoal migra de **estética visual** para **reputação de nicho + audiência que confia**.
+
+→ [[2026-06-02_artificial-intelligence-ai-headshots]] | Autor: [[artificial-intelligence-ai]]
+
 ## Padrão recorrente no feed
 
 Há **convergência temática clara**: múltiplos criadores internacionais reforçam que combinar skills existentes + IA é mais valioso que uma skill isolada. A direção não é "aprenda IA do zero", mas "use IA para ampliar o que você já faz bem."
@@ -194,3 +216,4 @@ Há **convergência temática clara**: múltiplos criadores internacionais refor
 - [[2026-05-12_bruno-souza-modelo-negocio-automatizado]]
 - [[2026-05-18_roshan-krishna-5-prompts-entrevista]]
 - [[2026-05-17_mike-perguntas-entrevista]]
+- [[2026-06-02_artificial-intelligence-ai-headshots]]

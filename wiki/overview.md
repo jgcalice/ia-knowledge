@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-06-01
-source_count: 106
+last_updated: 2026-06-02
+source_count: 107
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 106 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem** e **Segurança/Compliance**
+> Wiki iniciado em 2026-04-21 | 107 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance** e **Imagem com IA**
 
 ## Tese atual
 
@@ -204,7 +204,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]] · [[lovable]] · [[quepo]] · [[n8n]] · [[autopilot]] · [[ollama]] · [[whisper]] · [[lm-studio]] · [[postiz]] · [[librechat]]
 
-**Agregadores de conteúdo**: [[ai-developer-js]] · [[ask-gpts]] · [[bestapps-ai]] (3 fontes) · [[beyond-intelligence]] · [[founded-ceo]] · [[growai]] · [[ai-researches-ai]] · [[today-in-ai]] (2 fontes)
+**Agregadores de conteúdo**: [[ai-developer-js]] · [[artificial-intelligence-ai]] · [[ask-gpts]] · [[bestapps-ai]] (3 fontes) · [[beyond-intelligence]] · [[founded-ceo]] · [[growai]] · [[ai-researches-ai]] · [[today-in-ai]] (2 fontes)
 
 **Instituições / Aceleradoras**: [[stanford-digital-economy-lab]] · [[y-combinator]]
 
@@ -292,18 +292,24 @@ Fonte: ([[faria-lima-elevator]])
 
 - **Custom Instructions como instalação permanente de ROLE — evolução do Persona Mode**: [[prakash-kumar]] documenta a primeira fonte no wiki onde a instrução de persona não é um prompt de sessão, mas instalada nas Custom Instructions — tornando-se o modo padrão de todas as conversas. O Founder Thinking Mode é o caso concreto: "seasoned operator who has built and exited companies" como contexto permanente. Distinção do Brand Voice Document em Projects ([[yik-chan]]): aquele persiste estilo de escrita para conteúdo; este persiste estilo de raciocínio para decisões. Constraint inovadora: abertura obrigatória "Here's what I'd actually do." elimina hedging estruturalmente
 
+- **Headshot comoditizado como novo ângulo de carreira — e negative prompt como padrão de design visual**: [[artificial-intelligence-ai]] documenta a comoditização da fotografia profissional por IA e a consequente mudança do sinal de carreira: de visual ("imagem polida") para presença de nicho ("ideias vistas + audiência que confia"). 10 estilos de headshot com prompts completos (estrutura: câmera de alto nível + negative prompt + preservação de features). O negative prompt para imagem é padrão novo no wiki — complementar ao negative prompting verbal para LLMs: especificar explicitamente o que não fazer (distorção facial, artefatos, smooth excessivo) é tão importante quanto descrever o objetivo
+
 ---
 
 ## Status do wiki
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 106 |
-| Páginas de fontes | 106 |
+| Fontes ingeridas | 107 |
+| Páginas de fontes | 107 |
 | Páginas de conceitos | 21 |
-| Páginas de entidades | 114 |
+| Páginas de entidades | 115 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **249** |
+| **Total de páginas** | **251** |
+
+## Adições da ingestão de 2026-06-02 (1 fonte nova)
+
+- **IA democratiza fotos profissionais e comoditiza o headshot como sinal de carreira** — [[artificial-intelligence-ai]] (@Artificial Intelligence (AI)) apresenta 10 prompts de geração de headshot testados entre 10.000+ edições. O argumento central: quando qualquer pessoa pode gerar foto de nível de revista com IA, o diferencial competitivo deixa de ser a imagem polida e passa a ser a presença reconhecível num nicho. *"The headshot was the old game. The page is the new one."* Criadas: [[2026-06-02_artificial-intelligence-ai-headshots]] (nova fonte), [[artificial-intelligence-ai]] (nova entidade-agregador). Atualizadas: [[carreira-com-ia]] (source_count 20→21, nova seção 13 "Marca pessoal na era da IA"), [[prompt-engineering]] (source_count 40→41, nova seção "Prompts de geração de imagem — estrutura e negative prompts"). Status: 106→107 fontes, 249→251 páginas.
 
 ## Adições da ingestão de 2026-06-01 (1 fonte nova)
 

@@ -1,9 +1,9 @@
 ---
 title: "Prompt Engineering"
 type: concept
-tags: [prompt-engineering, prompts, llm, claude, técnicas, plan-mode, self-checking, custom-instructions]
-source_count: 40
-last_updated: 2026-05-30
+tags: [prompt-engineering, prompts, llm, claude, técnicas, plan-mode, self-checking, custom-instructions, image-generation, negative-prompt]
+source_count: 41
+last_updated: 2026-06-02
 ---
 
 # Prompt Engineering
@@ -216,6 +216,25 @@ O campo `[...]` é um dado de anamnese; o modelo preenche o protocolo com conhec
 
 Confirmação em domínio de consumo (viagem): [[bestapps-ai]] documenta 7 prompts que convocam `analista profissional de preços de voos` para replicar know-how de agentes especializados — hidden routes, geo-pricing, fare rules, timing sweet spot. Primeira aplicação B2C do padrão (domínios anteriores eram B2B: finanças institucionais, fitness, engenharia). Diferencial de design: Prompt 5 (fare rules) categoriza cada estratégia em **Legitimate optimization / Against T&Cs but not illegal / Off-limits** — primeira vez no wiki que um prompt delimita explicitamente a linha ética entre otimização e fraude.
 → [[2026-05-25_bestapps-7-prompts-voos]] | [[bestapps-ai]] | [[viagem-com-ia]]
+
+### Prompts de geração de imagem — estrutura e negative prompts
+
+[[artificial-intelligence-ai]] documenta o primeiro conjunto de prompts para **modelos de imagem** (vs. modelos de texto) no wiki — especificamente para geração de headshots profissionais com IA.
+
+**Estrutura canônica** (comum aos 10 estilos documentados):
+1. **Intenção visual**: `Create a [style] portrait of the person in the uploaded character reference photo`
+2. **Preservação de identidade**: `KEEP THE FACIAL FEATURES THE SAME AS IN THE ORIGINAL` — constraint obrigatória em todos os prompts
+3. **Postura e expressão**: corpo, ombros, mãos, inclinação da cabeça, expressão — descrição física detalhada
+4. **Vestuário e cenário**: outfit + background com nível de detalhe que orienta o estilo visual
+5. **Iluminação**: tipo de luz, contraste, mood
+6. **Câmera**: Phase One XF / Sony A7R V / Canon EOS R5 / Nikon Z8 / RED V-Raptor — câmeras de alto nível como sinalizadores de qualidade semântica para o modelo
+7. **Negative prompt**: `no facial alteration, no age changes, no weight changes, no body distortion, no cartoonish styling or beauty filters, no excessive skin smoothing, no blurring, no noise, no text, no logos, no watermarks, no artifacts`
+
+**O negative prompt como padrão de design**: especificar explicitamente o que *não* fazer é tão importante quanto descrever o que fazer — previne distorções, artefatos e alterações indesejadas de features físicas. Padrão novo no wiki; distinto do negative prompting verbal para LLMs.
+
+**Câmera como proxy de qualidade**: nomear uma câmera Phase One XF ou RED V-Raptor não instrui o modelo tecnicamente — instrui semanticamente. O modelo associa esses equipamentos a fotografias de alta qualidade e aplica estética correspondente. Análogo ao padrão ROLE para LLMs: nomear quem usa o equipamento (fotógrafo editorial, diretor de cinema) carrega mais semântica que descrever o efeito.
+
+→ [[2026-06-02_artificial-intelligence-ai-headshots]] | [[artificial-intelligence-ai]] | [[carreira-com-ia]]
 
 ### Skills como pipeline de conteúdo parametrizado (Founder's stack)
 [[paras-madan]] documenta 3 skills que codificam pipelines completos de produção de conteúdo e análise:

@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-06-01 | Total de páginas: 249 | Fontes ingeridas: 106
+> Atualizado em: 2026-06-02 | Total de páginas: 251 | Fontes ingeridas: 107
 
 ---
 
@@ -118,6 +118,7 @@
 | [[wiki/sources/2026-05-29_business-bulls-ai-yc-setores-2026]] | @Business Bulls \| AI | 2026-05-29 | Y Combinator revela 15 setores para startups em 2026: agro, saúde, defesa, espaço, hardware |
 | [[wiki/sources/2026-06-01_cooper-simson-7-repos-substituem-saas]] | @Cooper Simson | 2026-06-01 | 7 repos GitHub que substituem $6.500/mês em SaaS: ClaudeAds, Hyperframes, LibreChat, Fincept Terminal, CamoFox e mais |
 | [[wiki/sources/2026-05-29_claude-ia-busca-emprego-score]] | @thinkentrepreneurs | 2026-05-29 | A Regra dos 75%: Claude como scoring engine de candidaturas (ATS + pontuação 0-100) |
+| [[wiki/sources/2026-06-02_artificial-intelligence-ai-headshots]] | @Artificial Intelligence (AI) | 2026-06-02 | 10 prompts para headshots LinkedIn-ready com IA; comoditização do headshot polido como sinal de carreira |
 | [[wiki/sources/2026-05-29_prakash-kumar-founder-thinking-mode]] | @Prakash Kumar | 2026-05-29 | Founder Thinking Mode: Custom Instructions como co-fundador permanente + 6 casos de uso |
 | [[wiki/sources/2026-05-28_founded-ceo-yc-startup-ia]] | @FOUNDED CEO | 2026-05-28 | Y Combinator: playbook de Diana Hu com 8 princípios para startups nativas de IA |
 
@@ -129,8 +130,8 @@
 |--------|--------|-----------|
 | [[wiki/concepts/geração-de-leads-com-ia]] | 3 | Uso de LLMs + scraping para prospecção B2B automatizada |
 | [[wiki/concepts/otimização-de-tokens]] | 4 | Técnicas para reduzir consumo de tokens no Claude |
-| [[wiki/concepts/prompt-engineering]] | 40 | Padrões de estruturação + palavras-gatilho + Claude Skills + "Act like a senior engineer" + substitutos de serviços profissionais (fitness, voos, finanças) + STAR como instrução explícita + Custom Instructions como modo persistente (Founder Thinking Mode) |
-| [[wiki/concepts/carreira-com-ia]] | 20 | IA para aceleração de carreira, LinkedIn, renda, produtos próprios e performance em entrevistas |
+| [[wiki/concepts/prompt-engineering]] | 41 | Padrões de estruturação + palavras-gatilho + Claude Skills + "Act like a senior engineer" + substitutos de serviços profissionais (fitness, voos, finanças) + STAR como instrução explícita + Custom Instructions como modo persistente + prompts de geração de imagem com negative prompts |
+| [[wiki/concepts/carreira-com-ia]] | 21 | IA para aceleração de carreira, LinkedIn, renda, produtos próprios, performance em entrevistas e personal brand na era do headshot comoditizado |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 3 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
 | [[wiki/concepts/agentes-ia]] | 7 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão + Agent Browser (automação de Chrome) + pipeline multi-agente de gestão de conteúdo (Postiz) + CamoFox confirmado para extração de leads sem bloqueio |
 | [[wiki/concepts/estratégia-de-negócios-com-ia]] | 38 | 6 ângulos sobre repos open-source + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode + YC Request for Startups 2026 (mapa de setores: agro, saúde, defesa, espaço, hardware) |
@@ -205,6 +206,7 @@
 
 | Página | Handle | Fontes | Foco |
 |--------|--------|--------|------|
+| [[wiki/entities/artificial-intelligence-ai]] | @Artificial Intelligence (AI) | 1 | Canal curador de prompts e ferramentas IA — foco em geração de imagem e aplicações de IA para presença digital |
 | [[wiki/entities/ask-gpts]] | @Ask GPTs | 1 | Canal curador de ferramentas IA — foco em gestão de mídias sociais e stack open-source para criadores |
 | [[wiki/entities/founded-ceo]] | @FOUNDED CEO | 1 | Canal curador Internacional — playbooks de grandes founders e CEOs (YC, Paul Graham etc.); newsletter gratuita |
 | [[wiki/entities/ai-developer-js]] | @AI Developer \| Code + AI \| JS | 1 | Canal agregador de dicas práticas de Claude para desenvolvedores JS |
