@@ -1,9 +1,9 @@
 ---
 title: "Vibecoding"
 type: concept
-tags: [vibecoding, desenvolvimento, llm, segurança, produtividade, claude-code, jurídico, gdpr, pré-lançamento]
-source_count: 2
-last_updated: 2026-05-26
+tags: [vibecoding, desenvolvimento, llm, segurança, produtividade, claude-code, jurídico, gdpr, pré-lançamento, front-end, local-storage, cookies]
+source_count: 3
+last_updated: 2026-06-15
 ---
 
 # Vibecoding
@@ -63,7 +63,15 @@ Três abordagens documentadas no wiki para mitigar riscos de vibecoding:
 
 A distinção desta abordagem: foco em **conformidade legal** e **consequência jurídica** — "vibe coders are getting sued". A sequência importa: escalar marketing antes de completar todos os 6 passos amplifica o risco.
 
-**As três abordagens são complementares**: preventiva evita os erros mais comuns no design; detective pega o que passou antes do deploy; jurídico-técnica garante conformidade legal e sequência correta antes do lançamento para usuários reais.
+### Abordagem front-end específica (client-side)
+[[2026-06-08_gustavo-sextaro-seguranca-saas-frontend]] — 5 práticas de segurança especificamente para o lado cliente do SaaS, que vibecoding frequentemente ignora:
+1. Nenhuma chave de acesso com prefixo `NEXT_PUBLIC_` ou `VITE_` (expõe no bundle JS)
+2. Source maps desativados ou restritos em produção
+3. LocalStorage proibido para tokens e PII (e-mail, CPF, telefone)
+4. Cookies de auth com flags HTTP-only + Secure (invisíveis ao JavaScript)
+5. Session Storage com limpeza automática ao fechar aba; CORS e CSP configurados
+
+**As quatro abordagens são complementares**: preventiva (back-end) e front-end evitam os erros mais comuns no design; detective pega o que passou antes do deploy; jurídico-técnica garante conformidade legal e sequência correta antes do lançamento para usuários reais.
 
 ## Relação com produtividade
 
@@ -72,5 +80,6 @@ Vibecoding é a face prática de usar LLMs para desenvolvimento — a mesma velo
 ## Fontes
 
 - [[2026-04-25_vibecoding-seguranca-auditoria-ia]] — auditoria red team para apps vibecoded (via @thewizeai)
-- [[2026-04-15_lucas-garcia-pit-seguranca-claudecode]] — 5 fundamentos de segurança preventivos
+- [[2026-04-15_lucas-garcia-pit-seguranca-claudecode]] — 5 fundamentos de segurança preventivos back-end
 - [[2026-05-24_today-in-ai-checklist-prelancamento]] — checklist jurídico-técnica pré-lançamento; consequência jurídica como motivador explícito do vibecoding responsável
+- [[2026-06-08_gustavo-sextaro-seguranca-saas-frontend]] — 5 práticas client-side de segurança front-end: env vars, LocalStorage, cookies HTTP-only, Session Storage, CORS/CSP

@@ -8,7 +8,7 @@ source_count: 107
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 107 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance** e **Imagem com IA**
+> Wiki iniciado em 2026-04-21 | 108 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance** e **Imagem com IA**
 
 ## Tese atual
 
@@ -88,7 +88,8 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - **Dimensão 4 — Vibecoding pré-deploy**: prompt de 6 blocos que instrui o agente a auditar o codebase como engenheiro sênior de segurança ($15k em valor); conceito de **attack chains** (3 vulns "low" = 1 "critical") ([[artificial-intelligence-business]] / @thewizeai)
 - **Dimensão 5 — Remoção ativa de pegada digital**: guia de 7 passos para apagar 99,8% da exposição online — data brokers (Spokeo, Whitepages, BeenVerified), Google removal request, contas esquecidas via Gmail, HaveIBeenPwned, desativar rastreamento Google, posts antigos (TweetDelete/Redact) e prevenção futura com SimpleLogin e Brave/Firefox ([[ai-technology]])
 - **Dimensão 6 — Checklist jurídico-técnica pré-lançamento** (NOVO): "vibe coders are getting sued" — checklist ordenada de 6 itens obrigatórios antes de abrir para usuários reais, curada de 60+ MVPs de agência. GDPR/CCPA desde o 1º dado coletado; RLS (#1 miss — qualquer um abre o DevTools e lê o banco); failure-path testing; security headers + OWASP; server-side validation ("Zod on client is UX, not security"). A **sequência importa**: escalar marketing antes de completar a checklist amplifica o risco e o passivo jurídico ([[today-in-ai]] / @PrajwalTomar_)
-- **Tese unificada**: aceleração (LLMs no dev, internet nos dados, mandato corporativo) cria exposições invisíveis que exigem intenção ativa para serem corrigidas — em 6 escalas diferentes
+- **Dimensão 7 — Segurança do front-end (client-side)** (NOVO): [[gustavo-sextaro]] (@Gustavo Sextaro / MVP Ao SaaS) documenta 5 práticas client-side que vibecoding ignora: (1) nunca prefixo `NEXT_PUBLIC_`/`VITE_` em chaves de acesso — vai pro bundle JS; (2) Source maps desativados em produção; (3) LocalStorage proibido para tokens e PII; (4) cookies de auth com HTTP-only + Secure; (5) Session Storage limpo ao fechar aba + CORS/CSP configurados. Complemento direto da Dimensão 1 ([[lucas-garcia-pit]]): juntos formam o par back-end + front-end de segurança para SaaS construído com LLMs.
+- **Tese unificada**: aceleração (LLMs no dev, internet nos dados, mandato corporativo) cria exposições invisíveis que exigem intenção ativa para serem corrigidas — em 7 escalas diferentes
 
 ---
 
@@ -212,7 +213,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Conceitos de segurança**: [[segurança-com-ia]]
 
-**Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]] · [[faria-lima-elevator]] · [[allessandra-sinisgalli]] · [[daniel-socrates]]
+**Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]] · [[faria-lima-elevator]] · [[allessandra-sinisgalli]] · [[daniel-socrates]] · [[gustavo-sextaro]]
 
 **Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]] · [[bert-no-chase]] · [[duncan-rogoff]] · [[ai-technology]] · [[shimin-mohammadi]] · [[harish-bhatt]] · [[roman-khaneichuk]] · [[hasan-toor]] · [[roshan-krishna]] · [[prakash-kumar]] · [[cooper-simson]]
 
@@ -294,18 +295,24 @@ Fonte: ([[faria-lima-elevator]])
 
 - **Headshot comoditizado como novo ângulo de carreira — e negative prompt como padrão de design visual**: [[artificial-intelligence-ai]] documenta a comoditização da fotografia profissional por IA e a consequente mudança do sinal de carreira: de visual ("imagem polida") para presença de nicho ("ideias vistas + audiência que confia"). 10 estilos de headshot com prompts completos (estrutura: câmera de alto nível + negative prompt + preservação de features). O negative prompt para imagem é padrão novo no wiki — complementar ao negative prompting verbal para LLMs: especificar explicitamente o que não fazer (distorção facial, artefatos, smooth excessivo) é tão importante quanto descrever o objetivo
 
+- **Segurança front-end como par complementar da segurança back-end**: [[gustavo-sextaro]] documenta 5 práticas client-side para SaaS que fecham a lacuna deixada pelos 5 fundamentos back-end de [[lucas-garcia-pit]]. O princípio é idêntico ("nunca confiar no cliente"), mas os vetores são distintos: back-end protege APIs, lógica e banco; front-end protege o bundle JS, o armazenamento local e as políticas de origem. Anti-padrão mais comum em apps vibecoded com Next.js: o prefixo `NEXT_PUBLIC_` — coloca API keys diretamente no bundle, visíveis a qualquer usuário no DevTools. A regra do LocalStorage (sem tokens, sem PII) e o cookie HTTP-only completam o modelo mental de "onde dados sensíveis podem viver no cliente": a resposta é — **em nenhum lugar acessível ao JavaScript**
+
 ---
 
 ## Status do wiki
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 107 |
-| Páginas de fontes | 107 |
+| Fontes ingeridas | 108 |
+| Páginas de fontes | 108 |
 | Páginas de conceitos | 21 |
-| Páginas de entidades | 115 |
+| Páginas de entidades | 116 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **251** |
+| **Total de páginas** | **253** |
+
+## Adições da ingestão de 2026-06-15 (1 fonte nova)
+
+- **Segurança front-end para SaaS: o par client-side dos 5 fundamentos back-end** — [[gustavo-sextaro]] (@Gustavo Sextaro, MVP Ao SaaS) fecha a lacuna entre segurança de servidor e segurança de cliente. Os 5 pontos documentados em [[2026-06-08_gustavo-sextaro-seguranca-saas-frontend]] formam a camada front-end que [[lucas-garcia-pit]] (5 fundamentos back-end, Dimensão 1 de [[segurança-com-ia]]) não cobria: nenhuma chave com prefixo público, source maps desativados em produção, LocalStorage sem tokens ou PII, cookies de auth com HTTP-only + Secure, Session Storage com limpeza automática e CORS/CSP configurados. Criadas: [[gustavo-sextaro]] (nova entidade-criador BR), [[2026-06-08_gustavo-sextaro-seguranca-saas-frontend]] (nova fonte). Atualizadas: [[segurança-com-ia]] (source_count 8→9, nova Dimensão 7 "Segurança do front-end", síntese expandida de 6 para 7 dimensões), [[vibecoding]] (source_count 2→3, 4ª abordagem adicionada). [[gustavo-sextaro]] adicionado ao mapa de Pessoas BR. Status: 107→108 fontes, 251→253 páginas.
 
 ## Adições da ingestão de 2026-06-02 (1 fonte nova)
 

@@ -1,14 +1,14 @@
 ---
 title: "Segurança com IA"
 type: concept
-tags: [segurança, claude-code, desenvolvimento, api, backend, supabase, osint, privacidade, shadow-ai, governança, vibecoding, red-team, investigação, pegada-digital, data-brokers, gdpr, ccpa, pré-lançamento, jurídico]
-source_count: 8
-last_updated: 2026-05-26
+tags: [segurança, claude-code, desenvolvimento, api, backend, supabase, osint, privacidade, shadow-ai, governança, vibecoding, red-team, investigação, pegada-digital, data-brokers, gdpr, ccpa, pré-lançamento, jurídico, front-end, local-storage, cookies, cors, csp]
+source_count: 9
+last_updated: 2026-06-15
 ---
 
 # Segurança com IA
 
-> Seis dimensões: (1) segurança no *desenvolvimento* de apps com LLMs, (2) segurança *pessoal/digital* via ferramentas OSINT (14 ferramentas documentadas em 3 fontes), (3) segurança *empresarial/governança* (Shadow AI, infraestrutura como enabler), (4) auditoria red team pré-deploy para apps vibecoded, (5) remoção ativa de pegada digital (7 passos para apagar 99,8% da exposição online), e (6) checklist jurídico-técnico pré-lançamento (GDPR/CCPA, RLS, failure-path testing, OWASP, validação server-side — "vibe coders are getting sued").
+> Sete dimensões: (1) segurança no *desenvolvimento back-end* de apps com LLMs, (2) segurança *pessoal/digital* via ferramentas OSINT (14 ferramentas documentadas em 3 fontes), (3) segurança *empresarial/governança* (Shadow AI, infraestrutura como enabler), (4) auditoria red team pré-deploy para apps vibecoded, (5) remoção ativa de pegada digital (7 passos para apagar 99,8% da exposição online), (6) checklist jurídico-técnico pré-lançamento (GDPR/CCPA, RLS, failure-path testing, OWASP, validação server-side — "vibe coders are getting sued"), e (7) segurança no *front-end do SaaS* (env vars, LocalStorage, Session Storage, cookies HTTP-only, CORS/CSP — complemento client-side da Dimensão 1).
 
 ## Dimensão 1: Segurança no Desenvolvimento (via @Lucas Garcia Pit)
 
@@ -260,22 +260,59 @@ Dimensão 1 e Dimensão 4 não documentavam explicitamente o teste de *caminhos 
 
 ---
 
-## Síntese das seis dimensões
+## Dimensão 7: Segurança no Front-End do SaaS
+
+(Via [[gustavo-sextaro]], [[2026-06-08_gustavo-sextaro-seguranca-saas-frontend]])
+
+### Tese
+
+O front-end de um SaaS é uma superfície de ataque que desenvolvedores frequentemente ignoram ao construir rapidamente com LLMs. Tudo que está no bundle JavaScript é visível a qualquer usuário que abre o DevTools. O princípio é o mesmo da Dimensão 1 — "nunca confiar no cliente" — mas aplicado ao lado client-side, onde as armadilhas mais comuns ocorrem.
+
+### Os 5 pontos de segurança front-end
+
+Documentados em [[2026-06-08_gustavo-sextaro-seguranca-saas-frontend]]:
+
+| Ponto | Prática | Por quê |
+|-------|---------|---------|
+| 01 | **Sem prefixo público em variáveis de ambiente** | `NEXT_PUBLIC_` e `VITE_` incluem a variável no bundle client-side — qualquer pessoa no DevTools vê a API key |
+| 02 | **Proteger Source Maps em produção** | Source maps expõem o código TSX original no DevTools — atacante vê a estrutura exata do app |
+| 03 | **LocalStorage não armazena tokens nem PII** | Acessível por qualquer JS na página (vetor de XSS); tokens de auth devem ir em cookies; dados pessoais (e-mail, CPF, telefone) não devem ir aqui |
+| 04 | **Cookies com HTTP-only + Secure obrigatórios** | Flags que tornam o cookie inacessível ao JavaScript — única forma segura de persistir token de autenticação no cliente |
+| 05 | **Session Storage limpo ao fechar aba + CORS/CSP configurados** | Session Storage deve limpar dados críticos ao fechar; CORS define origens autorizadas; CSP define de onde scripts podem ser carregados |
+
+### Relação com a Dimensão 1
+
+A Dimensão 1 ([[lucas-garcia-pit]]) e a Dimensão 7 ([[gustavo-sextaro]]) formam o par **back-end + front-end** da segurança de um SaaS:
+
+| Aspecto | Dimensão 1 (Back-end) | Dimensão 7 (Front-end) |
+|---------|----------------------|----------------------|
+| Segredos | API keys no servidor | Nenhuma chave com prefixo público |
+| Dados de usuário | RLS no Supabase + lógica server-side | Sem PII/tokens no LocalStorage ou Session Storage |
+| Autenticação | Webhooks assinados | Cookies HTTP-only + Secure |
+| Controle de acesso | Rate limiting nas APIs | CORS + CSP configurados |
+| Princípio | Nunca confiar no cliente | O bundle client-side é público |
+
+**Princípio comum**: ambas as dimensões seguem zero trust — **o cliente não é confiável**, seja via chamadas de API (Dim. 1) ou via acesso direto ao bundle/storage (Dim. 7).
+
+---
+
+## Síntese das sete dimensões
 
 | Dimensão | Quem usa | Princípio | Quando aplicar |
 |---|---|---|---|
-| 1 — Desenvolvimento preventivo | Dev individual com Claude Code | Zero trust; nunca confiar no cliente | Durante o design/build |
+| 1 — Desenvolvimento preventivo (back-end) | Dev individual com Claude Code | Zero trust; nunca confiar no cliente | Durante o design/build do servidor |
 | 2 — Pessoal/OSINT (diagnóstico) | Usuário comum | Auditar a própria exposição | Periodicamente |
 | 3 — Empresarial | Organização inteira | Segurança como infra reutilizável | Antes de habilitar IA enterprise |
 | 4 — Vibecoding (pré-deploy) | Dev que vibecoda | Assume já comprometido; pense como atacante | Antes de cada deploy |
 | 5 — Remoção ativa de pegada | Qualquer usuário | Diagnóstico sem remoção é ineficaz | Após diagnóstico (Dim. 2) e periodicamente |
 | 6 — Pré-lançamento jurídico-técnico | Builder/founder antes do lançamento | Conformidade ativa; negligência tem consequência jurídica | Imediatamente antes de abrir para usuários reais |
+| 7 — Segurança do front-end (client-side) | Dev construindo SaaS | O bundle client-side é público; nunca confiar no cliente | Durante o design/build do front-end |
 
-**Padrão unificado**: a aceleração (LLMs no dev, internet nos dados, mandato corporativo) cria exposições invisíveis que só são corrigidas com **intenção ativa** — seja no design, na auditoria pessoal, na remoção ativa, na governança corporativa, no review pré-deploy ou na checklist jurídico-técnica pré-lançamento.
+**Padrão unificado**: a aceleração (LLMs no dev, internet nos dados, mandato corporativo) cria exposições invisíveis que só são corrigidas com **intenção ativa** — seja no design back-end ou front-end, na auditoria pessoal, na remoção ativa, na governança corporativa, no review pré-deploy ou na checklist jurídico-técnica pré-lançamento.
 
 ## Fontes
 
-- [[2026-04-15_lucas-garcia-pit-seguranca-claudecode]] — 5 pontos de segurança para apps com Claude Code
+- [[2026-04-15_lucas-garcia-pit-seguranca-claudecode]] — 5 pontos de segurança back-end para apps com Claude Code
 - [[2026-04-18_gustavo-melo-ferramentas-osint]] — 7 ferramentas OSINT para pesquisa e segurança digital
 - [[2026-04-08_sidney-ferramentas-osint]] — 5 ferramentas OSINT usadas por profissionais (Sherlock, Maltego, SpiderFoot, Shodan, Google Dorking)
 - [[2026-04-01_enterprise-ai-playbook-stanford]] — Shadow AI, segurança empresarial como enabler
@@ -283,3 +320,4 @@ Dimensão 1 e Dimensão 4 não documentavam explicitamente o teste de *caminhos 
 - [[2026-04-30_gustavo-melo-investigacao-pessoas]] — 2 sites de investigação de pessoa física: Webmail e My7
 - [[2026-05-07_ai-technology-footprint-digital]] — guia de 7 passos para remover 99,8% da pegada digital: data brokers, Google, contas esquecidas, HIBP, rastreamento, posts antigos e prevenção via SimpleLogin/Brave
 - [[2026-05-24_today-in-ai-checklist-prelancamento]] — checklist jurídico-técnica pré-lançamento: GDPR/CCPA, RLS, failure-path testing, security headers, OWASP, validação server-side; 60+ MVPs de agência como fonte (@PrajwalTomar_)
+- [[2026-06-08_gustavo-sextaro-seguranca-saas-frontend]] — 5 práticas de segurança front-end: env vars sem prefixo público, LocalStorage sem tokens/PII, cookies HTTP-only + Secure, Session Storage com limpeza automática, CORS/CSP configurados

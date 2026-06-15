@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-06-02 | Total de páginas: 251 | Fontes ingeridas: 107
+> Atualizado em: 2026-06-15 | Total de páginas: 253 | Fontes ingeridas: 108
 
 ---
 
@@ -119,6 +119,7 @@
 | [[wiki/sources/2026-06-01_cooper-simson-7-repos-substituem-saas]] | @Cooper Simson | 2026-06-01 | 7 repos GitHub que substituem $6.500/mês em SaaS: ClaudeAds, Hyperframes, LibreChat, Fincept Terminal, CamoFox e mais |
 | [[wiki/sources/2026-05-29_claude-ia-busca-emprego-score]] | @thinkentrepreneurs | 2026-05-29 | A Regra dos 75%: Claude como scoring engine de candidaturas (ATS + pontuação 0-100) |
 | [[wiki/sources/2026-06-02_artificial-intelligence-ai-headshots]] | @Artificial Intelligence (AI) | 2026-06-02 | 10 prompts para headshots LinkedIn-ready com IA; comoditização do headshot polido como sinal de carreira |
+| [[wiki/sources/2026-06-08_gustavo-sextaro-seguranca-saas-frontend]] | @Gustavo Sextaro | 2026-06-08 | 5 práticas de segurança front-end para SaaS: env vars, LocalStorage, cookies HTTP-only, Session Storage, CORS/CSP |
 | [[wiki/sources/2026-05-29_prakash-kumar-founder-thinking-mode]] | @Prakash Kumar | 2026-05-29 | Founder Thinking Mode: Custom Instructions como co-fundador permanente + 6 casos de uso |
 | [[wiki/sources/2026-05-28_founded-ceo-yc-startup-ia]] | @FOUNDED CEO | 2026-05-28 | Y Combinator: playbook de Diana Hu com 8 princípios para startups nativas de IA |
 
@@ -136,8 +137,8 @@
 | [[wiki/concepts/agentes-ia]] | 7 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão + Agent Browser (automação de Chrome) + pipeline multi-agente de gestão de conteúdo (Postiz) + CamoFox confirmado para extração de leads sem bloqueio |
 | [[wiki/concepts/estratégia-de-negócios-com-ia]] | 38 | 6 ângulos sobre repos open-source + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode + YC Request for Startups 2026 (mapa de setores: agro, saúde, defesa, espaço, hardware) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
-| [[wiki/concepts/segurança-com-ia]] | 8 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital + checklist jurídico-técnica pré-lançamento (GDPR/CCPA, RLS, OWASP) |
-| [[wiki/concepts/vibecoding]] | 2 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança; abordagens preventiva, detective e jurídico-técnica (pré-lançamento) |
+| [[wiki/concepts/segurança-com-ia]] | 9 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital + checklist jurídico-técnica pré-lançamento (GDPR/CCPA, RLS, OWASP) + segurança front-end (env vars, LocalStorage, cookies HTTP-only, CORS/CSP) |
+| [[wiki/concepts/vibecoding]] | 3 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança; abordagens preventiva (back-end), detective, jurídico-técnica (pré-lançamento) e front-end específica |
 | [[wiki/concepts/adoção-empresarial-de-ia]] | 2 | Playbook empresarial: 11 capítulos sobre como organizações passam de piloto a ROI real + contraste com YC Playbook (greenfield vs. incumbente) |
 | [[wiki/concepts/dados-como-moat]] | 1 | Dados proprietários como vantagem competitiva durável; 47% das empresas explicitamente o citam como moat |
 | [[wiki/concepts/escolha-de-modelo-fundacional]] | 1 | Comoditização parcial (42% commodity); multi-model + abstraction layer como vantagem |
@@ -201,6 +202,7 @@
 | [[wiki/entities/adriano-couto]] | @Adriano Couto | 1 | Gestão com IA, gatilhos cognitivos, frameworks McKinsey |
 | [[wiki/entities/daniel-socrates]] | @Daniel Sócrates \| SEO & IA | 1 | SEO + Google Search Console + Claude — otimização de páginas em posições 8–20 |
 | [[wiki/entities/eduardo-santos]] | @Eduardo Santos | 1 | IA nas empresas, prospecção com Vibe Prospecting |
+| [[wiki/entities/gustavo-sextaro]] | @Gustavo Sextaro | 1 | Segurança front-end para SaaS, criador do curso MVP Ao SaaS |
 
 ### Agregadores de conteúdo
 
