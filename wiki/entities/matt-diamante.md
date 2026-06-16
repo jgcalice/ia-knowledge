@@ -2,9 +2,9 @@
 title: "Matt Diamante"
 type: entity
 category: person
-tags: [seo, topical-authority, conteúdo, estratégia-de-negócios]
-source_count: 1
-last_updated: 2026-05-20
+tags: [seo, topical-authority, conteúdo, estratégia-de-negócios, engenharia-reversa, análise-competitiva]
+source_count: 2
+last_updated: 2026-06-16
 ---
 
 # Matt Diamante
@@ -20,6 +20,7 @@ Criador internacional de conteúdo no nicho **SEO simplificado para pequenos neg
 ## Aparições no wiki
 
 - [[2026-05-10_matt-diamante-topical-authority]] — pipeline de 3 passos: findquestions → uma página por pergunta → consistência → topical authority
+- [[2026-06-15_matt-diamante-seo-engenharia-reversa]] — pipeline de 7 passos para engenharia reversa de SEO: Google → #1 resultado → pageaudit.com → ChatGPT para analisar o concorrente → auditar o próprio site → ChatGPT para identificar lacunas
 
 ## Relacionado
 

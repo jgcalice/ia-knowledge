@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-06-15 | Total de páginas: 253 | Fontes ingeridas: 108
+> Atualizado em: 2026-06-16 | Total de páginas: 254 | Fontes ingeridas: 109
 
 ---
 
@@ -120,6 +120,7 @@
 | [[wiki/sources/2026-05-29_claude-ia-busca-emprego-score]] | @thinkentrepreneurs | 2026-05-29 | A Regra dos 75%: Claude como scoring engine de candidaturas (ATS + pontuação 0-100) |
 | [[wiki/sources/2026-06-02_artificial-intelligence-ai-headshots]] | @Artificial Intelligence (AI) | 2026-06-02 | 10 prompts para headshots LinkedIn-ready com IA; comoditização do headshot polido como sinal de carreira |
 | [[wiki/sources/2026-06-08_gustavo-sextaro-seguranca-saas-frontend]] | @Gustavo Sextaro | 2026-06-08 | 5 práticas de segurança front-end para SaaS: env vars, LocalStorage, cookies HTTP-only, Session Storage, CORS/CSP |
+| [[wiki/sources/2026-06-15_matt-diamante-seo-engenharia-reversa]] | @Matt Diamante | 2026-06-15 | SEO por engenharia reversa: Google → #1 → pageaudit.com → ChatGPT para analisar concorrente e identificar lacunas do próprio site |
 | [[wiki/sources/2026-05-29_prakash-kumar-founder-thinking-mode]] | @Prakash Kumar | 2026-05-29 | Founder Thinking Mode: Custom Instructions como co-fundador permanente + 6 casos de uso |
 | [[wiki/sources/2026-05-28_founded-ceo-yc-startup-ia]] | @FOUNDED CEO | 2026-05-28 | Y Combinator: playbook de Diana Hu com 8 princípios para startups nativas de IA |
 
@@ -147,7 +148,7 @@
 | [[wiki/concepts/finanças-com-ia]] | 6 | Análise de investimentos de nível institucional com LLMs — 6 ângulos: ROLE institucional, riqueza individual, screening funil, DIY estruturado, pipeline sequencial completo, gestor autônomo com dinheiro real |
 | [[wiki/concepts/bem-estar-com-ia]] | 1 | Prompts parametrizados substituindo serviços profissionais de fitness — inputs de anamnese → protocolo de nível profissional |
 | [[wiki/concepts/busca-de-emprego-com-ia]] | 7 | Busca de emprego automatizada com Career Ops, ATS, candidaturas personalizadas, preparação para entrevistas e score de compatibilidade 0-100 |
-| [[wiki/concepts/seo-com-ia]] | 3 | SEO com IA: três abordagens — arquivos técnicos (llms.txt), otimização via GSC e guia oficial Google (contradiz necessidade de llms.txt) |
+| [[wiki/concepts/seo-com-ia]] | 4 | SEO com IA: quatro abordagens — arquivos técnicos (llms.txt), otimização via GSC, guia oficial Google e engenharia reversa do concorrente #1 (pageaudit.com + ChatGPT) |
 | [[wiki/concepts/ia-local]] | 2 | Execução de LLMs sem nuvem: Ollama + LM Studio, RAM guide, quantização Q4_K_M, API OpenAI-compatível local |
 | [[wiki/concepts/viagem-com-ia]] | 1 | Prompts para análise profissional de preços de voos: hidden routes, geo-pricing, fare rules, timing, airline vs OTA |
 
@@ -294,7 +295,7 @@
 | [[wiki/entities/forrest-chang]] | Forrest Chang | 1 | Developer — autor de plugin Claude Code (~42k stars no GitHub) que corrige os 3 problemas default |
 | [[wiki/entities/prompt-prism]] | @Prompt Prism | 1 | Carreira de 5 anos com frameworks acadêmicos (Odyssey Plan) e benchmarks salariais 2025–2026 |
 | [[wiki/entities/drew-huibregtse]] | @Drew Huibregtse \| Digital Products | 3 | Low-content digital products no Amazon KDP — sistema de 4 passos + pipeline de 5 prompts Claude + coloring books com dashboard real $13.392/mês |
-| [[wiki/entities/matt-diamante]] | @Matt Diamante | 1 | SEO simplificado via topical authority com findquestions.com — uma pergunta por post |
+| [[wiki/entities/matt-diamante]] | @Matt Diamante | 2 | SEO simplificado: topical authority com findquestions.com + engenharia reversa do concorrente #1 via pageaudit.com + ChatGPT |
 | [[wiki/entities/hasan-toor]] | @Hasan Toor | 2 | Pesquisa de mercado avançada + guia técnico de IA local (Ollama, LM Studio, Q4_K_M, localhost API) |
 | [[wiki/entities/roshan-krishna]] | @Roshan Krishna | 1 | 5 prompts Claude para entrevistas de emprego — pipeline de preparação: prever perguntas → STAR → mock brutal → cheatsheet |
 | [[wiki/entities/mike]] | @Mike | 1 | 11 perguntas estratégicas para fazer ao entrevistador no final da entrevista (sem IA) |

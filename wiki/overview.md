@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-06-02
-source_count: 107
+last_updated: 2026-06-16
+source_count: 109
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 108 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance** e **Imagem com IA**
+> Wiki iniciado em 2026-04-21 | 109 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance** e **Imagem com IA**
 
 ## Tese atual
 
@@ -102,7 +102,8 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - Branding completo em 2h com 120+ agentes ([[rafael-brandao]])
 - SEO na primeira página do Google com 3 arquivos de texto ([[brycen-wood]])
 - SEO data-driven: Google Search Console + Claude para priorizar palavras-chave "quase ranqueando" e otimizar conteúdo existente sem criar nova página — workflow que agências cobram R$5K, feito em minutos ([[daniel-socrates]])
-- **Guia oficial Google (NOVO)**: AI Overviews e AI Mode usam RAG + query fan-out sobre o mesmo ranking tradicional — não existe algoritmo separado de IA. Mythbusting oficial: `llms.txt`, fragmentação de conteúdo e reescrita para IA **não são necessários**. ⚠️ Contradição com [[brycen-wood]] que recomenda `llms.txt` como chave para SEO na era IA ([[ai-researches-ai]])
+- **Guia oficial Google**: AI Overviews e AI Mode usam RAG + query fan-out sobre o mesmo ranking tradicional — não existe algoritmo separado de IA. Mythbusting oficial: `llms.txt`, fragmentação de conteúdo e reescrita para IA **não são necessários**. ⚠️ Contradição com [[brycen-wood]] que recomenda `llms.txt` como chave para SEO na era IA ([[ai-researches-ai]])
+- **Engenharia reversa do concorrente #1 (NOVO)**: [[matt-diamante]] documenta 4ª abordagem de SEO — pipeline de 7 passos que inverte a lógica: em vez de otimizar o seu site às cegas, audita primeiro o #1 ranqueado com pageaudit.com, analisa os resultados no ChatGPT ("This is my competitor. They rank for [keyword]. Analyze this."), depois audita o próprio site e pergunta ao ChatGPT o que falta para superá-lo. Abordagem agnóstica de plataforma de IA (usa ChatGPT como motor de análise). Complementa as 3 abordagens anteriores: Brycen Wood (técnica), Daniel Sócrates (dados GSC), guia oficial Google (conteúdo de qualidade). Conceito: [[seo-com-ia]] (source_count 3→4)
 - 5 modelos nativos de IA (eBook, YouTube narrado, newsletter, curso online, agente WhatsApp como AIaaS) ([[bruno-wambier]])
 - Mini web app focado + Instagram como canal único ([[luna-vega]])
 - AI Agency (Dan Martell, Liam Ottley) — agência automatiza outras empresas ([[paul-hilse]])
@@ -303,12 +304,16 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 108 |
-| Páginas de fontes | 108 |
+| Fontes ingeridas | 109 |
+| Páginas de fontes | 109 |
 | Páginas de conceitos | 21 |
 | Páginas de entidades | 116 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **253** |
+| **Total de páginas** | **254** |
+
+## Adições da ingestão de 2026-06-16 (1 fonte nova)
+
+- **SEO por engenharia reversa — 4ª abordagem documentada** — [[matt-diamante]] (@Matt Diamante) apresenta pipeline de 7 passos baseado em análise do concorrente #1: Google → copiar URL do #1 → pageaudit.com para auditoria técnica → ChatGPT analisa o que o concorrente faz certo → auditar próprio site → ChatGPT identifica lacunas. Padrão central: "stop guessing — reverse engineer Google." Primeira aparição de pageaudit.com no wiki; uso de ChatGPT (não Claude) como motor de análise confirma que o padrão "LLM como analista de dados estruturados" é agnóstico de plataforma. [[seo-com-ia]] passa de 3 para 4 abordagens documentadas. [[matt-diamante]] source_count 1→2. Criada: [[2026-06-15_matt-diamante-seo-engenharia-reversa]]. Status: 108→109 fontes, 253→254 páginas.
 
 ## Adições da ingestão de 2026-06-15 (1 fonte nova)
 
