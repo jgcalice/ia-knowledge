@@ -3,8 +3,8 @@ title: "LinkedIn"
 type: entity
 category: platform
 tags: [linkedin, carreira, recrutamento, perfil, otimização, ats, currículo]
-source_count: 6
-last_updated: 2026-05-02
+source_count: 7
+last_updated: 2026-06-16
 ---
 
 # LinkedIn
@@ -50,6 +50,17 @@ Diagnóstico antes de qualquer reescrita: pedir ao Claude para simular o julgame
 
 → [[2026-04-28_your-ai-compass-perfil-profissional]] | [[your-ai-compass]]
 
+## Abordagem 4: "cold outreach direto para o hiring manager" (Hollyfield lA)
+
+Além do perfil otimizado, o LinkedIn é canal de abordagem direta. Mensagem estruturada com 3 elementos:
+1. Início específico sobre a empresa (não genérico)
+2. Conexão de valor pessoal
+3. Pedido de baixa fricção
+
+Limite: <75 palavras. Destinatário: responsável pela contratação, não o RH.
+
+→ [[2026-06-15_hollyfield-la-7-prompts-emprego]] | [[hollyfield-la]]
+
 ## Fontes
 
 - [[2026-04-11_transformacao-linkedin-ia]]
@@ -58,3 +69,4 @@ Diagnóstico antes de qualquer reescrita: pedir ao Claude para simular o julgame
 - [[2026-04-15_leads-qualificados-claudecode]] — LinkedIn como dado de enriquecimento de lead (perfil do prospect)
 - [[2026-04-22_arshman-khalid-automacao-busca-emprego]] — LinkedIn Jobs scraped via Apify Actor para alimentar pipeline de candidatura automatizada
 - [[2026-04-28_your-ai-compass-perfil-profissional]] — 4 prompts com ROLEs de recrutadores de elite para reconstrução completa de candidatura
+- [[2026-06-15_hollyfield-la-7-prompts-emprego]] — cold outreach <75 palavras para hiring manager + otimização de perfil para 3 audiências simultâneas

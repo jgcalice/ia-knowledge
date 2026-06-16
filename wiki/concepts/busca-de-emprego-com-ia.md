@@ -1,9 +1,9 @@
 ---
 title: "Busca de Emprego com IA"
 type: concept
-tags: [carreira, busca-de-emprego, automação, ats, currículo, claude-code, apify, linkedin, negociação, cover-letter, quantificação, entrevista, star-method]
-source_count: 7
-last_updated: 2026-05-30
+tags: [carreira, busca-de-emprego, automação, ats, currículo, claude-code, apify, linkedin, negociação, cover-letter, quantificação, entrevista, star-method, cold-outreach, follow-up]
+source_count: 8
+last_updated: 2026-06-16
 ---
 
 # Busca de Emprego com IA
@@ -189,6 +189,51 @@ ATS (Workday, Greenhouse, Lever) escaneia currículos em busca de keywords da JD
 
 → [[2026-05-29_claude-ia-busca-emprego-score]] | Autor: [[think-entrepreneurs]]
 
+## Pipeline completo em 7 prompts (@Hollyfield lA)
+
+Enquanto as abordagens anteriores cobrem fases isoladas, este carousel documenta todos os 7 estágios do funil em sequência — da construção do currículo ao follow-up pós-interação.
+
+**Novidades em relação ao que já estava documentado:**
+
+### Cold outreach para o hiring manager (Prompt 4)
+
+Mensagem direta para quem contrata (não para o RH genérico):
+
+```
+Escreva uma mensagem fria breve para LinkedIn para o responsável pela 
+contratação de [empresa] para [cargo]. Comece com algo específico sobre 
+a empresa. Conecte meu valor pessoal. Termine com um pedido de baixa 
+fricção. Menos de 75 palavras. Minha experiência: [cole aqui]
+```
+
+**Três elementos obrigatórios da estrutura**: início específico sobre a empresa (não genérico), conexão de valor pessoal, pedido de baixa fricção. O limite de 75 palavras é constraint funcional — mensagens longas são ignoradas.
+
+### Follow-up que reabre portas (Prompt 7)
+
+Primeiro prompt de follow-up estruturado documentado no wiki:
+
+```
+Escreva uma mensagem de seguimento depois de [candidatura/entrevista/networking] 
+com [nome/empresa]. Reforce meu encaixe em uma frase, adicione um novo ponto 
+de valor e peça os próximos passos de forma profissional. 
+Caloroso, confiante, sem parecer desesperado.
+```
+
+**Constraint de tom** "caloroso, confiante, sem parecer desesperado" — instrução de registro emocional para o modelo, não apenas de conteúdo.
+
+### Plano de 7 dias executável (Prompt 3)
+
+```
+Quero um trabalho como [cargo] em [cidade/remoto]. Crie um plano de execução 
+de 7 dias com: melhores portais de emprego, fontes ocultas de vagas, 
+palavras-chave de busca, objetivos diários de contato, número de 
+candidaturas por dia, estratégia de networking.
+```
+
+**Detalhe**: "fontes ocultas de vagas" — instrução que força o modelo a ir além dos portais óbvios (Indeed, LinkedIn Jobs).
+
+→ [[2026-06-15_hollyfield-la-7-prompts-emprego]] | Autor: [[hollyfield-la]]
+
 ## Fontes
 
 - [[2026-04-07_career-ops-busca-emprego-ia]]
@@ -198,3 +243,4 @@ ATS (Workday, Greenhouse, Lever) escaneia currículos em busca de keywords da JD
 - [[2026-05-18_roshan-krishna-5-prompts-entrevista]]
 - [[2026-05-17_mike-perguntas-entrevista]]
 - [[2026-05-29_claude-ia-busca-emprego-score]]
+- [[2026-06-15_hollyfield-la-7-prompts-emprego]]

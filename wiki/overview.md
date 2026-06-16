@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-06-16
-source_count: 109
+source_count: 110
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 109 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance** e **Imagem com IA**
+> Wiki iniciado em 2026-04-21 | 110 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance** e **Imagem com IA**
 
 ## Tese atual
 
@@ -71,6 +71,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 | Preparação para entrevista | 5 prompts encadeados: prever perguntas → respostas STAR → pontos fracos → mock brutal (score 0-10) → cheatsheet 60s | [[roshan-krishna]] |
 | Perguntas no final da entrevista | 11 perguntas estratégicas que o candidato faz ao entrevistador: expectativas de sucesso, cultura real, "Do you have any doubts about me?" | [[mike]] |
 | Score de compatibilidade (fase 0) | Claude + Web search + currículo → score 0-100 por vaga → Regra dos 75%: só aplicar se ≥ 75 (ATS filtra keywords antes do humano ver) | [[think-entrepreneurs]] |
+| Pipeline completo 7 fases | Currículo ATS → LinkedIn 3 audiências → Plano 7 dias → Cold outreach <75 palavras para hiring manager → Cover letter 180 palavras → Entrevista → Follow-up com constraint de tom emocional | [[hollyfield-la]] |
 | Redesenho estratégico | 4 prompts Tim Ferriss: vantagem injusta, DEAL, freedom ratio, 10 anos | [[god-of-prompt]] |
 | Monetização imediata | 4 prompts para ganhar $1k em 30 dias com skills existentes | [[sabrina-ramonov]] · confirmado por [[allessandra-sinisgalli]] |
 | Monetização com templates | 5 prompts-template `[insert X]`: freelance do cargo atual, plano 30 dias $10K, desafio 7 dias, day rate $1K/dia, serviço $10K/mês | [[laura-anderson]] |
@@ -304,14 +305,16 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 109 |
-| Páginas de fontes | 109 |
+| Fontes ingeridas | 110 |
+| Páginas de fontes | 110 |
 | Páginas de conceitos | 21 |
-| Páginas de entidades | 116 |
+| Páginas de entidades | 117 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **254** |
+| **Total de páginas** | **256** |
 
-## Adições da ingestão de 2026-06-16 (1 fonte nova)
+## Adições da ingestão de 2026-06-16 (2 fontes novas)
+
+- **Pipeline completo de emprego em 7 fases com Claude** — [[hollyfield-la]] (@Hollyfield lA) documenta o primeiro pipeline de busca de emprego que cobre todas as 7 fases em sequência: currículo ATS → perfil LinkedIn para 3 audiências (recrutadores, decision makers, founders) → plano de 7 dias com metas numéricas diárias → **cold outreach <75 palavras para o hiring manager** (não para o RH genérico) → cover letter com abertura ousada (sem "Estou me candidatando") → preparação completa para entrevista → **follow-up com constraint de tom emocional** ("caloroso, confiante, sem parecer desesperado"). Duas lacunas do wiki preenchidas: cold outreach direto para o hiring manager e follow-up estruturado — fases não documentadas em nenhuma das 7 fontes anteriores de [[busca-de-emprego-com-ia]]. Entidade criada: [[hollyfield-la]]. Atualizadas: [[busca-de-emprego-com-ia]] (source_count 7→8, novas seções de cold outreach, follow-up e plano de 7 dias), [[carreira-com-ia]] (source_count 21→22, nova seção 14 na tabela do Cluster 3), [[prompt-engineering]] (source_count 41→42, nova seção "Constraints de tom emocional em prompts de comunicação"), [[linkedin]] (source_count 6→7, Abordagem 4 adicionada). Status: 109→110 fontes, 254→256 páginas.
 
 - **SEO por engenharia reversa — 4ª abordagem documentada** — [[matt-diamante]] (@Matt Diamante) apresenta pipeline de 7 passos baseado em análise do concorrente #1: Google → copiar URL do #1 → pageaudit.com para auditoria técnica → ChatGPT analisa o que o concorrente faz certo → auditar próprio site → ChatGPT identifica lacunas. Padrão central: "stop guessing — reverse engineer Google." Primeira aparição de pageaudit.com no wiki; uso de ChatGPT (não Claude) como motor de análise confirma que o padrão "LLM como analista de dados estruturados" é agnóstico de plataforma. [[seo-com-ia]] passa de 3 para 4 abordagens documentadas. [[matt-diamante]] source_count 1→2. Criada: [[2026-06-15_matt-diamante-seo-engenharia-reversa]]. Status: 108→109 fontes, 253→254 páginas.
 

@@ -2,8 +2,8 @@
 title: "Carreira e Negócios com IA"
 type: concept
 tags: [carreira, negócios, linkedin, ia, recrutamento, oportunidades, renda, transição-de-carreira, ats, currículo, cover-letter, odyssey-plan, longevidade-profissional, entrevista, star-method, personal-brand, image-generation]
-source_count: 21
-last_updated: 2026-06-02
+source_count: 22
+last_updated: 2026-06-16
 ---
 
 # Carreira e Negócios com IA
@@ -170,6 +170,24 @@ Complemento direto à seção 11 — enquanto [[roshan-krishna]] prepara o candi
 
 → [[2026-05-17_mike-perguntas-entrevista]] | Autor: [[mike]]
 
+### 14. Pipeline completo de emprego em 7 prompts (@Hollyfield lA)
+
+Primeira fonte a cobrir todas as 7 fases do funil de busca de emprego em um único pipeline — da construção do currículo ao follow-up pós-candidatura:
+
+| Fase | Prompt | Diferencial |
+|------|--------|-------------|
+| Currículo ATS | Atue como recrutador sênior, reescreva com conquistas mensuráveis e verbos de ação | Dupla aprovação: ATS + olho humano |
+| Perfil LinkedIn | Otimizar título, Sobre, habilidades e 3 experiências para 3 audiências: recrutadores, tomadores de decisão, founders | Três audiências explícitas, não apenas ATS |
+| Plano de 7 dias | Portais, fontes ocultas de vagas, palavras-chave, metas diárias de contato, número de candidaturas, networking | Metas numéricas diárias + fontes além das óbvias |
+| Mensagem fria <75 palavras | Para o hiring manager: início específico sobre a empresa + valor + pedido de baixa fricção | Cold outreach ao contratante, não ao RH |
+| Cover letter 180 palavras | Abertura ousada (sem "Estou me candidatando"), conectar experiência às necessidades + JD em anexo | Abertura sem frase formulaica |
+| Sistema de entrevista | 10 perguntas prováveis + estruturas STAR + perguntas técnicas + 5 para o entrevistador + red flags | Input de experiência → prep personalizada |
+| Follow-up | Reforçar encaixe em uma frase + novo ponto de valor + próximos passos. Caloroso, confiante, sem parecer desesperado | Constraint de tom emocional + novo ponto de valor |
+
+**Posição no mapa de carreira**: primeiro pipeline que conecta *todas* as fases documentadas em fontes anteriores, adicionando cold outreach e follow-up que não estavam documentados.
+
+→ [[2026-06-15_hollyfield-la-7-prompts-emprego]] | Autor: [[hollyfield-la]]
+
 ### 13. Marca pessoal na era da IA — do headshot à presença de nicho
 
 [[artificial-intelligence-ai]] documenta o colapso do headshot profissional como sinal de competência, e o surgimento de um novo diferencial: presença de nicho consistente.
@@ -217,3 +235,4 @@ Há **convergência temática clara**: múltiplos criadores internacionais refor
 - [[2026-05-18_roshan-krishna-5-prompts-entrevista]]
 - [[2026-05-17_mike-perguntas-entrevista]]
 - [[2026-06-02_artificial-intelligence-ai-headshots]]
+- [[2026-06-15_hollyfield-la-7-prompts-emprego]]

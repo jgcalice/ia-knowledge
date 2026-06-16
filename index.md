@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-06-16 | Total de páginas: 254 | Fontes ingeridas: 109
+> Atualizado em: 2026-06-16 | Total de páginas: 256 | Fontes ingeridas: 110
 
 ---
 
@@ -120,6 +120,7 @@
 | [[wiki/sources/2026-05-29_claude-ia-busca-emprego-score]] | @thinkentrepreneurs | 2026-05-29 | A Regra dos 75%: Claude como scoring engine de candidaturas (ATS + pontuação 0-100) |
 | [[wiki/sources/2026-06-02_artificial-intelligence-ai-headshots]] | @Artificial Intelligence (AI) | 2026-06-02 | 10 prompts para headshots LinkedIn-ready com IA; comoditização do headshot polido como sinal de carreira |
 | [[wiki/sources/2026-06-08_gustavo-sextaro-seguranca-saas-frontend]] | @Gustavo Sextaro | 2026-06-08 | 5 práticas de segurança front-end para SaaS: env vars, LocalStorage, cookies HTTP-only, Session Storage, CORS/CSP |
+| [[wiki/sources/2026-06-15_hollyfield-la-7-prompts-emprego]] | @Hollyfield lA | 2026-06-15 | Pipeline completo de 7 fases de busca de emprego com Claude: currículo ATS → LinkedIn → plano 7 dias → cold outreach <75 palavras → cover letter → entrevista → follow-up |
 | [[wiki/sources/2026-06-15_matt-diamante-seo-engenharia-reversa]] | @Matt Diamante | 2026-06-15 | SEO por engenharia reversa: Google → #1 → pageaudit.com → ChatGPT para analisar concorrente e identificar lacunas do próprio site |
 | [[wiki/sources/2026-05-29_prakash-kumar-founder-thinking-mode]] | @Prakash Kumar | 2026-05-29 | Founder Thinking Mode: Custom Instructions como co-fundador permanente + 6 casos de uso |
 | [[wiki/sources/2026-05-28_founded-ceo-yc-startup-ia]] | @FOUNDED CEO | 2026-05-28 | Y Combinator: playbook de Diana Hu com 8 princípios para startups nativas de IA |
@@ -132,8 +133,8 @@
 |--------|--------|-----------|
 | [[wiki/concepts/geração-de-leads-com-ia]] | 3 | Uso de LLMs + scraping para prospecção B2B automatizada |
 | [[wiki/concepts/otimização-de-tokens]] | 4 | Técnicas para reduzir consumo de tokens no Claude |
-| [[wiki/concepts/prompt-engineering]] | 41 | Padrões de estruturação + palavras-gatilho + Claude Skills + "Act like a senior engineer" + substitutos de serviços profissionais (fitness, voos, finanças) + STAR como instrução explícita + Custom Instructions como modo persistente + prompts de geração de imagem com negative prompts |
-| [[wiki/concepts/carreira-com-ia]] | 21 | IA para aceleração de carreira, LinkedIn, renda, produtos próprios, performance em entrevistas e personal brand na era do headshot comoditizado |
+| [[wiki/concepts/prompt-engineering]] | 42 | Padrões de estruturação + palavras-gatilho + Claude Skills + "Act like a senior engineer" + substitutos de serviços profissionais (fitness, voos, finanças) + STAR como instrução explícita + Custom Instructions como modo persistente + prompts de geração de imagem com negative prompts + constraints de tom emocional em comunicação estratégica |
+| [[wiki/concepts/carreira-com-ia]] | 22 | IA para aceleração de carreira, LinkedIn, renda, produtos próprios, performance em entrevistas e personal brand na era do headshot comoditizado + pipeline completo de 7 fases (cold outreach + follow-up) |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 3 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
 | [[wiki/concepts/agentes-ia]] | 7 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão + Agent Browser (automação de Chrome) + pipeline multi-agente de gestão de conteúdo (Postiz) + CamoFox confirmado para extração de leads sem bloqueio |
 | [[wiki/concepts/estratégia-de-negócios-com-ia]] | 38 | 6 ângulos sobre repos open-source + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode + YC Request for Startups 2026 (mapa de setores: agro, saúde, defesa, espaço, hardware) |
@@ -147,7 +148,7 @@
 | [[wiki/concepts/produtividade-e-emprego-com-ia]] | 1 | 45% reduzem headcount; 55% redeployment ou hiring avoided; "canários" em workers 22-25 expostos |
 | [[wiki/concepts/finanças-com-ia]] | 6 | Análise de investimentos de nível institucional com LLMs — 6 ângulos: ROLE institucional, riqueza individual, screening funil, DIY estruturado, pipeline sequencial completo, gestor autônomo com dinheiro real |
 | [[wiki/concepts/bem-estar-com-ia]] | 1 | Prompts parametrizados substituindo serviços profissionais de fitness — inputs de anamnese → protocolo de nível profissional |
-| [[wiki/concepts/busca-de-emprego-com-ia]] | 7 | Busca de emprego automatizada com Career Ops, ATS, candidaturas personalizadas, preparação para entrevistas e score de compatibilidade 0-100 |
+| [[wiki/concepts/busca-de-emprego-com-ia]] | 8 | Busca de emprego automatizada com Career Ops, ATS, candidaturas personalizadas, preparação para entrevistas, score de compatibilidade 0-100 e pipeline completo com cold outreach e follow-up estruturado |
 | [[wiki/concepts/seo-com-ia]] | 4 | SEO com IA: quatro abordagens — arquivos técnicos (llms.txt), otimização via GSC, guia oficial Google e engenharia reversa do concorrente #1 (pageaudit.com + ChatGPT) |
 | [[wiki/concepts/ia-local]] | 2 | Execução de LLMs sem nuvem: Ollama + LM Studio, RAM guide, quantização Q4_K_M, API OpenAI-compatível local |
 | [[wiki/concepts/viagem-com-ia]] | 1 | Prompts para análise profissional de preços de voos: hidden routes, geo-pricing, fare rules, timing, airline vs OTA |
@@ -174,7 +175,7 @@
 | [[wiki/entities/api-file]] | platform | 1 | Marketplace de APIs para scraping e integração |
 | [[wiki/entities/markitdown]] | tool | 2 | Conversor de documentos para Markdown (Microsoft) |
 | [[wiki/entities/google-maps]] | platform | 4 | Fonte de dados para leads B2B + mercado de SEO local (agência GMB) + sweet spot pattern |
-| [[wiki/entities/linkedin]] | platform | 6 | Plataforma de otimização de perfil e busca de vagas |
+| [[wiki/entities/linkedin]] | platform | 7 | Plataforma de otimização de perfil, busca de vagas e cold outreach direto para hiring manager |
 | [[wiki/entities/career-ops]] | tool | 2 | Sistema open-source de busca de emprego com Claude Code (plugin + terminal) |
 | [[wiki/entities/claude-skills]] | tool | 4 | Feature Anthropic: pacotes nomeados de comportamento (Feature Forge, The Fool, etc.) + stack oficial de automação (Skill Creator, Superpowers, GSD, Context Mode, Claude Mem) |
 | [[wiki/entities/smithery]] | platform | 1 | Marketplace com 128k+ Claude Skills/MCPs |
@@ -204,6 +205,7 @@
 | [[wiki/entities/daniel-socrates]] | @Daniel Sócrates \| SEO & IA | 1 | SEO + Google Search Console + Claude — otimização de páginas em posições 8–20 |
 | [[wiki/entities/eduardo-santos]] | @Eduardo Santos | 1 | IA nas empresas, prospecção com Vibe Prospecting |
 | [[wiki/entities/gustavo-sextaro]] | @Gustavo Sextaro | 1 | Segurança front-end para SaaS, criador do curso MVP Ao SaaS |
+| [[wiki/entities/hollyfield-la]] | @Hollyfield lA | 1 | Pipeline completo de 7 fases de busca de emprego com Claude; cold outreach e follow-up estruturados |
 
 ### Agregadores de conteúdo
 

@@ -2,8 +2,8 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas, plan-mode, self-checking, custom-instructions, image-generation, negative-prompt]
-source_count: 41
-last_updated: 2026-06-02
+source_count: 42
+last_updated: 2026-06-16
 ---
 
 # Prompt Engineering
@@ -361,6 +361,21 @@ with: 'Here's what I'd actually do.'
 
 → [[2026-05-29_prakash-kumar-founder-thinking-mode]] | [[prakash-kumar]]
 
+### Constraints de tom emocional em prompts de comunicação
+
+([[hollyfield-la]], [[2026-06-15_hollyfield-la-7-prompts-emprego]])
+
+Extensão do padrão "Output Constraints" aplicada ao **registro emocional**, não ao formato ou ao comprimento. Em vez de especificar "250 palavras" ou "em 3 bullets", a constraint define como o output deve *soar*:
+
+- `"Caloroso, confiante, sem parecer desesperado."` (follow-up pós-candidatura)
+- `"Termine com um pedido de baixa fricção."` (cold outreach)
+
+**Distinção dos outros constraints documentados**: Output Constraints anteriores no wiki limitam tamanho ou estrutura — aqui a restrição é sobre o estado emocional que a mensagem deve transmitir ao leitor. O modelo é instruído como redator de comunicação estratégica, não como gerador de texto. Essa abordagem é análoga ao "Don't go easy on me" de [[roshan-krishna]], que instrui um *modo comportamental*, não um formato de saída.
+
+**Constraint de canal** também documentada nesta fonte: `"Menos de 75 palavras"` para mensagem fria ao hiring manager via LinkedIn — limite funcional baseado no comportamento real do destinatário (mensagens longas são ignoradas), não apenas em preferência estética.
+
+→ [[2026-06-15_hollyfield-la-7-prompts-emprego]] | [[hollyfield-la]]
+
 ## Fontes
 
 - [[2026-03-19_leads-infinitos-cloudcode]]
@@ -394,3 +409,4 @@ with: 'Here's what I'd actually do.'
 - [[2026-05-25_bestapps-7-prompts-voos]]
 - [[2026-05-18_roshan-krishna-5-prompts-entrevista]]
 - [[2026-05-29_prakash-kumar-founder-thinking-mode]]
+- [[2026-06-15_hollyfield-la-7-prompts-emprego]]
