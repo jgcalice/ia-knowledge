@@ -2,8 +2,8 @@
 title: "Estratégia de Negócios com IA"
 type: concept
 tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce, amazon-kdp, topical-authority, low-content-products, open-source, custo-zero, criação-de-conteúdo, y-combinator, startups, ia-nativa, custom-instructions, founder-mode]
-source_count: 38
-last_updated: 2026-06-01
+source_count: 39
+last_updated: 2026-06-18
 ---
 
 # Estratégia de Negócios com IA
@@ -245,6 +245,12 @@ Segundo post de @codingknowledge no wiki, com enquadramento voltado ao usuário 
 Reel do "Dia 99 da série actual AI" — 7 repos que substituem $6.500/mês em SaaS. Ferramentas mencionadas coincidem com as já documentadas (ClaudeAds, Hyperframes, Open-Gen-AI, Agentic Inbox, CamoFox/CandleFox) + novidade: **[[librechat]]** como interface unificada de múltiplos LLMs (Claude + ChatGPT + Gemini em um só lugar), primeira menção no wiki. Six fontes independentes confirmam o mesmo padrão: repositórios GitHub gratuitos como substitutos diretos de SaaS pago — padrão consolidado.
 
 → [[2026-06-01_cooper-simson-7-repos-substituem-saas]]
+
+**7ª confirmação independente — ângulo execução > descoberta** ([[stics-ai]], [[2026-06-07_stics-ai-10-repos-renda-passiva]]):
+
+@Stics AI confirma os mesmos 9 repos (Cal.com, Plausible, Ghost, n8n, Supabase, Medusa, AppFlowy, Coolify, Listmonk) com diferencial editorial: **"a oportunidade real não é encontrar o repositório — é saber como usá-lo, customizá-lo e transformá-lo em algo que as pessoas realmente precisam."** Converge com o "vender outcomes, não workflows" de [[nate-herk]]: o repo é commodity, a vantagem está em quem executa. Enquadramento: "GitHub repos that quietly print money while you sleep."
+
+→ [[2026-06-07_stics-ai-10-repos-renda-passiva]]
 
 ## One-Person Business: o modelo de Dan Koe reverse-engineered com Claude
 
@@ -563,3 +569,4 @@ Complemento ao playbook operacional de [[diana-hu]] — enquanto aquele descreve
 - [[2026-05-24_hasan-toor-modelos-ia-offline]]
 - [[2026-05-12_bruno-souza-modelo-negocio-automatizado]]
 - [[2026-06-01_cooper-simson-7-repos-substituem-saas]]
+- [[2026-06-07_stics-ai-10-repos-renda-passiva]]

@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-06-16
-source_count: 110
+last_updated: 2026-06-18
+source_count: 111
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 110 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance** e **Imagem com IA**
+> Wiki iniciado em 2026-04-21 | 111 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance** e **Imagem com IA**
 
 ## Tese atual
 
@@ -207,7 +207,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]] · [[lovable]] · [[quepo]] · [[n8n]] · [[autopilot]] · [[ollama]] · [[whisper]] · [[lm-studio]] · [[postiz]] · [[librechat]]
 
-**Agregadores de conteúdo**: [[ai-developer-js]] · [[artificial-intelligence-ai]] · [[ask-gpts]] · [[bestapps-ai]] (3 fontes) · [[beyond-intelligence]] · [[founded-ceo]] · [[growai]] · [[ai-researches-ai]] · [[today-in-ai]] (2 fontes)
+**Agregadores de conteúdo**: [[ai-developer-js]] · [[artificial-intelligence-ai]] · [[ask-gpts]] · [[bestapps-ai]] (3 fontes) · [[beyond-intelligence]] · [[founded-ceo]] · [[growai]] · [[ai-researches-ai]] · [[stics-ai]] · [[today-in-ai]] (2 fontes)
 
 **Instituições / Aceleradoras**: [[stanford-digital-economy-lab]] · [[y-combinator]]
 
@@ -305,12 +305,16 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 110 |
-| Páginas de fontes | 110 |
+| Fontes ingeridas | 111 |
+| Páginas de fontes | 111 |
 | Páginas de conceitos | 21 |
-| Páginas de entidades | 117 |
+| Páginas de entidades | 118 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **256** |
+| **Total de páginas** | **258** |
+
+## Adições da ingestão de 2026-06-18 (1 fonte nova)
+
+- **7ª confirmação independente do padrão white-label SaaS repos — ângulo execução** — [[stics-ai]] (@Stics AI) publica os mesmos 9 repos já documentados no wiki (Cal.com, Plausible, Ghost, n8n, Supabase, Medusa, AppFlowy, Coolify, Listmonk) com diferencial editorial: *"a oportunidade real não é encontrar o repositório — é saber como usá-lo, customizá-lo e transformá-lo em algo que as pessoas realmente precisam."* Este é o primeiro enquadramento focado em **execução sobre descoberta** — os seis criadores anteriores listavam os repos; @Stics AI argumenta que o repo é commodity e a vantagem competitiva está em quem customiza. Converge com o "vender outcomes, não workflows" de [[nate-herk]]. Criadas: [[2026-06-07_stics-ai-10-repos-renda-passiva]] (nova fonte), [[stics-ai]] (nova entidade-agregador). Atualizadas: [[estratégia-de-negócios-com-ia]] (source_count 38→39, 7ª confirmação adicionada), [[n8n]] (source_count 4→5). [[stics-ai]] adicionado ao mapa de Agregadores. Status: 110→111 fontes, 256→258 páginas.
 
 ## Adições da ingestão de 2026-06-16 (2 fontes novas)
 

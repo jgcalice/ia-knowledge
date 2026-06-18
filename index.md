@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-06-16 | Total de páginas: 256 | Fontes ingeridas: 110
+> Atualizado em: 2026-06-18 | Total de páginas: 258 | Fontes ingeridas: 111
 
 ---
 
@@ -123,6 +123,7 @@
 | [[wiki/sources/2026-06-15_hollyfield-la-7-prompts-emprego]] | @Hollyfield lA | 2026-06-15 | Pipeline completo de 7 fases de busca de emprego com Claude: currículo ATS → LinkedIn → plano 7 dias → cold outreach <75 palavras → cover letter → entrevista → follow-up |
 | [[wiki/sources/2026-06-15_matt-diamante-seo-engenharia-reversa]] | @Matt Diamante | 2026-06-15 | SEO por engenharia reversa: Google → #1 → pageaudit.com → ChatGPT para analisar concorrente e identificar lacunas do próprio site |
 | [[wiki/sources/2026-05-29_prakash-kumar-founder-thinking-mode]] | @Prakash Kumar | 2026-05-29 | Founder Thinking Mode: Custom Instructions como co-fundador permanente + 6 casos de uso |
+| [[wiki/sources/2026-06-07_stics-ai-10-repos-renda-passiva]] | @Stics AI | 2026-06-07 | 10 repos GitHub para renda passiva — ângulo execução > descoberta; 7ª confirmação do padrão white-label SaaS |
 | [[wiki/sources/2026-05-28_founded-ceo-yc-startup-ia]] | @FOUNDED CEO | 2026-05-28 | Y Combinator: playbook de Diana Hu com 8 princípios para startups nativas de IA |
 
 ---
@@ -137,7 +138,7 @@
 | [[wiki/concepts/carreira-com-ia]] | 22 | IA para aceleração de carreira, LinkedIn, renda, produtos próprios, performance em entrevistas e personal brand na era do headshot comoditizado + pipeline completo de 7 fases (cold outreach + follow-up) |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 3 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
 | [[wiki/concepts/agentes-ia]] | 7 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão + Agent Browser (automação de Chrome) + pipeline multi-agente de gestão de conteúdo (Postiz) + CamoFox confirmado para extração de leads sem bloqueio |
-| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 38 | 6 ângulos sobre repos open-source + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode + YC Request for Startups 2026 (mapa de setores: agro, saúde, defesa, espaço, hardware) |
+| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 39 | 7 ângulos sobre repos open-source + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode + YC Request for Startups 2026 (mapa de setores: agro, saúde, defesa, espaço, hardware) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
 | [[wiki/concepts/segurança-com-ia]] | 9 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital + checklist jurídico-técnica pré-lançamento (GDPR/CCPA, RLS, OWASP) + segurança front-end (env vars, LocalStorage, cookies HTTP-only, CORS/CSP) |
 | [[wiki/concepts/vibecoding]] | 3 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança; abordagens preventiva (back-end), detective, jurídico-técnica (pré-lançamento) e front-end específica |
@@ -221,6 +222,7 @@
 | [[wiki/entities/ai-researches-ai]] | @AI researches \| AI | 1 | Canal internacional (1,2M seguidores) — curadoria de novidades IA, foco em guias oficiais e pesquisas |
 | [[wiki/entities/growai]] | @GROWAI | 1 | Canal curador de repos open-source para monetização com IA — "$10K/mês com ferramentas gratuitas do GitHub" |
 | [[wiki/entities/today-in-ai]] | @TODAY IN AI | 2 | Canal agregador (aitickerdaily/curatedai.net) — curadoria de repos GitHub para white-label SaaS e checklist de segurança pré-lançamento |
+| [[wiki/entities/stics-ai]] | @Stics AI | 1 | Canal curador internacional — repos GitHub para renda passiva; ângulo diferenciador: execução > descoberta |
 
 ### Pessoas / Criadores (Internacional — e-commerce)
 
