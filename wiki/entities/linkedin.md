@@ -3,8 +3,8 @@ title: "LinkedIn"
 type: entity
 category: platform
 tags: [linkedin, carreira, recrutamento, perfil, otimização, ats, currículo]
-source_count: 7
-last_updated: 2026-06-16
+source_count: 8
+last_updated: 2026-06-20
 ---
 
 # LinkedIn
@@ -61,6 +61,16 @@ Limite: <75 palavras. Destinatário: responsável pela contratação, não o RH.
 
 → [[2026-06-15_hollyfield-la-7-prompts-emprego]] | [[hollyfield-la]]
 
+## Abordagem 5: "scraping de vagas via modo agente do ChatGPT" (Rafa Grandi)
+
+ChatGPT em modo agente navega no LinkedIn (e no Lensa) para encontrar vagas dos últimos 7 dias compatíveis com os cargos mapeados no Prompt 1, gerando planilha com link, pontuação de compatibilidade e versão de currículo personalizada por vaga. Após a planilha, o agente se candidata nas 500 vagas de maior compatibilidade de forma autônoma.
+
+**Distinção das abordagens anteriores:**
+- vs. [[arshman-khalid]]: também faz scraping do LinkedIn, mas usa Apify Actor + Career Ops (plugin Claude); esta abordagem usa diretamente o modo agente do ChatGPT, sem tools externas
+- vs. [[hollyfield-la]]: cold outreach manual de <75 palavras; esta abordagem é totalmente automática (agente aplica sem o usuário interagir)
+
+→ [[2026-06-18_rafa-grandi-candidaturas-emprego-ia]] | [[rafa-grandi]]
+
 ## Fontes
 
 - [[2026-04-11_transformacao-linkedin-ia]]
@@ -70,3 +80,4 @@ Limite: <75 palavras. Destinatário: responsável pela contratação, não o RH.
 - [[2026-04-22_arshman-khalid-automacao-busca-emprego]] — LinkedIn Jobs scraped via Apify Actor para alimentar pipeline de candidatura automatizada
 - [[2026-04-28_your-ai-compass-perfil-profissional]] — 4 prompts com ROLEs de recrutadores de elite para reconstrução completa de candidatura
 - [[2026-06-15_hollyfield-la-7-prompts-emprego]] — cold outreach <75 palavras para hiring manager + otimização de perfil para 3 audiências simultâneas
+- [[2026-06-18_rafa-grandi-candidaturas-emprego-ia]] — scraping de vagas via modo agente do ChatGPT + auto-candidatura em 500 vagas com currículo personalizado por JD

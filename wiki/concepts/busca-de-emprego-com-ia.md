@@ -1,9 +1,9 @@
 ---
 title: "Busca de Emprego com IA"
 type: concept
-tags: [carreira, busca-de-emprego, automação, ats, currículo, claude-code, apify, linkedin, negociação, cover-letter, quantificação, entrevista, star-method, cold-outreach, follow-up]
-source_count: 8
-last_updated: 2026-06-16
+tags: [carreira, busca-de-emprego, automação, ats, currículo, claude-code, apify, linkedin, negociação, cover-letter, quantificação, entrevista, star-method, cold-outreach, follow-up, chatgpt, candidatura-em-massa]
+source_count: 9
+last_updated: 2026-06-20
 ---
 
 # Busca de Emprego com IA
@@ -234,6 +234,35 @@ candidaturas por dia, estratégia de networking.
 
 → [[2026-06-15_hollyfield-la-7-prompts-emprego]] | Autor: [[hollyfield-la]]
 
+## Auto-candidatura em massa com agente de IA (@Rafa Grandi)
+
+Abordagem radicalmente diferente de todas as anteriores: em vez de curar cada candidatura individualmente, o ChatGPT em **modo agente** executa todo o processo de forma autônoma — da triagem de vagas ao envio das candidaturas.
+
+**Pipeline de 4 prompts:**
+
+| # | Prompt | O que acontece |
+|---|--------|----------------|
+| 1 | "Atue como recrutador sênior... liste os 20 cargos para os quais eu mais me qualifico com as palavras-chave exatas que o ATS procura" | Mapeamento de cargos-alvo + keywords ATS com base no currículo |
+| 2 | "Reescreva meu currículo... Use a fórmula XYZ do Google e remova todos os sinais de alerta que um gerente detectaria em <10 segundos" | Currículo-mestre otimizado para ATS e para o olho humano |
+| 3 (modo agente) | "Vai no LinkedIn e no [Lensa] e encontre todos os empregos... nos últimos 7 dias. Crie uma planilha com link, pontuação de compatibilidade e versão personalizada" | Scraping autônomo + planilha ranqueada de vagas |
+| 4 (modo agente) | "Se candidate nas 500 vagas com maior compatibilidade, personalize cada candidatura com base na JD" | Auto-aplicação a 500 vagas enquanto o usuário não está ativo |
+
+**A fórmula XYZ do Google:** "Você alcançou [X] medido por [Y] fazendo [Z]" — estrutura de bullet orientada a resultados quantificados. Complementa a "fórmula McKinsey" de [[your-ai-compass]] ("Conseguiu X → Resultado Y → Por fazer Z").
+
+**Posição no espectro de automação:**
+
+| Abordagem | Vagas processadas | Automação | Ferramenta |
+|-----------|-------------------|-----------|------------|
+| [[coding-ai-fullstack]] | Manual por vaga | Mínima | Claude.ai |
+| [[career-ops]] / [[arshman-khalid]] | 700+ | Alta (script/plugin) | Claude Code + Apify |
+| [[rafa-grandi]] | 500+ com auto-apply | Total (agente) | ChatGPT modo agente |
+
+> ⚠️ **Contraste com [[think-entrepreneurs]] (Regra dos 75%):** aquela abordagem usa scoring como *filtro* (só aplicar se ≥ 75); esta usa scoring como *ranqueamento* (aplicar nas top 500). A lógica de personalização automática por JD torna viável a escala que a Regra dos 75% descartaria.
+
+> ⚠️ **Nota sobre a ferramenta:** este é um dos raros casos no wiki onde **ChatGPT** (não Claude) é o executor principal — o modo agente do ChatGPT tem capacidade de navegar sites e realizar ações, o que viabiliza o fluxo descrito.
+
+→ [[2026-06-18_rafa-grandi-candidaturas-emprego-ia]] | Autor: [[rafa-grandi]]
+
 ## Fontes
 
 - [[2026-04-07_career-ops-busca-emprego-ia]]
@@ -244,3 +273,4 @@ candidaturas por dia, estratégia de networking.
 - [[2026-05-17_mike-perguntas-entrevista]]
 - [[2026-05-29_claude-ia-busca-emprego-score]]
 - [[2026-06-15_hollyfield-la-7-prompts-emprego]]
+- [[2026-06-18_rafa-grandi-candidaturas-emprego-ia]]

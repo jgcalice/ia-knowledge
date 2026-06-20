@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-06-18
-source_count: 111
+last_updated: 2026-06-20
+source_count: 112
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 111 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance** e **Imagem com IA**
+> Wiki iniciado em 2026-04-21 | 112 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance** e **Imagem com IA**
 
 ## Tese atual
 
@@ -72,6 +72,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 | Perguntas no final da entrevista | 11 perguntas estratégicas que o candidato faz ao entrevistador: expectativas de sucesso, cultura real, "Do you have any doubts about me?" | [[mike]] |
 | Score de compatibilidade (fase 0) | Claude + Web search + currículo → score 0-100 por vaga → Regra dos 75%: só aplicar se ≥ 75 (ATS filtra keywords antes do humano ver) | [[think-entrepreneurs]] |
 | Pipeline completo 7 fases | Currículo ATS → LinkedIn 3 audiências → Plano 7 dias → Cold outreach <75 palavras para hiring manager → Cover letter 180 palavras → Entrevista → Follow-up com constraint de tom emocional | [[hollyfield-la]] |
+| Auto-candidatura em massa (500 vagas) | Upload currículo → 20 cargos + ATS keywords → modelo-mestre XYZ → agente scrapa LinkedIn+Lensa → planilha com scores → auto-aplica às top 500 personalizando por JD | [[rafa-grandi]] |
 | Redesenho estratégico | 4 prompts Tim Ferriss: vantagem injusta, DEAL, freedom ratio, 10 anos | [[god-of-prompt]] |
 | Monetização imediata | 4 prompts para ganhar $1k em 30 dias com skills existentes | [[sabrina-ramonov]] · confirmado por [[allessandra-sinisgalli]] |
 | Monetização com templates | 5 prompts-template `[insert X]`: freelance do cargo atual, plano 30 dias $10K, desafio 7 dias, day rate $1K/dia, serviço $10K/mês | [[laura-anderson]] |
@@ -215,7 +216,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Conceitos de segurança**: [[segurança-com-ia]]
 
-**Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]] · [[faria-lima-elevator]] · [[allessandra-sinisgalli]] · [[daniel-socrates]] · [[gustavo-sextaro]]
+**Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]] · [[faria-lima-elevator]] · [[allessandra-sinisgalli]] · [[daniel-socrates]] · [[gustavo-sextaro]] · [[rafa-grandi]]
 
 **Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]] · [[bert-no-chase]] · [[duncan-rogoff]] · [[ai-technology]] · [[shimin-mohammadi]] · [[harish-bhatt]] · [[roman-khaneichuk]] · [[hasan-toor]] · [[roshan-krishna]] · [[prakash-kumar]] · [[cooper-simson]]
 
@@ -305,12 +306,16 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 111 |
-| Páginas de fontes | 111 |
+| Fontes ingeridas | 112 |
+| Páginas de fontes | 112 |
 | Páginas de conceitos | 21 |
-| Páginas de entidades | 118 |
+| Páginas de entidades | 119 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **258** |
+| **Total de páginas** | **260** |
+
+## Adições da ingestão de 2026-06-20 (1 fonte nova)
+
+- **Auto-candidatura em massa via ChatGPT agente — 500 vagas em 24h** — [[rafa-grandi]] (@Rafa Grandi) apresenta experimento de candidatura em larga escala: 4 prompts sequenciais colocam o ChatGPT em modo agente para (1) mapear os 20 cargos mais compatíveis com o currículo + keywords ATS, (2) reescrever o currículo com a **fórmula XYZ do Google** e eliminar "sinais de alerta em <10 segundos", (3) scraping autônomo de LinkedIn e Lensa com planilha de pontuação de compatibilidade, e (4) auto-candidatura personalizada por JD nas top 500 vagas. **Distinção-chave:** ChatGPT (não Claude) é o executor — o modo agente tem capacidade nativa de navegar e agir. **Contraste com [[think-entrepreneurs]] (Regra dos 75%):** ambos usam scoring, mas aqueles filtram (só aplica se ≥75%) enquanto este ranqueia e aplica em volume (top 500 com personalização automática). Criadas: [[rafa-grandi]] (nova entidade-criador BR), [[2026-06-18_rafa-grandi-candidaturas-emprego-ia]] (nova fonte). Atualizadas: [[busca-de-emprego-com-ia]] (source_count 8→9, nova seção "Auto-candidatura em massa"), [[carreira-com-ia]] (source_count 22→23, seção 15 adicionada), [[linkedin]] (source_count 7→8, Abordagem 5 adicionada). [[rafa-grandi]] adicionado ao mapa de Pessoas BR. Status: 111→112 fontes, 258→260 páginas.
 
 ## Adições da ingestão de 2026-06-18 (1 fonte nova)
 

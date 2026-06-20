@@ -1,9 +1,9 @@
 ---
 title: "Carreira e Negócios com IA"
 type: concept
-tags: [carreira, negócios, linkedin, ia, recrutamento, oportunidades, renda, transição-de-carreira, ats, currículo, cover-letter, odyssey-plan, longevidade-profissional, entrevista, star-method, personal-brand, image-generation]
-source_count: 22
-last_updated: 2026-06-16
+tags: [carreira, negócios, linkedin, ia, recrutamento, oportunidades, renda, transição-de-carreira, ats, currículo, cover-letter, odyssey-plan, longevidade-profissional, entrevista, star-method, personal-brand, image-generation, chatgpt, candidatura-em-massa]
+source_count: 23
+last_updated: 2026-06-20
 ---
 
 # Carreira e Negócios com IA
@@ -188,6 +188,22 @@ Primeira fonte a cobrir todas as 7 fases do funil de busca de emprego em um úni
 
 → [[2026-06-15_hollyfield-la-7-prompts-emprego]] | Autor: [[hollyfield-la]]
 
+### 15. Auto-candidatura em massa via agente de IA (@Rafa Grandi)
+
+[[rafa-grandi]] documenta experimento de 24h: usar o **modo agente do ChatGPT** para se candidatar automaticamente a 500 vagas com currículo personalizado por vaga.
+
+**Sequência de 4 prompts:**
+1. Identificar os 20 cargos mais compatíveis com o currículo + palavras-chave ATS exatas
+2. Reescrever currículo com fórmula XYZ do Google e eliminar "sinais de alerta em 10 segundos"
+3. (modo agente ativado) Scraping de LinkedIn + Lensa → planilha com pontuação de compatibilidade + versão de currículo por vaga
+4. (modo agente) Auto-candidatura nas 500 vagas de maior compatibilidade com personalização por JD
+
+**Posição no mapa de carreira:** abordagem de maior escala e maior automação documentada no wiki para busca de emprego — o agente executa tanto a triagem quanto a candidatura sem intervenção humana. Complementa (e contrasta com) a Regra dos 75% de [[think-entrepreneurs]]: ambos usam pontuação, mas um filtra (≥75 para aplicar) e o outro ranqueia (top 500 com personalização automática).
+
+**Nota:** ChatGPT (não Claude) é o executor neste caso — o modo agente do ChatGPT tem capacidade nativa de navegar websites e executar ações.
+
+→ [[2026-06-18_rafa-grandi-candidaturas-emprego-ia]] | Autor: [[rafa-grandi]]
+
 ### 13. Marca pessoal na era da IA — do headshot à presença de nicho
 
 [[artificial-intelligence-ai]] documenta o colapso do headshot profissional como sinal de competência, e o surgimento de um novo diferencial: presença de nicho consistente.
@@ -236,3 +252,4 @@ Há **convergência temática clara**: múltiplos criadores internacionais refor
 - [[2026-05-17_mike-perguntas-entrevista]]
 - [[2026-06-02_artificial-intelligence-ai-headshots]]
 - [[2026-06-15_hollyfield-la-7-prompts-emprego]]
+- [[2026-06-18_rafa-grandi-candidaturas-emprego-ia]]
