@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-06-20 | Total de páginas: 260 | Fontes ingeridas: 112
+> Atualizado em: 2026-06-25 | Total de páginas: 262 | Fontes ingeridas: 113
 
 ---
 
@@ -125,6 +125,7 @@
 | [[wiki/sources/2026-05-29_prakash-kumar-founder-thinking-mode]] | @Prakash Kumar | 2026-05-29 | Founder Thinking Mode: Custom Instructions como co-fundador permanente + 6 casos de uso |
 | [[wiki/sources/2026-06-07_stics-ai-10-repos-renda-passiva]] | @Stics AI | 2026-06-07 | 10 repos GitHub para renda passiva — ângulo execução > descoberta; 7ª confirmação do padrão white-label SaaS |
 | [[wiki/sources/2026-06-18_rafa-grandi-candidaturas-emprego-ia]] | @Rafa Grandi | 2026-06-18 | Auto-candidatura a 500 vagas com ChatGPT agente: XYZ formula + scraping LinkedIn + personalização por JD |
+| [[wiki/sources/2026-06-22_pedro-mallet-crm-open-source]] | @Pedro Mallet | 2026-06-22 | CRM open source clone da Salesforce — 51.000 stars no GitHub, personalização com Claude Code |
 | [[wiki/sources/2026-05-28_founded-ceo-yc-startup-ia]] | @FOUNDED CEO | 2026-05-28 | Y Combinator: playbook de Diana Hu com 8 princípios para startups nativas de IA |
 
 ---
@@ -139,7 +140,7 @@
 | [[wiki/concepts/carreira-com-ia]] | 23 | IA para aceleração de carreira, LinkedIn, renda, produtos próprios, performance em entrevistas e personal brand na era do headshot comoditizado + pipeline completo de 7 fases (cold outreach + follow-up) + auto-candidatura em massa (500 vagas com ChatGPT agente) |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 3 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
 | [[wiki/concepts/agentes-ia]] | 7 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão + Agent Browser (automação de Chrome) + pipeline multi-agente de gestão de conteúdo (Postiz) + CamoFox confirmado para extração de leads sem bloqueio |
-| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 39 | 7 ângulos sobre repos open-source + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode + YC Request for Startups 2026 (mapa de setores: agro, saúde, defesa, espaço, hardware) |
+| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 40 | 8 confirmações do padrão repos open-source (inclui CRM/Salesforce) + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode + YC Request for Startups 2026 (mapa de setores: agro, saúde, defesa, espaço, hardware) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
 | [[wiki/concepts/segurança-com-ia]] | 9 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital + checklist jurídico-técnica pré-lançamento (GDPR/CCPA, RLS, OWASP) + segurança front-end (env vars, LocalStorage, cookies HTTP-only, CORS/CSP) |
 | [[wiki/concepts/vibecoding]] | 3 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança; abordagens preventiva (back-end), detective, jurídico-técnica (pré-lançamento) e front-end específica |
@@ -209,6 +210,7 @@
 | [[wiki/entities/gustavo-sextaro]] | @Gustavo Sextaro | 1 | Segurança front-end para SaaS, criador do curso MVP Ao SaaS |
 | [[wiki/entities/hollyfield-la]] | @Hollyfield lA | 1 | Pipeline completo de 7 fases de busca de emprego com Claude; cold outreach e follow-up estruturados |
 | [[wiki/entities/rafa-grandi]] | @Rafa Grandi | 1 | Automação de candidaturas em massa (500 vagas) com ChatGPT agente; fórmula XYZ + scraping LinkedIn |
+| [[wiki/entities/pedro-mallet]] | @Pedro Mallet | 1 | CRM open source como substituto da Salesforce — guias de instalação e personalização com Claude Code |
 
 ### Agregadores de conteúdo
 

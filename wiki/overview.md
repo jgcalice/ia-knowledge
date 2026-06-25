@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-06-20
-source_count: 112
+last_updated: 2026-06-25
+source_count: 113
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 112 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance** e **Imagem com IA**
+> Wiki iniciado em 2026-04-21 | 113 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance** e **Imagem com IA**
 
 ## Tese atual
 
@@ -216,7 +216,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Conceitos de segurança**: [[segurança-com-ia]]
 
-**Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]] · [[faria-lima-elevator]] · [[allessandra-sinisgalli]] · [[daniel-socrates]] · [[gustavo-sextaro]] · [[rafa-grandi]]
+**Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]] · [[faria-lima-elevator]] · [[allessandra-sinisgalli]] · [[daniel-socrates]] · [[gustavo-sextaro]] · [[rafa-grandi]] · [[pedro-mallet]]
 
 **Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]] · [[bert-no-chase]] · [[duncan-rogoff]] · [[ai-technology]] · [[shimin-mohammadi]] · [[harish-bhatt]] · [[roman-khaneichuk]] · [[hasan-toor]] · [[roshan-krishna]] · [[prakash-kumar]] · [[cooper-simson]]
 
@@ -298,6 +298,8 @@ Fonte: ([[faria-lima-elevator]])
 
 - **Headshot comoditizado como novo ângulo de carreira — e negative prompt como padrão de design visual**: [[artificial-intelligence-ai]] documenta a comoditização da fotografia profissional por IA e a consequente mudança do sinal de carreira: de visual ("imagem polida") para presença de nicho ("ideias vistas + audiência que confia"). 10 estilos de headshot com prompts completos (estrutura: câmera de alto nível + negative prompt + preservação de features). O negative prompt para imagem é padrão novo no wiki — complementar ao negative prompting verbal para LLMs: especificar explicitamente o que não fazer (distorção facial, artefatos, smooth excessivo) é tão importante quanto descrever o objetivo
 
+- **Padrão repos open-source atinge CRM empresarial crítico**: [[pedro-mallet]] confirma que o ecossistema de "substitutos de SaaS via repos GitHub" (8 fontes independentes) se estende agora a sistemas como CRM (Salesforce) — categoria de ticket muito mais alto e resistência de adoção historicamente maior que ferramentas de produtividade. O padrão deixa de ser nicho (ferramentas de dev) e passa a ser tendência transversal de todo o software empresarial.
+
 - **Segurança front-end como par complementar da segurança back-end**: [[gustavo-sextaro]] documenta 5 práticas client-side para SaaS que fecham a lacuna deixada pelos 5 fundamentos back-end de [[lucas-garcia-pit]]. O princípio é idêntico ("nunca confiar no cliente"), mas os vetores são distintos: back-end protege APIs, lógica e banco; front-end protege o bundle JS, o armazenamento local e as políticas de origem. Anti-padrão mais comum em apps vibecoded com Next.js: o prefixo `NEXT_PUBLIC_` — coloca API keys diretamente no bundle, visíveis a qualquer usuário no DevTools. A regra do LocalStorage (sem tokens, sem PII) e o cookie HTTP-only completam o modelo mental de "onde dados sensíveis podem viver no cliente": a resposta é — **em nenhum lugar acessível ao JavaScript**
 
 ---
@@ -306,18 +308,24 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 112 |
-| Páginas de fontes | 112 |
+| Fontes ingeridas | 113 |
+| Páginas de fontes | 113 |
 | Páginas de conceitos | 21 |
-| Páginas de entidades | 119 |
+| Páginas de entidades | 120 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **260** |
+| **Total de páginas** | **262** |
+
+## Adições da ingestão de 2026-06-25 (1 fonte nova)
+
+- **8ª confirmação do padrão repos open-source como substitutos de SaaS — CRM empresarial** — [[pedro-mallet]] (@Pedro Mallet) apresenta CRM open source que replica as funcionalidades da Salesforce e já conta com 51.000 estrelas no GitHub. Distinção-chave: esta é a primeira confirmação do padrão em **software de gestão empresarial crítico** (CRM) — todas as anteriores eram sobre ferramentas de produtividade, automação ou infraestrutura. A Salesforce custa $25–$300/usuário/mês; a alternativa self-hosted elimina esse custo inteiramente. Novidade editorial: [[claude-code]] citado como ferramenta de customização pós-instalação — primeiro caso no wiki de LLM usado para adaptar um CRM auto-hospedado. O padrão de engajamento "comenta CRM para receber o guia" confirma que o valor está na **implementação**, não no repositório em si (convergência com [[stics-ai]] — "execução > descoberta"). Criadas: [[pedro-mallet]] (nova entidade-criador BR), [[2026-06-22_pedro-mallet-crm-open-source]] (nova fonte). Atualizada: [[estratégia-de-negócios-com-ia]] (source_count 39→40, 8ª confirmação adicionada com destaque para CRM como nova categoria). [[pedro-mallet]] adicionado ao mapa de Pessoas BR. Status: 112→113 fontes, 260→262 páginas.
 
 ## Adições da ingestão de 2026-06-20 (1 fonte nova)
 
 - **Auto-candidatura em massa via ChatGPT agente — 500 vagas em 24h** — [[rafa-grandi]] (@Rafa Grandi) apresenta experimento de candidatura em larga escala: 4 prompts sequenciais colocam o ChatGPT em modo agente para (1) mapear os 20 cargos mais compatíveis com o currículo + keywords ATS, (2) reescrever o currículo com a **fórmula XYZ do Google** e eliminar "sinais de alerta em <10 segundos", (3) scraping autônomo de LinkedIn e Lensa com planilha de pontuação de compatibilidade, e (4) auto-candidatura personalizada por JD nas top 500 vagas. **Distinção-chave:** ChatGPT (não Claude) é o executor — o modo agente tem capacidade nativa de navegar e agir. **Contraste com [[think-entrepreneurs]] (Regra dos 75%):** ambos usam scoring, mas aqueles filtram (só aplica se ≥75%) enquanto este ranqueia e aplica em volume (top 500 com personalização automática). Criadas: [[rafa-grandi]] (nova entidade-criador BR), [[2026-06-18_rafa-grandi-candidaturas-emprego-ia]] (nova fonte). Atualizadas: [[busca-de-emprego-com-ia]] (source_count 8→9, nova seção "Auto-candidatura em massa"), [[carreira-com-ia]] (source_count 22→23, seção 15 adicionada), [[linkedin]] (source_count 7→8, Abordagem 5 adicionada). [[rafa-grandi]] adicionado ao mapa de Pessoas BR. Status: 111→112 fontes, 258→260 páginas.
 
 ## Adições da ingestão de 2026-06-18 (1 fonte nova)
+
+- **8ª confirmação do padrão repos open-source — CRM como substituto da Salesforce** — [[pedro-mallet]] (@Pedro Mallet) apresenta CRM open source com 51.000 stars no GitHub que replica as funcionalidades da Salesforce. Primeira confirmação do padrão em software de gestão empresarial crítico (CRM). [[claude-code]] citado para customização pós-instalação. Criadas: [[pedro-mallet]], [[2026-06-22_pedro-mallet-crm-open-source]]. Atualizada: [[estratégia-de-negócios-com-ia]] (source_count 39→40). Status: 112→113 fontes, 260→262 páginas.
 
 - **7ª confirmação independente do padrão white-label SaaS repos — ângulo execução** — [[stics-ai]] (@Stics AI) publica os mesmos 9 repos já documentados no wiki (Cal.com, Plausible, Ghost, n8n, Supabase, Medusa, AppFlowy, Coolify, Listmonk) com diferencial editorial: *"a oportunidade real não é encontrar o repositório — é saber como usá-lo, customizá-lo e transformá-lo em algo que as pessoas realmente precisam."* Este é o primeiro enquadramento focado em **execução sobre descoberta** — os seis criadores anteriores listavam os repos; @Stics AI argumenta que o repo é commodity e a vantagem competitiva está em quem customiza. Converge com o "vender outcomes, não workflows" de [[nate-herk]]. Criadas: [[2026-06-07_stics-ai-10-repos-renda-passiva]] (nova fonte), [[stics-ai]] (nova entidade-agregador). Atualizadas: [[estratégia-de-negócios-com-ia]] (source_count 38→39, 7ª confirmação adicionada), [[n8n]] (source_count 4→5). [[stics-ai]] adicionado ao mapa de Agregadores. Status: 110→111 fontes, 256→258 páginas.
 

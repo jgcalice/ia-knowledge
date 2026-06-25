@@ -1,9 +1,9 @@
 ---
 title: "Estratégia de Negócios com IA"
 type: concept
-tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce, amazon-kdp, topical-authority, low-content-products, open-source, custo-zero, criação-de-conteúdo, y-combinator, startups, ia-nativa, custom-instructions, founder-mode]
-source_count: 39
-last_updated: 2026-06-18
+tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce, amazon-kdp, topical-authority, low-content-products, open-source, custo-zero, criação-de-conteúdo, y-combinator, startups, ia-nativa, custom-instructions, founder-mode, crm]
+source_count: 40
+last_updated: 2026-06-25
 ---
 
 # Estratégia de Negócios com IA
@@ -251,6 +251,12 @@ Reel do "Dia 99 da série actual AI" — 7 repos que substituem $6.500/mês em S
 @Stics AI confirma os mesmos 9 repos (Cal.com, Plausible, Ghost, n8n, Supabase, Medusa, AppFlowy, Coolify, Listmonk) com diferencial editorial: **"a oportunidade real não é encontrar o repositório — é saber como usá-lo, customizá-lo e transformá-lo em algo que as pessoas realmente precisam."** Converge com o "vender outcomes, não workflows" de [[nate-herk]]: o repo é commodity, a vantagem está em quem executa. Enquadramento: "GitHub repos that quietly print money while you sleep."
 
 → [[2026-06-07_stics-ai-10-repos-renda-passiva]]
+
+**8ª confirmação independente — CRM como substituto da Salesforce** ([[pedro-mallet]], [[2026-06-22_pedro-mallet-crm-open-source]]):
+
+@Pedro Mallet apresenta um CRM open source que replica as funcionalidades da Salesforce e atingiu **51.000 estrelas no GitHub**. Distinto de todas as confirmações anteriores: desta vez o padrão se aplica a **software empresarial crítico de gestão de clientes** (não ferramentas de produtividade ou infraestrutura). Salesforce custa $25–$300/usuário/mês — a alternativa self-hosted elimina esse custo inteiramente. Novidade: [[claude-code]] mencionado como camada de personalização do CRM após instalação — primeiro caso no wiki de LLM usado para customizar um sistema CRM auto-hospedado. O padrão "comenta X para receber o guia" confirma que o valor percebido está na **implementação**, não no repo em si (convergência com [[stics-ai]] — "execução > descoberta").
+
+→ [[2026-06-22_pedro-mallet-crm-open-source]]
 
 ## One-Person Business: o modelo de Dan Koe reverse-engineered com Claude
 
