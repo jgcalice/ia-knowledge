@@ -2,8 +2,8 @@
 title: "Agentes de IA"
 type: concept
 tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents, agent-teams, git-worktrees, hooks, plugins, skills, comportamento-default]
-source_count: 27
-last_updated: 2026-06-01
+source_count: 28
+last_updated: 2026-06-28
 ---
 
 # Agentes de IA
@@ -368,8 +368,29 @@ Três arquétipos inéditos no wiki:
 
 → [[2026-05-28_ask-gpts-postiz-social-media]]
 
+### OpenWA: WhatsApp como canal de comunicação para agentes de IA
+
+([[marc-kaz]], [[2026-06-14_marc-kaz-openwa-api-whatsapp]])
+
+[[openwa]] adiciona o canal WhatsApp ao repertório de surface de comunicação de agentes. Via REST API + Webhooks, um agente Claude pode enviar e receber mensagens WhatsApp de forma autônoma — sem custo por mensagem (self-hosted, MIT).
+
+**Padrão de integração**:
+- Agente Claude chama o REST API do OpenWA para enviar mensagem (outbound)
+- Webhook do OpenWA dispara o agente quando uma mensagem chega (inbound)
+- Resultado: loop de comunicação bidirecional completamente agêntico no WhatsApp
+
+**Casos de uso documentados no wiki**:
+- Outreach de leads (extensão dos Métodos 1–5 de [[geração-de-leads-com-ia]]) via mensagem personalizada por WhatsApp
+- Onboarding de clientes do AIaaS R$297/mês de [[bruno-wambier]]
+- Notificações de portfólio do sistema de [[roman-khaneichuk]] via WhatsApp em vez de app proprietário
+
+**Distinção do Postiz** ([[postiz]], canal mídias sociais): o Postiz gerencia publicação em 30+ plataformas abertas; o OpenWA é específico para a mensageria privada bidirecional do WhatsApp — comunicação direta com o usuário, não broadcasting.
+
+→ [[2026-06-14_marc-kaz-openwa-api-whatsapp]]
+
 ## Fontes
 
+- [[2026-06-14_marc-kaz-openwa-api-whatsapp]]
 - [[2026-05-28_ask-gpts-postiz-social-media]]
 - [[2026-05-28_bestapps-5-repos-potencializam-claude]]
 - [[2026-05-08_growai-10-ferramentas-gratuitas]]

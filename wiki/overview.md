@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-06-25
-source_count: 113
+last_updated: 2026-06-28
+source_count: 114
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 113 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance** e **Imagem com IA**
+> Wiki iniciado em 2026-04-21 | 114 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA** e **Comunicação/WhatsApp**
 
 ## Tese atual
 
@@ -300,6 +300,8 @@ Fonte: ([[faria-lima-elevator]])
 
 - **Padrão repos open-source atinge CRM empresarial crítico**: [[pedro-mallet]] confirma que o ecossistema de "substitutos de SaaS via repos GitHub" (8 fontes independentes) se estende agora a sistemas como CRM (Salesforce) — categoria de ticket muito mais alto e resistência de adoção historicamente maior que ferramentas de produtividade. O padrão deixa de ser nicho (ferramentas de dev) e passa a ser tendência transversal de todo o software empresarial.
 
+- **OpenWA: WhatsApp como novo canal de automação agêntica — 9ª confirmação do padrão open-source**: [[marc-kaz]] apresenta [[openwa]] como a primeira ferramenta de mensageria instantânea documentada no wiki. O padrão "repo GitHub substitui SaaS pago" passa a cobrir WhatsApp (antes: produtividade/dev/automação/CRM). Para o contexto brasileiro, onde WhatsApp é o canal de comunicação B2C dominante, isso habilita arquétipos de negócio inéditos no wiki: outreach de leads por WhatsApp, onboarding automatizado e AIaaS de atendimento via mensageria. REST API + Webhooks criam o ponto de integração com agentes Claude — mesma lógica da Public API do [[postiz]], mas para comunicação direta e privada em vez de broadcast
+
 - **Segurança front-end como par complementar da segurança back-end**: [[gustavo-sextaro]] documenta 5 práticas client-side para SaaS que fecham a lacuna deixada pelos 5 fundamentos back-end de [[lucas-garcia-pit]]. O princípio é idêntico ("nunca confiar no cliente"), mas os vetores são distintos: back-end protege APIs, lógica e banco; front-end protege o bundle JS, o armazenamento local e as políticas de origem. Anti-padrão mais comum em apps vibecoded com Next.js: o prefixo `NEXT_PUBLIC_` — coloca API keys diretamente no bundle, visíveis a qualquer usuário no DevTools. A regra do LocalStorage (sem tokens, sem PII) e o cookie HTTP-only completam o modelo mental de "onde dados sensíveis podem viver no cliente": a resposta é — **em nenhum lugar acessível ao JavaScript**
 
 ---
@@ -308,12 +310,16 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 113 |
-| Páginas de fontes | 113 |
+| Fontes ingeridas | 114 |
+| Páginas de fontes | 114 |
 | Páginas de conceitos | 21 |
-| Páginas de entidades | 120 |
+| Páginas de entidades | 122 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **262** |
+| **Total de páginas** | **265** |
+
+## Adições da ingestão de 2026-06-28 (1 fonte nova)
+
+- **9ª confirmação do padrão repos open-source — WhatsApp como novo canal** — [[marc-kaz]] (@Marc Kaz) apresenta [[openwa]], API de WhatsApp 100% open-source e auto-hospedada via Docker: contas ilimitadas, zero custo por mensagem, REST API + Webhooks + painel React, licença MIT. **Distinção-chave:** esta é a primeira fonte do wiki a cobrir o canal de mensageria instantânea (WhatsApp) como surface de automação e negócio — todos os arquétipos anteriores usavam email, LinkedIn, Google Maps, redes sociais abertas ou plataformas B2B. O OpenWA viabiliza o arquétipo "agente de WhatsApp como AIaaS" de [[bruno-wambier]] a custo zero de API; e potencializa os pipelines de outreach de [[geração-de-leads-com-ia]] com um canal de conversão de altíssima taxa no mercado brasileiro. Via REST API + Webhooks, o agente Claude pode enviar e receber mensagens WhatsApp de forma bidirecional e autônoma — nova camada de comunicação para agentes documentada em [[agentes-ia]]. Criadas: [[marc-kaz]] (nova entidade-criador Internacional), [[openwa]] (nova ferramenta), [[2026-06-14_marc-kaz-openwa-api-whatsapp]] (nova fonte). Atualizadas: [[estratégia-de-negócios-com-ia]] (source_count 40→41, 9ª confirmação adicionada com nova seção sobre OpenWA e canal WhatsApp), [[agentes-ia]] (source_count 27→28, nova seção sobre WhatsApp como canal de comunicação bidirecional para agentes). [[marc-kaz]] adicionado ao mapa de Pessoas Internacional; [[openwa]] adicionado ao mapa de Ferramentas. Status: 113→114 fontes, 262→265 páginas.
 
 ## Adições da ingestão de 2026-06-25 (1 fonte nova)
 
