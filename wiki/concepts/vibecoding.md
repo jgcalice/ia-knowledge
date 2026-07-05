@@ -1,9 +1,9 @@
 ---
 title: "Vibecoding"
 type: concept
-tags: [vibecoding, desenvolvimento, llm, segurança, produtividade, claude-code, jurídico, gdpr, pré-lançamento, front-end, local-storage, cookies]
-source_count: 3
-last_updated: 2026-06-15
+tags: [vibecoding, desenvolvimento, llm, segurança, produtividade, claude-code, jurídico, gdpr, pré-lançamento, front-end, local-storage, cookies, ios, ferramentas, stack]
+source_count: 4
+last_updated: 2026-07-05
 ---
 
 # Vibecoding
@@ -73,6 +73,22 @@ A distinção desta abordagem: foco em **conformidade legal** e **consequência 
 
 **As quatro abordagens são complementares**: preventiva (back-end) e front-end evitam os erros mais comuns no design; detective pega o que passou antes do deploy; jurídico-técnica garante conformidade legal e sequência correta antes do lançamento para usuários reais.
 
+## Stack de ferramentas para vibe coders iOS
+
+[[2026-06-28_joaquin-fernandez-ferramentas-vibecoding-ios]] (@Joaquin Fernandez) documenta cinco ferramentas que formam a toolchain de referência para quem vibecoda em iOS:
+
+| Ferramenta | Papel | Novidade no wiki |
+|-----------|-------|-----------------|
+| [[shadcn-ui]] | Base layer de componentes (código no projeto, editável pelo LLM) | Primeira menção — padrão de facto do ecossistema |
+| [[10x-app-builder]] | Descrição → app iOS nativo SwiftUI, App Store ready | Primeiro builder iOS nativo por descrição do wiki |
+| [[21st-dev]] | Marketplace de componentes + geração por IA sob demanda | Padrão "marketplace + IA generativa" (ver também [[smithery]]) |
+| Animista | Criação visual de CSS animations | Ferramenta puramente visual, sem camada de IA |
+| Phosphor Icons | Set de ícones em 6 pesos visuais | Design token; cobre todos os estilos de um app |
+
+**Distinção relevante**: [[10x-app-builder]] expande o paradigma vibecoding além do web — pela primeira vez no wiki, "descreve e aparece" chega ao iOS nativo (SwiftUI), sem Xcode. O stack web análogo seria [[claude-code]] + [[lovable]], mas a stack iOS tem um único ponto de entrada: o 10X.
+
+**Padrão emergente**: [[shadcn-ui]] ter o código no projeto (não em node_modules) é o que o torna ideal para vibecoding — o LLM consegue ler, modificar e estender qualquer componente como arquivo normal.
+
 ## Relação com produtividade
 
 Vibecoding é a face prática de usar LLMs para desenvolvimento — a mesma velocidade que [[claude-code]] proporciona para gerar leads, criar marcas, construir web apps, escrever código e automatizar processos. Os clusters de produtividade do wiki (leads, negócios, carreira) são todos habilitados indiretamente por vibecoding.
@@ -83,3 +99,4 @@ Vibecoding é a face prática de usar LLMs para desenvolvimento — a mesma velo
 - [[2026-04-15_lucas-garcia-pit-seguranca-claudecode]] — 5 fundamentos de segurança preventivos back-end
 - [[2026-05-24_today-in-ai-checklist-prelancamento]] — checklist jurídico-técnica pré-lançamento; consequência jurídica como motivador explícito do vibecoding responsável
 - [[2026-06-08_gustavo-sextaro-seguranca-saas-frontend]] — 5 práticas client-side de segurança front-end: env vars, LocalStorage, cookies HTTP-only, Session Storage, CORS/CSP
+- [[2026-06-28_joaquin-fernandez-ferramentas-vibecoding-ios]] — stack de 5 ferramentas para vibe coders iOS: ShadCN + 10X + 21st Dev + Animista + Phosphor Icons
