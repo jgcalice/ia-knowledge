@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-07-05 | Total de páginas: 270 | Fontes ingeridas: 115
+> Atualizado em: 2026-07-21 | Total de páginas: 273 | Fontes ingeridas: 116
 
 ---
 
@@ -129,6 +129,7 @@
 | [[wiki/sources/2026-06-22_pedro-mallet-crm-open-source]] | @Pedro Mallet | 2026-06-22 | CRM open source clone da Salesforce — 51.000 stars no GitHub, personalização com Claude Code |
 | [[wiki/sources/2026-06-28_joaquin-fernandez-ferramentas-vibecoding-ios]] | @Joaquin Fernandez | 2026-06-28 | Stack de 5 ferramentas para vibe coders iOS: ShadCN, 10X, 21st Dev, Animista, Phosphor Icons |
 | [[wiki/sources/2026-05-28_founded-ceo-yc-startup-ia]] | @FOUNDED CEO | 2026-05-28 | Y Combinator: playbook de Diana Hu com 8 princípios para startups nativas de IA |
+| [[wiki/sources/2026-07-11_think-gpt-auditoria-tim-ferriss]] | @Think GPT | 2026-07-11 | 4 prompts DEAL de Tim Ferriss para auditoria de produtividade: Life Design → Eliminação 80/20 → Autopiloto → Fear-Setting |
 
 ---
 
@@ -138,9 +139,9 @@
 |--------|--------|-----------|
 | [[wiki/concepts/geração-de-leads-com-ia]] | 3 | Uso de LLMs + scraping para prospecção B2B automatizada |
 | [[wiki/concepts/otimização-de-tokens]] | 4 | Técnicas para reduzir consumo de tokens no Claude |
-| [[wiki/concepts/prompt-engineering]] | 42 | Padrões de estruturação + palavras-gatilho + Claude Skills + "Act like a senior engineer" + substitutos de serviços profissionais (fitness, voos, finanças) + STAR como instrução explícita + Custom Instructions como modo persistente + prompts de geração de imagem com negative prompts + constraints de tom emocional em comunicação estratégica |
+| [[wiki/concepts/prompt-engineering]] | 43 | Padrões de estruturação + palavras-gatilho + Claude Skills + "Act like a senior engineer" + substitutos de serviços profissionais (fitness, voos, finanças) + STAR como instrução explícita + Custom Instructions como modo persistente + prompts de geração de imagem com negative prompts + constraints de tom emocional em comunicação estratégica |
 | [[wiki/concepts/carreira-com-ia]] | 23 | IA para aceleração de carreira, LinkedIn, renda, produtos próprios, performance em entrevistas e personal brand na era do headshot comoditizado + pipeline completo de 7 fases (cold outreach + follow-up) + auto-candidatura em massa (500 vagas com ChatGPT agente) |
-| [[wiki/concepts/design-de-estilo-de-vida]] | 3 | Frameworks Tim Ferriss e Naval Ravikant aplicados com Claude |
+| [[wiki/concepts/design-de-estilo-de-vida]] | 6 | Frameworks Tim Ferriss (DEAL, 2 fontes), Naval Ravikant e Dan Koe aplicados com Claude |
 | [[wiki/concepts/agentes-ia]] | 28 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão + Agent Browser (automação de Chrome) + pipeline multi-agente de gestão de conteúdo (Postiz) + CamoFox confirmado para extração de leads sem bloqueio + OpenWA como canal de comunicação bidirecional via WhatsApp para agentes |
 | [[wiki/concepts/estratégia-de-negócios-com-ia]] | 41 | 9 confirmações do padrão repos open-source (inclui CRM/Salesforce e WhatsApp/OpenWA) + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode + YC Request for Startups 2026 (mapa de setores: agro, saúde, defesa, espaço, hardware) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
@@ -233,6 +234,7 @@
 | [[wiki/entities/growai]] | @GROWAI | 1 | Canal curador de repos open-source para monetização com IA — "$10K/mês com ferramentas gratuitas do GitHub" |
 | [[wiki/entities/today-in-ai]] | @TODAY IN AI | 2 | Canal agregador (aitickerdaily/curatedai.net) — curadoria de repos GitHub para white-label SaaS e checklist de segurança pré-lançamento |
 | [[wiki/entities/stics-ai]] | @Stics AI | 1 | Canal curador internacional — repos GitHub para renda passiva; ângulo diferenciador: execução > descoberta |
+| [[wiki/entities/think-gpt]] | @Think GPT | 1 | Criador/Agregador Internacional — frameworks de produtividade (Tim Ferriss DEAL) adaptados em prompts ROLE/TASK/STEPS/RULES/OUTPUT para Claude |
 
 ### Pessoas / Criadores (Internacional — dev tools)
 
@@ -324,6 +326,7 @@
 | [[wiki/entities/jack-dorsey]] | Jack Dorsey | 1 | Co-fundador Twitter/Square — referência para os 3 arquétipos de funcionário: IC, DRI, AI founder |
 | [[wiki/entities/think-entrepreneurs]] | @thinkentrepreneurs | 1 | Criador Internacional — carreira, negócios e psicologia; a Regra dos 75% para scoring de candidaturas com Claude |
 | [[wiki/entities/cooper-simson]] | @Cooper Simson | 1 | Criador Internacional — série "actual AI" (99+ dias); 7 repos open-source que substituem $6.500/mês em SaaS |
+| [[wiki/entities/tim-ferriss]] | Tim Ferriss | 2 | Referência externa — "The 4-Hour Workweek"; framework DEAL (Definir/Eliminar/Automatizar/Liberar) + Fear-Setting; 2 fontes independentes no wiki |
 
 ---
 

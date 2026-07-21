@@ -2,8 +2,8 @@
 title: "Design de Estilo de Vida com IA"
 type: concept
 tags: [lifestyle-design, carreira, renda, tim-ferriss, naval-ravikant, automação, dan-koe, one-person-business]
-source_count: 5
-last_updated: 2026-04-30
+source_count: 6
+last_updated: 2026-07-21
 ---
 
 # Design de Estilo de Vida com IA
@@ -22,7 +22,9 @@ Uso de LLMs para aplicar frameworks de "lifestyle design" — construir renda e 
 - **A**utomatizar o que pode ser delegado
 - **L**iberar tempo para o que importa
 
-Aplicado via prompts Claude: [[2026-03-22_redesenho-carreira-tim-ferriss]]
+Aplicado via prompts Claude:
+- [[2026-03-22_redesenho-carreira-tim-ferriss]] ([[god-of-prompt]]) — redesenho de carreira: vantagem injusta, DEAL, freedom ratio, estratégia de 10 anos
+- [[2026-07-11_think-gpt-auditoria-tim-ferriss]] ([[think-gpt]]) — auditoria de negócio/produtividade: Life Design → Eliminação 80/20 → Autopiloto → Fear-Setting; meta-regra: eliminar antes de automatizar, automatizar antes de delegar
 
 ### Framework Naval Ravikant
 - Parar de trocar tempo por dinheiro
@@ -60,3 +62,4 @@ Aplicado via 5 prompts Claude: [[2026-04-30_ai-fied-dan-koe-negocio-solo]] (via 
 - [[2026-04-18_simplifying-ai-wealth-protocol-naval]]
 - [[2026-04-23_ai-fied-riqueza-5-prompts-naval]]
 - [[2026-04-30_ai-fied-dan-koe-negocio-solo]]
+- [[2026-07-11_think-gpt-auditoria-tim-ferriss]]

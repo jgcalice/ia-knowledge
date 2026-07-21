@@ -2,8 +2,8 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas, plan-mode, self-checking, custom-instructions, image-generation, negative-prompt]
-source_count: 42
-last_updated: 2026-06-16
+source_count: 43
+last_updated: 2026-07-21
 ---
 
 # Prompt Engineering
