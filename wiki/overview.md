@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-07-21
-source_count: 116
+last_updated: 2026-08-05
+source_count: 121
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 116 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders iOS**
+> Wiki iniciado em 2026-04-21 | 121 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
 
 ## Tese atual
 
@@ -206,7 +206,7 @@ Fonte: ([[faria-lima-elevator]])
 
 ## Mapa de entidades
 
-**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]] · [[lovable]] · [[quepo]] · [[n8n]] · [[autopilot]] · [[ollama]] · [[whisper]] · [[lm-studio]] · [[postiz]] · [[librechat]] · [[shadcn-ui]] · [[10x-app-builder]] · [[21st-dev]]
+**Ferramentas e plataformas**: [[claude-code]] · [[claude-skills]] · [[smithery]] · [[apify]] · [[api-file]] · [[markitdown]] · [[linkedin]] · [[google-maps]] · [[career-ops]] · [[graphify]] · [[obsidian]] · [[vibe-prospecting]] · [[simplifying-ai]] · [[context7]] · [[tradingagents]] · [[ruflo]] · [[lovable]] · [[quepo]] · [[n8n]] · [[autopilot]] · [[ollama]] · [[whisper]] · [[lm-studio]] · [[postiz]] · [[librechat]] · [[shadcn-ui]] · [[10x-app-builder]] · [[21st-dev]] · [[watermelon-ui]] · [[motion-primitives]] · [[menace]] · [[hyke]]
 
 **Agregadores de conteúdo**: [[ai-developer-js]] · [[artificial-intelligence-ai]] · [[ask-gpts]] · [[bestapps-ai]] (3 fontes) · [[beyond-intelligence]] · [[founded-ceo]] · [[growai]] · [[ai-researches-ai]] · [[stics-ai]] · [[today-in-ai]] (2 fontes)
 
@@ -218,7 +218,7 @@ Fonte: ([[faria-lima-elevator]])
 
 **Pessoas (BR)**: [[lucas-garcia-pit]] · [[hudson-brendon]] · [[bruno-souza]] · [[rafael-brandao]] · [[flavio-rafael]] · [[rony-meisler]] · [[bruno-wambier]] · [[adriano-couto]] · [[eduardo-santos]] · [[castilho]] · [[gustavo-melo]] · [[sidney-rodrigo]] · [[faria-lima-elevator]] · [[allessandra-sinisgalli]] · [[daniel-socrates]] · [[gustavo-sextaro]] · [[rafa-grandi]] · [[pedro-mallet]]
 
-**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]] · [[bert-no-chase]] · [[duncan-rogoff]] · [[ai-technology]] · [[shimin-mohammadi]] · [[harish-bhatt]] · [[roman-khaneichuk]] · [[hasan-toor]] · [[roshan-krishna]] · [[prakash-kumar]] · [[cooper-simson]] · [[joaquin-fernandez]] · [[think-gpt]]
+**Pessoas (Internacional)**: [[evolving-ai]] · [[god-of-prompt]] · [[bashiri]] · [[sabrina-ramonov]] · [[ross-fledderjohn]] · [[michael-kocher]] · [[brandon-lew]] · [[usama-akram]] · [[brycen-wood]] · [[business-bulls]] · [[aashish-pahwa]] · [[luna-vega]] · [[paul-hilse]] · [[marc-cleroux]] · [[andrej-karpathy]] · [[alex-finn]] · [[nate-herk]] · [[pablo-in-public]] · [[sanskaar-singh]] · [[arshman-khalid]] · [[paras-madan]] · [[harry]] · [[yik-chan]] · [[ai-fied]] · [[ai-updater]] · [[manthan-patel]] · [[arising-ai]] · [[starter-story]] · [[coding-ai-fullstack]] · [[derek-gray]] · [[jordan-lee]] · [[your-ai-compass]] · [[bert-no-chase]] · [[duncan-rogoff]] · [[ai-technology]] · [[shimin-mohammadi]] · [[harish-bhatt]] · [[roman-khaneichuk]] · [[hasan-toor]] · [[roshan-krishna]] · [[prakash-kumar]] · [[cooper-simson]] · [[joaquin-fernandez]] · [[think-gpt]] · [[aleeshh]]
 
 **Referências de produto Anthropic**: [[boris-cherny]]
 
@@ -308,18 +308,28 @@ Fonte: ([[faria-lima-elevator]])
 
 - **Stack de ferramentas para vibe coders iOS — vibecoding chega ao mobile nativo (NOVO)**: [[joaquin-fernandez]] documenta a primeira toolchain iOS do wiki: [[shadcn-ui]] como base de componentes (código no projeto, editável pelo LLM), [[10x-app-builder]] como gerador de app iOS nativo SwiftUI pronto para App Store por descrição em linguagem natural (sem Xcode), [[21st-dev]] como marketplace de componentes com geração generativa sob demanda. Dois padrões confirmados: (1) [[shadcn-ui]] como "base layer de todo vibe coder" — a razão técnica é que o código fica no projeto (não em node_modules), tornando-o editável pelo LLM; (2) [[21st-dev]] replica o padrão "marketplace + IA generativa" já documentado em [[smithery]] (marketplace de Skills/MCPs) — mas aplicado a componentes de UI. Novidade estrutural: [[10x-app-builder]] é o primeiro gerador de app nativo no wiki — diferente de wrappers web (React Native, Flutter), gera SwiftUI real. O equivalente web seria [[claude-code]] + [[lovable]]; para iOS, o 10X comprime tudo em um único passo. Conceito central atualizado: [[vibecoding]] (source_count 3→4)
 
+- **Stack de ferramentas visuais para vibe coders web — animação e SVG como novas categorias (NOVO)**: [[aleeshh]] replica o gênero editorial de [[joaquin-fernandez]] ("X ferramentas que todo vibe coder deveria conhecer"), mas com foco em front-end web: [[watermelon-ui]] (componentes especializados em landing pages), [[motion-primitives]] (código de animação copy-paste), [[menace]] (app builder full-stack sem código) e [[hyke]] (gerador gratuito de backgrounds SVG). Duas lacunas do wiki preenchidas: nenhuma fonte anterior cobria animação ou geração de assets vetoriais como categorias próprias do stack de vibecoding. [[menace]] é a terceira ferramenta "descreva e apareça" full-stack documentada, após [[10x-app-builder]] (iOS) e [[lovable]] (web). Uso de "VibeCore" como variação de vocabulário para "vibe coder" confirma que o termo está se fragmentando na comunidade de criadores. Conceito central atualizado: [[vibecoding]] (source_count 4→5)
+
 ---
 
 ## Status do wiki
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 116 |
-| Páginas de fontes | 116 |
+| Fontes ingeridas | 121 |
+| Páginas de fontes | 121 |
 | Páginas de conceitos | 21 |
-| Páginas de entidades | 128 |
+| Páginas de entidades | 136 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **270** |
+| **Total de páginas** | **283** |
+
+---
+
+## Adições de 2026-08-05
+
+- [[wiki/sources/2026-08-05_aleeshh-ferramentas-vibecore]] — Stack de 4 ferramentas visuais para vibe coders web: Watermelon UI + Motion Primitives + Menace + Hyke (@aleeshh)
+- Entidades criadas: [[aleeshh]], [[watermelon-ui]], [[motion-primitives]], [[menace]], [[hyke]]
+- Conceito atualizado: [[vibecoding]] (source_count 4→5)
 
 ---
 

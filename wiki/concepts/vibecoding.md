@@ -1,9 +1,9 @@
 ---
 title: "Vibecoding"
 type: concept
-tags: [vibecoding, desenvolvimento, llm, segurança, produtividade, claude-code, jurídico, gdpr, pré-lançamento, front-end, local-storage, cookies, ios, ferramentas, stack]
-source_count: 4
-last_updated: 2026-07-05
+tags: [vibecoding, desenvolvimento, llm, segurança, produtividade, claude-code, jurídico, gdpr, pré-lançamento, front-end, local-storage, cookies, ios, ferramentas, stack, ui, animação, svg]
+source_count: 5
+last_updated: 2026-08-05
 ---
 
 # Vibecoding
@@ -89,6 +89,21 @@ A distinção desta abordagem: foco em **conformidade legal** e **consequência 
 
 **Padrão emergente**: [[shadcn-ui]] ter o código no projeto (não em node_modules) é o que o torna ideal para vibecoding — o LLM consegue ler, modificar e estender qualquer componente como arquivo normal.
 
+## Stack de ferramentas visuais para vibe coders web
+
+[[2026-08-05_aleeshh-ferramentas-vibecore]] (@aleeshh) documenta quatro ferramentas que resolvem o gargalo estético do "site vibecoded que parece amador":
+
+| Ferramenta | Papel | Novidade no wiki |
+|-----------|-------|-----------------|
+| [[watermelon-ui]] | Biblioteca open source de componentes para landing pages | Especializada em landing pages, vs. [[shadcn-ui]] (generalista) |
+| [[motion-primitives]] | Código de animação copy-paste | Primeira ferramenta do wiki dedicada especificamente a animação |
+| [[menace]] | App builder sem código — gera back-end e front-end por descrição | Terceira ferramenta "descreva e apareça" full-stack, após [[10x-app-builder]] (iOS) e [[lovable]] (web) |
+| [[hyke]] | Gerador gratuito de backgrounds SVG (blobs, gradientes, waves) | Primeira ferramenta do wiki para geração de assets visuais vetoriais |
+
+**Mesmo gênero editorial do stack iOS**: @aleeshh replica o formato "X ferramentas que todo vibe coder deveria conhecer" já documentado por [[joaquin-fernandez]], mas com foco em front-end web em vez de iOS nativo — inclusive usando "VibeCore" como variação de vocabulário para o mesmo conceito de "vibe coder".
+
+**Lacuna preenchida**: até esta fonte, o wiki cobria componentes ([[shadcn-ui]]) e app builders ([[10x-app-builder]], [[21st-dev]]), mas não animação nem geração de arte de fundo — [[motion-primitives]] e [[hyke]] fecham essas duas categorias.
+
 ## Relação com produtividade
 
 Vibecoding é a face prática de usar LLMs para desenvolvimento — a mesma velocidade que [[claude-code]] proporciona para gerar leads, criar marcas, construir web apps, escrever código e automatizar processos. Os clusters de produtividade do wiki (leads, negócios, carreira) são todos habilitados indiretamente por vibecoding.
@@ -100,3 +115,4 @@ Vibecoding é a face prática de usar LLMs para desenvolvimento — a mesma velo
 - [[2026-05-24_today-in-ai-checklist-prelancamento]] — checklist jurídico-técnica pré-lançamento; consequência jurídica como motivador explícito do vibecoding responsável
 - [[2026-06-08_gustavo-sextaro-seguranca-saas-frontend]] — 5 práticas client-side de segurança front-end: env vars, LocalStorage, cookies HTTP-only, Session Storage, CORS/CSP
 - [[2026-06-28_joaquin-fernandez-ferramentas-vibecoding-ios]] — stack de 5 ferramentas para vibe coders iOS: ShadCN + 10X + 21st Dev + Animista + Phosphor Icons
+- [[2026-08-05_aleeshh-ferramentas-vibecore]] — stack de 4 ferramentas visuais para vibe coders web: Watermelon UI + Motion Primitives + Menace + Hyke

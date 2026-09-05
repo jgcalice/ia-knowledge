@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-07-21 | Total de páginas: 273 | Fontes ingeridas: 116
+> Atualizado em: 2026-08-05 | Total de páginas: 283 | Fontes ingeridas: 121
 
 ---
 
@@ -130,6 +130,7 @@
 | [[wiki/sources/2026-06-28_joaquin-fernandez-ferramentas-vibecoding-ios]] | @Joaquin Fernandez | 2026-06-28 | Stack de 5 ferramentas para vibe coders iOS: ShadCN, 10X, 21st Dev, Animista, Phosphor Icons |
 | [[wiki/sources/2026-05-28_founded-ceo-yc-startup-ia]] | @FOUNDED CEO | 2026-05-28 | Y Combinator: playbook de Diana Hu com 8 princípios para startups nativas de IA |
 | [[wiki/sources/2026-07-11_think-gpt-auditoria-tim-ferriss]] | @Think GPT | 2026-07-11 | 4 prompts DEAL de Tim Ferriss para auditoria de produtividade: Life Design → Eliminação 80/20 → Autopiloto → Fear-Setting |
+| [[wiki/sources/2026-08-05_aleeshh-ferramentas-vibecore]] | @aleeshh | 2026-08-05 | Stack de 4 ferramentas visuais para vibe coders web: Watermelon UI, Motion Primitives, Menace, Hyke |
 
 ---
 
@@ -146,7 +147,7 @@
 | [[wiki/concepts/estratégia-de-negócios-com-ia]] | 41 | 9 confirmações do padrão repos open-source (inclui CRM/Salesforce e WhatsApp/OpenWA) + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode + YC Request for Startups 2026 (mapa de setores: agro, saúde, defesa, espaço, hardware) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
 | [[wiki/concepts/segurança-com-ia]] | 9 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital + checklist jurídico-técnica pré-lançamento (GDPR/CCPA, RLS, OWASP) + segurança front-end (env vars, LocalStorage, cookies HTTP-only, CORS/CSP) |
-| [[wiki/concepts/vibecoding]] | 4 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança; abordagens preventiva (back-end), detective, jurídico-técnica (pré-lançamento) e front-end específica; stack de ferramentas para vibe coders iOS (ShadCN, 10X, 21st Dev) |
+| [[wiki/concepts/vibecoding]] | 5 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança; abordagens preventiva (back-end), detective, jurídico-técnica (pré-lançamento) e front-end específica; stack de ferramentas para vibe coders iOS (ShadCN, 10X, 21st Dev) e web (Watermelon UI, Motion Primitives, Menace, Hyke) |
 | [[wiki/concepts/adoção-empresarial-de-ia]] | 2 | Playbook empresarial: 11 capítulos sobre como organizações passam de piloto a ROI real + contraste com YC Playbook (greenfield vs. incumbente) |
 | [[wiki/concepts/dados-como-moat]] | 1 | Dados proprietários como vantagem competitiva durável; 47% das empresas explicitamente o citam como moat |
 | [[wiki/concepts/escolha-de-modelo-fundacional]] | 1 | Comoditização parcial (42% commodity); multi-model + abstraction layer como vantagem |
@@ -199,6 +200,10 @@
 | [[wiki/entities/shadcn-ui]] | tool | 1 | Biblioteca de componentes base para vibe coders — código no projeto (editável pelo LLM), padrão de facto do ecossistema vibecoding |
 | [[wiki/entities/10x-app-builder]] | tool | 1 | Gerador de app iOS nativo SwiftUI por descrição em linguagem natural — App Store ready, sem Xcode; primeiro builder iOS nativo do wiki |
 | [[wiki/entities/21st-dev]] | platform | 1 | Marketplace de componentes de UI com camada de IA generativa — descreve o componente, a IA gera o código |
+| [[wiki/entities/watermelon-ui]] | tool | 1 | Biblioteca open source de componentes especializada em landing pages, production ready |
+| [[wiki/entities/motion-primitives]] | tool | 1 | Biblioteca de código de animação copy-paste — elimina a necessidade de escrever animação do zero |
+| [[wiki/entities/menace]] | tool | 1 | App builder sem código — gera back-end e front-end completos por descrição em linguagem natural |
+| [[wiki/entities/hyke]] | tool | 1 | Gerador gratuito de backgrounds SVG (blobs, gradientes, waves) |
 
 ### Pessoas / Criadores (Brasil)
 
@@ -242,6 +247,7 @@
 |--------|--------|--------|------|
 | [[wiki/entities/marc-kaz]] | @Marc Kaz | 1 | Ferramentas open-source para desenvolvedores — OpenWA como API WhatsApp self-hosted |
 | [[wiki/entities/joaquin-fernandez]] | @Joaquin Fernandez | 1 | Ferramentas de desenvolvimento para vibe coders iOS — ShadCN, 10X, 21st Dev, Animista, Phosphor Icons |
+| [[wiki/entities/aleeshh]] | @aleeshh | 1 | Ferramentas de desenvolvimento para vibe coders web — Watermelon UI, Motion Primitives, Menace, Hyke |
 
 ### Pessoas / Criadores (Internacional — e-commerce)
 
