@@ -1,9 +1,9 @@
 ---
 title: "Vibecoding"
 type: concept
-tags: [vibecoding, desenvolvimento, llm, segurança, produtividade, claude-code, jurídico, gdpr, pré-lançamento, front-end, local-storage, cookies, ios, ferramentas, stack, ui, animação, svg]
-source_count: 5
-last_updated: 2026-08-05
+tags: [vibecoding, desenvolvimento, llm, segurança, produtividade, claude-code, jurídico, gdpr, pré-lançamento, front-end, local-storage, cookies, ios, ferramentas, stack, ui, animação, svg, mcp, claude-skills, design]
+source_count: 6
+last_updated: 2026-08-19
 ---
 
 # Vibecoding
@@ -104,6 +104,20 @@ A distinção desta abordagem: foco em **conformidade legal** e **consequência 
 
 **Lacuna preenchida**: até esta fonte, o wiki cobria componentes ([[shadcn-ui]]) e app builders ([[10x-app-builder]], [[21st-dev]]), mas não animação nem geração de arte de fundo — [[motion-primitives]] e [[hyke]] fecham essas duas categorias.
 
+## Stack nativo do Claude para sites profissionais (Skills + MCP)
+
+[[2026-08-19_vinicius-delmonego-sites-claude]] (@Vinícius Delmônego) documenta uma quarta variação de stack de vibecoding — diferente das anteriores (iOS: [[joaquin-fernandez]]; web visual: [[aleeshh]]), esta é composta 100% por recursos nativos do ecossistema Claude, sem ferramentas de terceiros:
+
+| Componente | Tipo | Papel |
+|-----------|------|-------|
+| Milkovalski Design | [[claude-skills]] | Layout moderno |
+| Impeccable Design | [[claude-skills]] | Tipografia e espaçamento |
+| Taste Skill | [[claude-skills]] | Busca inspiração em sites reais em vez de gerar do zero |
+| [[figma]] | MCP | Monta o site diretamente na ferramenta de design |
+| [[playwright]] | MCP | Testa o site automaticamente antes da entrega |
+
+**Distinção relevante**: as três stacks de vibecoding do wiki agora cobrem ângulos diferentes do mesmo problema (site/app com "cara de IA"): iOS usa builders e bibliotecas de componentes de terceiros; web visual usa bibliotecas de UI e animação; esta usa apenas Skills + MCP nativos do Claude — o "gosto visual" e o "teste" viram configuração do próprio agente, não ferramenta externa. Primeira aparição de MCPs de design ([[figma]]) e QA ([[playwright]]) no wiki.
+
 ## Relação com produtividade
 
 Vibecoding é a face prática de usar LLMs para desenvolvimento — a mesma velocidade que [[claude-code]] proporciona para gerar leads, criar marcas, construir web apps, escrever código e automatizar processos. Os clusters de produtividade do wiki (leads, negócios, carreira) são todos habilitados indiretamente por vibecoding.
@@ -116,3 +130,4 @@ Vibecoding é a face prática de usar LLMs para desenvolvimento — a mesma velo
 - [[2026-06-08_gustavo-sextaro-seguranca-saas-frontend]] — 5 práticas client-side de segurança front-end: env vars, LocalStorage, cookies HTTP-only, Session Storage, CORS/CSP
 - [[2026-06-28_joaquin-fernandez-ferramentas-vibecoding-ios]] — stack de 5 ferramentas para vibe coders iOS: ShadCN + 10X + 21st Dev + Animista + Phosphor Icons
 - [[2026-08-05_aleeshh-ferramentas-vibecore]] — stack de 4 ferramentas visuais para vibe coders web: Watermelon UI + Motion Primitives + Menace + Hyke
+- [[2026-08-19_vinicius-delmonego-sites-claude]] — stack nativo Claude para sites profissionais: 3 Skills (Milkovalski Design, Impeccable Design, Taste Skill) + 2 MCPs (Figma, Playwright)

@@ -2,9 +2,9 @@
 title: "Claude Skills"
 type: entity
 category: tool
-tags: [claude, anthropic, skills, agentes-ia, prompt-engineering, marketplace]
-source_count: 4
-last_updated: 2026-05-06
+tags: [claude, anthropic, skills, agentes-ia, prompt-engineering, marketplace, design, vibecoding]
+source_count: 5
+last_updated: 2026-08-19
 ---
 
 # Claude Skills
@@ -91,9 +91,24 @@ npx skills add https://github.com/vercel-labs/skills --skill find-skills
 
 → [[2026-05-03_nate-herk-6-habilidades-claude-code]]
 
+## Skills de design de sites (baseadas em [[vinicius-delmonego]])
+
+3 skills que resolvem o problema de sites gerados pelo Claude com "cara de site feito por IA":
+
+| Skill | Papel | Destaque |
+|-------|-------|---------|
+| Milkovalski Design | Layout | Ensina layout moderno ao Claude |
+| Impeccable Design | Estilo | Tipografia e espaçamento ideais |
+| Taste Skill | Inspiração | Busca referências em sites reais em vez de começar do zero |
+
+Combinadas com os MCPs [[figma]] (montagem) e [[playwright]] (teste automatizado antes da entrega). Primeira aparição de MCPs de design/QA no wiki associados a Claude Skills.
+
+→ [[2026-08-19_vinicius-delmonego-sites-claude]]
+
 ## Fontes
 
 - [[2026-04-07_claude-skills-product-managers]]
 - [[2026-04-22_pabloinpublic-find-skills]]
 - [[2026-04-18_paras-madan-top5-skills-founders]]
 - [[2026-05-03_nate-herk-6-habilidades-claude-code]]
+- [[2026-08-19_vinicius-delmonego-sites-claude]]

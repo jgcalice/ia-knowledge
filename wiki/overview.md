@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-08-21
-source_count: 123
+last_updated: 2026-08-19
+source_count: 124
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 123 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
+> Wiki iniciado em 2026-04-21 | 124 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
 
 ## Tese atual
 
@@ -316,12 +316,22 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 122 |
-| Páginas de fontes | 122 |
+| Fontes ingeridas | 124 |
+| Páginas de fontes | 124 |
 | Páginas de conceitos | 21 |
-| Páginas de entidades | 137 |
+| Páginas de entidades | 140 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **285** |
+| **Total de páginas** | **297** |
+
+---
+
+## Adições de 2026-08-19
+
+- [[wiki/sources/2026-08-19_vinicius-delmonego-sites-claude]] — 5 configurações (3 Claude Skills + 2 MCPs) para sites profissionais com Claude (@Vinícius Delmônego)
+- Entidades criadas: [[vinicius-delmonego]], [[figma]], [[playwright]]
+- Entidade atualizada: [[claude-skills]] (source_count 4→5) — nova seção "Skills de design de sites" (Milkovalski Design, Impeccable Design, Taste Skill)
+- Conceito atualizado: [[vibecoding]] (source_count 5→6) — nova seção "Stack nativo do Claude para sites profissionais (Skills + MCP)"; primeira aparição de MCPs de design (Figma) e QA (Playwright) no wiki
+- Status: 123→124 fontes, 293→297 páginas (+1 fonte, +3 entidades)
 
 ---
 

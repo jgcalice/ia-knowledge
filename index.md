@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-08-21 | Total de páginas: 293 | Fontes ingeridas: 123
+> Atualizado em: 2026-08-19 | Total de páginas: 297 | Fontes ingeridas: 124
 
 ---
 
@@ -133,6 +133,7 @@
 | [[wiki/sources/2026-08-05_aleeshh-ferramentas-vibecore]] | @aleeshh | 2026-08-05 | Stack de 4 ferramentas visuais para vibe coders web: Watermelon UI, Motion Primitives, Menace, Hyke |
 | [[wiki/sources/2026-08-21_eduardo-cavalcanti-20-codigos-secretos]] | @Eduardo Cavalcanti | 2026-08-21 | 20 pseudo-comandos com prefixo "/" (de 50) para ChatGPT, Claude e Gemini — rigor analítico, decisão, anti-alucinação |
 | [[wiki/sources/2026-08-21_ibra-ai-5-repos-github-substitutos]] | @Ibra AI | 2026-08-21 | 5 repos GitHub gratuitos: All20 (Salesforce), Voicebox (ElevenLabs), Crawl4AI (Apify), NocoDB (Airtable), OpenDesign |
+| [[wiki/sources/2026-08-19_vinicius-delmonego-sites-claude]] | @Vinícius Delmônego | 2026-08-19 | 5 configurações (3 Claude Skills + 2 MCPs) para sites profissionais com Claude |
 
 ---
 
@@ -149,7 +150,7 @@
 | [[wiki/concepts/estratégia-de-negócios-com-ia]] | 42 | 10 confirmações do padrão repos open-source (inclui CRM/Salesforce, WhatsApp/OpenWA, voz/TTS e scraping vs. Apify) + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode + YC Request for Startups 2026 (mapa de setores: agro, saúde, defesa, espaço, hardware) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
 | [[wiki/concepts/segurança-com-ia]] | 9 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital + checklist jurídico-técnica pré-lançamento (GDPR/CCPA, RLS, OWASP) + segurança front-end (env vars, LocalStorage, cookies HTTP-only, CORS/CSP) |
-| [[wiki/concepts/vibecoding]] | 5 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança; abordagens preventiva (back-end), detective, jurídico-técnica (pré-lançamento) e front-end específica; stack de ferramentas para vibe coders iOS (ShadCN, 10X, 21st Dev) e web (Watermelon UI, Motion Primitives, Menace, Hyke) |
+| [[wiki/concepts/vibecoding]] | 6 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança; abordagens preventiva (back-end), detective, jurídico-técnica (pré-lançamento) e front-end específica; stack de ferramentas para vibe coders iOS (ShadCN, 10X, 21st Dev), web (Watermelon UI, Motion Primitives, Menace, Hyke) e stack nativo Claude Skills + MCP para sites (Figma, Playwright) |
 | [[wiki/concepts/adoção-empresarial-de-ia]] | 2 | Playbook empresarial: 11 capítulos sobre como organizações passam de piloto a ROI real + contraste com YC Playbook (greenfield vs. incumbente) |
 | [[wiki/concepts/dados-como-moat]] | 1 | Dados proprietários como vantagem competitiva durável; 47% das empresas explicitamente o citam como moat |
 | [[wiki/concepts/escolha-de-modelo-fundacional]] | 1 | Comoditização parcial (42% commodity); multi-model + abstraction layer como vantagem |
@@ -186,7 +187,7 @@
 | [[wiki/entities/google-maps]] | platform | 4 | Fonte de dados para leads B2B + mercado de SEO local (agência GMB) + sweet spot pattern |
 | [[wiki/entities/linkedin]] | platform | 8 | Plataforma de otimização de perfil, busca de vagas, cold outreach direto para hiring manager e scraping via agente de IA |
 | [[wiki/entities/career-ops]] | tool | 2 | Sistema open-source de busca de emprego com Claude Code (plugin + terminal) |
-| [[wiki/entities/claude-skills]] | tool | 4 | Feature Anthropic: pacotes nomeados de comportamento (Feature Forge, The Fool, etc.) + stack oficial de automação (Skill Creator, Superpowers, GSD, Context Mode, Claude Mem) |
+| [[wiki/entities/claude-skills]] | tool | 5 | Feature Anthropic: pacotes nomeados de comportamento (Feature Forge, The Fool, etc.) + stack oficial de automação (Skill Creator, Superpowers, GSD, Context Mode, Claude Mem) + skills de design de sites (Milkovalski Design, Impeccable Design, Taste Skill) |
 | [[wiki/entities/smithery]] | platform | 1 | Marketplace com 128k+ Claude Skills/MCPs |
 | [[wiki/entities/vibe-prospecting]] | tool | 1 | Conector Claude.ai para geração de leads por nicho/cargo/cidade |
 | [[wiki/entities/google-search-console]] | tool | 1 | Ferramenta gratuita Google de SEO — fonte de dados estruturados (queries, posição média, cliques) para pipelines com Claude |
@@ -211,6 +212,8 @@
 | [[wiki/entities/crawl4ai]] | tool | 1 | Web scraper open-source — alternativa ao Apify, acessa Reddit e LinkedIn |
 | [[wiki/entities/nocodb]] | tool | 1 | Smart spreadsheet database open-source — alternativa ao Airtable |
 | [[wiki/entities/opendesign]] | tool | 1 | Modelo de design open-source — alternativa a ferramentas de design por IA |
+| [[wiki/entities/figma]] | tool | 1 | MCP que conecta o Claude ao Figma para montagem direta de sites |
+| [[wiki/entities/playwright]] | tool | 1 | MCP que testa sites gerados pelo Claude automaticamente antes da entrega |
 
 ### Pessoas / Criadores (Brasil)
 
@@ -231,6 +234,7 @@
 | [[wiki/entities/rafa-grandi]] | @Rafa Grandi | 1 | Automação de candidaturas em massa (500 vagas) com ChatGPT agente; fórmula XYZ + scraping LinkedIn |
 | [[wiki/entities/pedro-mallet]] | @Pedro Mallet | 1 | CRM open source como substituto da Salesforce — guias de instalação e personalização com Claude Code |
 | [[wiki/entities/eduardo-cavalcanti]] | @Eduardo Cavalcanti | 1 | 20 pseudo-comandos "/" para ChatGPT, Claude e Gemini — rigor analítico, decisão e anti-alucinação |
+| [[wiki/entities/vinicius-delmonego]] | @Vinícius Delmônego | 1 | Estrategista de infoprodutos — stack de Claude Skills + MCPs para sites profissionais |
 
 ### Agregadores de conteúdo
 
