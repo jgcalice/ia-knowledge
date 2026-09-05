@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-08-05
-source_count: 121
+last_updated: 2026-08-21
+source_count: 122
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 121 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
+> Wiki iniciado em 2026-04-21 | 122 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
 
 ## Tese atual
 
@@ -316,12 +316,20 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 121 |
-| Páginas de fontes | 121 |
+| Fontes ingeridas | 122 |
+| Páginas de fontes | 122 |
 | Páginas de conceitos | 21 |
-| Páginas de entidades | 136 |
+| Páginas de entidades | 137 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **283** |
+| **Total de páginas** | **285** |
+
+---
+
+## Adições de 2026-08-21
+
+- [[wiki/sources/2026-08-21_eduardo-cavalcanti-20-codigos-secretos]] — 20 pseudo-comandos com prefixo "/" (de uma lista de 50) para ChatGPT, Claude e Gemini, com foco em rigor analítico, decisão e anti-alucinação (@Eduardo Cavalcanti)
+- Entidade criada: [[eduardo-cavalcanti]]
+- Conceito atualizado: [[prompt-engineering]] (source_count 43→44) — 4ª confirmação do padrão "slash-command style activators", com duas contribuições novas: `/SOURCE`/`/RESEARCH` formalizam anti-alucinação como código; `/HANDOFF` introduz portabilidade de contexto *entre modelos* (distinto do session handoff intra-sessão de [[nate-herk]])
 
 ---
 

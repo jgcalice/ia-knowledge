@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-08-05 | Total de páginas: 283 | Fontes ingeridas: 121
+> Atualizado em: 2026-08-21 | Total de páginas: 285 | Fontes ingeridas: 122
 
 ---
 
@@ -131,6 +131,7 @@
 | [[wiki/sources/2026-05-28_founded-ceo-yc-startup-ia]] | @FOUNDED CEO | 2026-05-28 | Y Combinator: playbook de Diana Hu com 8 princípios para startups nativas de IA |
 | [[wiki/sources/2026-07-11_think-gpt-auditoria-tim-ferriss]] | @Think GPT | 2026-07-11 | 4 prompts DEAL de Tim Ferriss para auditoria de produtividade: Life Design → Eliminação 80/20 → Autopiloto → Fear-Setting |
 | [[wiki/sources/2026-08-05_aleeshh-ferramentas-vibecore]] | @aleeshh | 2026-08-05 | Stack de 4 ferramentas visuais para vibe coders web: Watermelon UI, Motion Primitives, Menace, Hyke |
+| [[wiki/sources/2026-08-21_eduardo-cavalcanti-20-codigos-secretos]] | @Eduardo Cavalcanti | 2026-08-21 | 20 pseudo-comandos com prefixo "/" (de 50) para ChatGPT, Claude e Gemini — rigor analítico, decisão, anti-alucinação |
 
 ---
 
@@ -140,7 +141,7 @@
 |--------|--------|-----------|
 | [[wiki/concepts/geração-de-leads-com-ia]] | 3 | Uso de LLMs + scraping para prospecção B2B automatizada |
 | [[wiki/concepts/otimização-de-tokens]] | 4 | Técnicas para reduzir consumo de tokens no Claude |
-| [[wiki/concepts/prompt-engineering]] | 43 | Padrões de estruturação + palavras-gatilho + Claude Skills + "Act like a senior engineer" + substitutos de serviços profissionais (fitness, voos, finanças) + STAR como instrução explícita + Custom Instructions como modo persistente + prompts de geração de imagem com negative prompts + constraints de tom emocional em comunicação estratégica |
+| [[wiki/concepts/prompt-engineering]] | 44 | Padrões de estruturação + palavras-gatilho + Claude Skills + "Act like a senior engineer" + substitutos de serviços profissionais (fitness, voos, finanças) + STAR como instrução explícita + Custom Instructions como modo persistente + prompts de geração de imagem com negative prompts + constraints de tom emocional + 20 códigos "/" com foco em anti-alucinação e portabilidade entre modelos |
 | [[wiki/concepts/carreira-com-ia]] | 23 | IA para aceleração de carreira, LinkedIn, renda, produtos próprios, performance em entrevistas e personal brand na era do headshot comoditizado + pipeline completo de 7 fases (cold outreach + follow-up) + auto-candidatura em massa (500 vagas com ChatGPT agente) |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 6 | Frameworks Tim Ferriss (DEAL, 2 fontes), Naval Ravikant e Dan Koe aplicados com Claude |
 | [[wiki/concepts/agentes-ia]] | 28 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão + Agent Browser (automação de Chrome) + pipeline multi-agente de gestão de conteúdo (Postiz) + CamoFox confirmado para extração de leads sem bloqueio + OpenWA como canal de comunicação bidirecional via WhatsApp para agentes |
@@ -223,6 +224,7 @@
 | [[wiki/entities/hollyfield-la]] | @Hollyfield lA | 1 | Pipeline completo de 7 fases de busca de emprego com Claude; cold outreach e follow-up estruturados |
 | [[wiki/entities/rafa-grandi]] | @Rafa Grandi | 1 | Automação de candidaturas em massa (500 vagas) com ChatGPT agente; fórmula XYZ + scraping LinkedIn |
 | [[wiki/entities/pedro-mallet]] | @Pedro Mallet | 1 | CRM open source como substituto da Salesforce — guias de instalação e personalização com Claude Code |
+| [[wiki/entities/eduardo-cavalcanti]] | @Eduardo Cavalcanti | 1 | 20 pseudo-comandos "/" para ChatGPT, Claude e Gemini — rigor analítico, decisão e anti-alucinação |
 
 ### Agregadores de conteúdo
 

@@ -2,8 +2,8 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas, plan-mode, self-checking, custom-instructions, image-generation, negative-prompt]
-source_count: 43
-last_updated: 2026-07-21
+source_count: 44
+last_updated: 2026-08-21
 ---
 
 # Prompt Engineering
@@ -165,6 +165,13 @@ Variação das palavras-gatilho com prefixo `/` para comunicar o modo desejado a
 
 **Expansão: taxonomia de 89 comandos em 11 categorias** — [[beyond-intelligence]] publica referência mais ampla com 89 entradas organizadas em: Start & Create, Focus & Context, Think & Solve, Write & Edit, Organize & Structure, Code & Tech, Data & Analysis, Automate & Integrate, Personalize & Control, Learn & Research, Collaborate & Share + Power Shortcuts (bônus). O valor não está em cada entrada individual (a distinção entre comando nativo CLI e pseudo-comando é ignorada no post), mas na **taxonomia** como mapa mental dos modos de uso do Claude — da criação ao compartilhamento.
 → [[2026-04-28_beyond-intelligence-comandos-claude]] | [[beyond-intelligence]]
+
+**4ª confirmação: rigor analítico e anti-alucinação como códigos** — [[eduardo-cavalcanti]] documenta 20 (de uma lista de 50) pseudo-comandos com prefixo `/`, explicitamente descritos pelo autor como convenção instalável pelo próprio usuário — não comandos nativos de nenhum modelo — e agnósticos de plataforma (funcionam em ChatGPT, Claude e Gemini). Organizam-se em quatro funções: rigor analítico (`/EXPERT`, `/CRITIC`, `/DEEP`, `/RISK`, `/CHANCE`, `/DEVIL`), decisão (`/DECISION`, `/COMPARE`, `/ALT3`, `/PLAN`, `/REVIEW`, `/ASK3`), ensino/verificação (`/TEACHER`, `/SOURCE`, `/RESEARCH`, `/CHECKLIST`) e formato de entrega (`/CANVAS`, `/VISUAL`, `/HANDOFF`, `/NATURAL`). Duas contribuições novas ao padrão:
+- **`/SOURCE` e `/RESEARCH` formalizam anti-alucinação como código** — "só afirma o que tem fonte com link e data" e "cruza 5 fontes e mostra onde divergem" — primeira vez que pseudo-comandos endereçam invenção de fatos diretamente, em vez de tom ou formato.
+- **`/HANDOFF` introduz portabilidade *entre modelos*** (empacotar a conversa para colar em outro LLM), distinto do [[otimização-de-tokens|session handoff]] de [[nate-herk]], que resume contexto *dentro da mesma sessão* para liberar janela de tokens — objetivos diferentes (trocar de fornecedor vs. economizar tokens) usando o mesmo nome.
+
+`/ASK3` formaliza como código de 5 caracteres o princípio "perguntar antes de responder", visto de forma verbal no threshold de 95% de confiança de [[nate-herk]]. `/DEVIL` sobrepõe Devil's Advocate ([[castilho]]); `/CRITIC`/`/REVIEW` sobrepõem o padrão "Rasga isso" ([[nate-herk]]).
+→ [[2026-08-21_eduardo-cavalcanti-20-codigos-secretos]] | [[eduardo-cavalcanti]]
 
 ### Brand Voice Document em Projects
 Persistir estilo de escrita, palavras proibidas e regras de tom como documento permanente no Claude Projects — elimina a necessidade de repetir o briefing de voz a cada prompt. Padrão distinto do CLAUDE.md (focado em regras de código): aqui o objetivo é calibrar o modelo para produção de conteúdo.
@@ -410,3 +417,4 @@ Extensão do padrão "Output Constraints" aplicada ao **registro emocional**, n�
 - [[2026-05-18_roshan-krishna-5-prompts-entrevista]]
 - [[2026-05-29_prakash-kumar-founder-thinking-mode]]
 - [[2026-06-15_hollyfield-la-7-prompts-emprego]]
+- [[2026-08-21_eduardo-cavalcanti-20-codigos-secretos]]
