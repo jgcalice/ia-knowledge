@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-08-21 | Total de páginas: 285 | Fontes ingeridas: 122
+> Atualizado em: 2026-08-21 | Total de páginas: 293 | Fontes ingeridas: 123
 
 ---
 
@@ -132,6 +132,7 @@
 | [[wiki/sources/2026-07-11_think-gpt-auditoria-tim-ferriss]] | @Think GPT | 2026-07-11 | 4 prompts DEAL de Tim Ferriss para auditoria de produtividade: Life Design → Eliminação 80/20 → Autopiloto → Fear-Setting |
 | [[wiki/sources/2026-08-05_aleeshh-ferramentas-vibecore]] | @aleeshh | 2026-08-05 | Stack de 4 ferramentas visuais para vibe coders web: Watermelon UI, Motion Primitives, Menace, Hyke |
 | [[wiki/sources/2026-08-21_eduardo-cavalcanti-20-codigos-secretos]] | @Eduardo Cavalcanti | 2026-08-21 | 20 pseudo-comandos com prefixo "/" (de 50) para ChatGPT, Claude e Gemini — rigor analítico, decisão, anti-alucinação |
+| [[wiki/sources/2026-08-21_ibra-ai-5-repos-github-substitutos]] | @Ibra AI | 2026-08-21 | 5 repos GitHub gratuitos: All20 (Salesforce), Voicebox (ElevenLabs), Crawl4AI (Apify), NocoDB (Airtable), OpenDesign |
 
 ---
 
@@ -145,7 +146,7 @@
 | [[wiki/concepts/carreira-com-ia]] | 23 | IA para aceleração de carreira, LinkedIn, renda, produtos próprios, performance em entrevistas e personal brand na era do headshot comoditizado + pipeline completo de 7 fases (cold outreach + follow-up) + auto-candidatura em massa (500 vagas com ChatGPT agente) |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 6 | Frameworks Tim Ferriss (DEAL, 2 fontes), Naval Ravikant e Dan Koe aplicados com Claude |
 | [[wiki/concepts/agentes-ia]] | 28 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão + Agent Browser (automação de Chrome) + pipeline multi-agente de gestão de conteúdo (Postiz) + CamoFox confirmado para extração de leads sem bloqueio + OpenWA como canal de comunicação bidirecional via WhatsApp para agentes |
-| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 41 | 9 confirmações do padrão repos open-source (inclui CRM/Salesforce e WhatsApp/OpenWA) + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode + YC Request for Startups 2026 (mapa de setores: agro, saúde, defesa, espaço, hardware) |
+| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 42 | 10 confirmações do padrão repos open-source (inclui CRM/Salesforce, WhatsApp/OpenWA, voz/TTS e scraping vs. Apify) + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode + YC Request for Startups 2026 (mapa de setores: agro, saúde, defesa, espaço, hardware) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
 | [[wiki/concepts/segurança-com-ia]] | 9 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital + checklist jurídico-técnica pré-lançamento (GDPR/CCPA, RLS, OWASP) + segurança front-end (env vars, LocalStorage, cookies HTTP-only, CORS/CSP) |
 | [[wiki/concepts/vibecoding]] | 5 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança; abordagens preventiva (back-end), detective, jurídico-técnica (pré-lançamento) e front-end específica; stack de ferramentas para vibe coders iOS (ShadCN, 10X, 21st Dev) e web (Watermelon UI, Motion Primitives, Menace, Hyke) |
@@ -179,7 +180,7 @@
 | [[wiki/entities/claude-code]] | tool | 38 | LLM da Anthropic — ferramenta central de todas as fontes |
 | [[wiki/entities/n8n]] | tool | 4 | Plataforma de automação de workflows open-source — alternativa ao Zapier com 400+ integrações e IA nativa; $600/mês Zapier Pro → $0 self-hosted; integração nativa com Postiz |
 | [[wiki/entities/ruflo]] | tool | 1 | Camada de orquestração open-source para Claude Code: 100+ agentes, roteamento automático de modelo por complexidade, MIT |
-| [[wiki/entities/apify]] | tool | 1 | Plataforma de scraping com conector nativo no Claude |
+| [[wiki/entities/apify]] | tool | 3 | Plataforma de scraping com conector nativo no Claude — Crawl4AI documentado como alternativa open-source |
 | [[wiki/entities/api-file]] | platform | 1 | Marketplace de APIs para scraping e integração |
 | [[wiki/entities/markitdown]] | tool | 2 | Conversor de documentos para Markdown (Microsoft) |
 | [[wiki/entities/google-maps]] | platform | 4 | Fonte de dados para leads B2B + mercado de SEO local (agência GMB) + sweet spot pattern |
@@ -205,6 +206,11 @@
 | [[wiki/entities/motion-primitives]] | tool | 1 | Biblioteca de código de animação copy-paste — elimina a necessidade de escrever animação do zero |
 | [[wiki/entities/menace]] | tool | 1 | App builder sem código — gera back-end e front-end completos por descrição em linguagem natural |
 | [[wiki/entities/hyke]] | tool | 1 | Gerador gratuito de backgrounds SVG (blobs, gradientes, waves) |
+| [[wiki/entities/all20]] | tool | 1 | CRM open-source — alternativa ao Salesforce (contatos, empresas, pipelines, automações) |
+| [[wiki/entities/voicebox]] | tool | 1 | Text-to-speech e clonagem de voz open-source — alternativa ao ElevenLabs, 100+ vozes |
+| [[wiki/entities/crawl4ai]] | tool | 1 | Web scraper open-source — alternativa ao Apify, acessa Reddit e LinkedIn |
+| [[wiki/entities/nocodb]] | tool | 1 | Smart spreadsheet database open-source — alternativa ao Airtable |
+| [[wiki/entities/opendesign]] | tool | 1 | Modelo de design open-source — alternativa a ferramentas de design por IA |
 
 ### Pessoas / Criadores (Brasil)
 
@@ -250,6 +256,7 @@
 | [[wiki/entities/marc-kaz]] | @Marc Kaz | 1 | Ferramentas open-source para desenvolvedores — OpenWA como API WhatsApp self-hosted |
 | [[wiki/entities/joaquin-fernandez]] | @Joaquin Fernandez | 1 | Ferramentas de desenvolvimento para vibe coders iOS — ShadCN, 10X, 21st Dev, Animista, Phosphor Icons |
 | [[wiki/entities/aleeshh]] | @aleeshh | 1 | Ferramentas de desenvolvimento para vibe coders web — Watermelon UI, Motion Primitives, Menace, Hyke |
+| [[wiki/entities/ibra-ai]] | @Ibra AI | 1 | Curadoria de repos GitHub open-source — All20, Voicebox, Crawl4AI, NocoDB, OpenDesign |
 
 ### Pessoas / Criadores (Internacional — e-commerce)
 

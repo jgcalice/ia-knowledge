@@ -3,13 +3,13 @@ title: "Apify"
 type: entity
 category: tool
 tags: [scraping, automação, leads, google-maps, conector]
-source_count: 2
-last_updated: 2026-04-24
+source_count: 3
+last_updated: 2026-08-21
 ---
 
 # Apify
 
-> **Categoria:** Plataforma de scraping | **Aparece em:** 1 fonte
+> **Categoria:** Plataforma de scraping | **Aparece em:** 3 fontes
 
 ## O que é
 
@@ -42,7 +42,13 @@ Apify é uma plataforma de web scraping e automação com marketplace de "Actors
 | Enriquecimento | Não mencionado | Busca adicional na internet |
 | Popularidade no wiki | 2 fontes | 1 fonte |
 
+## Concorrência open-source
+
+[[ibra-ai]] apresenta o [[crawl4ai]] como alternativa gratuita ao Apify, capaz de scrapear Reddit e LinkedIn — dados que o Apify seria tecnicamente restrito de acessar. Primeira vez no wiki que um repo open-source é posicionado como concorrente direto do Apify, não apenas como ferramenta complementar.
+→ [[2026-08-21_ibra-ai-5-repos-github-substitutos]]
+
 ## Fontes
 
 - [[2026-03-28_prospecção-leads-claude-apify]]
 - [[2026-04-22_arshman-khalid-automacao-busca-emprego]]
+- [[2026-08-21_ibra-ai-5-repos-github-substitutos]]

@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-08-21
-source_count: 122
+source_count: 123
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 122 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
+> Wiki iniciado em 2026-04-21 | 123 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
 
 ## Tese atual
 
@@ -330,6 +330,12 @@ Fonte: ([[faria-lima-elevator]])
 - [[wiki/sources/2026-08-21_eduardo-cavalcanti-20-codigos-secretos]] — 20 pseudo-comandos com prefixo "/" (de uma lista de 50) para ChatGPT, Claude e Gemini, com foco em rigor analítico, decisão e anti-alucinação (@Eduardo Cavalcanti)
 - Entidade criada: [[eduardo-cavalcanti]]
 - Conceito atualizado: [[prompt-engineering]] (source_count 43→44) — 4ª confirmação do padrão "slash-command style activators", com duas contribuições novas: `/SOURCE`/`/RESEARCH` formalizam anti-alucinação como código; `/HANDOFF` introduz portabilidade de contexto *entre modelos* (distinto do session handoff intra-sessão de [[nate-herk]])
+
+- [[wiki/sources/2026-08-21_ibra-ai-5-repos-github-substitutos]] — 5 repos GitHub gratuitos: All20 (Salesforce), Voicebox (ElevenLabs), Crawl4AI (Apify), NocoDB (Airtable), OpenDesign (@Ibra AI)
+- Entidades criadas: [[ibra-ai]], [[all20]], [[voicebox]], [[crawl4ai]], [[nocodb]], [[opendesign]]
+- Entidade atualizada: [[apify]] (source_count 2→3) — Crawl4AI documentado como primeiro concorrente open-source direto
+- Conceito atualizado: [[estratégia-de-negócios-com-ia]] (source_count 41→42) — 10ª confirmação do padrão repos open-source, com duas expansões de domínio: voz/TTS (Voicebox complementa [[whisper]], fechando o pipeline bidirecional de áudio) e scraping como substituto direto do Apify (primeira comparação frontal no wiki)
+- Status: 122→123 fontes, 285→293 páginas (+1 fonte, +6 entidades, +1 fonte de conceito)
 
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: "Estratégia de Negócios com IA"
 type: concept
-tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce, amazon-kdp, topical-authority, low-content-products, open-source, custo-zero, criação-de-conteúdo, y-combinator, startups, ia-nativa, custom-instructions, founder-mode, crm, whatsapp]
-source_count: 41
-last_updated: 2026-06-28
+tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce, amazon-kdp, topical-authority, low-content-products, open-source, custo-zero, criação-de-conteúdo, y-combinator, startups, ia-nativa, custom-instructions, founder-mode, crm, whatsapp, scraping, voz]
+source_count: 42
+last_updated: 2026-08-21
 ---
 
 # Estratégia de Negócios com IA
@@ -562,8 +562,29 @@ Complemento ao playbook operacional de [[diana-hu]] — enquanto aquele descreve
 
 → [[2026-06-14_marc-kaz-openwa-api-whatsapp]]
 
+## 5 repos GitHub de @Ibra AI — 10ª confirmação, expansão para voz e scraping social
+
+([[ibra-ai]], [[2026-08-21_ibra-ai-5-repos-github-substitutos]])
+
+Reel curto (69s) no mesmo template consolidado — "N repos GitHub substituem SaaS pago" — com CTA de comentário para captura de lead, idêntico ao de [[growai]] e [[paras-madan]]:
+
+| Repositório | Substitui | Domínio |
+|-------------|-----------|---------|
+| [[all20]] | Salesforce | CRM (2ª confirmação do arquétipo, após [[pedro-mallet]]) |
+| [[voicebox]] | ElevenLabs | Text-to-speech e clonagem de voz — **domínio novo no wiki** |
+| [[crawl4ai]] | [[apify]] | Scraping avançado (Reddit, LinkedIn) — **primeira comparação direta com Apify** |
+| [[nocodb]] | Airtable | Banco de dados inteligente |
+| [[opendesign]] | Modelos de design por IA | Design generativo |
+
+**Duas expansões de domínio**: (1) **voz/TTS** — Voicebox complementa o [[whisper]] já documentado (speech-to-text), fechando o pipeline bidirecional de áudio a custo zero; (2) **scraping como substituto do Apify** — primeira vez que um repo open-source é posicionado como concorrente direto de uma ferramenta paga já usada nos pipelines de [[geração-de-leads-com-ia]] ([[hudson-brendon]], [[lucas-garcia-pit]], [[arshman-khalid]]).
+
+**10ª confirmação independente do padrão** "repos open-source substituem SaaS pago" (após [[paras-madan]], [[bestapps-ai]], [[growai]], [[harish-bhatt]] ×2, [[today-in-ai]], [[cooper-simson]], [[stics-ai]], [[pedro-mallet]], [[marc-kaz]]).
+
+→ [[2026-08-21_ibra-ai-5-repos-github-substitutos]]
+
 ## Fontes
 
+- [[2026-08-21_ibra-ai-5-repos-github-substitutos]]
 - [[2026-06-14_marc-kaz-openwa-api-whatsapp]]
 - [[2026-05-29_business-bulls-ai-yc-setores-2026]]
 - [[2026-05-29_prakash-kumar-founder-thinking-mode]]
