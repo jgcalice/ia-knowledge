@@ -5,6 +5,10 @@
 
 ---
 
+## [2026-09-06] ingest | Como Escalar um Banco de Dados para Milhões de Usuários — @RickTheEngineer
+
+Fonte: `2026-09-06_ricktheengineer_Dc9vMsSMiIy.md` (reel, 177s). ⚠️ Conteúdo fora do escopo de IA — system design puro (vertical scaling, índices, caching/Redis, réplicas de leitura, filas assíncronas, particionamento, sharding), sem menção a LLMs, Claude ou ferramentas de IA. Página criada: wiki/sources/2026-09-06_ricktheengineer-escalar-banco-dados.md (nota editorial de fora de escopo, seguindo o mesmo tratamento de [[2026-04-24_nico_fansbuy-importacao-china]]). Entidade criada: entities/ricktheengineer.md (novo criador, fora do escopo IA). Nenhum conceito de IA atualizado. wiki/overview.md (124→125 fontes, 297→299 páginas, nova entrada em "Adições de 2026-09-06"). index.md (297→299 páginas, 124→125 fontes, +1 fonte, +1 entidade).
+
 ## [2026-08-19] ingest | 5 Configurações para Sites Profissionais com Claude — @Vinícius Delmônego
 
 Fonte: `2026-08-19_vinicius_delmonego_estrategista_de_infoprodutos_ia_DcJUB_yipdH.md` (reel, 66s). Página criada: wiki/sources/2026-08-19_vinicius-delmonego-sites-claude.md (3 Claude Skills — Milkovalski Design, Impeccable Design, Taste Skill — + 2 MCPs — Figma, Playwright — para elevar a qualidade visual de sites gerados pelo Claude). Entidades criadas: entities/vinicius-delmonego.md (novo criador BR), entities/figma.md, entities/playwright.md (primeiros MCPs de design e QA documentados no wiki). Atualizado: entities/claude-skills.md (source_count 4→5, nova seção "Skills de design de sites"), concepts/vibecoding.md (source_count 5→6, nova seção "Stack nativo do Claude para sites profissionais — Skills + MCP", 3ª stack de vibecoding documentada após iOS e web visual). wiki/overview.md (123→124 fontes, 293→297 páginas, nova entrada em "Adições de 2026-08-19"). index.md (293→297 páginas, 123→124 fontes, +1 fonte, +3 entidades, claude-skills 4→5, vibecoding 5→6).

@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-08-19
-source_count: 124
+last_updated: 2026-09-06
+source_count: 125
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 124 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
+> Wiki iniciado em 2026-04-21 | 125 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
 
 ## Tese atual
 
@@ -317,11 +317,11 @@ Fonte: ([[faria-lima-elevator]])
 | Tipo | Quantidade |
 |------|-----------|
 | Fontes ingeridas | 124 |
-| Páginas de fontes | 124 |
+| Páginas de fontes | 125 |
 | Páginas de conceitos | 21 |
-| Páginas de entidades | 140 |
+| Páginas de entidades | 141 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **297** |
+| **Total de páginas** | **299** |
 
 ---
 
@@ -346,6 +346,15 @@ Fonte: ([[faria-lima-elevator]])
 - Entidade atualizada: [[apify]] (source_count 2→3) — Crawl4AI documentado como primeiro concorrente open-source direto
 - Conceito atualizado: [[estratégia-de-negócios-com-ia]] (source_count 41→42) — 10ª confirmação do padrão repos open-source, com duas expansões de domínio: voz/TTS (Voicebox complementa [[whisper]], fechando o pipeline bidirecional de áudio) e scraping como substituto direto do Apify (primeira comparação frontal no wiki)
 - Status: 122→123 fontes, 285→293 páginas (+1 fonte, +6 entidades, +1 fonte de conceito)
+
+---
+
+## Adições de 2026-09-06
+
+- [[wiki/sources/2026-09-06_ricktheengineer-escalar-banco-dados]] — ⚠️ Fora do escopo IA: progressão de arquitetura para escalar banco de dados a milhões de usuários (vertical scaling → índices → cache → réplicas de leitura → filas → particionamento → sharding), sem menção a LLMs ou ferramentas de IA (@RickTheEngineer)
+- Entidade criada: [[ricktheengineer]] (fora do escopo IA)
+- Nenhum conceito de IA atualizado — mesmo tratamento editorial dado a [[2026-04-24_nico_fansbuy-importacao-china]]
+- Status: 124→125 fontes, 297→299 páginas (+1 fonte, +1 entidade)
 
 ---
 

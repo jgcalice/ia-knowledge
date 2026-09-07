@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-08-19 | Total de páginas: 297 | Fontes ingeridas: 124
+> Atualizado em: 2026-09-06 | Total de páginas: 299 | Fontes ingeridas: 125
 
 ---
 
@@ -134,6 +134,7 @@
 | [[wiki/sources/2026-08-21_eduardo-cavalcanti-20-codigos-secretos]] | @Eduardo Cavalcanti | 2026-08-21 | 20 pseudo-comandos com prefixo "/" (de 50) para ChatGPT, Claude e Gemini — rigor analítico, decisão, anti-alucinação |
 | [[wiki/sources/2026-08-21_ibra-ai-5-repos-github-substitutos]] | @Ibra AI | 2026-08-21 | 5 repos GitHub gratuitos: All20 (Salesforce), Voicebox (ElevenLabs), Crawl4AI (Apify), NocoDB (Airtable), OpenDesign |
 | [[wiki/sources/2026-08-19_vinicius-delmonego-sites-claude]] | @Vinícius Delmônego | 2026-08-19 | 5 configurações (3 Claude Skills + 2 MCPs) para sites profissionais com Claude |
+| [[wiki/sources/2026-09-06_ricktheengineer-escalar-banco-dados]] | @RickTheEngineer | 2026-09-06 | ⚠️ Fora do escopo IA — Como escalar um banco de dados para milhões de usuários (system design) |
 
 ---
 
@@ -235,6 +236,7 @@
 | [[wiki/entities/pedro-mallet]] | @Pedro Mallet | 1 | CRM open source como substituto da Salesforce — guias de instalação e personalização com Claude Code |
 | [[wiki/entities/eduardo-cavalcanti]] | @Eduardo Cavalcanti | 1 | 20 pseudo-comandos "/" para ChatGPT, Claude e Gemini — rigor analítico, decisão e anti-alucinação |
 | [[wiki/entities/vinicius-delmonego]] | @Vinícius Delmônego | 1 | Estrategista de infoprodutos — stack de Claude Skills + MCPs para sites profissionais |
+| [[wiki/entities/ricktheengineer]] | @RickTheEngineer | 1 | Criador de conteúdo técnico de system design/backend — fora do escopo IA |
 
 ### Agregadores de conteúdo
 
