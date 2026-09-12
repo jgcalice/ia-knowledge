@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-09-06 | Total de páginas: 299 | Fontes ingeridas: 125
+> Atualizado em: 2026-09-07 | Total de páginas: 301 | Fontes ingeridas: 126
 
 ---
 
@@ -135,6 +135,7 @@
 | [[wiki/sources/2026-08-21_ibra-ai-5-repos-github-substitutos]] | @Ibra AI | 2026-08-21 | 5 repos GitHub gratuitos: All20 (Salesforce), Voicebox (ElevenLabs), Crawl4AI (Apify), NocoDB (Airtable), OpenDesign |
 | [[wiki/sources/2026-08-19_vinicius-delmonego-sites-claude]] | @Vinícius Delmônego | 2026-08-19 | 5 configurações (3 Claude Skills + 2 MCPs) para sites profissionais com Claude |
 | [[wiki/sources/2026-09-06_ricktheengineer-escalar-banco-dados]] | @RickTheEngineer | 2026-09-06 | ⚠️ Fora do escopo IA — Como escalar um banco de dados para milhões de usuários (system design) |
+| [[wiki/sources/2026-09-07_skills-design-conflito-atencao]] | @Fabiano Carvalho | 2026-09-07 | Catálogo de 10 Claude Skills de design + conflito de atenção entre skills concorrentes |
 
 ---
 
@@ -147,7 +148,7 @@
 | [[wiki/concepts/prompt-engineering]] | 44 | Padrões de estruturação + palavras-gatilho + Claude Skills + "Act like a senior engineer" + substitutos de serviços profissionais (fitness, voos, finanças) + STAR como instrução explícita + Custom Instructions como modo persistente + prompts de geração de imagem com negative prompts + constraints de tom emocional + 20 códigos "/" com foco em anti-alucinação e portabilidade entre modelos |
 | [[wiki/concepts/carreira-com-ia]] | 23 | IA para aceleração de carreira, LinkedIn, renda, produtos próprios, performance em entrevistas e personal brand na era do headshot comoditizado + pipeline completo de 7 fases (cold outreach + follow-up) + auto-candidatura em massa (500 vagas com ChatGPT agente) |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 6 | Frameworks Tim Ferriss (DEAL, 2 fontes), Naval Ravikant e Dan Koe aplicados com Claude |
-| [[wiki/concepts/agentes-ia]] | 28 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão + Agent Browser (automação de Chrome) + pipeline multi-agente de gestão de conteúdo (Postiz) + CamoFox confirmado para extração de leads sem bloqueio + OpenWA como canal de comunicação bidirecional via WhatsApp para agentes |
+| [[wiki/concepts/agentes-ia]] | 29 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão + Agent Browser (automação de Chrome) + pipeline multi-agente de gestão de conteúdo (Postiz) + CamoFox confirmado para extração de leads sem bloqueio + OpenWA como canal de comunicação bidirecional via WhatsApp para agentes + conflito de atenção entre skills concorrentes |
 | [[wiki/concepts/estratégia-de-negócios-com-ia]] | 42 | 10 confirmações do padrão repos open-source (inclui CRM/Salesforce, WhatsApp/OpenWA, voz/TTS e scraping vs. Apify) + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode + YC Request for Startups 2026 (mapa de setores: agro, saúde, defesa, espaço, hardware) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
 | [[wiki/concepts/segurança-com-ia]] | 9 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital + checklist jurídico-técnica pré-lançamento (GDPR/CCPA, RLS, OWASP) + segurança front-end (env vars, LocalStorage, cookies HTTP-only, CORS/CSP) |
@@ -188,7 +189,7 @@
 | [[wiki/entities/google-maps]] | platform | 4 | Fonte de dados para leads B2B + mercado de SEO local (agência GMB) + sweet spot pattern |
 | [[wiki/entities/linkedin]] | platform | 8 | Plataforma de otimização de perfil, busca de vagas, cold outreach direto para hiring manager e scraping via agente de IA |
 | [[wiki/entities/career-ops]] | tool | 2 | Sistema open-source de busca de emprego com Claude Code (plugin + terminal) |
-| [[wiki/entities/claude-skills]] | tool | 5 | Feature Anthropic: pacotes nomeados de comportamento (Feature Forge, The Fool, etc.) + stack oficial de automação (Skill Creator, Superpowers, GSD, Context Mode, Claude Mem) + skills de design de sites (Milkovalski Design, Impeccable Design, Taste Skill) |
+| [[wiki/entities/claude-skills]] | tool | 6 | Feature Anthropic: pacotes nomeados de comportamento (Feature Forge, The Fool, etc.) + stack oficial de automação (Skill Creator, Superpowers, GSD, Context Mode, Claude Mem) + skills de design de sites (Milkovalski Design, Impeccable Design, Taste Skill) + conflito de atenção entre skills concorrentes e protocolo de instalação incremental |
 | [[wiki/entities/smithery]] | platform | 1 | Marketplace com 128k+ Claude Skills/MCPs |
 | [[wiki/entities/vibe-prospecting]] | tool | 1 | Conector Claude.ai para geração de leads por nicho/cargo/cidade |
 | [[wiki/entities/google-search-console]] | tool | 1 | Ferramenta gratuita Google de SEO — fonte de dados estruturados (queries, posição média, cliques) para pipelines com Claude |
@@ -237,6 +238,7 @@
 | [[wiki/entities/eduardo-cavalcanti]] | @Eduardo Cavalcanti | 1 | 20 pseudo-comandos "/" para ChatGPT, Claude e Gemini — rigor analítico, decisão e anti-alucinação |
 | [[wiki/entities/vinicius-delmonego]] | @Vinícius Delmônego | 1 | Estrategista de infoprodutos — stack de Claude Skills + MCPs para sites profissionais |
 | [[wiki/entities/ricktheengineer]] | @RickTheEngineer | 1 | Criador de conteúdo técnico de system design/backend — fora do escopo IA |
+| [[wiki/entities/fabiano-carvalho]] | @Fabiano Carvalho | 1 | Curadoria crítica de Claude Skills — verificação manual de links + conflito de atenção entre skills concorrentes |
 
 ### Agregadores de conteúdo
 

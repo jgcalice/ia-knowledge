@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-09-06
-source_count: 125
+last_updated: 2026-09-07
+source_count: 126
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 125 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
+> Wiki iniciado em 2026-04-21 | 126 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
 
 ## Tese atual
 
@@ -317,11 +317,11 @@ Fonte: ([[faria-lima-elevator]])
 | Tipo | Quantidade |
 |------|-----------|
 | Fontes ingeridas | 124 |
-| Páginas de fontes | 125 |
+| Páginas de fontes | 126 |
 | Páginas de conceitos | 21 |
-| Páginas de entidades | 141 |
+| Páginas de entidades | 142 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **299** |
+| **Total de páginas** | **301** |
 
 ---
 
@@ -355,6 +355,16 @@ Fonte: ([[faria-lima-elevator]])
 - Entidade criada: [[ricktheengineer]] (fora do escopo IA)
 - Nenhum conceito de IA atualizado — mesmo tratamento editorial dado a [[2026-04-24_nico_fansbuy-importacao-china]]
 - Status: 124→125 fontes, 297→299 páginas (+1 fonte, +1 entidade)
+
+---
+
+## Adições de 2026-09-07
+
+- [[wiki/sources/2026-09-07_skills-design-conflito-atencao]] — catálogo verificado de 10 Claude Skills de design (1 fora do ar) + primeiro relato no wiki do **conflito de atenção entre skills concorrentes**: quando múltiplas skills atacam o mesmo ponto de decisão (ex: estética visual), competem pelo mesmo espaço de atenção do contexto e o resultado deixa de ser reprodutível entre sessões (@Fabiano Carvalho)
+- Entidade criada: [[fabiano-carvalho]]
+- Entidade atualizada: [[claude-skills]] (source_count 5→6) — nova seção "Conflito de atenção entre skills concorrentes" + protocolo de instalação incremental (instalar uma → testar → comparar → só então a próxima)
+- Conceito atualizado: [[agentes-ia]] (source_count 28→29) — nova subseção "Conflito de atenção quando micro-agentes se sobrepõem", reverso do padrão "128k+ skills disponíveis" já documentado via [[aashish-pahwa]]
+- Status: 125→126 fontes, 299→301 páginas (+1 fonte, +1 entidade)
 
 ---
 

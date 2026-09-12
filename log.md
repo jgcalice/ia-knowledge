@@ -479,3 +479,7 @@ Fonte: 2026-05-09_drew_huibregtse_digital_products_DYGV3UQFhTc.md. Páginas cria
 ## [2026-05-20] ingest | Topical authority com findquestions.com — @Matt Diamante
 
 Fonte: 2026-05-10_matt_diamante_DYJ228vjZQn.md. Páginas criadas: wiki/sources/2026-05-10_matt-diamante-topical-authority.md, entities/matt-diamante.md, entities/findquestions.md. Atualizado: concepts/estratégia-de-negócios-com-ia (+1, topical authority como arquétipo editorial), concepts/prompt-engineering (+1). Wiki: 80→85 fontes, 87→97 entidades.
+
+## [2026-09-07] ingest | Skills de Design do Claude: Catálogo Verificado e Conflito de Atenção — @Fabiano Carvalho
+
+Fonte: `2026-09-07_fabiano_carvalho_DdAPdtbjKt2.md`. Páginas criadas: wiki/sources/2026-09-07_skills-design-conflito-atencao.md, entities/fabiano-carvalho.md. Atualizado: entities/claude-skills.md (5→6, nova seção "Conflito de atenção entre skills concorrentes" + protocolo de instalação incremental), concepts/agentes-ia.md (28→29, nova subseção "Conflito de atenção quando micro-agentes se sobrepõem"), overview.md (125→126 fontes, 299→301 páginas), index.md. Insight novo: skills concorrentes que disputam o mesmo ponto de decisão competem pelo espaço de atenção do contexto e tornam o resultado não-reprodutível entre sessões.

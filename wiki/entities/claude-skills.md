@@ -3,8 +3,8 @@ title: "Claude Skills"
 type: entity
 category: tool
 tags: [claude, anthropic, skills, agentes-ia, prompt-engineering, marketplace, design, vibecoding]
-source_count: 5
-last_updated: 2026-08-19
+source_count: 6
+last_updated: 2026-09-07
 ---
 
 # Claude Skills
@@ -105,6 +105,31 @@ Combinadas com os MCPs [[figma]] (montagem) e [[playwright]] (teste automatizado
 
 → [[2026-08-19_vinicius-delmonego-sites-claude]]
 
+## Conflito de atenção entre skills concorrentes (baseada em [[fabiano-carvalho]])
+
+Primeiro relato no wiki do **modo de falha** da composição de skills. Skill não é plugin nem modelo — é arquivo de instrução que entra no contexto quando a tarefa combina com sua descrição. Consequência: quando duas ou mais skills atacam o mesmo ponto de decisão (ex: três skills de estética visual ligadas ao mesmo tempo), elas competem pelo mesmo espaço de atenção do modelo, e qual delas "vence" muda de sessão para sessão — o resultado deixa de ser reprodutível, que é a única coisa que importa numa skill de gosto/estética.
+
+**Catálogo verificado (10 skills, links abertos manualmente um a um; 1 fora do ar)**:
+
+| Skill | Autor | Foco |
+|-------|-------|------|
+| UI/UX Pro Max | nextlevelbuilder | Layouts, tipografia, interfaces |
+| Impeccable | pbakaus | Corrige interfaces "com cara de IA" feias |
+| Taste Skill | Leonxlnx | Senso de design, saída menos genérica |
+| Humanizer | blader | Escrita menos "cara de IA" |
+| Understand Anything | Egonex-AI | Simplifica documentos/pesquisa/conceitos |
+| Frontend Slides | zarazhangrui | Apresentações interativas com código |
+| Diagram Design | cathrynlavery | Diagramas de fluxos/sistemas/processos |
+| Stop Slop | hardikpandya | Menos enrolação, raciocínio e execução melhores |
+| Awesome Design MD | VoltAgent | — |
+| Design.md | google-labs-code | — |
+
+**Protocolo de instalação incremental recomendado**: instalar uma skill → rodar uma tarefa já conhecida → comparar a saída nova com a antiga lado a lado → anotar a diferença → só então instalar a próxima. Sem essa comparação, o usuário "acha" que melhorou, mas não tem como saber.
+
+**Ponto de partida se for instalar só uma**: quem faz interface começa por **Impeccable** ou **Taste Skill** (nunca as duas juntas); quem escreve texto começa por **Stop Slop**. Confirma, com fonte independente, os mesmos links de Impeccable e Taste Skill já citados via [[vinicius-delmonego]].
+
+→ [[2026-09-07_skills-design-conflito-atencao]]
+
 ## Fontes
 
 - [[2026-04-07_claude-skills-product-managers]]
@@ -112,3 +137,4 @@ Combinadas com os MCPs [[figma]] (montagem) e [[playwright]] (teste automatizado
 - [[2026-04-18_paras-madan-top5-skills-founders]]
 - [[2026-05-03_nate-herk-6-habilidades-claude-code]]
 - [[2026-08-19_vinicius-delmonego-sites-claude]]
+- [[2026-09-07_skills-design-conflito-atencao]]

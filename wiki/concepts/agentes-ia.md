@@ -2,7 +2,7 @@
 title: "Agentes de IA"
 type: concept
 tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents, agent-teams, git-worktrees, hooks, plugins, skills, comportamento-default]
-source_count: 28
+source_count: 29
 last_updated: 2026-06-28
 ---
 
@@ -46,6 +46,10 @@ Sistemas baseados em LLMs que executam tarefas de forma autônoma, podendo integ
 ### Claude Skills como micro-agentes distribuíveis
 [[aashish-pahwa]] cataloga 6 skills (Feature Forge, Spec Miner, The Fool, Architecture Designer, API Designer, Microservice Architect) — cada uma opera como micro-agente especializado ativado por frase-gatilho. Marketplaces como [[smithery]] têm 128k+ skills — evidência de ecossistema maduro de agentes compartilháveis.
 → [[2026-04-07_claude-skills-product-managers]]
+
+### Conflito de atenção quando micro-agentes se sobrepõem
+[[fabiano-carvalho]] documenta o reverso da distribuição em massa de skills: se várias skills atacam o **mesmo ponto de decisão** (ex: estética visual), elas competem pelo mesmo espaço de atenção do contexto e o resultado deixa de ser reprodutível entre sessões. Mitigação proposta: instalar uma micro-agente por vez, testar contra uma tarefa conhecida, comparar saídas, só então adicionar a próxima — disciplina equivalente a testar uma mudança de cada vez em qualquer sistema multi-agente.
+→ [[2026-09-07_skills-design-conflito-atencao]]
 
 ### Sub-agentes como estratégia de token management
 ([[nate-herk]], [[2026-04-20_nate-herk-gerenciar-limites-sessao]])
@@ -390,6 +394,7 @@ Três arquétipos inéditos no wiki:
 
 ## Fontes
 
+- [[2026-09-07_skills-design-conflito-atencao]]
 - [[2026-06-14_marc-kaz-openwa-api-whatsapp]]
 - [[2026-05-28_ask-gpts-postiz-social-media]]
 - [[2026-05-28_bestapps-5-repos-potencializam-claude]]
