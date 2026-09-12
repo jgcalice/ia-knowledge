@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-09-07
-source_count: 126
+last_updated: 2026-09-11
+source_count: 127
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 126 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
+> Wiki iniciado em 2026-04-21 | 127 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
 
 ## Tese atual
 
@@ -128,6 +128,7 @@ Sistema completo documentado — da visibilidade à estratégia de longo prazo:
 - **Playbook YC para Startups AI-Native (NOVO)**: [[diana-hu]] ([[y-combinator]]) publica 8 princípios para founders — IA como OS, closed loops, zero middleware humano, token-max, early-stage advantage. Arquétipo "AI founder" (per [[jack-dorsey]]) como terceiro tipo de funcionário. ⚡ Contraste com [[adoção-empresarial-de-ia]]: o Stanford DEL estuda como superar resistências em grandes orgs; o YC elimina as estruturas que as geram já na fundação ([[founded-ceo]])
 - **YC Request for Startups 2026 — Mapa de setores com alto potencial (NOVO)**: [[business-bulls]] sintetiza a lista de 15 ideias de startup que o [[y-combinator]] quer financiar em 2026 — de IA para agricultura e medicina personalizada a defesa antidrone e chips para espaço. Complementa o playbook operacional de [[diana-hu]] (como construir) com o mapa de onde construir. "Empresas de Serviços Nativos de IA" materializa o arquétipo AI-native mais radical: IA como modelo operacional completo, não ferramenta. ([[2026-05-29_business-bulls-ai-yc-setores-2026]])
 - **Founder Thinking Mode — Custom Instructions como co-fundador permanente (NOVO)**: [[prakash-kumar]] (@startup.snack) documenta um modo persistente instalado nas Custom Instructions do Claude que elimina respostas genéricas e força aconselhamento direto de operador experiente. Distinção de todos os prompts de estratégia anteriores: o ROLE não é especificado por prompt, mas instalado uma vez — toda conversa subsequente herda o contexto de "founder que já construiu e saiu de empresas". A abertura obrigatória "Here's what I'd actually do." é uma constraint de comprometimento que elimina hedging. 5 casos de uso cobrem os pontos críticos do early-stage founder: stress test, gap competitivo, kill the spiral (decisão paralisada), receita oculta e contratação
+- **5ª fonte de Derek Gray — rebrand para dupla e hype de "GPT-6 Astra" (NOVO)**: [[derek-gray]] rebranda para "Derek & Dakota Gray | Digital Real Estate" e usa hype em torno de um modelo hipotético ("GPT-6 Astra") com anedotas não verificáveis (bug bounty $200, campanha de UGC com 2,6B views) como isca antes do pivot para a oferta real de sempre — GMB ranking, agora $500–$800/mês, $52.670/mês em 7 meses, 129 clientes. ⚠️ Nome de modelo não documentado publicamente; progressão de receita não auditável entre as 5 fontes do mesmo criador ([[2026-09-11_derek-dakota-gray-gpt6-astra]])
 
 ---
 
@@ -316,12 +317,12 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 124 |
-| Páginas de fontes | 126 |
+| Fontes ingeridas | 127 |
+| Páginas de fontes | 127 |
 | Páginas de conceitos | 21 |
 | Páginas de entidades | 142 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **301** |
+| **Total de páginas** | **302** |
 
 ---
 
@@ -355,6 +356,17 @@ Fonte: ([[faria-lima-elevator]])
 - Entidade criada: [[ricktheengineer]] (fora do escopo IA)
 - Nenhum conceito de IA atualizado — mesmo tratamento editorial dado a [[2026-04-24_nico_fansbuy-importacao-china]]
 - Status: 124→125 fontes, 297→299 páginas (+1 fonte, +1 entidade)
+
+---
+
+## Adições de 2026-09-11
+
+- [[wiki/sources/2026-09-11_derek-dakota-gray-gpt6-astra]] — carrossel usa hype de um modelo hipotético "GPT-6 Astra" (bug bounty, campanhas de UGC não verificáveis) como isca para a mesma oferta de ranqueamento no Google Maps; rebrand de @derekgray para "Derek & Dakota Gray | Digital Real Estate" (@Derek & Dakota Gray)
+- Nenhuma entidade nova criada (5ª fonte de [[derek-gray]], já existente)
+- Entidade atualizada: [[derek-gray]] (source_count 4→5) — rebrand para dupla documentado; nota crítica sobre progressão não auditável de receita entre as 5 fontes
+- Entidade atualizada: [[google-maps]] (source_count 4→5) — confirmação do argumento de ROI com preço atualizado ($500–$800/mês)
+- Conceito atualizado: [[estratégia-de-negócios-com-ia]] (source_count 42→43) — nova subseção sob GMB Optimization Agency com nota crítica sobre nome de modelo não verificável e inflação de métricas de receita entre fontes do mesmo criador
+- Status: 126→127 fontes, 301→302 páginas (+1 fonte, 0 entidades novas)
 
 ---
 
