@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-08-26
-source_count: 128
+last_updated: 2026-08-30
+source_count: 130
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 128 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
+> Wiki iniciado em 2026-04-21 | 130 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
 
 ## Tese atual
 
@@ -317,12 +317,12 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 127 |
-| Páginas de fontes | 127 |
+| Fontes ingeridas | 130 |
+| Páginas de fontes | 130 |
 | Páginas de conceitos | 21 |
-| Páginas de entidades | 142 |
+| Páginas de entidades | 162 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **302** |
+| **Total de páginas** | **315** |
 
 ---
 
@@ -373,6 +373,16 @@ Fonte: ([[faria-lima-elevator]])
 ## Adições de 2026-09-07
 
 - [[wiki/sources/2026-09-07_skills-design-conflito-atencao]] — catálogo verificado de 10 Claude Skills de design (1 fora do ar) + primeiro relato no wiki do **conflito de atenção entre skills concorrentes**: quando múltiplas skills atacam o mesmo ponto de decisão (ex: estética visual), competem pelo mesmo espaço de atenção do contexto e o resultado deixa de ser reprodutível entre sessões (@Fabiano Carvalho)
+
+---
+
+## Adições de 2026-08-30
+
+- [[wiki/sources/2026-08-30_wesley-lemes-repos-github-economia]] — 9 repositórios GitHub (1,8M+ ⭐ combinadas): [[awesome]], [[public-apis]], [[scrapling]], [[free-for-dev]], [[ollama]], [[langflow]], [[awesome-mcp-servers]], [[opendesign]], [[awesome-llm-apps]] (@Wesley Lemes / Expert em IAs)
+- Entidades criadas: [[wesley-lemes]] (novo criador BR), [[awesome]], [[public-apis]], [[scrapling]], [[free-for-dev]], [[langflow]], [[awesome-mcp-servers]], [[awesome-llm-apps]] (7 novas ferramentas)
+- Entidades atualizadas: [[ollama]] (source_count 2→3, 3ª confirmação independente de IA local sem custo de API), [[opendesign]] (source_count 1→2, 2ª fonte com enquadramento mais confiável que a 1ª, sem os artefatos de ASR registrados por [[ibra-ai]])
+- Conceitos atualizados: [[estratégia-de-negócios-com-ia]] (source_count 44→45) — **12ª confirmação** do padrão repos open-source, com novidade estrutural: três repositórios ([[awesome]], [[public-apis]], [[free-for-dev]]) são **catálogos de descoberta** em vez de substitutos de ferramenta específica — um nível de abstração acima do padrão usual; [[ia-local]] (source_count 2→3, 3ª confirmação de Ollama); [[agentes-ia]] (source_count 30→31) — nova seção cobrindo [[langflow]] (builder visual publicável como servidor MCP, primeira ferramenta low-code de agentes no wiki) e [[awesome-mcp-servers]] (catálogo comunitário que complementa o marketplace comercial [[smithery]])
+- Status: 129→130 fontes, 306→315 páginas (+1 fonte, +8 entidades)
 - Entidade criada: [[fabiano-carvalho]]
 - Entidade atualizada: [[claude-skills]] (source_count 5→6) — nova seção "Conflito de atenção entre skills concorrentes" + protocolo de instalação incremental (instalar uma → testar → comparar → só então a próxima)
 - Conceito atualizado: [[agentes-ia]] (source_count 28→29) — nova subseção "Conflito de atenção quando micro-agentes se sobrepõem", reverso do padrão "128k+ skills disponíveis" já documentado via [[aashish-pahwa]]

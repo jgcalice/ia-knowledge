@@ -3,8 +3,8 @@ title: "OpenDesign"
 type: entity
 category: tool
 tags: [design, open-source, ferramentas-ia, github]
-source_count: 1
-last_updated: 2026-08-21
+source_count: 2
+last_updated: 2026-08-30
 ---
 
 # OpenDesign
@@ -20,3 +20,4 @@ Repositório GitHub gratuito apresentado como substituto de modelos de design po
 ## Fontes
 
 - [[2026-08-21_ibra-ai-5-repos-github-substitutos]] — mencionado como alternativa a modelos de design por IA
+- [[2026-08-30_wesley-lemes-repos-github-economia]] — 2ª fonte, com enquadramento mais confiável (sem os artefatos de ASR de baixa confiança da 1ª fonte): "alternativa open source ao Claude Design; seu agente de código vira o motor de design" (85k ⭐)

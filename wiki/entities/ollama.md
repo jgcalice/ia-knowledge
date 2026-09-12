@@ -3,8 +3,8 @@ title: "Ollama"
 type: entity
 category: tool
 tags: [llm, ia-local, open-source, ferramentas-ia, alternativas-saas]
-source_count: 2
-last_updated: 2026-05-25
+source_count: 3
+last_updated: 2026-08-30
 ---
 
 # Ollama
@@ -71,3 +71,4 @@ Ver conceito central: [[ia-local]]
 
 - [[2026-05-21_harish-bhatt-repos-ilegais]] — mencionado como substituto da OpenAI API ($500/mês → $0) para desenvolvedores; framing "destroem $50B em receita corporativa"
 - [[2026-05-24_hasan-toor-modelos-ia-offline]] — guia técnico completo: instalação, comandos de modelo, RAM guide, quantização Q4_K_M e compatibilidade OpenAI API; posicionado como alternativa direta a assinaturas de $20/mês
+- [[2026-08-30_wesley-lemes-repos-github-economia]] — 3ª confirmação independente: "roda Llama, Mistral e DeepSeek na sua máquina com um comando, sem conta de API e sem limite de requisição"

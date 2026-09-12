@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-08-26 | Total de páginas: 309 | Fontes ingeridas: 128
+> Atualizado em: 2026-08-30 | Total de páginas: 315 | Fontes ingeridas: 130
 
 ---
 
@@ -138,6 +138,7 @@
 | [[wiki/sources/2026-09-06_ricktheengineer-escalar-banco-dados]] | @RickTheEngineer | 2026-09-06 | ⚠️ Fora do escopo IA — Como escalar um banco de dados para milhões de usuários (system design) |
 | [[wiki/sources/2026-09-07_skills-design-conflito-atencao]] | @Fabiano Carvalho | 2026-09-07 | Catálogo de 10 Claude Skills de design + conflito de atenção entre skills concorrentes |
 | [[wiki/sources/2026-09-11_derek-dakota-gray-gpt6-astra]] | @Derek & Dakota Gray | 2026-09-11 | ⚠️ Hype de "GPT-6 Astra" (modelo não verificável) como isca para agência de GMB — rebrand para dupla |
+| [[wiki/sources/2026-08-30_wesley-lemes-repos-github-economia]] | @Wesley Lemes / Expert em IAs | 2026-08-30 | 9 repos GitHub (1,8M+ ⭐): awesome, public-apis, scrapling, free-for-dev, ollama, langflow, awesome-mcp-servers, open-design, awesome-llm-apps — 12ª confirmação do padrão |
 
 ---
 
@@ -150,8 +151,8 @@
 | [[wiki/concepts/prompt-engineering]] | 44 | Padrões de estruturação + palavras-gatilho + Claude Skills + "Act like a senior engineer" + substitutos de serviços profissionais (fitness, voos, finanças) + STAR como instrução explícita + Custom Instructions como modo persistente + prompts de geração de imagem com negative prompts + constraints de tom emocional + 20 códigos "/" com foco em anti-alucinação e portabilidade entre modelos |
 | [[wiki/concepts/carreira-com-ia]] | 23 | IA para aceleração de carreira, LinkedIn, renda, produtos próprios, performance em entrevistas e personal brand na era do headshot comoditizado + pipeline completo de 7 fases (cold outreach + follow-up) + auto-candidatura em massa (500 vagas com ChatGPT agente) |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 6 | Frameworks Tim Ferriss (DEAL, 2 fontes), Naval Ravikant e Dan Koe aplicados com Claude |
-| [[wiki/concepts/agentes-ia]] | 30 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão + Agent Browser (automação de Chrome) + pipeline multi-agente de gestão de conteúdo (Postiz) + CamoFox confirmado para extração de leads sem bloqueio + OpenWA como canal de comunicação bidirecional via WhatsApp para agentes + conflito de atenção entre skills concorrentes + integração cross-lab OpenAI/Anthropic (codex-plugin-cc) + mecânica interna do GSD |
-| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 44 | 11 confirmações do padrão repos open-source (inclui CRM/Salesforce, WhatsApp/OpenWA, voz/TTS e scraping vs. Apify) + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC, landing page 3D, vídeo vertical automático) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode + YC Request for Startups 2026 (mapa de setores: agro, saúde, defesa, espaço, hardware) + ⚠️ hype de "GPT-6 Astra" (modelo não verificável) como isca de marketing |
+| [[wiki/concepts/agentes-ia]] | 31 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão + Agent Browser (automação de Chrome) + pipeline multi-agente de gestão de conteúdo (Postiz) + CamoFox confirmado para extração de leads sem bloqueio + OpenWA como canal de comunicação bidirecional via WhatsApp para agentes + conflito de atenção entre skills concorrentes + integração cross-lab OpenAI/Anthropic (codex-plugin-cc) + mecânica interna do GSD + Langflow (builder visual) e awesome-mcp-servers (catálogo de MCPs) |
+| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 45 | 12 confirmações do padrão repos open-source (inclui CRM/Salesforce, WhatsApp/OpenWA, voz/TTS, scraping vs. Apify e meta-listas/catálogos de descoberta) + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC, landing page 3D, vídeo vertical automático) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode + YC Request for Startups 2026 (mapa de setores: agro, saúde, defesa, espaço, hardware) + ⚠️ hype de "GPT-6 Astra" (modelo não verificável) como isca de marketing |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
 | [[wiki/concepts/segurança-com-ia]] | 9 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital + checklist jurídico-técnica pré-lançamento (GDPR/CCPA, RLS, OWASP) + segurança front-end (env vars, LocalStorage, cookies HTTP-only, CORS/CSP) |
 | [[wiki/concepts/vibecoding]] | 6 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança; abordagens preventiva (back-end), detective, jurídico-técnica (pré-lançamento) e front-end específica; stack de ferramentas para vibe coders iOS (ShadCN, 10X, 21st Dev), web (Watermelon UI, Motion Primitives, Menace, Hyke) e stack nativo Claude Skills + MCP para sites (Figma, Playwright) |
@@ -164,7 +165,7 @@
 | [[wiki/concepts/bem-estar-com-ia]] | 1 | Prompts parametrizados substituindo serviços profissionais de fitness — inputs de anamnese → protocolo de nível profissional |
 | [[wiki/concepts/busca-de-emprego-com-ia]] | 9 | Busca de emprego automatizada com Career Ops, ATS, candidaturas personalizadas, preparação para entrevistas, score de compatibilidade 0-100, pipeline completo com cold outreach e follow-up + auto-candidatura em massa via ChatGPT agente (500 vagas) |
 | [[wiki/concepts/seo-com-ia]] | 4 | SEO com IA: quatro abordagens — arquivos técnicos (llms.txt), otimização via GSC, guia oficial Google e engenharia reversa do concorrente #1 (pageaudit.com + ChatGPT) |
-| [[wiki/concepts/ia-local]] | 2 | Execução de LLMs sem nuvem: Ollama + LM Studio, RAM guide, quantização Q4_K_M, API OpenAI-compatível local |
+| [[wiki/concepts/ia-local]] | 3 | Execução de LLMs sem nuvem: Ollama + LM Studio, RAM guide, quantização Q4_K_M, API OpenAI-compatível local; 3ª confirmação de Ollama via curadoria de repos GitHub |
 | [[wiki/concepts/viagem-com-ia]] | 1 | Prompts para análise profissional de preços de voos: hidden routes, geo-pricing, fare rules, timing, airline vs OTA |
 
 ---
@@ -204,7 +205,7 @@
 | [[wiki/entities/amazon-kdp]] | platform | 3 | Plataforma Amazon de auto-publicação — distribuição zero-friction de PDFs (interior + capa) |
 | [[wiki/entities/helium-10]] | tool | 3 | Market research Amazon (volume de busca, concorrentes, preço médio) — input para validação de nicho com Claude |
 | [[wiki/entities/findquestions]] | tool | 1 | Discovery de perguntas reais que pessoas fazem no Google — wireframe editorial para topical authority |
-| [[wiki/entities/ollama]] | tool | 2 | Plataforma open-source para rodar LLMs localmente (GPT-4 class) — custo zero, privacidade por design, funciona offline; API OpenAI-compatível em localhost:11434 |
+| [[wiki/entities/ollama]] | tool | 3 | Plataforma open-source para rodar LLMs localmente (GPT-4 class) — custo zero, privacidade por design, funciona offline; API OpenAI-compatível em localhost:11434 |
 | [[wiki/entities/whisper]] | tool | 1 | Modelo de reconhecimento de fala open-source da OpenAI — transcrição em 99 idiomas; substitui Otter.ai ($20/mês) gratuitamente |
 | [[wiki/entities/lm-studio]] | tool | 1 | Runner GUI para LLMs locais — alternativa ao Ollama para quem evita o terminal; model browser + chat embutido |
 | [[wiki/entities/postiz]] | tool | 1 | Plataforma open-source de gestão de mídias sociais — 30+ plataformas, Agent CLI, Public API, n8n, compatível com Claude e agentes de IA |
@@ -221,9 +222,16 @@
 | [[wiki/entities/voicebox]] | tool | 1 | Text-to-speech e clonagem de voz open-source — alternativa ao ElevenLabs, 100+ vozes |
 | [[wiki/entities/crawl4ai]] | tool | 1 | Web scraper open-source — alternativa ao Apify, acessa Reddit e LinkedIn |
 | [[wiki/entities/nocodb]] | tool | 1 | Smart spreadsheet database open-source — alternativa ao Airtable |
-| [[wiki/entities/opendesign]] | tool | 1 | Modelo de design open-source — alternativa a ferramentas de design por IA |
+| [[wiki/entities/opendesign]] | tool | 2 | Modelo de design open-source — alternativa a ferramentas de design por IA |
 | [[wiki/entities/figma]] | tool | 1 | MCP que conecta o Claude ao Figma para montagem direta de sites |
 | [[wiki/entities/playwright]] | tool | 1 | MCP que testa sites gerados pelo Claude automaticamente antes da entrega |
+| [[wiki/entities/awesome]] | tool | 1 | Meta-lista GitHub — índice de todas as outras "awesome lists" |
+| [[wiki/entities/public-apis]] | tool | 1 | Catálogo de 1.400+ APIs gratuitas em 50 categorias |
+| [[wiki/entities/scrapling]] | tool | 1 | Scraping web indetectável com bypass de Cloudflare embutido — alternativa a API de $300/mês |
+| [[wiki/entities/free-for-dev]] | tool | 1 | Catálogo de centenas de serviços com tier gratuito permanente, sem cartão de crédito |
+| [[wiki/entities/langflow]] | tool | 1 | Construtor visual de agentes de IA e pipelines RAG, publicável como API ou servidor MCP |
+| [[wiki/entities/awesome-mcp-servers]] | tool | 1 | Catálogo aberto de milhares de servidores MCP |
+| [[wiki/entities/awesome-llm-apps]] | tool | 1 | Catálogo de 100+ agentes de IA e apps RAG prontos com código completo |
 
 ### Pessoas / Criadores (Brasil)
 
@@ -247,6 +255,7 @@
 | [[wiki/entities/vinicius-delmonego]] | @Vinícius Delmônego | 1 | Estrategista de infoprodutos — stack de Claude Skills + MCPs para sites profissionais |
 | [[wiki/entities/ricktheengineer]] | @RickTheEngineer | 1 | Criador de conteúdo técnico de system design/backend — fora do escopo IA |
 | [[wiki/entities/fabiano-carvalho]] | @Fabiano Carvalho | 1 | Curadoria crítica de Claude Skills — verificação manual de links + conflito de atenção entre skills concorrentes |
+| [[wiki/entities/wesley-lemes]] | @Wesley Lemes / Expert em IAs | 1 | Curadoria de repos GitHub open-source (economia/ferramentas) — 12ª confirmação do padrão "repos substituem SaaS" |
 
 ### Agregadores de conteúdo
 

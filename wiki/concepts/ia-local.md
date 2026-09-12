@@ -2,13 +2,13 @@
 title: "IA Local — Execução de LLMs sem Nuvem"
 type: concept
 tags: [ia-local, ollama, lm-studio, open-source, ferramentas-ia, custo-zero, quantização, llm]
-source_count: 2
-last_updated: 2026-05-25
+source_count: 3
+last_updated: 2026-08-30
 ---
 
 # IA Local — Execução de LLMs sem Nuvem
 
-> **Fontes:** 2 | **Domínio:** Infraestrutura de IA — rodar modelos abertos no próprio hardware
+> **Fontes:** 3 | **Domínio:** Infraestrutura de IA — rodar modelos abertos no próprio hardware
 
 ## Definição
 
@@ -74,3 +74,4 @@ Ver também [[otimização-de-tokens]]: IA local elimina custo de tokens complet
 
 - [[2026-05-24_hasan-toor-modelos-ia-offline]] — guia passo-a-passo de 7 etapas: setup Ollama, seleção de modelo, RAM guide, quantização Q4_K_M, UI options, API compatibility
 - [[2026-05-21_harish-bhatt-repos-ilegais]] — Ollama mencionado como substituto da OpenAI API ($500/mês → $0) para devs; framing "destroem $50B em receita corporativa"
+- [[2026-08-30_wesley-lemes-repos-github-economia]] — 3ª confirmação: "roda Llama, Mistral e DeepSeek na sua máquina com um comando, sem conta de API e sem limite de requisição"

@@ -2,8 +2,8 @@
 title: "Agentes de IA"
 type: concept
 tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents, agent-teams, git-worktrees, hooks, plugins, skills, comportamento-default]
-source_count: 30
-last_updated: 2026-08-26
+source_count: 31
+last_updated: 2026-08-30
 ---
 
 # Agentes de IA
@@ -400,8 +400,20 @@ Três arquétipos inéditos no wiki:
 
 → [[2026-06-14_marc-kaz-openwa-api-whatsapp]]
 
+## Langflow e awesome-mcp-servers: descoberta e construção visual de agentes
+
+([[wesley-lemes]], [[2026-08-30_wesley-lemes-repos-github-economia]])
+
+Duas ferramentas novas cobrem extremos complementares do ciclo de vida de um agente:
+
+- **[[langflow]]** — construtor visual (drag-and-drop) de agentes de IA e pipelines RAG, publicável diretamente como API ou servidor MCP. Primeira ferramenta *low-code* de construção de agentes documentada no wiki, reduzindo a barreira técnica em relação aos frameworks baseados em código/prompt já catalogados (Superpowers, GSD, Ruflo).
+- **[[awesome-mcp-servers]]** — catálogo aberto com milhares de servidores MCP para conectar agentes a navegadores, bancos de dados e outros sistemas. Complementa [[smithery]] (marketplace comercial de Skills/MCPs) com um modelo de curadoria comunitária.
+
+→ [[2026-08-30_wesley-lemes-repos-github-economia]]
+
 ## Fontes
 
+- [[2026-08-30_wesley-lemes-repos-github-economia]]
 - [[2026-08-26_neeraj-chemburkar-10-skills-claude]]
 - [[2026-09-07_skills-design-conflito-atencao]]
 - [[2026-06-14_marc-kaz-openwa-api-whatsapp]]
