@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-09-11 | Total de páginas: 302 | Fontes ingeridas: 127
+> Atualizado em: 2026-08-26 | Total de páginas: 309 | Fontes ingeridas: 128
 
 ---
 
@@ -134,6 +134,7 @@
 | [[wiki/sources/2026-08-21_eduardo-cavalcanti-20-codigos-secretos]] | @Eduardo Cavalcanti | 2026-08-21 | 20 pseudo-comandos com prefixo "/" (de 50) para ChatGPT, Claude e Gemini — rigor analítico, decisão, anti-alucinação |
 | [[wiki/sources/2026-08-21_ibra-ai-5-repos-github-substitutos]] | @Ibra AI | 2026-08-21 | 5 repos GitHub gratuitos: All20 (Salesforce), Voicebox (ElevenLabs), Crawl4AI (Apify), NocoDB (Airtable), OpenDesign |
 | [[wiki/sources/2026-08-19_vinicius-delmonego-sites-claude]] | @Vinícius Delmônego | 2026-08-19 | 5 configurações (3 Claude Skills + 2 MCPs) para sites profissionais com Claude |
+| [[wiki/sources/2026-08-26_neeraj-chemburkar-10-skills-claude]] | @Neeraj Chemburkar | 2026-08-26 | 10 "Claude skill folders" (500k+ stars): scroll-world, GSD, graphify (+YC), codex-plugin-cc, diagram-design, impeccable, cap, MoneyPrinterTurbo |
 | [[wiki/sources/2026-09-06_ricktheengineer-escalar-banco-dados]] | @RickTheEngineer | 2026-09-06 | ⚠️ Fora do escopo IA — Como escalar um banco de dados para milhões de usuários (system design) |
 | [[wiki/sources/2026-09-07_skills-design-conflito-atencao]] | @Fabiano Carvalho | 2026-09-07 | Catálogo de 10 Claude Skills de design + conflito de atenção entre skills concorrentes |
 | [[wiki/sources/2026-09-11_derek-dakota-gray-gpt6-astra]] | @Derek & Dakota Gray | 2026-09-11 | ⚠️ Hype de "GPT-6 Astra" (modelo não verificável) como isca para agência de GMB — rebrand para dupla |
@@ -145,12 +146,12 @@
 | Página | Fontes | Descrição |
 |--------|--------|-----------|
 | [[wiki/concepts/geração-de-leads-com-ia]] | 3 | Uso de LLMs + scraping para prospecção B2B automatizada |
-| [[wiki/concepts/otimização-de-tokens]] | 4 | Técnicas para reduzir consumo de tokens no Claude |
+| [[wiki/concepts/otimização-de-tokens]] | 13 | Técnicas para reduzir consumo de tokens no Claude; graphify agora com apoio Y Combinator confirmado |
 | [[wiki/concepts/prompt-engineering]] | 44 | Padrões de estruturação + palavras-gatilho + Claude Skills + "Act like a senior engineer" + substitutos de serviços profissionais (fitness, voos, finanças) + STAR como instrução explícita + Custom Instructions como modo persistente + prompts de geração de imagem com negative prompts + constraints de tom emocional + 20 códigos "/" com foco em anti-alucinação e portabilidade entre modelos |
 | [[wiki/concepts/carreira-com-ia]] | 23 | IA para aceleração de carreira, LinkedIn, renda, produtos próprios, performance em entrevistas e personal brand na era do headshot comoditizado + pipeline completo de 7 fases (cold outreach + follow-up) + auto-candidatura em massa (500 vagas com ChatGPT agente) |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 6 | Frameworks Tim Ferriss (DEAL, 2 fontes), Naval Ravikant e Dan Koe aplicados com Claude |
-| [[wiki/concepts/agentes-ia]] | 29 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão + Agent Browser (automação de Chrome) + pipeline multi-agente de gestão de conteúdo (Postiz) + CamoFox confirmado para extração de leads sem bloqueio + OpenWA como canal de comunicação bidirecional via WhatsApp para agentes + conflito de atenção entre skills concorrentes |
-| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 43 | 10 confirmações do padrão repos open-source (inclui CRM/Salesforce, WhatsApp/OpenWA, voz/TTS e scraping vs. Apify) + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode + YC Request for Startups 2026 (mapa de setores: agro, saúde, defesa, espaço, hardware) + ⚠️ hype de "GPT-6 Astra" (modelo não verificável) como isca de marketing |
+| [[wiki/concepts/agentes-ia]] | 30 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão + Agent Browser (automação de Chrome) + pipeline multi-agente de gestão de conteúdo (Postiz) + CamoFox confirmado para extração de leads sem bloqueio + OpenWA como canal de comunicação bidirecional via WhatsApp para agentes + conflito de atenção entre skills concorrentes + integração cross-lab OpenAI/Anthropic (codex-plugin-cc) + mecânica interna do GSD |
+| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 44 | 11 confirmações do padrão repos open-source (inclui CRM/Salesforce, WhatsApp/OpenWA, voz/TTS e scraping vs. Apify) + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC, landing page 3D, vídeo vertical automático) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode + YC Request for Startups 2026 (mapa de setores: agro, saúde, defesa, espaço, hardware) + ⚠️ hype de "GPT-6 Astra" (modelo não verificável) como isca de marketing |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
 | [[wiki/concepts/segurança-com-ia]] | 9 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital + checklist jurídico-técnica pré-lançamento (GDPR/CCPA, RLS, OWASP) + segurança front-end (env vars, LocalStorage, cookies HTTP-only, CORS/CSP) |
 | [[wiki/concepts/vibecoding]] | 6 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança; abordagens preventiva (back-end), detective, jurídico-técnica (pré-lançamento) e front-end específica; stack de ferramentas para vibe coders iOS (ShadCN, 10X, 21st Dev), web (Watermelon UI, Motion Primitives, Menace, Hyke) e stack nativo Claude Skills + MCP para sites (Figma, Playwright) |
@@ -181,7 +182,13 @@
 
 | Página | Tipo | Fontes | Descrição |
 |--------|------|--------|-----------|
-| [[wiki/entities/claude-code]] | tool | 38 | LLM da Anthropic — ferramenta central de todas as fontes |
+| [[wiki/entities/claude-code]] | tool | 39 | LLM da Anthropic — ferramenta central de todas as fontes |
+| [[wiki/entities/scroll-world]] | tool | 1 | Skill que gera landing page 3D navegável por scroll a partir de uma marca |
+| [[wiki/entities/gsd]] | tool | 2 | Framework "Get Shit Done": workflow de 5 fases (Discuss/Plan/Execute/Verify/Ship) para spec-driven development |
+| [[wiki/entities/graphify]] | tool | 2 | Skill de grafo de conhecimento para reduzir releitura de arquivos — agora com apoio Y Combinator confirmado |
+| [[wiki/entities/codex-plugin-cc]] | tool | 1 | Plugin oficial OpenAI que roda o Codex dentro do Claude Code — 1º caso de integração cross-lab no wiki |
+| [[wiki/entities/cap]] | tool | 1 | Alternativa open-source ao Loom — gravação de tela self-hosted |
+| [[wiki/entities/moneyprinterturbo]] | tool | 1 | Geração automática de vídeo vertical (roteiro→voz→legendas→publicação) a partir de um tópico |
 | [[wiki/entities/n8n]] | tool | 4 | Plataforma de automação de workflows open-source — alternativa ao Zapier com 400+ integrações e IA nativa; $600/mês Zapier Pro → $0 self-hosted; integração nativa com Postiz |
 | [[wiki/entities/ruflo]] | tool | 1 | Camada de orquestração open-source para Claude Code: 100+ agentes, roteamento automático de modelo por complexidade, MIT |
 | [[wiki/entities/apify]] | tool | 3 | Plataforma de scraping com conector nativo no Claude — Crawl4AI documentado como alternativa open-source |
@@ -190,7 +197,7 @@
 | [[wiki/entities/google-maps]] | platform | 5 | Fonte de dados para leads B2B + mercado de SEO local (agência GMB) + sweet spot pattern |
 | [[wiki/entities/linkedin]] | platform | 8 | Plataforma de otimização de perfil, busca de vagas, cold outreach direto para hiring manager e scraping via agente de IA |
 | [[wiki/entities/career-ops]] | tool | 2 | Sistema open-source de busca de emprego com Claude Code (plugin + terminal) |
-| [[wiki/entities/claude-skills]] | tool | 6 | Feature Anthropic: pacotes nomeados de comportamento (Feature Forge, The Fool, etc.) + stack oficial de automação (Skill Creator, Superpowers, GSD, Context Mode, Claude Mem) + skills de design de sites (Milkovalski Design, Impeccable Design, Taste Skill) + conflito de atenção entre skills concorrentes e protocolo de instalação incremental |
+| [[wiki/entities/claude-skills]] | tool | 7 | Feature Anthropic: pacotes nomeados de comportamento (Feature Forge, The Fool, etc.) + stack oficial de automação (Skill Creator, Superpowers, GSD, Context Mode, Claude Mem) + skills de design de sites (Milkovalski Design, Impeccable Design, Taste Skill) + conflito de atenção entre skills concorrentes e protocolo de instalação incremental + confirmação cruzada via curadoria "top repos GitHub" (500k+ stars combinadas) |
 | [[wiki/entities/smithery]] | platform | 1 | Marketplace com 128k+ Claude Skills/MCPs |
 | [[wiki/entities/vibe-prospecting]] | tool | 1 | Conector Claude.ai para geração de leads por nicho/cargo/cidade |
 | [[wiki/entities/google-search-console]] | tool | 1 | Ferramenta gratuita Google de SEO — fonte de dados estruturados (queries, posição média, cliques) para pipelines com Claude |
@@ -266,6 +273,7 @@
 | [[wiki/entities/joaquin-fernandez]] | @Joaquin Fernandez | 1 | Ferramentas de desenvolvimento para vibe coders iOS — ShadCN, 10X, 21st Dev, Animista, Phosphor Icons |
 | [[wiki/entities/aleeshh]] | @aleeshh | 1 | Ferramentas de desenvolvimento para vibe coders web — Watermelon UI, Motion Primitives, Menace, Hyke |
 | [[wiki/entities/ibra-ai]] | @Ibra AI | 1 | Curadoria de repos GitHub open-source — All20, Voicebox, Crawl4AI, NocoDB, OpenDesign |
+| [[wiki/entities/neeraj-chemburkar]] | @Neeraj Chemburkar (@buildwithneej) | 1 | Curadoria de "Claude skill folders" de alta tração no GitHub — scroll-world, GSD, graphify, codex-plugin-cc, cap, MoneyPrinterTurbo |
 
 ### Pessoas / Criadores (Internacional — e-commerce)
 

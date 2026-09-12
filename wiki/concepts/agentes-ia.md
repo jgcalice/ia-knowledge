@@ -2,8 +2,8 @@
 title: "Agentes de IA"
 type: concept
 tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents, agent-teams, git-worktrees, hooks, plugins, skills, comportamento-default]
-source_count: 29
-last_updated: 2026-06-28
+source_count: 30
+last_updated: 2026-08-26
 ---
 
 # Agentes de IA
@@ -46,6 +46,14 @@ Sistemas baseados em LLMs que executam tarefas de forma autônoma, podendo integ
 ### Claude Skills como micro-agentes distribuíveis
 [[aashish-pahwa]] cataloga 6 skills (Feature Forge, Spec Miner, The Fool, Architecture Designer, API Designer, Microservice Architect) — cada uma opera como micro-agente especializado ativado por frase-gatilho. Marketplaces como [[smithery]] têm 128k+ skills — evidência de ecossistema maduro de agentes compartilháveis.
 → [[2026-04-07_claude-skills-product-managers]]
+
+### Interoperabilidade entre labs rivais via plugin oficial
+[[neeraj-chemburkar]] documenta o [[codex-plugin-cc]] — plugin oficial da **OpenAI** que roda o Codex dentro do [[claude-code]] (`/codex:review`, `/codex:adversarial-review`, `/codex:rescue`), funcionando na camada gratuita do ChatGPT. Primeiro caso no wiki de uma lab construindo integração oficial *dentro* do produto de uma concorrente direta — o padrão de "segunda opinião entre agentes" ([[claude-code]] `/ultra review`) agora existe também **entre modelos de labs diferentes**, não só entre instâncias do mesmo modelo.
+→ [[2026-08-26_neeraj-chemburkar-10-skills-claude]]
+
+### GSD — mecânica interna do workflow de 5 fases
+A mesma fonte detalha pela primeira vez a estrutura interna do [[gsd]] (citado antes só como item de stack por [[nate-herk]]): 5 comandos dedicados (`/gsd-discuss-phase` → `/gsd-plan-phase` → `/gsd-execute-phase` → `/gsd-verify-work` → `/gsd-ship`), com a fase Execute descrita como "sub-agentes frescos em paralelo" — confirma o padrão de sub-agente-por-tarefa já documentado na Técnica #8 de [[otimização-de-tokens]].
+→ [[2026-08-26_neeraj-chemburkar-10-skills-claude]]
 
 ### Conflito de atenção quando micro-agentes se sobrepõem
 [[fabiano-carvalho]] documenta o reverso da distribuição em massa de skills: se várias skills atacam o **mesmo ponto de decisão** (ex: estética visual), elas competem pelo mesmo espaço de atenção do contexto e o resultado deixa de ser reprodutível entre sessões. Mitigação proposta: instalar uma micro-agente por vez, testar contra uma tarefa conhecida, comparar saídas, só então adicionar a próxima — disciplina equivalente a testar uma mudança de cada vez em qualquer sistema multi-agente.
@@ -394,6 +402,7 @@ Três arquétipos inéditos no wiki:
 
 ## Fontes
 
+- [[2026-08-26_neeraj-chemburkar-10-skills-claude]]
 - [[2026-09-07_skills-design-conflito-atencao]]
 - [[2026-06-14_marc-kaz-openwa-api-whatsapp]]
 - [[2026-05-28_ask-gpts-postiz-social-media]]

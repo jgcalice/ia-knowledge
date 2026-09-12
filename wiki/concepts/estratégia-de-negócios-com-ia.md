@@ -2,8 +2,8 @@
 title: "Estratégia de Negócios com IA"
 type: concept
 tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce, amazon-kdp, topical-authority, low-content-products, open-source, custo-zero, criação-de-conteúdo, y-combinator, startups, ia-nativa, custom-instructions, founder-mode, crm, whatsapp, scraping, voz]
-source_count: 43
-last_updated: 2026-09-11
+source_count: 44
+last_updated: 2026-08-26
 ---
 
 # Estratégia de Negócios com IA
@@ -594,8 +594,19 @@ Reel curto (69s) no mesmo template consolidado — "N repos GitHub substituem Sa
 
 → [[2026-08-21_ibra-ai-5-repos-github-substitutos]]
 
+### 11ª confirmação + dois arquétipos de produto novos: landing page 3D e vídeo vertical automático
+
+[[neeraj-chemburkar]] confirma o padrão pela 11ª vez, com enquadramento "Claude skill folder" em vez de "repo" — e traz dois arquétipos de produto vendável ainda não catalogados no wiki:
+
+- **[[scroll-world]]** — gera uma landing page com "mundo 3D" navegável por scroll para uma marca; ~$27 em créditos de vídeo por página de 6 cenas, 100% IA. Primeiro caso no wiki de página de vendas como *experiência 3D gerada automaticamente*, não só copy/design 2D.
+- **[[moneyprinterturbo]]** — pipeline completo texto→roteiro→voz→legendas→publicação (TikTok/YouTube) a partir de um tópico. Confirma o padrão de vídeo automatizado monetizável já visto com Hyperframes ([[growai]], [[cooper-simson]]), agora com 116.387 estrelas e crescimento de 10.647/semana no momento da captura.
+- **[[cap]]** — mais uma confirmação do arquétipo "self-host substitui SaaS por assento" (Loom), reforçando o padrão já visto com Cal.com/Calendly, Plausible/GA, Ghost/Substack.
+
+→ [[2026-08-26_neeraj-chemburkar-10-skills-claude]]
+
 ## Fontes
 
+- [[2026-08-26_neeraj-chemburkar-10-skills-claude]]
 - [[2026-09-11_derek-dakota-gray-gpt6-astra]]
 - [[2026-08-21_ibra-ai-5-repos-github-substitutos]]
 - [[2026-06-14_marc-kaz-openwa-api-whatsapp]]

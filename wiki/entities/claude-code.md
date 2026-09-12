@@ -3,8 +3,8 @@ title: "Claude / Claude Code"
 type: entity
 category: tool
 tags: [llm, claude, anthropic, claude-code, ia, claude-managed-agents]
-source_count: 42
-last_updated: 2026-05-20
+source_count: 43
+last_updated: 2026-08-26
 ---
 
 # Claude / Claude Code
@@ -90,6 +90,12 @@ Lançado com Opus 4.7. Diferente do `/review` (local), o `/ultra review` sobe o 
 
 **Fluxo recomendado**: planejar com Superpowers → executar com GSD → `/ultra review` antes de qualquer merge crítico (pagamentos, auth, migrações de banco).
 
+## codex-plugin-cc — segunda opinião oficial da OpenAI (via [[neeraj-chemburkar]])
+
+Plugin oficial lançado pela OpenAI que roda o Codex dentro do Claude Code, funcionando na camada gratuita do ChatGPT: `/codex:review` (segunda opinião sobre o diff), `/codex:adversarial-review` (ataca as suposições do código) e `/codex:rescue` (assume uma sessão travada). Alternativa cross-lab ao `/ultra review` nativo — primeiro caso documentado no wiki de uma lab concorrente construindo integração oficial dentro do Claude Code.
+
+→ [[codex-plugin-cc]] · [[2026-08-26_neeraj-chemburkar-10-skills-claude]]
+
 ## Comandos built-in (pouco conhecidos)
 
 Documentados por [[sal-shirgaleev]] em [[2026-04-22_sal-shirgaleev-5-comandos-claude]] e [[alex-finn]] em [[2026-04-18_alex-finn-dicas-claude-code]]:
@@ -169,6 +175,7 @@ Documentado por [[lucas-garcia-pit]] em [[2026-04-15_lucas-garcia-pit-seguranca-
 
 ## Fontes
 
+- [[2026-08-26_neeraj-chemburkar-10-skills-claude]]
 - [[2026-05-03_nate-herk-6-habilidades-claude-code]]
 - [[2026-03-19_leads-infinitos-cloudcode]]
 - [[2026-03-28_prospecção-leads-claude-apify]]

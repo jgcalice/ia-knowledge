@@ -1,9 +1,9 @@
 ---
 title: "Otimização de Tokens no Claude"
 type: concept
-tags: [tokens, otimização, claude, pdf, markdown, contexto, modelo, sessão, context-rot, mcp, api]
-source_count: 12
-last_updated: 2026-05-11
+tags: [tokens, otimização, claude, pdf, markdown, contexto, modelo, sessão, context-rot, mcp, api, y-combinator]
+source_count: 13
+last_updated: 2026-08-26
 ---
 
 # Otimização de Tokens no Claude
@@ -58,6 +58,8 @@ Instalar [[graphify]] no workspace do Claude Code: a ferramenta escaneia todos o
 → Redução de 20.000 → 280 tokens/sessão (**71,5x menos**) ([[marc-cleroux]])
 
 Técnica baseada no sistema de [[andrej-karpathy]] (ex-OpenAI/Tesla). Visualização possível via [[obsidian]] graph view.
+
+> **Atualização ([[neeraj-chemburkar]], [[2026-08-26_neeraj-chemburkar-10-skills-claude]])**: 110.416 estrelas no GitHub, **apoiado pelo Y Combinator** — primeiro dado de apoio institucional (não só tração open-source orgânica) documentado para esta técnica. Também analisa 37 idiomas localmente a custo $0.
 
 ### 8. Mecânica real dos tokens — custo exponencial
 ([[nate-herk]], [[2026-04-20_nate-herk-gerenciar-limites-sessao]])
@@ -193,6 +195,7 @@ A camada de orquestração [[ruflo]] (`ruvnet/ruflo`) implementa automaticamente
 
 ## Fontes
 
+- [[2026-08-26_neeraj-chemburkar-10-skills-claude]]
 - [[2026-05-08_growai-10-ferramentas-gratuitas]]
 - [[2026-05-01_bestapps-ferramentas-open-source]]
 - [[2026-04-30_paras-madan-repos-monetizacao]]

@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-09-11
-source_count: 127
+last_updated: 2026-08-26
+source_count: 128
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 127 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
+> Wiki iniciado em 2026-04-21 | 128 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
 
 ## Tese atual
 
@@ -47,7 +47,7 @@ Três fontes convergem no mesmo problema:
 - **Prompts**: ser conciso, proibir linguagem de preenchimento ([[evolving-ai]])
 - **Modelo**: escolher Haiku/Sonnet/Opus conforme a tarefa ([[evolving-ai]])
 - **Contexto**: compactar sessões longas com Compact Skill ([[evolving-ai]])
-- **Grafo de conhecimento**: [[graphify]] mapeia o workspace e reduz tokens em 71,5x → 20.000 → 280/sessão ([[marc-cleroux]])
+- **Grafo de conhecimento**: [[graphify]] mapeia o workspace e reduz tokens em 71,5x → 20.000 → 280/sessão ([[marc-cleroux]]); confirmado com 110.416 estrelas e **apoio do Y Combinator** ([[neeraj-chemburkar]])
 - **Session handoff**: custo é exponencial (98,5% dos tokens = rereading); context rot degrada acurácia de 92%→78%; sessões devem ser reiniciadas a ~12% via handoff estruturado ([[nate-herk]])
 - **Claude Mem**: primeira solução de memória cross-session totalmente automática — SQLite + busca vetorial, 10x menos tokens de startup; auto-gera CLAUDE.md por pasta ([[nate-herk]])
 - **GSD como context engineering**: sub-agentes frescos por tarefa + quality gates automáticos (scope protection + security enforcement) — custo em tokens aceito para eliminar retrabalho por context rot ([[nate-herk]])

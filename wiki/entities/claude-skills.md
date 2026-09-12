@@ -3,8 +3,8 @@ title: "Claude Skills"
 type: entity
 category: tool
 tags: [claude, anthropic, skills, agentes-ia, prompt-engineering, marketplace, design, vibecoding]
-source_count: 6
-last_updated: 2026-09-07
+source_count: 7
+last_updated: 2026-08-26
 ---
 
 # Claude Skills
@@ -130,6 +130,19 @@ Primeiro relato no wiki do **modo de falha** da composição de skills. Skill n�
 
 → [[2026-09-07_skills-design-conflito-atencao]]
 
+## Confirmação cruzada de tração via curadoria de "top repos GitHub" (baseada em [[neeraj-chemburkar]])
+
+Fonte independente que cataloga skills como "repositórios GitHub de alta tração" (não como skills de design) confirma dois repos já catalogados acima, agora com métricas de estrelas:
+
+| Skill | Já catalogada em | Nova confirmação |
+|-------|-------------------|-------------------|
+| Diagram Design (cathrynlavery) | via [[fabiano-carvalho]] | 26.758 estrelas em 4 meses — lê o site, escreve o guia de estilo, gera 39 tipos de diagrama × 3 variantes, HTML/SVG sem compilação |
+| Impeccable (pbakaus) | via [[fabiano-carvalho]] e [[vinicius-delmonego]] | 62.534 estrelas — 23 comandos, 59 regras determinísticas contra "tells" de IA |
+
+Também documenta o **[[gsd]]** (5 fases com comandos dedicados, 64.642 estrelas) — item já citado por [[nate-herk]] mas agora com a mecânica interna detalhada — e três skills/repos novos no wiki: **[[scroll-world]]** (landing page 3D, 8.581 estrelas), **[[cap]]** (Loom open-source, 21.228 estrelas) e **[[moneyprinterturbo]]** (vídeo vertical automático, 116.387 estrelas). Também cataloga **[[codex-plugin-cc]]**, plugin oficial da OpenAI que roda o Codex dentro do Claude Code — primeiro caso de integração oficial de uma lab concorrente dentro do produto da Anthropic.
+
+→ [[2026-08-26_neeraj-chemburkar-10-skills-claude]]
+
 ## Fontes
 
 - [[2026-04-07_claude-skills-product-managers]]
@@ -138,3 +151,4 @@ Primeiro relato no wiki do **modo de falha** da composição de skills. Skill n�
 - [[2026-05-03_nate-herk-6-habilidades-claude-code]]
 - [[2026-08-19_vinicius-delmonego-sites-claude]]
 - [[2026-09-07_skills-design-conflito-atencao]]
+- [[2026-08-26_neeraj-chemburkar-10-skills-claude]]
