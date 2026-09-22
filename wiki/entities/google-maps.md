@@ -3,13 +3,13 @@ title: "Google Maps"
 type: entity
 category: platform
 tags: [leads, scraping, google-maps, prospecção, dados, seo-local, gmb]
-source_count: 5
-last_updated: 2026-09-11
+source_count: 6
+last_updated: 2026-09-19
 ---
 
 # Google Maps
 
-> **Categoria:** Plataforma | **Fabricante:** Google | **Aparece em:** 5 fontes
+> **Categoria:** Plataforma | **Fabricante:** Google | **Aparece em:** 6 fontes
 
 ## Papel no wiki
 
@@ -55,6 +55,8 @@ Top 5 da Google Map Pack captura **60% de todos os cliques**:
 
 **Confirmação adicional (2026-09-11)**: [[derek-gray]] (rebrand "Derek & Dakota Gray") reafirma o mesmo argumento de ROI com preço ligeiramente atualizado — $500–$800/mês por cliente, 60% das buscas locais terminando no top 3, 95% da entrega automatizada por agentes de IA.
 
+**Confirmação adicional (2026-09-19)**: [[derek-gray]] detalha o passo de prospecção no Maps dentro de um funil explícito de 5 ferramentas — buscar "serviço + cidade" e filtrar negócios fora do top 3 ou pagando Google Ads, usando [[gs-location-changer]] para simular localização remota antes de checar o ranking. Ver [[2026-09-19_derek-dakota-gray-google-maps-ia-tools]].
+
 ## Fontes
 
 - [[2026-03-19_leads-infinitos-cloudcode]]
@@ -62,3 +64,4 @@ Top 5 da Google Map Pack captura **60% de todos os cliques**:
 - [[2026-04-05_derek-gray-renda-recorrente-google-maps]]
 - [[2026-05-09_derek-gray-google-maps-claude-monetizacao]]
 - [[2026-09-11_derek-dakota-gray-gpt6-astra]]
+- [[2026-09-19_derek-dakota-gray-google-maps-ia-tools]]

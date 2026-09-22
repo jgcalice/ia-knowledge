@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-08-30 | Total de páginas: 315 | Fontes ingeridas: 130
+> Atualizado em: 2026-09-19 | Total de páginas: 320 | Fontes ingeridas: 131
 
 ---
 
@@ -152,7 +152,7 @@
 | [[wiki/concepts/carreira-com-ia]] | 23 | IA para aceleração de carreira, LinkedIn, renda, produtos próprios, performance em entrevistas e personal brand na era do headshot comoditizado + pipeline completo de 7 fases (cold outreach + follow-up) + auto-candidatura em massa (500 vagas com ChatGPT agente) |
 | [[wiki/concepts/design-de-estilo-de-vida]] | 6 | Frameworks Tim Ferriss (DEAL, 2 fontes), Naval Ravikant e Dan Koe aplicados com Claude |
 | [[wiki/concepts/agentes-ia]] | 31 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão + Agent Browser (automação de Chrome) + pipeline multi-agente de gestão de conteúdo (Postiz) + CamoFox confirmado para extração de leads sem bloqueio + OpenWA como canal de comunicação bidirecional via WhatsApp para agentes + conflito de atenção entre skills concorrentes + integração cross-lab OpenAI/Anthropic (codex-plugin-cc) + mecânica interna do GSD + Langflow (builder visual) e awesome-mcp-servers (catálogo de MCPs) |
-| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 45 | 12 confirmações do padrão repos open-source (inclui CRM/Salesforce, WhatsApp/OpenWA, voz/TTS, scraping vs. Apify e meta-listas/catálogos de descoberta) + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC, landing page 3D, vídeo vertical automático) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode + YC Request for Startups 2026 (mapa de setores: agro, saúde, defesa, espaço, hardware) + ⚠️ hype de "GPT-6 Astra" (modelo não verificável) como isca de marketing |
+| [[wiki/concepts/estratégia-de-negócios-com-ia]] | 46 | 12 confirmações do padrão repos open-source (inclui CRM/Salesforce, WhatsApp/OpenWA, voz/TTS, scraping vs. Apify e meta-listas/catálogos de descoberta) + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC, landing page 3D, vídeo vertical automático) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode + YC Request for Startups 2026 (mapa de setores: agro, saúde, defesa, espaço, hardware) + ⚠️ hype de "GPT-6 Astra" (modelo não verificável) como isca de marketing + funil de 5 ferramentas GMB Optimization Agency (GS Location Changer, Google Maps, Loom, Search Atlas, Stripe) |
 | [[wiki/concepts/aprendizado-com-ia]] | 3 | Claude como tutor + curadoria de cursos e YouTubers |
 | [[wiki/concepts/segurança-com-ia]] | 9 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital + checklist jurídico-técnica pré-lançamento (GDPR/CCPA, RLS, OWASP) + segurança front-end (env vars, LocalStorage, cookies HTTP-only, CORS/CSP) |
 | [[wiki/concepts/vibecoding]] | 6 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança; abordagens preventiva (back-end), detective, jurídico-técnica (pré-lançamento) e front-end específica; stack de ferramentas para vibe coders iOS (ShadCN, 10X, 21st Dev), web (Watermelon UI, Motion Primitives, Menace, Hyke) e stack nativo Claude Skills + MCP para sites (Figma, Playwright) |
@@ -195,7 +195,7 @@
 | [[wiki/entities/apify]] | tool | 3 | Plataforma de scraping com conector nativo no Claude — Crawl4AI documentado como alternativa open-source |
 | [[wiki/entities/api-file]] | platform | 1 | Marketplace de APIs para scraping e integração |
 | [[wiki/entities/markitdown]] | tool | 2 | Conversor de documentos para Markdown (Microsoft) |
-| [[wiki/entities/google-maps]] | platform | 5 | Fonte de dados para leads B2B + mercado de SEO local (agência GMB) + sweet spot pattern |
+| [[wiki/entities/google-maps]] | platform | 6 | Fonte de dados para leads B2B + mercado de SEO local (agência GMB) + sweet spot pattern + funil de 5 ferramentas |
 | [[wiki/entities/linkedin]] | platform | 8 | Plataforma de otimização de perfil, busca de vagas, cold outreach direto para hiring manager e scraping via agente de IA |
 | [[wiki/entities/career-ops]] | tool | 2 | Sistema open-source de busca de emprego com Claude Code (plugin + terminal) |
 | [[wiki/entities/claude-skills]] | tool | 7 | Feature Anthropic: pacotes nomeados de comportamento (Feature Forge, The Fool, etc.) + stack oficial de automação (Skill Creator, Superpowers, GSD, Context Mode, Claude Mem) + skills de design de sites (Milkovalski Design, Impeccable Design, Taste Skill) + conflito de atenção entre skills concorrentes e protocolo de instalação incremental + confirmação cruzada via curadoria "top repos GitHub" (500k+ stars combinadas) |
@@ -232,6 +232,10 @@
 | [[wiki/entities/langflow]] | tool | 1 | Construtor visual de agentes de IA e pipelines RAG, publicável como API ou servidor MCP |
 | [[wiki/entities/awesome-mcp-servers]] | tool | 1 | Catálogo aberto de milhares de servidores MCP |
 | [[wiki/entities/awesome-llm-apps]] | tool | 1 | Catálogo de 100+ agentes de IA e apps RAG prontos com código completo |
+| [[wiki/entities/gs-location-changer]] | tool | 1 | Extensão gratuita de navegador — simula localização para checar rankings do Google remotamente |
+| [[wiki/entities/loom]] | tool | 1 | Gravação de tela para pitch assíncrono — substitui cold calling em agências de GMB |
+| [[wiki/entities/search-atlas]] | tool | 1 | Automação de SEO conectada ao Google Business Profile — posts, keywords, respostas a avaliações |
+| [[wiki/entities/stripe]] | tool | 1 | Plataforma de pagamentos — cobrança recorrente automatizada para retainers de agência |
 
 ### Pessoas / Criadores (Brasil)
 
@@ -327,7 +331,7 @@
 | [[wiki/entities/faria-lima-elevator]] | @FariaLimaElevat | 1 | Criador BR — 8 prompts de análise de investimento com personas de instituições financeiras de elite |
 | [[wiki/entities/starter-story]] | @Starter Story | 1 | Plataforma de histórias de founders bootstrapped — case Joseph: $3M ARR com Reddit + Programmatic SEO |
 | [[wiki/entities/coding-ai-fullstack]] | @coderss_world | 1 | Canal Internacional — casos reais de IA aplicada a carreira e tecnologia |
-| [[wiki/entities/derek-gray]] | @Derek Gray (rebrand: @derekanddakota) | 5 | Criador Internacional — GMB Optimization Agency: stack completo Google Maps + Claude + Lovable + Quepo; tier matrix de nichos (Solar God-Tier, Gyms F-Tier); rebrand para dupla + hype "GPT-6 Astra" (⚠️ não verificável) |
+| [[wiki/entities/derek-gray]] | @Derek Gray (rebrand: @derekanddakota) | 6 | Criador Internacional — GMB Optimization Agency: stack completo Google Maps + Claude + Lovable + Quepo; tier matrix de nichos (Solar God-Tier, Gyms F-Tier); rebrand para dupla + hype "GPT-6 Astra" (⚠️ não verificável); stack de 5 ferramentas operacionais (GS Location Changer, Loom, Search Atlas, Stripe) |
 | [[wiki/entities/lovable]] | — | 1 | Ferramenta no-code de landing pages via prompts — mockup ao vivo em 5 minutos para pipeline de prospecção local |
 | [[wiki/entities/quepo]] | — | 1 | Agente de IA proprietário de Derek Gray — automatiza 95% do GBP Management (auditorias, ranking, conteúdo, reviews) |
 | [[wiki/entities/context7]] | Context7 MCP | 1 | Servidor MCP que injeta documentação atualizada de libs no contexto do Claude |

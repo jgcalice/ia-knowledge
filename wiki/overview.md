@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-08-30
-source_count: 130
+last_updated: 2026-09-19
+source_count: 131
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 130 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
+> Wiki iniciado em 2026-04-21 | 131 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
 
 ## Tese atual
 
@@ -317,12 +317,23 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 130 |
-| Páginas de fontes | 130 |
+| Fontes ingeridas | 131 |
+| Páginas de fontes | 131 |
 | Páginas de conceitos | 21 |
-| Páginas de entidades | 162 |
+| Páginas de entidades | 166 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **315** |
+| **Total de páginas** | **320** |
+
+---
+
+## Adições de 2026-09-19
+
+- [[wiki/sources/2026-09-19_derek-dakota-gray-google-maps-ia-tools]] — carrossel detalha, pela primeira vez de forma explícita, o stack operacional de 5 ferramentas da agência de GMB de [[derek-gray]]: [[gs-location-changer]] (prospecção remota), [[google-maps]] (lead sourcing), [[loom]] (pitch assíncrono), [[search-atlas]] (execução SEO) e [[stripe]] (cobrança recorrente) (@Derek & Dakota Gray)
+- Entidades criadas: [[gs-location-changer]], [[loom]], [[search-atlas]], [[stripe]]
+- Entidade atualizada: [[derek-gray]] (source_count 5→6) — 6ª fonte; confirma que as métricas de receita pararam de progredir e passaram a se repetir entre posts ($52.6K/mês, 129 clientes, 840 famílias idênticos à fonte de 09-11)
+- Entidade atualizada: [[google-maps]] (source_count 5→6) — detalhamento do passo de prospecção remota via [[gs-location-changer]]
+- Conceito atualizado: [[estratégia-de-negócios-com-ia]] (source_count 45→46) — nova seção com o funil de 5 ferramentas do arquétipo GMB Optimization Agency, primeira vez documentado de ponta a ponta
+- Status: 130→131 fontes, 315→320 páginas (+1 fonte, +4 entidades)
 
 ---
 

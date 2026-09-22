@@ -2,8 +2,8 @@
 title: "Estratégia de Negócios com IA"
 type: concept
 tags: [negócios, estratégia, claude, prompt-engineering, mercado, founders, distribuição, seo, reddit, google-maps, seo-local, one-person-business, dan-koe, lovable, quepo, outreach, amazon, e-commerce, amazon-kdp, topical-authority, low-content-products, open-source, custo-zero, criação-de-conteúdo, y-combinator, startups, ia-nativa, custom-instructions, founder-mode, crm, whatsapp, scraping, voz]
-source_count: 45
-last_updated: 2026-08-30
+source_count: 46
+last_updated: 2026-09-19
 ---
 
 # Estratégia de Negócios com IA
@@ -626,8 +626,27 @@ Reel curto (69s) no mesmo template consolidado — "N repos GitHub substituem Sa
 
 → [[2026-08-30_wesley-lemes-repos-github-economia]]
 
+## GMB Optimization Agency: stack de 5 ferramentas explícito (6ª fonte de Derek & Dakota Gray)
+
+([[derek-gray]], [[2026-09-19_derek-dakota-gray-google-maps-ia-tools]])
+
+8 dias após o carrossel de hype "GPT-6 Astra" ([[2026-09-11_derek-dakota-gray-gpt6-astra]]), a mesma dupla publica uma versão operacional da mesma oferta — trocando o gancho de IA milagrosa por uma lista de 5 ferramentas concretas do funil GMB:
+
+| Ordem | Ferramenta | Função no funil |
+|-------|-----------|------------------|
+| 1 | [[gs-location-changer]] | Prospecção remota — checa ranking do Google de qualquer localização |
+| 2 | [[google-maps]] | Lead sourcing — negócios fora do top 3 ou pagando Google Ads |
+| 3 | [[loom]] | Pitch assíncrono — vídeo de 2min substitui cold calling |
+| 4 | [[search-atlas]] | Execução — otimização de GBP (posts, keywords, avaliações) |
+| 5 | [[stripe]] | Cobrança recorrente automatizada |
+
+"GPT-Astra" reaparece, mas em papel secundário de upsell (sites, dashboards, conteúdo) — não como motor central, diferente do enquadramento da fonte anterior. As métricas de prova social ($52.6K/mês, 129 clientes, 840 famílias) são **idênticas** às da fonte de 2026-09-11, sem progressão temporal real — confirma a leitura crítica já registrada em [[derek-gray]] de que os números são material promocional reciclado, não série temporal auditada.
+
+→ [[2026-09-19_derek-dakota-gray-google-maps-ia-tools]]
+
 ## Fontes
 
+- [[2026-09-19_derek-dakota-gray-google-maps-ia-tools]]
 - [[2026-08-30_wesley-lemes-repos-github-economia]]
 - [[2026-08-26_neeraj-chemburkar-10-skills-claude]]
 - [[2026-09-11_derek-dakota-gray-gpt6-astra]]
