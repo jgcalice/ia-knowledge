@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-09-19
-source_count: 132
+last_updated: 2026-11-02
+source_count: 133
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 132 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
+> Wiki iniciado em 2026-04-21 | 133 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
 
 ## Tese atual
 
@@ -317,12 +317,20 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 132 |
-| Páginas de fontes | 132 |
+| Fontes ingeridas | 133 |
+| Páginas de fontes | 133 |
 | Páginas de conceitos | 21 |
-| Páginas de entidades | 166 |
+| Páginas de entidades | 167 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **321** |
+| **Total de páginas** | **323** |
+
+---
+
+## Adições de 2026-10-30
+
+- [[wiki/sources/2026-10-30_the-fox-hd-truques-licenciamento-software]] — ⚠️ Fora do escopo IA: reel promovendo downloads não oficiais de Windows/Office; wiki não endossa, risco de malware (@The Fox HD)
+- Entidade criada: [[the-fox-hd]]
+- Status: 132→133 fontes, 321→323 páginas
 
 ---
 

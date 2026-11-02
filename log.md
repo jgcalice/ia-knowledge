@@ -503,3 +503,7 @@ Fonte: `2026-09-19_derek_dakota_gray_digital_real_estate_Ddei1ywlOph.md`. Págin
 ## [2026-09-24] ingest | Princípios Básicos de Design de Sistemas (System Design 101) — @RickTheEngineer
 
 Fonte: `2026-09-24_ricktheengineer_DdrHAI1MrFb.md`. Páginas criadas: wiki/sources/2026-09-24_ricktheengineer-principios-system-design.md. Atualizado: entities/ricktheengineer.md (1→2 fontes), overview.md (131→132 fontes, 320→321 páginas), index.md. Nota editorial: conteúdo fora do escopo de IA (system design puro); nenhum conceito de IA atualizado, mesmo tratamento da fonte de 2026-09-06 do mesmo autor.
+
+## [2026-11-02] ingest | Truques sobre Software e Licenciamento (Truques Secretos Pt 22) — @The Fox HD
+
+Fonte: `2026-10-30_the_fox_hd_DfIeeCwu6ym.md`. Páginas criadas: wiki/sources/2026-10-30_the-fox-hd-truques-licenciamento-software.md, entities/the-fox-hd.md. Atualizado: overview.md (132→133 fontes, 321→323 páginas), index.md. Nota editorial: conteúdo fora do escopo de IA (promoção de downloads não oficiais de Windows/Office); wiki não endossa a prática e não registra o endereço do site; nenhum conceito atualizado.
