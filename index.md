@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-09-19 | Total de páginas: 320 | Fontes ingeridas: 131
+> Atualizado em: 2026-09-24 | Total de páginas: 321 | Fontes ingeridas: 132
 
 ---
 
@@ -136,6 +136,7 @@
 | [[wiki/sources/2026-08-19_vinicius-delmonego-sites-claude]] | @Vinícius Delmônego | 2026-08-19 | 5 configurações (3 Claude Skills + 2 MCPs) para sites profissionais com Claude |
 | [[wiki/sources/2026-08-26_neeraj-chemburkar-10-skills-claude]] | @Neeraj Chemburkar | 2026-08-26 | 10 "Claude skill folders" (500k+ stars): scroll-world, GSD, graphify (+YC), codex-plugin-cc, diagram-design, impeccable, cap, MoneyPrinterTurbo |
 | [[wiki/sources/2026-09-06_ricktheengineer-escalar-banco-dados]] | @RickTheEngineer | 2026-09-06 | ⚠️ Fora do escopo IA — Como escalar um banco de dados para milhões de usuários (system design) |
+| [[wiki/sources/2026-09-24_ricktheengineer-principios-system-design]] | @RickTheEngineer | 2026-09-24 | ⚠️ Fora do escopo IA — System Design 101: 9 componentes e a pergunta "que problema forçou isto?" |
 | [[wiki/sources/2026-09-07_skills-design-conflito-atencao]] | @Fabiano Carvalho | 2026-09-07 | Catálogo de 10 Claude Skills de design + conflito de atenção entre skills concorrentes |
 | [[wiki/sources/2026-09-11_derek-dakota-gray-gpt6-astra]] | @Derek & Dakota Gray | 2026-09-11 | ⚠️ Hype de "GPT-6 Astra" (modelo não verificável) como isca para agência de GMB — rebrand para dupla |
 | [[wiki/sources/2026-08-30_wesley-lemes-repos-github-economia]] | @Wesley Lemes / Expert em IAs | 2026-08-30 | 9 repos GitHub (1,8M+ ⭐): awesome, public-apis, scrapling, free-for-dev, ollama, langflow, awesome-mcp-servers, open-design, awesome-llm-apps — 12ª confirmação do padrão |
@@ -257,7 +258,7 @@
 | [[wiki/entities/pedro-mallet]] | @Pedro Mallet | 1 | CRM open source como substituto da Salesforce — guias de instalação e personalização com Claude Code |
 | [[wiki/entities/eduardo-cavalcanti]] | @Eduardo Cavalcanti | 1 | 20 pseudo-comandos "/" para ChatGPT, Claude e Gemini — rigor analítico, decisão e anti-alucinação |
 | [[wiki/entities/vinicius-delmonego]] | @Vinícius Delmônego | 1 | Estrategista de infoprodutos — stack de Claude Skills + MCPs para sites profissionais |
-| [[wiki/entities/ricktheengineer]] | @RickTheEngineer | 1 | Criador de conteúdo técnico de system design/backend — fora do escopo IA |
+| [[wiki/entities/ricktheengineer]] | @RickTheEngineer | 2 | Criador de conteúdo técnico de system design/backend — fora do escopo IA |
 | [[wiki/entities/fabiano-carvalho]] | @Fabiano Carvalho | 1 | Curadoria crítica de Claude Skills — verificação manual de links + conflito de atenção entre skills concorrentes |
 | [[wiki/entities/wesley-lemes]] | @Wesley Lemes / Expert em IAs | 1 | Curadoria de repos GitHub open-source (economia/ferramentas) — 12ª confirmação do padrão "repos substituem SaaS" |
 

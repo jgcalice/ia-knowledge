@@ -3,8 +3,8 @@ title: "RickTheEngineer"
 type: entity
 category: person
 tags: [system-design, banco-de-dados, backend]
-source_count: 1
-last_updated: 2026-09-06
+source_count: 2
+last_updated: 2026-09-24
 ---
 
 # RickTheEngineer
@@ -15,3 +15,4 @@ Criador de conteúdo técnico (Instagram) focado em system design e arquitetura 
 
 ## Fontes
 - [[2026-09-06_ricktheengineer-escalar-banco-dados]] — progressão de arquitetura para escalar banco de dados a milhões de usuários (vertical scaling → índices → cache → réplicas → filas → particionamento → sharding)
+- [[2026-09-24_ricktheengineer-principios-system-design]] — System Design 101: 9 passos (load balancer, cache, réplicas, sharding, object storage, CDN, fila, redundância, observabilidade) e a pergunta "que problema nos forçou a adicionar isto?"

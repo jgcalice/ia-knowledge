@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-09-19
-source_count: 131
+source_count: 132
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 131 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
+> Wiki iniciado em 2026-04-21 | 132 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
 
 ## Tese atual
 
@@ -317,12 +317,21 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 131 |
-| Páginas de fontes | 131 |
+| Fontes ingeridas | 132 |
+| Páginas de fontes | 132 |
 | Páginas de conceitos | 21 |
 | Páginas de entidades | 166 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **320** |
+| **Total de páginas** | **321** |
+
+---
+
+## Adições de 2026-09-24
+
+- [[wiki/sources/2026-09-24_ricktheengineer-principios-system-design]] — ⚠️ Fora do escopo IA: System Design 101 em 9 passos (load balancer → cache → réplicas → sharding → object storage → CDN → fila → redundância → observabilidade) e o princípio de só adicionar complexidade diante de um gargalo real (@RickTheEngineer)
+- Entidade atualizada: [[ricktheengineer]] (source_count 1→2)
+- Nenhum conceito de IA atualizado
+- Status: 131→132 fontes, 320→321 páginas (+1 fonte)
 
 ---
 
