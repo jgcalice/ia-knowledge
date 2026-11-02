@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-11-02
-source_count: 133
+source_count: 134
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 133 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
+> Wiki iniciado em 2026-04-21 | 134 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
 
 ## Tese atual
 
@@ -317,12 +317,12 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 133 |
-| Páginas de fontes | 133 |
+| Fontes ingeridas | 134 |
+| Páginas de fontes | 134 |
 | Páginas de conceitos | 21 |
-| Páginas de entidades | 167 |
+| Páginas de entidades | 169 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **323** |
+| **Total de páginas** | **326** |
 
 ---
 
@@ -331,6 +331,14 @@ Fonte: ([[faria-lima-elevator]])
 - [[wiki/sources/2026-10-30_the-fox-hd-truques-licenciamento-software]] — ⚠️ Fora do escopo IA: reel promovendo downloads não oficiais de Windows/Office; wiki não endossa, risco de malware (@The Fox HD)
 - Entidade criada: [[the-fox-hd]]
 - Status: 132→133 fontes, 321→323 páginas
+
+---
+
+## Adições de 2026-11-01
+
+- [[wiki/sources/2026-11-01_mateus-ferreira-travel-hacking-toolkit]] — Plugin gratuito de Claude Code que pesquisa 27 programas de milhas e calcula transferências de pontos; evolui [[viagem-com-ia]] de prompts para plugin agêntico (@Mateus Ferreira)
+- Entidades criadas: [[mateus-ferreira]], [[travel-hacking-toolkit]]
+- Status: 133→134 fontes, 323→326 páginas
 
 ---
 

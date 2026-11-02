@@ -507,3 +507,7 @@ Fonte: `2026-09-24_ricktheengineer_DdrHAI1MrFb.md`. Páginas criadas: wiki/sourc
 ## [2026-11-02] ingest | Truques sobre Software e Licenciamento (Truques Secretos Pt 22) — @The Fox HD
 
 Fonte: `2026-10-30_the_fox_hd_DfIeeCwu6ym.md`. Páginas criadas: wiki/sources/2026-10-30_the-fox-hd-truques-licenciamento-software.md, entities/the-fox-hd.md. Atualizado: overview.md (132→133 fontes, 321→323 páginas), index.md. Nota editorial: conteúdo fora do escopo de IA (promoção de downloads não oficiais de Windows/Office); wiki não endossa a prática e não registra o endereço do site; nenhum conceito atualizado.
+
+## [2026-11-02] ingest | Claude e o Travel Hacking Toolkit — @Mateus Ferreira | IA para negócios
+
+Fonte: `2026-11-01_mateus_ferreira_ia_para_negocios_DfNu8hoCvDX.md`. Páginas criadas: wiki/sources/2026-11-01_mateus-ferreira-travel-hacking-toolkit.md, entities/mateus-ferreira.md, entities/travel-hacking-toolkit.md. Atualizado: concepts/viagem-com-ia.md (1→2 fontes), entities/claude-code.md (43→44), overview.md (133→134 fontes, 323→326 páginas), index.md. Nota: números do plugin (27 programas, 40+ skills) são alegações do post, não verificadas; transcrição grafou o criador como "Bosskey", caption confirma Borski.

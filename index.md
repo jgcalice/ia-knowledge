@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-11-02 | Total de páginas: 323 | Fontes ingeridas: 133
+> Atualizado em: 2026-11-02 | Total de páginas: 326 | Fontes ingeridas: 134
 
 ---
 
@@ -107,7 +107,7 @@
 | [[wiki/sources/2026-04-23_drew-huibregtse-sistema-amazon-kdp]] | @Drew Huibregtse | 2026-04-23 | Sistema de 4 passos Amazon KDP: nicho (Helium 10) → conteúdo IA → capa Canva → upload; case $21.626/30 dias |
 | [[wiki/sources/2026-05-24_hasan-toor-modelos-ia-offline]] | @Hasan Toor | 2026-05-24 | Guia de 7 passos para rodar LLMs offline em <20 min: Ollama + LM Studio + RAM guide + Q4_K_M + API localhost:11434 |
 | [[wiki/sources/2026-05-25_harish-bhatt-11-prompts-engenharia-software]] | @Harish Bhatt | 2026-05-25 | 11 prompts para Claude como engenheiro sênior: audit, debug, performance, arquitetura, 4-agent team, AI Technical Lead |
-| [[wiki/sources/2026-05-25_bestapps-7-prompts-voos]] | @Bestapps \| Artificial Intelligence \| AI Agents | 2026-05-25 | 7 prompts para análise profissional de preços de voos: hidden routes, geo-pricing, fare rules, timing, airline vs OTA |
+| [[wiki/sources/2026-05-25_bestapps-7-prompts-voos]] | @Bestapps \| Artificial Intelligence \| AI Agents | 2026-05-25 | 7 prompts para análise profissional de preços de voos: hidden routes, geo-pricing, fare rules, timing, airline vs OTA; + plugin Travel Hacking Toolkit (milhas) |
 | [[wiki/sources/2026-05-24_today-in-ai-checklist-prelancamento]] | @TODAY IN AI | 2026-05-24 | Checklist jurídico-técnica pré-lançamento: GDPR/CCPA, RLS, failure-path testing, security headers, OWASP, server-side validation |
 | [[wiki/sources/2026-05-12_bruno-souza-modelo-negocio-automatizado]] | @Bruno Souza | 2026-05-12 | Sistema de 5 passos para AI Side-Hustle: ferramentas pré-construídas → negócios locais → $1–3K/mês retainer sem código |
 | [[wiki/sources/2026-05-14_drew-huibregtse-livros-colorir-ia]] | @Drew Huibregtse | 2026-05-14 | Como lucrar com livros de colorir usando IA: 5 passos, Claude + ChatGPT/Nano Banana + Canva + KDP — dashboard real $13.392/mês |
@@ -137,6 +137,7 @@
 | [[wiki/sources/2026-08-26_neeraj-chemburkar-10-skills-claude]] | @Neeraj Chemburkar | 2026-08-26 | 10 "Claude skill folders" (500k+ stars): scroll-world, GSD, graphify (+YC), codex-plugin-cc, diagram-design, impeccable, cap, MoneyPrinterTurbo |
 | [[wiki/sources/2026-09-06_ricktheengineer-escalar-banco-dados]] | @RickTheEngineer | 2026-09-06 | ⚠️ Fora do escopo IA — Como escalar um banco de dados para milhões de usuários (system design) |
 | [[wiki/sources/2026-09-24_ricktheengineer-principios-system-design]] | @RickTheEngineer | 2026-09-24 | ⚠️ Fora do escopo IA — System Design 101: 9 componentes e a pergunta "que problema forçou isto?" |
+| [[wiki/sources/2026-11-01_mateus-ferreira-travel-hacking-toolkit]] | @Mateus Ferreira | 2026-11-01 | Travel Hacking Toolkit: plugin de Claude Code que pesquisa 27 programas de milhas e calcula transferências |
 | [[wiki/sources/2026-10-30_the-fox-hd-truques-licenciamento-software]] | @The Fox HD | 2026-10-30 | ⚠️ Fora do escopo IA — Truques Pt 22: downloads não oficiais de Windows/Office (pirataria; risco de malware) |
 | [[wiki/sources/2026-09-07_skills-design-conflito-atencao]] | @Fabiano Carvalho | 2026-09-07 | Catálogo de 10 Claude Skills de design + conflito de atenção entre skills concorrentes |
 | [[wiki/sources/2026-09-11_derek-dakota-gray-gpt6-astra]] | @Derek & Dakota Gray | 2026-09-11 | ⚠️ Hype de "GPT-6 Astra" (modelo não verificável) como isca para agência de GMB — rebrand para dupla |
@@ -168,7 +169,7 @@
 | [[wiki/concepts/busca-de-emprego-com-ia]] | 9 | Busca de emprego automatizada com Career Ops, ATS, candidaturas personalizadas, preparação para entrevistas, score de compatibilidade 0-100, pipeline completo com cold outreach e follow-up + auto-candidatura em massa via ChatGPT agente (500 vagas) |
 | [[wiki/concepts/seo-com-ia]] | 4 | SEO com IA: quatro abordagens — arquivos técnicos (llms.txt), otimização via GSC, guia oficial Google e engenharia reversa do concorrente #1 (pageaudit.com + ChatGPT) |
 | [[wiki/concepts/ia-local]] | 3 | Execução de LLMs sem nuvem: Ollama + LM Studio, RAM guide, quantização Q4_K_M, API OpenAI-compatível local; 3ª confirmação de Ollama via curadoria de repos GitHub |
-| [[wiki/concepts/viagem-com-ia]] | 1 | Prompts para análise profissional de preços de voos: hidden routes, geo-pricing, fare rules, timing, airline vs OTA |
+| [[wiki/concepts/viagem-com-ia]] | 2 | Prompts para análise profissional de preços de voos: hidden routes, geo-pricing, fare rules, timing, airline vs OTA |
 
 ---
 
@@ -260,6 +261,8 @@
 | [[wiki/entities/eduardo-cavalcanti]] | @Eduardo Cavalcanti | 1 | 20 pseudo-comandos "/" para ChatGPT, Claude e Gemini — rigor analítico, decisão e anti-alucinação |
 | [[wiki/entities/vinicius-delmonego]] | @Vinícius Delmônego | 1 | Estrategista de infoprodutos — stack de Claude Skills + MCPs para sites profissionais |
 | [[wiki/entities/ricktheengineer]] | @RickTheEngineer | 2 | Criador de conteúdo técnico de system design/backend — fora do escopo IA |
+| [[wiki/entities/mateus-ferreira]] | @Mateus Ferreira | 1 | Criador BR de reels de IA para negócios — divulgou o Travel Hacking Toolkit |
+| [[wiki/entities/travel-hacking-toolkit]] | Travel Hacking Toolkit | 1 | Plugin gratuito de Claude Code (40+ skills) para milhas e passagens; criador Borski |
 | [[wiki/entities/the-fox-hd]] | @The Fox HD | 1 | Criador de reels de "truques" de software/licenciamento — fora do escopo IA |
 | [[wiki/entities/fabiano-carvalho]] | @Fabiano Carvalho | 1 | Curadoria crítica de Claude Skills — verificação manual de links + conflito de atenção entre skills concorrentes |
 | [[wiki/entities/wesley-lemes]] | @Wesley Lemes / Expert em IAs | 1 | Curadoria de repos GitHub open-source (economia/ferramentas) — 12ª confirmação do padrão "repos substituem SaaS" |

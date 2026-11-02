@@ -2,13 +2,13 @@
 title: "Viagem com IA"
 type: concept
 tags: [viagem, voos, otimização, prompt-engineering, custos, geo-pricing, consumidor]
-source_count: 1
-last_updated: 2026-05-26
+source_count: 2
+last_updated: 2026-11-02
 ---
 
 # Viagem com IA
 
-> **Fontes:** 1 | **Domínio:** Aplicações pessoais de IA — viagem e otimização de custos de transporte
+> **Fontes:** 2 | **Domínio:** Aplicações pessoais de IA — viagem e otimização de custos de transporte
 
 ## Definição
 
@@ -73,3 +73,4 @@ Essa estrutura de 3 tiers é reutilizável em qualquer domínio onde "otimizaç�
 ## Fontes
 
 - [[2026-05-25_bestapps-7-prompts-voos]] — 7 prompts para análise profissional de preços de voos; lançamento do conceito no wiki
+- [[2026-11-01_mateus-ferreira-travel-hacking-toolkit]] — Travel Hacking Toolkit: plugin de Claude Code que pesquisa 27 programas de milhas e calcula transferências de pontos; segunda abordagem (plugin agêntico em vez de prompt) — ver [[travel-hacking-toolkit]]

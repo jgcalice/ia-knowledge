@@ -3,8 +3,8 @@ title: "Claude / Claude Code"
 type: entity
 category: tool
 tags: [llm, claude, anthropic, claude-code, ia, claude-managed-agents]
-source_count: 43
-last_updated: 2026-08-26
+source_count: 44
+last_updated: 2026-11-02
 ---
 
 # Claude / Claude Code
@@ -209,3 +209,4 @@ Documentado por [[lucas-garcia-pit]] em [[2026-04-15_lucas-garcia-pit-seguranca-
 - [[2026-04-26_coding-ai-fullstack-entrevistas-claude]]
 - [[2026-04-27_nate-herk-32-hacks-claude-code]]
 - [[2026-04-27_manthan-patel-pasta-claude]]
+- [[2026-11-01_mateus-ferreira-travel-hacking-toolkit]] — plugin [[travel-hacking-toolkit]] (40+ skills de viagem/milhas)
