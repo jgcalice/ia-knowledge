@@ -3,8 +3,8 @@ title: "Claude Skills"
 type: entity
 category: tool
 tags: [claude, anthropic, skills, agentes-ia, prompt-engineering, marketplace, design, vibecoding]
-source_count: 7
-last_updated: 2026-08-26
+source_count: 8
+last_updated: 2026-11-04
 ---
 
 # Claude Skills
@@ -143,6 +143,10 @@ Também documenta o **[[gsd]]** (5 fases com comandos dedicados, 64.642 estrelas
 
 → [[2026-08-26_neeraj-chemburkar-10-skills-claude]]
 
+## Skill Teach (baseada em [[gustavo-cerqueira]])
+
+Skill de aprendizado atribuída a "Matt PK": gera curso em arquivos individuais com quizzes; usada via Claude, Codex ou ChatGPT. Mostra skills como veículo de metodologia pedagógica, não só de produtividade/design. Ver [[aprendizado-com-ia]].
+
 ## Fontes
 
 - [[2026-04-07_claude-skills-product-managers]]
@@ -152,3 +156,4 @@ Também documenta o **[[gsd]]** (5 fases com comandos dedicados, 64.642 estrelas
 - [[2026-08-19_vinicius-delmonego-sites-claude]]
 - [[2026-09-07_skills-design-conflito-atencao]]
 - [[2026-08-26_neeraj-chemburkar-10-skills-claude]]
+- [[2026-11-01_gustavo-cerqueira-skill-teach-matt-pk]]

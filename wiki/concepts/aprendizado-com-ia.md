@@ -2,8 +2,8 @@
 title: "Aprendizado com IA"
 type: concept
 tags: [aprendizado, claude, educação, cursos, certificação]
-source_count: 4
-last_updated: 2026-05-08
+source_count: 5
+last_updated: 2026-11-04
 ---
 
 # Aprendizado com IA
@@ -47,9 +47,15 @@ Uso de LLMs como tutores personalizados e curadoria de recursos para aprender ha
 Padrão distinto do Prompt 1 de [[evolving-ai]] (tutor que ensina conteúdo): aqui o output é um *plano estruturado* que o usuário executa de forma independente — Claude como arquiteto do aprendizado, não como o professor.
 → [[2026-05-08_ai-fied-munger-5-prompts]]
 
+### Skill instalável que gera curso com quizzes
+
+[[gustavo-cerqueira]] recomenda a skill Teach (atribuída a "Matt PK"): estrutura um curso em arquivos individuais por tópico + quizzes no ritmo do usuário, instalável em Claude/Codex/ChatGPT e posicionada como alternativa ao NotebookLM. Evolução do padrão de prompts de tutor para uma skill reutilizável ([[claude-skills]]). Nome do criador não verificado (transcrição ruidosa).
+→ [[2026-11-01_gustavo-cerqueira-skill-teach-matt-pk]]
+
 ## Fontes
 
 - [[2026-03-24_aprender-com-claude-6-prompts]]
 - [[2026-04-05_5-videos-especialista-claude]]
 - [[2026-04-22_7-youtubers-ia]]
 - [[2026-05-08_ai-fied-munger-5-prompts]]
+- [[2026-11-01_gustavo-cerqueira-skill-teach-matt-pk]]

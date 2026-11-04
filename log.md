@@ -511,3 +511,7 @@ Fonte: `2026-10-30_the_fox_hd_DfIeeCwu6ym.md`. Páginas criadas: wiki/sources/20
 ## [2026-11-02] ingest | Claude e o Travel Hacking Toolkit — @Mateus Ferreira | IA para negócios
 
 Fonte: `2026-11-01_mateus_ferreira_ia_para_negocios_DfNu8hoCvDX.md`. Páginas criadas: wiki/sources/2026-11-01_mateus-ferreira-travel-hacking-toolkit.md, entities/mateus-ferreira.md, entities/travel-hacking-toolkit.md. Atualizado: concepts/viagem-com-ia.md (1→2 fontes), entities/claude-code.md (43→44), overview.md (133→134 fontes, 323→326 páginas), index.md. Nota: números do plugin (27 programas, 40+ skills) são alegações do post, não verificadas; transcrição grafou o criador como "Bosskey", caption confirma Borski.
+
+## [2026-11-04] ingest | Skill Teach de Matt PK para Aprendizado Acelerado — @Gustavo Cerqueira
+
+Fonte: `2026-11-01_gustavo_cerqueira_aqui_desde_13_09_2026_DfM7NiaNA7P.md`. Páginas criadas: wiki/sources/2026-11-01_gustavo-cerqueira-skill-teach-matt-pk.md, entities/gustavo-cerqueira.md. Atualizado: concepts/aprendizado-com-ia.md (4→5), entities/claude-skills.md (7→8), overview.md (134→135 fontes, 326→328 páginas), index.md. Nota: nome "Matt PK" vem de transcrição ruidosa e não foi verificado; sem link do repositório na fonte.
