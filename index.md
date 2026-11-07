@@ -137,6 +137,7 @@
 | [[wiki/sources/2026-08-26_neeraj-chemburkar-10-skills-claude]] | @Neeraj Chemburkar | 2026-08-26 | 10 "Claude skill folders" (500k+ stars): scroll-world, GSD, graphify (+YC), codex-plugin-cc, diagram-design, impeccable, cap, MoneyPrinterTurbo |
 | [[wiki/sources/2026-09-06_ricktheengineer-escalar-banco-dados]] | @RickTheEngineer | 2026-09-06 | ⚠️ Fora do escopo IA — Como escalar um banco de dados para milhões de usuários (system design) |
 | [[wiki/sources/2026-09-24_ricktheengineer-principios-system-design]] | @RickTheEngineer | 2026-09-24 | ⚠️ Fora do escopo IA — System Design 101: 9 componentes e a pergunta "que problema forçou isto?" |
+| [[wiki/sources/2026-11-05_igor-henrique-app-academia-gratuito-github]] | @Igor Henrique | 2026-11-05 | App de academia open source com treinador de IA e hospedagem própria |
 | [[wiki/sources/2026-11-01_gustavo-cerqueira-skill-teach-matt-pk]] | @Gustavo Cerqueira | 2026-11-01 | Skill Teach ("Matt PK"): curso estruturado com quizzes para aprendizado acelerado |
 | [[wiki/sources/2026-11-01_mateus-ferreira-travel-hacking-toolkit]] | @Mateus Ferreira | 2026-11-01 | Travel Hacking Toolkit: plugin de Claude Code que pesquisa 27 programas de milhas e calcula transferências |
 | [[wiki/sources/2026-10-30_the-fox-hd-truques-licenciamento-software]] | @The Fox HD | 2026-10-30 | ⚠️ Fora do escopo IA — Truques Pt 22: downloads não oficiais de Windows/Office (pirataria; risco de malware) |
@@ -166,7 +167,7 @@
 | [[wiki/concepts/mudança-organizacional-com-ia]] | 1 | Change management como 35% da resistência; sponsorship continuado através da falha; iteração em 100% dos sucessos |
 | [[wiki/concepts/produtividade-e-emprego-com-ia]] | 1 | 45% reduzem headcount; 55% redeployment ou hiring avoided; "canários" em workers 22-25 expostos |
 | [[wiki/concepts/finanças-com-ia]] | 6 | Análise de investimentos de nível institucional com LLMs — 6 ângulos: ROLE institucional, riqueza individual, screening funil, DIY estruturado, pipeline sequencial completo, gestor autônomo com dinheiro real |
-| [[wiki/concepts/bem-estar-com-ia]] | 1 | Prompts parametrizados substituindo serviços profissionais de fitness — inputs de anamnese → protocolo de nível profissional |
+| [[wiki/concepts/bem-estar-com-ia]] | 2 | Prompts parametrizados substituindo serviços profissionais de fitness — inputs de anamnese → protocolo de nível profissional |
 | [[wiki/concepts/busca-de-emprego-com-ia]] | 9 | Busca de emprego automatizada com Career Ops, ATS, candidaturas personalizadas, preparação para entrevistas, score de compatibilidade 0-100, pipeline completo com cold outreach e follow-up + auto-candidatura em massa via ChatGPT agente (500 vagas) |
 | [[wiki/concepts/seo-com-ia]] | 4 | SEO com IA: quatro abordagens — arquivos técnicos (llms.txt), otimização via GSC, guia oficial Google e engenharia reversa do concorrente #1 (pageaudit.com + ChatGPT) |
 | [[wiki/concepts/ia-local]] | 3 | Execução de LLMs sem nuvem: Ollama + LM Studio, RAM guide, quantização Q4_K_M, API OpenAI-compatível local; 3ª confirmação de Ollama via curadoria de repos GitHub |
@@ -262,6 +263,7 @@
 | [[wiki/entities/eduardo-cavalcanti]] | @Eduardo Cavalcanti | 1 | 20 pseudo-comandos "/" para ChatGPT, Claude e Gemini — rigor analítico, decisão e anti-alucinação |
 | [[wiki/entities/vinicius-delmonego]] | @Vinícius Delmônego | 1 | Estrategista de infoprodutos — stack de Claude Skills + MCPs para sites profissionais |
 | [[wiki/entities/ricktheengineer]] | @RickTheEngineer | 2 | Criador de conteúdo técnico de system design/backend — fora do escopo IA |
+| [[wiki/entities/igor-henrique]] | @Igor Henrique | 1 | Criador BR de reels de IA — app de academia open source |
 | [[wiki/entities/gustavo-cerqueira]] | @Gustavo Cerqueira | 1 | Criador BR de reels de IA — recomenda a skill Teach |
 | [[wiki/entities/mateus-ferreira]] | @Mateus Ferreira | 1 | Criador BR de reels de IA para negócios — divulgou o Travel Hacking Toolkit |
 | [[wiki/entities/travel-hacking-toolkit]] | Travel Hacking Toolkit | 1 | Plugin gratuito de Claude Code (40+ skills) para milhas e passagens; criador Borski |

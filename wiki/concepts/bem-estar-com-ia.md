@@ -2,13 +2,13 @@
 title: "Bem-estar e Fitness com IA"
 type: concept
 tags: [fitness, bem-estar, personalização, prompt-engineering, saúde]
-source_count: 1
-last_updated: 2026-04-26
+source_count: 2
+last_updated: 2026-11-07
 ---
 
 # Bem-estar e Fitness com IA
 
-> **Fontes:** 1 | **Domínio:** Aplicações pessoais de IA — saúde, fitness e bem-estar
+> **Fontes:** 2 | **Domínio:** Aplicações pessoais de IA — saúde, fitness e bem-estar
 
 ## Definição
 
@@ -63,3 +63,4 @@ A lógica de "inputs profissionais → outputs profissionais via LLM" não é ex
 ## Fontes
 
 - [[2026-04-14_arising-ai-fitness-7-prompts]] — 7 prompts para fitness pessoal; lançamento do conceito no wiki
+- [[2026-11-05_igor-henrique-app-academia-gratuito-github]] — app de academia open source com treinador de IA, hospedagem própria e 5 mil+ exercícios; variante "produto pronto" em vez de prompts

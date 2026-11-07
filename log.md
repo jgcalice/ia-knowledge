@@ -515,3 +515,7 @@ Fonte: `2026-11-01_mateus_ferreira_ia_para_negocios_DfNu8hoCvDX.md`. Páginas cr
 ## [2026-11-04] ingest | Skill Teach de Matt PK para Aprendizado Acelerado — @Gustavo Cerqueira
 
 Fonte: `2026-11-01_gustavo_cerqueira_aqui_desde_13_09_2026_DfM7NiaNA7P.md`. Páginas criadas: wiki/sources/2026-11-01_gustavo-cerqueira-skill-teach-matt-pk.md, entities/gustavo-cerqueira.md. Atualizado: concepts/aprendizado-com-ia.md (4→5), entities/claude-skills.md (7→8), overview.md (134→135 fontes, 326→328 páginas), index.md. Nota: nome "Matt PK" vem de transcrição ruidosa e não foi verificado; sem link do repositório na fonte.
+
+## [2026-11-07] ingest | Aplicativo de Academia Gratuito e com IA no GitHub — @Igor Henrique
+
+Fonte: `2026-11-05_igor_henrique_DfW-8znhDvD.md`. Páginas criadas: wiki/sources/2026-11-05_igor-henrique-app-academia-gratuito-github.md, entities/igor-henrique.md. Atualizado: concepts/bem-estar-com-ia.md (1→2), overview.md (135→136 fontes, 328→330 páginas), index.md. Nota: o post não nomeia o projeto nem traz o link; alegações (18 mil estrelas, licença comercial) não verificadas.
