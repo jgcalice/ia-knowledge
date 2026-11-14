@@ -3,7 +3,7 @@ title: "Claude / Claude Code"
 type: entity
 category: tool
 tags: [llm, claude, anthropic, claude-code, ia, claude-managed-agents]
-source_count: 45
+source_count: 46
 last_updated: 2026-11-14
 ---
 
@@ -215,3 +215,7 @@ Documentado por [[lucas-garcia-pit]] em [[2026-04-15_lucas-garcia-pit-seguranca-
 ## Claude Desktop com computer use (2026-11-09)
 
 [[2026-11-09_harish-bhatt-7-prompts-wifi-claude]] usa o Claude Desktop com acesso ao computador para diagnosticar Wi-Fi (speed test, logs, dispositivos, agendamento semanal), sempre com aprovação antes de mudanças.
+
+## Diagnóstico de Wi-Fi via Claude Code no Desktop (2026-11-14)
+
+[[2026-11-14_arshman-khalid-wifi-claude-code]]: um único prompt no Claude Code roda speed test, lista dispositivos, checa canais vizinhos e aplica correções só após aprovação (relato: 23 mudanças, velocidade dobrada; não verificado).

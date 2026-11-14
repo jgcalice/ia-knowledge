@@ -2,8 +2,8 @@
 title: "Agentes de IA"
 type: concept
 tags: [agentes-ia, claude-code, automação, multi-agent, subagentes, tokens, ia-empresarial, claude-managed-agents, agent-teams, git-worktrees, hooks, plugins, skills, comportamento-default]
-source_count: 31
-last_updated: 2026-08-30
+source_count: 32
+last_updated: 2026-11-14
 ---
 
 # Agentes de IA
@@ -439,3 +439,5 @@ Duas ferramentas novas cobrem extremos complementares do ciclo de vida de um age
 - [[2026-04-17_manthan-patel-claudemd-boris-cherny]]
 - [[2026-04-27_nate-herk-32-hacks-claude-code]]
 - [[2026-04-27_manthan-patel-pasta-claude]]
+
+- [[2026-11-14_arshman-khalid-wifi-claude-code]] — agente de diagnóstico de rede doméstica: mede, investiga, propõe e só aplica com aprovação

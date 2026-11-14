@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-11-14 | Total de páginas: 333 | Fontes ingeridas: 138
+> Atualizado em: 2026-11-14 | Total de páginas: 334 | Fontes ingeridas: 139
 
 ---
 
@@ -146,6 +146,7 @@
 | [[wiki/sources/2026-08-30_wesley-lemes-repos-github-economia]] | @Wesley Lemes / Expert em IAs | 2026-08-30 | 9 repos GitHub (1,8M+ ⭐): awesome, public-apis, scrapling, free-for-dev, ollama, langflow, awesome-mcp-servers, open-design, awesome-llm-apps — 12ª confirmação do padrão |
 | [[wiki/sources/2026-11-09_harish-bhatt-7-prompts-wifi-claude]] | @Harish Bhatt \| Tech and Ai | 2026-11-09 | 7 prompts para Claude Desktop (computer use) diagnosticar Wi-Fi lento, sempre com aprovação |
 | [[wiki/sources/2026-11-12_ariacodez-osint-scammers-satira]] | @AriaCodez | 2026-11-12 | ⚠️ Fora do escopo IA — reel satírico de retaliação contra golpistas (rastreio de IP, dispositivos expostos); sem endosso, lição defensiva |
+| [[wiki/sources/2026-11-14_arshman-khalid-wifi-claude-code]] | @Arshman Khalid | 2026-11-14 | Claude Code no Desktop diagnostica e corrige Wi-Fi lento com aprovação (23 mudanças no teste) |
 
 ---
 
@@ -323,7 +324,7 @@
 | [[wiki/entities/pablo-in-public]] | @PabloInPublic | 1 | Build in public, dicas Claude Code (espanhol) |
 | [[wiki/entities/sanskaar-singh]] | @Sanskaar Singh R • AI Wizard | 1 | LinkedIn + IA, diagnóstico recruiter-first |
 | [[wiki/entities/castilho]] | @castilhoia | 1 | IA para negócios, ativadores semânticos (Mental Models) no Claude |
-| [[wiki/entities/arshman-khalid]] | @Arshman Khalid | 1 | Automação de busca de emprego com CareerOps plugin + Apify LinkedIn |
+| [[wiki/entities/arshman-khalid]] | @Arshman Khalid | 2 | Automação de busca de emprego com CareerOps plugin + Apify LinkedIn; Wi-Fi com Claude Code |
 | [[wiki/entities/paras-madan]] | @Paras Madan | 2 | Claude Skills + repos open-source para monetização com IA (ads, SEO, trading, scraping) |
 | [[wiki/entities/harry]] | @Harry / @codingknowledge | 1 | Prompts estruturados para validação de startups com frameworks de Paul Graham |
 | [[wiki/entities/paul-graham]] | Paul Graham | 1 | Co-fundador YC — referência de metodologia de avaliação de startups (pressure test, do things that don't scale) |

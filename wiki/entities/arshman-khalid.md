@@ -3,13 +3,13 @@ title: "Arshman Khalid"
 type: entity
 category: person
 tags: [busca-de-emprego, career-ops, apify, linkedin, automação, carreira]
-source_count: 1
-last_updated: 2026-04-24
+source_count: 2
+last_updated: 2026-11-14
 ---
 
 # Arshman Khalid
 
-> **Handle:** @Arshman Khalid | **Aparece em:** 1 fonte
+> **Handle:** @Arshman Khalid | **Aparece em:** 2 fontes
 
 ## Quem é
 
@@ -22,3 +22,4 @@ Apresentou o **CareerOps** como plugin gratuito para Claude (GitHub), com pipeli
 ## Fontes
 
 - [[2026-04-22_arshman-khalid-automacao-busca-emprego]]
+- [[2026-11-14_arshman-khalid-wifi-claude-code]] — prompt de Claude Code que diagnostica e corrige Wi-Fi lento, com aprovação (23 mudanças no teste dele)

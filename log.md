@@ -527,3 +527,7 @@ Fonte: `2026-11-09_harish_bhatt_tech_and_ai_DfhVoM6ElZQ.md`. Páginas criadas: w
 ## [2026-11-14] ingest | OSINT contra scammers (sátira) — @AriaCodez
 
 Fonte: `2026-11-12_ariacodez_Dfph2IYqGZB.md`. Páginas criadas: wiki/sources/2026-11-12_ariacodez-osint-scammers-satira.md, entities/ariacodez.md. Atualizado: concepts/segurança-com-ia.md (9→10), overview.md (137→138 fontes, 331→333 páginas), index.md. Nota editorial: conteúdo fora do escopo de IA e ilegal (acesso a câmeras alheias, derrubar rede); wiki não endossa e não registra ferramentas nem passos.
+
+## [2026-11-14] ingest | Claude Code para dobrar a velocidade do Wi-Fi — @Arshman Khalid
+
+Fonte: `2026-11-14_arshman_khalid_Dftm7llOQ7T.md`. Páginas criadas: wiki/sources/2026-11-14_arshman-khalid-wifi-claude-code.md. Atualizado: entities/arshman-khalid.md (1→2), entities/claude-code.md (45→46), concepts/agentes-ia.md (31→32), overview.md (138→139 fontes, 333→334 páginas), index.md. Nota: prompt não incluído na fonte; "dobrou a velocidade" e "23 mudanças" não verificados; "Cloud" na transcrição = Claude.
