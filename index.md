@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-11-14 | Total de páginas: 334 | Fontes ingeridas: 139
+> Atualizado em: 2026-11-14 | Total de páginas: 335 | Fontes ingeridas: 140
 
 ---
 
@@ -146,6 +146,7 @@
 | [[wiki/sources/2026-08-30_wesley-lemes-repos-github-economia]] | @Wesley Lemes / Expert em IAs | 2026-08-30 | 9 repos GitHub (1,8M+ ⭐): awesome, public-apis, scrapling, free-for-dev, ollama, langflow, awesome-mcp-servers, open-design, awesome-llm-apps — 12ª confirmação do padrão |
 | [[wiki/sources/2026-11-09_harish-bhatt-7-prompts-wifi-claude]] | @Harish Bhatt \| Tech and Ai | 2026-11-09 | 7 prompts para Claude Desktop (computer use) diagnosticar Wi-Fi lento, sempre com aprovação |
 | [[wiki/sources/2026-11-12_ariacodez-osint-scammers-satira]] | @AriaCodez | 2026-11-12 | ⚠️ Fora do escopo IA — reel satírico de retaliação contra golpistas (rastreio de IP, dispositivos expostos); sem endosso, lição defensiva |
+| [[wiki/sources/2026-09-15_the-fox-hd-drive-cursos-gratuitos]] | @The Fox HD | 2026-09-15 | ⚠️ Fora do escopo IA — Truques Pt 1: repositório de cursos pagos redistribuídos (direitos autorais; sem endosso) |
 | [[wiki/sources/2026-11-14_arshman-khalid-wifi-claude-code]] | @Arshman Khalid | 2026-11-14 | Claude Code no Desktop diagnostica e corrige Wi-Fi lento com aprovação (23 mudanças no teste) |
 
 ---
@@ -270,7 +271,7 @@
 | [[wiki/entities/gustavo-cerqueira]] | @Gustavo Cerqueira | 1 | Criador BR de reels de IA — recomenda a skill Teach |
 | [[wiki/entities/mateus-ferreira]] | @Mateus Ferreira | 1 | Criador BR de reels de IA para negócios — divulgou o Travel Hacking Toolkit |
 | [[wiki/entities/travel-hacking-toolkit]] | Travel Hacking Toolkit | 1 | Plugin gratuito de Claude Code (40+ skills) para milhas e passagens; criador Borski |
-| [[wiki/entities/the-fox-hd]] | @The Fox HD | 1 | Criador de reels de "truques" de software/licenciamento — fora do escopo IA |
+| [[wiki/entities/the-fox-hd]] | @The Fox HD | 2 | Criador de reels de "truques" de software/licenciamento — fora do escopo IA |
 | [[wiki/entities/ariacodez]] | @AriaCodez | 1 | Criador de reels de segurança/OSINT em tom de sátira — fora do escopo IA |
 | [[wiki/entities/fabiano-carvalho]] | @Fabiano Carvalho | 1 | Curadoria crítica de Claude Skills — verificação manual de links + conflito de atenção entre skills concorrentes |
 | [[wiki/entities/wesley-lemes]] | @Wesley Lemes / Expert em IAs | 1 | Curadoria de repos GitHub open-source (economia/ferramentas) — 12ª confirmação do padrão "repos substituem SaaS" |

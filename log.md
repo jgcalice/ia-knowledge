@@ -531,3 +531,7 @@ Fonte: `2026-11-12_ariacodez_Dfph2IYqGZB.md`. Páginas criadas: wiki/sources/202
 ## [2026-11-14] ingest | Claude Code para dobrar a velocidade do Wi-Fi — @Arshman Khalid
 
 Fonte: `2026-11-14_arshman_khalid_Dftm7llOQ7T.md`. Páginas criadas: wiki/sources/2026-11-14_arshman-khalid-wifi-claude-code.md. Atualizado: entities/arshman-khalid.md (1→2), entities/claude-code.md (45→46), concepts/agentes-ia.md (31→32), overview.md (138→139 fontes, 333→334 páginas), index.md. Nota: prompt não incluído na fonte; "dobrou a velocidade" e "23 mudanças" não verificados; "Cloud" na transcrição = Claude.
+
+## [2026-11-14] ingest | Recursos gratuitos de aprendizado (Truques Pt 1) — @The Fox HD
+
+Fonte: `2026-09-15_the_fox_hd_DdUuXCduRkq.md`. Páginas criadas: wiki/sources/2026-09-15_the-fox-hd-drive-cursos-gratuitos.md. Atualizado: entities/the-fox-hd.md (1→2), overview.md (139→140 fontes, 334→335 páginas), index.md. Nota editorial: fora do escopo de IA; repositório de cursos pagos provavelmente redistribuídos sem autorização; wiki não endossa e não registra termo de busca.

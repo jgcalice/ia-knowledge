@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-11-02
-source_count: 139
+source_count: 140
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 139 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
+> Wiki iniciado em 2026-04-21 | 140 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
 
 ## Tese atual
 
@@ -317,12 +317,12 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 139 |
-| Páginas de fontes | 139 |
+| Fontes ingeridas | 140 |
+| Páginas de fontes | 140 |
 | Páginas de conceitos | 21 |
 | Páginas de entidades | 171 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **334** |
+| **Total de páginas** | **335** |
 
 ---
 
@@ -550,3 +550,8 @@ Fonte: ([[faria-lima-elevator]])
 
 - [[wiki/sources/2026-11-14_arshman-khalid-wifi-claude-code]] — Claude Code (no Desktop) diagnostica e corrige Wi-Fi lento com aprovação; 2ª fonte sobre Wi-Fi com Claude, ver [[wiki/sources/2026-11-09_harish-bhatt-7-prompts-wifi-claude]] ([[arshman-khalid]])
 - Status: 138→139 fontes, 333→334 páginas
+
+## Adições de 2026-11-14 (4)
+
+- [[wiki/sources/2026-09-15_the-fox-hd-drive-cursos-gratuitos]] — ⚠️ fora do escopo IA: reel Pt 1 de "Truques Secretos" sobre repositório de cursos pagos redistribuídos; sem endosso ([[the-fox-hd]])
+- Status: 139→140 fontes, 334→335 páginas
