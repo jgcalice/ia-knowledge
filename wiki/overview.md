@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-11-02
-source_count: 137
+source_count: 138
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 137 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
+> Wiki iniciado em 2026-04-21 | 138 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
 
 ## Tese atual
 
@@ -317,12 +317,12 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 137 |
-| Páginas de fontes | 137 |
+| Fontes ingeridas | 138 |
+| Páginas de fontes | 138 |
 | Páginas de conceitos | 21 |
-| Páginas de entidades | 170 |
+| Páginas de entidades | 171 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **331** |
+| **Total de páginas** | **333** |
 
 ---
 
@@ -540,3 +540,8 @@ Fonte: ([[faria-lima-elevator]])
 
 - [[wiki/sources/2026-11-09_harish-bhatt-7-prompts-wifi-claude]] — 7 prompts para Claude Desktop (computer use) diagnosticar Wi-Fi lento, sempre com aprovação antes de agir; reforça human-in-the-loop em [[prompt-engineering]] ([[harish-bhatt]])
 - Status: 136→137 fontes, 330→331 páginas
+
+## Adições de 2026-11-14 (2)
+
+- [[wiki/sources/2026-11-12_ariacodez-osint-scammers-satira]] — reel de retaliação contra golpistas (rastreio de IP, dispositivos expostos); fora do escopo de IA, sem endosso; lição defensiva em [[segurança-com-ia]] ([[ariacodez]])
+- Status: 137→138 fontes, 331→333 páginas

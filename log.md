@@ -523,3 +523,7 @@ Fonte: `2026-11-05_igor_henrique_DfW-8znhDvD.md`. Páginas criadas: wiki/sources
 ## [2026-11-14] ingest | Claude: 7 prompts para diagnosticar Wi-Fi lento — @Harish Bhatt | Tech and Ai
 
 Fonte: `2026-11-09_harish_bhatt_tech_and_ai_DfhVoM6ElZQ.md`. Páginas criadas: wiki/sources/2026-11-09_harish-bhatt-7-prompts-wifi-claude.md. Atualizado: entities/harish-bhatt.md (3→4), entities/claude-code.md (44→45), concepts/prompt-engineering.md (44→45), overview.md (136→137 fontes, 330→331 páginas), index.md. Nota: gancho "$100/hora" não verificado; slides 1-6 em inglês e 7-8 em português.
+
+## [2026-11-14] ingest | OSINT contra scammers (sátira) — @AriaCodez
+
+Fonte: `2026-11-12_ariacodez_Dfph2IYqGZB.md`. Páginas criadas: wiki/sources/2026-11-12_ariacodez-osint-scammers-satira.md, entities/ariacodez.md. Atualizado: concepts/segurança-com-ia.md (9→10), overview.md (137→138 fontes, 331→333 páginas), index.md. Nota editorial: conteúdo fora do escopo de IA e ilegal (acesso a câmeras alheias, derrubar rede); wiki não endossa e não registra ferramentas nem passos.

@@ -2,8 +2,8 @@
 title: "Segurança com IA"
 type: concept
 tags: [segurança, claude-code, desenvolvimento, api, backend, supabase, osint, privacidade, shadow-ai, governança, vibecoding, red-team, investigação, pegada-digital, data-brokers, gdpr, ccpa, pré-lançamento, jurídico, front-end, local-storage, cookies, cors, csp]
-source_count: 9
-last_updated: 2026-06-15
+source_count: 10
+last_updated: 2026-11-14
 ---
 
 # Segurança com IA
@@ -321,3 +321,5 @@ A Dimensão 1 ([[lucas-garcia-pit]]) e a Dimensão 7 ([[gustavo-sextaro]]) forma
 - [[2026-05-07_ai-technology-footprint-digital]] — guia de 7 passos para remover 99,8% da pegada digital: data brokers, Google, contas esquecidas, HIBP, rastreamento, posts antigos e prevenção via SimpleLogin/Brave
 - [[2026-05-24_today-in-ai-checklist-prelancamento]] — checklist jurídico-técnica pré-lançamento: GDPR/CCPA, RLS, failure-path testing, security headers, OWASP, validação server-side; 60+ MVPs de agência como fonte (@PrajwalTomar_)
 - [[2026-06-08_gustavo-sextaro-seguranca-saas-frontend]] — 5 práticas de segurança front-end: env vars sem prefixo público, LocalStorage sem tokens/PII, cookies HTTP-only + Secure, Session Storage com limpeza automática, CORS/CSP configurados
+
+> ⚠️ Nota de 2026-11-14: [[2026-11-12_ariacodez-osint-scammers-satira]] mostra retaliação ofensiva contra golpistas (rastreio de IP, acesso a dispositivos expostos). O wiki não endossa; o aproveitamento é defensivo (senhas padrão, isolar IoT, não clicar em links suspeitos).
