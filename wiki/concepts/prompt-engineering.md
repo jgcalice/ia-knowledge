@@ -2,8 +2,8 @@
 title: "Prompt Engineering"
 type: concept
 tags: [prompt-engineering, prompts, llm, claude, técnicas, plan-mode, self-checking, custom-instructions, image-generation, negative-prompt]
-source_count: 44
-last_updated: 2026-08-21
+source_count: 45
+last_updated: 2026-11-14
 ---
 
 # Prompt Engineering
@@ -418,3 +418,8 @@ Extensão do padrão "Output Constraints" aplicada ao **registro emocional**, n�
 - [[2026-05-29_prakash-kumar-founder-thinking-mode]]
 - [[2026-06-15_hollyfield-la-7-prompts-emprego]]
 - [[2026-08-21_eduardo-cavalcanti-20-codigos-secretos]]
+
+
+## Prompts com restrição de aprovação (2026-11-09)
+
+[[2026-11-09_harish-bhatt-7-prompts-wifi-claude]]: 7 prompts de diagnóstico de rede para Claude Desktop, cada um terminando com "não altere/não envie sem minha aprovação" e usando placeholders como `[X Mbps]`. Padrão human-in-the-loop para prompts agênticos.

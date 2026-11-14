@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-11-04 | Total de páginas: 328 | Fontes ingeridas: 135
+> Atualizado em: 2026-11-14 | Total de páginas: 331 | Fontes ingeridas: 137
 
 ---
 
@@ -144,6 +144,7 @@
 | [[wiki/sources/2026-09-07_skills-design-conflito-atencao]] | @Fabiano Carvalho | 2026-09-07 | Catálogo de 10 Claude Skills de design + conflito de atenção entre skills concorrentes |
 | [[wiki/sources/2026-09-11_derek-dakota-gray-gpt6-astra]] | @Derek & Dakota Gray | 2026-09-11 | ⚠️ Hype de "GPT-6 Astra" (modelo não verificável) como isca para agência de GMB — rebrand para dupla |
 | [[wiki/sources/2026-08-30_wesley-lemes-repos-github-economia]] | @Wesley Lemes / Expert em IAs | 2026-08-30 | 9 repos GitHub (1,8M+ ⭐): awesome, public-apis, scrapling, free-for-dev, ollama, langflow, awesome-mcp-servers, open-design, awesome-llm-apps — 12ª confirmação do padrão |
+| [[wiki/sources/2026-11-09_harish-bhatt-7-prompts-wifi-claude]] | @Harish Bhatt \| Tech and Ai | 2026-11-09 | 7 prompts para Claude Desktop (computer use) diagnosticar Wi-Fi lento, sempre com aprovação |
 
 ---
 
@@ -303,7 +304,7 @@
 | Página | Handle | Fontes | Foco |
 |--------|--------|--------|------|
 | [[wiki/entities/shimin-mohammadi]] | @Shimin Mohammadi | 1 | Amazon FBA com IA — 5 prompts para lançar produto físico na Amazon ($900/dia) |
-| [[wiki/entities/harish-bhatt]] | @Harish bhatt (@codingknowledge) | 3 | Repos GitHub open-source: ângulo 1 = white-label SaaS; ângulo 2 = custo zero pessoal; ângulo 3 = 11 prompts para Claude como engenheiro sênior |
+| [[wiki/entities/harish-bhatt]] | @Harish bhatt (@codingknowledge) | 4 | Repos GitHub open-source: ângulo 1 = white-label SaaS; ângulo 2 = custo zero pessoal; ângulo 3 = 11 prompts para Claude como engenheiro sênior; ângulo 4 = 7 prompts de Wi-Fi com Claude Desktop |
 | [[wiki/entities/roman-khaneichuk]] | @Roman Khaneichuk | 1 | Claude como gestor de portfólio autônomo — $50K, 30 agentes bull/bear, execução real via Autopilot |
 | [[wiki/entities/autopilot]] | @autopilot | 1 | Plataforma fintech de espelhamento de portfólio — permite replicar trades do Claude na conta da corretora do usuário |
 

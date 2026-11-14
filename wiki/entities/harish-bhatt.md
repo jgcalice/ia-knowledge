@@ -3,8 +3,8 @@ title: "Harish bhatt (@codingknowledge)"
 type: entity
 category: person
 tags: [open-source, renda-passiva, github, saas, white-label, automação, custo-zero, prompt-engineering, engenharia-de-software]
-source_count: 3
-last_updated: 2026-05-26
+source_count: 4
+last_updated: 2026-11-14
 ---
 
 # Harish bhatt (@codingknowledge)
@@ -23,6 +23,8 @@ Criador de conteúdo internacional sob o handle @codingknowledge. Publica conte�
 | [[2026-05-21_harish-bhatt-repos-ilegais]] | 2026-05-21 | 9 repos "ilegais de usar": Ollama, Whisper, Foooocus, Plausible, AppFlowy, Penpot, n8n, Cal.com, yt-dlp |
 | [[2026-05-25_harish-bhatt-11-prompts-engenharia-software]] | 2026-05-25 | 11 prompts para Claude como engenheiro sênior: audit, debug, otimização, arquitetura, 4-agent team, AI Technical Lead |
 
+| [[2026-11-09_harish-bhatt-7-prompts-wifi-claude]] | 2026-11-09 | 7 prompts para Claude Desktop diagnosticar Wi-Fi lento (computer use, sempre com aprovação) |
+
 ## Posicionamento
 
 Publica dois tipos de conteúdo sobre repos open-source com ângulos editoriais distintos:
@@ -34,3 +36,5 @@ Publica dois tipos de conteúdo sobre repos open-source com ângulos editoriais 
 A sobreposição de repos entre os dois posts (Cal.com, Plausible, AppFlowy, n8n) confirma que os projetos mais robustos do ecossistema open-source suportam múltiplos modelos de uso.
 
 **Ângulo 3 — Claude como engenheiro sênior** (post de 2026-05-25): abandona completamente o tema de repos e foca em **prompt engineering para desenvolvimento de software**. O gancho é "pare de tratar Claude como estagiário júnior confuso" — 11 prompts estruturados para convocar papéis de engenheiro sênior completos, cada um com missão explícita e lista de entregáveis. Destaque: Prompt 7 simula uma equipe de 4 engenheiros (Architect → Engineer → Reviewer → Optimizer) em um único prompt; Prompt 9 ativa o "AI Technical Lead Mode" com pensamento de 5 anos e challenge de decisões.
+
+**Ângulo 4 — Claude como técnico de rede** (post de 2026-11-09, assinando como "Tech and Ai"): 7 prompts de diagnóstico de Wi-Fi para Claude Desktop com computer use, todos com restrição de aprovação antes de agir.

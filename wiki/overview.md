@@ -2,13 +2,13 @@
 title: "Overview — IA Knowledge Base"
 type: overview
 last_updated: 2026-11-02
-source_count: 136
+source_count: 137
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 136 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
+> Wiki iniciado em 2026-04-21 | 137 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
 
 ## Tese atual
 
@@ -317,12 +317,12 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 136 |
-| Páginas de fontes | 136 |
+| Fontes ingeridas | 137 |
+| Páginas de fontes | 137 |
 | Páginas de conceitos | 21 |
 | Páginas de entidades | 170 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **330** |
+| **Total de páginas** | **331** |
 
 ---
 
@@ -533,3 +533,10 @@ Fonte: ([[faria-lima-elevator]])
 - **Carreira com horizonte de 5 anos**: [[prompt-prism]] é a primeira fonte que organiza carreira em horizonte de 5 anos com framework nominal (Odyssey Plan da Stanford d.school). Complementa Tim Ferriss/[[god-of-prompt]] (DEAL/10 anos) e Naval/[[simplifying-ai]]/[[ai-fied]] (Wealth Protocol).
 - **Plugins como remédio de comportamento default**: [[forrest-chang]] (~42k stars no GitHub) é o primeiro autor de plugin Claude Code com tração massiva documentado — corrige 3 falhas crônicas (suposições silenciosas, sobre-engenharia, regressões) que [[boris-cherny]] / CLAUDE.md tentam mitigar via prompt. Divulgado por [[max-kelley]].
 - **Padrão "dataset → Claude prioriza"** consolidado: [[google-search-console]] (SEO) + [[helium-10]] (Amazon) + [[google-maps]] ([[derek-gray]]) + balanços ([[faria-lima-elevator]]) = 4 verticais independentes onde Claude opera como **leitor de tabelas estruturadas** copiadas de ferramentas especializadas, não como gerador do zero.
+
+---
+
+## Adições de 2026-11-14
+
+- [[wiki/sources/2026-11-09_harish-bhatt-7-prompts-wifi-claude]] — 7 prompts para Claude Desktop (computer use) diagnosticar Wi-Fi lento, sempre com aprovação antes de agir; reforça human-in-the-loop em [[prompt-engineering]] ([[harish-bhatt]])
+- Status: 136→137 fontes, 330→331 páginas

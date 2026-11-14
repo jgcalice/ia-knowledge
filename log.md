@@ -519,3 +519,7 @@ Fonte: `2026-11-01_gustavo_cerqueira_aqui_desde_13_09_2026_DfM7NiaNA7P.md`. Pág
 ## [2026-11-07] ingest | Aplicativo de Academia Gratuito e com IA no GitHub — @Igor Henrique
 
 Fonte: `2026-11-05_igor_henrique_DfW-8znhDvD.md`. Páginas criadas: wiki/sources/2026-11-05_igor-henrique-app-academia-gratuito-github.md, entities/igor-henrique.md. Atualizado: concepts/bem-estar-com-ia.md (1→2), overview.md (135→136 fontes, 328→330 páginas), index.md. Nota: o post não nomeia o projeto nem traz o link; alegações (18 mil estrelas, licença comercial) não verificadas.
+
+## [2026-11-14] ingest | Claude: 7 prompts para diagnosticar Wi-Fi lento — @Harish Bhatt | Tech and Ai
+
+Fonte: `2026-11-09_harish_bhatt_tech_and_ai_DfhVoM6ElZQ.md`. Páginas criadas: wiki/sources/2026-11-09_harish-bhatt-7-prompts-wifi-claude.md. Atualizado: entities/harish-bhatt.md (3→4), entities/claude-code.md (44→45), concepts/prompt-engineering.md (44→45), overview.md (136→137 fontes, 330→331 páginas), index.md. Nota: gancho "$100/hora" não verificado; slides 1-6 em inglês e 7-8 em português.
