@@ -1,14 +1,14 @@
 ---
 title: "Overview — IA Knowledge Base"
 type: overview
-last_updated: 2026-11-02
-source_count: 140
+last_updated: 2026-11-14
+source_count: 141
 
 ---
 
 # Overview — IA Knowledge Base
 
-> Wiki iniciado em 2026-04-21 | 140 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
+> Wiki iniciado em 2026-04-21 | 141 fontes ingeridas | Domínio: IA Aplicada a Negócios, Carreira, Gestão, Produto, **Adoção Empresarial**, **Finanças**, **Bem-estar**, **SEO + Conteúdo**, **IA Local**, **Viagem**, **Segurança/Compliance**, **Imagem com IA**, **Comunicação/WhatsApp** e **Stack de Ferramentas para Vibe Coders (iOS e Web)**
 
 ## Tese atual
 
@@ -317,12 +317,12 @@ Fonte: ([[faria-lima-elevator]])
 
 | Tipo | Quantidade |
 |------|-----------|
-| Fontes ingeridas | 140 |
-| Páginas de fontes | 140 |
+| Fontes ingeridas | 141 |
+| Páginas de fontes | 141 |
 | Páginas de conceitos | 21 |
-| Páginas de entidades | 171 |
+| Páginas de entidades | 172 |
 | Páginas de síntese | 2 |
-| **Total de páginas** | **335** |
+| **Total de páginas** | **337** |
 
 ---
 
@@ -555,3 +555,5 @@ Fonte: ([[faria-lima-elevator]])
 
 - [[wiki/sources/2026-09-15_the-fox-hd-drive-cursos-gratuitos]] — ⚠️ fora do escopo IA: reel Pt 1 de "Truques Secretos" sobre repositório de cursos pagos redistribuídos; sem endosso ([[the-fox-hd]])
 - Status: 139→140 fontes, 334→335 páginas
+- [[wiki/sources/2026-11-14_antonio-louback-consulta-dados-pessoais]] — reel que promove serviço de consulta de dados de terceiros como "segurança pessoal"; fora do escopo de IA, sem endosso; lição defensiva em [[segurança-com-ia]] ([[antonio-louback]])
+- Status: 140→141 fontes, 335→337 páginas

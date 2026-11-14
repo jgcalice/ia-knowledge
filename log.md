@@ -535,3 +535,7 @@ Fonte: `2026-11-14_arshman_khalid_Dftm7llOQ7T.md`. Páginas criadas: wiki/source
 ## [2026-11-14] ingest | Recursos gratuitos de aprendizado (Truques Pt 1) — @The Fox HD
 
 Fonte: `2026-09-15_the_fox_hd_DdUuXCduRkq.md`. Páginas criadas: wiki/sources/2026-09-15_the-fox-hd-drive-cursos-gratuitos.md. Atualizado: entities/the-fox-hd.md (1→2), overview.md (139→140 fontes, 334→335 páginas), index.md. Nota editorial: fora do escopo de IA; repositório de cursos pagos provavelmente redistribuídos sem autorização; wiki não endossa e não registra termo de busca.
+
+## [2026-11-14] ingest | Segurança pessoal 2027: consulta de dados de terceiros — @Antonio Louback
+
+Fonte: `2026-11-14_antonio_louback_DfuTGLMs8JI.md`. Páginas criadas: wiki/sources/2026-11-14_antonio-louback-consulta-dados-pessoais.md, entities/antonio-louback.md. Atualizado: concepts/segurança-com-ia.md (10→11), overview.md (139→140 fontes, 334→336 páginas), index.md. Nota editorial: conteúdo fora do escopo de IA e de legalidade duvidosa (dossiê de terceiros, LGPD); wiki não registra nome do serviço nem passos; alegações (49 consultas, 250/dia) não verificadas.

@@ -1,6 +1,6 @@
 # index.md — Índice do Wiki IA Knowledge Base
 
-> Atualizado em: 2026-11-14 | Total de páginas: 335 | Fontes ingeridas: 140
+> Atualizado em: 2026-11-14 | Total de páginas: 337 | Fontes ingeridas: 141
 
 ---
 
@@ -148,6 +148,7 @@
 | [[wiki/sources/2026-11-12_ariacodez-osint-scammers-satira]] | @AriaCodez | 2026-11-12 | ⚠️ Fora do escopo IA — reel satírico de retaliação contra golpistas (rastreio de IP, dispositivos expostos); sem endosso, lição defensiva |
 | [[wiki/sources/2026-09-15_the-fox-hd-drive-cursos-gratuitos]] | @The Fox HD | 2026-09-15 | ⚠️ Fora do escopo IA — Truques Pt 1: repositório de cursos pagos redistribuídos (direitos autorais; sem endosso) |
 | [[wiki/sources/2026-11-14_arshman-khalid-wifi-claude-code]] | @Arshman Khalid | 2026-11-14 | Claude Code no Desktop diagnostica e corrige Wi-Fi lento com aprovação (23 mudanças no teste) |
+| [[wiki/sources/2026-11-14_antonio-louback-consulta-dados-pessoais]] | @Antonio Louback | 2026-11-14 | ⚠️ Fora do escopo IA — reel que promove serviço de consulta de dados de terceiros como "segurança pessoal"; sem endosso, lição defensiva |
 
 ---
 
@@ -163,7 +164,7 @@
 | [[wiki/concepts/agentes-ia]] | 31 | Arquitetura de agentes, multi-agent, delegação, AIaaS e Claude Skills; 20 agentes em paralelo + MCP como camada de conexão + Agent Browser (automação de Chrome) + pipeline multi-agente de gestão de conteúdo (Postiz) + CamoFox confirmado para extração de leads sem bloqueio + OpenWA como canal de comunicação bidirecional via WhatsApp para agentes + conflito de atenção entre skills concorrentes + integração cross-lab OpenAI/Anthropic (codex-plugin-cc) + mecânica interna do GSD + Langflow (builder visual) e awesome-mcp-servers (catálogo de MCPs) |
 | [[wiki/concepts/estratégia-de-negócios-com-ia]] | 46 | 12 confirmações do padrão repos open-source (inclui CRM/Salesforce, WhatsApp/OpenWA, voz/TTS, scraping vs. Apify e meta-listas/catálogos de descoberta) + 16 arquétipos de negócio com IA (consultoria, infoproduto, mini web app, AI agency, white-label SaaS, Amazon KDP, custo zero, AI side-hustle, Startup AI-Native YC, landing page 3D, vídeo vertical automático) + stack para criadores de conteúdo + Postiz (distribuição cross-platform) + Founder Thinking Mode + YC Request for Startups 2026 (mapa de setores: agro, saúde, defesa, espaço, hardware) + ⚠️ hype de "GPT-6 Astra" (modelo não verificável) como isca de marketing + funil de 5 ferramentas GMB Optimization Agency (GS Location Changer, Google Maps, Loom, Search Atlas, Stripe) |
 | [[wiki/concepts/aprendizado-com-ia]] | 5 | Claude como tutor + curadoria de cursos e YouTubers |
-| [[wiki/concepts/segurança-com-ia]] | 10 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital + checklist jurídico-técnica pré-lançamento (GDPR/CCPA, RLS, OWASP) + segurança front-end (env vars, LocalStorage, cookies HTTP-only, CORS/CSP) |
+| [[wiki/concepts/segurança-com-ia]] | 11 | Segurança no desenvolvimento de apps com LLMs + OSINT/privacidade + Shadow AI/governança + auditoria red team para vibecoding + remoção ativa de pegada digital + checklist jurídico-técnica pré-lançamento (GDPR/CCPA, RLS, OWASP) + segurança front-end (env vars, LocalStorage, cookies HTTP-only, CORS/CSP) |
 | [[wiki/concepts/vibecoding]] | 6 | Desenvolvimento acelerado com LLMs: produtividade vs risco de segurança; abordagens preventiva (back-end), detective, jurídico-técnica (pré-lançamento) e front-end específica; stack de ferramentas para vibe coders iOS (ShadCN, 10X, 21st Dev), web (Watermelon UI, Motion Primitives, Menace, Hyke) e stack nativo Claude Skills + MCP para sites (Figma, Playwright) |
 | [[wiki/concepts/adoção-empresarial-de-ia]] | 2 | Playbook empresarial: 11 capítulos sobre como organizações passam de piloto a ROI real + contraste com YC Playbook (greenfield vs. incumbente) |
 | [[wiki/concepts/dados-como-moat]] | 1 | Dados proprietários como vantagem competitiva durável; 47% das empresas explicitamente o citam como moat |
@@ -273,6 +274,7 @@
 | [[wiki/entities/travel-hacking-toolkit]] | Travel Hacking Toolkit | 1 | Plugin gratuito de Claude Code (40+ skills) para milhas e passagens; criador Borski |
 | [[wiki/entities/the-fox-hd]] | @The Fox HD | 2 | Criador de reels de "truques" de software/licenciamento — fora do escopo IA |
 | [[wiki/entities/ariacodez]] | @AriaCodez | 1 | Criador de reels de segurança/OSINT em tom de sátira — fora do escopo IA |
+| [[wiki/entities/antonio-louback]] | @Antonio Louback | 1 | Criador de reels de "segurança" que promovem consulta de dados de terceiros — fora do escopo IA |
 | [[wiki/entities/fabiano-carvalho]] | @Fabiano Carvalho | 1 | Curadoria crítica de Claude Skills — verificação manual de links + conflito de atenção entre skills concorrentes |
 | [[wiki/entities/wesley-lemes]] | @Wesley Lemes / Expert em IAs | 1 | Curadoria de repos GitHub open-source (economia/ferramentas) — 12ª confirmação do padrão "repos substituem SaaS" |
 

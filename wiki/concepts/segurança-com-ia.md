@@ -2,7 +2,7 @@
 title: "Segurança com IA"
 type: concept
 tags: [segurança, claude-code, desenvolvimento, api, backend, supabase, osint, privacidade, shadow-ai, governança, vibecoding, red-team, investigação, pegada-digital, data-brokers, gdpr, ccpa, pré-lançamento, jurídico, front-end, local-storage, cookies, cors, csp]
-source_count: 10
+source_count: 11
 last_updated: 2026-11-14
 ---
 
@@ -323,3 +323,5 @@ A Dimensão 1 ([[lucas-garcia-pit]]) e a Dimensão 7 ([[gustavo-sextaro]]) forma
 - [[2026-06-08_gustavo-sextaro-seguranca-saas-frontend]] — 5 práticas de segurança front-end: env vars sem prefixo público, LocalStorage sem tokens/PII, cookies HTTP-only + Secure, Session Storage com limpeza automática, CORS/CSP configurados
 
 > ⚠️ Nota de 2026-11-14: [[2026-11-12_ariacodez-osint-scammers-satira]] mostra retaliação ofensiva contra golpistas (rastreio de IP, acesso a dispositivos expostos). O wiki não endossa; o aproveitamento é defensivo (senhas padrão, isolar IoT, não clicar em links suspeitos).
+
+> ⚠️ Nota de 2026-11-14: [[2026-11-14_antonio-louback-consulta-dados-pessoais]] promove um serviço de consulta de dados de terceiros (placa, localização, histórico de compras) como "segurança pessoal". O wiki não endossa nem registra o serviço; aproveitamento defensivo: reduzir a própria exposição (Dimensão 5) e desconfiar de promessas de "consultas grátis ilimitadas".
